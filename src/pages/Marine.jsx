@@ -1,0 +1,255 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { createPageUrl } from '@/utils';
+import { motion } from 'framer-motion';
+import { Anchor, Ship, Shield, Waves, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { Button } from "@/components/ui/button";
+
+const benefits = [
+  {
+    icon: Shield,
+    title: 'Corrosion Protection',
+    description: 'Protect hull, pipes, and equipment from marine corrosion'
+  },
+  {
+    icon: Waves,
+    title: 'Scale Prevention',
+    description: 'Prevent scale buildup in cooling systems and heat exchangers'
+  },
+  {
+    icon: Ship,
+    title: 'Marine-Grade Design',
+    description: 'Built to withstand harsh maritime environments'
+  },
+  {
+    icon: Anchor,
+    title: 'Easy Installation',
+    description: 'Simple retrofit for existing vessels and new builds'
+  }
+];
+
+const applications = [
+  'Commercial Vessels',
+  'Yachts & Pleasure Craft',
+  'Fishing Boats',
+  'Offshore Platforms',
+  'Marine Cooling Systems',
+  'Ballast Water Treatment',
+  'Engine Cooling',
+  'HVAC Systems'
+];
+
+export default function Marine() {
+  return (
+    <div>
+      {/* Hero */}
+      <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=80"
+            alt="Marine"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/70" />
+        </div>
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="max-w-3xl"
+          >
+            <span className="inline-block text-indigo-400 font-semibold text-sm uppercase tracking-wider mb-4">
+              Marine Solutions
+            </span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+              Marine Water
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-200">
+                Treatment Solutions
+              </span>
+            </h1>
+            <p className="text-xl text-slate-300 mb-8">
+              Protect boats and marine equipment from scale and corrosion with our 
+              specialized marine-grade water conditioning technology.
+            </p>
+            <Link to={createPageUrl('Contact')}>
+              <Button className="bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-indigo-500/30">
+                Get a Quote
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Benefits */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-indigo-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Benefits
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Marine Benefits
+            </h2>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {benefits.map((benefit, index) => (
+              <motion.div
+                key={benefit.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="flex gap-6 p-8 rounded-2xl bg-slate-50 hover:bg-indigo-50 transition-colors"
+              >
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 flex items-center justify-center flex-shrink-0">
+                  <benefit.icon className="w-7 h-7 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">{benefit.title}</h3>
+                  <p className="text-slate-600">{benefit.description}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Applications */}
+      <section className="py-24 bg-indigo-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <span className="inline-block text-indigo-400 font-semibold text-sm uppercase tracking-wider mb-4">
+                Applications
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                Marine Applications
+              </h2>
+              <p className="text-lg text-indigo-100/80 mb-8">
+                Our HM Range is specifically designed for marine applications, 
+                built with marine-grade materials to withstand the harshest conditions.
+              </p>
+              <div className="grid sm:grid-cols-2 gap-4">
+                {applications.map((app) => (
+                  <div key={app} className="flex items-center gap-3 text-white">
+                    <CheckCircle2 className="w-5 h-5 text-indigo-400" />
+                    {app}
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <img 
+                src="https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=800&q=80"
+                alt="Marine vessel"
+                className="rounded-2xl shadow-2xl"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* HM Range */}
+      <section className="py-24 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-indigo-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              HM Range
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Heavy Marine Series
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Specialized units designed specifically for marine environments, 
+              certified for use in demanding maritime applications.
+            </p>
+          </motion.div>
+
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Features</h3>
+                <ul className="space-y-3">
+                  {[
+                    'Marine-grade stainless steel construction',
+                    'IP68 waterproof rating',
+                    'Vibration and shock resistant',
+                    'Wide operating temperature range',
+                    'Easy installation and maintenance',
+                    'Certified for marine applications'
+                  ].map((feature) => (
+                    <li key={feature} className="flex items-center gap-3 text-slate-700">
+                      <CheckCircle2 className="w-5 h-5 text-indigo-500" />
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <img 
+                  src="https://hydroflow-usa.com/wp-content/uploads/2024/10/hs40-grey-background-800x800.webp"
+                  alt="HM Range Marine Unit"
+                  className="w-full max-w-sm mx-auto"
+                />
+              </div>
+            </div>
+            <div className="mt-8 text-center">
+              <Link to={createPageUrl('Contact')}>
+                <Button className="bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white rounded-full px-8 py-6 font-semibold">
+                  Request Marine Quote
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 bg-gradient-to-r from-indigo-500 to-indigo-600">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              Ready to Protect Your Vessel?
+            </h2>
+            <p className="text-xl text-indigo-100 mb-8 max-w-2xl mx-auto">
+              Contact us for a customized marine water treatment solution.
+            </p>
+            <Link to={createPageUrl('Contact')}>
+              <Button className="bg-white text-indigo-600 hover:bg-indigo-50 rounded-full px-8 py-6 text-lg font-semibold">
+                Contact Us
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+    </div>
+  );
+}

@@ -6,6 +6,8 @@ import Contact from './pages/Contact';
 import Residential from './pages/Residential';
 import Industrial from './pages/Industrial';
 import Commercial from './pages/Commercial';
+import Agriculture from './pages/Agriculture';
+import Marine from './pages/Marine';
 import __Layout from './Layout.jsx';
 
 
@@ -18,6 +20,8 @@ export const PAGES = {
     "Residential": Residential,
     "Industrial": Industrial,
     "Commercial": Commercial,
+    "Agriculture": Agriculture,
+    "Marine": Marine,
 }
 
 export const pagesConfig = {
