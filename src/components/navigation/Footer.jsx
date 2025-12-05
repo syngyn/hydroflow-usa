@@ -101,6 +101,7 @@ export default function Footer() {
             <ul className="space-y-3">
               {[
                 { name: 'Technology', href: 'Technology' },
+                { name: 'Water Hardness Map', href: 'WaterHardnessMap' },
                 { name: 'About Us', href: 'About' },
                 { name: 'Contact', href: 'Contact' },
               ].map((item) => (

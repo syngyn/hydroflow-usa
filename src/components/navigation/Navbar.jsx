@@ -37,6 +37,7 @@ export default function Navbar() {
     },
     { name: 'Technology', href: 'Technology' },
     { name: 'Products', href: 'Products' },
+    { name: 'Water Map', href: 'WaterHardnessMap' },
     { name: 'Contact', href: 'Contact' },
   ];
 
