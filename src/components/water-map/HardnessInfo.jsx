@@ -57,8 +57,14 @@ export default function HardnessInfo({ location }) {
         <h3 className="text-xl font-semibold text-slate-600 mb-2">
           Search for Your Location
         </h3>
-        <p className="text-slate-500">
+        <p className="text-slate-500 mb-4">
           Enter your city, state, or zip code to see water hardness data and product recommendations.
+        </p>
+        <p className="text-sm text-slate-400">
+          Or browse our{' '}
+          <Link to={createPageUrl('StateWaterHardness') + '?state=california'} className="text-cyan-600 hover:underline font-medium">
+            state-by-state guides
+          </Link>
         </p>
       </div>
     );

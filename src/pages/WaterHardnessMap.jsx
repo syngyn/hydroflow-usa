@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
 import { MapPin, Info } from 'lucide-react';
 import MapInterface from '@/components/water-map/MapInterface';
@@ -137,6 +139,38 @@ export default function WaterHardnessMap() {
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3>
                 <p className="text-slate-600">{item.description}</p>
               </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* State Links Section */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">Water Hardness by State</h2>
+          <p className="text-slate-600 text-center mb-12 max-w-2xl mx-auto">
+            Click on any state to view detailed water hardness information for cities in that state
+          </p>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+            {[
+              'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 
+              'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho',
+              'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
+              'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi',
+              'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey',
+              'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma',
+              'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee',
+              'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia',
+              'Wisconsin', 'Wyoming'
+            ].map((state) => (
+              <Link
+                key={state}
+                to={createPageUrl('StateWaterHardness') + `?state=${state.toLowerCase().replace(/\s+/g, '')}`}
+                className="px-4 py-3 bg-white hover:bg-cyan-50 rounded-lg border border-slate-200 hover:border-cyan-300 text-slate-700 hover:text-cyan-600 font-medium text-sm transition-all text-center"
+              >
+                {state}
+              </Link>
             ))}
           </div>
         </div>
