@@ -10,6 +10,7 @@ import Agriculture from './pages/Agriculture';
 import Marine from './pages/Marine';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import StateWaterHardness from './pages/StateWaterHardness';
+import CaseStudies from './pages/CaseStudies';
 import __Layout from './Layout.jsx';
 
 
@@ -26,6 +27,7 @@ export const PAGES = {
     "Marine": Marine,
     "WaterHardnessMap": WaterHardnessMap,
     "StateWaterHardness": StateWaterHardness,
+    "CaseStudies": CaseStudies,
 }
 
 export const pagesConfig = {
