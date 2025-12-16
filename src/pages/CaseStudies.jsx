@@ -56,16 +56,20 @@ const caseStudies = [
   {
     category: 'industrial',
     title: 'Massive Texas Factory',
+    slug: 'massive-texas-factory',
     description: 'EcoTech Solutions installed two HydroFLOW i-Range units to help saving water in a 5.2 million square foot factory in Texas.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/massive-texas-factory-510x510.webp',
-    results: ['Water savings', 'Reduced maintenance', 'Scale prevention']
+    results: ['Water savings', 'Reduced maintenance', 'Scale prevention'],
+    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/08/HydroFLOW-Case-Study-Massive-Texas-Factory-2025-update.pdf'
   },
   {
     category: 'industrial',
     title: 'Sludge Line Struvite Treatment',
+    slug: 'sludge-line-struvite-treatment',
     description: 'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/sludge-line-i150.jpg',
-    results: ['Reduced scaling', 'Consistent flow rates', 'Lower maintenance']
+    results: ['Reduced scaling', 'Consistent flow rates', 'Lower maintenance'],
+    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
   },
   {
     category: 'industrial',
@@ -156,16 +160,20 @@ const caseStudies = [
   {
     category: 'commercial',
     title: 'Gold LEED Registered Campus',
+    slug: 'gold-leed-campus',
     description: 'The HydroFLOW product has performed superbly well in keeping our water heaters scale free.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/49841495480863-510x510.jpg',
-    results: ['Scale-free heaters', 'Full efficiency', 'LEED compliance']
+    results: ['Scale-free heaters', 'Full efficiency', 'LEED compliance'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/49731493848513.pdf'
   },
   {
     category: 'commercial',
     title: 'Bakery Steam Boilers',
+    slug: 'bakery-steam-boilers',
     description: 'HydroFLOW significantly reduced limescale and corrosion accumulation in our steam boilers.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/44051495481164-510x510.jpg',
-    results: ['Reduced scale', 'Less corrosion', 'Extended equipment life']
+    results: ['Reduced scale', 'Less corrosion', 'Extended equipment life'],
+    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/bakery-steam-boilers.pdf'
   },
   {
     category: 'commercial',
@@ -509,7 +517,8 @@ export default function CaseStudies() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: Math.min(index * 0.05, 0.5) }}
               >
-                <Card className="h-full overflow-hidden hover:shadow-xl transition-all group">
+                <Link to={study.slug ? createPageUrl('CaseStudyDetail') + '?slug=' + study.slug : '#'}>
+                  <Card className="h-full overflow-hidden hover:shadow-xl transition-all group cursor-pointer">
                   {study.image && (
                     <div className="h-48 overflow-hidden bg-slate-100">
                       <img 
@@ -556,6 +565,7 @@ export default function CaseStudies() {
                     )}
                   </div>
                 </Card>
+                </Link>
               </motion.div>
             ))}
           </div>
