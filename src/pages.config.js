@@ -12,6 +12,8 @@ import WaterHardnessMap from './pages/WaterHardnessMap';
 import StateWaterHardness from './pages/StateWaterHardness';
 import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
+import BlogList from './pages/BlogList';
+import BlogDetail from './pages/BlogDetail';
 import __Layout from './Layout.jsx';
 
 
@@ -30,6 +32,8 @@ export const PAGES = {
     "StateWaterHardness": StateWaterHardness,
     "CaseStudies": CaseStudies,
     "CaseStudyDetail": CaseStudyDetail,
+    "BlogList": BlogList,
+    "BlogDetail": BlogDetail,
 }
 
 export const pagesConfig = {
