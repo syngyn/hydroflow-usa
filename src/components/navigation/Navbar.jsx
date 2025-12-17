@@ -49,15 +49,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to={createPageUrl('Home')} className="flex items-center space-x-2">
-            <div className="relative">
-              <div className={`text-2xl font-light tracking-tight ${isScrolled ? 'text-slate-800' : 'text-white'}`}>
-                Hydro<span className="font-bold text-cyan-500">FLOW</span>
-              </div>
-              <div className={`text-[10px] tracking-[0.3em] uppercase ${isScrolled ? 'text-slate-500' : 'text-white/80'}`}>
-                U.S.A.
-              </div>
-            </div>
+          <Link to={createPageUrl('Home')} className="flex items-center">
+            <img 
+              src="https://hydroflow-usa.com/wp-content/uploads/2025/12/logotrasparnet.png" 
+              alt="HydroFLOW USA" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
