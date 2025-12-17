@@ -159,7 +159,7 @@ export default function Industrial() {
             >
               <div className="bg-gradient-to-br from-cyan-500/20 to-cyan-600/20 rounded-3xl p-8">
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2024/10/hs40-grey-background-800x800.webp"
+                  src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
                   alt="Industrial HydroFLOW Unit"
                   className="w-full max-w-md mx-auto"
                 />
