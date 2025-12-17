@@ -76,7 +76,7 @@ const products = [
     priceText: 'Contact for Quote',
     rating: 4.9,
     reviews: 28,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/hs40-grey-background-800x800.webp',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png',
     features: [
       'Manufacturing facilities',
       'Large commercial buildings',
