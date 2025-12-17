@@ -82,6 +82,27 @@ export default function Industrial() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="aspect-video rounded-2xl overflow-hidden shadow-2xl"
+          >
+            <iframe 
+              src="https://player.vimeo.com/video/706623726?badge=0&autoplay=0&muted=0"
+              className="w-full h-full"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              title="HydroFLOW Industrial Video"
+            />
+          </motion.div>
+        </div>
+      </section>
+
       {/* Benefits */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
