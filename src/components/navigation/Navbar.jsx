@@ -37,6 +37,16 @@ export default function Navbar() {
     },
     { name: 'Technology', href: 'Technology' },
     { name: 'Products', href: 'Products' },
+    { 
+      name: 'Blog', 
+      dropdown: [
+        { name: 'Residential Blog', href: 'BlogList?category=residential' },
+        { name: 'Commercial Blog', href: 'BlogList?category=commercial' },
+        { name: 'Industrial Blog', href: 'BlogList?category=industrial' },
+        { name: 'Agriculture Blog', href: 'BlogList?category=agriculture' },
+        { name: 'Marine Blog', href: 'BlogList?category=marine' },
+      ]
+    },
     { name: 'Case Studies', href: 'CaseStudies' },
     { name: 'Water Map', href: 'WaterHardnessMap' },
     { name: 'Contact', href: 'Contact' },
