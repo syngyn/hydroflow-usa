@@ -113,9 +113,9 @@ export default function ProductsShowcase() {
 
                 {/* Product Info */}
                 <div className="text-center mb-6">
-                  <h3 className="text-2xl font-bold text-slate-900 mb-1">{product.name}</h3>
-                  <p className="text-cyan-600 font-medium text-sm mb-2">{product.tagline}</p>
-                  <p className="text-slate-500 text-sm">{product.coverage}</p>
+                 <h3 className={`text-2xl font-bold mb-1 ${product.popular ? 'text-white' : 'text-slate-900'}`}>{product.name}</h3>
+                 <p className={`font-medium text-sm mb-2 ${product.popular ? 'text-cyan-100' : 'text-cyan-600'}`}>{product.tagline}</p>
+                 <p className={`text-sm ${product.popular ? 'text-white/80' : 'text-slate-500'}`}>{product.coverage}</p>
                 </div>
 
                 {/* Features */}
