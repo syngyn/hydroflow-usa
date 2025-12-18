@@ -102,11 +102,11 @@ export default function MarketSectors() {
                       <h3 className={`font-bold text-white mb-2 ${index === 0 ? 'text-3xl' : 'text-xl'}`}>
                         {sector.name}
                       </h3>
-                      <p className={`text-white/80 ${index === 0 ? 'text-lg' : 'text-sm'}`}>
+                      <p className={`text-white/90 ${index === 0 ? 'text-lg' : 'text-sm'}`}>
                         {sector.description}
                       </p>
                     </div>
-                    <div className="flex items-center gap-2 text-white font-medium opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all">
+                    <div className="flex items-center gap-2 text-white font-medium transform group-hover:gap-3 transition-all">
                       Learn More
                       <ArrowRight className="w-4 h-4" />
                     </div>
