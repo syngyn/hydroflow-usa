@@ -37,7 +37,7 @@ const products = [
     price: 495,
     rating: 4.46,
     reviews: 72,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/pearl-plus-grey-background-799x800.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png',
     features: [
       'Standard sized homes',
       'Homes up to 3,000 sq ft',
