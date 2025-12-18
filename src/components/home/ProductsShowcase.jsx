@@ -81,7 +81,7 @@ export default function ProductsShowcase() {
             >
               {product.popular && (
                 <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10">
-                  <Badge className="bg-white text-cyan-600 hover:bg-white px-4 py-1 font-semibold">
+                  <Badge className="bg-white/20 backdrop-blur-sm text-white hover:bg-white/30 px-4 py-1 font-semibold border border-white/30">
                     MOST POPULAR
                   </Badge>
                 </div>
