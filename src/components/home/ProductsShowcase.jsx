@@ -138,7 +138,7 @@ export default function ProductsShowcase() {
                 <Link to={createPageUrl('Products')}>
                   <Button className={`w-full rounded-full py-6 font-semibold transition-all ${
                     product.popular 
-                      ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white shadow-lg shadow-cyan-500/25' 
+                      ? 'bg-white hover:bg-white/90 text-cyan-600 shadow-lg' 
                       : 'bg-slate-900 hover:bg-slate-800 text-white'
                   }`}>
                     Select {product.name}
