@@ -114,7 +114,7 @@ export default function Navbar() {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
             <a href="tel:1-888-559-4340" className={`flex items-center gap-2 text-sm font-medium ${
-              isScrolled ? 'text-slate-600' : 'text-white/90'
+              isScrolled ? 'text-slate-600' : 'text-slate-600'
             }`}>
               <Phone className="w-4 h-4" />
               1-888-559-4340
