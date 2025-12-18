@@ -130,8 +130,8 @@ export default function ProductsShowcase() {
 
                 {/* Price */}
                 <div className="text-center mb-6">
-                  <span className="text-slate-400 line-through text-lg">${product.originalPrice}</span>
-                  <span className="text-3xl font-bold text-slate-900 ml-3">${product.price}</span>
+                  <span className={`line-through text-lg ${product.popular ? 'text-white/60' : 'text-slate-400'}`}>${product.originalPrice}</span>
+                  <span className={`text-3xl font-bold ml-3 ${product.popular ? 'text-white' : 'text-slate-900'}`}>${product.price}</span>
                 </div>
 
                 {/* CTA */}
