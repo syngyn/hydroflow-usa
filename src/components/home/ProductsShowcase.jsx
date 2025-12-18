@@ -81,13 +81,13 @@ export default function ProductsShowcase() {
             >
               {product.popular && (
                 <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10">
-                  <Badge className="bg-white/20 backdrop-blur-sm text-white hover:bg-white/30 px-4 py-1 font-semibold border border-white/30">
+                  <Badge className="bg-white text-cyan-600 hover:bg-white px-4 py-1 font-semibold">
                     MOST POPULAR
                   </Badge>
                 </div>
               )}
               
-              <div className={`h-full rounded-3xl p-8 ${product.popular ? 'bg-gradient-to-b from-cyan-500 to-cyan-600' : 'bg-white'}`}>
+              <div className={`h-full bg-white rounded-3xl p-8 ${product.popular ? '' : ''}`}>
                 {/* Product Image */}
                 <div className="relative h-48 flex items-center justify-center mb-6 mt-4">
                   <div className="absolute inset-0 bg-gradient-to-b from-slate-50 to-transparent rounded-2xl" />
@@ -113,16 +113,16 @@ export default function ProductsShowcase() {
 
                 {/* Product Info */}
                 <div className="text-center mb-6">
-                 <h3 className={`text-2xl font-bold mb-1 ${product.popular ? 'text-white' : 'text-slate-900'}`}>{product.name}</h3>
-                 <p className={`font-medium text-sm mb-2 ${product.popular ? 'text-cyan-100' : 'text-cyan-600'}`}>{product.tagline}</p>
-                 <p className={`text-sm ${product.popular ? 'text-white/80' : 'text-slate-500'}`}>{product.coverage}</p>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-1">{product.name}</h3>
+                  <p className="text-cyan-600 font-medium text-sm mb-2">{product.tagline}</p>
+                  <p className="text-slate-500 text-sm">{product.coverage}</p>
                 </div>
 
                 {/* Features */}
                 <div className="space-y-2 mb-6">
                   {product.features.map((feature) => (
-                    <div key={feature} className={`flex items-center gap-2 text-sm ${product.popular ? 'text-white' : 'text-slate-600'}`}>
-                      <Check className={`w-4 h-4 ${product.popular ? 'text-white' : 'text-cyan-500'}`} />
+                    <div key={feature} className="flex items-center gap-2 text-sm text-slate-600">
+                      <Check className="w-4 h-4 text-cyan-500" />
                       {feature}
                     </div>
                   ))}
@@ -130,15 +130,15 @@ export default function ProductsShowcase() {
 
                 {/* Price */}
                 <div className="text-center mb-6">
-                  <span className={`line-through text-lg ${product.popular ? 'text-white/60' : 'text-slate-400'}`}>${product.originalPrice}</span>
-                  <span className={`text-3xl font-bold ml-3 ${product.popular ? 'text-white' : 'text-slate-900'}`}>${product.price}</span>
+                  <span className="text-slate-400 line-through text-lg">${product.originalPrice}</span>
+                  <span className="text-3xl font-bold text-slate-900 ml-3">${product.price}</span>
                 </div>
 
                 {/* CTA */}
                 <Link to={createPageUrl('Products')}>
                   <Button className={`w-full rounded-full py-6 font-semibold transition-all ${
                     product.popular 
-                      ? 'bg-white hover:bg-white/90 text-cyan-600 shadow-lg' 
+                      ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white shadow-lg shadow-cyan-500/25' 
                       : 'bg-slate-900 hover:bg-slate-800 text-white'
                   }`}>
                     Select {product.name}
