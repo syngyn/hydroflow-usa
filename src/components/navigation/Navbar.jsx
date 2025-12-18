@@ -102,7 +102,7 @@ export default function Navbar() {
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                     isScrolled 
                       ? 'text-slate-700 hover:text-cyan-600 hover:bg-cyan-50' 
-                      : 'text-white/90 hover:text-white hover:bg-white/10'
+                      : 'text-slate-700 hover:text-cyan-600 hover:bg-white/50'
                   }`}
                 >
                   {link.name}
