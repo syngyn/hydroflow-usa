@@ -121,8 +121,8 @@ export default function ProductsShowcase() {
                 {/* Features */}
                 <div className="space-y-2 mb-6">
                   {product.features.map((feature) => (
-                    <div key={feature} className="flex items-center gap-2 text-sm text-slate-600">
-                      <Check className="w-4 h-4 text-cyan-500" />
+                    <div key={feature} className={`flex items-center gap-2 text-sm ${product.popular ? 'text-white' : 'text-slate-600'}`}>
+                      <Check className={`w-4 h-4 ${product.popular ? 'text-white' : 'text-cyan-500'}`} />
                       {feature}
                     </div>
                   ))}
