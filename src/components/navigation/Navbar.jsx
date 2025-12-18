@@ -63,7 +63,7 @@ export default function Navbar() {
             <img 
               src="https://hydroflow-usa.com/wp-content/uploads/2025/12/logotrasparnet.png" 
               alt="HydroFLOW USA" 
-              className={`h-12 w-auto transition-all ${!isScrolled ? 'drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]' : ''}`}
+              className="h-12 w-auto"
             />
           </Link>
 
