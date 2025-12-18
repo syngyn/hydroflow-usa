@@ -87,7 +87,7 @@ export default function ProductsShowcase() {
                 </div>
               )}
               
-              <div className={`h-full bg-white rounded-3xl p-8 ${product.popular ? '' : ''}`}>
+              <div className={`h-full rounded-3xl p-8 ${product.popular ? 'bg-gradient-to-b from-cyan-500 to-cyan-600' : 'bg-white'}`}>
                 {/* Product Image */}
                 <div className="relative h-48 flex items-center justify-center mb-6 mt-4">
                   <div className="absolute inset-0 bg-gradient-to-b from-slate-50 to-transparent rounded-2xl" />
