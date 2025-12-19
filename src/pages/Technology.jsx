@@ -139,7 +139,7 @@ export default function Technology() {
                           viewBox="0 0 400 200" 
                           fill="none" 
                           xmlns="http://www.w3.org/2000/svg"
-                          className="w-16 h-16"
+                          className="w-28 h-28"
                         >
                           <defs>
                             <linearGradient id="signalGradientTech" x1="0%" y1="0%" x2="100%" y2="0%">
