@@ -4,10 +4,11 @@ import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
 import { Waves, Shield, Droplets, ArrowRight } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import SignalIcon from '@/components/SignalIcon';
 
 const techFeatures = [
   {
-    icon: Waves,
+    icon: SignalIcon,
     title: 'Signal Induction',
     description: 'Induces a harmless 150kHz signal throughout your entire plumbing system'
   },
@@ -66,15 +67,7 @@ export default function TechnologySection() {
                   className="flex gap-4"
                 >
                   <div className="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center flex-shrink-0">
-                    {index === 0 ? (
-                      <img 
-                        src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/503ecf4b2_signal.png"
-                        alt="Signal"
-                        className="w-8 h-8 object-contain"
-                      />
-                    ) : (
-                      <feature.icon className="w-6 h-6 text-cyan-400" />
-                    )}
+                    <feature.icon className="w-6 h-6 text-cyan-400" />
                   </div>
                   <div>
                     <h3 className="text-white font-semibold mb-1">{feature.title}</h3>
