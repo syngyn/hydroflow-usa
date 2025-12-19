@@ -488,6 +488,482 @@ const stateData = {
       { name: 'Wenatchee', ppm: 147, level: 'Hard' },
       { name: 'Redmond', ppm: 18, level: 'Soft' },
     ]
+  },
+  nevada: {
+    name: 'Nevada',
+    code: 'NV',
+    avgPPM: 285,
+    level: 'very hard',
+    description: 'Nevada has very hard water with an average hardness of 285 PPM, particularly in Las Vegas and surrounding areas.',
+    cities: [
+      { name: 'Las Vegas', ppm: 278, level: 'Very Hard' },
+      { name: 'Henderson', ppm: 285, level: 'Very Hard' },
+      { name: 'Reno', ppm: 65, level: 'Moderate' },
+      { name: 'North Las Vegas', ppm: 283, level: 'Very Hard' },
+      { name: 'Sparks', ppm: 62, level: 'Moderate' },
+      { name: 'Carson City', ppm: 180, level: 'Hard' },
+    ]
+  },
+  oregon: {
+    name: 'Oregon',
+    code: 'OR',
+    avgPPM: 55,
+    level: 'soft',
+    description: 'Oregon has relatively soft water with an average hardness of 55 PPM, particularly in Portland and the western region.',
+    cities: [
+      { name: 'Portland', ppm: 33, level: 'Soft' },
+      { name: 'Eugene', ppm: 48, level: 'Soft' },
+      { name: 'Salem', ppm: 62, level: 'Moderate' },
+      { name: 'Bend', ppm: 44, level: 'Soft' },
+      { name: 'Medford', ppm: 95, level: 'Moderate' },
+      { name: 'Corvallis', ppm: 53, level: 'Soft' },
+    ]
+  },
+  colorado: {
+    name: 'Colorado',
+    code: 'CO',
+    avgPPM: 165,
+    level: 'hard',
+    description: 'Colorado has hard water with an average hardness of 165 PPM throughout most of the state.',
+    cities: [
+      { name: 'Denver', ppm: 145, level: 'Hard' },
+      { name: 'Colorado Springs', ppm: 218, level: 'Very Hard' },
+      { name: 'Aurora', ppm: 148, level: 'Hard' },
+      { name: 'Fort Collins', ppm: 182, level: 'Hard' },
+      { name: 'Boulder', ppm: 175, level: 'Hard' },
+      { name: 'Pueblo', ppm: 210, level: 'Hard' },
+    ]
+  },
+  wisconsin: {
+    name: 'Wisconsin',
+    code: 'WI',
+    avgPPM: 150,
+    level: 'hard',
+    description: 'Wisconsin has hard water with an average hardness of 150 PPM across the state.',
+    cities: [
+      { name: 'Milwaukee', ppm: 125, level: 'Hard' },
+      { name: 'Madison', ppm: 145, level: 'Hard' },
+      { name: 'Green Bay', ppm: 198, level: 'Hard' },
+      { name: 'Kenosha', ppm: 135, level: 'Hard' },
+      { name: 'Racine', ppm: 142, level: 'Hard' },
+      { name: 'Appleton', ppm: 168, level: 'Hard' },
+    ]
+  },
+  tennessee: {
+    name: 'Tennessee',
+    code: 'TN',
+    avgPPM: 80,
+    level: 'moderate',
+    description: 'Tennessee has moderately hard water with an average hardness of 80 PPM.',
+    cities: [
+      { name: 'Nashville', ppm: 92, level: 'Moderate' },
+      { name: 'Memphis', ppm: 65, level: 'Moderate' },
+      { name: 'Knoxville', ppm: 75, level: 'Moderate' },
+      { name: 'Chattanooga', ppm: 88, level: 'Moderate' },
+      { name: 'Clarksville', ppm: 95, level: 'Moderate' },
+    ]
+  },
+  missouri: {
+    name: 'Missouri',
+    code: 'MO',
+    avgPPM: 220,
+    level: 'very hard',
+    description: 'Missouri has very hard water with an average hardness of 220 PPM.',
+    cities: [
+      { name: 'Kansas City', ppm: 215, level: 'Very Hard' },
+      { name: 'St. Louis', ppm: 240, level: 'Very Hard' },
+      { name: 'Springfield', ppm: 195, level: 'Hard' },
+      { name: 'Columbia', ppm: 205, level: 'Hard' },
+      { name: 'Independence', ppm: 218, level: 'Very Hard' },
+    ]
+  },
+  maryland: {
+    name: 'Maryland',
+    code: 'MD',
+    avgPPM: 110,
+    level: 'moderate to hard',
+    description: 'Maryland has moderate to hard water with an average hardness of 110 PPM.',
+    cities: [
+      { name: 'Baltimore', ppm: 105, level: 'Moderate' },
+      { name: 'Annapolis', ppm: 118, level: 'Moderate' },
+      { name: 'Frederick', ppm: 135, level: 'Hard' },
+      { name: 'Rockville', ppm: 98, level: 'Moderate' },
+      { name: 'Columbia', ppm: 112, level: 'Moderate' },
+    ]
+  },
+  minnesota: {
+    name: 'Minnesota',
+    code: 'MN',
+    avgPPM: 190,
+    level: 'hard',
+    description: 'Minnesota has hard water with an average hardness of 190 PPM.',
+    cities: [
+      { name: 'Minneapolis', ppm: 180, level: 'Hard' },
+      { name: 'St. Paul', ppm: 185, level: 'Hard' },
+      { name: 'Rochester', ppm: 205, level: 'Hard' },
+      { name: 'Duluth', ppm: 75, level: 'Moderate' },
+      { name: 'Bloomington', ppm: 188, level: 'Hard' },
+    ]
+  },
+  louisiana: {
+    name: 'Louisiana',
+    code: 'LA',
+    avgPPM: 65,
+    level: 'moderate',
+    description: 'Louisiana has moderately hard water with an average hardness of 65 PPM.',
+    cities: [
+      { name: 'New Orleans', ppm: 48, level: 'Soft' },
+      { name: 'Baton Rouge', ppm: 72, level: 'Moderate' },
+      { name: 'Shreveport', ppm: 85, level: 'Moderate' },
+      { name: 'Lafayette', ppm: 68, level: 'Moderate' },
+    ]
+  },
+  alabama: {
+    name: 'Alabama',
+    code: 'AL',
+    avgPPM: 75,
+    level: 'moderate',
+    description: 'Alabama has moderately hard water with an average hardness of 75 PPM.',
+    cities: [
+      { name: 'Birmingham', ppm: 82, level: 'Moderate' },
+      { name: 'Montgomery', ppm: 68, level: 'Moderate' },
+      { name: 'Mobile', ppm: 72, level: 'Moderate' },
+      { name: 'Huntsville', ppm: 88, level: 'Moderate' },
+    ]
+  },
+  kentucky: {
+    name: 'Kentucky',
+    code: 'KY',
+    avgPPM: 180,
+    level: 'hard',
+    description: 'Kentucky has hard water with an average hardness of 180 PPM.',
+    cities: [
+      { name: 'Louisville', ppm: 175, level: 'Hard' },
+      { name: 'Lexington', ppm: 198, level: 'Hard' },
+      { name: 'Bowling Green', ppm: 165, level: 'Hard' },
+      { name: 'Owensboro', ppm: 185, level: 'Hard' },
+    ]
+  },
+  southcarolina: {
+    name: 'South Carolina',
+    code: 'SC',
+    avgPPM: 52,
+    level: 'soft',
+    description: 'South Carolina has soft water with an average hardness of 52 PPM.',
+    cities: [
+      { name: 'Charleston', ppm: 48, level: 'Soft' },
+      { name: 'Columbia', ppm: 55, level: 'Soft' },
+      { name: 'Greenville', ppm: 58, level: 'Soft' },
+      { name: 'Myrtle Beach', ppm: 45, level: 'Soft' },
+    ]
+  },
+  oklahoma: {
+    name: 'Oklahoma',
+    code: 'OK',
+    avgPPM: 215,
+    level: 'very hard',
+    description: 'Oklahoma has very hard water with an average hardness of 215 PPM.',
+    cities: [
+      { name: 'Oklahoma City', ppm: 225, level: 'Very Hard' },
+      { name: 'Tulsa', ppm: 198, level: 'Hard' },
+      { name: 'Norman', ppm: 235, level: 'Very Hard' },
+      { name: 'Broken Arrow', ppm: 205, level: 'Hard' },
+    ]
+  },
+  connecticut: {
+    name: 'Connecticut',
+    code: 'CT',
+    avgPPM: 95,
+    level: 'moderate',
+    description: 'Connecticut has moderately hard water with an average hardness of 95 PPM.',
+    cities: [
+      { name: 'Hartford', ppm: 102, level: 'Moderate' },
+      { name: 'New Haven', ppm: 88, level: 'Moderate' },
+      { name: 'Stamford', ppm: 95, level: 'Moderate' },
+      { name: 'Bridgeport', ppm: 92, level: 'Moderate' },
+    ]
+  },
+  virginia: {
+    name: 'Virginia',
+    code: 'VA',
+    avgPPM: 78,
+    level: 'moderate',
+    description: 'Virginia has moderately hard water with an average hardness of 78 PPM.',
+    cities: [
+      { name: 'Virginia Beach', ppm: 68, level: 'Moderate' },
+      { name: 'Norfolk', ppm: 72, level: 'Moderate' },
+      { name: 'Richmond', ppm: 85, level: 'Moderate' },
+      { name: 'Arlington', ppm: 82, level: 'Moderate' },
+    ]
+  },
+  newjersey: {
+    name: 'New Jersey',
+    code: 'NJ',
+    avgPPM: 105,
+    level: 'moderate',
+    description: 'New Jersey has moderately hard water with an average hardness of 105 PPM.',
+    cities: [
+      { name: 'Newark', ppm: 112, level: 'Moderate' },
+      { name: 'Jersey City', ppm: 98, level: 'Moderate' },
+      { name: 'Paterson', ppm: 108, level: 'Moderate' },
+      { name: 'Elizabeth', ppm: 102, level: 'Moderate' },
+    ]
+  },
+  massachusetts: {
+    name: 'Massachusetts',
+    code: 'MA',
+    avgPPM: 58,
+    level: 'soft',
+    description: 'Massachusetts has soft water with an average hardness of 58 PPM.',
+    cities: [
+      { name: 'Boston', ppm: 52, level: 'Soft' },
+      { name: 'Worcester', ppm: 65, level: 'Moderate' },
+      { name: 'Springfield', ppm: 62, level: 'Moderate' },
+      { name: 'Cambridge', ppm: 54, level: 'Soft' },
+    ]
+  },
+  alaska: {
+    name: 'Alaska',
+    code: 'AK',
+    avgPPM: 35,
+    level: 'soft',
+    description: 'Alaska has very soft water with an average hardness of 35 PPM.',
+    cities: [
+      { name: 'Anchorage', ppm: 32, level: 'Soft' },
+      { name: 'Juneau', ppm: 38, level: 'Soft' },
+      { name: 'Fairbanks', ppm: 42, level: 'Soft' },
+    ]
+  },
+  arkansas: {
+    name: 'Arkansas',
+    code: 'AR',
+    avgPPM: 145,
+    level: 'hard',
+    description: 'Arkansas has hard water with an average hardness of 145 PPM.',
+    cities: [
+      { name: 'Little Rock', ppm: 138, level: 'Hard' },
+      { name: 'Fort Smith', ppm: 152, level: 'Hard' },
+      { name: 'Fayetteville', ppm: 148, level: 'Hard' },
+    ]
+  },
+  delaware: {
+    name: 'Delaware',
+    code: 'DE',
+    avgPPM: 88,
+    level: 'moderate',
+    description: 'Delaware has moderately hard water with an average hardness of 88 PPM.',
+    cities: [
+      { name: 'Wilmington', ppm: 92, level: 'Moderate' },
+      { name: 'Dover', ppm: 85, level: 'Moderate' },
+      { name: 'Newark', ppm: 88, level: 'Moderate' },
+    ]
+  },
+  hawaii: {
+    name: 'Hawaii',
+    code: 'HI',
+    avgPPM: 48,
+    level: 'soft',
+    description: 'Hawaii has soft water with an average hardness of 48 PPM.',
+    cities: [
+      { name: 'Honolulu', ppm: 45, level: 'Soft' },
+      { name: 'Hilo', ppm: 52, level: 'Soft' },
+      { name: 'Kailua', ppm: 48, level: 'Soft' },
+    ]
+  },
+  idaho: {
+    name: 'Idaho',
+    code: 'ID',
+    avgPPM: 165,
+    level: 'hard',
+    description: 'Idaho has hard water with an average hardness of 165 PPM.',
+    cities: [
+      { name: 'Boise', ppm: 158, level: 'Hard' },
+      { name: 'Meridian', ppm: 162, level: 'Hard' },
+      { name: 'Nampa', ppm: 175, level: 'Hard' },
+      { name: 'Idaho Falls', ppm: 168, level: 'Hard' },
+    ]
+  },
+  iowa: {
+    name: 'Iowa',
+    code: 'IA',
+    avgPPM: 225,
+    level: 'very hard',
+    description: 'Iowa has very hard water with an average hardness of 225 PPM.',
+    cities: [
+      { name: 'Des Moines', ppm: 218, level: 'Very Hard' },
+      { name: 'Cedar Rapids', ppm: 235, level: 'Very Hard' },
+      { name: 'Davenport', ppm: 228, level: 'Very Hard' },
+      { name: 'Sioux City', ppm: 245, level: 'Very Hard' },
+    ]
+  },
+  kansas: {
+    name: 'Kansas',
+    code: 'KS',
+    avgPPM: 235,
+    level: 'very hard',
+    description: 'Kansas has very hard water with an average hardness of 235 PPM.',
+    cities: [
+      { name: 'Wichita', ppm: 228, level: 'Very Hard' },
+      { name: 'Overland Park', ppm: 245, level: 'Very Hard' },
+      { name: 'Kansas City', ppm: 238, level: 'Very Hard' },
+      { name: 'Topeka', ppm: 232, level: 'Very Hard' },
+    ]
+  },
+  maine: {
+    name: 'Maine',
+    code: 'ME',
+    avgPPM: 42,
+    level: 'soft',
+    description: 'Maine has soft water with an average hardness of 42 PPM.',
+    cities: [
+      { name: 'Portland', ppm: 38, level: 'Soft' },
+      { name: 'Lewiston', ppm: 45, level: 'Soft' },
+      { name: 'Bangor', ppm: 42, level: 'Soft' },
+    ]
+  },
+  mississippi: {
+    name: 'Mississippi',
+    code: 'MS',
+    avgPPM: 68,
+    level: 'moderate',
+    description: 'Mississippi has moderately hard water with an average hardness of 68 PPM.',
+    cities: [
+      { name: 'Jackson', ppm: 72, level: 'Moderate' },
+      { name: 'Gulfport', ppm: 62, level: 'Moderate' },
+      { name: 'Southaven', ppm: 68, level: 'Moderate' },
+    ]
+  },
+  montana: {
+    name: 'Montana',
+    code: 'MT',
+    avgPPM: 155,
+    level: 'hard',
+    description: 'Montana has hard water with an average hardness of 155 PPM.',
+    cities: [
+      { name: 'Billings', ppm: 162, level: 'Hard' },
+      { name: 'Missoula', ppm: 145, level: 'Hard' },
+      { name: 'Great Falls', ppm: 158, level: 'Hard' },
+    ]
+  },
+  nebraska: {
+    name: 'Nebraska',
+    code: 'NE',
+    avgPPM: 245,
+    level: 'very hard',
+    description: 'Nebraska has very hard water with an average hardness of 245 PPM.',
+    cities: [
+      { name: 'Omaha', ppm: 238, level: 'Very Hard' },
+      { name: 'Lincoln', ppm: 252, level: 'Very Hard' },
+      { name: 'Bellevue', ppm: 242, level: 'Very Hard' },
+    ]
+  },
+  newhampshire: {
+    name: 'New Hampshire',
+    code: 'NH',
+    avgPPM: 48,
+    level: 'soft',
+    description: 'New Hampshire has soft water with an average hardness of 48 PPM.',
+    cities: [
+      { name: 'Manchester', ppm: 52, level: 'Soft' },
+      { name: 'Nashua', ppm: 45, level: 'Soft' },
+      { name: 'Concord', ppm: 48, level: 'Soft' },
+    ]
+  },
+  newmexico: {
+    name: 'New Mexico',
+    code: 'NM',
+    avgPPM: 255,
+    level: 'very hard',
+    description: 'New Mexico has very hard water with an average hardness of 255 PPM.',
+    cities: [
+      { name: 'Albuquerque', ppm: 248, level: 'Very Hard' },
+      { name: 'Las Cruces', ppm: 265, level: 'Very Hard' },
+      { name: 'Santa Fe', ppm: 252, level: 'Very Hard' },
+    ]
+  },
+  northdakota: {
+    name: 'North Dakota',
+    code: 'ND',
+    avgPPM: 285,
+    level: 'very hard',
+    description: 'North Dakota has very hard water with an average hardness of 285 PPM.',
+    cities: [
+      { name: 'Fargo', ppm: 278, level: 'Very Hard' },
+      { name: 'Bismarck', ppm: 295, level: 'Very Hard' },
+      { name: 'Grand Forks', ppm: 282, level: 'Very Hard' },
+    ]
+  },
+  rhodeisland: {
+    name: 'Rhode Island',
+    code: 'RI',
+    avgPPM: 52,
+    level: 'soft',
+    description: 'Rhode Island has soft water with an average hardness of 52 PPM.',
+    cities: [
+      { name: 'Providence', ppm: 55, level: 'Soft' },
+      { name: 'Warwick', ppm: 48, level: 'Soft' },
+      { name: 'Cranston', ppm: 52, level: 'Soft' },
+    ]
+  },
+  southdakota: {
+    name: 'South Dakota',
+    code: 'SD',
+    avgPPM: 265,
+    level: 'very hard',
+    description: 'South Dakota has very hard water with an average hardness of 265 PPM.',
+    cities: [
+      { name: 'Sioux Falls', ppm: 258, level: 'Very Hard' },
+      { name: 'Rapid City', ppm: 275, level: 'Very Hard' },
+      { name: 'Aberdeen', ppm: 262, level: 'Very Hard' },
+    ]
+  },
+  utah: {
+    name: 'Utah',
+    code: 'UT',
+    avgPPM: 295,
+    level: 'very hard',
+    description: 'Utah has very hard water with an average hardness of 295 PPM.',
+    cities: [
+      { name: 'Salt Lake City', ppm: 285, level: 'Very Hard' },
+      { name: 'Provo', ppm: 308, level: 'Very Hard' },
+      { name: 'West Valley City', ppm: 292, level: 'Very Hard' },
+    ]
+  },
+  vermont: {
+    name: 'Vermont',
+    code: 'VT',
+    avgPPM: 38,
+    level: 'soft',
+    description: 'Vermont has soft water with an average hardness of 38 PPM.',
+    cities: [
+      { name: 'Burlington', ppm: 35, level: 'Soft' },
+      { name: 'Essex', ppm: 42, level: 'Soft' },
+      { name: 'South Burlington', ppm: 38, level: 'Soft' },
+    ]
+  },
+  westvirginia: {
+    name: 'West Virginia',
+    code: 'WV',
+    avgPPM: 125,
+    level: 'hard',
+    description: 'West Virginia has hard water with an average hardness of 125 PPM.',
+    cities: [
+      { name: 'Charleston', ppm: 132, level: 'Hard' },
+      { name: 'Huntington', ppm: 118, level: 'Moderate' },
+      { name: 'Morgantown', ppm: 125, level: 'Hard' },
+    ]
+  },
+  wyoming: {
+    name: 'Wyoming',
+    code: 'WY',
+    avgPPM: 225,
+    level: 'very hard',
+    description: 'Wyoming has very hard water with an average hardness of 225 PPM.',
+    cities: [
+      { name: 'Cheyenne', ppm: 218, level: 'Very Hard' },
+      { name: 'Casper', ppm: 235, level: 'Very Hard' },
+      { name: 'Laramie', ppm: 228, level: 'Very Hard' },
+    ]
   }
 };
 
