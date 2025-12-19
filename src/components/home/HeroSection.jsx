@@ -59,7 +59,7 @@ export default function HeroSection() {
                 </Button>
               </Link>
               <Link to={createPageUrl('Industrial')}>
-                <Button variant="outline" className="border-2 border-white/30 text-white hover:bg-white/10 rounded-full px-8 py-6 text-lg font-semibold backdrop-blur-sm">
+                <Button variant="outline" className="border-2 border-white/50 text-white bg-white/10 hover:bg-white/20 rounded-full px-8 py-6 text-lg font-semibold backdrop-blur-sm">
                   Industrial Solutions
                 </Button>
               </Link>
