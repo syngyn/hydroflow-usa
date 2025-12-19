@@ -97,92 +97,13 @@ export default function TechnologySection() {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative flex items-center justify-center"
           >
-            <div className="relative aspect-square max-w-lg mx-auto">
-              {/* Animated rings */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                {[...Array(3)].map((_, i) => (
-                  <motion.div
-                    key={i}
-                    className="absolute rounded-full border border-cyan-500/30"
-                    style={{
-                      width: `${60 + i * 20}%`,
-                      height: `${60 + i * 20}%`,
-                    }}
-                    animate={{
-                      scale: [1, 1.1, 1],
-                      opacity: [0.3, 0.6, 0.3],
-                    }}
-                    transition={{
-                      duration: 3,
-                      delay: i * 0.5,
-                      repeat: Infinity,
-                    }}
-                  />
-                ))}
-              </div>
-
-              {/* Center device */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-48 h-48 rounded-full bg-gradient-to-br from-cyan-400/20 to-cyan-600/20 backdrop-blur-sm flex items-center justify-center">
-                  <div className="w-32 h-32 rounded-full bg-gradient-to-br from-cyan-500 to-cyan-600 shadow-2xl shadow-cyan-500/50 flex items-center justify-center">
-                    <Waves className="w-12 h-12 text-white" />
-                  </div>
-                </div>
-              </div>
-
-              {/* Flow lines */}
-              <svg className="absolute inset-0 w-full h-full" viewBox="0 0 400 400">
-                <motion.path
-                  d="M200 50 L200 150"
-                  stroke="url(#gradient)"
-                  strokeWidth="2"
-                  fill="none"
-                  initial={{ pathLength: 0, opacity: 0 }}
-                  whileInView={{ pathLength: 1, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 1.5 }}
-                />
-                <motion.path
-                  d="M200 250 L200 350"
-                  stroke="url(#gradient)"
-                  strokeWidth="2"
-                  fill="none"
-                  initial={{ pathLength: 0, opacity: 0 }}
-                  whileInView={{ pathLength: 1, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 1.5, delay: 0.3 }}
-                />
-                <motion.path
-                  d="M50 200 L150 200"
-                  stroke="url(#gradient)"
-                  strokeWidth="2"
-                  fill="none"
-                  initial={{ pathLength: 0, opacity: 0 }}
-                  whileInView={{ pathLength: 1, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 1.5, delay: 0.6 }}
-                />
-                <motion.path
-                  d="M250 200 L350 200"
-                  stroke="url(#gradient)"
-                  strokeWidth="2"
-                  fill="none"
-                  initial={{ pathLength: 0, opacity: 0 }}
-                  whileInView={{ pathLength: 1, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 1.5, delay: 0.9 }}
-                />
-                <defs>
-                  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stopColor="#22d3ee" stopOpacity="0" />
-                    <stop offset="50%" stopColor="#22d3ee" stopOpacity="1" />
-                    <stop offset="100%" stopColor="#22d3ee" stopOpacity="0" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
+            <img 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/503ecf4b2_signal.png"
+              alt="Hydropath Signal Technology"
+              className="w-full max-w-md h-auto object-contain"
+            />
           </motion.div>
         </div>
       </div>
