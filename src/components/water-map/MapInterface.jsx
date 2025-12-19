@@ -296,23 +296,230 @@ const hardnessData = [
   { city: 'York-Hanover', state: 'PA', zip: '17401', lat: 39.9626, lng: -76.7277, hardness: 182, level: 'hard' },
 
   // Other major cities
-  { city: 'Denver', state: 'CO', zip: '80202', lat: 39.7392, lng: -104.9903, hardness: 180, level: 'hard' },
+  { city: 'Denver', state: 'CO', zip: '80202', lat: 39.7392, lng: -104.9903, hardness: 145, level: 'hard' },
   { city: 'Chicago', state: 'IL', zip: '60601', lat: 41.8781, lng: -87.6298, hardness: 148, level: 'hard' },
   { city: 'Las Vegas', state: 'NV', zip: '89101', lat: 36.1699, lng: -115.1398, hardness: 278, level: 'very_hard' },
   { city: 'Indianapolis', state: 'IN', zip: '46201', lat: 39.7684, lng: -86.1581, hardness: 274, level: 'very_hard' },
-  { city: 'Minneapolis', state: 'MN', zip: '55401', lat: 44.9778, lng: -93.2650, hardness: 165, level: 'hard' },
+  { city: 'Minneapolis', state: 'MN', zip: '55401', lat: 44.9778, lng: -93.2650, hardness: 180, level: 'hard' },
   { city: 'Portland', state: 'OR', zip: '97201', lat: 45.5152, lng: -122.6784, hardness: 33, level: 'soft' },
   { city: 'Atlanta', state: 'GA', zip: '30303', lat: 33.7490, lng: -84.3880, hardness: 21, level: 'soft' },
-  { city: 'Boston', state: 'MA', zip: '02101', lat: 42.3601, lng: -71.0589, hardness: 8, level: 'soft' },
-  { city: 'Baltimore', state: 'MD', zip: '21201', lat: 39.2904, lng: -76.6122, hardness: 110, level: 'hard' },
+  { city: 'Boston', state: 'MA', zip: '02101', lat: 42.3601, lng: -71.0589, hardness: 52, level: 'soft' },
+  { city: 'Baltimore', state: 'MD', zip: '21201', lat: 39.2904, lng: -76.6122, hardness: 105, level: 'moderate' },
   { city: 'Columbus', state: 'OH', zip: '43215', lat: 39.9612, lng: -82.9988, hardness: 128, level: 'hard' },
   { city: 'Milwaukee', state: 'WI', zip: '53202', lat: 43.0389, lng: -87.9065, hardness: 125, level: 'hard' },
-  { city: 'Nashville', state: 'TN', zip: '37201', lat: 36.1627, lng: -86.7816, hardness: 75, level: 'moderate' },
-  { city: 'Louisville', state: 'KY', zip: '40202', lat: 38.2527, lng: -85.7585, hardness: 172, level: 'hard' },
+  { city: 'Nashville', state: 'TN', zip: '37201', lat: 36.1627, lng: -86.7816, hardness: 92, level: 'moderate' },
+  { city: 'Louisville', state: 'KY', zip: '40202', lat: 38.2527, lng: -85.7585, hardness: 175, level: 'hard' },
   { city: 'Charlotte', state: 'NC', zip: '28202', lat: 35.2271, lng: -80.8431, hardness: 28, level: 'soft' },
-  { city: 'Albuquerque', state: 'NM', zip: '87102', lat: 35.0844, lng: -106.6504, hardness: 126, level: 'hard' },
-  { city: 'Salt Lake City', state: 'UT', zip: '84101', lat: 40.7608, lng: -111.8910, hardness: 278, level: 'very_hard' },
-  { city: 'Jacksonville', state: 'NC', zip: '28540', lat: 34.7540, lng: -77.4302, hardness: 111, level: 'hard' }
+  { city: 'Albuquerque', state: 'NM', zip: '87102', lat: 35.0844, lng: -106.6504, hardness: 248, level: 'very_hard' },
+  { city: 'Salt Lake City', state: 'UT', zip: '84101', lat: 40.7608, lng: -111.8910, hardness: 285, level: 'very_hard' },
+  { city: 'Jacksonville', state: 'NC', zip: '28540', lat: 34.7540, lng: -77.4302, hardness: 111, level: 'hard' },
+
+  // Additional states
+  // Nevada
+  { city: 'Henderson', state: 'NV', zip: '89002', lat: 36.0397, lng: -114.9819, hardness: 285, level: 'very_hard' },
+  { city: 'Reno', state: 'NV', zip: '89501', lat: 40.5200, lng: -119.8138, hardness: 65, level: 'moderate' },
+  { city: 'North Las Vegas', state: 'NV', zip: '89030', lat: 36.1989, lng: -115.1175, hardness: 283, level: 'very_hard' },
+  { city: 'Sparks', state: 'NV', zip: '89431', lat: 39.5349, lng: -119.7527, hardness: 62, level: 'moderate' },
+  { city: 'Carson City', state: 'NV', zip: '89701', lat: 39.1638, lng: -119.7674, hardness: 180, level: 'hard' },
+
+  // Oregon
+  { city: 'Eugene', state: 'OR', zip: '97401', lat: 44.0521, lng: -123.0868, hardness: 48, level: 'soft' },
+  { city: 'Salem', state: 'OR', zip: '97301', lat: 44.9429, lng: -123.0351, hardness: 62, level: 'moderate' },
+  { city: 'Bend', state: 'OR', zip: '97701', lat: 44.0582, lng: -121.3153, hardness: 44, level: 'soft' },
+  { city: 'Medford', state: 'OR', zip: '97501', lat: 42.3265, lng: -122.8756, hardness: 95, level: 'moderate' },
+  { city: 'Corvallis', state: 'OR', zip: '97330', lat: 44.5646, lng: -123.2620, hardness: 53, level: 'soft' },
+
+  // Colorado (additional)
+  { city: 'Colorado Springs', state: 'CO', zip: '80903', lat: 38.8339, lng: -104.8214, hardness: 218, level: 'very_hard' },
+  { city: 'Aurora', state: 'CO', zip: '80010', lat: 39.7294, lng: -104.8319, hardness: 148, level: 'hard' },
+  { city: 'Fort Collins', state: 'CO', zip: '80521', lat: 40.5853, lng: -105.0844, hardness: 182, level: 'hard' },
+  { city: 'Boulder', state: 'CO', zip: '80301', lat: 40.0150, lng: -105.2705, hardness: 175, level: 'hard' },
+  { city: 'Pueblo', state: 'CO', zip: '81003', lat: 38.2544, lng: -104.6091, hardness: 210, level: 'hard' },
+
+  // Wisconsin (additional)
+  { city: 'Madison', state: 'WI', zip: '53703', lat: 43.0731, lng: -89.4012, hardness: 145, level: 'hard' },
+  { city: 'Green Bay', state: 'WI', zip: '54301', lat: 44.5133, lng: -88.0133, hardness: 198, level: 'hard' },
+  { city: 'Kenosha', state: 'WI', zip: '53140', lat: 42.5847, lng: -87.8212, hardness: 135, level: 'hard' },
+  { city: 'Racine', state: 'WI', zip: '53403', lat: 42.7261, lng: -87.7829, hardness: 142, level: 'hard' },
+  { city: 'Appleton', state: 'WI', zip: '54911', lat: 44.2619, lng: -88.4154, hardness: 168, level: 'hard' },
+
+  // Tennessee (additional)
+  { city: 'Memphis', state: 'TN', zip: '38103', lat: 35.1495, lng: -90.0490, hardness: 65, level: 'moderate' },
+  { city: 'Knoxville', state: 'TN', zip: '37902', lat: 35.9606, lng: -83.9207, hardness: 75, level: 'moderate' },
+  { city: 'Chattanooga', state: 'TN', zip: '37402', lat: 35.0456, lng: -85.3097, hardness: 88, level: 'moderate' },
+  { city: 'Clarksville', state: 'TN', zip: '37040', lat: 36.5298, lng: -87.3595, hardness: 95, level: 'moderate' },
+
+  // Missouri (additional)
+  { city: 'Kansas City', state: 'MO', zip: '64101', lat: 39.0997, lng: -94.5786, hardness: 215, level: 'very_hard' },
+  { city: 'St. Louis', state: 'MO', zip: '63101', lat: 38.6270, lng: -90.1994, hardness: 240, level: 'very_hard' },
+  { city: 'Springfield', state: 'MO', zip: '65801', lat: 37.2090, lng: -93.2923, hardness: 195, level: 'hard' },
+  { city: 'Columbia', state: 'MO', zip: '65201', lat: 38.9517, lng: -92.3341, hardness: 205, level: 'hard' },
+  { city: 'Independence', state: 'MO', zip: '64050', lat: 39.0911, lng: -94.4155, hardness: 218, level: 'very_hard' },
+
+  // Maryland (additional)
+  { city: 'Annapolis', state: 'MD', zip: '21401', lat: 38.9784, lng: -76.4922, hardness: 118, level: 'moderate' },
+  { city: 'Frederick', state: 'MD', zip: '21701', lat: 39.4143, lng: -77.4105, hardness: 135, level: 'hard' },
+  { city: 'Rockville', state: 'MD', zip: '20850', lat: 39.0840, lng: -77.1528, hardness: 98, level: 'moderate' },
+  { city: 'Columbia', state: 'MD', zip: '21044', lat: 39.2404, lng: -76.8544, hardness: 112, level: 'moderate' },
+
+  // Minnesota (additional)
+  { city: 'St. Paul', state: 'MN', zip: '55101', lat: 44.9537, lng: -93.0900, hardness: 185, level: 'hard' },
+  { city: 'Rochester', state: 'MN', zip: '55901', lat: 44.0121, lng: -92.4802, hardness: 205, level: 'hard' },
+  { city: 'Duluth', state: 'MN', zip: '55802', lat: 46.7867, lng: -92.1005, hardness: 75, level: 'moderate' },
+  { city: 'Bloomington', state: 'MN', zip: '55420', lat: 44.8408, lng: -93.2983, hardness: 188, level: 'hard' },
+
+  // Louisiana
+  { city: 'New Orleans', state: 'LA', zip: '70112', lat: 29.9511, lng: -90.0715, hardness: 48, level: 'soft' },
+  { city: 'Baton Rouge', state: 'LA', zip: '70801', lat: 30.4515, lng: -91.1871, hardness: 72, level: 'moderate' },
+  { city: 'Shreveport', state: 'LA', zip: '71101', lat: 32.5252, lng: -93.7502, hardness: 85, level: 'moderate' },
+  { city: 'Lafayette', state: 'LA', zip: '70501', lat: 30.2241, lng: -92.0198, hardness: 68, level: 'moderate' },
+
+  // Alabama
+  { city: 'Birmingham', state: 'AL', zip: '35203', lat: 33.5207, lng: -86.8025, hardness: 82, level: 'moderate' },
+  { city: 'Montgomery', state: 'AL', zip: '36104', lat: 32.3668, lng: -86.3000, hardness: 68, level: 'moderate' },
+  { city: 'Mobile', state: 'AL', zip: '36602', lat: 30.6954, lng: -88.0399, hardness: 72, level: 'moderate' },
+  { city: 'Huntsville', state: 'AL', zip: '35801', lat: 34.7304, lng: -86.5861, hardness: 88, level: 'moderate' },
+
+  // Kentucky (additional)
+  { city: 'Lexington', state: 'KY', zip: '40507', lat: 38.0406, lng: -84.5037, hardness: 198, level: 'hard' },
+  { city: 'Bowling Green', state: 'KY', zip: '42101', lat: 36.9685, lng: -86.4808, hardness: 165, level: 'hard' },
+  { city: 'Owensboro', state: 'KY', zip: '42301', lat: 37.7719, lng: -87.1112, hardness: 185, level: 'hard' },
+
+  // South Carolina
+  { city: 'Charleston', state: 'SC', zip: '29401', lat: 32.7765, lng: -79.9311, hardness: 48, level: 'soft' },
+  { city: 'Columbia', state: 'SC', zip: '29201', lat: 34.0007, lng: -81.0348, hardness: 55, level: 'soft' },
+  { city: 'Greenville', state: 'SC', zip: '29601', lat: 34.8526, lng: -82.3940, hardness: 58, level: 'soft' },
+  { city: 'Myrtle Beach', state: 'SC', zip: '29577', lat: 33.6891, lng: -78.8867, hardness: 45, level: 'soft' },
+
+  // Oklahoma
+  { city: 'Oklahoma City', state: 'OK', zip: '73102', lat: 35.4676, lng: -97.5164, hardness: 225, level: 'very_hard' },
+  { city: 'Tulsa', state: 'OK', zip: '74103', lat: 36.1540, lng: -95.9928, hardness: 198, level: 'hard' },
+  { city: 'Norman', state: 'OK', zip: '73019', lat: 35.2226, lng: -97.4395, hardness: 235, level: 'very_hard' },
+  { city: 'Broken Arrow', state: 'OK', zip: '74012', lat: 36.0526, lng: -95.7908, hardness: 205, level: 'hard' },
+
+  // Connecticut
+  { city: 'Hartford', state: 'CT', zip: '06103', lat: 41.7658, lng: -72.6734, hardness: 102, level: 'moderate' },
+  { city: 'New Haven', state: 'CT', zip: '06510', lat: 41.3083, lng: -72.9279, hardness: 88, level: 'moderate' },
+  { city: 'Stamford', state: 'CT', zip: '06901', lat: 41.0534, lng: -73.5387, hardness: 95, level: 'moderate' },
+  { city: 'Bridgeport', state: 'CT', zip: '06604', lat: 41.1792, lng: -73.1894, hardness: 92, level: 'moderate' },
+
+  // Virginia
+  { city: 'Virginia Beach', state: 'VA', zip: '23451', lat: 36.8529, lng: -75.9780, hardness: 68, level: 'moderate' },
+  { city: 'Norfolk', state: 'VA', zip: '23510', lat: 36.8508, lng: -76.2859, hardness: 72, level: 'moderate' },
+  { city: 'Richmond', state: 'VA', zip: '23219', lat: 37.5407, lng: -77.4360, hardness: 85, level: 'moderate' },
+  { city: 'Arlington', state: 'VA', zip: '22201', lat: 38.8799, lng: -77.1067, hardness: 82, level: 'moderate' },
+
+  // New Jersey
+  { city: 'Newark', state: 'NJ', zip: '07102', lat: 40.7357, lng: -74.1724, hardness: 112, level: 'moderate' },
+  { city: 'Jersey City', state: 'NJ', zip: '07302', lat: 40.7178, lng: -74.0431, hardness: 98, level: 'moderate' },
+  { city: 'Paterson', state: 'NJ', zip: '07505', lat: 40.9168, lng: -74.1718, hardness: 108, level: 'moderate' },
+  { city: 'Elizabeth', state: 'NJ', zip: '07201', lat: 40.6640, lng: -74.2107, hardness: 102, level: 'moderate' },
+
+  // Massachusetts (additional)
+  { city: 'Worcester', state: 'MA', zip: '01608', lat: 42.2626, lng: -71.8023, hardness: 65, level: 'moderate' },
+  { city: 'Springfield', state: 'MA', zip: '01103', lat: 42.1015, lng: -72.5898, hardness: 62, level: 'moderate' },
+  { city: 'Cambridge', state: 'MA', zip: '02138', lat: 42.3736, lng: -71.1097, hardness: 54, level: 'soft' },
+
+  // Alaska
+  { city: 'Anchorage', state: 'AK', zip: '99501', lat: 61.2181, lng: -149.9003, hardness: 32, level: 'soft' },
+  { city: 'Juneau', state: 'AK', zip: '99801', lat: 58.3019, lng: -134.4197, hardness: 38, level: 'soft' },
+  { city: 'Fairbanks', state: 'AK', zip: '99701', lat: 64.8378, lng: -147.7164, hardness: 42, level: 'soft' },
+
+  // Arkansas
+  { city: 'Little Rock', state: 'AR', zip: '72201', lat: 34.7465, lng: -92.2896, hardness: 138, level: 'hard' },
+  { city: 'Fort Smith', state: 'AR', zip: '72901', lat: 35.3859, lng: -94.3985, hardness: 152, level: 'hard' },
+  { city: 'Fayetteville', state: 'AR', zip: '72701', lat: 36.0626, lng: -94.1574, hardness: 148, level: 'hard' },
+
+  // Delaware
+  { city: 'Wilmington', state: 'DE', zip: '19801', lat: 39.7391, lng: -75.5398, hardness: 92, level: 'moderate' },
+  { city: 'Dover', state: 'DE', zip: '19901', lat: 39.1582, lng: -75.5244, hardness: 85, level: 'moderate' },
+  { city: 'Newark', state: 'DE', zip: '19711', lat: 39.6837, lng: -75.7497, hardness: 88, level: 'moderate' },
+
+  // Hawaii
+  { city: 'Honolulu', state: 'HI', zip: '96813', lat: 21.3099, lng: -157.8581, hardness: 45, level: 'soft' },
+  { city: 'Hilo', state: 'HI', zip: '96720', lat: 19.7071, lng: -155.0830, hardness: 52, level: 'soft' },
+  { city: 'Kailua', state: 'HI', zip: '96734', lat: 21.4022, lng: -157.7394, hardness: 48, level: 'soft' },
+
+  // Idaho
+  { city: 'Boise', state: 'ID', zip: '83702', lat: 43.6150, lng: -116.2023, hardness: 158, level: 'hard' },
+  { city: 'Meridian', state: 'ID', zip: '83642', lat: 43.6121, lng: -116.3915, hardness: 162, level: 'hard' },
+  { city: 'Nampa', state: 'ID', zip: '83651', lat: 43.5408, lng: -116.5635, hardness: 175, level: 'hard' },
+  { city: 'Idaho Falls', state: 'ID', zip: '83402', lat: 43.4666, lng: -112.0341, hardness: 168, level: 'hard' },
+
+  // Iowa
+  { city: 'Des Moines', state: 'IA', zip: '50309', lat: 41.5868, lng: -93.6250, hardness: 218, level: 'very_hard' },
+  { city: 'Cedar Rapids', state: 'IA', zip: '52402', lat: 41.9779, lng: -91.6656, hardness: 235, level: 'very_hard' },
+  { city: 'Davenport', state: 'IA', zip: '52801', lat: 41.5236, lng: -90.5776, hardness: 228, level: 'very_hard' },
+  { city: 'Sioux City', state: 'IA', zip: '51101', lat: 42.4970, lng: -96.4003, hardness: 245, level: 'very_hard' },
+
+  // Kansas
+  { city: 'Wichita', state: 'KS', zip: '67202', lat: 37.6872, lng: -97.3301, hardness: 228, level: 'very_hard' },
+  { city: 'Overland Park', state: 'KS', zip: '66204', lat: 38.9822, lng: -94.6708, hardness: 245, level: 'very_hard' },
+  { city: 'Kansas City', state: 'KS', zip: '66101', lat: 39.1141, lng: -94.6275, hardness: 238, level: 'very_hard' },
+  { city: 'Topeka', state: 'KS', zip: '66603', lat: 39.0473, lng: -95.6752, hardness: 232, level: 'very_hard' },
+
+  // Maine
+  { city: 'Portland', state: 'ME', zip: '04101', lat: 43.6591, lng: -70.2568, hardness: 38, level: 'soft' },
+  { city: 'Lewiston', state: 'ME', zip: '04240', lat: 44.1004, lng: -70.2148, hardness: 45, level: 'soft' },
+  { city: 'Bangor', state: 'ME', zip: '04401', lat: 44.8016, lng: -68.7712, hardness: 42, level: 'soft' },
+
+  // Mississippi
+  { city: 'Jackson', state: 'MS', zip: '39201', lat: 32.2988, lng: -90.1848, hardness: 72, level: 'moderate' },
+  { city: 'Gulfport', state: 'MS', zip: '39501', lat: 30.3674, lng: -89.0928, hardness: 62, level: 'moderate' },
+  { city: 'Southaven', state: 'MS', zip: '38671', lat: 34.9889, lng: -90.0126, hardness: 68, level: 'moderate' },
+
+  // Montana
+  { city: 'Billings', state: 'MT', zip: '59101', lat: 45.7833, lng: -108.5007, hardness: 162, level: 'hard' },
+  { city: 'Missoula', state: 'MT', zip: '59801', lat: 46.8721, lng: -113.9940, hardness: 145, level: 'hard' },
+  { city: 'Great Falls', state: 'MT', zip: '59401', lat: 47.5053, lng: -111.3008, hardness: 158, level: 'hard' },
+
+  // Nebraska
+  { city: 'Omaha', state: 'NE', zip: '68102', lat: 41.2565, lng: -95.9345, hardness: 238, level: 'very_hard' },
+  { city: 'Lincoln', state: 'NE', zip: '68508', lat: 40.8136, lng: -96.7026, hardness: 252, level: 'very_hard' },
+  { city: 'Bellevue', state: 'NE', zip: '68005', lat: 41.1544, lng: -95.8911, hardness: 242, level: 'very_hard' },
+
+  // New Hampshire
+  { city: 'Manchester', state: 'NH', zip: '03101', lat: 42.9956, lng: -71.4548, hardness: 52, level: 'soft' },
+  { city: 'Nashua', state: 'NH', zip: '03060', lat: 42.7654, lng: -71.4676, hardness: 45, level: 'soft' },
+  { city: 'Concord', state: 'NH', zip: '03301', lat: 43.2081, lng: -71.5376, hardness: 48, level: 'soft' },
+
+  // New Mexico (additional)
+  { city: 'Las Cruces', state: 'NM', zip: '88001', lat: 32.3199, lng: -106.7637, hardness: 265, level: 'very_hard' },
+  { city: 'Santa Fe', state: 'NM', zip: '87501', lat: 35.6870, lng: -105.9378, hardness: 252, level: 'very_hard' },
+
+  // North Dakota
+  { city: 'Fargo', state: 'ND', zip: '58102', lat: 46.8772, lng: -96.7898, hardness: 278, level: 'very_hard' },
+  { city: 'Bismarck', state: 'ND', zip: '58501', lat: 46.8083, lng: -100.7837, hardness: 295, level: 'very_hard' },
+  { city: 'Grand Forks', state: 'ND', zip: '58201', lat: 47.9253, lng: -97.0329, hardness: 282, level: 'very_hard' },
+
+  // Rhode Island
+  { city: 'Providence', state: 'RI', zip: '02903', lat: 41.8240, lng: -71.4128, hardness: 55, level: 'soft' },
+  { city: 'Warwick', state: 'RI', zip: '02886', lat: 41.7001, lng: -71.4162, hardness: 48, level: 'soft' },
+  { city: 'Cranston', state: 'RI', zip: '02910', lat: 41.7798, lng: -71.4373, hardness: 52, level: 'soft' },
+
+  // South Dakota
+  { city: 'Sioux Falls', state: 'SD', zip: '57104', lat: 43.5460, lng: -96.7313, hardness: 258, level: 'very_hard' },
+  { city: 'Rapid City', state: 'SD', zip: '57701', lat: 44.0805, lng: -103.2310, hardness: 275, level: 'very_hard' },
+  { city: 'Aberdeen', state: 'SD', zip: '57401', lat: 45.4647, lng: -98.4865, hardness: 262, level: 'very_hard' },
+
+  // Utah (additional)
+  { city: 'Provo', state: 'UT', zip: '84601', lat: 40.2338, lng: -111.6585, hardness: 308, level: 'very_hard' },
+  { city: 'West Valley City', state: 'UT', zip: '84119', lat: 40.6916, lng: -112.0011, hardness: 292, level: 'very_hard' },
+
+  // Vermont
+  { city: 'Burlington', state: 'VT', zip: '05401', lat: 44.4759, lng: -73.2121, hardness: 35, level: 'soft' },
+  { city: 'Essex', state: 'VT', zip: '05452', lat: 44.4906, lng: -73.1101, hardness: 42, level: 'soft' },
+  { city: 'South Burlington', state: 'VT', zip: '05403', lat: 44.4669, lng: -73.1709, hardness: 38, level: 'soft' },
+
+  // West Virginia
+  { city: 'Charleston', state: 'WV', zip: '25301', lat: 38.3498, lng: -81.6326, hardness: 132, level: 'hard' },
+  { city: 'Huntington', state: 'WV', zip: '25701', lat: 38.4192, lng: -82.4452, hardness: 118, level: 'moderate' },
+  { city: 'Morgantown', state: 'WV', zip: '26505', lat: 39.6295, lng: -79.9559, hardness: 125, level: 'hard' },
+
+  // Wyoming
+  { city: 'Cheyenne', state: 'WY', zip: '82001', lat: 41.1400, lng: -104.8202, hardness: 218, level: 'very_hard' },
+  { city: 'Casper', state: 'WY', zip: '82601', lat: 42.8666, lng: -106.3131, hardness: 235, level: 'very_hard' },
+  { city: 'Laramie', state: 'WY', zip: '82070', lat: 41.3114, lng: -105.5911, hardness: 228, level: 'very_hard' }
 ];
 
 const getHardnessColor = (level) => {
