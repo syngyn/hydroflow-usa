@@ -134,11 +134,27 @@ export default function Technology() {
                 >
                   {index === 0 && (
                     <div className="mb-4 flex justify-center">
-                      <img 
-                        src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/503ecf4b2_signal.png"
-                        alt="Signal Induction"
-                        className="h-32 w-auto object-contain"
-                      />
+                      <svg 
+                        viewBox="0 0 400 200" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-full max-w-xs h-auto"
+                      >
+                        <defs>
+                          <linearGradient id="signalGradientTech" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stopColor="#22d3ee" stopOpacity="1" />
+                            <stop offset="100%" stopColor="#22d3ee" stopOpacity="0.3" />
+                          </linearGradient>
+                        </defs>
+                        <path 
+                          d="M10 100 Q20 20 30 100 T50 100 Q60 50 70 100 T90 100 Q100 65 110 100 T130 100 Q140 75 150 100 T170 100 Q180 82 190 100 T210 100 Q220 87 230 100 T250 100 Q260 90 270 100 T290 100 Q300 93 310 100 T330 100 Q340 95 350 100 T370 100 Q380 97 390 100" 
+                          stroke="url(#signalGradientTech)" 
+                          strokeWidth="4" 
+                          strokeLinecap="round" 
+                          strokeLinejoin="round"
+                          fill="none"
+                        />
+                      </svg>
                     </div>
                   )}
                   {index !== 0 && Icon && (
