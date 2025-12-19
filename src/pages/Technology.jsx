@@ -128,7 +128,18 @@ export default function Technology() {
                 transition={{ delay: index * 0.1 }}
                 className="relative"
               >
-                <div className="text-6xl font-bold text-cyan-100 mb-4">{step.step}</div>
+                {index === 0 && (
+                  <div className="mb-4 flex justify-center">
+                    <img 
+                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/503ecf4b2_signal.png"
+                      alt="Signal Induction"
+                      className="h-32 w-auto object-contain"
+                    />
+                  </div>
+                )}
+                {index !== 0 && (
+                  <div className="text-6xl font-bold text-cyan-100 mb-4">{step.step}</div>
+                )}
                 <h3 className="text-xl font-bold text-slate-900 mb-2">{step.title}</h3>
                 <p className="text-slate-600">{step.description}</p>
                 {index < 3 && (
