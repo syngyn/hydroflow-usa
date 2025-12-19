@@ -81,7 +81,7 @@ export default function Residential() {
             >
               <img 
                 src="https://hydroflow-usa.com/wp-content/uploads/2024/10/pearl-plus-grey-background-799x800.webp"
-                alt="HydroFLOW Pearl Plus"
+                alt="<i>Hydro</i>FLOW Pearl Plus"
                 className="w-full h-full object-contain bg-white/10 backdrop-blur-sm p-8"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/20">
@@ -193,7 +193,7 @@ export default function Residential() {
               <div className="h-48 flex items-center justify-center mb-6 mt-4">
                 <img 
                   src="https://hydroflow-usa.com/wp-content/uploads/2024/10/pearl-plus-grey-background-799x800.webp"
-                  alt="HydroFLOW Pearl Plus"
+                  alt="<i>Hydro</i>FLOW Pearl Plus"
                   className="h-full w-auto object-contain"
                 />
               </div>
