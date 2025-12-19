@@ -43,7 +43,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
-              The exclusive U.S. distributor of HydroFLOW water conditioners powered by patented Hydropath technology.
+              The exclusive U.S. distributor of <i>Hydro</i>FLOW water conditioners powered by patented Hydropath technology.
             </p>
             <div className="space-y-3">
               <a href="tel:1-888-559-4340" className="flex items-center gap-3 text-slate-400 hover:text-cyan-400 transition-colors">
@@ -120,7 +120,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
-            <p>© {new Date().getFullYear()} HydroFLOW USA. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} <i>Hydro</i>FLOW USA. All rights reserved.</p>
             <div className="flex items-center gap-6">
               <span>Privacy Policy</span>
               <span>Terms of Service</span>

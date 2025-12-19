@@ -120,7 +120,7 @@ export default function Products() {
               Our Products
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Find the perfect HydroFLOW water conditioner for your home, business, or industrial facility.
+              Find the perfect <i>Hydro</i>FLOW water conditioner for your home, business, or industrial facility.
             </p>
           </motion.div>
         </div>

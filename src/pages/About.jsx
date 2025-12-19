@@ -52,7 +52,7 @@ export default function About() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              About Hydro<span className="text-cyan-400">FLOW</span> USA
+              About <i>Hydro</i><span className="text-cyan-400">FLOW</span> USA
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
               The exclusive U.S. distributor of revolutionary water conditioners powered by 
@@ -100,8 +100,8 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
-                  HydroFLOW USA, headquartered in Redmond, WA, is the exclusive U.S. distributor 
-                  of the unique HydroFLOW water conditioners that are powered by the patented 
+                  <i>Hydro</i>FLOW USA, headquartered in Redmond, WA, is the exclusive U.S. distributor 
+                  of the unique <i>Hydro</i>FLOW water conditioners that are powered by the patented 
                   Hydropath technology.
                 </p>
                 <p>
@@ -196,7 +196,7 @@ export default function About() {
             </h2>
             <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
               Join thousands of satisfied customers who have transformed their water systems 
-              with HydroFLOW technology.
+              with <i>Hydro</i>FLOW technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to={createPageUrl('Products')}>

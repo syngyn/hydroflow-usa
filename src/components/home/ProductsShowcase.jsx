@@ -54,14 +54,14 @@ export default function ProductsShowcase() {
           className="text-center mb-16"
         >
           <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
-            The HydroFLOW Pearl Series
+            The <i>Hydro</i>FLOW Pearl Series
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
             Your Whole Home Water
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600"> Protection Solution</span>
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Choose the perfect HydroFLOW unit for your home size and needs.
+            Choose the perfect <i>Hydro</i>FLOW unit for your home size and needs.
           </p>
         </motion.div>
 

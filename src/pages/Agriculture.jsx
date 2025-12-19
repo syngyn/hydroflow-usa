@@ -138,7 +138,7 @@ export default function Agriculture() {
                 Agricultural Applications
               </h2>
               <p className="text-lg text-green-100/80 mb-8">
-                HydroFLOW technology is ideal for a wide range of agricultural applications, 
+                <i>Hydro</i>FLOW technology is ideal for a wide range of agricultural applications, 
                 from small farms to large commercial operations.
               </p>
               <div className="grid sm:grid-cols-2 gap-4">

@@ -61,7 +61,7 @@ export default function BenefitsSection() {
           className="text-center mb-16"
         >
           <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
-            Why Choose HydroFLOW
+            Why Choose <i>Hydro</i>FLOW
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
             Benefits of Our

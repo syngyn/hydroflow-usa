@@ -282,7 +282,7 @@ export default function Technology() {
               Comparison
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              HydroFLOW vs Water Softeners
+              <i>Hydro</i>FLOW vs Water Softeners
             </h2>
           </motion.div>
 
@@ -294,7 +294,7 @@ export default function Technology() {
           >
             <div className="grid grid-cols-3 gap-4 p-6 bg-slate-50 border-b font-semibold">
               <div className="text-slate-900">Feature</div>
-              <div className="text-center text-cyan-600">HydroFLOW</div>
+              <div className="text-center text-cyan-600"><i>Hydro</i>FLOW</div>
               <div className="text-center text-slate-500">Water Softener</div>
             </div>
             {comparisons.map((row, index) => (

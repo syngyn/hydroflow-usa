@@ -116,7 +116,7 @@ export default function Industrial() {
               Industrial Benefits
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Why Choose HydroFLOW for Industrial Applications
+              Why Choose <i>Hydro</i>FLOW for Industrial Applications
             </h2>
           </motion.div>
 

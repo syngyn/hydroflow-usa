@@ -56,14 +56,14 @@ export default function Residential() {
                 Residential Solutions
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-                Hydro<span className="text-cyan-400">FLOW</span>
+                <i>Hydro</i><span className="text-cyan-400">FLOW</span>
                 <span className="block text-3xl md:text-4xl mt-2 font-light">
                   Residential Water Conditioner
                 </span>
               </h1>
               <p className="text-xl text-slate-300 mb-8">
                 Residential homes in hard water areas suffer from scale accumulation on shower heads, 
-                pipes and appliances. HydroFLOW provides the perfect solution.
+                pipes and appliances. <i>Hydro</i>FLOW provides the perfect solution.
               </p>
               <Link to={createPageUrl('Products')}>
                 <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
@@ -104,10 +104,10 @@ export default function Residential() {
             className="text-center mb-16"
           >
             <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
-              Why Choose HydroFLOW
+              Why Choose <i>Hydro</i>FLOW
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Benefits of a HydroFLOW Water Conditioner
+              Benefits of a <i>Hydro</i>FLOW Water Conditioner
             </h2>
           </motion.div>
 
@@ -262,7 +262,7 @@ export default function Residential() {
               Ready to Protect Your Home?
             </h2>
             <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
-              Join thousands of homeowners who have eliminated scale problems with HydroFLOW.
+              Join thousands of homeowners who have eliminated scale problems with <i>Hydro</i>FLOW.
             </p>
             <Link to={createPageUrl('Products')}>
               <Button className="bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
