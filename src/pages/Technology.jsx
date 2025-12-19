@@ -150,7 +150,7 @@ export default function Technology() {
                           <path 
                             d="M10 100 Q20 20 30 100 T50 100 Q60 50 70 100 T90 100 Q100 65 110 100 T130 100 Q140 75 150 100 T170 100 Q180 82 190 100 T210 100 Q220 87 230 100 T250 100 Q260 90 270 100 T290 100 Q300 93 310 100 T330 100 Q340 95 350 100 T370 100 Q380 97 390 100" 
                             stroke="url(#signalGradientTech)" 
-                            strokeWidth="4" 
+                            strokeWidth="8" 
                             strokeLinecap="round" 
                             strokeLinejoin="round"
                             fill="none"
