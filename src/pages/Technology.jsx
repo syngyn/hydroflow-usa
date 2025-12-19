@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { Waves, Shield, Droplets, Zap, ArrowRight, CheckCircle2, PlayCircle } from 'lucide-react';
+import { Waves, Shield, Droplets, Zap, ArrowRight, CheckCircle2, PlayCircle, Radio, Gem, RefreshCw } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const howItWorks = [
@@ -119,34 +119,43 @@ export default function Technology() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {howItWorks.map((step, index) => (
-              <motion.div
-                key={step.step}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="relative"
-              >
-                {index === 0 && (
-                  <div className="mb-4 flex justify-center">
-                    <img 
-                      src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/503ecf4b2_signal.png"
-                      alt="Signal Induction"
-                      className="h-32 w-auto object-contain"
-                    />
-                  </div>
-                )}
-                {index !== 0 && (
-                  <div className="text-6xl font-bold text-cyan-100 mb-4">{step.step}</div>
-                )}
-                <h3 className="text-xl font-bold text-slate-900 mb-2">{step.title}</h3>
-                <p className="text-slate-600">{step.description}</p>
-                {index < 3 && (
-                  <div className="hidden lg:block absolute top-8 right-0 w-16 h-0.5 bg-gradient-to-r from-cyan-200 to-transparent" />
-                )}
-              </motion.div>
-            ))}
+            {howItWorks.map((step, index) => {
+              const icons = [null, Radio, Gem, RefreshCw];
+              const Icon = icons[index];
+
+              return (
+                <motion.div
+                  key={step.step}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="relative"
+                >
+                  {index === 0 && (
+                    <div className="mb-4 flex justify-center">
+                      <img 
+                        src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/503ecf4b2_signal.png"
+                        alt="Signal Induction"
+                        className="h-32 w-auto object-contain"
+                      />
+                    </div>
+                  )}
+                  {index !== 0 && Icon && (
+                    <div className="mb-4 flex justify-center">
+                      <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-cyan-100 to-cyan-50 flex items-center justify-center">
+                        <Icon className="w-16 h-16 text-cyan-500" />
+                      </div>
+                    </div>
+                  )}
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">{step.title}</h3>
+                  <p className="text-slate-600">{step.description}</p>
+                  {index < 3 && (
+                    <div className="hidden lg:block absolute top-8 right-0 w-16 h-0.5 bg-gradient-to-r from-cyan-200 to-transparent" />
+                  )}
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>
