@@ -102,7 +102,7 @@ export default function TechnologySection() {
             <img 
               src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/503ecf4b2_signal.png"
               alt="Hydropath Signal Technology"
-              className="w-full max-w-md h-auto object-contain"
+              className="w-full max-w-[200px] h-auto object-contain"
             />
           </motion.div>
         </div>
