@@ -34,7 +34,7 @@ const filtrationProducts = [
     price: 499.95,
     rating: 4.56,
     reviews: 16,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/single_acb-1-800x800.webp',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/11/single-filtration.webp',
     features: [
       'Activated carbon block',
       'Complex filtration',
@@ -52,7 +52,7 @@ const filtrationProducts = [
     price: 889.95,
     rating: 4.42,
     reviews: 12,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/single_ff-1-800x800.webp',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/11/single-filtration.webp',
     features: [
       'Force field technology',
       'Pristine water quality',
@@ -88,7 +88,7 @@ const filtrationProducts = [
     price: 1225.95,
     rating: 4.53,
     reviews: 17,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/double-elite-1-800x800.webp',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/WH_SED_FF.jpg',
     features: [
       'Advanced two-stage system',
       'Complex water issues',
@@ -107,7 +107,7 @@ const filtrationProducts = [
     price: 1295.95,
     rating: 4.42,
     reviews: 12,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/double-ultimate-1-800x800.webp',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/WH_ACB_FF.jpg',
     features: [
       'State-of-the-art filtration',
       'Pristine water quality',
