@@ -34,12 +34,20 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <div className="mb-6">
-              <div className="text-2xl font-light tracking-tight">
-                Hydro<span className="font-bold text-cyan-400">FLOW</span>
+            <div className="mb-6 flex items-center gap-2">
+              <div className="w-10 h-10 rounded-lg bg-cyan-500 flex items-center justify-center flex-shrink-0">
+                <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
+                  <path d="M12 2L4 7v10c0 5 8 5 8 5s8 0 8-5V7l-8-5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M12 8v8M8 12h8" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
               </div>
-              <div className="text-[10px] tracking-[0.3em] uppercase text-slate-500">
-                U.S.A.
+              <div>
+                <div className="text-xl font-bold text-white">
+                  <i>Hydro</i>FLOW
+                </div>
+                <div className="text-[10px] tracking-[0.3em] uppercase text-slate-500">
+                  U.S.A.
+                </div>
               </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
