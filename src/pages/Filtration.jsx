@@ -26,23 +26,59 @@ const filtrationProducts = [
     description: 'Basic single stage whole home water filtration with multiple filter options.'
   },
   {
-    id: 'double-filter',
-    name: 'Double Filter',
+    id: 'double-standard',
+    name: 'Double Filter - Standard',
     type: 'whole-home',
-    tagline: 'Advanced Double Stage Filtration',
+    tagline: 'Basic Filtration Requirements',
     coverage: 'Whole Home',
     price: 865.95,
-    rating: 4.7,
-    reviews: 45,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/double_filter_grey.webp',
+    rating: 4.2,
+    reviews: 5,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/double-standard-1-800x800.webp',
     features: [
+      'Two-stage filtration',
+      'Basic whole home protection',
       'Standard configuration',
-      'Elite upgrade available',
-      'Ultimate performance option',
-      'Two-stage filtration'
+      'Easy maintenance'
+    ],
+    description: 'For basic filtration requirements with two-stage protection.'
+  },
+  {
+    id: 'double-elite',
+    name: 'Double Filter - Elite',
+    type: 'whole-home',
+    tagline: 'Complex Filtration Scenarios',
+    coverage: 'Whole Home',
+    price: 1225.95,
+    rating: 4.53,
+    reviews: 17,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/double-elite-1-800x800.webp',
+    features: [
+      'Advanced two-stage system',
+      'Complex water issues',
+      'Enhanced filtration',
+      'Superior protection'
     ],
     popular: true,
-    description: 'Advanced double stage filtration with Standard, Elite, and Ultimate configurations.'
+    description: 'For more complex filtration scenarios requiring advanced protection.'
+  },
+  {
+    id: 'double-ultimate',
+    name: 'Double Filter - Ultimate',
+    type: 'whole-home',
+    tagline: 'State-of-the-Art Filter',
+    coverage: 'Whole Home',
+    price: 1295.95,
+    rating: 4.42,
+    reviews: 12,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/double-ultimate-1-800x800.webp',
+    features: [
+      'State-of-the-art filtration',
+      'Pristine water quality',
+      'Maximum protection',
+      'Premium performance'
+    ],
+    description: 'State-of-the-art filter for pristine water quality and maximum protection.'
   },
   {
     id: 'under-counter',
@@ -151,7 +187,7 @@ export default function Filtration() {
       {/* Products Grid */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProducts.map((product, index) => (
               <motion.div
                 key={product.id}
