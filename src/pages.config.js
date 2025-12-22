@@ -14,6 +14,7 @@ import Residential from './pages/Residential';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import Filtration from './pages/Filtration';
 import __Layout from './Layout.jsx';
 
 
@@ -34,6 +35,7 @@ export const PAGES = {
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
     "WaterHardnessMap": WaterHardnessMap,
+    "Filtration": Filtration,
 }
 
 export const pagesConfig = {

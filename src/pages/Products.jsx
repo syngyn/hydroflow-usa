@@ -84,78 +84,6 @@ const products = [
       'Custom pipe sizes'
     ],
     description: 'Custom solutions for industrial and large commercial applications.'
-  },
-  {
-    id: 'single-filter',
-    name: 'Single Filter',
-    category: 'residential',
-    tagline: 'Basic Single Stage Filtration',
-    coverage: 'Whole Home',
-    price: 479.95,
-    rating: 4.5,
-    reviews: 32,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/single_filter_grey.webp',
-    features: [
-      'Sediment removal',
-      'Activated carbon block',
-      'Force field filtration',
-      'Easy installation'
-    ],
-    description: 'Basic single stage whole home water filtration.'
-  },
-  {
-    id: 'double-filter',
-    name: 'Double Filter',
-    category: 'residential',
-    tagline: 'Advanced Double Stage Filtration',
-    coverage: 'Whole Home',
-    price: 865.95,
-    rating: 4.7,
-    reviews: 45,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/double_filter_grey.webp',
-    features: [
-      'Standard/Elite/Ultimate options',
-      'Two-stage filtration',
-      'Enhanced water quality',
-      'Comprehensive protection'
-    ],
-    description: 'Advanced double stage filtration for superior water quality.'
-  },
-  {
-    id: 'under-counter',
-    name: 'Under Counter Filter',
-    category: 'residential',
-    tagline: 'Point-of-Use Filtration',
-    coverage: 'Single Tap',
-    price: 199.95,
-    rating: 4.6,
-    reviews: 28,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/under_counter_grey.webp',
-    features: [
-      'Under sink installation',
-      'ACB or Force Field options',
-      'Improved water quality',
-      'Single point-of-use'
-    ],
-    description: 'Compact filtration for a single point-of-use.'
-  },
-  {
-    id: 'vitality-filter',
-    name: 'Vitality Filter',
-    category: 'residential',
-    tagline: 'On-the-Go Hydration',
-    coverage: 'Portable',
-    price: 39.95,
-    rating: 4.8,
-    reviews: 156,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/09/vitality-filter.jpg',
-    features: [
-      'Portable water bottle',
-      'Built-in filtration',
-      'Perfect for travel',
-      'Removes contaminants'
-    ],
-    description: 'Portable filtration for clean water anywhere.'
   }
 ];
 
@@ -188,12 +116,21 @@ export default function Products() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
+            <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-4">
+              Water Conditioners
+            </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Our Products
+              <i>Hydro</i>FLOW Products
             </h1>
-            <p className="text-xl text-slate-300 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-6">
               Find the perfect <i>Hydro</i>FLOW water conditioner for your home, business, or industrial facility.
             </p>
+            <Link to={createPageUrl('Filtration')}>
+              <Button variant="outline" className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-white rounded-full px-6 py-3">
+                View Filtration Products
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>
