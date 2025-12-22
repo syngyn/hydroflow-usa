@@ -1,39 +1,39 @@
-import Home from './pages/Home';
 import About from './pages/About';
-import Technology from './pages/Technology';
-import Products from './pages/Products';
-import Contact from './pages/Contact';
-import Residential from './pages/Residential';
-import Industrial from './pages/Industrial';
-import Commercial from './pages/Commercial';
 import Agriculture from './pages/Agriculture';
-import Marine from './pages/Marine';
-import WaterHardnessMap from './pages/WaterHardnessMap';
-import StateWaterHardness from './pages/StateWaterHardness';
+import BlogDetail from './pages/BlogDetail';
+import BlogList from './pages/BlogList';
 import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
-import BlogList from './pages/BlogList';
-import BlogDetail from './pages/BlogDetail';
+import Commercial from './pages/Commercial';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Industrial from './pages/Industrial';
+import Marine from './pages/Marine';
+import Products from './pages/Products';
+import Residential from './pages/Residential';
+import StateWaterHardness from './pages/StateWaterHardness';
+import Technology from './pages/Technology';
+import WaterHardnessMap from './pages/WaterHardnessMap';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
-    "Home": Home,
     "About": About,
-    "Technology": Technology,
-    "Products": Products,
-    "Contact": Contact,
-    "Residential": Residential,
-    "Industrial": Industrial,
-    "Commercial": Commercial,
     "Agriculture": Agriculture,
-    "Marine": Marine,
-    "WaterHardnessMap": WaterHardnessMap,
-    "StateWaterHardness": StateWaterHardness,
+    "BlogDetail": BlogDetail,
+    "BlogList": BlogList,
     "CaseStudies": CaseStudies,
     "CaseStudyDetail": CaseStudyDetail,
-    "BlogList": BlogList,
-    "BlogDetail": BlogDetail,
+    "Commercial": Commercial,
+    "Contact": Contact,
+    "Home": Home,
+    "Industrial": Industrial,
+    "Marine": Marine,
+    "Products": Products,
+    "Residential": Residential,
+    "StateWaterHardness": StateWaterHardness,
+    "Technology": Technology,
+    "WaterHardnessMap": WaterHardnessMap,
 }
 
 export const pagesConfig = {
