@@ -8,22 +8,58 @@ import { Badge } from "@/components/ui/badge";
 
 const filtrationProducts = [
   {
-    id: 'single-filter',
-    name: 'Single Filter',
+    id: 'single-sediment',
+    name: 'Single Filter - Sediment',
     type: 'whole-home',
-    tagline: 'Basic Single Stage Filtration',
+    tagline: 'Basic Filtration Requirements',
     coverage: 'Whole Home',
     price: 479.95,
-    rating: 4.5,
-    reviews: 32,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/single_filter_grey.webp',
+    rating: 4.33,
+    reviews: 6,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/single_sediment-1-800x800.webp',
     features: [
-      'Sediment (SED) option',
-      'Activated carbon block (ACB)',
-      'Force field (FF) filtration',
+      'Sediment removal',
+      'Basic protection',
+      'Whole home coverage',
       'Easy installation'
     ],
-    description: 'Basic single stage whole home water filtration with multiple filter options.'
+    description: 'Sediment filter for basic filtration requirements.'
+  },
+  {
+    id: 'single-acb',
+    name: 'Single Filter - ACB',
+    type: 'whole-home',
+    tagline: 'Activated Carbon Block',
+    coverage: 'Whole Home',
+    price: 499.95,
+    rating: 4.56,
+    reviews: 16,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/single_acb-1-800x800.webp',
+    features: [
+      'Activated carbon block',
+      'Complex filtration',
+      'Chlorine removal',
+      'Enhanced protection'
+    ],
+    description: 'For more complex filtration scenarios with activated carbon block technology.'
+  },
+  {
+    id: 'single-forcefield',
+    name: 'Single Filter - Force Field',
+    type: 'whole-home',
+    tagline: 'State-of-the-Art Filter',
+    coverage: 'Whole Home',
+    price: 889.95,
+    rating: 4.42,
+    reviews: 12,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/single_ff-1-800x800.webp',
+    features: [
+      'Force field technology',
+      'Pristine water quality',
+      'Supreme protection',
+      'Advanced filtration'
+    ],
+    description: 'State-of-the-art Force Field filter for pristine water quality.'
   },
   {
     id: 'double-standard',
