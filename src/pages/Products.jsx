@@ -68,7 +68,7 @@ const products = [
   },
   {
     id: 'i-range',
-    name: 'Industrial Range',
+    name: 'IRange',
     category: 'industrial',
     tagline: 'Heavy-Duty Solutions',
     coverage: 'Industrial & Large Commercial',
@@ -84,6 +84,25 @@ const products = [
       'Custom pipe sizes'
     ],
     description: 'Custom solutions for industrial and large commercial applications.'
+  },
+  {
+    id: 'hm-range',
+    name: 'HMRange',
+    category: 'industrial',
+    tagline: 'Marine Solutions',
+    coverage: 'Marine Vessels',
+    price: null,
+    priceText: 'Contact for Quote',
+    rating: 4.85,
+    reviews: 15,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/hm-Range1-1400x788.png',
+    features: [
+      'Fresh water generators',
+      'Marine cooling systems',
+      'UV sterilizers',
+      'IP68 waterproof'
+    ],
+    description: 'Marine-grade water treatment for vessels and maritime applications.'
   }
 ];
 

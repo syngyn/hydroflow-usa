@@ -18,6 +18,8 @@ import WaterHardnessMap from './pages/WaterHardnessMap';
 import ProductPearl from './pages/ProductPearl';
 import ProductPearlPlus from './pages/ProductPearlPlus';
 import ProductHS40 from './pages/ProductHS40';
+import ProductIRange from './pages/ProductIRange';
+import ProductHMRange from './pages/ProductHMRange';
 import __Layout from './Layout.jsx';
 
 
@@ -42,6 +44,8 @@ export const PAGES = {
     "ProductPearl": ProductPearl,
     "ProductPearlPlus": ProductPearlPlus,
     "ProductHS40": ProductHS40,
+    "ProductIRange": ProductIRange,
+    "ProductHMRange": ProductHMRange,
 }
 
 export const pagesConfig = {
