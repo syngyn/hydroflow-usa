@@ -23,6 +23,7 @@ import ProductPearl from './pages/ProductPearl';
 import Scale from './pages/Scale';
 import Bio from './pages/Bio';
 import Corrosion from './pages/Corrosion';
+import FiltrationTechnology from './pages/FiltrationTechnology';
 import __Layout from './Layout.jsx';
 
 
@@ -52,6 +53,7 @@ export const PAGES = {
     "Scale": Scale,
     "Bio": Bio,
     "Corrosion": Corrosion,
+    "FiltrationTechnology": FiltrationTechnology,
 }
 
 export const pagesConfig = {
