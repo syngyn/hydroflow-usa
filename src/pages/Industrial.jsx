@@ -251,7 +251,7 @@ export default function Industrial() {
               className="bg-slate-50 rounded-3xl p-8"
             >
               <h3 className="text-2xl font-bold text-slate-900 mb-2">HM Range</h3>
-              <p className="text-cyan-600 font-medium mb-4">Heavy Marine Series</p>
+              <p className="text-cyan-600 font-medium mb-4">Hydropath Marine</p>
               <p className="text-slate-600 mb-6">
                 Specialized units for marine and offshore applications, built to withstand 
                 harsh maritime environments.
