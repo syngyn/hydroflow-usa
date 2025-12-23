@@ -7,39 +7,13 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 const getRecommendedProduct = (hardness) => {
-  if (hardness < 60) {
-    return {
-      name: 'Optional',
-      description: 'Your water is soft. HydroFLOW can still provide biofilm reduction and corrosion protection.',
-      product: 'Pearl',
-      price: 295,
-      benefits: ['Biofilm reduction', 'Corrosion protection', 'Preventive maintenance']
-    };
-  } else if (hardness < 120) {
-    return {
-      name: 'Pearl',
-      description: 'Perfect for moderate hardness levels in apartments and small homes.',
-      product: 'Pearl',
-      price: 295,
-      benefits: ['Scale prevention', 'Appliance protection', 'Easy installation']
-    };
-  } else if (hardness < 240) {
-    return {
-      name: 'Pearl Plus',
-      description: 'Recommended for hard water in standard homes up to 3,000 sq ft.',
-      product: 'Pearl Plus',
-      price: 495,
-      benefits: ['Full home protection', 'Scale prevention', 'Extended appliance life']
-    };
-  } else {
-    return {
-      name: 'Pearl Plus + HS40',
-      description: 'Very hard water requires powerful protection. Consider our bundle solution.',
-      product: 'Bundle',
-      price: 1990,
-      benefits: ['Maximum protection', 'Complete system coverage', 'Industrial strength']
-    };
-  }
+  return {
+    name: 'Pearl Plus',
+    description: 'Our most popular choice for standard homes up to 3,000 sq ft. Perfect for any water hardness level.',
+    product: 'Pearl Plus',
+    price: 495,
+    benefits: ['Full home protection', 'Scale prevention', 'Extended appliance life']
+  };
 };
 
 const getHardnessLevel = (hardness) => {
