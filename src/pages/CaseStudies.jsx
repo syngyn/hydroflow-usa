@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
+import { base44 } from '@/api/base44Client';
+import { useQuery } from '@tanstack/react-query';
 import { motion } from 'framer-motion';
-import { Factory, Building2, Home, Leaf, Ship, ArrowRight, Filter, CheckCircle } from 'lucide-react';
+import { Factory, Building2, Home, Leaf, Ship, ArrowRight, Filter, CheckCircle, X, Settings } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const categories = [
   {
@@ -428,14 +431,45 @@ const caseStudies = [
   }
 ];
 
+const applicationTypes = [
+  'Cooling Towers', 'Boilers', 'HVAC Systems', 'Water Heaters', 'Swimming Pools',
+  'Irrigation', 'Food Processing', 'Wastewater Treatment', 'Heat Exchangers',
+  'Ice Machines', 'Dishwashers', 'Marine Systems', 'Steam Systems', 'Chillers',
+  'Wells', 'Greenhouses', 'Aquaculture', 'Car Wash', 'Golf Course', 'Other'
+];
+
+const products = ['Pearl', 'Pearl Plus', 'HS40', 'I Range', 'HM Range'];
+
 export default function CaseStudies() {
   const [activeCategory, setActiveCategory] = useState('all');
+  const [selectedApplication, setSelectedApplication] = useState('all');
+  const [selectedProduct, setSelectedProduct] = useState('all');
+  const [showFilters, setShowFilters] = useState(false);
 
-  const filteredStudies = activeCategory === 'all' 
-    ? caseStudies 
-    : caseStudies.filter(study => study.category === activeCategory);
+  // Fetch case studies from database
+  const { data: dbCaseStudies = [], isLoading } = useQuery({
+    queryKey: ['caseStudies'],
+    queryFn: () => base44.entities.CaseStudy.list('-created_date', 100),
+    initialData: []
+  });
+
+  // Combine static and database case studies
+  const allCaseStudies = [...caseStudies, ...dbCaseStudies];
+
+  // Apply filters
+  const filteredStudies = allCaseStudies.filter(study => {
+    const categoryMatch = activeCategory === 'all' || study.category === activeCategory;
+    const applicationMatch = selectedApplication === 'all' || 
+      study.application_type?.includes(selectedApplication);
+    const productMatch = selectedProduct === 'all' || 
+      study.products_used?.includes(selectedProduct);
+    
+    return categoryMatch && applicationMatch && productMatch;
+  });
 
   const activeCategoryData = categories.find(cat => cat.id === activeCategory);
+  const activeFiltersCount = [activeCategory, selectedApplication, selectedProduct]
+    .filter(f => f !== 'all').length;
 
   return (
     <div>
@@ -463,9 +497,10 @@ export default function CaseStudies() {
       </section>
 
       {/* Category Filter */}
-      <section className="py-8 bg-white border-b sticky top-0 z-40">
+      <section className="py-6 bg-white border-b sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-3">
+          {/* Industry Categories */}
+          <div className="flex flex-wrap justify-center gap-3 mb-4">
             {categories.map((cat) => {
               const Icon = cat.icon;
               return (
@@ -484,6 +519,80 @@ export default function CaseStudies() {
               );
             })}
           </div>
+
+          {/* Advanced Filters Toggle */}
+          <div className="flex justify-center gap-4">
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors"
+            >
+              <Settings className="w-4 h-4" />
+              Advanced Filters
+              {activeFiltersCount > 0 && (
+                <Badge className="bg-cyan-600 text-white ml-1">{activeFiltersCount}</Badge>
+              )}
+            </button>
+
+            {activeFiltersCount > 0 && (
+              <button
+                onClick={() => {
+                  setActiveCategory('all');
+                  setSelectedApplication('all');
+                  setSelectedProduct('all');
+                }}
+                className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
+              >
+                <X className="w-4 h-4" />
+                Clear All
+              </button>
+            )}
+          </div>
+
+          {/* Advanced Filters Panel */}
+          {showFilters && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              className="mt-4 pt-4 border-t"
+            >
+              <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+                <div>
+                  <label className="block text-sm font-medium text-slate-700 mb-2">
+                    Application Type
+                  </label>
+                  <Select value={selectedApplication} onValueChange={setSelectedApplication}>
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="All Applications" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">All Applications</SelectItem>
+                      {applicationTypes.map((app) => (
+                        <SelectItem key={app} value={app}>{app}</SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-slate-700 mb-2">
+                    Product Used
+                  </label>
+                  <Select value={selectedProduct} onValueChange={setSelectedProduct}>
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="All Products" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="all">All Products</SelectItem>
+                      {products.map((product) => (
+                        <SelectItem key={product} value={product}>{product}</SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+              </div>
+            </motion.div>
+          )}
         </div>
       </section>
 
@@ -509,7 +618,36 @@ export default function CaseStudies() {
       {/* Case Studies Grid */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Results Count */}
+          <div className="mb-6 text-center">
+            <p className="text-slate-600">
+              Showing <span className="font-semibold text-slate-900">{filteredStudies.length}</span> case {filteredStudies.length === 1 ? 'study' : 'studies'}
+              {activeFiltersCount > 0 && (
+                <span> with {activeFiltersCount} active {activeFiltersCount === 1 ? 'filter' : 'filters'}</span>
+              )}
+            </p>
+          </div>
+
+          {isLoading ? (
+            <div className="text-center py-12">
+              <p className="text-slate-600">Loading case studies...</p>
+            </div>
+          ) : filteredStudies.length === 0 ? (
+            <div className="text-center py-12">
+              <p className="text-slate-600 mb-4">No case studies found matching your filters.</p>
+              <Button
+                onClick={() => {
+                  setActiveCategory('all');
+                  setSelectedApplication('all');
+                  setSelectedProduct('all');
+                }}
+                variant="outline"
+              >
+                Clear All Filters
+              </Button>
+            </div>
+          ) : (
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredStudies.map((study, index) => (
               <motion.div
                 key={`${study.category}-${index}`}
@@ -530,7 +668,7 @@ export default function CaseStudies() {
                   )}
                   
                   <div className="p-6">
-                    <div className="flex items-center gap-2 mb-3">
+                    <div className="flex flex-wrap items-center gap-2 mb-3">
                       {(() => {
                         const cat = categories.find(c => c.id === study.category);
                         const Icon = cat?.icon;
@@ -543,6 +681,16 @@ export default function CaseStudies() {
                           </>
                         );
                       })()}
+                      {study.products_used && study.products_used.length > 0 && (
+                        <Badge variant="outline" className="text-xs">
+                          {study.products_used[0]}
+                        </Badge>
+                      )}
+                      {study.application_type && study.application_type.length > 0 && (
+                        <Badge variant="outline" className="text-xs">
+                          {study.application_type[0]}
+                        </Badge>
+                      )}
                     </div>
                     
                     <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-cyan-600 transition-colors">
@@ -568,7 +716,8 @@ export default function CaseStudies() {
                 </Link>
               </motion.div>
             ))}
-          </div>
+            </div>
+          )}
         </div>
       </section>
 
