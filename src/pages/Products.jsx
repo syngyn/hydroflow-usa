@@ -87,7 +87,7 @@ const products = [
   },
   {
     id: 'hm-range',
-    name: 'HMRange',
+    name: 'hmRange',
     category: 'industrial',
     tagline: 'Marine Solutions',
     coverage: 'Marine Vessels',

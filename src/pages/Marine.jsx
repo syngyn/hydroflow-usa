@@ -137,7 +137,7 @@ export default function Marine() {
                 Marine Applications
               </h2>
               <p className="text-lg text-indigo-100/80 mb-8">
-                Our HM Range is specifically designed for marine applications, 
+                Our hm Range is specifically designed for marine applications, 
                 built with marine-grade materials to withstand the harshest conditions.
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
@@ -175,7 +175,7 @@ export default function Marine() {
             className="text-center mb-16"
           >
             <span className="inline-block text-indigo-600 font-semibold text-sm uppercase tracking-wider mb-4">
-              HM Range
+              hm Range
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
               Hydropath Marine
@@ -209,7 +209,7 @@ export default function Marine() {
               <div>
                 <img 
                   src="https://hydroflow-usa.com/wp-content/uploads/2025/10/hm-Range1-1400x788.png"
-                  alt="HM Range Marine Unit"
+                  alt="hm Range Marine Unit"
                   className="w-full max-w-sm mx-auto"
                 />
               </div>
