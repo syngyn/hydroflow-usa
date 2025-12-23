@@ -84,6 +84,31 @@ const caseStudyData = {
       'Reduced maintenance costs and downtime.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/bakery-steam-boilers.pdf'
+  },
+  'water-bath-cooling-system-plastics': {
+    category: 'industrial',
+    title: 'Water Bath Cooling System - Plastics Processing',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg',
+    customer: 'Polystyrene plastics processing facility in the U.S. Northeast',
+    installer: '<i>Hydro</i>FLOW USA',
+    application: 'Recirculating process water cooling system for polystyrene manufacturing with high TDS, bacteria, and algae challenges. System treated with sodium hypochlorite and sodium hydroxide with frequent water blow-downs.',
+    installedUnits: '<i>Hydro</i>FLOW i150 unit installed on 6-inch fiberglass line in full-flow portion of cooling water loop, downstream of filters and upstream of water baths.',
+    background: 'High levels of TDS, bacteria, and algae in the facility\'s recirculating process water caused biofouling challenges in their baths. The system was treated with sodium hypochlorite and sodium hydroxide, while fresh make-up water was used to reduce TDS levels. Customer rented a <i>Hydro</i>FLOW unit for 90 days to evaluate its effectiveness.',
+    successFactors: [
+      'Successful 90-day trial period leading to purchase',
+      'Real-time monitoring with HydroKNCT IoT device planned',
+      'Expansion to other facilities worldwide under consideration',
+      'Optimal chemical and water savings achieved'
+    ],
+    results: [
+      '75% reduction in chlorine usage with free chlorine levels dropping below 0.10ppm',
+      'Complete elimination of algae growth despite reduced chlorine levels',
+      'Conductivity increased from 2,000 to 3,000 µS/cm without scale formation',
+      'Significantly reduced blow-down frequency and make-up water usage',
+      'Improved filtration efficiency with increased solids collection',
+      'Capture of polystyrene fines not typically found in filter system'
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4dfb56b8e_HydroFLOWCaseStudy-WaterBathCoolingSystem-2025.pdf'
   }
 };
 
