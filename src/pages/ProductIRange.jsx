@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
@@ -7,13 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
-const images = [
-  'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png',
-  'https://hydroflow-usa.com/wp-content/uploads/2024/04/products-industrial_1200w.jpg'
-];
-
 export default function ProductIRange() {
-  const [selectedImage, setSelectedImage] = useState(0);
 
   return (
     <div className="min-h-screen bg-white">
@@ -34,33 +28,26 @@ export default function ProductIRange() {
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Image Gallery */}
+            {/* Combined Image */}
             <div>
               <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="bg-slate-50 rounded-3xl p-8 mb-4"
+                className="relative bg-slate-50 rounded-3xl overflow-hidden"
               >
                 <img 
-                  src={images[selectedImage]} 
-                  alt="HydroFLOW i Range"
-                  className="w-full h-96 object-contain"
+                  src="https://hydroflow-usa.com/wp-content/uploads/2024/04/products-industrial_1200w.jpg"
+                  alt="Industrial facility"
+                  className="w-full h-auto object-cover"
                 />
+                <div className="absolute inset-0 flex items-center justify-center p-8">
+                  <img 
+                    src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
+                    alt="HydroFLOW i Range"
+                    className="w-full max-w-md h-auto object-contain drop-shadow-2xl"
+                  />
+                </div>
               </motion.div>
-              
-              <div className="flex gap-2 overflow-x-auto pb-2">
-                {images.map((img, idx) => (
-                  <button
-                    key={idx}
-                    onClick={() => setSelectedImage(idx)}
-                    className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all ${
-                      selectedImage === idx ? 'border-cyan-500' : 'border-slate-200'
-                    }`}
-                  >
-                    <img src={img} alt={`View ${idx + 1}`} className="w-full h-full object-cover" />
-                  </button>
-                ))}
-              </div>
             </div>
 
             {/* Product Info */}
