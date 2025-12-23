@@ -63,7 +63,9 @@ const caseStudies = [
     description: 'EcoTech Solutions installed two HydroFLOW i-Range units to help saving water in a 5.2 million square foot factory in Texas.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/massive-texas-factory-510x510.webp',
     results: ['Water savings', 'Reduced maintenance', 'Scale prevention'],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/08/HydroFLOW-Case-Study-Massive-Texas-Factory-2025-update.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/08/HydroFLOW-Case-Study-Massive-Texas-Factory-2025-update.pdf',
+    application_type: ['Cooling Towers', 'Chillers'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
@@ -72,7 +74,9 @@ const caseStudies = [
     description: 'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/sludge-line-i150.jpg',
     results: ['Reduced scaling', 'Consistent flow rates', 'Lower maintenance'],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf',
+    application_type: ['Wastewater Treatment'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
@@ -107,7 +111,9 @@ const caseStudies = [
     title: 'Honda Cooling Tower',
     description: 'HydroFLOW solved the algae problem in our cooling towers.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/28311495479682-510x510.jpg',
-    results: ['Algae elimination', 'Chemical-free', 'Lower operational costs']
+    results: ['Algae elimination', 'Chemical-free', 'Lower operational costs'],
+    application_type: ['Cooling Towers'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
@@ -142,7 +148,9 @@ const caseStudies = [
     title: '60 HP Low Pressure Steam Boiler',
     description: 'The efficiency of the 60 HP low-pressure steam boiler is expected to further increase as scale continues to be removed.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/10231495480181-510x510.jpg',
-    results: ['Increased efficiency', 'Scale removal', 'Energy savings']
+    results: ['Increased efficiency', 'Scale removal', 'Energy savings'],
+    application_type: ['Boilers', 'Steam Systems'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
@@ -167,7 +175,9 @@ const caseStudies = [
     description: 'The HydroFLOW product has performed superbly well in keeping our water heaters scale free.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/49841495480863-510x510.jpg',
     results: ['Scale-free heaters', 'Full efficiency', 'LEED compliance'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/49731493848513.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/49731493848513.pdf',
+    application_type: ['Water Heaters'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
@@ -176,35 +186,45 @@ const caseStudies = [
     description: 'HydroFLOW significantly reduced limescale and corrosion accumulation in our steam boilers.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/44051495481164-510x510.jpg',
     results: ['Reduced scale', 'Less corrosion', 'Extended equipment life'],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/bakery-steam-boilers.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/bakery-steam-boilers.pdf',
+    application_type: ['Boilers', 'Steam Systems', 'Food Processing'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Sunrise Children\'s Hospital Cooling Tower',
     description: 'After five months chemical-free, there is no hard scale accumulation and biological count is well under 1,000 CFU/ML.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/21871495480480-510x510.jpg',
-    results: ['Chemical-free operation', 'No scale buildup', 'Safe water quality']
+    results: ['Chemical-free operation', 'No scale buildup', 'Safe water quality'],
+    application_type: ['Cooling Towers'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Nellis Air Force Base Cooling Tower',
     description: 'No industrial water treatment chemicals used in the last 9-10 months of operation.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24781495480579-510x510.jpg',
-    results: ['Zero chemical usage', 'Cost savings', 'Environmental benefits']
+    results: ['Zero chemical usage', 'Cost savings', 'Environmental benefits'],
+    application_type: ['Cooling Towers'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'HydroFLOW Cooling Tower Chiller Installation',
     description: 'Medical Center\'s head of maintenance at the 7 month chiller tube inspection: This is the cleanest the chiller tubes had ever been.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/57991495480671-510x510.jpg',
-    results: ['Cleanest ever', 'Medical facility approved', 'Outstanding results']
+    results: ['Cleanest ever', 'Medical facility approved', 'Outstanding results'],
+    application_type: ['Cooling Towers', 'Chillers'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Gold Gym Lap Pool',
     description: 'Operational cost reduction was achieved thanks to HydroFLOW.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/31891495480760-510x510.jpg',
-    results: ['Cost reduction', 'Better water quality', 'Member satisfaction']
+    results: ['Cost reduction', 'Better water quality', 'Member satisfaction'],
+    application_type: ['Swimming Pools'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
@@ -260,7 +280,9 @@ const caseStudies = [
     title: 'Office Building Cooling Towers in US Southeast',
     description: 'After a few short days with HydroFLOW, the CFU count dropped to under 1,000. Other benefits included reduced scale and biofilm.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/56921495481648-510x510.jpg',
-    results: ['Low bacteria count', 'Reduced biofilm', 'Fast results']
+    results: ['Low bacteria count', 'Reduced biofilm', 'Fast results'],
+    application_type: ['Cooling Towers'],
+    products_used: ['HS40']
   },
 
   // Residential
@@ -311,7 +333,9 @@ const caseStudies = [
     title: 'Residential Pool',
     description: 'Swimming pool scale and biofilm control without harsh chemicals.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/97911495482148-510x510.jpg',
-    results: ['Crystal clear water', 'Less chemicals', 'Easier maintenance']
+    results: ['Crystal clear water', 'Less chemicals', 'Easier maintenance'],
+    application_type: ['Swimming Pools'],
+    products_used: ['Pearl Plus']
   },
   {
     category: 'residential',
@@ -334,7 +358,9 @@ const caseStudies = [
     title: 'Municipal Golf Course in Texas',
     description: 'The goal was to increase the overall health of the grass, which was achieved.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24091655247748-510x510.jpg',
-    results: ['Improved grass health', 'Better irrigation', 'Water savings']
+    results: ['Improved grass health', 'Better irrigation', 'Water savings'],
+    application_type: ['Golf Course', 'Irrigation'],
+    products_used: ['I Range']
   },
   {
     category: 'agriculture',
@@ -355,7 +381,9 @@ const caseStudies = [
     title: 'Food Processing Cooling Tower',
     description: 'With HydroFLOW, my cooling tower is much cleaner than it was with chemicals.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/18441495482530-510x510.jpg',
-    results: ['Cleaner than chemicals', 'Food safety', 'Cost effective']
+    results: ['Cleaner than chemicals', 'Food safety', 'Cost effective'],
+    application_type: ['Cooling Towers', 'Food Processing'],
+    products_used: ['HS40']
   },
   {
     category: 'agriculture',
