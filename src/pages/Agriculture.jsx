@@ -178,7 +178,7 @@ export default function Agriculture() {
               viewport={{ once: true }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1df6226ff_agricultural-irrigation-system-watering-fields-on-2024-12-08-00-26-01-utc.jpg"
                 alt="Modern farming"
                 className="rounded-2xl shadow-2xl"
               />
