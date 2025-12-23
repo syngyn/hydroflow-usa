@@ -251,49 +251,63 @@ const caseStudies = [
     title: 'St. Helena Hospital Ice Machine',
     description: 'I would recommend HydroFLOW in ice machine applications, to assist with keeping scale from accumulating on the equipment.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/56141495480858-510x510.jpg',
-    results: ['Scale prevention', 'Clean ice', 'Hospital approved']
+    results: ['Scale prevention', 'Clean ice', 'Hospital approved'],
+    application_type: ['Ice Machines'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Penn State University',
     description: 'Our HydroFLOW units are maintenance free, environmentally friendly, and have saved us thousands of dollars.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/13301495480950-510x510.jpg',
-    results: ['Maintenance-free', 'Eco-friendly', 'Thousands saved']
+    results: ['Maintenance-free', 'Eco-friendly', 'Thousands saved'],
+    application_type: ['HVAC Systems'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'The Melting Pot Restaurant',
     description: 'Our investment in the HydroFLOW unit is expected to pay for itself over a 14 month period.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/25041495481040-510x510.jpg',
-    results: ['14 month ROI', 'Restaurant success', 'Proven savings']
+    results: ['14 month ROI', 'Restaurant success', 'Proven savings'],
+    application_type: ['Dishwashers', 'Food Processing'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Sharonville Fire Department',
     description: 'We would highly recommend the use of HydroFLOW for anyone who has limescale issues.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/50851495481270-510x510.jpg',
-    results: ['Fire department approved', 'Limescale solved', 'High recommendation']
+    results: ['Fire department approved', 'Limescale solved', 'High recommendation'],
+    application_type: ['Water Heaters'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Scale and Bio Treatment in Outdoor Pool',
     description: 'The state inspector claims our pool is the cleanest in the Yakima Valley!',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/96771495481356-510x510.jpg',
-    results: ['Cleanest pool award', 'State inspector approved', 'Outstanding results']
+    results: ['Cleanest pool award', 'State inspector approved', 'Outstanding results'],
+    application_type: ['Swimming Pools'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Premium Car Wash in California',
     description: 'After 6 months of operation, all nozzles are working perfectly; saving water and greatly reducing maintenance costs.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/63811495481448-510x510.jpg',
-    results: ['Water savings', 'Perfect nozzle performance', 'Lower maintenance']
+    results: ['Water savings', 'Perfect nozzle performance', 'Lower maintenance'],
+    application_type: ['Car Wash'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Hotel Hot Water System',
     description: 'Cleaning the tankless water heaters is 75% less frequent and much easier; harsh chemicals are no longer required.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/67881495481553-510x510.jpg',
-    results: ['75% less cleaning', 'No harsh chemicals', 'Easy maintenance']
+    results: ['75% less cleaning', 'No harsh chemicals', 'Easy maintenance'],
+    application_type: ['Water Heaters'],
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
@@ -311,42 +325,54 @@ const caseStudies = [
     title: 'Coliforms in Well Water',
     description: 'HydroFLOW successfully treated coliform bacteria in residential well water.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/28901495146802.jpg',
-    results: ['Bacteria reduction', 'Safe drinking water', 'No chemicals']
+    results: ['Bacteria reduction', 'Safe drinking water', 'No chemicals'],
+    application_type: ['Wells'],
+    products_used: ['Pearl']
   },
   {
     category: 'residential',
     title: 'Plumbing Contractor',
     description: 'Professional plumber testimonial on HydroFLOW performance in residential applications.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/31951495476221.jpg',
-    results: ['Easy installation', 'Proven results', 'Client satisfaction']
+    results: ['Easy installation', 'Proven results', 'Client satisfaction'],
+    application_type: ['Other'],
+    products_used: ['Pearl']
   },
   {
     category: 'residential',
     title: 'Product Evaluation - Tankless Boiler',
     description: 'Residential tankless boiler evaluation showing excellent scale prevention results.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/39421495481748-510x510.jpg',
-    results: ['Tankless protection', 'Scale-free operation', 'Energy efficient']
+    results: ['Tankless protection', 'Scale-free operation', 'Energy efficient'],
+    application_type: ['Boilers', 'Water Heaters'],
+    products_used: ['Pearl']
   },
   {
     category: 'residential',
     title: 'Residential Well',
     description: 'Complete well water treatment solution for hard water issues.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36701495481855-510x510.jpg',
-    results: ['Scale prevention', 'Improved water quality', 'Appliance protection']
+    results: ['Scale prevention', 'Improved water quality', 'Appliance protection'],
+    application_type: ['Wells'],
+    products_used: ['Pearl']
   },
   {
     category: 'residential',
     title: 'Residential Complex',
     description: 'Multi-unit residential complex solved hard water problems building-wide.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/91531495481950-510x510.jpg',
-    results: ['Building-wide solution', 'Tenant satisfaction', 'Reduced complaints']
+    results: ['Building-wide solution', 'Tenant satisfaction', 'Reduced complaints'],
+    application_type: ['Other'],
+    products_used: ['Pearl Plus']
   },
   {
     category: 'residential',
     title: 'Residential Dishwasher',
     description: 'Dishwasher performance improved dramatically with HydroFLOW treatment.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/40401495482049-510x510.jpg',
-    results: ['Spot-free dishes', 'No rinse aid needed', 'Cleaner results']
+    results: ['Spot-free dishes', 'No rinse aid needed', 'Cleaner results'],
+    application_type: ['Dishwashers'],
+    products_used: ['Pearl']
   },
   {
     category: 'residential',
@@ -362,14 +388,18 @@ const caseStudies = [
     title: 'Residential Tower',
     description: 'High-rise residential tower with comprehensive water treatment solution.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/96881495482243-510x510.jpg',
-    results: ['Multi-floor coverage', 'Consistent results', 'Resident satisfaction']
+    results: ['Multi-floor coverage', 'Consistent results', 'Resident satisfaction'],
+    application_type: ['Other'],
+    products_used: ['Pearl Plus']
   },
   {
     category: 'residential',
     title: 'Residential Water Heater',
     description: 'Water heater protection and efficiency improvement.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/26191495482338-510x510.jpg',
-    results: ['Extended heater life', 'Lower energy bills', 'No scale buildup']
+    results: ['Extended heater life', 'Lower energy bills', 'No scale buildup'],
+    application_type: ['Water Heaters'],
+    products_used: ['Pearl']
   },
 
   // Agriculture
@@ -387,14 +417,18 @@ const caseStudies = [
     title: 'Long Stem Rose Growth',
     description: 'The grower wanted to see how HydroFLOW could increase the output from his greenhouses.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2024/03/Long-Stem-Rose-picture-for-the-case-study-2.jpg',
-    results: ['Increased yield', 'Better quality', 'Healthier plants']
+    results: ['Increased yield', 'Better quality', 'Healthier plants'],
+    application_type: ['Greenhouses', 'Irrigation'],
+    products_used: ['I Range']
   },
   {
     category: 'agriculture',
     title: 'HydroFLOW Reduces Algae Growth',
     description: 'With HydroFLOW the reduction in algae growth was dramatic.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/71851495482439-510x510.jpg',
-    results: ['Dramatic algae reduction', 'Cleaner water', 'Better crop health']
+    results: ['Dramatic algae reduction', 'Cleaner water', 'Better crop health'],
+    application_type: ['Irrigation'],
+    products_used: ['I Range']
   },
   {
     category: 'agriculture',
@@ -410,28 +444,36 @@ const caseStudies = [
     title: 'Increased Crop Yield Experiment',
     description: 'Both plots with HydroFLOW obtained better yield than the control plot.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/38001495482627-510x510.jpg',
-    results: ['Higher yields', 'Better quality', 'Proven results']
+    results: ['Higher yields', 'Better quality', 'Proven results'],
+    application_type: ['Irrigation'],
+    products_used: ['I Range']
   },
   {
     category: 'agriculture',
     title: 'Orchard - Scale on Apples',
     description: 'Scale deposits accumulate as fine powder which is very easy to remove.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/57771495482721-510x510.jpg',
-    results: ['Easy cleaning', 'Better fruit quality', 'Less maintenance']
+    results: ['Easy cleaning', 'Better fruit quality', 'Less maintenance'],
+    application_type: ['Irrigation'],
+    products_used: ['I Range']
   },
   {
     category: 'agriculture',
     title: 'Aquavet Clinical Evaluation - Fish Health',
     description: 'During 90 days of observation, the overall tilapia survival rate was considerably higher with HydroFLOW.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34201495482816-510x510.jpg',
-    results: ['Higher survival rates', 'Parasite prevention', 'Healthier fish']
+    results: ['Higher survival rates', 'Parasite prevention', 'Healthier fish'],
+    application_type: ['Aquaculture'],
+    products_used: ['I Range']
   },
   {
     category: 'agriculture',
     title: 'HydroFLOW Reduces Biofilm at Baron Farms',
     description: 'We are very pleased with the results and are happy with the HydroFLOW S-38! Thank you Hydroflow!',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/65821495482910-510x510.jpg',
-    results: ['Biofilm reduction', 'Farmer satisfaction', 'Clean systems']
+    results: ['Biofilm reduction', 'Farmer satisfaction', 'Clean systems'],
+    application_type: ['Irrigation'],
+    products_used: ['I Range']
   },
 
   // Marine
@@ -440,42 +482,54 @@ const caseStudies = [
     title: 'U.S. Navy Seafighter',
     description: 'HydroFLOW succeeded in keeping the strainer free of biofouling for a much longer period.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/seafighter-510x510.webp',
-    results: ['Extended maintenance intervals', 'Biofouling prevention', 'Naval approved']
+    results: ['Extended maintenance intervals', 'Biofouling prevention', 'Naval approved'],
+    application_type: ['Marine Systems'],
+    products_used: ['HM Range']
   },
   {
     category: 'marine',
     title: 'MV Hermes Leader - Replacement of UV-System',
     description: 'Water test results showed no trace of any bacteria.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/40231495151554-510x510.jpg',
-    results: ['Bacteria-free water', 'UV replacement', 'Cost savings']
+    results: ['Bacteria-free water', 'UV replacement', 'Cost savings'],
+    application_type: ['Marine Systems'],
+    products_used: ['HM Range']
   },
   {
     category: 'marine',
     title: 'Ray Shipping Equips Fleet with Hydropath',
     description: 'Completely reduced vessel scale buildup, reduced bacteria corrosion and saved labor work and money.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/79081495752087-510x510.jpg',
-    results: ['Fleet-wide success', 'Scale elimination', 'Labor savings']
+    results: ['Fleet-wide success', 'Scale elimination', 'Labor savings'],
+    application_type: ['Marine Systems'],
+    products_used: ['HM Range']
   },
   {
     category: 'marine',
     title: 'Anglo Eastern - Freshwater Generator',
     description: 'Freshwater generator is free of scale, and chemical dosing is no longer required.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/78611495752951-510x510.jpg',
-    results: ['Scale-free operation', 'No chemicals needed', 'Reliable performance']
+    results: ['Scale-free operation', 'No chemicals needed', 'Reliable performance'],
+    application_type: ['Marine Systems'],
+    products_used: ['HM Range']
   },
   {
     category: 'marine',
     title: 'MV Hoegh Antwerp - Scale Prevention',
     description: 'No scale buildup was found during opening and no chemicals were required for cleaning.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/88651495664646-510x510.jpg',
-    results: ['Zero scale buildup', 'Chemical-free cleaning', 'Easy maintenance']
+    results: ['Zero scale buildup', 'Chemical-free cleaning', 'Easy maintenance'],
+    application_type: ['Marine Systems'],
+    products_used: ['HM Range']
   },
   {
     category: 'marine',
     title: 'Car Carrier - Main Cooling System',
     description: 'The particle filter at the bottom of the unit was found clean of barnacles and was easily washed.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/42481495666712-510x510.jpg',
-    results: ['Barnacle-free', 'Easy cleaning', 'System protection']
+    results: ['Barnacle-free', 'Easy cleaning', 'System protection'],
+    application_type: ['Marine Systems'],
+    products_used: ['HM Range']
   }
 ];
 
