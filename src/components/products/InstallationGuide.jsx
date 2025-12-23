@@ -77,10 +77,10 @@ export default function InstallationGuide({
             <Info className="w-5 h-5 text-cyan-600" />
             Components & Tools Needed
           </h4>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {components.map((component, idx) => (
-              <TooltipProvider key={idx}>
-                <Tooltip>
+          <TooltipProvider>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {components.map((component, idx) => (
+                <Tooltip key={idx}>
                   <TooltipTrigger asChild>
                     <div className="flex items-center gap-2 p-3 bg-white rounded-lg cursor-help hover:shadow-sm transition-shadow">
                       <div className="w-2 h-2 rounded-full bg-cyan-500" />
@@ -92,9 +92,9 @@ export default function InstallationGuide({
                     <p className="max-w-xs">{component.description}</p>
                   </TooltipContent>
                 </Tooltip>
-              </TooltipProvider>
-            ))}
-          </div>
+              ))}
+            </div>
+          </TooltipProvider>
         </Card>
       )}
 
