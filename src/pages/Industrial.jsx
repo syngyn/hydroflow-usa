@@ -2,9 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { Factory, Shield, DollarSign, Leaf, Zap, ArrowRight, CheckCircle2, FileText, Download } from 'lucide-react';
+import { Factory, Shield, DollarSign, Leaf, Zap, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 
 const benefits = [
   {
@@ -188,120 +187,6 @@ export default function Industrial() {
               </div>
             </motion.div>
           </div>
-        </div>
-      </section>
-
-      {/* Case Study */}
-      <section className="py-24 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
-              Case Study
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              Industrial Success Story
-            </h2>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="bg-white rounded-3xl overflow-hidden shadow-xl"
-          >
-            <div className="grid md:grid-cols-2">
-              <div className="p-8 md:p-12">
-                <div className="flex items-center gap-3 mb-6">
-                  <Badge className="bg-cyan-100 text-cyan-700 hover:bg-cyan-100">
-                    Food Processing
-                  </Badge>
-                  <Badge variant="outline">i150 Unit</Badge>
-                </div>
-                
-                <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
-                  Water Bath Cooling System
-                </h3>
-                
-                <p className="text-slate-600 mb-6">
-                  A polystyrene plastics processing facility in the U.S. Northeast successfully 
-                  reduced biofouling challenges and chemical usage with HydroFLOW i150.
-                </p>
-
-                <div className="space-y-4 mb-8">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-500 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-slate-900">75% Chlorine Reduction</p>
-                      <p className="text-sm text-slate-600">Significant chemical savings with no algae growth</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-500 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-slate-900">50% Increase in Operating Conductivity</p>
-                      <p className="text-sm text-slate-600">From 2,000 to 3,000 µS/cm without scale formation</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-500 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-slate-900">Improved Filtration Efficiency</p>
-                      <p className="text-sm text-slate-600">Capturing more solids including polystyrene fines</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-500 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-slate-900">Reduced Water Consumption</p>
-                      <p className="text-sm text-slate-600">Lower blow-down frequency and make-up water usage</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <a 
-                    href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/cca8ce8c8_HydroFLOWCaseStudy-WaterBathCoolingSystem-2025.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1"
-                  >
-                    <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-full py-6">
-                      <Download className="w-4 h-4 mr-2" />
-                      Download Full Case Study
-                    </Button>
-                  </a>
-                  <Link to={createPageUrl('Contact')} className="flex-1">
-                    <Button variant="outline" className="w-full rounded-full py-6">
-                      Contact Us
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-
-              <div className="bg-slate-100 p-8 md:p-12 flex items-center justify-center">
-                <div className="space-y-4">
-                  <img 
-                    src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
-                    alt="HydroFLOW i150"
-                    className="w-full max-w-sm mx-auto"
-                  />
-                  <div className="bg-white rounded-xl p-6 text-center">
-                    <p className="text-sm text-slate-500 mb-1">Installed</p>
-                    <p className="text-lg font-semibold text-slate-900">June 2025</p>
-                    <p className="text-sm text-slate-500 mt-3 mb-1">Status</p>
-                    <Badge className="bg-green-100 text-green-700 hover:bg-green-100">
-                      Active & Successful
-                    </Badge>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </section>
 
