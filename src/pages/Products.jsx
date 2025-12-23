@@ -235,14 +235,16 @@ export default function Products() {
                   </div>
 
                   {/* CTA */}
-                  <Button className={`w-full rounded-full py-6 font-semibold transition-all ${
-                    product.popular 
-                      ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
-                      : 'bg-slate-900 hover:bg-slate-800 text-white'
-                  }`}>
-                    {product.price ? 'Add to Cart' : 'Contact Us'}
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Button>
+                  <Link to={createPageUrl(`Product${product.name.replace(' ', '')}`)}>
+                    <Button className={`w-full rounded-full py-6 font-semibold transition-all ${
+                      product.popular 
+                        ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
+                        : 'bg-slate-900 hover:bg-slate-800 text-white'
+                    }`}>
+                      {product.price ? 'View Details' : 'Contact Us'}
+                      <ArrowRight className="w-4 h-4 ml-2" />
+                    </Button>
+                  </Link>
                 </div>
               </motion.div>
             ))}

@@ -15,6 +15,9 @@ import Residential from './pages/Residential';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import ProductPearl from './pages/ProductPearl';
+import ProductPearlPlus from './pages/ProductPearlPlus';
+import ProductHS40 from './pages/ProductHS40';
 import __Layout from './Layout.jsx';
 
 
@@ -36,6 +39,9 @@ export const PAGES = {
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
     "WaterHardnessMap": WaterHardnessMap,
+    "ProductPearl": ProductPearl,
+    "ProductPearlPlus": ProductPearlPlus,
+    "ProductHS40": ProductHS40,
 }
 
 export const pagesConfig = {
