@@ -260,6 +260,46 @@ export default function ProductHS40() {
         </div>
       </section>
 
+      {/* Customer Reviews */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-slate-900 mb-2">Customer Reviews</h2>
+          <div className="flex items-center gap-4 mb-8">
+            <div className="flex items-center">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className={`w-5 h-5 ${i < 5 ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`} />
+              ))}
+            </div>
+            <span className="text-slate-600">4.79 out of 5 based on 43 reviews</span>
+          </div>
+
+          <div className="space-y-6">
+            {[
+              { name: 'Ross', date: 'April 15, 2022', rating: 5, text: 'Purchased this for my pool. Contacted them directly to explain where to install it. So far it\'s been running for a month and seems to be controlling algae nicely. I plan to start rolling back my chlorine usage in the coming weeks to see how it fares.' },
+              { name: 'Tim Drew', date: 'November 1, 2021', rating: 5, text: 'Installed this product on my pool. I was so glad to see that I could keep the hardness in my pool without the problems. Anyone who owns a pool knows that if you don\'t keep the water semi-hard it will start to eat away at the concrete in the floor and sides of the pool. This fixed an issue that I wasn\'t expecting it to. Great product!' },
+              { name: 'James Carnegie', date: 'October 4, 2016', rating: 5, text: 'Installed myself. Working well. Would recommend.' },
+              { name: 'Tom Morris', date: 'August 9, 2016', rating: 4, text: 'Good product overall, does what it promises.' },
+              { name: 'Mike Johnson', date: 'June 12, 2016', rating: 5, text: 'Best investment for my pool maintenance. Scale buildup is completely gone.' }
+            ].map((review, idx) => (
+              <div key={idx} className="bg-white rounded-xl p-6 shadow-sm">
+                <div className="flex items-start justify-between mb-3">
+                  <div>
+                    <p className="font-semibold text-slate-900">{review.name}</p>
+                    <p className="text-sm text-slate-500">{review.date}</p>
+                  </div>
+                  <div className="flex">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className={`w-4 h-4 ${i < review.rating ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`} />
+                    ))}
+                  </div>
+                </div>
+                <p className="text-slate-700">{review.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Related Products */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

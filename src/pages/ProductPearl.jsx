@@ -238,6 +238,46 @@ export default function ProductPearl() {
         </div>
       </section>
 
+      {/* Customer Reviews */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-slate-900 mb-2">Customer Reviews</h2>
+          <div className="flex items-center gap-4 mb-8">
+            <div className="flex items-center">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className={`w-5 h-5 ${i < 4 ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`} />
+              ))}
+            </div>
+            <span className="text-slate-600">4.38 out of 5 based on 56 reviews</span>
+          </div>
+
+          <div className="space-y-6">
+            {[
+              { name: 'Toby Knudtson', date: 'October 16, 2025', rating: 5, text: 'This product works exactly how its described. I dont understand why some people are reviewing your product are expecting it to lower the water hardness lol. I love the fact I no longer have to exchange my calcium for salt.' },
+              { name: 'Barbara', date: 'September 1, 2022', rating: 4, text: 'When I bought this unit I had no idea what size to get. I just noticed the product selection tool and should have used that to figure out what to buy. Turns out I should have bought the s38. Oh well Ill give this to my kid since she lives in an apartment' },
+              { name: 'Jasons S.', date: 'August 1, 2017', rating: 4, text: 'Way easier than water softener.' },
+              { name: 'Joe Gale', date: 'September 14, 2016', rating: 5, text: 'I got my HS38 three months ago. I installed it myself. Works great.' },
+              { name: 'Noah', date: 'May 9, 2017', rating: 5, text: 'really like it, works better then my old water softener' }
+            ].map((review, idx) => (
+              <div key={idx} className="bg-white rounded-xl p-6 shadow-sm">
+                <div className="flex items-start justify-between mb-3">
+                  <div>
+                    <p className="font-semibold text-slate-900">{review.name}</p>
+                    <p className="text-sm text-slate-500">{review.date}</p>
+                  </div>
+                  <div className="flex">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className={`w-4 h-4 ${i < review.rating ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`} />
+                    ))}
+                  </div>
+                </div>
+                <p className="text-slate-700">{review.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Related Products */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
