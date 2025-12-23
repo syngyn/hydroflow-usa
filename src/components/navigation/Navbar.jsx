@@ -35,7 +35,16 @@ export default function Navbar() {
         { name: 'Marine', href: 'Marine' },
       ]
     },
-    { name: 'Technology', href: 'Technology' },
+    { 
+      name: 'Technology', 
+      dropdown: [
+        { name: 'How It Works', href: 'Technology' },
+        { name: 'Scale', href: 'Scale' },
+        { name: 'Bio', href: 'Bio' },
+        { name: 'Filtration', href: 'Filtration' },
+        { name: 'Corrosion', href: 'Corrosion' },
+      ]
+    },
     { name: 'Products', href: 'Products' },
     { 
       name: 'Blog', 
