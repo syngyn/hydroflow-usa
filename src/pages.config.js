@@ -21,6 +21,8 @@ import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import ProductPearl from './pages/ProductPearl';
 import Scale from './pages/Scale';
+import Bio from './pages/Bio';
+import Corrosion from './pages/Corrosion';
 import __Layout from './Layout.jsx';
 
 
@@ -48,6 +50,8 @@ export const PAGES = {
     "WaterHardnessMap": WaterHardnessMap,
     "ProductPearl": ProductPearl,
     "Scale": Scale,
+    "Bio": Bio,
+    "Corrosion": Corrosion,
 }
 
 export const pagesConfig = {
