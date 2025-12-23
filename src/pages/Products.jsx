@@ -260,7 +260,7 @@ export default function Products() {
                         ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
                         : 'bg-slate-900 hover:bg-slate-800 text-white'
                     }`}>
-                      {product.price ? 'View Details' : 'Contact Us'}
+                      View Details
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </Button>
                   </Link>
