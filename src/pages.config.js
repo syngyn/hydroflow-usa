@@ -6,6 +6,7 @@ import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
 import Commercial from './pages/Commercial';
 import Contact from './pages/Contact';
+import Filtration from './pages/Filtration';
 import Home from './pages/Home';
 import Industrial from './pages/Industrial';
 import Marine from './pages/Marine';
@@ -14,7 +15,6 @@ import Residential from './pages/Residential';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import Filtration from './pages/Filtration';
 import __Layout from './Layout.jsx';
 
 
@@ -27,6 +27,7 @@ export const PAGES = {
     "CaseStudyDetail": CaseStudyDetail,
     "Commercial": Commercial,
     "Contact": Contact,
+    "Filtration": Filtration,
     "Home": Home,
     "Industrial": Industrial,
     "Marine": Marine,
@@ -35,7 +36,6 @@ export const PAGES = {
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
     "WaterHardnessMap": WaterHardnessMap,
-    "Filtration": Filtration,
 }
 
 export const pagesConfig = {
