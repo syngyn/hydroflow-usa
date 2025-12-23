@@ -40,7 +40,7 @@ export default function ProductIRange() {
                   alt="Industrial facility"
                   className="w-full h-auto object-cover"
                 />
-                <div className="absolute inset-0 flex items-center justify-center p-8">
+                <div className="absolute inset-0 flex items-center justify-end p-8 pr-12">
                   <img 
                     src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
                     alt="HydroFLOW i Range"
