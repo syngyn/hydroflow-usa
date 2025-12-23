@@ -6,6 +6,7 @@ import { Star, Check, Package, Shield, Zap, ArrowRight, ChevronLeft, ChevronRigh
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import InstallationGuide from '@/components/products/InstallationGuide';
 
 const images = [
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/pearl-transparent.webp',
@@ -210,25 +211,92 @@ export default function ProductPearl() {
             </TabsContent>
 
             <TabsContent value="installation">
-              <div className="bg-white rounded-xl p-6">
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">Installation Instructions</h3>
-                <p className="text-slate-700 mb-6">
-                  HydroFLOW residential devices are designed for ease of installation. With this said, it may be necessary to have your unit installed professionally, depending on the configuration of your plumbing system.
-                </p>
-                <div className="aspect-video bg-slate-100 rounded-xl mb-6 flex items-center justify-center">
-                  <p className="text-slate-500">Installation Video</p>
-                </div>
-                <div className="space-y-2">
-                  <Button variant="outline" className="w-full justify-start">
-                    <Package className="w-4 h-4 mr-2" />
-                    Download Pearl User Guide (PDF)
-                  </Button>
-                  <Button variant="outline" className="w-full justify-start">
-                    <Package className="w-4 h-4 mr-2" />
-                    Download Residential Brochure (PDF)
-                  </Button>
-                </div>
-              </div>
+              <InstallationGuide
+                estimatedTime="15-20 minutes"
+                videoUrl="https://player.vimeo.com/video/794553225"
+                pdfUrl="https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Pearl-User-Guide-January-2023.pdf"
+                components={[
+                  { name: "HydroFLOW Pearl Unit", description: "The main water conditioning device" },
+                  { name: "Power Supply (12V DC)", description: "Included adapter to power the unit" },
+                  { name: "Transducer Cable", description: "Wraps around your water pipe" },
+                  { name: "Zip Ties", description: "For securing the transducer" },
+                  { name: "Adjustable Wrench (optional)", description: "If accessing difficult pipe locations" }
+                ]}
+                steps={[
+                  {
+                    title: "Turn Off Water Supply",
+                    summary: "Safety first - shut off water to the installation area",
+                    description: "Before beginning installation, locate and turn off the water supply to ensure a safe working environment. This is not always necessary but recommended for peace of mind.",
+                    details: [
+                      "Locate your main water shutoff valve (usually near the water meter)",
+                      "Turn the valve clockwise until fully closed",
+                      "Open a faucet to release pressure in the lines"
+                    ],
+                    tip: "Take a photo of the valve location for future reference"
+                  },
+                  {
+                    title: "Choose Installation Location",
+                    summary: "Select the optimal spot on your main water line",
+                    description: "The Pearl works best when installed on the main water line after the meter, or directly before specific equipment you want to protect.",
+                    details: [
+                      "Identify copper, PVC, or PEX pipe up to 1\" outer diameter",
+                      "Choose a location within 3 meters of a power outlet",
+                      "Ensure the pipe is clean and accessible",
+                      "Leave 6 inches of straight pipe on either side"
+                    ],
+                    warning: "Do not install on pipes larger than 1\" diameter - the Pearl is designed for smaller applications",
+                    tip: "For RVs or apartments, install as close to the water entry point as possible"
+                  },
+                  {
+                    title: "Wrap the Transducer",
+                    summary: "Attach the signal-inducing transducer around the pipe",
+                    description: "The transducer is what sends the HydroFLOW signal through your water system. Proper wrapping ensures optimal performance.",
+                    details: [
+                      "Clean the pipe surface where you'll wrap the transducer",
+                      "Wrap the transducer cable tightly around the pipe in a coil",
+                      "Ensure coils are touching and cover about 4-6 inches of pipe",
+                      "Secure with provided zip ties"
+                    ],
+                    tip: "The tighter the wrap, the better the signal transmission. Make sure there are no gaps between coils."
+                  },
+                  {
+                    title: "Mount the Control Unit",
+                    summary: "Position the Pearl unit near the transducer",
+                    description: "Mount the HydroFLOW Pearl control unit within reach of the transducer cable.",
+                    details: [
+                      "Find a dry location near the pipe (within cable reach)",
+                      "Mount using screws or adhesive (mounting hardware included)",
+                      "Ensure LED indicators are visible for monitoring",
+                      "Keep away from direct water exposure"
+                    ],
+                    warning: "Do not mount in areas with excessive moisture or direct water spray"
+                  },
+                  {
+                    title: "Connect Power Supply",
+                    summary: "Plug in the 12V DC adapter",
+                    description: "Connect the included power supply to activate your HydroFLOW Pearl unit.",
+                    details: [
+                      "Connect the 12V DC adapter to the Pearl unit",
+                      "Plug the adapter into a standard 110V outlet",
+                      "Verify the LED indicator lights up (shows signal transmission)",
+                      "The unit will begin working immediately"
+                    ],
+                    tip: "Use a surge protector for added electrical protection"
+                  },
+                  {
+                    title: "Test and Verify",
+                    summary: "Confirm proper installation and operation",
+                    description: "Final checks to ensure your Pearl is working correctly and protecting your water system.",
+                    details: [
+                      "Turn water supply back on slowly",
+                      "Check for any leaks (there shouldn't be any since no pipes were cut)",
+                      "Verify LED indicator is lit and flashing",
+                      "Run water at a fixture and listen for the unit's operation"
+                    ],
+                    tip: "The LED will flash to indicate the signal is propagating through your water system. This is normal operation."
+                  }
+                ]}
+              />
             </TabsContent>
           </Tabs>
         </div>
