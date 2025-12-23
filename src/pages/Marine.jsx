@@ -34,7 +34,6 @@ const applications = [
   'Fishing Boats',
   'Offshore Platforms',
   'Marine Cooling Systems',
-  'Ballast Water Treatment',
   'Engine Cooling',
   'HVAC Systems'
 ];
