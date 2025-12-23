@@ -110,14 +110,10 @@ export default function ProductPearl() {
                 </Button>
               </div>
 
-              <div className="grid grid-cols-3 gap-4 mb-8">
+              <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="text-center p-4 bg-slate-50 rounded-xl">
                   <Shield className="w-6 h-6 text-cyan-600 mx-auto mb-2" />
                   <p className="text-sm font-semibold">5 Year Warranty</p>
-                </div>
-                <div className="text-center p-4 bg-slate-50 rounded-xl">
-                  <Package className="w-6 h-6 text-cyan-600 mx-auto mb-2" />
-                  <p className="text-sm font-semibold">Free Shipping</p>
                 </div>
                 <div className="text-center p-4 bg-slate-50 rounded-xl">
                   <Zap className="w-6 h-6 text-cyan-600 mx-auto mb-2" />
