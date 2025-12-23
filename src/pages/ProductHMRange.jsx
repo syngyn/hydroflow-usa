@@ -25,7 +25,7 @@ export default function ProductHMRange() {
             <span>/</span>
             <Link to={createPageUrl('Products')} className="hover:text-cyan-600">Products</Link>
             <span>/</span>
-            <span className="text-slate-900">HM Range</span>
+            <span className="text-slate-900">hm Range</span>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ export default function ProductHMRange() {
               >
                 <img 
                   src={images[selectedImage]} 
-                  alt="HydroFLOW HM Range"
+                  alt="HydroFLOW hm Range"
                   className="w-full h-96 object-contain"
                 />
               </motion.div>
@@ -71,11 +71,11 @@ export default function ProductHMRange() {
               </Badge>
               
               <h1 className="text-4xl font-bold text-slate-900 mb-4">
-                <i>Hydro</i>FLOW <i>HM</i> Range
+                <i>Hydro</i>FLOW <i>hm</i> Range
               </h1>
 
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                The Hydropath Marine HM Range is specifically designed for operation on marine vessels. It provides water treatment benefits, including scale protection and biofouling control, in both fresh and sea water. Fully encapsulated and waterproof with IP68 rating and specially-designed surge protector.
+                The Hydropath Marine hm Range is specifically designed for operation on marine vessels. It provides water treatment benefits, including scale protection and biofouling control, in both fresh and sea water. Fully encapsulated and waterproof with IP68 rating and specially-designed surge protector.
               </p>
 
               <div className="mb-6">
@@ -250,8 +250,8 @@ export default function ProductHMRange() {
                 <div className="space-y-3">
                   {[
                     'Hydropath Marine Brochure',
-                    'HydroFLOW HM Range Specifications',
-                    'HydroFLOW HM Range Installation Guide'
+                    'HydroFLOW hm Range Specifications',
+                    'HydroFLOW hm Range Installation Guide'
                   ].map((doc) => (
                     <Button key={doc} variant="outline" className="w-full justify-start">
                       <Package className="w-4 h-4 mr-2" />
