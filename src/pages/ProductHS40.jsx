@@ -28,7 +28,7 @@ export default function ProductHS40() {
             <span>/</span>
             <Link to={createPageUrl('Products')} className="hover:text-cyan-600">Products</Link>
             <span>/</span>
-            <span className="text-slate-900">HS40</span>
+            <span className="text-slate-900">hs40</span>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function ProductHS40() {
               >
                 <img 
                   src={images[selectedImage]} 
-                  alt="HydroFLOW HS40"
+                  alt="HydroFLOW hs40"
                   className="w-full h-96 object-contain"
                 />
               </motion.div>
@@ -77,7 +77,7 @@ export default function ProductHS40() {
               </div>
               
               <h1 className="text-4xl font-bold text-slate-900 mb-4">
-                <i>Hydro</i>FLOW HS40
+                <i>Hydro</i>FLOW hs40
               </h1>
 
               <div className="flex items-center gap-4 mb-4">
@@ -243,7 +243,7 @@ export default function ProductHS40() {
                 <div className="space-y-2">
                   <Button variant="outline" className="w-full justify-start">
                     <Package className="w-4 h-4 mr-2" />
-                    Download HS40 User Guide (PDF)
+                    Download hs40 User Guide (PDF)
                   </Button>
                   <Button variant="outline" className="w-full justify-start">
                     <Package className="w-4 h-4 mr-2" />

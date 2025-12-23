@@ -129,10 +129,10 @@ export default function Commercial() {
                 Featured Product
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                HS40 Commercial Grade
+                hs40 Commercial Grade
               </h2>
               <p className="text-lg text-slate-600 mb-6">
-                The HS40 is our go-to solution for light commercial applications, including 
+                The hs40 is our go-to solution for light commercial applications, including 
                 pools, spas, restaurants, and small businesses.
               </p>
               <ul className="space-y-3 mb-8">
@@ -154,7 +154,7 @@ export default function Commercial() {
               </div>
               <Link to={createPageUrl('Products')}>
                 <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 font-semibold">
-                  View HS40
+                  View hs40
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
@@ -169,7 +169,7 @@ export default function Commercial() {
               <div className="bg-white rounded-3xl p-8 shadow-xl">
                 <img 
                   src="https://hydroflow-usa.com/wp-content/uploads/2024/10/hs40-grey-background-800x800.webp"
-                  alt="HydroFLOW HS40"
+                  alt="HydroFLOW hs40"
                   className="w-full max-w-md mx-auto"
                 />
               </div>

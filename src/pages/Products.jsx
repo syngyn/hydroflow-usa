@@ -49,7 +49,7 @@ const products = [
   },
   {
     id: 'hs40',
-    name: 'HS40',
+    name: 'hs40',
     category: 'commercial',
     tagline: 'Commercial Grade Power',
     coverage: 'Pools, Spas & Light Commercial',
