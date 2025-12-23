@@ -57,7 +57,7 @@ const products = [
     price: 1990,
     rating: 4.79,
     reviews: 43,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/hs40-grey-background-800x800.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png',
     features: [
       'Swimming pools',
       'Hot tubs and spas',
