@@ -249,6 +249,46 @@ export default function ProductPearlPlus() {
         </div>
       </section>
 
+      {/* Customer Reviews */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-slate-900 mb-2">Customer Reviews</h2>
+          <div className="flex items-center gap-4 mb-8">
+            <div className="flex items-center">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className={`w-5 h-5 ${i < 4 ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`} />
+              ))}
+            </div>
+            <span className="text-slate-600">4.46 out of 5 based on 72 reviews</span>
+          </div>
+
+          <div className="space-y-6">
+            {[
+              { name: 'Tammy', date: 'October 16, 2025', rating: 5, text: 'Great product very happy with how it makes cleaning scale up easy.' },
+              { name: 'Kevin Q', date: 'March 4, 2025', rating: 4, text: 'I was not sure where will be the best place to install the Pear Plus that I purchased on Amazon, I called HydroFLOW USA and they were a great help with locating the best location.' },
+              { name: 'Jason Blinder', date: 'February 24, 2025', rating: 5, text: 'Went ahead with the unit and seems like its working. Seems like dishes are cleaner and descaling of my water heater.' },
+              { name: 'Rob', date: 'December 9, 2024', rating: 5, text: 'No more descaling the tea kettle or cleaning the shower head. Just one month in and I am very pleased with the results. Highly recommend this device.' },
+              { name: 'Scott Kelley', date: 'November 19, 2024', rating: 5, text: 'Great product!! I highly recommend it, I researched all the products out there and this is the best one.' }
+            ].map((review, idx) => (
+              <div key={idx} className="bg-white rounded-xl p-6 shadow-sm">
+                <div className="flex items-start justify-between mb-3">
+                  <div>
+                    <p className="font-semibold text-slate-900">{review.name}</p>
+                    <p className="text-sm text-slate-500">{review.date}</p>
+                  </div>
+                  <div className="flex">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className={`w-4 h-4 ${i < review.rating ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`} />
+                    ))}
+                  </div>
+                </div>
+                <p className="text-slate-700">{review.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Related Products */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
