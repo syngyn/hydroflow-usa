@@ -10,16 +10,17 @@ import Filtration from './pages/Filtration';
 import Home from './pages/Home';
 import Industrial from './pages/Industrial';
 import Marine from './pages/Marine';
+import ProductHMRange from './pages/ProductHMRange';
+import ProductHS40 from './pages/ProductHS40';
+import ProductIRange from './pages/ProductIRange';
+import ProductPearlPlus from './pages/ProductPearlPlus';
 import Products from './pages/Products';
 import Residential from './pages/Residential';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import ProductPearl from './pages/ProductPearl';
-import ProductPearlPlus from './pages/ProductPearlPlus';
-import ProductHS40 from './pages/ProductHS40';
-import ProductIRange from './pages/ProductIRange';
-import ProductHMRange from './pages/ProductHMRange';
+import Scale from './pages/Scale';
 import __Layout from './Layout.jsx';
 
 
@@ -36,16 +37,17 @@ export const PAGES = {
     "Home": Home,
     "Industrial": Industrial,
     "Marine": Marine,
+    "ProductHMRange": ProductHMRange,
+    "ProductHS40": ProductHS40,
+    "ProductIRange": ProductIRange,
+    "ProductPearlPlus": ProductPearlPlus,
     "Products": Products,
     "Residential": Residential,
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
     "WaterHardnessMap": WaterHardnessMap,
     "ProductPearl": ProductPearl,
-    "ProductPearlPlus": ProductPearlPlus,
-    "ProductHS40": ProductHS40,
-    "ProductIRange": ProductIRange,
-    "ProductHMRange": ProductHMRange,
+    "Scale": Scale,
 }
 
 export const pagesConfig = {
