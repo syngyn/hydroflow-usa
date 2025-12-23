@@ -129,7 +129,7 @@ export default function Commercial() {
                 Featured Product
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                hs40 Commercial Grade
+                hs40 Light Commercial
               </h2>
               <p className="text-lg text-slate-600 mb-6">
                 The hs40 is our go-to solution for light commercial applications, including 
