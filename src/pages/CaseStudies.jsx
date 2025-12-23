@@ -82,35 +82,43 @@ const caseStudies = [
     category: 'industrial',
     title: 'Steel Company Spray Bar System',
     description: 'Steel manufacturing facility in Ontario, Canada with scale issues on their galvanizing line.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/76211495478854-510x510.jpg',
-    results: ['Scale elimination', 'Improved efficiency', 'Cost savings']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24681639432386-510x510.jpg',
+    results: ['Scale elimination', 'Improved efficiency', 'Cost savings'],
+    application_type: ['Heat Exchangers', 'Other'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Biofilm Reduction - Referral Letter',
     description: 'Biofilm reduction letter from Avantor - Poland. Avantor is an American Fortune 500 company.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/51621495478980-510x510.jpg',
-    results: ['Biofilm elimination', 'Fortune 500 approval', 'International success']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/88401638211312-510x510.jpg',
+    results: ['Biofilm elimination', 'Fortune 500 approval', 'International success'],
+    application_type: ['Other'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Lehigh County WWTP - Struvite Treatment',
     description: 'Within 8 days we saw that the struvite has stopped accumulating and was softening up.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/99701495479172-510x510.jpg',
-    results: ['Struvite prevention', 'Easier cleaning', 'Reduced downtime']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36831596736223-510x510.jpg',
+    results: ['Struvite prevention', 'Easier cleaning', 'Reduced downtime'],
+    application_type: ['Wastewater Treatment'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'City of Walla Walla Wastewater Plant',
     description: 'After 5 weeks of installation, no accumulation on 12" x 12" section. Struvite removal is slow yet noticeable.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/86341495479445-510x510.jpg',
-    results: ['No scale accumulation', 'Visible improvement', 'Municipal approved']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/60391596733327-510x510.jpg',
+    results: ['No scale accumulation', 'Visible improvement', 'Municipal approved'],
+    application_type: ['Wastewater Treatment'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Honda Cooling Tower',
     description: 'HydroFLOW solved the algae problem in our cooling towers.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/28311495479682-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/81111495579148-510x510.jpg',
     results: ['Algae elimination', 'Chemical-free', 'Lower operational costs'],
     application_type: ['Cooling Towers'],
     products_used: ['I Range']
@@ -119,29 +127,37 @@ const caseStudies = [
     category: 'industrial',
     title: 'Paper Mill Liquor Lines',
     description: 'The water conditioners have a positive effect on heat exchanger performance by breaking-up the scale deposits.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/71181495479796-510x510.jpg',
-    results: ['Improved heat transfer', 'Scale breakdown', 'Better performance']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/47651495582939-510x510.jpg',
+    results: ['Improved heat transfer', 'Scale breakdown', 'Better performance'],
+    application_type: ['Heat Exchangers', 'Other'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'CMC Concrete Report',
     description: 'The HydroFLOW device has shown that it can improve and save costs during the concrete production process.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/73621495479896-510x510.jpg',
-    results: ['Cost savings', 'Improved production', 'Quality enhancement']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/14321495583049-510x510.jpg',
+    results: ['Cost savings', 'Improved production', 'Quality enhancement'],
+    application_type: ['Other'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Inland Power Plant in China',
     description: 'After HydroFLOW was installed, chemical dosage was totally eliminated, and no hard scale was found.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/88481495479999-510x510.jpg',
-    results: ['Zero chemicals', 'No scale buildup', 'Significant savings']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/6861498261526-510x510.jpg',
+    results: ['Zero chemicals', 'No scale buildup', 'Significant savings'],
+    application_type: ['Cooling Towers', 'Heat Exchangers'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Power Station Steam Condenser',
     description: 'The HydroFLOW water conditioner reduced buildup of deposits, silt and biofilm in the heat-exchangers.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/38881495480090-510x510.jpg',
-    results: ['Reduced deposits', 'Cleaner exchangers', 'Higher efficiency']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/71371495581347-510x510.jpg',
+    results: ['Reduced deposits', 'Cleaner exchangers', 'Higher efficiency'],
+    application_type: ['Heat Exchangers', 'Steam Systems'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
@@ -156,15 +172,19 @@ const caseStudies = [
     category: 'industrial',
     title: 'Natural Gas and Oil Producer',
     description: 'No drop in water flow due to HydroFLOW\'s ability to keep the pipe free of scale accumulation.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/32271495480294-510x510.jpg',
-    results: ['Consistent flow', 'Scale-free pipes', 'No maintenance needed']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/77171495579956-510x510.jpg',
+    results: ['Consistent flow', 'Scale-free pipes', 'No maintenance needed'],
+    application_type: ['Other'],
+    products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Wastewater Treatment Plant in Ohio',
     description: 'The HydroFLOW device not only reduced the rate of struvite accumulation, it actually started to soften-up existing deposits!',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/63891495480375-510x510.jpg',
-    results: ['Struvite reduction', 'Softened deposits', 'Ohio success']
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/29401648597339-510x510.jpg',
+    results: ['Struvite reduction', 'Softened deposits', 'Ohio success'],
+    application_type: ['Wastewater Treatment'],
+    products_used: ['I Range']
   },
 
   // Commercial
