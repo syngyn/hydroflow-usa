@@ -62,7 +62,7 @@ export default function ProductIRange() {
               </h1>
 
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                The HydroFLOW i Range water conditioner provides a chemical-free solution for the harmful effects of scale, corrosion, bacteria, and algae within the industrial, commercial and agriculture sectors. This durable water conditioner is fully encapsulated and waterproof, with an IP rating of 68 (NEMA 6P).
+                The <i>Hydro</i>FLOW <i>i</i> Range water conditioner provides a chemical-free solution for the harmful effects of scale, corrosion, bacteria, and algae within the industrial, commercial and agriculture sectors. This durable water conditioner is fully encapsulated and waterproof, with an IP rating of 68 (NEMA 6P).
               </p>
 
               <div className="mb-6">
@@ -230,22 +230,22 @@ export default function ProductIRange() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">Download Resources</h3>
                 <div className="space-y-3">
                   {[
-                    'HydroFLOW General Brochure',
-                    'HydroFLOW Commercial Brochure',
-                    'HydroFLOW Cooling Tower Brochure',
-                    'HydroFLOW Food Processing Brochure',
-                    'HydroFLOW Hotel Industry Brochure',
-                    'HydroFLOW Wastewater Brochure',
-                    'HydroFLOW Steam Boiler Protection',
-                    'HydroFLOW Swimming Pool Brochure',
-                    'HydroFLOW Mining Industry Brochure',
-                    'i Range Specification and Installation',
-                    'i Range Custom Specification',
-                    'i Range Multi-head Specification'
+                    '<i>Hydro</i>FLOW General Brochure',
+                    '<i>Hydro</i>FLOW Commercial Brochure',
+                    '<i>Hydro</i>FLOW Cooling Tower Brochure',
+                    '<i>Hydro</i>FLOW Food Processing Brochure',
+                    '<i>Hydro</i>FLOW Hotel Industry Brochure',
+                    '<i>Hydro</i>FLOW Wastewater Brochure',
+                    '<i>Hydro</i>FLOW Steam Boiler Protection',
+                    '<i>Hydro</i>FLOW Swimming Pool Brochure',
+                    '<i>Hydro</i>FLOW Mining Industry Brochure',
+                    '<i>i</i> Range Specification and Installation',
+                    '<i>i</i> Range Custom Specification',
+                    '<i>i</i> Range Multi-head Specification'
                   ].map((doc) => (
                     <Button key={doc} variant="outline" className="w-full justify-start">
                       <Package className="w-4 h-4 mr-2" />
-                      {doc} (PDF)
+                      <span dangerouslySetInnerHTML={{ __html: doc }} /> (PDF)
                     </Button>
                   ))}
                 </div>
@@ -262,7 +262,7 @@ export default function ProductIRange() {
             Need a Custom Solution?
           </h2>
           <p className="text-lg text-slate-600 mb-8">
-            Our team can design a HydroFLOW solution tailored to your specific industrial requirements.
+            Our team can design a <i>Hydro</i>FLOW solution tailored to your specific industrial requirements.
           </p>
           <Link to={createPageUrl('Contact')}>
             <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold">
