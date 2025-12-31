@@ -4,6 +4,7 @@ import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
 import { Droplets, TrendingDown, Shield, Zap, ArrowRight, CheckCircle } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart } from 'recharts';
 
 export default function Scale() {
   const benefits = [
@@ -23,6 +24,18 @@ export default function Scale() {
     'Heat exchangers',
     'Belt filter presses',
     'Wells and pumps'
+  ];
+
+  const efficiencyData = [
+    { thickness: 0, efficiency: 100 },
+    { thickness: 0.05, efficiency: 95 },
+    { thickness: 0.1, efficiency: 85 },
+    { thickness: 0.15, efficiency: 75 },
+    { thickness: 0.2, efficiency: 68 },
+    { thickness: 0.25, efficiency: 62 },
+    { thickness: 0.3, efficiency: 55 },
+    { thickness: 0.35, efficiency: 50 },
+    { thickness: 0.4, efficiency: 45 }
   ];
 
   return (
@@ -177,15 +190,55 @@ export default function Scale() {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-red-50 to-orange-50 rounded-3xl p-8"
             >
-              <img 
-                src="https://hydroflow-usa.com/assets/userfiles/images/Scale/img6.png"
-                alt="Graph showing how scale thickness affects efficiency"
-                className="w-full rounded-xl mb-6"
-              />
-              <div className="text-center">
-                <p className="text-slate-700 font-semibold">
-                  Energy Efficiency Loss Due to Scale Buildup
-                </p>
+              <div className="mb-4">
+                <h3 className="text-xl font-bold text-slate-900 mb-2">Energy Efficiency Loss</h3>
+                <p className="text-sm text-slate-600">Scale thickness vs. system efficiency</p>
+              </div>
+              <ResponsiveContainer width="100%" height={300}>
+                <AreaChart data={efficiencyData}>
+                  <defs>
+                    <linearGradient id="efficiencyGradient" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#ef4444" stopOpacity={0.3}/>
+                      <stop offset="95%" stopColor="#ef4444" stopOpacity={0.05}/>
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
+                  <XAxis 
+                    dataKey="thickness" 
+                    label={{ value: 'Scale Thickness (inches)', position: 'insideBottom', offset: -5 }}
+                    tick={{ fill: '#64748b', fontSize: 12 }}
+                  />
+                  <YAxis 
+                    label={{ value: 'Efficiency (%)', angle: -90, position: 'insideLeft' }}
+                    domain={[0, 100]}
+                    tick={{ fill: '#64748b', fontSize: 12 }}
+                  />
+                  <Tooltip 
+                    contentStyle={{ 
+                      backgroundColor: 'white', 
+                      border: '1px solid #e2e8f0', 
+                      borderRadius: '8px',
+                      padding: '8px 12px'
+                    }}
+                    formatter={(value) => [`${value}%`, 'Efficiency']}
+                    labelFormatter={(value) => `Scale: ${value}"`}
+                  />
+                  <Area 
+                    type="monotone" 
+                    dataKey="efficiency" 
+                    stroke="#ef4444" 
+                    strokeWidth={3}
+                    fill="url(#efficiencyGradient)"
+                  />
+                </AreaChart>
+              </ResponsiveContainer>
+              <div className="mt-6 bg-white rounded-xl p-4">
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                  <p className="text-slate-700">
+                    <strong>0.25" of scale</strong> = <strong>38% efficiency loss</strong>
+                  </p>
+                </div>
               </div>
             </motion.div>
           </div>
