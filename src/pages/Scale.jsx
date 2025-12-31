@@ -214,14 +214,26 @@ export default function Scale() {
                     tick={{ fill: '#64748b', fontSize: 12 }}
                   />
                   <Tooltip 
-                    contentStyle={{ 
-                      backgroundColor: 'white', 
-                      border: '1px solid #e2e8f0', 
-                      borderRadius: '8px',
-                      padding: '8px 12px'
+                    content={({ active, payload }) => {
+                      if (active && payload && payload.length) {
+                        return (
+                          <div style={{ 
+                            backgroundColor: 'white', 
+                            border: '1px solid #e2e8f0', 
+                            borderRadius: '8px',
+                            padding: '8px 12px'
+                          }}>
+                            <p style={{ margin: 0, fontSize: '14px', color: '#475569' }}>
+                              Scale: {payload[0].payload.thickness}"
+                            </p>
+                            <p style={{ margin: 0, fontSize: '14px', color: '#ef4444', fontWeight: 600 }}>
+                              Efficiency: {payload[0].value}%
+                            </p>
+                          </div>
+                        );
+                      }
+                      return null;
                     }}
-                    formatter={(value) => [`${value}%`, 'Efficiency']}
-                    labelFormatter={(value) => `Scale: ${value}"`}
                   />
                   <Area 
                     type="monotone" 
