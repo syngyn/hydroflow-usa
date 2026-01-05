@@ -144,6 +144,42 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/36111563298950.pdf'
   },
+  'city-of-walla-walla-wastewater-plant': {
+    category: 'industrial',
+    title: 'City of Walla Walla Wastewater Plant',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/60391596733327.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'City of Walla Walla, WA',
+    application: 'Struvite accumulation in belt press',
+    installedUnits: 'HydroFLOW p12" custom water conditioner',
+    background: 'The belt presses at the City of Walla Walla Wastewater Treatment Plant suffer from severe Struvite scale accumulation which greatly impedes the equipment\'s productivity and effectiveness.',
+    successFactors: ['Prevent new Struvite scale accumulation', 'Gradually remove existing Struvite deposits'],
+    results: [
+      'The HydroFLOW device prevented Struvite scale accumulation.',
+      'Gradually removed existing Struvite scale deposits.',
+      'After 5 weeks of installation, no accumulation on 12" x 12" section.',
+      'Struvite removal is slow yet noticeable.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/84711596732922.pdf'
+  },
+  'honda-cooling-tower': {
+    category: 'industrial',
+    title: 'Honda Cooling Tower',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/81111495579148.jpg',
+    installer: 'Satoshi Sakanishi, Nippon Selpo Co. Ltd., Japan',
+    customer: 'A major car manufacturer, Japan',
+    application: 'Cooling Tower 300HP',
+    installedUnits: 'One unit, AquaKlear Custom Model P',
+    background: 'Because of the high cost of chemical treatment, the customer wanted to consider other treatment methods. The aim of the test was to study treatment of the cooling tower with Aquaklear.',
+    successFactors: ['Elimination of Algae', 'Prevention of Scale', 'Removal of Existing scale'],
+    results: [
+      'Almost all the algae on the fins were removed by AquaKlear\'s performance.',
+      'There was not any scale or slime in heat exchanger after the installation.',
+      'The old scale on the cooling tower fins was removed. Some scale looking like a powder was precipitated in the bottom of the basin.',
+      'Customer concluded that AquaKlear is a better treatment method than chemicals, with no chemical pollution.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/85191493939481.pdf'
+  },
   '60-hp-low-pressure-steam-boiler': {
     category: 'industrial',
     title: '60 HP Low Pressure Steam Boiler',

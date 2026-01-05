@@ -108,18 +108,22 @@ const caseStudies = [
   {
     category: 'industrial',
     title: 'City of Walla Walla Wastewater Plant',
+    slug: 'city-of-walla-walla-wastewater-plant',
     description: 'After 5 weeks of installation, no accumulation on 12" x 12" section. Struvite removal is slow yet noticeable.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/60391596733327-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/60391596733327.jpg',
     results: ['No scale accumulation', 'Visible improvement', 'Municipal approved'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/84711596732922.pdf',
     application_type: ['Wastewater Treatment'],
     products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Honda Cooling Tower',
+    slug: 'honda-cooling-tower',
     description: 'HydroFLOW solved the algae problem in our cooling towers.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/81111495579148-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/81111495579148.jpg',
     results: ['Algae elimination', 'Chemical-free', 'Lower operational costs'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/85191493939481.pdf',
     application_type: ['Cooling Towers'],
     products_used: ['I Range']
   },
