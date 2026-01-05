@@ -109,6 +109,58 @@ const caseStudyData = {
       'Capture of polystyrene fines not typically found in filter system'
     ],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4dfb56b8e_HydroFLOWCaseStudy-WaterBathCoolingSystem-2025.pdf'
+  },
+  'sunrise-childrens-hospital-cooling-tower': {
+    category: 'commercial',
+    title: 'Sunrise Children\'s Hospital Cooling Tower',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/31341495483508.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'Sunrise Children\'s Hospital – Las Vegas NV',
+    application: 'Cooling Tower',
+    installedUnits: 'HydroFLOW Industrial Unit',
+    background: 'Hospital cooling tower evaluation to reduce limescale and chemical usage.',
+    successFactors: ['Reduce limescale and chemical used'],
+    results: [
+      'After five months of the cooling tower being chemical-free, there is no hard scale accumulation and the Heterotrophic biological count is well under 1,000 CFU/ML.',
+      'The chiller is operating more efficiently due to scale and biofilm removal.',
+      'The HydroFLOW water conditioning device helped in substantial cost savings associated with reduced chemical consumption, maintenance, electricity and water usage.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/43851493848202.pdf'
+  },
+  'nellis-air-force-base-cooling-tower': {
+    category: 'commercial',
+    title: 'Nellis Air Force Base Cooling Tower',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36551561660043.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'Nellis Air Force Base',
+    application: 'Cooling Tower',
+    installedUnits: 'HydroFLOW i160 unit',
+    background: 'A six-month product evaluation of the Hydropath technology was conducted on one of the base\'s cooling towers.',
+    successFactors: ['Eliminate chemical usage', 'Prevent scale buildup'],
+    results: [
+      'Instead of the hard scale that typically accumulates inside the cooling tower, loose brown mud-like material was found, and a garden hose was used to easily remove the mud-like substance from the fill material and the drift eliminators.',
+      'No significant hard scale or bio buildup was observed on the nozzles or infrastructure.',
+      'No industrial water treatment chemicals used for 9-10 months of operation.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/36111563298950.pdf'
+  },
+  '60-hp-low-pressure-steam-boiler': {
+    category: 'industrial',
+    title: '60 HP Low Pressure Steam Boiler',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/13321495580758.jpg',
+    installer: 'HydroFLOW Midwest',
+    customer: 'Commercial trucking company from Rosemount, Minnesota',
+    application: '60 horsepower low-pressure natural gas steam boiler (steam is used during the truck wash process)',
+    installedUnits: 'One HydroFLOW i45 on the water line feeds the steam boiler',
+    background: 'Due to excessive scale accumulation, even with softening and chemical usage, the head of maintenance decided to evaluate HydroFLOW\'s ability to descale the steam boiler and prevent further scale formation. Well water with calcium carbonate hardness of over 200 PPM was being treated with a water softener reducing hardness to roughly 30 PPM.',
+    successFactors: ['Gradually remove scale deposits without acid clean', 'Improve heat transfer efficiency'],
+    results: [
+      'Stack temperature dropped from 296°F to 272°F in 6 months, demonstrating an 8% increase in heat transfer efficiency.',
+      'The efficiency is expected to further increase as scale continues to be removed from the system.',
+      'Maintenance supervisor increased blow down from once to twice per day to accelerate scale removal and prevent plugging issues.',
+      'Scale removal achieved without the need for an acid clean.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/88201550515726.pdf'
   }
 };
 
