@@ -342,38 +342,46 @@ const caseStudies = [
   {
     category: 'commercial',
     title: 'Scale and Bio Treatment in Outdoor Pool',
+    slug: 'scale-and-bio-treatment-in-outdoor-pool',
     description: 'The state inspector claims our pool is the cleanest in the Yakima Valley!',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/96771495481356-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/76681495479240.jpg',
     results: ['Cleanest pool award', 'State inspector approved', 'Outstanding results'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/86361539882313.pdf',
     application_type: ['Swimming Pools'],
-    products_used: ['HS40']
+    products_used: ['I Range']
   },
   {
     category: 'commercial',
     title: 'Premium Car Wash in California',
+    slug: 'premium-car-wash-in-california',
     description: 'After 6 months of operation, all nozzles are working perfectly; saving water and greatly reducing maintenance costs.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/63811495481448-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/78091560356620.jpg',
     results: ['Water savings', 'Perfect nozzle performance', 'Lower maintenance'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/1561563299281.pdf',
     application_type: ['Car Wash'],
-    products_used: ['HS40']
+    products_used: ['I Range']
   },
   {
     category: 'commercial',
     title: 'Hotel Hot Water System',
+    slug: 'hotel-hot-water-system',
     description: 'Cleaning the tankless water heaters is 75% less frequent and much easier; harsh chemicals are no longer required.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/67881495481553-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/67881495481553.jpg',
     results: ['75% less cleaning', 'No harsh chemicals', 'Easy maintenance'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/95371495126856.pdf',
     application_type: ['Water Heaters'],
     products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Office Building Cooling Towers in US Southeast',
+    slug: 'office-building-cooling-towers-in-us-southeast',
     description: 'After a few short days with HydroFLOW, the CFU count dropped to under 1,000. Other benefits included reduced scale and biofilm.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/56921495481648-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/42301661965280.jpg',
     results: ['Low bacteria count', 'Reduced biofilm', 'Fast results'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/75341661965067.pdf',
     application_type: ['Cooling Towers'],
-    products_used: ['HS40']
+    products_used: ['I Range']
   },
 
   // Residential

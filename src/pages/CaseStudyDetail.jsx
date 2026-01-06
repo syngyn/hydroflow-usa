@@ -572,6 +572,75 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/36171495126964.pdf'
   },
+  'scale-and-bio-treatment-in-outdoor-pool': {
+    category: 'commercial',
+    title: 'Scale and Bio Treatment in Outdoor Pool',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/76681495479240.jpg',
+    installer: 'HydroFLOW West Inc',
+    customer: 'Yakama Nation – Youth Activities',
+    application: '375,000 Gallon Municipal Pool',
+    installedUnits: 'HydroFLOW p160 on a 6" pipe',
+    background: 'The facility needed to maintain a balanced pool with minimal chemical usage. Chemicals used included Dicalite, Chlorine, Shock, Sunscreen stabilizer, and Muriatic acid.',
+    successFactors: ['Maintain a balanced pool with minimal chemical usage'],
+    results: [
+      'At the end of May, when the HydroFLOW device was turned on, we noticed immediate changes; the monitor kept reading high levels of pH and Chlorine.',
+      'We had to keep reducing our chemicals in order to get the pH to stabilize between 7.2 and 8.0 and the Chlorine to stay at 1.0 ppm.',
+      'Our customers gave us compliments throughout the last 3 months of the bathing season.',
+      'The state inspector claims our pool is the cleanest in the Yakima Valley!'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/86361539882313.pdf'
+  },
+  'premium-car-wash-in-california': {
+    category: 'commercial',
+    title: 'Premium Car Wash in California',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/78091560356620.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'An American Car Wash (https://palmdesertcarwash.com/)',
+    application: 'Recycled water and spray nozzles',
+    installedUnits: 'HydroFLOW i45 was installed on the recycling water system, to reduce the foul smell and scale accumulation',
+    background: 'The facility\'s inner plumbing system had been run down and was in need of many major improvements. Water distribution lines were plugging up with hard water scale deposit and the recycling water system was suffering from foul smell, due to biological buildup and lack of proper maintenance.',
+    successFactors: ['Eliminate foul smell', 'Clear clogged nozzles', 'Reduce scale accumulation'],
+    results: [
+      'Within 20 days, the car wash staff noticed the foul smell from the reclaimed water was gone and they were able to reclaim 60% of that water.',
+      'Nozzles that barely sprayed water or were plugged were now operating properly.',
+      'After 6 months of operation, all nozzles are working perfectly; saving water and greatly reducing maintenance costs.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/1561563299281.pdf'
+  },
+  'hotel-hot-water-system': {
+    category: 'commercial',
+    title: 'Hotel Hot Water System',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/67881495481553.jpg',
+    customer: 'Hotel facility',
+    application: 'Tankless water heaters',
+    installedUnits: 'HydroFLOW unit',
+    background: 'Hotel needed to reduce maintenance requirements and chemical usage for tankless water heater cleaning.',
+    successFactors: ['Reduce cleaning frequency', 'Eliminate harsh chemicals', 'Simplify maintenance'],
+    results: [
+      'Cleaning the tankless water heaters is 75% less frequent and much easier.',
+      'Harsh chemicals are no longer required.',
+      'Maintenance time and costs significantly reduced.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/95371495126856.pdf'
+  },
+  'office-building-cooling-towers-in-us-southeast': {
+    category: 'commercial',
+    title: 'Office Building Cooling Towers in US Southeast',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/42301661965280.jpg',
+    installer: 'Southeast Pump & Equipment',
+    customer: 'Commercial office building complex',
+    application: 'Cooling Towers',
+    installedUnits: 'HydroFLOW Custom i14"',
+    background: 'Due to high water costs, the facilities manager ran the cooling towers at high cycles of concentration in order to reduce water usage, which resulted in severe scale and bio problems. The main challenge was to reduce bio-counts from 100,000 to under 10,000 CFU.',
+    successFactors: ['Reduce bacterial counts from 100,000 to under 10,000 CFU', 'Reduce scale and biofilm accumulation'],
+    results: [
+      'After a few short days with a HydroFLOW i14" device, the CFU count dropped to under 1,000.',
+      'Other added benefits included reduced scale and biofilm accumulation in the cooling tower and chiller tubes.',
+      'The i14" device helped the commercial complex achieve a return on investment of roughly six months.',
+      'This led to the installation of multiple custom HydroFLOW devices on cooling towers and potable water systems throughout the commercial complex.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/75341661965067.pdf'
+  },
   'increased-crop-yield-experiment': {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',
