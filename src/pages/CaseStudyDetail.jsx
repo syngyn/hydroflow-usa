@@ -384,6 +384,97 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/4171495131909.pdf'
   },
+  'inland-power-plant-in-china': {
+    category: 'industrial',
+    title: 'Inland Power Plant in China',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/6861498261526.jpg',
+    installer: 'HydroFLOW Asia',
+    customer: 'Inland power plant in China',
+    application: 'Circulating Cooling System in Power Plant',
+    installedUnits: 'Two HydroFLOW custom 72" units',
+    background: 'An Inland power plant in China using river water for the cooling system which has two of 600MW each. Chemicals dosage included anti-scaling and biocide. Refill water volume ran at 700T/hr. Water quality varied from season to season. During summer raining reason, water turbidity was high.',
+    successFactors: ['Reduce chemical usage', 'Improve steam condensation efficiency'],
+    results: [
+      'Chemical dosage was eliminated for the operation.',
+      'No hard scale was found inside the condenser and cooling tower cooling mate.',
+      'Steam condenser transit temperature dropped by 1.5⁰C and vacuum pressure increased by 1KPa compared with the same period in previous year.',
+      'Discharge water from the cooling tower was used now for gardening and other application because there were no chemicals in the discharged water.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/83871498261386.pdf'
+  },
+  'power-station-steam-condenser': {
+    category: 'industrial',
+    title: 'Power Station Steam Condenser',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/71371495581347.jpg',
+    installer: 'HydroFLOW Russia',
+    customer: 'Heat power station. The station produces electricity and heat energy, which is used for central heating',
+    application: 'Steam condenser and heat exchangers',
+    installedUnits: 'Two HydroFLOW industrial custom P-40" units',
+    background: 'Equipment from biofouling, silt and mud deposits (source of the water is river), inorganic deposits (scale) forming on the internal steam condenser pipes surfaces.',
+    successFactors: ['Reduce the buildup of deposits, scale, silt and biofilm in heat exchangers and steam condenser'],
+    results: [
+      'Characteristics of deposits – soft, can be washed out with the water.',
+      'On most of the tubes there can be seen a characteristic metal glitter (brass), which indicates cleanness of the surface.',
+      'Properties of deposits in the outlet chamber are similar to that of the inlet chamber, and the brass glitter can also be seen here.',
+      'A characteristic smell of organic decomposition is absent.',
+      'Visible reduction of biofouling and absence of tubes with 100% clogging in comparison with condenser without treatment.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/39691493939531.pdf'
+  },
+  'natural-gas-and-oil-producer': {
+    category: 'industrial',
+    title: 'Natural Gas and Oil Producer',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/77171495579956.jpg',
+    installer: 'HydroFLOW West Inc',
+    customer: 'Natural gas and oil producer in Nikiski, Alaska, USA',
+    application: 'Offshore petroleum production operation. The device was installed on a 4.5" outer diameter recycled water pipe, after the separator',
+    installedUnits: 'HydroFLOW i120',
+    background: 'The customer needed to reduce scale accumulation inside the pipe and possibly soften existing scale deposits. The scale is predominantly made up of iron, in addition, lab analysis of the scale detected small quantities of magnesium, calcium carbonate and silicon.',
+    successFactors: ['Reduce scale accumulation inside the pipe', 'Soften existing scale deposits'],
+    results: [
+      'One week after installation – The scale was much softer and easily removed with a knife.',
+      'One month after installation – Apart from what seems like a thin magnetite layer, the hard scale is not accumulating on the area that was cleaned after the first inspection.',
+      'The existing scale can be flaked off with a finger and is roughly 1/8" to 1/4" thick.',
+      'The customer\'s personnel were very surprised because typically removal of scale involves hard manual labor.',
+      'A "T" section was removed from the main line in order to inspect the inside of the pipe. The rate of scale removal from the bottom was much faster than the top and sides due to constant water flow.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/1431539882593.pdf'
+  },
+  'wastewater-treatment-plant-in-ohio': {
+    category: 'industrial',
+    title: 'Wastewater Treatment Plant in Ohio',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/29401648597339.jpg',
+    installer: 'HydroFLOW USA and Kirk Williams Company',
+    customer: 'London OH, WWTP',
+    application: 'Dewatering Equipment – Belt Press',
+    installedUnits: 'HydroFLOW i160 unit',
+    background: 'Struvite scale in an anaerobic wastewater treatment plant can lead to great inefficiency within the plant or operation due to clogging of the pipes, pumps and equipment. Solutions include mechanical and chemical cleaning, which require significant downtime. A chemical-free method of removing and preventing struvite has been developed and tested successfully.',
+    successFactors: ['Struvite removal without Chemical/Manual/Mechanical assistance'],
+    results: [
+      'The HydroFLOW device not only reduced the rate of struvite accumulation, it actually started to soften up existing deposits!',
+      'Within a week started seeing large pieces coming off the first roller and the wash box.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/78971648597202.pdf'
+  },
+  'hydroflow-cooling-tower-chiller-installation': {
+    category: 'commercial',
+    title: 'HydroFLOW Cooling Tower Chiller Installation',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/2231662060002.jpg',
+    installer: 'HydroFLOW West Inc',
+    customer: 'Medical Center in California',
+    application: 'Cooling Towers and Chillers',
+    installedUnits: 'HydroFLOW Custom i24" and Multiple HydroFLOW Custom i14"',
+    background: 'Medical center needed to reduce chemicals and water usage while maintaining industry standards for cooling tower and chiller operation.',
+    successFactors: ['Maintain industry standards', 'Reduce chemical usage', 'Reduce water consumption', 'Prevent Legionnaires disease'],
+    results: [
+      'The cooling tower and chillers were maintained within industry standards while reducing chemicals and blowdown water.',
+      'Due to its ability to remove biofilm colonies, HydroFLOW greatly reduced the chance of a legionnaires disease outbreak.',
+      'Blow down was reduced by over 65%.',
+      'Biocide chemicals were reduced by 75% while keeping CFU counts under 1,000 (close to drinking water).',
+      'Medical Center\'s head of maintenance at the 7 month chiller tube inspection: "This is the cleanest the chiller tubes had ever been."'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/43801662059912.pdf'
+  },
   'increased-crop-yield-experiment': {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',
