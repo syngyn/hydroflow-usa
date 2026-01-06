@@ -475,6 +475,103 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/43801662059912.pdf'
   },
+  'gold-gym-lap-pool': {
+    category: 'commercial',
+    title: 'Gold Gym Lap Pool',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/55611495484457.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'Gold\'s Gym Woodinville / Gold\'s Aquatics Club',
+    application: 'Indoor 95,000 gallon lap pool, 3,900-gallon hot tub and 5,000 gallon wader pool',
+    installedUnits: 'One HydroFLOW i120 device and two HydroFLOW hs40 devices',
+    background: 'The product evaluation was performed on the indoor 95,000 gallon lap pool, 3,900 gallon hot tub and 5,000 gallon wader pool. The disinfecting agent for the three bodies of water is liquid chlorine which is injected via an automatic ORP dosing system.',
+    successFactors: [
+      'Reduce chemical usage while keeping the set points at the required levels',
+      'Reduce filter backwashing and increase water clarity',
+      'Reduce water consumption',
+      'Reduce \'chlorine smell\'',
+      'Reduce scale staining'
+    ],
+    results: [
+      'Water consumption was achieved due to a 70% filter backwash reduction.',
+      'Increased filter efficiency due to HydroFLOW\'s ability to flocculate suspended solids.',
+      'Existing staining is easier to clean.',
+      'Less complaints by bathers about the \'chlorine smell\'.',
+      'Maintenance cost reduction associated with lessened cleaning of scale stains, backwashing, balancing chemicals, barrel replacement, etc.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/84741493847709.pdf'
+  },
+  'st-helena-hospital-ice-machine': {
+    category: 'commercial',
+    title: 'St. Helena Hospital Ice Machine',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24231495485285.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'St. Helena Hospital in St. Helena, California',
+    application: 'Ice machines',
+    installedUnits: 'HydroFLOW s38',
+    background: 'The water at the facility has very high silica content, estimated around 80 ppm, causing several problems: frequently replace parts due to difficulty of removal of the silica build‐up on the components, costing up to $1500 per year; at many locations, a reverse osmosis filtration system was in place, which created bottlenecks in the water supply; the ice machines were not able to keep up with demand from nursing; the refrigeration engineer responsible for the maintenance was spending up to 180 hours per year cleaning 22 ice machines.',
+    successFactors: ['Reduce maintenance labor', 'Reduce replacement parts costs', 'Eliminate demand issues'],
+    results: [
+      'The labor associated with ice machine maintenance has decreased to 100 hours per year.',
+      'The costs of replacement parts have decreased by $750 per year.',
+      'Calls to the engineering department due to ice machine inability to meet demand have completely stopped, thus reducing callouts from 6 hours per month to 0 hours per month.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/78241493850010.pdf'
+  },
+  'penn-state-university': {
+    category: 'commercial',
+    title: 'Penn State University',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/80541495485766.jpg',
+    installer: 'HydroFLOW PA – Joseph T Berrena Mechanicals',
+    customer: 'Penn State – The Nittany Lion Inn',
+    application: 'Steamer and cooling Towers',
+    installedUnits: 'HydroFLOW Commercial units',
+    background: 'Extremely hard water, the customer was looking to treat scale build-up in their steam producing kitchen equipment and Ware washing machines. The customer also looked for a better solution for scale build-up in their cooling towers as they did not want non-eco-friendly chemicals that did not give the result they were looking for.',
+    successFactors: ['Eliminate scale build-up', 'Replace chemical treatment', 'Reduce maintenance costs'],
+    results: [
+      'Since installing devices on steamers and cooling tower, scale related breakdowns, repair and maintenance expenses, and chemical treatment costs are a thing of the past.',
+      'The HydroFLOW units are maintenance-free, environmentally friendly, and have saved thousands of dollars.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/89611493849814.pdf'
+  },
+  'the-melting-pot-restaurant': {
+    category: 'commercial',
+    title: 'The Melting Pot Restaurant',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/46161495486706.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'The Melting Pot-Sacramento',
+    application: 'Restaurant kitchen equipment',
+    installedUnits: 'HydroFLOW s38',
+    background: 'They were looking to control the cost of eliminating scale, bacteria and algae forming in their water system, while at the same time supporting the environment.',
+    successFactors: ['Reduce maintenance costs', 'Save water', 'Eliminate need for water softener'],
+    results: [
+      'Reducing maintenance and cleaning requirements of our dishwasher, ice machine and coffee machines.',
+      'Saved money and reduce water usage.',
+      'No water softener required and all water (hot, cold and drinking) benefiting from the one unit.',
+      'Investment expected to pay for itself over a 14 month period.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/24351493849401.pdf'
+  },
+  'sharonville-fire-department': {
+    category: 'commercial',
+    title: 'Sharonville Fire Department',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/89651495480951.jpg',
+    installer: 'Schlueter Plumbing',
+    customer: 'City of Sharonville – Fire Department',
+    application: 'Drinking fountain and shower valves',
+    installedUnits: 'HydroFLOW i100',
+    background: 'Plumbing/maintenance issues caused as a result of scale build-up.',
+    successFactors: [
+      'Increased water flow in the showers',
+      'Shower valves – scale-free',
+      'Drinking fountain cleaned from scale'
+    ],
+    results: [
+      'Shower valves become easier to turn and the shower heads were cleaned also.',
+      'Water flow in the showers was increased dramatically.',
+      'The water fountain was cleaned.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/36171495126964.pdf'
+  },
   'increased-crop-yield-experiment': {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',

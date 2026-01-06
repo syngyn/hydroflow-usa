@@ -287,47 +287,57 @@ const caseStudies = [
   {
     category: 'commercial',
     title: 'Gold Gym Lap Pool',
+    slug: 'gold-gym-lap-pool',
     description: 'Operational cost reduction was achieved thanks to HydroFLOW.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/31891495480760-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/55611495484457.jpg',
     results: ['Cost reduction', 'Better water quality', 'Member satisfaction'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/84741493847709.pdf',
     application_type: ['Swimming Pools'],
-    products_used: ['HS40']
+    products_used: ['I Range', 'HS40']
   },
   {
     category: 'commercial',
     title: 'St. Helena Hospital Ice Machine',
+    slug: 'st-helena-hospital-ice-machine',
     description: 'I would recommend HydroFLOW in ice machine applications, to assist with keeping scale from accumulating on the equipment.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/56141495480858-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24231495485285.jpg',
     results: ['Scale prevention', 'Clean ice', 'Hospital approved'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/78241493850010.pdf',
     application_type: ['Ice Machines'],
     products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Penn State University',
+    slug: 'penn-state-university',
     description: 'Our HydroFLOW units are maintenance free, environmentally friendly, and have saved us thousands of dollars.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/13301495480950-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/80541495485766.jpg',
     results: ['Maintenance-free', 'Eco-friendly', 'Thousands saved'],
-    application_type: ['HVAC Systems'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/89611493849814.pdf',
+    application_type: ['HVAC Systems', 'Cooling Towers'],
     products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'The Melting Pot Restaurant',
+    slug: 'the-melting-pot-restaurant',
     description: 'Our investment in the HydroFLOW unit is expected to pay for itself over a 14 month period.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/25041495481040-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/46161495486706.jpg',
     results: ['14 month ROI', 'Restaurant success', 'Proven savings'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/24351493849401.pdf',
     application_type: ['Dishwashers', 'Food Processing'],
     products_used: ['HS40']
   },
   {
     category: 'commercial',
     title: 'Sharonville Fire Department',
+    slug: 'sharonville-fire-department',
     description: 'We would highly recommend the use of HydroFLOW for anyone who has limescale issues.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/50851495481270-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/89651495480951.jpg',
     results: ['Fire department approved', 'Limescale solved', 'High recommendation'],
-    application_type: ['Water Heaters'],
-    products_used: ['HS40']
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/36171495126964.pdf',
+    application_type: ['Water Heaters', 'Other'],
+    products_used: ['I Range']
   },
   {
     category: 'commercial',
