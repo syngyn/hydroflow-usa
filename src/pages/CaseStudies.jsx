@@ -460,9 +460,11 @@ const caseStudies = [
   {
     category: 'residential',
     title: 'Residential Water Heater',
+    slug: 'residential-water-heater',
     description: 'Water heater protection and efficiency improvement.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/26191495482338-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/27101632777274.jpg',
     results: ['Extended heater life', 'Lower energy bills', 'No scale buildup'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/36311632777095.pdf',
     application_type: ['Water Heaters'],
     products_used: ['Pearl']
   },
@@ -482,9 +484,11 @@ const caseStudies = [
   {
     category: 'agriculture',
     title: 'Long Stem Rose Growth',
+    slug: 'long-stem-rose-growth',
     description: 'The grower wanted to see how HydroFLOW could increase the output from his greenhouses.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2024/03/Long-Stem-Rose-picture-for-the-case-study-2.jpg',
     results: ['Increased yield', 'Better quality', 'Healthier plants'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/HydroFLOW-agriculture-case-study-long-stem-roses.pdf',
     application_type: ['Greenhouses', 'Irrigation'],
     products_used: ['I Range']
   },

@@ -641,6 +641,36 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/75341661965067.pdf'
   },
+  'long-stem-rose-growth': {
+    category: 'agriculture',
+    title: 'HydroFLOW Product Evaluation - Long Stem Rose Growth',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/03/Long-Stem-Rose-picture-for-the-case-study-2.jpg',
+    customer: 'A long-stem rose growing operation in South America',
+    installedUnits: 'HydroFLOW Custom i12"',
+    background: 'During the cold months (June-September) the overall growth of long stem roses slows down. The grower wanted to see how HydroFLOW could increase the output from his greenhouses, and determine if there is an overall improvement in the growth rate/quality of the roses throughout the year.',
+    successFactors: ['Increase greenhouse output', 'Improve growth rate during cold months', 'Enhance overall flower quality'],
+    results: [
+      'Average stem lengths increased to 50cm (19.69") and the ratio of 50cm to 40cm stems was drastically improved. Rare 60cm stems began to emerge in September!',
+      'Production levels were maintained through the cold months and the overall quality of flowers improved.',
+      'Longer shelf life and better-quality flowers.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/HydroFLOW-agriculture-case-study-long-stem-roses.pdf'
+  },
+  'residential-water-heater': {
+    category: 'residential',
+    title: 'Residential Water Heater',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/27101632777274.jpg',
+    application: 'Residential scale prevention and removal',
+    installedUnits: 'HydroFLOW s38',
+    background: 'Residential property needed to address scale buildup in water heater and throughout the home\'s plumbing system.',
+    successFactors: ['Stop new scale formation', 'Remove existing scale buildup', 'Improve water heater efficiency'],
+    results: [
+      'The s38 unit stopped new scale from forming and cleaned the existing scale build up from the water heater and the shower heads.',
+      'The cleaning frequency of the shower heads in faucets around the house was reduced.',
+      'Improved the efficiency of the hot water heater and longer expected life of the heating element.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/36311632777095.pdf'
+  },
   'increased-crop-yield-experiment': {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',
