@@ -214,6 +214,95 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/67671539882904.pdf'
   },
+  'massive-texas-factory': {
+    category: 'industrial',
+    title: 'Massive Texas Factory',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/massive-texas-factory.webp',
+    installer: 'EcoTech Solutions',
+    customer: 'A 5.2 million square foot equipment manufacturer in Texas with over 7,000 employees',
+    application: 'Contribute to water savings to spare the facility\'s well and free up capacity in the onsite wastewater treatment plant',
+    installedUnits: 'A HydroFLOW i-14″ Custom unit on the chiller return line and a HydroFLOW i100 on the sheet metal washer\'s recirculating line',
+    background: 'The facility needed to reduce water consumption to spare their well and free up capacity in the onsite wastewater treatment plant, which is over capacity 8 months out of the year causing fines.',
+    successFactors: ['Reduce water consumption', 'Free up wastewater treatment capacity', 'Reduce chemical usage', 'Improve equipment efficiency'],
+    results: [
+      'After 6 months, the chiller tubes showed no sign of scale or biofilm accumulation while operating at 4,500 μS/cm, with 75% chemical reduction. Approach temperatures were maintained within 1 degree.',
+      'HydroFLOW removed significant amounts scale from the tower fill material throughout the evaluation period.',
+      'The sheet metal washer showed significantly less scaling, increasing the time between manual cleanouts.',
+      'By reducing scaling in the sheet metal washer, heat transfer was improved leading to an ROI of less than 1 year.',
+      'Due to the water savings that can be achieved with HydroFLOW, the customer may be able to delay a multi-million-dollar wastewater treatment plant upgrade for another 3-5 years.',
+      'The customer plans to install more HydroFLOW units throughout the facility, including 7 additional cooling tower systems.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/08/HydroFLOW-Case-Study-Massive-Texas-Factory-2025-update.pdf'
+  },
+  'sludge-line-struvite-treatment': {
+    category: 'industrial',
+    title: 'Sludge Line Struvite Treatment',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/sludge-line-i150.jpg',
+    installer: 'HydroFLOW USA',
+    customer: 'A wastewater treatment plant in Chicago Illinois',
+    application: 'Struvite scale treatment',
+    installedUnits: 'HydroFLOW i150 unit',
+    background: 'Struvite accumulation in the plant\'s digested sludge line causes reduced flow rates, leading to shut down and chemical cleaning of the 2-mile underground line to restore necessary flow rates.',
+    successFactors: ['Reduce struvite scaling', 'Maintain consistent flow rates', 'Avoid system shutdowns'],
+    results: [
+      'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
+  },
+  'gold-leed-campus': {
+    category: 'commercial',
+    title: 'Gold LEED Registered Campus',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/49841495480863.jpg',
+    installer: 'HydroFLOW Southwest – New Water Innovations',
+    customer: 'The Academy for the Love of Learning',
+    application: 'Water heaters and water features',
+    installedUnits: 'Commercial HydroFLOW Unit',
+    background: 'Water is exceptionally hard. A salt softener, given its negative environmental impact, was out of the question. To deal with the scale issues associated with hard water, New Water Innovations recommended HydroFLOW, a physical water treatment product.',
+    successFactors: [
+      'Keeping the water heaters scale free and performing at full efficiency',
+      'Water feature in the main entry area less maintenance and help with dealing with bio that can be found in open loop water features'
+    ],
+    results: [
+      'The HydroFLOW product has performed superbly well in keeping our water heaters scale free and performing at full efficiency.',
+      'The water feature in our main entry area is much easier to maintain because of the performance of HydroFLOW.',
+      'Not only does it deal with lime-scale accumulation, it also kills any bacteria that are often found in open loop water features.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/49731493848513.pdf'
+  },
+  'bakery-steam-boilers': {
+    category: 'commercial',
+    title: 'Bakery Steam Boilers',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/44051495481164.jpg',
+    installer: 'HydroFLOW USA',
+    customer: 'Bimbo Bakeries USA (BBU)',
+    application: 'Steam Boilers',
+    installedUnits: 'Commercial HydroFLOW Unit',
+    background: 'BBU looked for a technology that will help them reduce limescale and corrosion accumulation in their steam boilers.',
+    successFactors: ['Reduce limescale and corrosion accumulation in steam boilers', 'Reduce chemical usage', 'Increase heat transfer efficiency'],
+    results: [
+      'HydroFLOW water conditioners have proven to significantly reduce limescale and corrosion accumulation in our steam boilers.',
+      'Significant cost savings associated with reduced chemical usage.',
+      'Increased heat transfer efficiency.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/39511493849268.pdf'
+  },
+  'municipal-golf-course-in-texas': {
+    category: 'agriculture',
+    title: 'Municipal Golf Course in Texas',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24091655247748.jpg',
+    installer: 'HydroFLOW USA',
+    customer: 'Municipal golf course in Texas',
+    application: 'Golf course irrigation system',
+    installedUnits: 'HydroFLOW i60',
+    background: 'The golf course grass had signs of being heavily damaged from take-all root rot (TARR) which is caused by fungus, and they were looking for a solution to help them increase the health of the grass.',
+    successFactors: ['Increase overall health of grass', 'Reduce fungal damage', 'Improve nutrient retention'],
+    results: [
+      'The isolated practice green was lush and green in color.',
+      'It was the only green on the course that no longer suffered from root rot.',
+      'Lab testing showed the practice green retained 50% more nutrients compared to other greens.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/68631698880628.pdf'
+  },
   'increased-crop-yield-experiment': {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',

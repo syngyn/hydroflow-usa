@@ -434,9 +434,11 @@ const caseStudies = [
   {
     category: 'agriculture',
     title: 'Municipal Golf Course in Texas',
+    slug: 'municipal-golf-course-in-texas',
     description: 'The goal was to increase the overall health of the grass, which was achieved.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24091655247748-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24091655247748.jpg',
     results: ['Improved grass health', 'Better irrigation', 'Water savings'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/68631698880628.pdf',
     application_type: ['Golf Course', 'Irrigation'],
     products_used: ['I Range']
   },
