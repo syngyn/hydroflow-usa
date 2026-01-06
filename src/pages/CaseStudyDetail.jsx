@@ -303,6 +303,87 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/68631698880628.pdf'
   },
+  'steel-company-spray-bar-system': {
+    category: 'industrial',
+    title: 'Steel Company Spray Bar System',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24681639432386.jpg',
+    installer: 'HydroFLOW Canada',
+    customer: 'Steel manufacturing and processing facility located in Ontario, Canada',
+    application: 'Spray Bar System – Galvanizing Line – Cooling Spray Bars',
+    installedUnits: 'HydroFLOW i100" – on the output of the pump',
+    background: 'Due to the high concentration of TDS and contaminants in the galvanizing line cleaning spray system the spray nozzles would scale up and clog requiring manual take down and cleaning. This clogging would typically happen in 3 weeks.',
+    successFactors: ['Prevent nozzle clogging', 'Reduce maintenance frequency', 'Eliminate hard scale buildup'],
+    results: [
+      'After the end of the first 3 week cycle sprays were inspected and found to have "nearly no buildup to cause clogging".',
+      'Any buildup found to occur was a loose, fluffier material instead of a concrete like buildup.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/39071639432386.pdf'
+  },
+  'biofilm-reduction-referral-letter': {
+    category: 'industrial',
+    title: 'Biofilm Reduction - Referral Letter',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/88401638211312.jpg',
+    customer: 'Avantor – Poland',
+    application: 'Biofilm Reduction',
+    installedUnits: 'HydroFLOW i60 water conditioner',
+    background: 'Avantor, an American Fortune 500 company, was experiencing significant problems with microbiological contaminants that were posing challenges in maintaining the appropriate cleanliness of their production line.',
+    successFactors: ['Reduce microbiological contaminants', 'Maintain production line cleanliness', 'Fortune 500 standards compliance'],
+    results: [
+      'The factory was able to achieve a significant reduction of microbiological contaminants.',
+      'Successfully maintained appropriate cleanliness of the production line.',
+      'Met high standards required by a Fortune 500 company.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/61401638211314.pdf'
+  },
+  'lehigh-county-wwtp-struvite-treatment': {
+    category: 'industrial',
+    title: 'Lehigh County WWTP - Struvite Treatment',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36831596736223.jpg',
+    customer: 'Lehigh County Wastewater Treatment Plant',
+    application: 'Struvite scale treatment in wastewater treatment plant',
+    installedUnits: 'HydroFLOW industrial unit',
+    background: 'The wastewater treatment plant was experiencing struvite accumulation that required frequent cleaning and caused operational challenges.',
+    successFactors: ['Stop struvite accumulation', 'Soften existing deposits', 'Reduce cleaning frequency'],
+    results: [
+      'Within 8 days, the struvite stopped accumulating.',
+      'Existing struvite deposits were softening up.',
+      'Easier cleaning and reduced maintenance requirements.'
+    ]
+  },
+  'paper-mill-liquor-lines': {
+    category: 'industrial',
+    title: 'Paper Mill Liquor Lines',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/47651495582939.jpg',
+    customer: 'Paper Mill in Virginia',
+    application: 'Green liquor piping, white liquor piping, evaporator piping, heat exchangers',
+    installedUnits: 'Fifteen HydroFLOW water conditioners in various locations of high mineral concentrations',
+    background: 'One of the byproducts of papermaking is the generation of high concentrations of calcium carbonate, sodium carbonate and sodium sulfate in the process water. Due to the high concentrations of these minerals, scale deposits coat the inside of pipes, pumps and heat exchangers, restricting flow and heat transfer efficiency. Typically, pipes and equipment need to be disassembled and cleaned (by hydro-blasting) approximately every 6 months.',
+    successFactors: ['Reduce scale buildup', 'Improve heat transfer efficiency', 'Extend maintenance intervals'],
+    results: [
+      'The water conditioners kept the pump impeller housings clear of scale build up, improving flow rate and extending pump life.',
+      'The water conditioners have a positive effect on heat exchanger performance by breaking-up the scale deposits on the internal tubes thus increasing heat transfer efficiency.',
+      'The water conditioners kept piping clear of most scale deposits and made existing deposits easy to remove.',
+      'The return on investment, due to decreased maintenance labor and power usage is approximately one year.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/46101493933705.pdf'
+  },
+  'cmc-concrete-report': {
+    category: 'industrial',
+    title: 'CMC Concrete Report',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/14321495583049.jpg',
+    installer: 'HydroFLOW USA & CMC – Construction Materials Testing and Inspections',
+    customer: 'Concrete production facility in Henderson, NV',
+    application: 'Testing the effect of HydroFLOW treated water on both the plastic and hardened states of structural Concrete',
+    installedUnits: 'HydroFLOW water conditioner',
+    background: 'To test the effect of HydroFLOW treated water on both the plastic and hardened states of structural Concrete. All aggregates were sampled at the Las Vegas Sloan Quarry and complied with ASTM C33. The aggregates were allowed to dry 100% prior to any batching.',
+    successFactors: ['Improve workability', 'Increase compressive strength', 'Reduce material costs'],
+    results: [
+      'Documented an increase in slump when using the water that was treated with the HydroFLOW device.',
+      'With the increase in slump this system could create cost savings by reducing materials properties and maintaining workability.',
+      'Documented an increase in compressive strength which would result in cost savings during the concrete production.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/4171495131909.pdf'
+  },
   'increased-crop-yield-experiment': {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',

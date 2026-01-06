@@ -81,26 +81,31 @@ const caseStudies = [
   {
     category: 'industrial',
     title: 'Steel Company Spray Bar System',
+    slug: 'steel-company-spray-bar-system',
     description: 'Steel manufacturing facility in Ontario, Canada with scale issues on their galvanizing line.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24681639432386-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24681639432386.jpg',
     results: ['Scale elimination', 'Improved efficiency', 'Cost savings'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/39071639432386.pdf',
     application_type: ['Heat Exchangers', 'Other'],
     products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Biofilm Reduction - Referral Letter',
+    slug: 'biofilm-reduction-referral-letter',
     description: 'Biofilm reduction letter from Avantor - Poland. Avantor is an American Fortune 500 company.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/88401638211312-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/88401638211312.jpg',
     results: ['Biofilm elimination', 'Fortune 500 approval', 'International success'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/61401638211314.pdf',
     application_type: ['Other'],
     products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Lehigh County WWTP - Struvite Treatment',
+    slug: 'lehigh-county-wwtp-struvite-treatment',
     description: 'Within 8 days we saw that the struvite has stopped accumulating and was softening up.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36831596736223-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36831596736223.jpg',
     results: ['Struvite prevention', 'Easier cleaning', 'Reduced downtime'],
     application_type: ['Wastewater Treatment'],
     products_used: ['I Range']
@@ -130,18 +135,22 @@ const caseStudies = [
   {
     category: 'industrial',
     title: 'Paper Mill Liquor Lines',
+    slug: 'paper-mill-liquor-lines',
     description: 'The water conditioners have a positive effect on heat exchanger performance by breaking-up the scale deposits.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/47651495582939-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/47651495582939.jpg',
     results: ['Improved heat transfer', 'Scale breakdown', 'Better performance'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/46101493933705.pdf',
     application_type: ['Heat Exchangers', 'Other'],
     products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'CMC Concrete Report',
+    slug: 'cmc-concrete-report',
     description: 'The HydroFLOW device has shown that it can improve and save costs during the concrete production process.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/14321495583049-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/14321495583049.jpg',
     results: ['Cost savings', 'Improved production', 'Quality enhancement'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/4171495131909.pdf',
     application_type: ['Other'],
     products_used: ['I Range']
   },
