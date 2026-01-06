@@ -671,6 +671,211 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/36311632777095.pdf'
   },
+  'coliforms-in-well-water': {
+    category: 'residential',
+    title: 'Coliforms in Well Water',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/28901495146802.jpg',
+    application: 'Residential well water coliform treatment',
+    installedUnits: 'HydroFLOW Pearl',
+    results: [
+      'HydroFLOW successfully treated coliform bacteria in residential well water.',
+      'Bacteria levels reduced to safe drinking water standards.',
+      'No chemicals needed for treatment.'
+    ]
+  },
+  'plumbing-contractor': {
+    category: 'residential',
+    title: 'Plumbing Contractor',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/31951495476221.jpg',
+    application: 'Professional plumber testimonial',
+    installedUnits: 'HydroFLOW Pearl',
+    results: [
+      'Easy installation process for residential applications.',
+      'Proven results in multiple customer homes.',
+      'High client satisfaction rates.'
+    ]
+  },
+  'product-evaluation-tankless-boiler': {
+    category: 'residential',
+    title: 'Product Evaluation - Tankless Boiler',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/39421495481748-510x510.jpg',
+    application: 'Residential tankless boiler scale prevention',
+    installedUnits: 'HydroFLOW Pearl',
+    results: [
+      'Excellent scale prevention results in tankless boiler.',
+      'Scale-free operation maintained.',
+      'Improved energy efficiency.'
+    ]
+  },
+  'residential-well': {
+    category: 'residential',
+    title: 'Residential Well',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36701495481855-510x510.jpg',
+    application: 'Complete well water treatment solution',
+    installedUnits: 'HydroFLOW Pearl',
+    results: [
+      'Effective scale prevention throughout the home.',
+      'Improved water quality for the entire household.',
+      'Protected appliances from hard water damage.'
+    ]
+  },
+  'residential-complex': {
+    category: 'residential',
+    title: 'Residential Complex',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/91531495481950-510x510.jpg',
+    application: 'Multi-unit residential complex water treatment',
+    installedUnits: 'HydroFLOW Pearl Plus',
+    results: [
+      'Building-wide hard water solution implemented.',
+      'Increased tenant satisfaction.',
+      'Reduced maintenance complaints.'
+    ]
+  },
+  'residential-dishwasher': {
+    category: 'residential',
+    title: 'Residential Dishwasher',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/40401495482049-510x510.jpg',
+    application: 'Dishwasher performance improvement',
+    installedUnits: 'HydroFLOW Pearl',
+    results: [
+      'Spot-free dishes without rinse aid.',
+      'No rinse aid needed.',
+      'Consistently cleaner results.'
+    ]
+  },
+  'residential-pool': {
+    category: 'residential',
+    title: 'Residential Pool',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/97911495482148-510x510.jpg',
+    application: 'Swimming pool scale and biofilm control',
+    installedUnits: 'HydroFLOW Pearl Plus',
+    results: [
+      'Crystal clear water maintained.',
+      'Reduced chemical usage.',
+      'Easier pool maintenance.'
+    ]
+  },
+  'residential-tower': {
+    category: 'residential',
+    title: 'Residential Tower',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/96881495482243-510x510.jpg',
+    application: 'High-rise residential tower water treatment',
+    installedUnits: 'HydroFLOW Pearl Plus',
+    results: [
+      'Multi-floor coverage throughout building.',
+      'Consistent results across all units.',
+      'High resident satisfaction.'
+    ]
+  },
+  'orchard-scale-on-apples': {
+    category: 'agriculture',
+    title: 'Orchard - Scale on Apples',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/57771495482721-510x510.jpg',
+    application: 'Orchard irrigation system',
+    installedUnits: 'HydroFLOW i Range',
+    results: [
+      'Scale deposits accumulate as fine powder which is very easy to remove.',
+      'Better fruit quality.',
+      'Reduced maintenance requirements.'
+    ]
+  },
+  'aquavet-clinical-evaluation-fish-health': {
+    category: 'agriculture',
+    title: 'Aquavet Clinical Evaluation - Fish Health',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34201495482816-510x510.jpg',
+    application: 'Aquaculture fish health improvement',
+    installedUnits: 'HydroFLOW i Range',
+    background: 'During 90 days of observation, the overall tilapia survival rate was considerably higher with HydroFLOW.',
+    results: [
+      'Higher survival rates for tilapia.',
+      'Improved parasite prevention.',
+      'Healthier fish overall.'
+    ]
+  },
+  'hydroflow-reduces-biofilm-baron-farms': {
+    category: 'agriculture',
+    title: 'HydroFLOW Reduces Biofilm at Baron Farms',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/65821495482910-510x510.jpg',
+    application: 'Farm irrigation system biofilm control',
+    installedUnits: 'HydroFLOW S-38',
+    results: [
+      'Significant biofilm reduction in irrigation systems.',
+      'Farmer satisfaction with results.',
+      'Cleaner, more efficient systems.'
+    ]
+  },
+  'us-navy-seafighter': {
+    category: 'marine',
+    title: 'U.S. Navy Seafighter',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/seafighter-510x510.webp',
+    application: 'Naval vessel biofouling prevention',
+    installedUnits: 'HydroFLOW HM Range',
+    results: [
+      'Extended maintenance intervals for strainer systems.',
+      'Effective biofouling prevention.',
+      'Approved for naval use.'
+    ]
+  },
+  'mv-hermes-leader-uv-system': {
+    category: 'marine',
+    title: 'MV Hermes Leader - Replacement of UV-System',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/40231495151554-510x510.jpg',
+    application: 'Marine vessel water treatment replacing UV system',
+    installedUnits: 'HydroFLOW HM Range',
+    results: [
+      'Water test results showed no trace of any bacteria.',
+      'Successfully replaced UV system.',
+      'Cost savings on system operation.'
+    ]
+  },
+  'ray-shipping-fleet-hydropath': {
+    category: 'marine',
+    title: 'Ray Shipping Equips Fleet with Hydropath',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/79081495752087-510x510.jpg',
+    application: 'Fleet-wide marine vessel water treatment',
+    installedUnits: 'HydroFLOW HM Range',
+    results: [
+      'Completely reduced vessel scale buildup.',
+      'Reduced bacteria corrosion.',
+      'Saved labor work and money across entire fleet.'
+    ]
+  },
+  'anglo-eastern-freshwater-generator': {
+    category: 'marine',
+    title: 'Anglo Eastern - Freshwater Generator',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/78611495752951-510x510.jpg',
+    application: 'Marine freshwater generator scale prevention',
+    installedUnits: 'HydroFLOW HM Range',
+    results: [
+      'Freshwater generator is free of scale.',
+      'Chemical dosing no longer required.',
+      'Reliable, continuous performance.'
+    ]
+  },
+  'mv-hoegh-antwerp-scale-prevention': {
+    category: 'marine',
+    title: 'MV Hoegh Antwerp - Scale Prevention',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/88651495664646-510x510.jpg',
+    application: 'Marine vessel scale prevention',
+    installedUnits: 'HydroFLOW HM Range',
+    results: [
+      'No scale buildup found during inspection.',
+      'No chemicals required for cleaning.',
+      'Easy maintenance procedures.'
+    ]
+  },
+  'car-carrier-main-cooling-system': {
+    category: 'marine',
+    title: 'Car Carrier - Main Cooling System',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/42481495666712-510x510.jpg',
+    application: 'Car carrier vessel cooling system',
+    installedUnits: 'HydroFLOW HM Range',
+    results: [
+      'Particle filter found clean of barnacles.',
+      'Easy washing and maintenance.',
+      'System protection maintained.'
+    ]
+  },
   'increased-crop-yield-experiment': {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',
