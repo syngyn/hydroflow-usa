@@ -452,27 +452,33 @@ const caseStudies = [
   {
     category: 'agriculture',
     title: 'HydroFLOW Reduces Algae Growth',
+    slug: 'hydroflow-reduces-algae-growth',
     description: 'With HydroFLOW the reduction in algae growth was dramatic.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/71851495482439-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/19501495124745.jpg',
     results: ['Dramatic algae reduction', 'Cleaner water', 'Better crop health'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/81121493936806.pdf',
     application_type: ['Irrigation'],
     products_used: ['I Range']
   },
   {
     category: 'agriculture',
     title: 'Food Processing Cooling Tower',
+    slug: 'food-processing-cooling-tower',
     description: 'With HydroFLOW, my cooling tower is much cleaner than it was with chemicals.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/18441495482530-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/3541495124373.jpg',
     results: ['Cleaner than chemicals', 'Food safety', 'Cost effective'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/67671539882904.pdf',
     application_type: ['Cooling Towers', 'Food Processing'],
     products_used: ['HS40']
   },
   {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',
+    slug: 'increased-crop-yield-experiment',
     description: 'Both plots with HydroFLOW obtained better yield than the control plot.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/38001495482627-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/87301495667998.jpg',
     results: ['Higher yields', 'Better quality', 'Proven results'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/74431493851538.pdf',
     application_type: ['Irrigation'],
     products_used: ['I Range']
   },

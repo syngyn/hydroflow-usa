@@ -180,6 +180,57 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/85191493939481.pdf'
   },
+  'hydroflow-reduces-algae-growth': {
+    category: 'agriculture',
+    title: 'HydroFLOW Reduces Algae Growth',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/19501495124745.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'Vineyard in California',
+    application: 'Irrigation ponds',
+    installedUnits: 'HydroFLOW industrial unit',
+    background: 'California vineyard that suffers from severe algae growth in its irrigation ponds, which causes maintenance problems in the filtration stations.',
+    successFactors: ['Reduce algae growth without the use of Copper Sulfate or Tilapia fish'],
+    results: [
+      'Compared to the Copper Sulfate and Tilapia fish algae treatment methods, the bacteria and algae CFU counts in the HydroFLOW treated pond were over 90% lower.',
+      'After the installation of HydroFLOW, the backwash process took 3-5 minutes.',
+      'Reduced maintenance costs resulted in an estimated 1.5 year return on investment.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/81121493936806.pdf'
+  },
+  'food-processing-cooling-tower': {
+    category: 'agriculture',
+    title: 'Food Processing Cooling Tower',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/3541495124373.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'G & G Orchards, Washington',
+    application: 'BAC Condenser and EVAPCO Condenser which feeding into a common sump tank',
+    installedUnits: 'HydroFLOW p100 and HydroFLOW p120',
+    background: 'Food processing facility needed to reduce limescale accumulation, biological growth and corrosion while eliminating the need for descalant, biocide and anti-corrosive chemicals.',
+    successFactors: ['Reduce limescale accumulation, biological growth and corrosion', 'Eliminate chemical usage'],
+    results: [
+      'Blow-down was reduced to less than once a month.',
+      'Pipes, tubes, fins and sump tank remain clear of limescale, bio-growth and corrosion.',
+      'Cost savings associated with reduction in chemicals, reduction in water usage, reduction in maintenance and lessened wear-and-tear led to an ROI of roughly a year.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/67671539882904.pdf'
+  },
+  'increased-crop-yield-experiment': {
+    category: 'agriculture',
+    title: 'Increased Crop Yield Experiment',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/87301495667998.jpg',
+    installer: 'Dr. Stuart O\'Byrne',
+    customer: 'Agricultural research - Corn field',
+    application: 'Stimulated Water Circle Irrigation System',
+    installedUnits: 'HydroFLOW i160',
+    background: 'The crop circle was divided into four plots: Control with plain lake water, HydroFLOW stimulated lake water, HydroFLOW and Magnetically stimulated lake water, and Magnetically stimulated lake water. All four plots were matched with equal water and fertilizer application.',
+    successFactors: ['Compare crop yield with and without HydroFLOW treatment', 'Scientific evaluation of water treatment effectiveness'],
+    results: [
+      'Both plots with HydroFLOW obtained better yield than the control plot.',
+      'HydroFLOW plots had better color and roots.',
+      'Scientific validation of HydroFLOW\'s positive impact on crop growth.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/74431493851538.pdf'
+  },
   '60-hp-low-pressure-steam-boiler': {
     category: 'industrial',
     title: '60 HP Low Pressure Steam Boiler',
