@@ -157,18 +157,22 @@ const caseStudies = [
   {
     category: 'industrial',
     title: 'Inland Power Plant in China',
+    slug: 'inland-power-plant-in-china',
     description: 'After HydroFLOW was installed, chemical dosage was totally eliminated, and no hard scale was found.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/6861498261526-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/6861498261526.jpg',
     results: ['Zero chemicals', 'No scale buildup', 'Significant savings'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/83871498261386.pdf',
     application_type: ['Cooling Towers', 'Heat Exchangers'],
     products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Power Station Steam Condenser',
+    slug: 'power-station-steam-condenser',
     description: 'The HydroFLOW water conditioner reduced buildup of deposits, silt and biofilm in the heat-exchangers.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/71371495581347-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/71371495581347.jpg',
     results: ['Reduced deposits', 'Cleaner exchangers', 'Higher efficiency'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/39691493939531.pdf',
     application_type: ['Heat Exchangers', 'Steam Systems'],
     products_used: ['I Range']
   },
@@ -192,18 +196,22 @@ const caseStudies = [
   {
     category: 'industrial',
     title: 'Natural Gas and Oil Producer',
+    slug: 'natural-gas-and-oil-producer',
     description: 'No drop in water flow due to HydroFLOW\'s ability to keep the pipe free of scale accumulation.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/77171495579956-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/77171495579956.jpg',
     results: ['Consistent flow', 'Scale-free pipes', 'No maintenance needed'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/1431539882593.pdf',
     application_type: ['Other'],
     products_used: ['I Range']
   },
   {
     category: 'industrial',
     title: 'Wastewater Treatment Plant in Ohio',
+    slug: 'wastewater-treatment-plant-in-ohio',
     description: 'The HydroFLOW device not only reduced the rate of struvite accumulation, it actually started to soften-up existing deposits!',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/29401648597339-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/29401648597339.jpg',
     results: ['Struvite reduction', 'Softened deposits', 'Ohio success'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/78971648597202.pdf',
     application_type: ['Wastewater Treatment'],
     products_used: ['I Range']
   },
@@ -268,11 +276,13 @@ const caseStudies = [
   {
     category: 'commercial',
     title: 'HydroFLOW Cooling Tower Chiller Installation',
+    slug: 'hydroflow-cooling-tower-chiller-installation',
     description: 'Medical Center\'s head of maintenance at the 7 month chiller tube inspection: This is the cleanest the chiller tubes had ever been.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/57991495480671-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/2231662060002.jpg',
     results: ['Cleanest ever', 'Medical facility approved', 'Outstanding results'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/43801662059912.pdf',
     application_type: ['Cooling Towers', 'Chillers'],
-    products_used: ['HS40']
+    products_used: ['I Range']
   },
   {
     category: 'commercial',
