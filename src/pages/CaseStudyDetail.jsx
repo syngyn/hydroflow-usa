@@ -717,7 +717,7 @@ const caseStudyData = {
   'residential-well': {
     category: 'residential',
     title: 'Residential Well',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/16781495148914.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4a460046d_pearl-plus-on-pipe.png',
     installer: 'New Water Innovations (HydroFLOW Southwest)',
     customer: 'Homeowner – Santa Fe, NM',
     application: 'Residential well /Whole House Solution',
