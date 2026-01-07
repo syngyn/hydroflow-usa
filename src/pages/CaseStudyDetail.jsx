@@ -711,7 +711,7 @@ const caseStudyData = {
     title: 'Residential Well',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/16781495148914.jpg',
     application: 'Complete well water treatment solution',
-    installedUnits: 'HydroFLOW Pearl',
+    installedUnits: 'HydroFLOW Residential unit',
     results: [
       'Effective scale prevention throughout the home.',
       'Improved water quality for the entire household.',
