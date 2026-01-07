@@ -721,7 +721,7 @@ const caseStudyData = {
     installer: 'New Water Innovations (HydroFLOW Southwest)',
     customer: 'Homeowner – Santa Fe, NM',
     application: 'Residential well /Whole House Solution',
-    installedUnits: 'HydroFLOW s38',
+    installedUnits: 'HydroFLOW Pearl Plus',
     background: 'Hard water caused heavy-scale deposits on the faucet aerators and showerheads. The homeowner also suspected that there might be scale inside the pipes, water heater and dishwasher. The water to the house comes from a well.',
     results: [
       'Faucets running clean.',
