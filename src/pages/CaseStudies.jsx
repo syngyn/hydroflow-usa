@@ -410,7 +410,7 @@ const caseStudies = [
     title: 'Product Evaluation - Tankless Boiler',
     slug: 'product-evaluation-tankless-boiler',
     description: 'Residential tankless boiler evaluation showing excellent scale prevention results.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/39421495481748-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/14381495147872.jpg',
     results: ['Tankless protection', 'Scale-free operation', 'Energy efficient'],
     application_type: ['Boilers', 'Water Heaters'],
     products_used: ['Pearl']
