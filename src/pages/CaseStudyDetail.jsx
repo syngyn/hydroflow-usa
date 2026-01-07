@@ -722,7 +722,7 @@ const caseStudyData = {
   'residential-complex': {
     category: 'residential',
     title: 'Residential Complex',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/91531495481950-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/7751495146448.jpg',
     application: 'Multi-unit residential complex water treatment',
     installedUnits: 'HydroFLOW Pearl Plus',
     results: [
