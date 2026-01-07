@@ -3,8 +3,6 @@ import Agriculture from './pages/Agriculture';
 import Bio from './pages/Bio';
 import BlogDetail from './pages/BlogDetail';
 import BlogList from './pages/BlogList';
-import CaseStudies from './pages/CaseStudies';
-import CaseStudyDetail from './pages/CaseStudyDetail';
 import Commercial from './pages/Commercial';
 import Contact from './pages/Contact';
 import Corrosion from './pages/Corrosion';
@@ -24,6 +22,8 @@ import Scale from './pages/Scale';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import CaseStudies from './pages/CaseStudies';
+import CaseStudyDetail from './pages/CaseStudyDetail';
 import __Layout from './Layout.jsx';
 
 
@@ -33,8 +33,6 @@ export const PAGES = {
     "Bio": Bio,
     "BlogDetail": BlogDetail,
     "BlogList": BlogList,
-    "CaseStudies": CaseStudies,
-    "CaseStudyDetail": CaseStudyDetail,
     "Commercial": Commercial,
     "Contact": Contact,
     "Corrosion": Corrosion,
@@ -54,6 +52,8 @@ export const PAGES = {
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
     "WaterHardnessMap": WaterHardnessMap,
+    "CaseStudies": CaseStudies,
+    "CaseStudyDetail": CaseStudyDetail,
 }
 
 export const pagesConfig = {
