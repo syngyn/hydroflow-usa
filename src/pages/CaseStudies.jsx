@@ -455,6 +455,7 @@ const caseStudies = [
     description: 'Swimming pool scale and biofilm control without harsh chemicals.',
     image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800',
     results: ['Crystal clear water', 'Less chemicals', 'Easier maintenance'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/8651539882719.pdf',
     application_type: ['Swimming Pools'],
     products_used: ['Pearl Plus']
   },

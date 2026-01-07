@@ -755,7 +755,8 @@ const caseStudyData = {
       'Crystal clear water maintained.',
       'Reduced chemical usage.',
       'Easier pool maintenance.'
-    ]
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/8651539882719.pdf'
   },
   'residential-tower': {
     category: 'residential',
