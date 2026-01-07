@@ -88,7 +88,7 @@ const caseStudyData = {
   'water-bath-cooling-system-plastics': {
     category: 'industrial',
     title: 'Water Bath Cooling System - Plastics Processing',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/i150-Water-Bath-cooling-system.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/64e72788b_WaterBathCoolingSystem.jpg',
     customer: 'Polystyrene plastics processing facility in the U.S. Northeast',
     installer: '<i>Hydro</i>FLOW USA',
     application: 'Recirculating process water cooling system for polystyrene manufacturing with high TDS, bacteria, and algae challenges. System treated with sodium hypochlorite and sodium hydroxide with frequent water blow-downs.',
