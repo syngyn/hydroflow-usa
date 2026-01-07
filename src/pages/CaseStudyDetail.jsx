@@ -681,7 +681,7 @@ const caseStudyData = {
       'Bacteria levels reduced to safe drinking water standards.',
       'No chemicals needed for treatment.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/93951495146802.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/25211539882204.pdf'
   },
   'plumbing-contractor': {
     category: 'residential',
