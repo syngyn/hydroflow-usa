@@ -729,7 +729,8 @@ const caseStudyData = {
       'Building-wide hard water solution implemented.',
       'Increased tenant satisfaction.',
       'Reduced maintenance complaints.'
-    ]
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/87271493931205.pdf'
   },
   'residential-dishwasher': {
     category: 'residential',
