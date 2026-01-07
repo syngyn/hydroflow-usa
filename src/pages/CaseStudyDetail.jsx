@@ -716,7 +716,8 @@ const caseStudyData = {
       'Effective scale prevention throughout the home.',
       'Improved water quality for the entire household.',
       'Protected appliances from hard water damage.'
-    ]
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/75351495060345.pdf'
   },
   'residential-complex': {
     category: 'residential',

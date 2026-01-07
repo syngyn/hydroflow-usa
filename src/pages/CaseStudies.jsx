@@ -422,6 +422,7 @@ const caseStudies = [
     description: 'Complete well water treatment solution for hard water issues.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/16781495148914.jpg',
     results: ['Scale prevention', 'Improved water quality', 'Appliance protection'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/75351495060345.pdf',
     application_type: ['Wells'],
     products_used: ['Pearl']
   },
