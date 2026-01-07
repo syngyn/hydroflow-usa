@@ -761,7 +761,7 @@ const caseStudyData = {
   'residential-tower': {
     category: 'residential',
     title: 'Residential Tower',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/96881495482243-510x510.jpg',
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800',
     application: 'High-rise residential tower water treatment',
     installedUnits: 'HydroFLOW Pearl Plus',
     results: [
