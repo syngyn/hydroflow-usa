@@ -674,12 +674,15 @@ const caseStudyData = {
     category: 'residential',
     title: 'Coliforms in Well Water',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/28901495146802.jpg',
-    application: 'Residential well water coliform treatment',
-    installedUnits: 'HydroFLOW Pearl',
+    installer: 'HydroFLOW West Inc.',
+    customer: 'Homeowners in Kenai Alaska.',
+    application: 'Residential Well',
+    installedUnits: 'HydroFLOW s38 unit',
+    background: 'This area on the Kenai Peninsula, rural Alaska, has well water contamination due to area flooding. Prior to the installation of a HydroFLOW water conditioner on the incoming well pipe, a water sample was taken at the kitchen faucet. The lab test results stated the water was Yellow and positive for Total Coliform – Unsatisfactory.',
     results: [
-      'HydroFLOW successfully treated coliform bacteria in residential well water.',
-      'Bacteria levels reduced to safe drinking water standards.',
-      'No chemicals needed for treatment.'
+      'Six months after the installation of the HydroFLOW s38 unit, the homeowners took a water sample from the kitchen faucet to be tested in a lab.',
+      'The lab test results stated the water was clear and negative for Total Coliform – Satisfactory.',
+      'Customer comment: "We had the water tested and it came back clear. Yippee!"'
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/25211539882204.pdf'
   },
