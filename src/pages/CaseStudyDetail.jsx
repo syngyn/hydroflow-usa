@@ -709,7 +709,7 @@ const caseStudyData = {
   'residential-well': {
     category: 'residential',
     title: 'Residential Well',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36701495481855-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/16781495148914.jpg',
     application: 'Complete well water treatment solution',
     installedUnits: 'HydroFLOW Pearl',
     results: [

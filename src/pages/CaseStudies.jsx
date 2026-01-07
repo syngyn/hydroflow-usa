@@ -420,7 +420,7 @@ const caseStudies = [
     title: 'Residential Well',
     slug: 'residential-well',
     description: 'Complete well water treatment solution for hard water issues.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36701495481855-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/16781495148914.jpg',
     results: ['Scale prevention', 'Improved water quality', 'Appliance protection'],
     application_type: ['Wells'],
     products_used: ['Pearl']
