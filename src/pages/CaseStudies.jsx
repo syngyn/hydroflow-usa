@@ -433,6 +433,7 @@ const caseStudies = [
     description: 'Multi-unit residential complex solved hard water problems building-wide.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/7751495146448.jpg',
     results: ['Building-wide solution', 'Tenant satisfaction', 'Reduced complaints'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/87271493931205.pdf',
     application_type: ['Other'],
     products_used: ['Pearl Plus']
   },
