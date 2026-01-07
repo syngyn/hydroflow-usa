@@ -444,6 +444,7 @@ const caseStudies = [
     description: 'Dishwasher performance improved dramatically with HydroFLOW treatment.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/41611494973757.jpg',
     results: ['Spot-free dishes', 'No rinse aid needed', 'Cleaner results'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/31351493931674.pdf',
     application_type: ['Dishwashers'],
     products_used: ['Pearl']
   },

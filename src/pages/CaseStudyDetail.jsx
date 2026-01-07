@@ -742,7 +742,8 @@ const caseStudyData = {
       'Spot-free dishes without rinse aid.',
       'No rinse aid needed.',
       'Consistently cleaner results.'
-    ]
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/31351493931674.pdf'
   },
   'residential-pool': {
     category: 'residential',
