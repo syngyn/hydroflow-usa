@@ -717,13 +717,16 @@ const caseStudyData = {
   'residential-well': {
     category: 'residential',
     title: 'Residential Well',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6d0c03a48_pearl-plus-on-pipe.png',
-    application: 'Complete well water treatment solution',
-    installedUnits: 'HydroFLOW Residential unit',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/16781495148914.jpg',
+    installer: 'New Water Innovations (HydroFLOW Southwest)',
+    customer: 'Homeowner – Santa Fe, NM',
+    application: 'Residential well /Whole House Solution',
+    installedUnits: 'HydroFLOW s38',
+    background: 'Hard water caused heavy-scale deposits on the faucet aerators and showerheads. The homeowner also suspected that there might be scale inside the pipes, water heater and dishwasher. The water to the house comes from a well.',
     results: [
-      'Effective scale prevention throughout the home.',
-      'Improved water quality for the entire household.',
-      'Protected appliances from hard water damage.'
+      'Faucets running clean.',
+      'No water spots on glassware or dishes.',
+      'The aerators and showerheads have no deposits to clog their operation.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/75351495060345.pdf'
   },
