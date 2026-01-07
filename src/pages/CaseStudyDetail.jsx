@@ -768,7 +768,8 @@ const caseStudyData = {
       'Multi-floor coverage throughout building.',
       'Consistent results across all units.',
       'High resident satisfaction.'
-    ]
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/87271493931205.pdf'
   },
   'orchard-scale-on-apples': {
     category: 'agriculture',

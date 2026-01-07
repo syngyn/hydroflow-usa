@@ -466,6 +466,7 @@ const caseStudies = [
     description: 'High-rise residential tower with comprehensive water treatment solution.',
     image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800',
     results: ['Multi-floor coverage', 'Consistent results', 'Resident satisfaction'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/87271493931205.pdf',
     application_type: ['Other'],
     products_used: ['Pearl Plus']
   },
