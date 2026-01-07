@@ -457,7 +457,7 @@ const caseStudies = [
     results: ['Crystal clear water', 'Less chemicals', 'Easier maintenance'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/8651539882719.pdf',
     application_type: ['Swimming Pools'],
-    products_used: ['Pearl Plus']
+    products_used: ['HS40']
   },
   {
     category: 'residential',

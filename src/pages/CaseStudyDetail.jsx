@@ -750,7 +750,7 @@ const caseStudyData = {
     title: 'Residential Pool',
     image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800',
     application: 'Swimming pool scale and biofilm control',
-    installedUnits: 'HydroFLOW Pearl Plus',
+    installedUnits: 'HydroFLOW hs40',
     results: [
       'Crystal clear water maintained.',
       'Reduced chemical usage.',
