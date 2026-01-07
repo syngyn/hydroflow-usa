@@ -693,7 +693,8 @@ const caseStudyData = {
       'Easy installation process for residential applications.',
       'Proven results in multiple customer homes.',
       'High client satisfaction rates.'
-    ]
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/15281493934433.pdf'
   },
   'product-evaluation-tankless-boiler': {
     category: 'residential',
