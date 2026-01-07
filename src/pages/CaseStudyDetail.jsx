@@ -680,7 +680,8 @@ const caseStudyData = {
       'HydroFLOW successfully treated coliform bacteria in residential well water.',
       'Bacteria levels reduced to safe drinking water standards.',
       'No chemicals needed for treatment.'
-    ]
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/93951495146802.pdf'
   },
   'plumbing-contractor': {
     category: 'residential',
