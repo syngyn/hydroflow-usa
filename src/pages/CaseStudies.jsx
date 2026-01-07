@@ -453,7 +453,7 @@ const caseStudies = [
     title: 'Residential Pool',
     slug: 'residential-pool',
     description: 'Swimming pool scale and biofilm control without harsh chemicals.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/97911495482148-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/44371494363345.jpg',
     results: ['Crystal clear water', 'Less chemicals', 'Easier maintenance'],
     application_type: ['Swimming Pools'],
     products_used: ['Pearl Plus']

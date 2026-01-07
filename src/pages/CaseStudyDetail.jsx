@@ -748,7 +748,7 @@ const caseStudyData = {
   'residential-pool': {
     category: 'residential',
     title: 'Residential Pool',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/97911495482148-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/44371494363345.jpg',
     application: 'Swimming pool scale and biofilm control',
     installedUnits: 'HydroFLOW Pearl Plus',
     results: [
