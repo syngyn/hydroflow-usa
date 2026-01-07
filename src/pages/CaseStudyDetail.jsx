@@ -703,12 +703,13 @@ const caseStudyData = {
     category: 'residential',
     title: 'Product Evaluation - Tankless Boiler',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/14381495147872.jpg',
-    application: 'Residential tankless boiler scale prevention',
-    installedUnits: 'HydroFLOW Residential units',
+    installer: 'HydroFLOW Canada',
+    customer: 'Onspex is an independent testing company and was enlisted to provide an independent verification of the effects of a HydroFLOW unit.',
+    application: 'Water Heater',
+    background: 'Test Protocol Induction Water Conditioning Device Evaluation.',
     results: [
-      'Excellent scale prevention results in tankless boiler.',
-      'Scale-free operation maintained.',
-      'Improved energy efficiency.'
+      'The device under test has kept the hard water from depositing enough minerals to impair heater operation during this series of time accelerated testing.',
+      'Analysis of the deposits and flow readings indicate that this unit is effective in preventing clogging due to calcium carbonate build up.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/86361495130169.pdf'
   },
