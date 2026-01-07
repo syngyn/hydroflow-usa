@@ -688,7 +688,7 @@ const caseStudyData = {
     title: 'Plumbing Contractor',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/31951495476221.jpg',
     application: 'Professional plumber testimonial',
-    installedUnits: 'HydroFLOW Pearl',
+    installedUnits: 'HydroFLOW Pearl Plus',
     results: [
       'Easy installation process for residential applications.',
       'Proven results in multiple customer homes.',
