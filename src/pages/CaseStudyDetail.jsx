@@ -697,7 +697,7 @@ const caseStudyData = {
   'product-evaluation-tankless-boiler': {
     category: 'residential',
     title: 'Product Evaluation - Tankless Boiler',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/39421495481748-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/14381495147872.jpg',
     application: 'Residential tankless boiler scale prevention',
     installedUnits: 'HydroFLOW Pearl',
     results: [
