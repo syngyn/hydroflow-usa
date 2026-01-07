@@ -734,12 +734,14 @@ const caseStudyData = {
     category: 'residential',
     title: 'Residential Complex',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/7751495146448.jpg',
-    application: 'Multi-unit residential complex water treatment',
-    installedUnits: 'HydroFLOW Pearl Plus',
+    customer: 'The Greenfield Village – Southern CA',
+    application: 'Water heaters and recirculation pumps',
+    installedUnits: 'HydroFLOW s38 units',
+    background: 'In the four years since the apartment complex was built, limescale buildup was so aggressive, that many of the water heaters and recirculation pumps failed. The complex\'s owners faced a minimum cost of $600,000 to replace the equipment. After further research, the community\'s executives decided to install HydroFLOW water conditioners, which use patented Hydropath technology.',
     results: [
-      'Building-wide hard water solution implemented.',
-      'Increased tenant satisfaction.',
-      'Reduced maintenance complaints.'
+      'Six months after installation, random inspections found that the water heaters, recirculation pumps, tanks, pipes and related equipment were free of limescale buildup.',
+      'They were able to save on costs significantly, as it avoided the enormous replacement and maintenance costs it was facing.',
+      'An additional benefit was that the community was able to pass along savings to its tenants as a result of the improved operating efficiency of each apartment\'s water heater.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/87271493931205.pdf'
   },
