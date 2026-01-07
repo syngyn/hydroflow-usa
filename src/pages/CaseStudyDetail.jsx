@@ -735,7 +735,7 @@ const caseStudyData = {
   'residential-dishwasher': {
     category: 'residential',
     title: 'Residential Dishwasher',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/40401495482049-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/41611494973757.jpg',
     application: 'Dishwasher performance improvement',
     installedUnits: 'HydroFLOW Pearl',
     results: [
