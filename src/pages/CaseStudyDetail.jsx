@@ -677,7 +677,7 @@ const caseStudyData = {
     installer: 'HydroFLOW West Inc.',
     customer: 'Homeowners in Kenai Alaska.',
     application: 'Residential Well',
-    installedUnits: 'HydroFLOW s38 unit',
+    installedUnits: 'HydroFLOW Pearl Plus',
     background: 'This area on the Kenai Peninsula, rural Alaska, has well water contamination due to area flooding. Prior to the installation of a HydroFLOW water conditioner on the incoming well pipe, a water sample was taken at the kitchen faucet. The lab test results stated the water was Yellow and positive for Total Coliform – Unsatisfactory.',
     results: [
       'Six months after the installation of the HydroFLOW s38 unit, the homeowners took a water sample from the kitchen faucet to be tested in a lab.',
