@@ -706,6 +706,7 @@ const caseStudyData = {
     installer: 'HydroFLOW Canada',
     customer: 'Onspex is an independent testing company and was enlisted to provide an independent verification of the effects of a HydroFLOW unit.',
     application: 'Water Heater',
+    installedUnits: 'HydroFLOW Residential unit',
     background: 'Test Protocol Induction Water Conditioning Device Evaluation.',
     results: [
       'The device under test has kept the hard water from depositing enough minerals to impair heater operation during this series of time accelerated testing.',
