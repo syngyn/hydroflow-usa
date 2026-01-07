@@ -763,7 +763,7 @@ const caseStudyData = {
     title: 'Residential Tower',
     image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800',
     application: 'High-rise residential tower water treatment',
-    installedUnits: 'HydroFLOW Pearl Plus',
+    installedUnits: 'Two HydroFLOW i60 units',
     results: [
       'Multi-floor coverage throughout building.',
       'Consistent results across all units.',
