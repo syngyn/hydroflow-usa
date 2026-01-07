@@ -706,7 +706,8 @@ const caseStudyData = {
       'Excellent scale prevention results in tankless boiler.',
       'Scale-free operation maintained.',
       'Improved energy efficiency.'
-    ]
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/86361495130169.pdf'
   },
   'residential-well': {
     category: 'residential',
