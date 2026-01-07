@@ -736,7 +736,7 @@ const caseStudyData = {
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/7751495146448.jpg',
     customer: 'The Greenfield Village – Southern CA',
     application: 'Water heaters and recirculation pumps',
-    installedUnits: 'HydroFLOW s38 units',
+    installedUnits: 'HydroFLOW Pearl Plus units',
     background: 'In the four years since the apartment complex was built, limescale buildup was so aggressive, that many of the water heaters and recirculation pumps failed. The complex\'s owners faced a minimum cost of $600,000 to replace the equipment. After further research, the community\'s executives decided to install HydroFLOW water conditioners, which use patented Hydropath technology.',
     results: [
       'Six months after installation, random inspections found that the water heaters, recirculation pumps, tanks, pipes and related equipment were free of limescale buildup.',
