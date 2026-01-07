@@ -610,18 +610,17 @@ const caseStudyData = {
   'hotel-hot-water-system': {
     category: 'commercial',
     title: 'Hotel Hot Water System',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/67881495481553.jpg',
-    customer: 'Hotel facility',
-    application: 'Tankless water heaters',
-    installedUnits: 'HydroFLOW unit',
-    background: 'Hotel needed to reduce maintenance requirements and chemical usage for tankless water heater cleaning.',
-    successFactors: ['Reduce cleaning frequency', 'Eliminate harsh chemicals', 'Simplify maintenance'],
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/72631672858543.jpg',
+    customer: 'Hotel in San Antonio, TX',
+    application: 'Potable hot water system – limescale reduction',
+    installedUnits: 'Two HydroFLOW i100',
+    background: 'The hotel was looking to improve its low water pressure and lack of hot water.',
     results: [
-      'Cleaning the tankless water heaters is 75% less frequent and much easier.',
-      'Harsh chemicals are no longer required.',
-      'Maintenance time and costs significantly reduced.'
+      'A few days after the installation, "soft" scale began to purge out of the hot water system.',
+      'Previously clogged showerheads and faucet aerators have minimal debris.',
+      'Twelve months after installation, the estimated return on investment (ROI) is well under a year.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/95371495126856.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/14241698879790.pdf'
   },
   'office-building-cooling-towers-in-us-southeast': {
     category: 'commercial',

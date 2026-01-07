@@ -366,11 +366,11 @@ const caseStudies = [
     title: 'Hotel Hot Water System',
     slug: 'hotel-hot-water-system',
     description: 'Cleaning the tankless water heaters is 75% less frequent and much easier; harsh chemicals are no longer required.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/67881495481553.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/72631672858543.jpg',
     results: ['75% less cleaning', 'No harsh chemicals', 'Easy maintenance'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/95371495126856.pdf',
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/14241698879790.pdf',
     application_type: ['Water Heaters'],
-    products_used: ['HS40']
+    products_used: ['I Range']
   },
   {
     category: 'commercial',
