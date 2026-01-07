@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { base44 } from '@/api/base44Client';
 import { useQuery } from '@tanstack/react-query';
@@ -642,7 +642,9 @@ const applicationTypes = [
 const products = ['Pearl', 'Pearl Plus', 'HS40', 'I Range', 'HM Range'];
 
 export default function CaseStudies() {
-  const [activeCategory, setActiveCategory] = useState('all');
+  const [searchParams] = useSearchParams();
+  const categoryFromUrl = searchParams.get('category') || 'all';
+  const [activeCategory, setActiveCategory] = useState(categoryFromUrl);
   const [selectedApplication, setSelectedApplication] = useState('all');
   const [selectedProduct, setSelectedProduct] = useState('all');
   const [showFilters, setShowFilters] = useState(false);
