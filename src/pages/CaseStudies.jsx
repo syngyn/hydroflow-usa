@@ -326,7 +326,7 @@ const caseStudies = [
     results: ['14 month ROI', 'Restaurant success', 'Proven savings'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/24351493849401.pdf',
     application_type: ['Dishwashers', 'Food Processing'],
-    products_used: ['HS40']
+    products_used: ['Pearl Plus']
   },
   {
     category: 'commercial',
