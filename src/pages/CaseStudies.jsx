@@ -237,7 +237,7 @@ const caseStudies = [
     results: ['Reduced scale', 'Less corrosion', 'Extended equipment life'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/39511493849268.pdf',
     application_type: ['Boilers', 'Steam Systems', 'Food Processing'],
-    products_used: ['HS40']
+    products_used: ['I Range']
   },
   {
     category: 'commercial',
