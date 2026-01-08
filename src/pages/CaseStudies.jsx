@@ -248,7 +248,7 @@ const caseStudies = [
     results: ['Chemical-free operation', 'No scale buildup', 'Safe water quality'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/43851493848202.pdf',
     application_type: ['Cooling Towers'],
-    products_used: ['HS40'],
+    products_used: ['I Range'],
     installer: 'HydroFLOW West',
     customer: 'Sunrise Children\'s Hospital – Las Vegas NV',
     application: 'Cooling Tower',
