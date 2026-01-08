@@ -752,7 +752,7 @@ const caseStudyData = {
     installer: 'HydroFLOW USA',
     customer: 'Crown Property Management',
     application: 'Dishwasher',
-    installedUnits: 'HydroFLOW s38 unit',
+    installedUnits: 'HydroFLOW Pearl Plus',
     background: 'The dishwasher in their corporate office suffered from limescale associated problems – white spotting on glassware and on the appliance\'s inner parts. They decided to install a HydroFLOW s38 in order to try and remedy the problem.',
     results: [
       'Following the installation of the water conditioner, we immediately notice the glassware become spotless.',
