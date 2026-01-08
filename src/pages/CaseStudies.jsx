@@ -424,7 +424,7 @@ const caseStudies = [
     results: ['Scale prevention', 'Improved water quality', 'Appliance protection'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/75351495060345.pdf',
     application_type: ['Wells'],
-    products_used: ['Pearl']
+    products_used: ['Pearl Plus']
   },
   {
     category: 'residential',
