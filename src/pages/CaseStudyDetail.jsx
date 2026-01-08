@@ -780,13 +780,15 @@ const caseStudyData = {
   'residential-tower': {
     category: 'residential',
     title: 'Residential Tower',
-    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800',
-    application: 'High-rise residential tower water treatment',
-    installedUnits: 'Two HydroFLOW i60 units',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/11761494365073.jpg',
+    installer: 'New Water Innovations (HydroFLOW Southwest)',
+    customer: 'West Sixth Residential Towers – Tempe, AZ',
+    application: 'Water boilers, plumbing lines and fixtures',
+    installedUnits: 'Two HydroFLOW i160 units',
+    background: 'The two "West Sixth" residential towers serving the Tempe campus of Arizona State University were experiencing problems with limescale accumulating in their domestic water boilers, plumbing lines and fixtures throughout the facilities. Water softeners were considered but were deemed unpractical due to space constraints. The units were installed on November 2014.',
     results: [
-      'Multi-floor coverage throughout building.',
-      'Consistent results across all units.',
-      'High resident satisfaction.'
+      'In March of 2016 (16 months after the HydroFLOW units were installed), the domestic water boilers were inspected and found to be absolutely scale-free.',
+      'HydroFLOW units reversed the scale that had built up before their installation.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/51421493846519.pdf'
   },
