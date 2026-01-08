@@ -690,12 +690,13 @@ const caseStudyData = {
     category: 'residential',
     title: 'Plumbing Contractor',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/31951495476221.jpg',
-    application: 'Professional plumber testimonial',
-    installedUnits: 'HydroFLOW Pearl Plus',
+    application: 'Tankless Heaters and Pools',
+    installedUnits: 'HydroFLOW s38',
+    background: 'They were looking for a solution to protect the tankless water heaters they are installing. They came across the hydropath technology and decided they will try the HydroFLOW s38 unit on a couple of installations. After getting to know the technology more they started to install the HydroFLOW units on pools.',
     results: [
-      'Easy installation process for residential applications.',
-      'Proven results in multiple customer homes.',
-      'High client satisfaction rates.'
+      'The heat exchangers were completely clean from the scale.',
+      'Pool – almost totally eliminates the need for pool chemicals.',
+      'With Hydropath technology, there is no longer a need for traditional water softeners.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/15281493934433.pdf'
   },
