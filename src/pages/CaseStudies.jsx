@@ -304,7 +304,7 @@ const caseStudies = [
     results: ['Scale prevention', 'Clean ice', 'Hospital approved'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/78241493850010.pdf',
     application_type: ['Ice Machines'],
-    products_used: ['Pearl Plus']
+    products_used: ['HS40']
   },
   {
     category: 'commercial',
