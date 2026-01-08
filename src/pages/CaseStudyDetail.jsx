@@ -1027,7 +1027,7 @@ export default function CaseStudyDetail() {
                       </div>
                       <div>
                         <h3 className="font-semibold text-slate-900">
-                          {slug === 'plumbing-contractor' ? 'Full Letter' : 'Full Case Study Report'}
+                          {(slug === 'plumbing-contractor' || slug === 'residential-well') ? 'Full Letter' : 'Full Case Study Report'}
                         </h3>
                         <p className="text-sm text-slate-600">Download the complete PDF for detailed information</p>
                       </div>
