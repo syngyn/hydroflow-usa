@@ -1032,7 +1032,7 @@ export default function CaseStudyDetail() {
                       </div>
                       <div>
                         <h3 className="font-semibold text-slate-900">
-                          {slug === 'residential-pool' ? 'Residential Testimonial' : (slug === 'plumbing-contractor' || slug === 'residential-well' || slug === 'residential-dishwasher') ? 'Full Letter' : 'Full Case Study Report'}
+                          {slug === 'residential-pool' ? 'Residential Testimonial' : (slug === 'plumbing-contractor' || slug === 'residential-well' || slug === 'residential-dishwasher') ? 'Full Letter' : slug === 'gold-leed-campus' ? 'Referral Letter' : 'Full Case Study Report'}
                         </h3>
                         <p className="text-sm text-slate-600">Download the complete PDF for detailed information</p>
                       </div>
