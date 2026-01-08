@@ -315,7 +315,7 @@ const caseStudies = [
     results: ['Maintenance-free', 'Eco-friendly', 'Thousands saved'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/89611493849814.pdf',
     application_type: ['HVAC Systems', 'Cooling Towers'],
-    products_used: ['HS40']
+    products_used: ['I Range']
   },
   {
     category: 'commercial',
