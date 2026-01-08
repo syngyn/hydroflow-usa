@@ -446,7 +446,7 @@ const caseStudies = [
     results: ['Spot-free dishes', 'No rinse aid needed', 'Cleaner results'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/31351493931674.pdf',
     application_type: ['Dishwashers'],
-    products_used: ['Pearl']
+    products_used: ['Pearl Plus']
   },
   {
     category: 'residential',
