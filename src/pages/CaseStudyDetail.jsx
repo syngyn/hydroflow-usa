@@ -764,7 +764,7 @@ const caseStudyData = {
   'residential-pool': {
     category: 'residential',
     title: 'Residential Pool',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/44371494363345.jpg',
+    image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800',
     installer: 'HydroFLOW West Inc.',
     customer: 'Homeowner in Selah, WA.',
     application: 'Above ground swimming pool, 18\' round',
