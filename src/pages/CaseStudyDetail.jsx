@@ -749,12 +749,14 @@ const caseStudyData = {
     category: 'residential',
     title: 'Residential Dishwasher',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/41611494973757.jpg',
-    application: 'Dishwasher performance improvement',
-    installedUnits: 'HydroFLOW Pearl',
+    installer: 'HydroFLOW USA',
+    customer: 'Crown Property Management',
+    application: 'Dishwasher',
+    installedUnits: 'HydroFLOW s38 unit',
+    background: 'The dishwasher in their corporate office suffered from limescale associated problems – white spotting on glassware and on the appliance\'s inner parts. They decided to install a HydroFLOW s38 in order to try and remedy the problem.',
     results: [
-      'Spot-free dishes without rinse aid.',
-      'No rinse aid needed.',
-      'Consistently cleaner results.'
+      'Following the installation of the water conditioner, we immediately notice the glassware become spotless.',
+      'The limescale on the heating element gradually began to dissolve over a period of 3 months.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/31351493931674.pdf'
   },
