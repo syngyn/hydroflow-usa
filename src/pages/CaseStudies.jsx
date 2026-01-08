@@ -464,7 +464,7 @@ const caseStudies = [
     title: 'Residential Tower',
     slug: 'residential-tower',
     description: 'High-rise residential tower with comprehensive water treatment solution.',
-    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/11761494365073.jpg',
     results: ['Multi-floor coverage', 'Consistent results', 'Resident satisfaction'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/87271493931205.pdf',
     application_type: ['Other'],
