@@ -660,7 +660,7 @@ const caseStudyData = {
     title: 'Residential Water Heater',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/27101632777274.jpg',
     application: 'Residential scale prevention and removal',
-    installedUnits: 'HydroFLOW s38',
+    installedUnits: 'HydroFLOW Pearl Plus',
     background: 'Residential property needed to address scale buildup in water heater and throughout the home\'s plumbing system.',
     successFactors: ['Stop new scale formation', 'Remove existing scale buildup', 'Improve water heater efficiency'],
     results: [
