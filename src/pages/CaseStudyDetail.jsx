@@ -507,7 +507,7 @@ const caseStudyData = {
     installer: 'HydroFLOW West',
     customer: 'St. Helena Hospital in St. Helena, California',
     application: 'Ice machines',
-    installedUnits: 'HydroFLOW s38',
+    installedUnits: 'HydroFLOW Pearl Plus',
     background: 'The water at the facility has very high silica content, estimated around 80 ppm, causing several problems: frequently replace parts due to difficulty of removal of the silica build‐up on the components, costing up to $1500 per year; at many locations, a reverse osmosis filtration system was in place, which created bottlenecks in the water supply; the ice machines were not able to keep up with demand from nursing; the refrigeration engineer responsible for the maintenance was spending up to 180 hours per year cleaning 22 ice machines.',
     successFactors: ['Reduce maintenance labor', 'Reduce replacement parts costs', 'Eliminate demand issues'],
     results: [
