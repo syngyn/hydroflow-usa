@@ -278,7 +278,7 @@ const caseStudies = [
     title: 'HydroFLOW Cooling Tower Chiller Installation',
     slug: 'hydroflow-cooling-tower-chiller-installation',
     description: 'Medical Center\'s head of maintenance at the 7 month chiller tube inspection: This is the cleanest the chiller tubes had ever been.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/2231662060002.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b01fd83c_custom24condencer.png',
     results: ['Cleanest ever', 'Medical facility approved', 'Outstanding results'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/43801662059912.pdf',
     application_type: ['Cooling Towers', 'Chillers'],
