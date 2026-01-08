@@ -393,7 +393,7 @@ const caseStudies = [
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/28901495146802.jpg',
     results: ['Bacteria reduction', 'Safe drinking water', 'No chemicals'],
     application_type: ['Wells'],
-    products_used: ['Pearl']
+    products_used: ['Pearl Plus']
   },
   {
     category: 'residential',
