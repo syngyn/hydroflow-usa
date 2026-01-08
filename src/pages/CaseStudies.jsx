@@ -479,7 +479,7 @@ const caseStudies = [
     results: ['Extended heater life', 'Lower energy bills', 'No scale buildup'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/36311632777095.pdf',
     application_type: ['Water Heaters'],
-    products_used: ['Pearl']
+    products_used: ['Pearl Plus']
   },
 
   // Agriculture
