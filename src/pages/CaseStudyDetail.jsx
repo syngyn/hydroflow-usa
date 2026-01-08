@@ -764,13 +764,16 @@ const caseStudyData = {
   'residential-pool': {
     category: 'residential',
     title: 'Residential Pool',
-    image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800',
-    application: 'Swimming pool scale and biofilm control',
-    installedUnits: 'HydroFLOW hs40',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/44371494363345.jpg',
+    installer: 'HydroFLOW West Inc.',
+    customer: 'Homeowner in Selah, WA.',
+    application: 'Above ground swimming pool, 18\' round',
+    installedUnits: 'HydroFLOW Residential unit',
+    background: 'Fought with hard water for years and have spent a lot of money on chemicals to get them balanced. They have also considered having the Fire Department come out and fill it with creek water to eliminate the hardness and scaling.',
     results: [
-      'Crystal clear water maintained.',
-      'Reduced chemical usage.',
-      'Easier pool maintenance.'
+      'The hardness, alkalinity, copper, and iron were in the absolute best range in all categories.',
+      'Saved $300 in pool chemicals that normally have to buy to get the pool adjusted correctly.',
+      'Only added one bag of Multi Shock and kept a couple of chlorine tablets in the floater.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/8651539882719.pdf'
   },
