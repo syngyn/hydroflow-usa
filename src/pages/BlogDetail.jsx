@@ -1305,6 +1305,327 @@ const blogContent = {
       <h2>Personal Water Filtration</h2>
       <p>For on-the-go filtration, portable water filters like the HydroFLOW Vitality filter ensure you have access to clean drinking water wherever you may be.</p>
     `
+  },
+  // Commercial blogs
+  'why-water-softeners-banned': {
+    title: 'Why are Water Softeners Being Banned?',
+    date: '2024-11-15',
+    readTime: '8 min read',
+    category: 'commercial',
+    content: `
+      <p>Hard water is water that is rich in minerals like calcium, magnesium, and silica. These minerals can cause serious problems for heat-exchange surfaces, pipes, and water fixtures throughout your home and business. Over time, pipes could become completely clogged by scale buildup. When limescale builds upon a heating element, it insulates and prevents it from performing efficiently.</p>
+      
+      <p>Minerals such as calcium and magnesium, both have a positive charge. Sodium, the mineral that water softeners use to replace hardness ions, also has a positive charge, so none of these ions are attracted to each other. However, sodium's charge is weaker than that of calcium and magnesium. If ions aren't attracted to each other, how can an exchange take place? There is one other crucial element needed to make the process work: a resin bed consisting of lots of tiny, negatively charged beads.</p>
+      
+      <p>The salt added to a water softener clings to these beads since opposites attract. When the calcium and magnesium-rich water flows through the water softener, the negatively charged resin attracts the positively charged ions of calcium and magnesium. Since these ions have a stronger positive charge than sodium ions, the sodium ions get displaced and are exchanged for the naturally occurring calcium and magnesium.</p>
+      
+      <h2>Environmental Impact of Water Softeners</h2>
+      <p>While added salt may not be a detriment to the health of a generally healthy household, the salt that is then discharged from one's home/business into freshwater streams, rivers, and aquifers is causing serious damage to our water supplies and aquatic life. In addition, most city wastewater facilities do not have systems in place to remove the added salt from the water during the treatment process. Because agriculture depends on repurposed water coming from wastewater facilities, the water supplied to farmlands are thus supersaturated with the added sodium, damaging crop yields.</p>
+      
+      <h2>What is My State Doing to Reduce the Risks of Salt-Based Softeners?</h2>
+      <p>As we continue to evolve our policies and awareness towards environmental conservation, many states are taking steps towards alternatives to saltwater softening systems. Here is a list of some current initiatives, programs, ordinances, and bans put into place within the last decade in various cities/states within the US.</p>
+      
+      <h3>California</h3>
+      <p>In 2009, California State issued a law allowing agencies to ban the installation of new saltwater softeners to homes and businesses that discharge water into community sewer systems. The law states that this is a "necessary means of achieving compliance with waste discharge requirements issued by a California regional water quality control board."</p>
+      
+      <h3>Texas</h3>
+      <p>In 2001 Texas issued a statewide water softener ban. This law was amended in 2003 to allow water softeners in homes and businesses as long as particular conditions were met. Water softeners must conserve water by regenerating on demand and be clearly labeled as being equipped with a Demand-Initiated Regeneration (DIR) device. Point of entry reverse osmosis systems must not cause hydraulic overloading.</p>
+      
+      <h3>Connecticut</h3>
+      <p>Brine discharge from salt water softeners is prohibited from entering private septic systems. The State has also made a push towards educating its residents on water hardness levels and pain points, the damages that can be caused by saltwater softeners, and what residents can do for alternative solutions.</p>
+      
+      <h3>Michigan</h3>
+      <p>In Michigan, many cities have taken steps to reduce the use of water softeners and subsequently, brine discharge into their lakes and sewer systems. Some cities have created a softener buy-back program while others have issued ordinances to regulate the use of salt water softening appliances.</p>
+      
+      <h3>Minnesota</h3>
+      <p>The Department of Water Resources at the University of Minnesota has been actively discovering solutions for Minnesota cities to minimize the risks of salt softening.</p>
+      
+      <h3>Wisconsin</h3>
+      <p>Wisconsin State has taken measures to reduce chloride from sources such as water softening systems, industrial sources, and winter ice control. The Wisconsin State Legislative Plumbing code SPS 382 lists the requirements for saltwater systems that flush into the sewer system. Many municipalities have systems in place to reduce the amount of salt discharge into their wastewater plants and waterways such as the Madison Metropolitan Sewer District (MMSD).</p>
+    `
+  },
+  'legionella-control': {
+    title: 'Legionella Control with Water Conditioning',
+    date: '2024-10-08',
+    readTime: '9 min read',
+    category: 'commercial',
+    content: `
+      <p>Early Spring is a good time for facility operators to prepare their building water systems for the warm months ahead, and to consider safe and sustainable ways to prevent legionella, which forms in numerous water systems besides cooling towers. Legionella is not a new strain of bacteria, but with continuous improvements in the efficiencies of systems and building practices, these bacteria could be more difficult to control in some areas that chemicals have difficulty reaching. HydroFLOW is an electronic water conditioning device that controls bacteria, scale and corrosion in water systems. HydroFLOW controls legionella and algae in cooling towers, potable water systems and water heaters with a frequency that extends throughout a water system.</p>
+      
+      <p>Chemicals should be used in water systems according to regulations, and when used with HydroFLOW the volume of chemical use is reduced between 50%-75%, and water purging/blowdown is decreased by more than 50% in most cases. HydroFLOW reduces chemicals, water and energy use as a sustainable water management technology for water systems of any size.</p>
+      
+      <p>Legionnaires outbreaks have occurred with some frequency recently, and after considerable time and review, ASHRAE approved the 188 standard for legionella in 2015 called ANSI/ASHRAE 188-2015, "Legionellosis: Risk Management for Building Water Systems." The Legionella risk reduction strategy set forth in 188-2015 is to implement a water management plan for building water systems including cooling towers, evaporative condensers, whirlpool spas, ornamental fountains, misters, atomizers, air washers, humidifiers, and other devices that release water droplets.</p>
+      
+      <h2>Legionella Management</h2>
+      <p>A management plan would be required for potable plumbing systems only in buildings that have any of the following:</p>
+      <ol>
+        <li>Multiple housing units with a centralized hot water system</li>
+        <li>More than 10 stories</li>
+        <li>Housing for occupants over the age of 65</li>
+        <li>Health care for patients staying longer than 24 hours</li>
+        <li>An area housing or treating persons at especially high risk of contracting Legionnaires' disease</li>
+      </ol>
+      
+      <p>HVAC contractors and others that provide services on or near cooling towers should take reasonable measures to protect themselves from Legionnaires' disease, and many building operators have initiated legionella testing programs on a schedule to monitor levels of bacteria in water systems. Water systems that are determined to require Legionella control measures require designers to provide documentation, diagrams, and instructions for monitoring and control of legionella, and should note locations of equipment access (and note inadequate access), filling and draining, flushing, sampling, temperature monitoring, treatment, no flow and low flow areas, possible cross connections between potable and non-potable systems, and outside air intakes.</p>
+      
+      <p>Preventive measures for legionella have been specified in ASHRAE 188-2015: Locate cooling towers to minimize transmission of drift to people; for example, as far as reasonably possible from building openings, outside air intakes, parking lots, and sidewalks. Also, avoid locating cooling towers near sources of contamination such as kitchen exhausts that make water treatment for microbial control even more challenging.</p>
+      
+      <p>Legionella prevention and mitigation should be a part of every facility manager's standard operating procedures, and while chemicals have traditionally been at the forefront of control, more sustainable methods can be used that complement chemical applications while reducing their volume and cost.</p>
+      
+      <h2>Legionella Treatment with HydroFLOW</h2>
+      <p>HydroFLOW installs in minutes and operates 24/7 without balancing dosages or concentrations. HydroFLOW neutralizes bacteria, biofilm and algae throughout a water system while controlling scale, which reduces another set of chemicals that require balancing. Sustainable water management is good for people, budgets and it improves operations.</p>
+    `
+  },
+  'hydropath-technology-silicates': {
+    title: 'The Effect of Hydropath Technology on Silicates',
+    date: '2024-09-12',
+    readTime: '5 min read',
+    category: 'commercial',
+    content: `
+      <h2>Prevention of New Scale</h2>
+      <p>Scaling in pipes can be due to a range of different compounds. One of the most common of these is Calcium Carbonate (Limescale) but there is a range of others. One such family is the Silicates, (compounds containing silicon rather than carbon). In both cases, the minerals are in a dissolved form in the water as positively and negatively charged ions.</p>
+      
+      <p>Hydropath technology acts to create clusters of ions. These clusters are groups of dissolved ions that are still in solution but nevertheless have some structure and act as precursors to crystals. This means that when the water becomes supersaturated, the clusters act as "starting points," and the crystals form in suspension in the water, rather than as hard "scale" on the surface of pipes and equipment.</p>
+      
+      <p>This process is based on the ionic nature of the crystals, and therefore this effect applies to any scale formed from ionic compounds, including Carbonate Scaling and Silicate Scaling.</p>
+      
+      <h2>Removal of Existing Scale</h2>
+      <p>When dissolved calcium and bicarbonate ions come out of solution and crystallize, they release carbon dioxide into the water. This makes the water able to dissolve the existing Calcium Carbonate scale. This release does not occur with silicate-based compounds and therefore HydroFLOW cannot directly remove the existing silicate scale.</p>
+      
+      <h2>Combined Silicate and Carbonate Scale</h2>
+      <p>In practice, the scale in many systems is formed by a combination of both calcium carbonate and silicate scale. This means that what often happens, is that the silicate scale is formed in a matrix with calcium carbonate scale. Therefore, removing the calcium carbonate scale can remove the silicate scale because the scale formation is a matrix of calcium and silica. The silica does, in fact come off, but not as a direct result of dissolving the silica.</p>
+    `
+  },
+  'sustainable-water-tools': {
+    title: 'Sustainable Water Use Tools & Technology',
+    date: '2024-08-05',
+    readTime: '10 min read',
+    category: 'commercial',
+    content: `
+      <p>Sustainable water use is an important goal of many companies and institutions, and significant progress has been realized in recent years that has saved millions of gallons of water while achieving the intended purposes of the systems, such as cooling towers, which use high volumes of water. Saving water has a positive impact on the environment as well as the bottom line.</p>
+      
+      <p>The ability to justify a business case for applying efficient technologies can be difficult based on water savings alone. However, when the metrics include water, energy and chemical reductions, the business case for supporting a return on investment (ROI) in less than 24 months is possible.</p>
+      
+      <h2>Cooling Tower Water Treatment Solution</h2>
+      <p>Pilot installations have been developed to demonstrate electronic water conditioning technologies, which resulted in larger scale program rollouts in order to capture and replicate long term savings of water, energy, chemicals and maintenance at facilities throughout the enterprise.</p>
+      
+      <p>A successful program that systematically identified significant water and associated cost savings across the U.S. was jointly developed by AT&T and The Environmental Defense Fund (EDF). The result of a year-long program identified up to 40% water savings in cooling systems at AT&T facilities and led to the development of a full suite of water efficiency tools and resources during the pilot project that was generously shared at no cost to other companies and organizations.</p>
+      
+      <p>Cooling towers remove heat from water by evaporating a small portion of the water that is recirculated through the unit. Maintaining water quality is essential for optimum operating conditions, which involves controlling bacteria and algae, preventing scale, and corrosion. Scale and bacteria degrade the thermal and flow efficiencies of a water system, and together can cause corrosion of metal that results in high maintenance and replacement costs.</p>
+      
+      <h2>How to Increase Cooling Tower Efficiency</h2>
+      <p>Traditionally, a range of chemicals are added that include scale inhibitors, biocides, corrosion inhibitors and other site specific additives to extend the use of water while preventing accumulation of scale and biologicals in the equipment. Many cooling systems have a sidestream filtration system that processes approximately 10% of water to remove suspended solids from the water stream while allowing the primary circulation to continue.</p>
+      
+      <p>Under these operating conditions, water is discarded by blow down or bleed off when a sensor records a specific level of conductivity. Accumulated water loss is undesirable for cost and stewardship reasons, and every thousand gallons of purged water contains expensive chemicals that must be replenished.</p>
+      
+      <p>In practice, a cooling tower that maintains low levels of suspended solids will have lower conductivity in water, while also eliminating surface area for biologicals to grow. By removing particles to sizes of 1 micron, the effective use of water will be increased significantly. Further, the chemicals in the water will be conserved due to less frequent bleed off and they will have less total suspended solids (TSS) and organic matter that consumes them. We believe that a balanced chemistry program is important for consistent cooling tower operation, and offer technologies that reduce chemical use by up to 75%.</p>
+      
+      <h2>Why HydroFLOW as an Effective Cooling Tower Water Treatment Solution</h2>
+      <p>A HydroFLOW unit is installed on the exterior of a flowline and emits a 150 kHz frequency that extends throughout the system. HydroFLOW water conditioners are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
+      
+      <p>Frequent blowdowns are reduced to brief bleed-off episodes using 50% less water, and due to significantly improved water quality from HydroFLOW, less chemistry is wasted. Water may to be reused for irrigation or other beneficial uses rather than discharged into a sanitary sewer. HydroFLOW electronic water conditioners need little to no maintenance, and require no chemical additives. The cost savings provide a return on investment (ROI) of less than 12-24 months.</p>
+    `
+  },
+  'solution-scale-removal': {
+    title: 'A Solution for Scale Removal',
+    date: '2024-07-20',
+    readTime: '7 min read',
+    category: 'commercial',
+    image: 'https://hydroflow-usa.com/assets/userfiles/images/S38%2Bunit%2Bon%2Bcommercial%2Bdishwasher.jpg',
+    content: `
+      <h2>Award-Winning Descaler Aids California Restaurant</h2>
+      <p>The Brookfields Restaurant chain consists of three large eateries located in and around Sacramento, California. Like many others, Brookfields Restaurants were equipped with water softeners to control scale on their hot water equipment, which consists of hot water heaters, dishwashers, steamers, coffeemakers and espresso machines. Even with the softeners, Brookfields Restaurant managers reported that flatware looked dull and did not appear clean. Both flatware and dishes were also covered with water spots, and employees regularly had to clean scale deposits from the stainless steel appliances. Owner Sam Manolakas was concerned that even though flatware and dishes were cleaned and sterilized, their appearance would cause customers to question their cleanliness. The three restaurants triple-filtered their incoming water, but hard water problems persisted.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/S38%2Bunit%2Bon%2Bcommercial%2Bdishwasher.jpg" alt="S38 unit on a commercial dishwasher" />
+      
+      <h2>Alternative Water Treatment Methods</h2>
+      <p>Mr. Manolakas began to look for alternative methods that would save the costs of managing the 11,000 gal of water used in each restaurant per day. In December 2010, a California-based representative of HydroFLOW, installed HydroFLOW an HS40 water conditioner at each restaurant and shut off or bypassed their water softeners.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/HydroFLOW%2Bis%2Ban%2Baward-winning%2Btechnology%281%29.jpg" alt="HydroFLOW is an award-winning technology" />
+      
+      <h2>How HydroFLOW Water Conditioners Work</h2>
+      <p>The HydroFLOW systems do not use salt or chemicals; rather they apply an electrical field to the water inside the pipes, which affects the ions that cause scale. The systems work via the patented Hydropath technology, which travels throughout the water system and causes ions to form small suspended clusters in the water, rather than a mass of hard scale inside pipes and equipment. The electrical signal consists of high-frequency oscillations which repeat at varying intervals. Water can hold a certain amount of dissolved minerals. It becomes less able to hold minerals under certain conditions, such as when it experiences a change in temperature or pressure. When this happens, scale begins to form on available surfaces, like the inside of a dishwasher or a pipe.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/S38%2Bunit%2Bon%2Ba%2Bcommercial%2Bsteam%2Boven.jpg" alt="S38 unit on a commercial steam oven" />
+      
+      <h2>The Results</h2>
+      <p>Within a few days of installing the new water conditioners, employees reported that flatware and dishes were shiny and clear. In addition, the stainless steel appliances were easier to clean. Minerals still left some water spots, but they could be easily wiped off with a dry cloth. After 30 days, it was determined that the Madison Avenue restaurant needed an additional small S38 water conditioner for its dishwasher due to the higher mineral content of the incoming water at that location. Mr. Manolakas was pleased with the results of the new water conditioners, reporting that the devices were remarkable in their ability to remove scale and produce shiny dishes and flatware. Each restaurant is able to save approximately $1,800 per year on softener maintenance and salt.</p>
+      
+      <p>The new water conditioners also allowed the Brookfields Sacramento restaurants to use fewer chemicals for cleaning and dishwasher care. Installation required no plumbing revisions and was completed in minutes. The systems require no maintenance and consume less than $1 worth of electricity per year. Additionally, they take up less space than the restaurants' previous water softeners.</p>
+    `
+  },
+  'water-and-ice': {
+    title: 'What\'s in Your Water and Ice',
+    date: '2024-06-18',
+    readTime: '8 min read',
+    category: 'commercial',
+    image: 'https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B1%281%29.png',
+    content: `
+      <p>Ice machines are central to most of our lives. Whether at home or your favorite food/beverage eateries, we're often enjoying ice in our beverages. Health departments in most cities conduct annual inspections for all food establishments to ensure consumers are provided a safe and clean experience. Most often, the ice machine is usually the first place they look in a restaurant kitchen. Ice machines operate continuously to manufacture large quantities of ice. Low temperatures will slow the development of bacteria and algae, however, while bacteria is unable to grow in cold conditions, already developed bacterial is able to survive in freezing conditions. This allows the bacteria to become enclosed within the ice and release as it thaws. Ice machines provide an ideal environment for bacterial growth due to heating compressors on the incoming water lines to the machine. Because of the substantial growth of these microorganisms, ice machines need to be treated continuously to prevent contamination.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B1%281%29.png" alt="Ice machine with biofilm" />
+      
+      <h2>Dangers of Eating Ice</h2>
+      <p>Ice makers require scheduled disinfection and wiping down to ensure that bacteria and mold are not allowed to grow in the ice production areas or the storage bins. There is a range of bacteria that survive in the cold environment, including Listeria, Salmonella, E. coli, Shigella, and even legionella outbreaks can occur in hospital ice machines. Biofilm usually forms in the ice trays and is difficult to control. Biofilm encapsulates a number of bacteria species and serves to protect bacteria very effectively, even from chemicals.</p>
+      
+      <p>Biofilm is often called bio-slime, which regrows rapidly in moist environments. Ice machines with a "cleaning cycle" often do not disinfect the equipment, and will not eliminate biofilm and associated bacteria. Stopping ice production to thoroughly clean a machine requires careful scheduling to ensure that ice will be available for the next shift. Due to the expectation of clean tasting water that does not have chemical taste, the cleaning and maintenance process is a difficult and time-consuming process that requires a schedule; using safe chemicals and tools that do not leave residue.</p>
+      
+      <h2>An Alternative Disinfectant for Your Ice Maker</h2>
+      <p>As an alternative to this process, a HydroFLOW unit can be installed. HydroFLOW water conditioners are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B4.png" alt="S38 unit on a commercial ice machine" />
+      
+      <p>Biofilm often attaches to scale in water systems, which is difficult to remove, so the HydroFLOW saves time, expense and labor while maintaining bacteria and scale control. Kitchens and homes that use water softeners no longer need them after installing a HydroFLOW. Scale does not form, and existing scale is removed over time.</p>
+      
+      <h2>Restaurant Success Story</h2>
+      <p>A popular restaurant chain in the Dallas/Fort Worth area installed a HydroFlow unit on an ice machine that exhibited pink and black slime despite frequent cleaning. The machine was cleaned and a HydroFLOW S38 model was installed. After 30 days, the ice machine was inspected and no algae or discoloration from bacteria was present in the machine. The HydroFLOW prevented new contamination while removing existing bacteria. The restaurant installed HydroFLOW units in all of their restaurants with no biofouling after 6 months of use.</p>
+      
+      <p>When labor and maintenance costs were calculated for manually cleaning an ice machine monthly, the cost of a HydroFLOW was recovered within 4 months.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B2.png" alt="HydroFLOW Receiving the National Restaurant Association Kitchen Innovations Award" />
+      
+      <p>HydroFLOW received the 2015 Innovator of the Year award by the National Restaurant Association for applications in ice machines, steam tables, dishwashers and steamers. With a HydroFLOW the expense and labor associated with having a water softener is eliminated.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/What%2Bin%2Byour%2Bice%2Bpic%2B3.png" alt="Kitchen Innovations Award" />
+      
+      <p>HydroFLOW water conditioners are powered by the patented Hydropath technology, are effective and operate on less than $10 of electricity per year. They have no moving parts and operate 24/7 to control bacteria and scale. HydroFLOW units are easy to install in minutes, and require no cutting of pipes or interruption of production. HydroFLOW reduces water use, chemicals and energy.</p>
+    `
+  },
+  'canine-connection': {
+    title: 'Canine Connection',
+    date: '2024-05-22',
+    readTime: '9 min read',
+    category: 'commercial',
+    image: 'https://hydroflow-usa.com/assets/userfiles/images/Canine%2Btherapy%2Bpool.jpg',
+    content: `
+      <p>On September 22, 2011, TOPS Veterinary initiated a test pilot to study the effectiveness of HydroFLOW's water conditioning technology on its canine therapy pools. TOPS is in the business of veterinary rehabilitation, and one of the treatment options it often employs is hydro-treadmill therapy. The facility has two – 1,000 gallon therapy pools, supported by a large sand filtration system, a dual-speed filtration pump and a booster for the jets.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/Canine%2Btherapy%2Bpool.jpg" alt="Canine therapy pool" />
+      
+      <h2>The Challenge</h2>
+      <p>Prior to the pilot study, TOPS treated their pools with a low-level chlorine dosage and a copper ionization system. Additionally, chemicals were used to raise and lower pH, and other parameters on a regular basis. The pools were filled with water from the facility's well, which was treated to remove high levels of sulfur (19 ppm). Although the water is treated, the pool walls had become a greenish color, which the staff speculated was either the result of sulfur that remained in the water after it was treated or algae growth.</p>
+      
+      <p>TOPS' interest in the HydroFLOW system was twofold: First, it wanted to see if it could maintain bacteria levels of zero by utilizing the system with a decreased amount of pool chemicals. Second, it wanted to find out if the system would have any effect on the greenish color of the pool walls.</p>
+      
+      <p>A dog contributes much more dirt and bacteria to a pool than a human, putting a much higher load on the treatment system. Utilizing a pool for approximately 8 to 10 dogs per day compounds this effect, especially in such a small pool. Testing of the HydroFLOW system lasted 9.5 weeks.</p>
+      
+      <h2>Baseline Testing</h2>
+      <p>TOPS took several baseline measurements prior to the installation of the new treatment system. The first measurements were taken prior to backwash, after evening shock the night before. They showed that with the facility's current treatment method, the pool water was relatively free of bacteria, with only five colonies appearing. The pool wall, however, was riddled with bacteria, with many colonies appearing in the test.</p>
+      
+      <p>A second set of measurements was taken after backwash, with a two-day stabilization period to adjust the pH. The pool water continues to be essentially bacteria free, with only one colony appearing. Next, the facility put the pool into service for one day, with bacteria being introduced by the dogs.</p>
+      
+      <p>A test was taken the next morning, following evening sanitation. No colonies appeared, indicating that the facility's current treatment protocol was effective, even with dogs introducing bacteria to the water.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/Commercial%2BBlog%2B3%2B-%2BPic%2B2.png" alt="Performing lab test on canine pool" />
+      
+      <h2>HydroFLOW's Impact on Canine Therapy Pools</h2>
+      <p>The HydroFLOW system was then installed, and TOPS continued with its normal chemical dosage schedule, but with no additional backwash. The purpose was to determine whether the HydroFLOW system had any negative effects on bacteria levels, and to provide a baseline with the new system, but without a reduction in chemicals. After two weeks, tests showed that the new system had not increased bacteria levels, with no colonies appearing.</p>
+      
+      <p>TOPS continued this treatment scheme for an additional four weeks. Tests at the four and six-week marks continued to reveal no bacteria colonies. By six weeks, the maximum time between backwashes had elapsed. It was also determined that the treatment scheme had no effects on filter pump pressure.</p>
+      
+      <p>Next, TOPS ran the HydroFLOW system for two weeks with chemicals reduced by 25% and the copper ionization system turned off. Testing after a backwash showed that the water remained bacteria free even with the reduction in chemicals.</p>
+      
+      <p>For the next 1.5 weeks, staff reduced the chemicals by 50% and continued to leave the copper ionization system off. The pool water continued to have very low bacteria counts.</p>
+      
+      <p>At the end of the pilot study, TOPS re-tested the pool wall. It did not expect dramatically different results from the baseline test, due to the bacteria-harboring nature of the pool plaster. The test did show an improvement in the amount of bacteria however, with further improvements expected over time.</p>
+      
+      <h2>Results and Savings</h2>
+      <p>The results showed that the facility could reduce chemical usage in its pools while still maintaining a sanitary environment by implementing the HydroFLOW system. Although the results showed that chemical usage could be reduced by up to 50%, the facility continues to use the 25% reduction to maintain a minimal chlorine signature in the pool at all times.</p>
+      
+      <p>According to staff, the clarity of the pools remained excellent throughout the test, with no noticeable degradation of water clarity. There was also no noticeable change in filter pump pressure, likely due to the fact that the filter pump is below grade, putting additional gravitational pressure on it. This is consistent with the history of the pool, because staff almost never see the pump pressure rise prior to backwashing.</p>
+      
+      <p>The installation of the new treatment system allowed TOPS to reduce its chemical load and shut off its copper sanitation system with no negative effects in the water balance and no increase in bacterial growth. Though the system did not kill all the bacteria on the wall, it greatly reduced the number of colonies compared to the previous treatment system.</p>
+      
+      <p>TOPS treats 6 to 10 dogs in the pool daily, and with only 1,000 gallons of water to circulate – dirt, dander and bacteria can accumulate quickly. The clarity and water quality stayed pristine with the new system, even during the busiest swim times. The reduction in chemical use has allowed the facility to save money and with further testing it may be able to decrease chemical use even further.</p>
+    `
+  },
+  'secondary-pool-disinfection': {
+    title: 'Secondary Disinfection for Swimming Pools',
+    date: '2024-04-10',
+    readTime: '7 min read',
+    category: 'commercial',
+    image: 'https://hydroflow-usa.com/assets/userfiles/images/yakima%2Bvalley%2Bsymbol.jpg',
+    content: `
+      <p>According to the U.S. Centers for Disease Control and Prevention, E. coli bacteria, normally found in the human gut and feces, are present in alarming quantities in a majority of pools. The bacteria find their way into pools when people do not take showers before swimming or have "accidents" in the water. It is more likely to find fecal contamination in municipal pools. HydroFLOW water conditioners are one method of secondary disinfection that can reduce bacterial contamination and chemical consumption in pools.</p>
+      
+      <p>The municipal swimming pool in Wapato, Washington is a 375,000-gallon olympic-sized outdoor pool that serves the community of the Yakima Valley area. The Yakima Nation pool operators made the decision to install a HydroFLOW water conditioner in front of the pool's filter system in order to optimize the pool's performance by eradicating bacteria, reducing chemical usage, enhancing filtration and minimizing maintenance.</p>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/yakima%2Bvalley%2Bsymbol.jpg" alt="Yakima Valley" />
+      
+      <h2>The Test Protocol</h2>
+      <p>During the 2012 swimming season, the pool operators decided to run the pool without using the HydroFLOW device for a full month to establish a baseline of chemical and filter media usage. The baseline data then were compared with the remaining three months of the bathing season. Return on investment was five months. Swimmers also noticed a reduction in chlorine smell and eye discomfort.</p>
+      
+      <blockquote>"At the end of May, when the HydroFLOW device was turned on, we noticed immediate changes; the monitor kept reading high levels of pH and chlorine," said Isha Wyman, pool manager for the Yakima nation. "We had to keep reducing our chemicals in order to get the pH to stabilize between 7.2 and 8 and the chlorine to stay at 1 ppm. Our customers gave us compliments throughout the last three months of the bathing season. The state inspector claims our pool is the cleanest in the Yakima Valley."</blockquote>
+      
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/before%2Bhydroflow%2Bin%2Bpool(3).jpg" alt="Pool before HydroFLOW" />
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/after%2Bhydroflow%2Bin%2Bpool(3).jpg" alt="Pool after HydroFLOW" />
+      
+      <h2>How Hydropath Technology Optimizes a Swimming Pool</h2>
+      <p>HydroFLOW water conditioners are powered by patented Hydropath technology. They originally were invented to treat scale by inducing an alternating current decaying sine wave into the water. This alternating current causes the positive and negative mineral ions in the water to move rapidly, thus allowing them to attract and combine to form clusters. When super-saturation occurs in conditions such as a temperature increase or pressure change, these clusters precipitate out of solution and form stable crystals, which remain in suspension rather than adhering to equipment surfaces.</p>
+      
+      <p>In addition to scale treatment, the devices can eradicate bacteria by introducing them to the Hydropath signal. The signal also causes suspended particles to flock so that they are more easily filtered out of water systems.</p>
+      
+      <h2>The History</h2>
+      <p>This technology has been in existence for more than 20 years and is popular in Europe. It all began when the largest residential gas provider in the U.K., British Gas, was looking for a chemical-free water conditioning device to protect its customers' residential water heaters. The company was aware of other water conditioning methods, but found they did not meet its needs for scale reduction.</p>
+      
+      <p>British Gas still purchases thousands of residential HydroFLOW units per year, which are mounted on many of the water heaters it installs. Over the past 20 years, additional benefits were discovered, such as bio-kill, corrosion reduction, filtration enhancement and more.</p>
+    `
+  },
+  'water-softeners-banned-california': {
+    title: 'Why are Water Softeners Being Banned in California?',
+    date: '2024-03-18',
+    readTime: '6 min read',
+    category: 'commercial',
+    content: `
+      <p>Salt-based water softeners have been at the forefront of hard water treatment solutions for 30+ years. As we evolve, our policies and awareness towards environmental conservation evolve with us. In recent years, a solution for environmental impacts, caused by salt-based softeners has become a global priority.</p>
+      
+      <h2>Environmental Impact of Water Softeners</h2>
+      <p>While added salt may not be a detriment to the health of a generally healthy household, the salt that is then discharged from one's home/business into freshwater streams, rivers and aquifers are causing serious damage to our water supplies and aquatic life. In addition, most city wastewater facilities do not have systems in place to remove the added salt from the water during the treatment process. Because agriculture depends on repurposed water coming from wastewater facilities, the water supplied to farmlands are thus supersaturated with the added sodium, damaging crop yields.</p>
+      
+      <h2>California Salt Water Softener Regulations</h2>
+      <p>In 2009, California State issued a law allowing agencies to ban the installation of new saltwater softeners to homes and businesses that discharge water into community sewer systems. The law states that this is a "necessary means of achieving compliance with waste discharge requirements issued by a California regional water quality control board."</p>
+      
+      <h3>Counties with Water Softener Regulations:</h3>
+      <ul>
+        <li>Los Angeles County</li>
+        <li>San Diego County</li>
+        <li>Orange County</li>
+        <li>San Bernardino County</li>
+        <li>Riverside County</li>
+        <li>Ventura County</li>
+        <li>Santa Barbara County</li>
+        <li>San Marco County</li>
+        <li>Tulare County</li>
+        <li>Kern County</li>
+        <li>Solano County</li>
+      </ul>
+      
+      <h2>Local Implementation Examples</h2>
+      <p>Over the years amendments have been made to allow counties more options while still keeping California's sewer systems protected. Below are a couple of examples of what California counties are doing to prevent salt-water discharge and keep with California regulations.</p>
+      
+      <h3>Dixon, Solano County</h3>
+      <p>Prior to 2012, the city of Dixon in Solano County adopted an amnesty program offering residents a financial incentive of up to $600 for removing their brine discharge water softener. After November 2012, all residents that did not take advantage of this program were subject to a fine for the continued use of a brine discharge softener. The city, however, provided financial assistance to residents for the removal of their softening systems including the fees for plumbing services.</p>
+      
+      <h3>Santa Clarita Valley, Los Angeles County</h3>
+      <p>Santa Clarita Valley Sewer District, located in Los Angeles County, has adopted and is enforcing regulatory requirements that require the removal of all installed residential self-regenerating water softeners and limit the volume and concentrations of saline discharges from nonresidential sources to the community sewer system. To support the community, Los Angeles County makes portable exchange water softening services available to residents affected by this ordinance.</p>
+    `
+  },
+  'water-softeners-banned-texas': {
+    title: 'Why are Water Softeners Being Banned in Texas?',
+    date: '2024-02-14',
+    readTime: '5 min read',
+    category: 'commercial',
+    content: `
+      <p>Salt-based water softeners have been at the forefront of hard water treatment solutions for 30+ years. As we evolve, our policies and awareness towards environmental conservation evolve with us. In recent years, a solution for environmental impacts, caused by salt-based softeners has become a global priority.</p>
+      
+      <h2>Environmental Impact of Water Softeners</h2>
+      <p>While added salt may not be a detriment to the health of a generally healthy household, the salt that is then discharged from one's home/business into freshwater streams, rivers and aquifers are causing serious damage to our water supplies and aquatic life. In addition, most city wastewater facilities do not have systems in place to remove the added salt from the water during the treatment process. Because agriculture depends on repurposed water coming from wastewater facilities, the water supplied to farmlands are thus supersaturated with the added sodium, damaging crop yields.</p>
+      
+      <h2>Texas Salt Water Softener Regulations</h2>
+      <p>In 2001 Texas issued a statewide water softener ban. This law was amended in 2003 to allow water softeners in homes and businesses as long as particular conditions were met. Water softeners must conserve water by regenerating on demand and be clearly labeled as being equipped with a Demand-Initiated Regeneration (DIR) device. Point of entry reverse osmosis systems must not cause hydraulic overloading.</p>
+      
+      <p>The main focus behind the state bans is to protect damage to septic systems and municipal wastewater facilities. High concentrations of sodium discharged into septic tanks harm the beneficial microbes, which affects its ability to break down solids.</p>
+    `
   }
 };
 
