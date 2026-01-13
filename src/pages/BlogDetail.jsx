@@ -108,44 +108,44 @@ const blogContent = {
       <h2>Types of Water</h2>
       <p>How many types of water are there? This will depend on what you are looking for. Truly pure water is nearly impossible to find in nature, and depending on its travel from source to sample can contain a wide variety of impurities from simple minerals to full-on wastewater.</p>
       
-      <h3>Alkaline Water</h3>
-      <p>Alkaline water is water that has a pH typically higher than 8. The scale of pH goes from 1 to 14. Water that is below 6 is considered acidic and water above 8 is considered alkaline.</p>
+      <h3><strong>Alkaline Water</strong></h3>
+      <p><strong>Alkaline water</strong> is water that has a pH typically higher than 8. The scale of pH goes from 1 to 14. Water that is below 6 is considered acidic and water above 8 is considered alkaline.</p>
       
-      <h3>Artesian Water</h3>
-      <p>Artesian water is the same as groundwater, the difference being it is brought to the surface by natural pressure.</p>
+      <h3><strong>Artesian Water</strong></h3>
+      <p><strong>Artesian water</strong> is the same as groundwater, the difference being it is brought to the surface by natural pressure.</p>
       
-      <h3>Blackwater</h3>
-      <p>Blackwater is a type of wastewater, also known as sewage, specifically wastewater with high levels of contamination from toilets. Due to the high level of bacteria, diseases and other contaminants, blackwater requires careful treatment and disposal.</p>
+      <h3><strong>Blackwater</strong></h3>
+      <p><strong>Blackwater</strong> is a type of wastewater, also known as sewage, specifically wastewater with high levels of contamination from toilets. Due to the high level of bacteria, diseases and other contaminants, blackwater requires careful treatment and disposal.</p>
       
-      <h3>Brackish Water</h3>
-      <p>Brackish water is water that is more saline than freshwater but less saline than seawater. A common place to find brackish water is an estuary, where a river meets the sea or ocean.</p>
+      <h3><strong>Brackish Water</strong></h3>
+      <p><strong>Brackish water</strong> is water that is more saline than freshwater but less saline than seawater. A common place to find brackish water is an estuary, where a river meets the sea or ocean.</p>
       
-      <h3>Deionized Water</h3>
-      <p>Deionized water is water that has had all mineral ions removed from it and is pure water.</p>
+      <h3><strong>Deionized Water</strong></h3>
+      <p><strong>Deionized water</strong> is water that has had all mineral ions removed from it and is pure water.</p>
       
-      <h3>Distilled Water</h3>
-      <p>Distilled water is water that has been heated to a vapor, leaving the nearly pure H2O to rise as steam to be re-condensed back to a liquid, leaving most minerals and salts behind.</p>
+      <h3><strong>Distilled Water</strong></h3>
+      <p><strong>Distilled water</strong> is water that has been heated to a vapor, leaving the nearly pure H2O to rise as steam to be re-condensed back to a liquid, leaving most minerals and salts behind.</p>
       
-      <h3>Hard Water</h3>
-      <p>Hard water is water that has dissolved ionic compounds in it above 60mg/l. These minerals include calcium and magnesium.</p>
+      <h3><strong>Hard Water</strong></h3>
+      <p><strong>Hard water</strong> is water that has dissolved ionic compounds in it above 60mg/l. These minerals include calcium and magnesium.</p>
       
-      <h3>Mineral Water</h3>
-      <p>Mineral water is sourced from a clean underground source. These sources are chosen because they contain a desirable mix of minerals such as calcium and magnesium.</p>
+      <h3><strong>Mineral Water</strong></h3>
+      <p><strong>Mineral water</strong> is sourced from a clean underground source. These sources are chosen because they contain a desirable mix of minerals such as calcium and magnesium.</p>
       
-      <h3>Potable Water</h3>
-      <p>Potable water is water that has been treated and tested as safe for human consumption, otherwise known as drinking water. This includes tap water, bottled water, filtered water, and any other water considered safe for drinking.</p>
+      <h3><strong>Potable Water</strong></h3>
+      <p><strong>Potable water</strong> is water that has been treated and tested as safe for human consumption, otherwise known as drinking water. This includes tap water, bottled water, filtered water, and any other water considered safe for drinking.</p>
       
-      <h3>Soft Water</h3>
-      <p>Soft water is water that has less than 60 mg/l of dissolved minerals in it according to the USGS.</p>
+      <h3><strong>Soft Water</strong></h3>
+      <p><strong>Soft water</strong> is water that has less than 60 mg/l of dissolved minerals in it according to the USGS.</p>
       
-      <h3>Spring Water</h3>
-      <p>Spring water starts off as groundwater but is unique because it has been pushed back to the surface to form a puddle or spring. Spring water is typically safe to drink because it has been filtered naturally.</p>
+      <h3><strong>Spring Water</strong></h3>
+      <p><strong>Spring water</strong> starts off as groundwater but is unique because it has been pushed back to the surface to form a puddle or spring. Spring water is typically safe to drink because it has been filtered naturally.</p>
       
-      <h3>Tap Water</h3>
-      <p>The most available and lowest cost drinking water across the USA comes straight from the tap. Tap water is safe to drink across most of the United States as it is closely regulated.</p>
+      <h3><strong>Tap Water</strong></h3>
+      <p><strong>Tap water</strong> is the most available and lowest cost drinking water across the USA comes straight from the tap. Tap water is safe to drink across most of the United States as it is closely regulated.</p>
       
-      <h3>Well Water</h3>
-      <p>Well water is water sourced from underground via a well. Wells can vary from shallow surface wells to deep wells that source water from aquifers. The natural qualities of well water can vary drastically depending on location due to local geology.</p>
+      <h3><strong>Well Water</strong></h3>
+      <p><strong>Well water</strong> is water sourced from underground via a well. Wells can vary from shallow surface wells to deep wells that source water from aquifers. The natural qualities of well water can vary drastically depending on location due to local geology.</p>
     `
   },
   'water-myths': {
