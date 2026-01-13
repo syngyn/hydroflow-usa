@@ -235,9 +235,9 @@ export default function Industrial() {
                   Custom solutions available
                 </li>
               </ul>
-              <Link to={createPageUrl('Contact')}>
+              <Link to={createPageUrl('ProductIRange')}>
                 <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-6">
-                  Request Quote
+                  View Details
                 </Button>
               </Link>
             </motion.div>
@@ -270,9 +270,9 @@ export default function Industrial() {
                   Certified for marine use
                 </li>
               </ul>
-              <Link to={createPageUrl('Contact')}>
+              <Link to={createPageUrl('ProductHMRange')}>
                 <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-6">
-                  Request Quote
+                  View Details
                 </Button>
               </Link>
             </motion.div>
