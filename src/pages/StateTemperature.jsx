@@ -6,56 +6,156 @@ import { Thermometer, MapPin, ArrowLeft, Info } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const stateTemperatures = {
-  'AL': { name: 'Alabama', temp: 63, range: '61-70°F', cities: ['Birmingham: 64°F', 'Montgomery: 65°F', 'Mobile: 68°F'] },
-  'AK': { name: 'Alaska', temp: 35, range: '<40°F', cities: ['Anchorage: 38°F', 'Fairbanks: 32°F', 'Juneau: 40°F'] },
-  'AZ': { name: 'Arizona', temp: 68, range: '61-70°F', cities: ['Phoenix: 72°F', 'Tucson: 69°F', 'Flagstaff: 55°F'] },
-  'AR': { name: 'Arkansas', temp: 58, range: '51-60°F', cities: ['Little Rock: 59°F', 'Fort Smith: 58°F', 'Fayetteville: 56°F'] },
-  'CA': { name: 'California', temp: 60, range: '51-60°F', cities: ['Los Angeles: 64°F', 'San Francisco: 56°F', 'Sacramento: 59°F'] },
-  'CO': { name: 'Colorado', temp: 48, range: '41-50°F', cities: ['Denver: 49°F', 'Colorado Springs: 48°F', 'Boulder: 47°F'] },
-  'CT': { name: 'Connecticut', temp: 48, range: '41-50°F', cities: ['Hartford: 49°F', 'New Haven: 50°F', 'Bridgeport: 50°F'] },
-  'DE': { name: 'Delaware', temp: 54, range: '51-60°F', cities: ['Wilmington: 54°F', 'Dover: 55°F', 'Newark: 53°F'] },
-  'FL': { name: 'Florida', temp: 74, range: '+71°F', cities: ['Miami: 77°F', 'Tampa: 74°F', 'Jacksonville: 71°F'] },
-  'GA': { name: 'Georgia', temp: 64, range: '61-70°F', cities: ['Atlanta: 63°F', 'Savannah: 67°F', 'Augusta: 65°F'] },
-  'HI': { name: 'Hawaii', temp: 76, range: '+71°F', cities: ['Honolulu: 76°F', 'Hilo: 75°F', 'Kailua: 76°F'] },
-  'ID': { name: 'Idaho', temp: 46, range: '41-50°F', cities: ['Boise: 48°F', 'Idaho Falls: 44°F', 'Pocatello: 45°F'] },
-  'IL': { name: 'Illinois', temp: 52, range: '51-60°F', cities: ['Chicago: 50°F', 'Springfield: 53°F', 'Peoria: 52°F'] },
-  'IN': { name: 'Indiana', temp: 52, range: '51-60°F', cities: ['Indianapolis: 53°F', 'Fort Wayne: 51°F', 'Evansville: 54°F'] },
-  'IA': { name: 'Iowa', temp: 48, range: '41-50°F', cities: ['Des Moines: 49°F', 'Cedar Rapids: 47°F', 'Davenport: 48°F'] },
-  'KS': { name: 'Kansas', temp: 54, range: '51-60°F', cities: ['Wichita: 56°F', 'Kansas City: 54°F', 'Topeka: 55°F'] },
-  'KY': { name: 'Kentucky', temp: 56, range: '51-60°F', cities: ['Louisville: 57°F', 'Lexington: 56°F', 'Bowling Green: 58°F'] },
-  'LA': { name: 'Louisiana', temp: 68, range: '61-70°F', cities: ['New Orleans: 70°F', 'Baton Rouge: 69°F', 'Shreveport: 66°F'] },
-  'ME': { name: 'Maine', temp: 42, range: '41-50°F', cities: ['Portland: 44°F', 'Bangor: 41°F', 'Augusta: 43°F'] },
-  'MD': { name: 'Maryland', temp: 54, range: '51-60°F', cities: ['Baltimore: 55°F', 'Annapolis: 54°F', 'Frederick: 53°F'] },
-  'MA': { name: 'Massachusetts', temp: 48, range: '41-50°F', cities: ['Boston: 49°F', 'Worcester: 47°F', 'Springfield: 48°F'] },
-  'MI': { name: 'Michigan', temp: 46, range: '41-50°F', cities: ['Detroit: 48°F', 'Grand Rapids: 46°F', 'Lansing: 47°F'] },
-  'MN': { name: 'Minnesota', temp: 42, range: '41-50°F', cities: ['Minneapolis: 43°F', 'St. Paul: 43°F', 'Duluth: 38°F'] },
-  'MS': { name: 'Mississippi', temp: 64, range: '61-70°F', cities: ['Jackson: 65°F', 'Biloxi: 68°F', 'Hattiesburg: 66°F'] },
-  'MO': { name: 'Missouri', temp: 54, range: '51-60°F', cities: ['Kansas City: 54°F', 'St. Louis: 55°F', 'Springfield: 56°F'] },
-  'MT': { name: 'Montana', temp: 42, range: '41-50°F', cities: ['Billings: 44°F', 'Missoula: 42°F', 'Great Falls: 40°F'] },
-  'NE': { name: 'Nebraska', temp: 48, range: '41-50°F', cities: ['Omaha: 49°F', 'Lincoln: 50°F', 'Grand Island: 48°F'] },
-  'NV': { name: 'Nevada', temp: 54, range: '51-60°F', cities: ['Las Vegas: 64°F', 'Reno: 50°F', 'Carson City: 51°F'] },
-  'NH': { name: 'New Hampshire', temp: 44, range: '41-50°F', cities: ['Manchester: 45°F', 'Nashua: 45°F', 'Concord: 44°F'] },
-  'NJ': { name: 'New Jersey', temp: 52, range: '51-60°F', cities: ['Newark: 53°F', 'Jersey City: 53°F', 'Trenton: 52°F'] },
-  'NM': { name: 'New Mexico', temp: 58, range: '51-60°F', cities: ['Albuquerque: 59°F', 'Santa Fe: 52°F', 'Las Cruces: 62°F'] },
-  'NY': { name: 'New York', temp: 48, range: '41-50°F', cities: ['New York City: 52°F', 'Buffalo: 46°F', 'Rochester: 47°F'] },
-  'NC': { name: 'North Carolina', temp: 58, range: '51-60°F', cities: ['Charlotte: 60°F', 'Raleigh: 58°F', 'Greensboro: 57°F'] },
-  'ND': { name: 'North Dakota', temp: 38, range: '<40°F', cities: ['Fargo: 39°F', 'Bismarck: 37°F', 'Grand Forks: 38°F'] },
-  'OH': { name: 'Ohio', temp: 52, range: '51-60°F', cities: ['Columbus: 53°F', 'Cleveland: 50°F', 'Cincinnati: 54°F'] },
-  'OK': { name: 'Oklahoma', temp: 60, range: '51-60°F', cities: ['Oklahoma City: 61°F', 'Tulsa: 60°F', 'Norman: 61°F'] },
-  'OR': { name: 'Oregon', temp: 50, range: '41-50°F', cities: ['Portland: 52°F', 'Eugene: 51°F', 'Salem: 52°F'] },
-  'PA': { name: 'Pennsylvania', temp: 50, range: '41-50°F', cities: ['Philadelphia: 53°F', 'Pittsburgh: 50°F', 'Harrisburg: 51°F'] },
-  'RI': { name: 'Rhode Island', temp: 48, range: '41-50°F', cities: ['Providence: 49°F', 'Warwick: 49°F', 'Newport: 50°F'] },
-  'SC': { name: 'South Carolina', temp: 62, range: '61-70°F', cities: ['Columbia: 64°F', 'Charleston: 66°F', 'Greenville: 60°F'] },
-  'SD': { name: 'South Dakota', temp: 44, range: '41-50°F', cities: ['Sioux Falls: 45°F', 'Rapid City: 42°F', 'Aberdeen: 42°F'] },
-  'TN': { name: 'Tennessee', temp: 58, range: '51-60°F', cities: ['Nashville: 59°F', 'Memphis: 61°F', 'Knoxville: 57°F'] },
-  'TX': { name: 'Texas', temp: 66, range: '61-70°F', cities: ['Houston: 70°F', 'Dallas: 65°F', 'Austin: 68°F'] },
-  'UT': { name: 'Utah', temp: 50, range: '41-50°F', cities: ['Salt Lake City: 51°F', 'Provo: 50°F', 'Ogden: 50°F'] },
-  'VT': { name: 'Vermont', temp: 44, range: '41-50°F', cities: ['Burlington: 45°F', 'Montpelier: 43°F', 'Rutland: 44°F'] },
-  'VA': { name: 'Virginia', temp: 54, range: '51-60°F', cities: ['Richmond: 56°F', 'Virginia Beach: 57°F', 'Norfolk: 57°F'] },
-  'WA': { name: 'Washington', temp: 48, range: '41-50°F', cities: ['Seattle: 50°F', 'Spokane: 46°F', 'Tacoma: 50°F'] },
-  'WV': { name: 'West Virginia', temp: 52, range: '51-60°F', cities: ['Charleston: 54°F', 'Huntington: 53°F', 'Morgantown: 51°F'] },
-  'WI': { name: 'Wisconsin', temp: 44, range: '41-50°F', cities: ['Milwaukee: 46°F', 'Madison: 45°F', 'Green Bay: 43°F'] },
-  'WY': { name: 'Wyoming', temp: 44, range: '41-50°F', cities: ['Cheyenne: 45°F', 'Casper: 44°F', 'Laramie: 42°F'] }
+  'AL': { name: 'Alabama', temp: 63, range: '61-70°F', description: 'Alabama has warm groundwater temperatures ranging from 61-70°F', cities: [
+    { name: 'Birmingham', temp: 64 }, { name: 'Montgomery', temp: 65 }, { name: 'Mobile', temp: 68 }, { name: 'Huntsville', temp: 62 }
+  ]},
+  'AK': { name: 'Alaska', temp: 35, range: '<40°F', description: 'Alaska has the coldest groundwater in the US, typically below 40°F', cities: [
+    { name: 'Anchorage', temp: 38 }, { name: 'Fairbanks', temp: 32 }, { name: 'Juneau', temp: 40 }
+  ]},
+  'AZ': { name: 'Arizona', temp: 68, range: '61-70°F', description: 'Arizona groundwater ranges from warm to hot due to desert climate', cities: [
+    { name: 'Phoenix', temp: 72 }, { name: 'Tucson', temp: 69 }, { name: 'Flagstaff', temp: 55 }, { name: 'Mesa', temp: 71 }
+  ]},
+  'AR': { name: 'Arkansas', temp: 58, range: '51-60°F', description: 'Arkansas has moderate groundwater temperatures in the 51-60°F range', cities: [
+    { name: 'Little Rock', temp: 59 }, { name: 'Fort Smith', temp: 58 }, { name: 'Fayetteville', temp: 56 }
+  ]},
+  'CA': { name: 'California', temp: 62, range: '51-60°F', description: 'California temperatures vary widely from coastal to inland areas', cities: [
+    { name: 'Los Angeles', temp: 62 }, { name: 'San Francisco', temp: 57 }, { name: 'Sacramento', temp: 63 }, { name: 'San Diego', temp: 65 }, { name: 'San Jose', temp: 66 }, { name: 'Fresno', temp: 62 }
+  ]},
+  'CO': { name: 'Colorado', temp: 48, range: '41-50°F', description: 'Mountain state with cool groundwater temperatures', cities: [
+    { name: 'Denver', temp: 49 }, { name: 'Colorado Springs', temp: 48 }, { name: 'Boulder', temp: 47 }, { name: 'Fort Collins', temp: 46 }
+  ]},
+  'CT': { name: 'Connecticut', temp: 49, range: '41-50°F', description: 'New England state with cool groundwater', cities: [
+    { name: 'Hartford', temp: 49 }, { name: 'New Haven', temp: 50 }, { name: 'Bridgeport', temp: 50 }, { name: 'Stamford', temp: 51 }
+  ]},
+  'DE': { name: 'Delaware', temp: 54, range: '51-60°F', description: 'Mid-Atlantic state with moderate temperatures', cities: [
+    { name: 'Wilmington', temp: 54 }, { name: 'Dover', temp: 55 }, { name: 'Newark', temp: 53 }
+  ]},
+  'FL': { name: 'Florida', temp: 71, range: '+71°F', description: 'Florida has some of the warmest groundwater in the continental US', cities: [
+    { name: 'Miami', temp: 73 }, { name: 'Tampa', temp: 70 }, { name: 'Jacksonville', temp: 69 }, { name: 'Orlando', temp: 68 }, { name: 'Fort Lauderdale', temp: 74 }, { name: 'West Palm Beach', temp: 76 }
+  ]},
+  'GA': { name: 'Georgia', temp: 64, range: '61-70°F', description: 'Southern state with warm groundwater', cities: [
+    { name: 'Atlanta', temp: 63 }, { name: 'Savannah', temp: 67 }, { name: 'Augusta', temp: 65 }, { name: 'Columbus', temp: 66 }
+  ]},
+  'HI': { name: 'Hawaii', temp: 76, range: '+71°F', description: 'Tropical climate with the warmest groundwater temperatures', cities: [
+    { name: 'Honolulu', temp: 76 }, { name: 'Hilo', temp: 75 }, { name: 'Kailua', temp: 76 }
+  ]},
+  'ID': { name: 'Idaho', temp: 46, range: '41-50°F', description: 'Northwestern state with cool groundwater', cities: [
+    { name: 'Boise', temp: 48 }, { name: 'Idaho Falls', temp: 44 }, { name: 'Pocatello', temp: 45 }, { name: 'Meridian', temp: 48 }
+  ]},
+  'IL': { name: 'Illinois', temp: 52, range: '51-60°F', description: 'Midwest state with moderate groundwater temperatures', cities: [
+    { name: 'Chicago', temp: 50 }, { name: 'Springfield', temp: 53 }, { name: 'Peoria', temp: 52 }, { name: 'Rockford', temp: 49 }
+  ]},
+  'IN': { name: 'Indiana', temp: 52, range: '51-60°F', description: 'Midwest state with moderate temperatures', cities: [
+    { name: 'Indianapolis', temp: 53 }, { name: 'Fort Wayne', temp: 51 }, { name: 'Evansville', temp: 54 }, { name: 'South Bend', temp: 50 }
+  ]},
+  'IA': { name: 'Iowa', temp: 48, range: '41-50°F', description: 'Upper Midwest with cool groundwater', cities: [
+    { name: 'Des Moines', temp: 49 }, { name: 'Cedar Rapids', temp: 47 }, { name: 'Davenport', temp: 48 }, { name: 'Iowa City', temp: 48 }
+  ]},
+  'KS': { name: 'Kansas', temp: 54, range: '51-60°F', description: 'Great Plains state with moderate temperatures', cities: [
+    { name: 'Wichita', temp: 56 }, { name: 'Kansas City', temp: 54 }, { name: 'Topeka', temp: 55 }, { name: 'Overland Park', temp: 54 }
+  ]},
+  'KY': { name: 'Kentucky', temp: 56, range: '51-60°F', description: 'Southern border state with moderate groundwater', cities: [
+    { name: 'Louisville', temp: 57 }, { name: 'Lexington', temp: 56 }, { name: 'Bowling Green', temp: 58 }, { name: 'Owensboro', temp: 57 }
+  ]},
+  'LA': { name: 'Louisiana', temp: 68, range: '61-70°F', description: 'Southern state with warm groundwater', cities: [
+    { name: 'New Orleans', temp: 70 }, { name: 'Baton Rouge', temp: 69 }, { name: 'Shreveport', temp: 66 }, { name: 'Lafayette', temp: 69 }
+  ]},
+  'ME': { name: 'Maine', temp: 43, range: '41-50°F', description: 'Northern New England with cool groundwater', cities: [
+    { name: 'Portland', temp: 44 }, { name: 'Bangor', temp: 41 }, { name: 'Augusta', temp: 43 }, { name: 'Lewiston', temp: 42 }
+  ]},
+  'MD': { name: 'Maryland', temp: 54, range: '51-60°F', description: 'Mid-Atlantic state with moderate temperatures', cities: [
+    { name: 'Baltimore', temp: 55 }, { name: 'Annapolis', temp: 54 }, { name: 'Frederick', temp: 53 }, { name: 'Rockville', temp: 54 }
+  ]},
+  'MA': { name: 'Massachusetts', temp: 48, range: '41-50°F', description: 'New England state with cool groundwater', cities: [
+    { name: 'Boston', temp: 49 }, { name: 'Worcester', temp: 47 }, { name: 'Springfield', temp: 48 }, { name: 'Cambridge', temp: 49 }
+  ]},
+  'MI': { name: 'Michigan', temp: 46, range: '41-50°F', description: 'Great Lakes state with cool groundwater', cities: [
+    { name: 'Detroit', temp: 48 }, { name: 'Grand Rapids', temp: 46 }, { name: 'Lansing', temp: 47 }, { name: 'Ann Arbor', temp: 48 }
+  ]},
+  'MN': { name: 'Minnesota', temp: 42, range: '41-50°F', description: 'Northern state with cool groundwater temperatures', cities: [
+    { name: 'Minneapolis', temp: 43 }, { name: 'St. Paul', temp: 43 }, { name: 'Duluth', temp: 38 }, { name: 'Rochester', temp: 42 }
+  ]},
+  'MS': { name: 'Mississippi', temp: 65, range: '61-70°F', description: 'Deep South state with warm groundwater', cities: [
+    { name: 'Jackson', temp: 65 }, { name: 'Biloxi', temp: 68 }, { name: 'Hattiesburg', temp: 66 }, { name: 'Gulfport', temp: 68 }
+  ]},
+  'MO': { name: 'Missouri', temp: 54, range: '51-60°F', description: 'Central state with moderate groundwater', cities: [
+    { name: 'Kansas City', temp: 54 }, { name: 'St. Louis', temp: 55 }, { name: 'Springfield', temp: 56 }, { name: 'Columbia', temp: 54 }
+  ]},
+  'MT': { name: 'Montana', temp: 42, range: '41-50°F', description: 'Mountain state with cool groundwater', cities: [
+    { name: 'Billings', temp: 44 }, { name: 'Missoula', temp: 42 }, { name: 'Great Falls', temp: 40 }, { name: 'Bozeman', temp: 41 }
+  ]},
+  'NE': { name: 'Nebraska', temp: 49, range: '41-50°F', description: 'Great Plains state with cool to moderate groundwater', cities: [
+    { name: 'Omaha', temp: 49 }, { name: 'Lincoln', temp: 50 }, { name: 'Grand Island', temp: 48 }, { name: 'Bellevue', temp: 49 }
+  ]},
+  'NV': { name: 'Nevada', temp: 56, range: '51-60°F', description: 'Desert state with varying groundwater temperatures', cities: [
+    { name: 'Las Vegas', temp: 64 }, { name: 'Reno', temp: 50 }, { name: 'Carson City', temp: 51 }, { name: 'Henderson', temp: 64 }
+  ]},
+  'NH': { name: 'New Hampshire', temp: 45, range: '41-50°F', description: 'Northern New England with cool groundwater', cities: [
+    { name: 'Manchester', temp: 45 }, { name: 'Nashua', temp: 45 }, { name: 'Concord', temp: 44 }, { name: 'Dover', temp: 46 }
+  ]},
+  'NJ': { name: 'New Jersey', temp: 52, range: '51-60°F', description: 'Mid-Atlantic state with moderate groundwater', cities: [
+    { name: 'Newark', temp: 53 }, { name: 'Jersey City', temp: 53 }, { name: 'Trenton', temp: 52 }, { name: 'Atlantic City', temp: 54 }
+  ]},
+  'NM': { name: 'New Mexico', temp: 58, range: '51-60°F', description: 'Southwestern state with moderate to warm groundwater', cities: [
+    { name: 'Albuquerque', temp: 59 }, { name: 'Santa Fe', temp: 52 }, { name: 'Las Cruces', temp: 62 }, { name: 'Rio Rancho', temp: 59 }
+  ]},
+  'NY': { name: 'New York', temp: 51, range: '51-60°F', description: 'Northeast state with cool to moderate groundwater', cities: [
+    { name: 'New York City', temp: 54 }, { name: 'Buffalo', temp: 50 }, { name: 'Rochester', temp: 52 }, { name: 'Albany', temp: 52 }, { name: 'Syracuse', temp: 52 }
+  ]},
+  'NC': { name: 'North Carolina', temp: 59, range: '51-60°F', description: 'Southeastern state with moderate groundwater', cities: [
+    { name: 'Charlotte', temp: 60 }, { name: 'Raleigh', temp: 58 }, { name: 'Greensboro', temp: 57 }, { name: 'Durham', temp: 58 }
+  ]},
+  'ND': { name: 'North Dakota', temp: 38, range: '<40°F', description: 'Northern plains with very cool groundwater', cities: [
+    { name: 'Fargo', temp: 39 }, { name: 'Bismarck', temp: 37 }, { name: 'Grand Forks', temp: 38 }, { name: 'Minot', temp: 37 }
+  ]},
+  'OH': { name: 'Ohio', temp: 52, range: '51-60°F', description: 'Midwest state with moderate groundwater', cities: [
+    { name: 'Columbus', temp: 53 }, { name: 'Cleveland', temp: 50 }, { name: 'Cincinnati', temp: 54 }, { name: 'Toledo', temp: 50 }
+  ]},
+  'OK': { name: 'Oklahoma', temp: 61, range: '61-70°F', description: 'Southern plains with warm groundwater', cities: [
+    { name: 'Oklahoma City', temp: 61 }, { name: 'Tulsa', temp: 60 }, { name: 'Norman', temp: 61 }, { name: 'Broken Arrow', temp: 60 }
+  ]},
+  'OR': { name: 'Oregon', temp: 51, range: '51-60°F', description: 'Pacific Northwest with cool to moderate groundwater', cities: [
+    { name: 'Portland', temp: 52 }, { name: 'Eugene', temp: 51 }, { name: 'Salem', temp: 52 }, { name: 'Bend', temp: 48 }
+  ]},
+  'PA': { name: 'Pennsylvania', temp: 51, range: '51-60°F', description: 'Mid-Atlantic state with moderate groundwater', cities: [
+    { name: 'Philadelphia', temp: 53 }, { name: 'Pittsburgh', temp: 50 }, { name: 'Harrisburg', temp: 51 }, { name: 'Allentown', temp: 51 }
+  ]},
+  'RI': { name: 'Rhode Island', temp: 49, range: '41-50°F', description: 'Small New England state with cool groundwater', cities: [
+    { name: 'Providence', temp: 49 }, { name: 'Warwick', temp: 49 }, { name: 'Newport', temp: 50 }
+  ]},
+  'SC': { name: 'South Carolina', temp: 63, range: '61-70°F', description: 'Southern state with warm groundwater', cities: [
+    { name: 'Columbia', temp: 64 }, { name: 'Charleston', temp: 66 }, { name: 'Greenville', temp: 60 }, { name: 'Myrtle Beach', temp: 64 }
+  ]},
+  'SD': { name: 'South Dakota', temp: 44, range: '41-50°F', description: 'Northern plains with cool groundwater', cities: [
+    { name: 'Sioux Falls', temp: 45 }, { name: 'Rapid City', temp: 42 }, { name: 'Aberdeen', temp: 42 }, { name: 'Brookings', temp: 44 }
+  ]},
+  'TN': { name: 'Tennessee', temp: 59, range: '51-60°F', description: 'Southern border state with moderate to warm groundwater', cities: [
+    { name: 'Nashville', temp: 59 }, { name: 'Memphis', temp: 61 }, { name: 'Knoxville', temp: 57 }, { name: 'Chattanooga', temp: 58 }
+  ]},
+  'TX': { name: 'Texas', temp: 65, range: '61-70°F', description: 'Large southern state with warm groundwater varying by region', cities: [
+    { name: 'Houston', temp: 66 }, { name: 'Dallas', temp: 64 }, { name: 'Austin', temp: 61 }, { name: 'San Antonio', temp: 68 }, { name: 'El Paso', temp: 65 }, { name: 'Fort Worth', temp: 64 }
+  ]},
+  'UT': { name: 'Utah', temp: 50, range: '41-50°F', description: 'Mountain state with cool groundwater', cities: [
+    { name: 'Salt Lake City', temp: 51 }, { name: 'Provo', temp: 50 }, { name: 'Ogden', temp: 50 }, { name: 'West Valley City', temp: 51 }
+  ]},
+  'VT': { name: 'Vermont', temp: 44, range: '41-50°F', description: 'Northern New England with cool groundwater', cities: [
+    { name: 'Burlington', temp: 45 }, { name: 'Montpelier', temp: 43 }, { name: 'Rutland', temp: 44 }, { name: 'South Burlington', temp: 45 }
+  ]},
+  'VA': { name: 'Virginia', temp: 55, range: '51-60°F', description: 'Mid-Atlantic state with moderate groundwater', cities: [
+    { name: 'Richmond', temp: 56 }, { name: 'Virginia Beach', temp: 57 }, { name: 'Norfolk', temp: 57 }, { name: 'Arlington', temp: 54 }
+  ]},
+  'WA': { name: 'Washington', temp: 49, range: '41-50°F', description: 'Pacific Northwest with cool groundwater', cities: [
+    { name: 'Seattle', temp: 50 }, { name: 'Spokane', temp: 46 }, { name: 'Tacoma', temp: 50 }, { name: 'Vancouver', temp: 51 }
+  ]},
+  'WV': { name: 'West Virginia', temp: 52, range: '51-60°F', description: 'Appalachian state with moderate groundwater', cities: [
+    { name: 'Charleston', temp: 54 }, { name: 'Huntington', temp: 53 }, { name: 'Morgantown', temp: 51 }, { name: 'Parkersburg', temp: 52 }
+  ]},
+  'WI': { name: 'Wisconsin', temp: 45, range: '41-50°F', description: 'Great Lakes state with cool groundwater', cities: [
+    { name: 'Milwaukee', temp: 46 }, { name: 'Madison', temp: 45 }, { name: 'Green Bay', temp: 43 }, { name: 'Kenosha', temp: 46 }
+  ]},
+  'WY': { name: 'Wyoming', temp: 44, range: '41-50°F', description: 'Mountain state with cool groundwater', cities: [
+    { name: 'Cheyenne', temp: 45 }, { name: 'Casper', temp: 44 }, { name: 'Laramie', temp: 42 }, { name: 'Gillette', temp: 43 }
+  ]}
 };
 
 export default function StateTemperature() {
@@ -143,6 +243,19 @@ export default function StateTemperature() {
           </div>
 
           {/* Cities */}
+          {/* Description */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-orange-50 rounded-3xl p-8 border-l-4 border-orange-500 mb-12"
+          >
+            <p className="text-slate-700 leading-relaxed text-lg">
+              {stateData.description}
+            </p>
+          </motion.div>
+
+          {/* Cities */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -153,11 +266,11 @@ export default function StateTemperature() {
               <MapPin className="w-6 h-6 text-orange-600" />
               Major Cities in {stateData.name}
             </h2>
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {stateData.cities.map((city, idx) => (
-                <div key={idx} className="flex items-center justify-between p-4 bg-slate-50 rounded-xl">
-                  <span className="text-slate-700">{city.split(':')[0]}</span>
-                  <span className="font-bold text-orange-600">{city.split(':')[1]}</span>
+                <div key={idx} className="flex items-center justify-between p-4 bg-slate-50 rounded-xl hover:bg-orange-50 transition-colors">
+                  <span className="text-slate-700 font-medium">{city.name}</span>
+                  <span className="font-bold text-orange-600">{city.temp}°F</span>
                 </div>
               ))}
             </div>
