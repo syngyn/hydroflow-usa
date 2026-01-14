@@ -88,8 +88,8 @@ export default function Industrial() {
             >
               <div className="relative rounded-3xl overflow-hidden p-8">
                 <img 
-                  src="https://images.unsplash.com/photo-1588619351108-8c8b4d6e2e9e?w=800&q=80"
-                  alt="Industrial cooling tower"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f9b02b780_landing-industrial.png"
+                  alt="Industrial facility"
                   className="absolute inset-0 w-full h-full object-cover opacity-30"
                 />
                 <div className="relative">
