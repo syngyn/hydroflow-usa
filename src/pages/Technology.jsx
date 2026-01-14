@@ -132,45 +132,44 @@ export default function Technology() {
                   transition={{ delay: index * 0.1 }}
                   className="relative"
                 >
-                  {index === 0 && (
-                    <div className="mb-4 flex justify-center">
-                      <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-cyan-100 to-cyan-50 flex items-center justify-center">
-                        <svg 
-                          viewBox="0 0 400 200" 
-                          fill="none" 
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="w-28 h-28"
-                        >
-                          <defs>
-                            <linearGradient id="signalGradientTech" x1="0%" y1="0%" x2="100%" y2="0%">
-                              <stop offset="0%" stopColor="#06b6d4" stopOpacity="1" />
-                              <stop offset="100%" stopColor="#06b6d4" stopOpacity="0.3" />
-                            </linearGradient>
-                          </defs>
-                          <path 
-                            d="M10 100 Q20 20 30 100 T50 100 Q60 50 70 100 T90 100 Q100 65 110 100 T130 100 Q140 75 150 100 T170 100 Q180 82 190 100 T210 100 Q220 87 230 100 T250 100 Q260 90 270 100 T290 100 Q300 93 310 100 T330 100 Q340 95 350 100 T370 100 Q380 97 390 100" 
-                            stroke="url(#signalGradientTech)" 
-                            strokeWidth="16" 
-                            strokeLinecap="round" 
-                            strokeLinejoin="round"
-                            fill="none"
-                          />
-                        </svg>
+                  <div className="text-center">
+                    {index === 0 && (
+                      <div className="mb-4 flex justify-center">
+                        <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-cyan-100 to-cyan-50 flex items-center justify-center">
+                          <svg 
+                            viewBox="0 0 400 200" 
+                            fill="none" 
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="w-28 h-28"
+                          >
+                            <defs>
+                              <linearGradient id="signalGradientTech" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stopColor="#06b6d4" stopOpacity="1" />
+                                <stop offset="100%" stopColor="#06b6d4" stopOpacity="0.3" />
+                              </linearGradient>
+                            </defs>
+                            <path 
+                              d="M10 100 Q20 20 30 100 T50 100 Q60 50 70 100 T90 100 Q100 65 110 100 T130 100 Q140 75 150 100 T170 100 Q180 82 190 100 T210 100 Q220 87 230 100 T250 100 Q260 90 270 100 T290 100 Q300 93 310 100 T330 100 Q340 95 350 100 T370 100 Q380 97 390 100" 
+                              stroke="url(#signalGradientTech)" 
+                              strokeWidth="16" 
+                              strokeLinecap="round" 
+                              strokeLinejoin="round"
+                              fill="none"
+                            />
+                          </svg>
+                        </div>
                       </div>
-                    </div>
-                  )}
-                  {index !== 0 && Icon && (
-                    <div className="mb-4 flex justify-center">
-                      <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-cyan-100 to-cyan-50 flex items-center justify-center">
-                        <Icon className="w-16 h-16 text-cyan-500" />
+                    )}
+                    {index !== 0 && Icon && (
+                      <div className="mb-4 flex justify-center">
+                        <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-cyan-100 to-cyan-50 flex items-center justify-center">
+                          <Icon className="w-16 h-16 text-cyan-500" />
+                        </div>
                       </div>
-                    </div>
-                  )}
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">{step.title}</h3>
-                  <p className="text-slate-600">{step.description}</p>
-                  {index < 3 && (
-                    <div className="hidden lg:block absolute top-8 right-0 w-16 h-0.5 bg-gradient-to-r from-cyan-200 to-transparent" />
-                  )}
+                    )}
+                    <h3 className="text-xl font-bold text-slate-900 mb-2">{step.title}</h3>
+                    <p className="text-slate-600">{step.description}</p>
+                  </div>
                 </motion.div>
               );
             })}
