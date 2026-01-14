@@ -3,13 +3,16 @@ import Agriculture from './pages/Agriculture';
 import Bio from './pages/Bio';
 import BlogDetail from './pages/BlogDetail';
 import BlogList from './pages/BlogList';
+import Cart from './pages/Cart';
 import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
+import Checkout from './pages/Checkout';
 import Commercial from './pages/Commercial';
 import Contact from './pages/Contact';
 import Corrosion from './pages/Corrosion';
 import Filtration from './pages/Filtration';
 import FiltrationTechnology from './pages/FiltrationTechnology';
+import GroundwaterTemperatureMap from './pages/GroundwaterTemperatureMap';
 import Home from './pages/Home';
 import Industrial from './pages/Industrial';
 import Marine from './pages/Marine';
@@ -21,13 +24,10 @@ import ProductPearlPlus from './pages/ProductPearlPlus';
 import Products from './pages/Products';
 import Residential from './pages/Residential';
 import Scale from './pages/Scale';
+import StateTemperature from './pages/StateTemperature';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import Cart from './pages/Cart';
-import Checkout from './pages/Checkout';
-import GroundwaterTemperatureMap from './pages/GroundwaterTemperatureMap';
-import StateTemperature from './pages/StateTemperature';
 import __Layout from './Layout.jsx';
 
 
@@ -37,13 +37,16 @@ export const PAGES = {
     "Bio": Bio,
     "BlogDetail": BlogDetail,
     "BlogList": BlogList,
+    "Cart": Cart,
     "CaseStudies": CaseStudies,
     "CaseStudyDetail": CaseStudyDetail,
+    "Checkout": Checkout,
     "Commercial": Commercial,
     "Contact": Contact,
     "Corrosion": Corrosion,
     "Filtration": Filtration,
     "FiltrationTechnology": FiltrationTechnology,
+    "GroundwaterTemperatureMap": GroundwaterTemperatureMap,
     "Home": Home,
     "Industrial": Industrial,
     "Marine": Marine,
@@ -55,13 +58,10 @@ export const PAGES = {
     "Products": Products,
     "Residential": Residential,
     "Scale": Scale,
+    "StateTemperature": StateTemperature,
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
     "WaterHardnessMap": WaterHardnessMap,
-    "Cart": Cart,
-    "Checkout": Checkout,
-    "GroundwaterTemperatureMap": GroundwaterTemperatureMap,
-    "StateTemperature": StateTemperature,
 }
 
 export const pagesConfig = {
