@@ -54,31 +54,47 @@ export default function Industrial() {
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="max-w-3xl"
-          >
-            <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-4">
-              Industrial Solutions
-            </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Industrial & Commercial
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
-                Water Treatment
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+            >
+              <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-4">
+                Industrial Solutions
               </span>
-            </h1>
-            <p className="text-xl text-slate-300 mb-8">
-              Heavy-duty water conditioning solutions for manufacturing, processing, 
-              and large commercial facilities.
-            </p>
-            <Link to={createPageUrl('Contact')}>
-              <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
-                Request a Quote
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-            </Link>
-          </motion.div>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+                Industrial & Commercial
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
+                  Water Treatment
+                </span>
+              </h1>
+              <p className="text-xl text-slate-300 mb-8">
+                Heavy-duty water conditioning solutions for manufacturing, processing, 
+                and large commercial facilities.
+              </p>
+              <Link to={createPageUrl('Contact')}>
+                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
+                  Request a Quote
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </Link>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.2 }}
+              className="relative hidden lg:block"
+            >
+              <div className="bg-gradient-to-br from-cyan-500/20 to-cyan-600/20 rounded-3xl p-8">
+                <img 
+                  src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
+                  alt="HydroFLOW i Range Industrial Unit"
+                  className="w-full max-w-md mx-auto"
+                />
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
