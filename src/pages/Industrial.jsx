@@ -86,12 +86,19 @@ export default function Industrial() {
               transition={{ delay: 0.2 }}
               className="relative hidden lg:block"
             >
-              <div className="bg-gradient-to-br from-cyan-500/20 to-cyan-600/20 rounded-3xl p-8">
+              <div className="relative rounded-3xl overflow-hidden p-8">
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
-                  alt="HydroFLOW i Range Industrial Unit"
-                  className="w-full max-w-md mx-auto"
+                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80"
+                  alt="Industrial background"
+                  className="absolute inset-0 w-full h-full object-cover opacity-30"
                 />
+                <div className="relative">
+                  <img 
+                    src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
+                    alt="HydroFLOW i Range Industrial Unit"
+                    className="w-full max-w-md mx-auto"
+                  />
+                </div>
               </div>
             </motion.div>
           </div>
