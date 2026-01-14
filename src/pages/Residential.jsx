@@ -172,7 +172,7 @@ export default function Residential() {
             </h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Pearl */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -228,6 +228,34 @@ export default function Residential() {
               <Link to={createPageUrl('Products')}>
                 <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6">
                   Select Pearl Plus
+                </Button>
+              </Link>
+            </motion.div>
+
+            {/* hs40 */}
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all"
+            >
+              <div className="h-48 flex items-center justify-center mb-6">
+                <img 
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png"
+                  alt="HydroFLOW hs40"
+                  className="h-full w-auto object-contain"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-2">hs40</h3>
+              <p className="text-cyan-600 font-medium mb-2">For pools and spas</p>
+              <p className="text-slate-600 mb-4">Commercial grade power</p>
+              <div className="mb-6">
+                <span className="text-slate-400 line-through">$2,150</span>
+                <span className="text-3xl font-bold text-slate-900 ml-2">$1,990</span>
+              </div>
+              <Link to={createPageUrl('ProductHS40')}>
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-6">
+                  Select hs40
                 </Button>
               </Link>
             </motion.div>
