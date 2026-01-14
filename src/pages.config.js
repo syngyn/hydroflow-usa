@@ -26,6 +26,8 @@ import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
+import GroundwaterTemperatureMap from './pages/GroundwaterTemperatureMap';
+import StateTemperature from './pages/StateTemperature';
 import __Layout from './Layout.jsx';
 
 
@@ -58,6 +60,8 @@ export const PAGES = {
     "WaterHardnessMap": WaterHardnessMap,
     "Cart": Cart,
     "Checkout": Checkout,
+    "GroundwaterTemperatureMap": GroundwaterTemperatureMap,
+    "StateTemperature": StateTemperature,
 }
 
 export const pagesConfig = {
