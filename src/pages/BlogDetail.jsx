@@ -2175,8 +2175,8 @@ const blogContent = {
   // Agriculture blogs
   'antimicrobial-performance': {
     title: 'HydroFLOW Optimizes Antimicrobial Performance',
-    date: '2024-03-15',
-    readTime: '8 min read',
+    date: '2024-10-15',
+    readTime: '7 min read',
     category: 'agriculture',
     content: `
       <p>An apple packing facility in the Pacific Northwest sought our help to reduce their chemical usage while minimizing risks associated with food safety bacteria and decay-causing mold.</p>
@@ -2223,10 +2223,10 @@ const blogContent = {
       <p>The results of this study have demonstrated the dramatic benefit of Hydropath's eco-friendly technology for enhancing the ability of sanitizers to control bacteria and fungi in apple flume water systems, reducing the Minimum Inhibitory Concentration (MIC). Similar benefits have been observed in cooling water systems, pools, and other industrial water applications.</p>
     `
   },
-  'algae-reduction-vineyard': {
+  'algae-growth-reduction': {
     title: 'HydroFLOW Dramatically Reduces Algae Growth',
-    date: '2024-02-28',
-    readTime: '6 min read',
+    date: '2024-08-20',
+    readTime: '8 min read',
     category: 'agriculture',
     content: `
       <h2>The Challenge: Severe Algae in Irrigation Ponds</h2>
@@ -2263,10 +2263,10 @@ const blogContent = {
       <p>By eliminating the need for copper sulfate and other chemical treatments, HydroFLOW provides a sustainable solution for irrigation pond management. The technology works continuously without harming beneficial organisms or the environment, making it ideal for organic and sustainable farming operations.</p>
     `
   },
-  'organic-farm-green-technology': {
-    title: 'Organic Farm - this 100% green technology really works',
-    date: '2024-01-20',
-    readTime: '5 min read',
+  'organic-farm-green-tech': {
+    title: 'Organic Farm - This 100% Green Technology Really Works',
+    date: '2024-06-12',
+    readTime: '6 min read',
     category: 'agriculture',
     content: `
       <h2>The Challenge: Water Quality for Food Processing License</h2>
