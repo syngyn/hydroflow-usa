@@ -1,19 +1,18 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import { createPageUrl } from '@/utils';
-import USMap from '@/components/maps/USMap';
 
 export default function MapInterface({ type, data, onStateSelect }) {
-  const navigate = useNavigate();
-
-  const handleStateClick = (stateCode) => {
-    if (onStateSelect) onStateSelect(stateCode);
-    navigate(createPageUrl(`StateTemperature?state=${stateCode}`));
-  };
-
   return (
     <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-200">
-      <USMap data={data} onStateClick={handleStateClick} type={type} />
+      <div className="relative">
+        <img 
+          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d5d416064_tempmap.png"
+          alt="US Groundwater Temperature Map"
+          className="w-full h-auto rounded-xl"
+        />
+        <p className="text-center text-sm text-slate-500 mt-4">
+          Click on a state in the list below to view detailed temperature data
+        </p>
+      </div>
       
       {/* Legend */}
       <div className="mt-6 p-4 bg-slate-50 rounded-xl">
