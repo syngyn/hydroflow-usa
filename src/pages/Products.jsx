@@ -86,6 +86,25 @@ const products = [
     description: 'Industrial-strength protection for pools, spas, and light commercial use.'
   },
   {
+    id: 'i-range-commercial',
+    name: 'IRange',
+    category: 'commercial',
+    tagline: 'Heavy-Duty Solutions',
+    coverage: 'Large Commercial Applications',
+    price: null,
+    priceText: 'Contact for Quote',
+    rating: 4.9,
+    reviews: 28,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png',
+    features: [
+      'Large commercial buildings',
+      'Cooling towers',
+      'Custom pipe sizes',
+      'Manufacturing facilities'
+    ],
+    description: 'Custom solutions for large commercial applications.'
+  },
+  {
     id: 'i-range',
     name: 'IRange',
     category: 'industrial',
