@@ -36,7 +36,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="mb-6">
               <img 
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7d5cb44b1_Picture1.png"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d5bab3e9a_pic66.png"
                 alt="HydroFLOW USA Logo"
                 className="h-16 w-auto"
               />
