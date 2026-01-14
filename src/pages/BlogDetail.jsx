@@ -1307,10 +1307,10 @@ const blogContent = {
     `
   },
   // Commercial blogs
-  'why-water-softeners-banned': {
+  'water-softeners-banned': {
     title: 'Why are Water Softeners Being Banned?',
     date: '2024-11-15',
-    readTime: '8 min read',
+    readTime: '6 min read',
     category: 'commercial',
     content: `
       <p>Hard water is water that is rich in minerals like calcium, magnesium, and silica. These minerals can cause serious problems for heat-exchange surfaces, pipes, and water fixtures throughout your home and business. Over time, pipes could become completely clogged by scale buildup. When limescale builds upon a heating element, it insulates and prevents it from performing efficiently.</p>
@@ -1376,9 +1376,9 @@ const blogContent = {
       <p>HydroFLOW installs in minutes and operates 24/7 without balancing dosages or concentrations. HydroFLOW neutralizes bacteria, biofilm and algae throughout a water system while controlling scale, which reduces another set of chemicals that require balancing. Sustainable water management is good for people, budgets and it improves operations.</p>
     `
   },
-  'hydropath-technology-silicates': {
+  'silicates-effect': {
     title: 'The Effect of Hydropath Technology on Silicates',
-    date: '2024-09-12',
+    date: '2024-09-20',
     readTime: '5 min read',
     category: 'commercial',
     content: `
@@ -1398,8 +1398,8 @@ const blogContent = {
   },
   'sustainable-water-tools': {
     title: 'Sustainable Water Use Tools & Technology',
-    date: '2024-08-05',
-    readTime: '10 min read',
+    date: '2024-08-12',
+    readTime: '8 min read',
     category: 'commercial',
     content: `
       <p>Sustainable water use is an important goal of many companies and institutions, and significant progress has been realized in recent years that has saved millions of gallons of water while achieving the intended purposes of the systems, such as cooling towers, which use high volumes of water. Saving water has a positive impact on the environment as well as the bottom line.</p>
@@ -1426,10 +1426,10 @@ const blogContent = {
       <p>Frequent blowdowns are reduced to brief bleed-off episodes using 50% less water, and due to significantly improved water quality from HydroFLOW, less chemistry is wasted. Water may to be reused for irrigation or other beneficial uses rather than discharged into a sanitary sewer. HydroFLOW electronic water conditioners need little to no maintenance, and require no chemical additives. The cost savings provide a return on investment (ROI) of less than 12-24 months.</p>
     `
   },
-  'solution-scale-removal': {
+  'scale-removal-solution': {
     title: 'A Solution for Scale Removal',
-    date: '2024-07-20',
-    readTime: '7 min read',
+    date: '2024-07-25',
+    readTime: '6 min read',
     category: 'commercial',
     image: 'https://hydroflow-usa.com/assets/userfiles/images/S38%2Bunit%2Bon%2Bcommercial%2Bdishwasher.jpg',
     content: `
@@ -1454,10 +1454,10 @@ const blogContent = {
       <p>The new water conditioners also allowed the Brookfields Sacramento restaurants to use fewer chemicals for cleaning and dishwasher care. Installation required no plumbing revisions and was completed in minutes. The systems require no maintenance and consume less than $1 worth of electricity per year. Additionally, they take up less space than the restaurants' previous water softeners.</p>
     `
   },
-  'water-and-ice': {
+  'water-ice-quality': {
     title: 'What\'s in Your Water and Ice',
     date: '2024-06-18',
-    readTime: '8 min read',
+    readTime: '7 min read',
     category: 'commercial',
     image: 'https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B1%281%29.png',
     content: `
@@ -1493,8 +1493,8 @@ const blogContent = {
   },
   'canine-connection': {
     title: 'Canine Connection',
-    date: '2024-05-22',
-    readTime: '9 min read',
+    date: '2024-05-10',
+    readTime: '6 min read',
     category: 'commercial',
     image: 'https://hydroflow-usa.com/assets/userfiles/images/Canine%2Btherapy%2Bpool.jpg',
     content: `
@@ -1539,9 +1539,9 @@ const blogContent = {
       <p>TOPS treats 6 to 10 dogs in the pool daily, and with only 1,000 gallons of water to circulate – dirt, dander and bacteria can accumulate quickly. The clarity and water quality stayed pristine with the new system, even during the busiest swim times. The reduction in chemical use has allowed the facility to save money and with further testing it may be able to decrease chemical use even further.</p>
     `
   },
-  'secondary-pool-disinfection': {
+  'pool-secondary-disinfection': {
     title: 'Secondary Disinfection for Swimming Pools',
-    date: '2024-04-10',
+    date: '2024-04-22',
     readTime: '7 min read',
     category: 'commercial',
     image: 'https://hydroflow-usa.com/assets/userfiles/images/yakima%2Bvalley%2Bsymbol.jpg',
@@ -1571,9 +1571,9 @@ const blogContent = {
       <p>British Gas still purchases thousands of residential HydroFLOW units per year, which are mounted on many of the water heaters it installs. Over the past 20 years, additional benefits were discovered, such as bio-kill, corrosion reduction, filtration enhancement and more.</p>
     `
   },
-  'water-softeners-banned-california': {
+  'california-softener-ban': {
     title: 'Why are Water Softeners Being Banned in California?',
-    date: '2024-03-18',
+    date: '2024-03-15',
     readTime: '6 min read',
     category: 'commercial',
     content: `
@@ -1610,10 +1610,10 @@ const blogContent = {
       <p>Santa Clarita Valley Sewer District, located in Los Angeles County, has adopted and is enforcing regulatory requirements that require the removal of all installed residential self-regenerating water softeners and limit the volume and concentrations of saline discharges from nonresidential sources to the community sewer system. To support the community, Los Angeles County makes portable exchange water softening services available to residents affected by this ordinance.</p>
     `
   },
-  'water-softeners-banned-texas': {
+  'texas-softener-ban': {
     title: 'Why are Water Softeners Being Banned in Texas?',
-    date: '2024-02-14',
-    readTime: '5 min read',
+    date: '2024-02-20',
+    readTime: '6 min read',
     category: 'commercial',
     content: `
       <p>Salt-based water softeners have been at the forefront of hard water treatment solutions for 30+ years. As we evolve, our policies and awareness towards environmental conservation evolve with us. In recent years, a solution for environmental impacts, caused by salt-based softeners has become a global priority.</p>
