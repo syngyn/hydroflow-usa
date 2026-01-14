@@ -6,6 +6,8 @@ import { Star, Check, Package, Shield, Zap, ArrowRight, Trophy } from 'lucide-re
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { useCart } from '@/components/cart/CartContext';
+import { toast } from 'sonner';
 
 const images = [
   'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png',
@@ -17,6 +19,21 @@ const images = [
 
 export default function ProductHS40() {
   const [selectedImage, setSelectedImage] = useState(0);
+  const { addToCart } = useCart();
+
+  const product = {
+    id: 'hs40',
+    name: 'HS40',
+    price: 1990,
+    originalPrice: 2150,
+    image: images[0],
+    coverage: 'Pools, Spas & Light Commercial'
+  };
+
+  const handleAddToCart = () => {
+    addToCart(product);
+    toast.success('Added to cart!');
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -116,7 +133,10 @@ export default function ProductHS40() {
               </div>
 
               <div className="space-y-4 mb-8">
-                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6 text-lg font-semibold">
+                <Button 
+                  onClick={handleAddToCart}
+                  className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6 text-lg font-semibold"
+                >
                   Add to Cart
                   <Package className="w-5 h-5 ml-2" />
                 </Button>

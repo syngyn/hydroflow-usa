@@ -6,6 +6,8 @@ import { Star, Check, Package, Shield, Zap, ArrowRight } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { useCart } from '@/components/cart/CartContext';
+import { toast } from 'sonner';
 
 const images = [
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/pearl-plus-transparent.webp',
@@ -17,6 +19,21 @@ const images = [
 
 export default function ProductPearlPlus() {
   const [selectedImage, setSelectedImage] = useState(0);
+  const { addToCart } = useCart();
+
+  const product = {
+    id: 'pearl-plus',
+    name: 'Pearl Plus',
+    price: 495,
+    originalPrice: 695,
+    image: images[0],
+    coverage: 'Up to 3,000 sq ft'
+  };
+
+  const handleAddToCart = () => {
+    addToCart(product);
+    toast.success('Added to cart!');
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -101,7 +118,10 @@ export default function ProductPearlPlus() {
               </div>
 
               <div className="space-y-4 mb-8">
-                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6 text-lg font-semibold">
+                <Button 
+                  onClick={handleAddToCart}
+                  className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6 text-lg font-semibold"
+                >
                   Add to Cart
                   <Package className="w-5 h-5 ml-2" />
                 </Button>
