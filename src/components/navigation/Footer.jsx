@@ -34,12 +34,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <div className="mb-6 relative">
-              <div className="absolute inset-0 bg-cyan-400/20 blur-xl rounded-full" />
+            <div className="mb-6">
               <img 
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a6fbf65e1_logotrasparnet.png"
                 alt="HydroFLOW USA Logo"
-                className="h-16 w-auto relative z-10 drop-shadow-[0_0_15px_rgba(34,211,238,0.4)]"
+                className="h-16 w-auto"
               />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
