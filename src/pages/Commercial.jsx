@@ -63,8 +63,8 @@ export default function Commercial() {
             >
               <div className="relative rounded-3xl overflow-hidden p-8">
                 <img 
-                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80"
-                  alt="Industrial background"
+                  src="https://images.unsplash.com/photo-1588619351108-8c8b4d6e2e9e?w=800&q=80"
+                  alt="Industrial cooling tower"
                   className="absolute inset-0 w-full h-full object-cover opacity-30"
                 />
                 <div className="relative">
