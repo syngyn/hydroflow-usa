@@ -141,15 +141,9 @@ export default function Products() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               <i>Hydro</i>FLOW Products
             </h1>
-            <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-6">
+            <p className="text-xl text-slate-300 max-w-3xl mx-auto">
               Find the perfect <i>Hydro</i>FLOW water conditioner for your home, business, or industrial facility.
             </p>
-            <Link to={createPageUrl('Filtration')}>
-              <Button variant="outline" className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-white rounded-full px-6 py-3">
-                View Filtration Products
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
           </motion.div>
         </div>
       </section>
