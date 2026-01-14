@@ -1,16 +1,19 @@
 import React from 'react';
-import { Map } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { createPageUrl } from '@/utils';
+import USMap from '@/components/maps/USMap';
 
 export default function MapInterface({ type, data, onStateSelect }) {
+  const navigate = useNavigate();
+
+  const handleStateClick = (stateCode) => {
+    if (onStateSelect) onStateSelect(stateCode);
+    navigate(createPageUrl(`StateTemperature?state=${stateCode}`));
+  };
+
   return (
     <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-200">
-      <div className="aspect-video bg-gradient-to-br from-slate-100 to-slate-200 rounded-xl flex items-center justify-center">
-        <div className="text-center">
-          <Map className="w-16 h-16 text-slate-400 mx-auto mb-4" />
-          <p className="text-slate-600 text-lg">Interactive Map Placeholder</p>
-          <p className="text-slate-500 text-sm mt-2">Click on states to view {type} data</p>
-        </div>
-      </div>
+      <USMap data={data} onStateClick={handleStateClick} type={type} />
       
       {/* Legend */}
       <div className="mt-6 p-4 bg-slate-50 rounded-xl">
