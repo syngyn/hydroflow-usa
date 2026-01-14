@@ -24,6 +24,8 @@ import Scale from './pages/Scale';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
 import __Layout from './Layout.jsx';
 
 
@@ -54,6 +56,8 @@ export const PAGES = {
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
     "WaterHardnessMap": WaterHardnessMap,
+    "Cart": Cart,
+    "Checkout": Checkout,
 }
 
 export const pagesConfig = {

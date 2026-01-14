@@ -1,0 +1,171 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { createPageUrl } from '@/utils';
+import { useCart } from '@/components/cart/CartContext';
+import { motion } from 'framer-motion';
+import { Trash2, Plus, Minus, ShoppingBag, ArrowRight } from 'lucide-react';
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+
+export default function Cart() {
+  const { cart, removeFromCart, updateQuantity, getCartTotal } = useCart();
+
+  if (cart.length === 0) {
+    return (
+      <div className="min-h-screen bg-slate-50 pt-32 pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center"
+          >
+            <div className="w-24 h-24 rounded-full bg-slate-100 flex items-center justify-center mx-auto mb-6">
+              <ShoppingBag className="w-12 h-12 text-slate-400" />
+            </div>
+            <h1 className="text-3xl font-bold text-slate-900 mb-4">Your Cart is Empty</h1>
+            <p className="text-slate-600 mb-8">Add some products to get started!</p>
+            <Link to={createPageUrl('Products')}>
+              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-6">
+                Browse Products
+              </Button>
+            </Link>
+          </motion.div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-slate-50 pt-32 pb-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          <h1 className="text-4xl font-bold text-slate-900 mb-8">Shopping Cart</h1>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Cart Items */}
+            <div className="lg:col-span-2 space-y-4">
+              {cart.map((item, index) => (
+                <motion.div
+                  key={item.id}
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.1 }}
+                >
+                  <Card className="p-6">
+                    <div className="flex gap-6">
+                      {/* Product Image */}
+                      <div className="w-32 h-32 bg-slate-100 rounded-lg flex-shrink-0 overflow-hidden">
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          className="w-full h-full object-contain p-4"
+                        />
+                      </div>
+
+                      {/* Product Details */}
+                      <div className="flex-grow">
+                        <div className="flex justify-between items-start mb-2">
+                          <div>
+                            <h3 className="text-xl font-bold text-slate-900">{item.name}</h3>
+                            {item.coverage && (
+                              <p className="text-sm text-slate-500">{item.coverage}</p>
+                            )}
+                          </div>
+                          <button
+                            onClick={() => removeFromCart(item.id)}
+                            className="text-red-500 hover:text-red-700 transition-colors"
+                          >
+                            <Trash2 className="w-5 h-5" />
+                          </button>
+                        </div>
+
+                        <div className="flex items-center justify-between mt-4">
+                          {/* Quantity Controls */}
+                          <div className="flex items-center gap-3">
+                            <button
+                              onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                              className="w-8 h-8 rounded-lg border border-slate-300 flex items-center justify-center hover:bg-slate-100 transition-colors"
+                            >
+                              <Minus className="w-4 h-4" />
+                            </button>
+                            <span className="w-12 text-center font-semibold">{item.quantity}</span>
+                            <button
+                              onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                              className="w-8 h-8 rounded-lg border border-slate-300 flex items-center justify-center hover:bg-slate-100 transition-colors"
+                            >
+                              <Plus className="w-4 h-4" />
+                            </button>
+                          </div>
+
+                          {/* Price */}
+                          <div className="text-right">
+                            {item.price ? (
+                              <>
+                                <p className="text-2xl font-bold text-slate-900">
+                                  ${(item.price * item.quantity).toFixed(2)}
+                                </p>
+                                <p className="text-sm text-slate-500">
+                                  ${item.price.toFixed(2)} each
+                                </p>
+                              </>
+                            ) : (
+                              <p className="text-lg font-semibold text-slate-700">Contact for Quote</p>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Card>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Order Summary */}
+            <div className="lg:col-span-1">
+              <Card className="p-6 sticky top-24">
+                <h2 className="text-2xl font-bold text-slate-900 mb-6">Order Summary</h2>
+
+                <div className="space-y-4 mb-6">
+                  <div className="flex justify-between text-slate-600">
+                    <span>Subtotal</span>
+                    <span>${getCartTotal().toFixed(2)}</span>
+                  </div>
+                  <div className="flex justify-between text-slate-600">
+                    <span>Shipping</span>
+                    <span>Calculated at checkout</span>
+                  </div>
+                  <div className="flex justify-between text-slate-600">
+                    <span>Tax</span>
+                    <span>Calculated at checkout</span>
+                  </div>
+                  <div className="border-t pt-4">
+                    <div className="flex justify-between text-xl font-bold text-slate-900">
+                      <span>Total</span>
+                      <span>${getCartTotal().toFixed(2)}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <Link to={createPageUrl('Checkout')}>
+                  <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-full py-6 font-semibold">
+                    Proceed to Checkout
+                    <ArrowRight className="w-5 h-5 ml-2" />
+                  </Button>
+                </Link>
+
+                <Link to={createPageUrl('Products')}>
+                  <Button variant="outline" className="w-full mt-3 rounded-full py-6">
+                    Continue Shopping
+                  </Button>
+                </Link>
+              </Card>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </div>
+  );
+}
