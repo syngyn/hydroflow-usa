@@ -15,6 +15,15 @@ export default function Checkout() {
   const navigate = useNavigate();
   const [isProcessing, setIsProcessing] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
+  const [couponCode, setCouponCode] = useState('');
+  const [appliedCoupon, setAppliedCoupon] = useState(null);
+
+  // Sample coupons - you can replace with API call
+  const coupons = {
+    'SAVE10': { discount: 0.10, type: 'percentage' },
+    'SAVE20': { discount: 0.20, type: 'percentage' },
+    'HYDROFLOW50': { discount: 50, type: 'fixed' }
+  };
 
   const [formData, setFormData] = useState({
     firstName: '',
@@ -74,10 +83,30 @@ export default function Checkout() {
     );
   }
 
+  const handleApplyCoupon = () => {
+    const coupon = coupons[couponCode.toUpperCase()];
+    if (coupon) {
+      setAppliedCoupon({ code: couponCode.toUpperCase(), ...coupon });
+      setCouponCode('');
+    } else {
+      alert('Invalid coupon code');
+    }
+  };
+
+  const handleRemoveCoupon = () => {
+    setAppliedCoupon(null);
+  };
+
   const subtotal = getCartTotal();
+  const discount = appliedCoupon 
+    ? appliedCoupon.type === 'percentage' 
+      ? subtotal * appliedCoupon.discount 
+      : appliedCoupon.discount
+    : 0;
+  const subtotalAfterDiscount = subtotal - discount;
   const shipping = 0; // Will be calculated
-  const tax = subtotal * 0.08; // 8% estimate
-  const total = subtotal + shipping + tax;
+  const tax = subtotalAfterDiscount * 0.08; // 8% estimate
+  const total = subtotalAfterDiscount + shipping + tax;
 
   return (
     <div className="min-h-screen bg-slate-50 pt-32 pb-16">
@@ -260,6 +289,20 @@ export default function Checkout() {
                     <span>Subtotal</span>
                     <span>${subtotal.toFixed(2)}</span>
                   </div>
+                  {appliedCoupon && (
+                    <div className="flex justify-between text-green-600">
+                      <span className="flex items-center gap-2">
+                        Discount ({appliedCoupon.code})
+                        <button 
+                          onClick={handleRemoveCoupon}
+                          className="text-xs text-red-500 hover:text-red-700"
+                        >
+                          Remove
+                        </button>
+                      </span>
+                      <span>-${discount.toFixed(2)}</span>
+                    </div>
+                  )}
                   <div className="flex justify-between text-slate-600">
                     <span>Shipping</span>
                     <span>TBD</span>
@@ -273,6 +316,28 @@ export default function Checkout() {
                       <span>Total</span>
                       <span>${total.toFixed(2)}</span>
                     </div>
+                  </div>
+                </div>
+
+                {/* Coupon Code Input */}
+                <div className="mt-6 pt-6 border-t">
+                  <Label className="text-sm text-slate-700 mb-2 block">Have a coupon code?</Label>
+                  <div className="flex gap-2">
+                    <Input
+                      placeholder="Enter code"
+                      value={couponCode}
+                      onChange={(e) => setCouponCode(e.target.value)}
+                      onKeyPress={(e) => e.key === 'Enter' && handleApplyCoupon()}
+                      className="rounded-xl"
+                    />
+                    <Button 
+                      onClick={handleApplyCoupon}
+                      variant="outline"
+                      className="rounded-xl whitespace-nowrap"
+                      disabled={!couponCode.trim()}
+                    >
+                      Apply
+                    </Button>
                   </div>
                 </div>
               </Card>
