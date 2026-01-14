@@ -58,7 +58,13 @@ export default function Navbar() {
       ]
     },
     { name: 'Case Studies', href: 'CaseStudies' },
-    { name: 'Water Map', href: 'WaterHardnessMap' },
+    { 
+      name: 'Water Maps', 
+      dropdown: [
+        { name: 'Water Hardness Map', href: 'WaterHardnessMap' },
+        { name: 'Groundwater Temperature Map', href: 'GroundwaterTemperatureMap' },
+      ]
+    },
     { name: 'Contact', href: 'Contact' },
   ];
 
