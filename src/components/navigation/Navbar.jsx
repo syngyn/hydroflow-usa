@@ -41,7 +41,6 @@ export default function Navbar() {
         { name: 'How It Works', href: 'Technology' },
         { name: 'Scale', href: 'Scale' },
         { name: 'Bio', href: 'Bio' },
-        { name: 'Filtration', href: 'FiltrationTechnology' },
         { name: 'Corrosion', href: 'Corrosion' },
       ]
     },
