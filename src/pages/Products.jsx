@@ -70,7 +70,7 @@ const products = [
     id: 'hs40',
     name: 'hs40',
     category: 'commercial',
-    tagline: 'Commercial Grade Power',
+    tagline: 'Light Commercial Grade Power',
     coverage: 'Pools, Spas & Light Commercial',
     originalPrice: 2150,
     price: 1990,
