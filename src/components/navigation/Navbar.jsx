@@ -10,10 +10,12 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { motion, AnimatePresence } from 'framer-motion';
+import { useCart } from '@/components/cart/CartContext';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { getCartCount } = useCart();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -127,6 +129,16 @@ export default function Navbar() {
               <Phone className="w-4 h-4" />
               1-888-559-4340
             </a>
+            <Link to={createPageUrl('Cart')}>
+              <Button variant="ghost" className="relative p-2">
+                <ShoppingCart className="w-5 h-5" />
+                {getCartCount() > 0 && (
+                  <span className="absolute -top-1 -right-1 bg-cyan-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-semibold">
+                    {getCartCount()}
+                  </span>
+                )}
+              </Button>
+            </Link>
             <Link to={createPageUrl('Products')}>
               <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-6 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all">
                 Shop Now
