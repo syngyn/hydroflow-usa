@@ -123,7 +123,9 @@ export default function Footer() {
             <p>© {new Date().getFullYear()} <i>Hydro</i>FLOW USA. All rights reserved.</p>
             <div className="flex items-center gap-6">
               <span>Privacy Policy</span>
-              <span>Terms of Service</span>
+              <Link to={createPageUrl('TermsOfService')} className="hover:text-slate-300 transition-colors">
+                Terms of Service
+              </Link>
               <span>Warranty</span>
             </div>
           </div>
