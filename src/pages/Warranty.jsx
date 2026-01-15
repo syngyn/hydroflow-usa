@@ -22,10 +22,10 @@ export default function Warranty() {
               <Shield className="w-10 h-10 text-cyan-400" />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Five-Year Limited Warranty
+              Warranty
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Your <i>Hydro</i>FLOW investment is protected with our comprehensive warranty coverage
+              Your HydroFLOW investment is protected with our comprehensive warranty coverage
             </p>
           </motion.div>
         </div>
@@ -41,15 +41,32 @@ export default function Warranty() {
             viewport={{ once: true }}
             className="bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-3xl p-8 md:p-12 mb-12"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Five-Year Limited Warranty</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6">One-Year Limited Warranty</h2>
             <p className="text-slate-700 leading-relaxed">
-              <i>Hydro</i>FLOW U.S.A., LLC ("<i>Hydro</i>FLOW") offers its customers ("you") a five-year limited warranty against 
-              failure or defects in materials or workmanship in any <i>Hydro</i>FLOW product (the "Product") or its component parts, 
-              subject to the terms and conditions set forth below. If the Product or any of its parts fails during the first five 
-              years of operation, <i>Hydro</i>FLOW or its representative will repair or replace the Product, free of charge. 
+              HydroFLOW U.S.A., LLC ("HydroFLOW") offers its customers ("you") a one-year limited warranty against 
+              failure or defects in materials or workmanship in any HydroFLOW product (the "Product") or its component parts, 
+              subject to the terms and conditions set forth below. If the Product or any of its parts fails during the first year 
+              of operation, HydroFLOW or its representative will repair or replace the Product, free of charge. 
               For this warranty to apply, you will need to provide proof that the Product has been installed properly and 
               before-and-after proof that such Product is not operating as warranted.
             </p>
+          </motion.div>
+
+          {/* Additional Four-Year Warranty */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-12"
+          >
+            <div className="bg-slate-50 rounded-2xl p-8">
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Additional Four-Year Limited Warranty (total of Five-Years)</h2>
+              <p className="text-slate-700 leading-relaxed">
+                The Pearl, Pearl Plus, and hs40 units automatically receive an additional four-year limited warranty. The i Range 
+                and x Range units require activation of the additional four-year limited warranty. Please contact the authorized 
+                dealer or vendor from which you purchased the Product to activate the additional warranty at no cost.
+              </p>
+            </div>
           </motion.div>
 
           {/* What Is Not Covered */}
@@ -91,7 +108,7 @@ export default function Warranty() {
             </div>
             <div className="bg-slate-50 rounded-2xl p-8">
               <p className="text-slate-700 leading-relaxed mb-6">
-                A claim under this warranty must be submitted by email to <i>Hydro</i>FLOW or the authorized dealer or vendor from 
+                A claim under this warranty must be submitted by email to HydroFLOW or the authorized dealer or vendor from 
                 which you purchased the Product, and such email must include:
               </p>
               <ul className="space-y-3">
@@ -113,7 +130,7 @@ export default function Warranty() {
                 </li>
               </ul>
               <p className="text-slate-700 leading-relaxed mt-6">
-                A <i>Hydro</i>FLOW representative will then review your claim and contact you within 10 business days to coordinate 
+                A HydroFLOW representative will then review your claim and contact you within 10 business days to coordinate 
                 the repair or replacement of the Product or to request additional information.
               </p>
             </div>
@@ -130,15 +147,9 @@ export default function Warranty() {
             <div className="bg-slate-50 rounded-2xl p-8 space-y-4">
               <p className="text-slate-700 leading-relaxed">
                 Warranty claims are strictly limited to the value of the original purchase price or the repair or replacement cost. 
-                <i>Hydro</i>FLOW shall not be responsible for water leaks or damage caused by the removal of limescale or biofilm.
-              </p>
-              <p className="text-slate-700 leading-relaxed">
-                This warranty is not valid unless the Product is properly used with an appropriate surge protection device of adequate 
-                quality to protect the Product and its electronic components.
-              </p>
-              <p className="text-slate-700 leading-relaxed">
-                <i>Hydro</i>FLOW will not be responsible for any consequential, incidental, indirect, special, punitive or other loss 
-                or damage that may result from a product defect. <i>Hydro</i>FLOW reserves the right to determine the validity of any 
+                HydroFLOW shall not be responsible for water leaks or damage caused by the removal of limescale or biofilm. 
+                HydroFLOW will not be responsible for any consequential, incidental, indirect, special, punitive or other loss 
+                or damage that may result from a product defect. HydroFLOW reserves the right to determine the validity of any 
                 claim and remedy in its sole discretion.
               </p>
             </div>
@@ -157,9 +168,9 @@ export default function Warranty() {
                 Warning
               </h2>
               <p className="text-slate-700 leading-relaxed">
-                Biofilm release from potable water systems is an important attribute of the <i>Hydro</i>FLOW Product. As a precautionary 
+                Biofilm release from potable water systems is an important attribute of the HydroFLOW Product. As a precautionary 
                 measure, it is recommended to use an adequate filtration device to prevent the released biofilm from potentially reaching 
-                end-users. <i>Hydro</i>FLOW is not liable for any biological matter that reaches an end-user because an adequate filtration 
+                end-users. HydroFLOW is not liable for any biological matter that reaches an end-user because an adequate filtration 
                 device was not utilized.
               </p>
             </div>
