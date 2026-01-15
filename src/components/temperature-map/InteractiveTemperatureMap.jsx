@@ -5,306 +5,306 @@ import { MapPin } from 'lucide-react';
 // Approximate city coordinates on the map (as percentages)
 const cityCoordinates = {
   // Alabama
-  'Birmingham': { x: 73.5, y: 67 },
-  'Montgomery': { x: 73.5, y: 69 },
-  'Mobile': { x: 72.5, y: 73 },
-  'Huntsville': { x: 73.8, y: 64 },
+  'Birmingham': { x: 70, y: 61.5 },
+  'Montgomery': { x: 69.5, y: 63 },
+  'Mobile': { x: 68.5, y: 66 },
+  'Huntsville': { x: 70, y: 59.5 },
   
   // Alaska
-  'Anchorage': { x: 11, y: 90 },
-  'Fairbanks': { x: 13, y: 85 },
-  'Juneau': { x: 16, y: 88 },
+  'Anchorage': { x: 8, y: 88 },
+  'Fairbanks': { x: 10, y: 82 },
+  'Juneau': { x: 14, y: 85 },
   
   // Arizona
-  'Phoenix': { x: 23, y: 67 },
-  'Tucson': { x: 24, y: 70 },
-  'Flagstaff': { x: 23.5, y: 63 },
-  'Mesa': { x: 23.2, y: 67.3 },
+  'Phoenix': { x: 20, y: 63 },
+  'Tucson': { x: 21, y: 65.5 },
+  'Flagstaff': { x: 20.5, y: 60.5 },
+  'Mesa': { x: 20.2, y: 63.2 },
   
   // Arkansas
-  'Little Rock': { x: 64.5, y: 63 },
-  'Fort Smith': { x: 63, y: 62 },
-  'Fayetteville': { x: 63, y: 60.5 },
+  'Little Rock': { x: 60.5, y: 60 },
+  'Fort Smith': { x: 59, y: 59 },
+  'Fayetteville': { x: 59, y: 57.5 },
   
   // California
-  'Los Angeles': { x: 16, y: 66 },
-  'San Francisco': { x: 14, y: 59 },
-  'Sacramento': { x: 15, y: 58 },
-  'San Diego': { x: 16.5, y: 69 },
-  'San Jose': { x: 14.2, y: 59.5 },
-  'Fresno': { x: 15.5, y: 61 },
+  'Los Angeles': { x: 13, y: 64 },
+  'San Francisco': { x: 10.5, y: 58.5 },
+  'Sacramento': { x: 11.5, y: 56.5 },
+  'San Diego': { x: 13.5, y: 66 },
+  'San Jose': { x: 11, y: 59 },
+  'Fresno': { x: 12.5, y: 60 },
   
   // Colorado
-  'Denver': { x: 34, y: 56 },
-  'Colorado Springs': { x: 34, y: 58 },
-  'Boulder': { x: 34, y: 55 },
-  'Fort Collins': { x: 33.5, y: 53 },
+  'Denver': { x: 32, y: 56.5 },
+  'Colorado Springs': { x: 32, y: 58 },
+  'Boulder': { x: 32, y: 55.5 },
+  'Fort Collins': { x: 31.5, y: 54 },
   
   // Connecticut
-  'Hartford': { x: 87, y: 46 },
-  'New Haven': { x: 87, y: 47 },
-  'Bridgeport': { x: 87.2, y: 47.2 },
-  'Stamford': { x: 87.5, y: 47.5 },
+  'Hartford': { x: 84, y: 48.5 },
+  'New Haven': { x: 84, y: 49.5 },
+  'Bridgeport': { x: 84.2, y: 49.7 },
+  'Stamford': { x: 84.5, y: 50 },
   
   // Delaware
-  'Wilmington': { x: 84.5, y: 54.5 },
-  'Dover': { x: 84.8, y: 55.5 },
-  'Newark': { x: 84.5, y: 54.2 },
+  'Wilmington': { x: 81.5, y: 56 },
+  'Dover': { x: 81.8, y: 57 },
+  'Newark': { x: 81.5, y: 55.8 },
   
   // Florida
-  'Miami': { x: 79.5, y: 84 },
-  'Tampa': { x: 78.5, y: 80 },
-  'Jacksonville': { x: 79, y: 73 },
-  'Orlando': { x: 79, y: 78 },
-  'Fort Lauderdale': { x: 79.5, y: 83 },
-  'West Palm Beach': { x: 79.5, y: 81 },
+  'Miami': { x: 75, y: 78 },
+  'Tampa': { x: 74, y: 74.5 },
+  'Jacksonville': { x: 74.5, y: 67.5 },
+  'Orlando': { x: 74.5, y: 72.5 },
+  'Fort Lauderdale': { x: 75, y: 77 },
+  'West Palm Beach': { x: 75, y: 75 },
   
   // Georgia
-  'Atlanta': { x: 75.5, y: 66 },
-  'Savannah': { x: 78.5, y: 68 },
-  'Augusta': { x: 78, y: 66.5 },
-  'Columbus': { x: 75, y: 68 },
+  'Atlanta': { x: 71.5, y: 63 },
+  'Savannah': { x: 74, y: 64.5 },
+  'Augusta': { x: 73.5, y: 63.5 },
+  'Columbus': { x: 71, y: 65 },
   
   // Hawaii
-  'Honolulu': { x: 24, y: 94 },
-  'Hilo': { x: 26, y: 94.5 },
-  'Kailua': { x: 24.5, y: 93.5 },
+  'Honolulu': { x: 20, y: 91 },
+  'Hilo': { x: 22, y: 91.5 },
+  'Kailua': { x: 20.5, y: 90.5 },
   
   // Idaho
-  'Boise': { x: 24, y: 48 },
-  'Idaho Falls': { x: 25.5, y: 49 },
-  'Pocatello': { x: 25.8, y: 50 },
-  'Meridian': { x: 24, y: 48.3 },
+  'Boise': { x: 21, y: 50 },
+  'Idaho Falls': { x: 22.5, y: 51 },
+  'Pocatello': { x: 22.8, y: 52 },
+  'Meridian': { x: 21, y: 50.3 },
   
   // Illinois
-  'Chicago': { x: 71.5, y: 47 },
-  'Springfield': { x: 69, y: 55 },
-  'Peoria': { x: 69.5, y: 53 },
-  'Rockford': { x: 70.5, y: 48 },
+  'Chicago': { x: 68, y: 49.5 },
+  'Springfield': { x: 65.5, y: 56 },
+  'Peoria': { x: 66, y: 54 },
+  'Rockford': { x: 67, y: 50.5 },
   
   // Indiana
-  'Indianapolis': { x: 73, y: 55 },
-  'Fort Wayne': { x: 74.5, y: 51 },
-  'Evansville': { x: 71.5, y: 58 },
-  'South Bend': { x: 73.5, y: 48 },
+  'Indianapolis': { x: 69.5, y: 56.5 },
+  'Fort Wayne': { x: 71, y: 52.5 },
+  'Evansville': { x: 68, y: 59 },
+  'South Bend': { x: 70, y: 50 },
   
   // Iowa
-  'Des Moines': { x: 63.5, y: 48 },
-  'Cedar Rapids': { x: 65, y: 48 },
-  'Davenport': { x: 68, y: 48.5 },
-  'Iowa City': { x: 65.5, y: 49 },
+  'Des Moines': { x: 60.5, y: 50 },
+  'Cedar Rapids': { x: 62, y: 50 },
+  'Davenport': { x: 64.5, y: 50.5 },
+  'Iowa City': { x: 62.5, y: 51 },
   
   // Kansas
-  'Wichita': { x: 55, y: 58 },
-  'Kansas City': { x: 63, y: 55 },
-  'Topeka': { x: 60, y: 55 },
-  'Overland Park': { x: 63, y: 55.3 },
+  'Wichita': { x: 53, y: 58.5 },
+  'Kansas City': { x: 60, y: 56 },
+  'Topeka': { x: 58, y: 56 },
+  'Overland Park': { x: 60, y: 56.3 },
   
   // Kentucky
-  'Louisville': { x: 73.5, y: 58 },
-  'Lexington': { x: 75.5, y: 58 },
-  'Bowling Green': { x: 73, y: 61 },
-  'Owensboro': { x: 72, y: 58.5 },
+  'Louisville': { x: 70, y: 58.5 },
+  'Lexington': { x: 71.5, y: 58.5 },
+  'Bowling Green': { x: 69.5, y: 60.5 },
+  'Owensboro': { x: 68.5, y: 59 },
   
   // Louisiana
-  'New Orleans': { x: 67, y: 73 },
-  'Baton Rouge': { x: 66.5, y: 72 },
-  'Shreveport': { x: 63.5, y: 68.5 },
-  'Lafayette': { x: 65.5, y: 72 },
+  'New Orleans': { x: 65, y: 67.5 },
+  'Baton Rouge': { x: 64.5, y: 66.5 },
+  'Shreveport': { x: 61.5, y: 64 },
+  'Lafayette': { x: 63.5, y: 66.5 },
   
   // Maine
-  'Portland': { x: 90, y: 49 },
-  'Bangor': { x: 91, y: 45 },
-  'Augusta': { x: 90.5, y: 47 },
-  'Lewiston': { x: 90, y: 48 },
+  'Portland': { x: 87, y: 48.5 },
+  'Bangor': { x: 88, y: 45.5 },
+  'Augusta': { x: 87.5, y: 47 },
+  'Lewiston': { x: 87, y: 48 },
   
   // Maryland
-  'Baltimore': { x: 84, y: 54.5 },
-  'Annapolis': { x: 84.2, y: 55.2 },
-  'Frederick': { x: 83, y: 53.5 },
-  'Rockville': { x: 83.5, y: 54.2 },
+  'Baltimore': { x: 81, y: 56 },
+  'Annapolis': { x: 81.2, y: 56.7 },
+  'Frederick': { x: 80, y: 55 },
+  'Rockville': { x: 80.5, y: 55.7 },
   
   // Massachusetts
-  'Boston': { x: 89, y: 47.5 },
-  'Worcester': { x: 88.5, y: 48 },
-  'Springfield': { x: 87.8, y: 48.5 },
-  'Cambridge': { x: 89, y: 47.5 },
+  'Boston': { x: 85.5, y: 49.5 },
+  'Worcester': { x: 85, y: 50 },
+  'Springfield': { x: 84.5, y: 50.5 },
+  'Cambridge': { x: 85.5, y: 49.5 },
   
   // Michigan
-  'Detroit': { x: 74.5, y: 48 },
-  'Grand Rapids': { x: 73, y: 48 },
-  'Lansing': { x: 74, y: 48.5 },
-  'Ann Arbor': { x: 74.5, y: 48.8 },
+  'Detroit': { x: 71, y: 50 },
+  'Grand Rapids': { x: 69.5, y: 50 },
+  'Lansing': { x: 70.5, y: 50.5 },
+  'Ann Arbor': { x: 71, y: 50.8 },
   
   // Minnesota
-  'Minneapolis': { x: 63, y: 43 },
-  'St. Paul': { x: 63.5, y: 43 },
-  'Duluth': { x: 65, y: 39 },
-  'Rochester': { x: 63.5, y: 45 },
+  'Minneapolis': { x: 60.5, y: 45.5 },
+  'St. Paul': { x: 61, y: 45.5 },
+  'Duluth': { x: 62.5, y: 41.5 },
+  'Rochester': { x: 61, y: 47.5 },
   
   // Mississippi
-  'Jackson': { x: 67, y: 68.5 },
-  'Biloxi': { x: 69, y: 72.5 },
-  'Hattiesburg': { x: 68, y: 70.5 },
-  'Gulfport': { x: 69, y: 72.5 },
+  'Jackson': { x: 65.5, y: 64 },
+  'Biloxi': { x: 66.5, y: 67 },
+  'Hattiesburg': { x: 66, y: 65.5 },
+  'Gulfport': { x: 66.5, y: 67 },
   
   // Missouri
-  'Kansas City': { x: 63, y: 55 },
-  'St. Louis': { x: 67, y: 58 },
-  'Springfield': { x: 63.5, y: 60 },
-  'Columbia': { x: 64.5, y: 57 },
+  'Kansas City': { x: 60, y: 56 },
+  'St. Louis': { x: 63.5, y: 58.5 },
+  'Springfield': { x: 60.5, y: 60 },
+  'Columbia': { x: 61.5, y: 57.5 },
   
   // Montana
-  'Billings': { x: 35, y: 43 },
-  'Missoula': { x: 30, y: 40 },
-  'Great Falls': { x: 32, y: 39 },
-  'Bozeman': { x: 33, y: 42 },
+  'Billings': { x: 33, y: 45.5 },
+  'Missoula': { x: 28, y: 42.5 },
+  'Great Falls': { x: 30, y: 41.5 },
+  'Bozeman': { x: 31, y: 44.5 },
   
   // Nebraska
-  'Omaha': { x: 58, y: 48 },
-  'Lincoln': { x: 57, y: 50 },
-  'Grand Island': { x: 55, y: 49 },
-  'Bellevue': { x: 58, y: 48.3 },
+  'Omaha': { x: 56, y: 50 },
+  'Lincoln': { x: 55, y: 52 },
+  'Grand Island': { x: 53.5, y: 51 },
+  'Bellevue': { x: 56, y: 50.3 },
   
   // Nevada
-  'Las Vegas': { x: 18, y: 62 },
-  'Reno': { x: 14, y: 55 },
-  'Carson City': { x: 14, y: 56 },
-  'Henderson': { x: 18.5, y: 62 },
+  'Las Vegas': { x: 16, y: 61 },
+  'Reno': { x: 12.5, y: 55.5 },
+  'Carson City': { x: 12.5, y: 56.5 },
+  'Henderson': { x: 16.5, y: 61 },
   
   // New Hampshire
-  'Manchester': { x: 89, y: 48.5 },
-  'Nashua': { x: 89, y: 49 },
-  'Concord': { x: 89, y: 48 },
-  'Dover': { x: 89.5, y: 48.5 },
+  'Manchester': { x: 85.5, y: 48.5 },
+  'Nashua': { x: 85.5, y: 49 },
+  'Concord': { x: 85.5, y: 48 },
+  'Dover': { x: 86, y: 48.5 },
   
   // New Jersey
-  'Newark': { x: 85.5, y: 50.5 },
-  'Jersey City': { x: 85.5, y: 50.8 },
-  'Trenton': { x: 85.5, y: 52.5 },
-  'Atlantic City': { x: 86, y: 54.5 },
+  'Newark': { x: 82.5, y: 52 },
+  'Jersey City': { x: 82.5, y: 52.3 },
+  'Trenton': { x: 82, y: 53.5 },
+  'Atlantic City': { x: 82.5, y: 55.5 },
   
   // New Mexico
-  'Albuquerque': { x: 33, y: 64 },
-  'Santa Fe': { x: 33.5, y: 62 },
-  'Las Cruces': { x: 33.5, y: 69 },
-  'Rio Rancho': { x: 33, y: 63.5 },
+  'Albuquerque': { x: 31, y: 61.5 },
+  'Santa Fe': { x: 31.5, y: 59.5 },
+  'Las Cruces': { x: 31.5, y: 65.5 },
+  'Rio Rancho': { x: 31, y: 61 },
   
   // New York
-  'New York City': { x: 85.5, y: 50.5 },
-  'Buffalo': { x: 81, y: 48.5 },
-  'Rochester': { x: 82, y: 48.5 },
-  'Albany': { x: 86, y: 47.5 },
-  'Syracuse': { x: 83.5, y: 48.5 },
+  'New York City': { x: 82.5, y: 52 },
+  'Buffalo': { x: 77.5, y: 50.5 },
+  'Rochester': { x: 78.5, y: 50.5 },
+  'Albany': { x: 82.5, y: 49.5 },
+  'Syracuse': { x: 80, y: 50.5 },
   
   // North Carolina
-  'Charlotte': { x: 79, y: 63 },
-  'Raleigh': { x: 82, y: 62 },
-  'Greensboro': { x: 80.5, y: 62 },
-  'Durham': { x: 81.5, y: 62 },
+  'Charlotte': { x: 75, y: 61.5 },
+  'Raleigh': { x: 77.5, y: 61 },
+  'Greensboro': { x: 76, y: 60.5 },
+  'Durham': { x: 77, y: 61 },
   
   // North Dakota
-  'Fargo': { x: 55.5, y: 38 },
-  'Bismarck': { x: 50, y: 38.5 },
-  'Grand Forks': { x: 56, y: 37 },
-  'Minot': { x: 48, y: 37 },
+  'Fargo': { x: 54.5, y: 40.5 },
+  'Bismarck': { x: 49, y: 41 },
+  'Grand Forks': { x: 55, y: 39.5 },
+  'Minot': { x: 47, y: 39.5 },
   
   // Ohio
-  'Columbus': { x: 76, y: 54 },
-  'Cleveland': { x: 78, y: 49 },
-  'Cincinnati': { x: 75.5, y: 56 },
-  'Toledo': { x: 76.5, y: 48 },
+  'Columbus': { x: 73, y: 56 },
+  'Cleveland': { x: 74.5, y: 51 },
+  'Cincinnati': { x: 72, y: 57.5 },
+  'Toledo': { x: 73, y: 50 },
   
   // Oklahoma
-  'Oklahoma City': { x: 55, y: 63 },
-  'Tulsa': { x: 58, y: 62 },
-  'Norman': { x: 55, y: 63.5 },
-  'Broken Arrow': { x: 58, y: 62.3 },
+  'Oklahoma City': { x: 53, y: 61.5 },
+  'Tulsa': { x: 56, y: 60.5 },
+  'Norman': { x: 53, y: 62 },
+  'Broken Arrow': { x: 56, y: 60.8 },
   
   // Oregon
-  'Portland': { x: 13, y: 42 },
-  'Eugene': { x: 12.5, y: 45 },
-  'Salem': { x: 13, y: 43 },
-  'Bend': { x: 14, y: 45 },
+  'Portland': { x: 10.5, y: 44.5 },
+  'Eugene': { x: 10, y: 47 },
+  'Salem': { x: 10.5, y: 45.5 },
+  'Bend': { x: 11.5, y: 47 },
   
   // Pennsylvania
-  'Philadelphia': { x: 84.5, y: 52.5 },
-  'Pittsburgh': { x: 79.5, y: 52.5 },
-  'Harrisburg': { x: 83, y: 52.5 },
-  'Allentown': { x: 84.5, y: 51.5 },
+  'Philadelphia': { x: 81.5, y: 53.5 },
+  'Pittsburgh': { x: 76, y: 53.5 },
+  'Harrisburg': { x: 80, y: 53.5 },
+  'Allentown': { x: 81.5, y: 52.5 },
   
   // Rhode Island
-  'Providence': { x: 89, y: 47.8 },
-  'Warwick': { x: 89, y: 48 },
-  'Newport': { x: 89.5, y: 48 },
+  'Providence': { x: 85.5, y: 49.5 },
+  'Warwick': { x: 85.5, y: 49.7 },
+  'Newport': { x: 86, y: 49.7 },
   
   // South Carolina
-  'Columbia': { x: 79, y: 66 },
-  'Charleston': { x: 80.5, y: 68 },
-  'Greenville': { x: 78, y: 64 },
-  'Myrtle Beach': { x: 82, y: 66 },
+  'Columbia': { x: 75, y: 63 },
+  'Charleston': { x: 76, y: 64.5 },
+  'Greenville': { x: 74, y: 61.5 },
+  'Myrtle Beach': { x: 77, y: 63 },
   
   // South Dakota
-  'Sioux Falls': { x: 57, y: 45 },
-  'Rapid City': { x: 48, y: 45 },
-  'Aberdeen': { x: 54, y: 43 },
-  'Brookings': { x: 57, y: 44 },
+  'Sioux Falls': { x: 55, y: 47.5 },
+  'Rapid City': { x: 47, y: 47.5 },
+  'Aberdeen': { x: 53, y: 45.5 },
+  'Brookings': { x: 55, y: 46.5 },
   
   // Tennessee
-  'Nashville': { x: 73, y: 62 },
-  'Memphis': { x: 67, y: 63 },
-  'Knoxville': { x: 76.5, y: 62 },
-  'Chattanooga': { x: 74.5, y: 64 },
+  'Nashville': { x: 69.5, y: 60 },
+  'Memphis': { x: 65.5, y: 60.5 },
+  'Knoxville': { x: 72.5, y: 60 },
+  'Chattanooga': { x: 71, y: 61.5 },
   
   // Texas
-  'Houston': { x: 60, y: 74 },
-  'Dallas': { x: 58, y: 69 },
-  'Austin': { x: 57, y: 73 },
-  'San Antonio': { x: 56, y: 75 },
-  'El Paso': { x: 34, y: 71 },
-  'Fort Worth': { x: 58, y: 68.5 },
+  'Houston': { x: 58.5, y: 68 },
+  'Dallas': { x: 57, y: 64.5 },
+  'Austin': { x: 56.5, y: 67 },
+  'San Antonio': { x: 55.5, y: 68.5 },
+  'El Paso': { x: 32, y: 65.5 },
+  'Fort Worth': { x: 57, y: 64 },
   
   // Utah
-  'Salt Lake City': { x: 25, y: 53 },
-  'Provo': { x: 25, y: 54.5 },
-  'Ogden': { x: 25, y: 51.5 },
-  'West Valley City': { x: 25, y: 53.3 },
+  'Salt Lake City': { x: 22.5, y: 53.5 },
+  'Provo': { x: 22.5, y: 55 },
+  'Ogden': { x: 22.5, y: 52 },
+  'West Valley City': { x: 22.5, y: 53.8 },
   
   // Vermont
-  'Burlington': { x: 86.5, y: 44.5 },
-  'Montpelier': { x: 87, y: 44.5 },
-  'Rutland': { x: 86.5, y: 45.5 },
-  'South Burlington': { x: 86.5, y: 44.8 },
+  'Burlington': { x: 83.5, y: 46.5 },
+  'Montpelier': { x: 84, y: 46.5 },
+  'Rutland': { x: 83.5, y: 47.5 },
+  'South Burlington': { x: 83.5, y: 46.8 },
   
   // Virginia
-  'Richmond': { x: 82.5, y: 58.5 },
-  'Virginia Beach': { x: 84.5, y: 60.5 },
-  'Norfolk': { x: 84.5, y: 60.5 },
-  'Arlington': { x: 83, y: 56.5 },
+  'Richmond': { x: 78.5, y: 58.5 },
+  'Virginia Beach': { x: 80, y: 60 },
+  'Norfolk': { x: 80, y: 60 },
+  'Arlington': { x: 79.5, y: 57 },
   
   // Washington
-  'Seattle': { x: 15, y: 39 },
-  'Spokane': { x: 20, y: 39.5 },
-  'Tacoma': { x: 15, y: 40 },
-  'Vancouver': { x: 15.5, y: 42 },
+  'Seattle': { x: 11.5, y: 42 },
+  'Spokane': { x: 17, y: 42.5 },
+  'Tacoma': { x: 11.5, y: 43 },
+  'Vancouver': { x: 12, y: 44.5 },
   
   // West Virginia
-  'Charleston': { x: 79, y: 58 },
-  'Huntington': { x: 78, y: 59 },
-  'Morgantown': { x: 80.5, y: 55 },
-  'Parkersburg': { x: 79, y: 57 },
+  'Charleston': { x: 75.5, y: 58 },
+  'Huntington': { x: 74.5, y: 59 },
+  'Morgantown': { x: 76.5, y: 55.5 },
+  'Parkersburg': { x: 75.5, y: 57 },
   
   // Wisconsin
-  'Milwaukee': { x: 71, y: 46 },
-  'Madison': { x: 68.5, y: 46 },
-  'Green Bay': { x: 71.5, y: 43 },
-  'Kenosha': { x: 71.5, y: 47.5 },
+  'Milwaukee': { x: 68, y: 48 },
+  'Madison': { x: 66, y: 48 },
+  'Green Bay': { x: 68.5, y: 45.5 },
+  'Kenosha': { x: 68.5, y: 49.5 },
   
   // Wyoming
-  'Cheyenne': { x: 34, y: 49 },
-  'Casper': { x: 34.5, y: 48 },
-  'Laramie': { x: 34.5, y: 49.5 },
-  'Gillette': { x: 34, y: 46 }
+  'Cheyenne': { x: 32, y: 51 },
+  'Casper': { x: 32.5, y: 50 },
+  'Laramie': { x: 32.5, y: 51.5 },
+  'Gillette': { x: 32, y: 48.5 }
 };
 
 export default function InteractiveTemperatureMap({ cities = [] }) {
