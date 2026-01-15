@@ -15,6 +15,7 @@ import FiltrationTechnology from './pages/FiltrationTechnology';
 import GroundwaterTemperatureMap from './pages/GroundwaterTemperatureMap';
 import Home from './pages/Home';
 import Industrial from './pages/Industrial';
+import KnowledgeBase from './pages/KnowledgeBase';
 import Marine from './pages/Marine';
 import ProductHMRange from './pages/ProductHMRange';
 import ProductHS40 from './pages/ProductHS40';
@@ -28,7 +29,6 @@ import StateTemperature from './pages/StateTemperature';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import KnowledgeBase from './pages/KnowledgeBase';
 import TermsOfService from './pages/TermsOfService';
 import __Layout from './Layout.jsx';
 
@@ -51,6 +51,7 @@ export const PAGES = {
     "GroundwaterTemperatureMap": GroundwaterTemperatureMap,
     "Home": Home,
     "Industrial": Industrial,
+    "KnowledgeBase": KnowledgeBase,
     "Marine": Marine,
     "ProductHMRange": ProductHMRange,
     "ProductHS40": ProductHS40,
@@ -64,7 +65,6 @@ export const PAGES = {
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
     "WaterHardnessMap": WaterHardnessMap,
-    "KnowledgeBase": KnowledgeBase,
     "TermsOfService": TermsOfService,
 }
 

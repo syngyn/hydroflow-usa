@@ -117,38 +117,6 @@ export default function TermsOfService() {
               <li>The Company takes no responsibility for damage to any equipment, property or persons.</li>
             </ul>
 
-            <h2 className="text-2xl font-bold text-slate-900 mb-4">Five-Year Limited Warranty</h2>
-            <p className="text-slate-600 leading-relaxed mb-4">
-              <i>Hydro</i>FLOW U.S.A., LLC ("<i>Hydro</i>FLOW") offers its customers ("you") a five-year limited warranty against 
-              failure or defects in materials or workmanship in any <i>Hydro</i>FLOW product (the "Product") or its component parts, 
-              subject to the terms and conditions set forth below. If the Product or any of its parts fails during the first five 
-              years of operation, <i>Hydro</i>FLOW or its representative will repair or replace the Product, free of charge.
-            </p>
-            <p className="text-slate-600 leading-relaxed mb-8">
-              For this warranty to apply, you will need to provide proof that the Product has been installed properly and 
-              before-and-after proof that such Product is not operating as warranted.
-            </p>
-
-            <h3 className="text-xl font-bold text-slate-900 mb-4">What Is Not Covered</h3>
-            <p className="text-slate-600 leading-relaxed mb-12">
-              This warranty does not cover damage to the Product caused by improper installation, a surge or disruption in power 
-              (however caused), a water leak resulting from limescale or biofilm removal, misuse, abuse, or force majeure 
-              (i.e., a flood or earthquake, etc.). Please be aware that water leaks from plumbing systems may result as a 
-              consequence of limescale and biofilm removal. You are therefore advised and have a duty to periodically inspect 
-              your plumbing systems to ensure that compression joints remain water-tight.
-            </p>
-
-            <h3 className="text-xl font-bold text-slate-900 mb-4">How To Make A Claim & Get Service</h3>
-            <p className="text-slate-600 leading-relaxed mb-4">
-              A claim under this warranty must be submitted by email to <i>Hydro</i>FLOW or the authorized dealer or vendor from 
-              which you purchased the Product, and such email must include:
-            </p>
-            <ul className="list-disc pl-6 text-slate-600 leading-relaxed mb-12 space-y-2">
-              <li>A copy of your proof of purchase</li>
-              <li>Before-and-after proof that the Product is not operating as warranted</li>
-              <li>Your contact information including name, address, phone number, and email</li>
-            </ul>
-
             <div className="bg-slate-50 rounded-2xl p-8 mt-12">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Questions?</h3>
               <p className="text-slate-600 mb-6">
