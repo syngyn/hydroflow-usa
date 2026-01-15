@@ -5,21 +5,21 @@ import { MapPin } from 'lucide-react';
 // Approximate city coordinates on the map (as percentages)
 const cityCoordinates = {
   // Alabama
-  'Birmingham': { x: 72, y: 66 },
-  'Montgomery': { x: 72.5, y: 68 },
-  'Mobile': { x: 71.5, y: 72 },
-  'Huntsville': { x: 72.5, y: 63 },
+  'Birmingham': { x: 73.5, y: 67 },
+  'Montgomery': { x: 73.5, y: 69 },
+  'Mobile': { x: 72.5, y: 73 },
+  'Huntsville': { x: 73.8, y: 64 },
   
   // Alaska
-  'Anchorage': { x: 12, y: 89 },
-  'Fairbanks': { x: 14, y: 84 },
-  'Juneau': { x: 17, y: 88 },
+  'Anchorage': { x: 11, y: 90 },
+  'Fairbanks': { x: 13, y: 85 },
+  'Juneau': { x: 16, y: 88 },
   
   // Arizona
-  'Phoenix': { x: 21, y: 66 },
-  'Tucson': { x: 22, y: 69 },
-  'Flagstaff': { x: 21.5, y: 62 },
-  'Mesa': { x: 21.2, y: 66.3 },
+  'Phoenix': { x: 23, y: 67 },
+  'Tucson': { x: 24, y: 70 },
+  'Flagstaff': { x: 23.5, y: 63 },
+  'Mesa': { x: 23.2, y: 67.3 },
   
   // Arkansas
   'Little Rock': { x: 64.5, y: 63 },
@@ -27,12 +27,12 @@ const cityCoordinates = {
   'Fayetteville': { x: 63, y: 60.5 },
   
   // California
-  'Los Angeles': { x: 14, y: 65 },
-  'San Francisco': { x: 12, y: 58 },
-  'Sacramento': { x: 13, y: 57 },
-  'San Diego': { x: 14.5, y: 68 },
-  'San Jose': { x: 12.2, y: 58.5 },
-  'Fresno': { x: 13.5, y: 60 },
+  'Los Angeles': { x: 16, y: 66 },
+  'San Francisco': { x: 14, y: 59 },
+  'Sacramento': { x: 15, y: 58 },
+  'San Diego': { x: 16.5, y: 69 },
+  'San Jose': { x: 14.2, y: 59.5 },
+  'Fresno': { x: 15.5, y: 61 },
   
   // Colorado
   'Denver': { x: 34, y: 56 },
@@ -52,12 +52,12 @@ const cityCoordinates = {
   'Newark': { x: 84.5, y: 54.2 },
   
   // Florida
-  'Miami': { x: 78, y: 83 },
-  'Tampa': { x: 77, y: 79 },
-  'Jacksonville': { x: 78.5, y: 72 },
-  'Orlando': { x: 78.2, y: 77 },
-  'Fort Lauderdale': { x: 78, y: 82 },
-  'West Palm Beach': { x: 78, y: 80 },
+  'Miami': { x: 79.5, y: 84 },
+  'Tampa': { x: 78.5, y: 80 },
+  'Jacksonville': { x: 79, y: 73 },
+  'Orlando': { x: 79, y: 78 },
+  'Fort Lauderdale': { x: 79.5, y: 83 },
+  'West Palm Beach': { x: 79.5, y: 81 },
   
   // Georgia
   'Atlanta': { x: 75.5, y: 66 },
@@ -257,12 +257,12 @@ const cityCoordinates = {
   'Chattanooga': { x: 74.5, y: 64 },
   
   // Texas
-  'Houston': { x: 58, y: 73 },
-  'Dallas': { x: 56, y: 68 },
-  'Austin': { x: 55, y: 72 },
-  'San Antonio': { x: 54, y: 74 },
-  'El Paso': { x: 33, y: 70 },
-  'Fort Worth': { x: 56, y: 67.5 },
+  'Houston': { x: 60, y: 74 },
+  'Dallas': { x: 58, y: 69 },
+  'Austin': { x: 57, y: 73 },
+  'San Antonio': { x: 56, y: 75 },
+  'El Paso': { x: 34, y: 71 },
+  'Fort Worth': { x: 58, y: 68.5 },
   
   // Utah
   'Salt Lake City': { x: 25, y: 53 },
@@ -283,10 +283,10 @@ const cityCoordinates = {
   'Arlington': { x: 83, y: 56.5 },
   
   // Washington
-  'Seattle': { x: 13, y: 38 },
-  'Spokane': { x: 18, y: 38.5 },
-  'Tacoma': { x: 13, y: 39 },
-  'Vancouver': { x: 13.5, y: 41 },
+  'Seattle': { x: 15, y: 39 },
+  'Spokane': { x: 20, y: 39.5 },
+  'Tacoma': { x: 15, y: 40 },
+  'Vancouver': { x: 15.5, y: 42 },
   
   // West Virginia
   'Charleston': { x: 79, y: 58 },
