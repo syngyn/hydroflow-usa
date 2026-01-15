@@ -18,11 +18,8 @@ export default function PrivacyPolicy() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Privacy Policy
+              Privacy
             </h1>
-            <p className="text-xl text-slate-300">
-              Last updated: January 15, 2026
-            </p>
           </motion.div>
         </div>
       </section>
@@ -32,84 +29,82 @@ export default function PrivacyPolicy() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-slate max-w-none">
             <p className="text-slate-600 leading-relaxed mb-8">
-              This Privacy Policy describes how <i>Hydro</i>FLOW USA ("we," "us," or "our") collects, uses, and shares 
-              information about you when you visit our website, www.hydroflow-usa.com (the "Website"), or use our services.
+              <i>Hydro</i>FLOW USA operates the www.hydroflow-usa.com website, which provides the SERVICE.
             </p>
 
-            <h2 className="text-2xl font-bold text-slate-900 mb-4">Information We Collect</h2>
+            <p className="text-slate-600 leading-relaxed mb-8">
+              This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of personal information if anyone decides to use our Service, the <i>Hydro</i>FLOW USA website.
+            </p>
+
+            <p className="text-slate-600 leading-relaxed mb-8">
+              If you choose to use our service, then you agree to the collection and use of information in relation with this policy. The personal information that we collect are used for providing and improving the service. We will not use or share your information with anyone except as described in this Privacy Policy.
+            </p>
+
+            <p className="text-slate-600 leading-relaxed mb-12">
+              The terms used in this privacy policy have the same meanings as in our Terms and Conditions, which is accessible at www.hydroflow-usa.com, unless otherwise defined in this Privacy Policy.
+            </p>
+
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Information Collection and Use</h2>
+            <p className="text-slate-600 leading-relaxed mb-12">
+              For a better experience while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to your name, phone number, and postal address. The information that we collect will be used to contact or identify you.
+            </p>
+
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Log Data</h2>
+            <p className="text-slate-600 leading-relaxed mb-12">
+              We want to inform you that whenever you visit our Service, we collect information that your browser sends to us that is called Log Data. This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser version, pages of our Service that you visit, the time and date of your visit, the time spent on those pages, and other statistics.
+            </p>
+
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Cookies</h2>
+            <p className="text-slate-600 leading-relaxed mb-8">
+              Cookies are files with small amount of data that is commonly used as an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your computer's hard drive.
+            </p>
+            <p className="text-slate-600 leading-relaxed mb-12">
+              Our website uses these "cookies" to collect information and improve our Service. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your computer. If you choose to refuse our cookies, you may not be able to use some portions of our Service.
+            </p>
+
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Service Providers</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              We collect information you provide directly to us, such as when you create an account, make a purchase, 
-              request information, or contact us for support. This information may include:
+              We may employ third-party companies and individuals due to the following reasons:
             </p>
             <ul className="list-disc pl-6 text-slate-600 leading-relaxed mb-12 space-y-2">
-              <li>Name and contact information (email address, phone number, mailing address)</li>
-              <li>Payment information</li>
-              <li>Account credentials</li>
-              <li>Communications you send to us</li>
+              <li>To facilitate our service or products;</li>
+              <li>To provide the service or products on our behalf;</li>
+              <li>To perform product-related services; or</li>
+              <li>To assist us in analyzing how our products or services are used.</li>
             </ul>
-
-            <h2 className="text-2xl font-bold text-slate-900 mb-4">How We Use Your Information</h2>
-            <p className="text-slate-600 leading-relaxed mb-4">
-              We use the information we collect to:
-            </p>
-            <ul className="list-disc pl-6 text-slate-600 leading-relaxed mb-12 space-y-2">
-              <li>Process your orders and provide customer service</li>
-              <li>Send you technical notices, updates, and support messages</li>
-              <li>Respond to your comments and questions</li>
-              <li>Send you marketing communications (with your consent)</li>
-              <li>Monitor and analyze trends and usage</li>
-              <li>Protect against fraudulent or illegal activity</li>
-            </ul>
-
-            <h2 className="text-2xl font-bold text-slate-900 mb-4">Information Sharing</h2>
             <p className="text-slate-600 leading-relaxed mb-12">
-              We do not sell your personal information. We may share your information with service providers who perform 
-              services on our behalf, such as payment processing, order fulfillment, and analytics. We may also share 
-              information when required by law or to protect our rights.
+              We want to inform our Service users that these third parties have access to your Personal Information. The reason, is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
             </p>
 
-            <h2 className="text-2xl font-bold text-slate-900 mb-4">Cookies and Tracking Technologies</h2>
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Security</h2>
             <p className="text-slate-600 leading-relaxed mb-12">
-              We use cookies and similar tracking technologies to collect information about your browsing activities. 
-              You can control cookies through your browser settings, but disabling cookies may affect your ability to 
-              use certain features of our Website.
+              We value your trust in providing us your personal information, thus we are striving to use commercially acceptable means of protecting it. Remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
             </p>
 
-            <h2 className="text-2xl font-bold text-slate-900 mb-4">Data Security</h2>
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Links to Other Sites</h2>
             <p className="text-slate-600 leading-relaxed mb-12">
-              We take reasonable measures to protect your information from unauthorized access, use, or disclosure. 
-              However, no internet transmission is completely secure, and we cannot guarantee the security of information 
-              transmitted through our Website.
+              Our Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
             </p>
-
-            <h2 className="text-2xl font-bold text-slate-900 mb-4">Your Rights</h2>
-            <p className="text-slate-600 leading-relaxed mb-4">
-              Depending on your location, you may have certain rights regarding your personal information, including:
-            </p>
-            <ul className="list-disc pl-6 text-slate-600 leading-relaxed mb-12 space-y-2">
-              <li>The right to access and receive a copy of your personal information</li>
-              <li>The right to correct inaccurate information</li>
-              <li>The right to delete your information</li>
-              <li>The right to object to or restrict certain processing</li>
-            </ul>
 
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Children's Privacy</h2>
             <p className="text-slate-600 leading-relaxed mb-12">
-              Our Website is not intended for children under 13 years of age. We do not knowingly collect personal 
-              information from children under 13. If you believe we have collected information from a child under 13, 
-              please contact us.
+              Our services do not address anyone under the age of 18. We do not knowingly collect personal identifiable information from children under 18. In the case we discover that a child under 18 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to preform the necessary actions.
             </p>
 
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Changes to This Privacy Policy</h2>
             <p className="text-slate-600 leading-relaxed mb-12">
-              We may update this Privacy Policy from time to time. We will notify you of any changes by posting the 
-              new Privacy Policy on this page and updating the "Last updated" date.
+              We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.
+            </p>
+
+            <h2 className="text-2xl font-bold text-slate-900 mb-4">Contact Us</h2>
+            <p className="text-slate-600 leading-relaxed mb-12">
+              If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.
             </p>
 
             <div className="bg-slate-50 rounded-2xl p-8 mt-12">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Questions?</h3>
               <p className="text-slate-600 mb-6">
-                If you have any questions about our Privacy Policy, please contact us.
+                If you have any questions or suggestions about our Privacy Policy, please contact us.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="tel:1-888-559-4340" className="inline-flex items-center justify-center px-6 py-3 bg-cyan-600 hover:bg-cyan-700 text-white rounded-full font-semibold transition-colors">
