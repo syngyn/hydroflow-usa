@@ -132,15 +132,13 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
             <p>© {new Date().getFullYear()} <i>Hydro</i>FLOW USA. All rights reserved.</p>
             <div className="flex items-center gap-6">
-              <a href="https://hydroflow-usa.com/privacy/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors">
-                Privacy Policy
-              </a>
+              <span>Privacy Policy</span>
               <Link to={createPageUrl('TermsOfService')} className="hover:text-slate-300 transition-colors">
                 Terms of Service
               </Link>
-              <Link to={createPageUrl('Warranty')} className="hover:text-slate-300 transition-colors">
+              <a href="https://hydroflow-usa.com/warranty/water_conditioner/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors">
                 Warranty
-              </Link>
+              </a>
             </div>
           </div>
         </div>
