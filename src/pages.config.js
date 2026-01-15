@@ -30,7 +30,6 @@ import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import TermsOfService from './pages/TermsOfService';
-import Warranty from './pages/Warranty';
 import __Layout from './Layout.jsx';
 
 
@@ -67,7 +66,6 @@ export const PAGES = {
     "Technology": Technology,
     "WaterHardnessMap": WaterHardnessMap,
     "TermsOfService": TermsOfService,
-    "Warranty": Warranty,
 }
 
 export const pagesConfig = {
