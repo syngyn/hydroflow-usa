@@ -28,8 +28,8 @@ import Scale from './pages/Scale';
 import StateTemperature from './pages/StateTemperature';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
-import TermsOfService from './pages/TermsOfService';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import TermsOfService from './pages/TermsOfService';
 import __Layout from './Layout.jsx';
 
 
@@ -64,8 +64,8 @@ export const PAGES = {
     "StateTemperature": StateTemperature,
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
-    "TermsOfService": TermsOfService,
     "WaterHardnessMap": WaterHardnessMap,
+    "TermsOfService": TermsOfService,
 }
 
 export const pagesConfig = {
