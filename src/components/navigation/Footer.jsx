@@ -126,7 +126,9 @@ export default function Footer() {
               <Link to={createPageUrl('TermsOfService')} className="hover:text-slate-300 transition-colors">
                 Terms of Service
               </Link>
-              <span>Warranty</span>
+              <a href="https://hydroflow-usa.com/warranty/water_conditioner/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors">
+                Warranty
+              </a>
             </div>
           </div>
         </div>
