@@ -102,7 +102,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <div className="bg-slate-50 rounded-2xl p-8 mt-12">
-              <h3 className="text-xl font-bold text-slate-900 mb-4">Questions About Our Privacy Policy?</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Questions?</h3>
               <p className="text-slate-600 mb-6">
                 If you have any questions or suggestions about our Privacy Policy, please contact us.
               </p>
