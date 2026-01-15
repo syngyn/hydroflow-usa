@@ -116,6 +116,11 @@ export default function Footer() {
                   Statement of Qualifications
                 </a>
               </li>
+              <li>
+                <a href="https://hydroflow-usa.com/assets/userfiles/files/Hydropath_Marine_Capability_Statement.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                  Marine Capability Statement
+                </a>
+              </li>
             </ul>
           </div>
         </div>
