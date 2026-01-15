@@ -42,13 +42,11 @@ export default function Warranty() {
             className="bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-3xl p-8 md:p-12 mb-12"
           >
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Five-Year Limited Warranty</h2>
-            <p className="text-slate-700 leading-relaxed mb-6">
+            <p className="text-slate-700 leading-relaxed">
               <i>Hydro</i>FLOW U.S.A., LLC ("<i>Hydro</i>FLOW") offers its customers ("you") a five-year limited warranty against 
               failure or defects in materials or workmanship in any <i>Hydro</i>FLOW product (the "Product") or its component parts, 
               subject to the terms and conditions set forth below. If the Product or any of its parts fails during the first five 
-              years of operation, <i>Hydro</i>FLOW or its representative will repair or replace the Product, free of charge.
-            </p>
-            <p className="text-slate-700 leading-relaxed">
+              years of operation, <i>Hydro</i>FLOW or its representative will repair or replace the Product, free of charge. 
               For this warranty to apply, you will need to provide proof that the Product has been installed properly and 
               before-and-after proof that such Product is not operating as warranted.
             </p>
@@ -99,19 +97,19 @@ export default function Warranty() {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-slate-700">A copy of the original receipt or proof of purchase of the Product</span>
+                  <span className="text-slate-700">(i) a copy of the original receipt or proof of purchase of the Product</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-slate-700">Proof that the Product has been installed properly</span>
+                  <span className="text-slate-700">(ii) proof that the Product has been installed properly</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-slate-700">A written explanation of the issue(s) with the Product</span>
+                  <span className="text-slate-700">(iii) a written explanation of the issue(s) with the Product</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-cyan-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-slate-700">One or more pictures of the Product and surrounding area that displays such issue(s)</span>
+                  <span className="text-slate-700">(iv) one or more pictures of the Product and surrounding area that displays such issue(s)</span>
                 </li>
               </ul>
               <p className="text-slate-700 leading-relaxed mt-6">
