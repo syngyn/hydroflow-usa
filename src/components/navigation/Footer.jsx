@@ -132,9 +132,9 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
             <p>© {new Date().getFullYear()} <i>Hydro</i>FLOW USA. All rights reserved.</p>
             <div className="flex items-center gap-6">
-              <a href="https://hydroflow-usa.com/privacy/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors">
+              <Link to={createPageUrl('PrivacyPolicy')} className="hover:text-slate-300 transition-colors">
                 Privacy Policy
-              </a>
+              </Link>
               <Link to={createPageUrl('TermsOfService')} className="hover:text-slate-300 transition-colors">
                 Terms of Service
               </Link>
