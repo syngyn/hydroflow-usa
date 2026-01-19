@@ -2229,20 +2229,19 @@ const blogContent = {
     category: 'marine',
     content: `
       <p>Shipowners seeking to combat the harmful effects of scale, bacteria, algae and biofouling inside their vessels' various water systems needn't look any further than Hydropath Marine, a chemical-free technology for onboard water treatment. The patented Hydropath technology, which uses electrical signals to kill algae and bacteria, was initially developed in the early '90s to treat lime scale within the home, but has since been developed for a dozen different product ranges for both land-based and marine applications, serving the maritime sector in particular with the brand Hydropath Marine Ltd.</p>
-      
-      
+
       <p>A liquid solution inside ships' pipe systems may contain minerals dissolved in the form of ions. When temperature increases or pressure drops, the solution becomes supersaturated, causing the ions to adhere to piping and equipment surfaces in the form of scale. Over time, scale accumulates on heat plates along with biofilm consisting of bacteria, algae and barnacles, blocking narrow pathways to cause unwanted insulation, diminished heat transfer efficiency, reduced water flow and higher energy consumption. This means sytems will need to be opened and cleaned, an often time consuming process that typically requires the use of hazardous chemicals and can be damaging to the plates and scals.</p>
-      
+
       <p>Hydropath Marine's water conditioning unit is easy to install as it is simply fitted around a pipe as an add-on with ferrite rings, resulting in very little downtime with no cutting or plumbing required. Their unit is available in various sizes and power ranges to fit an assortment of pipe dimensions.</p>
-      
+
       <p>Once installed, the Hydropath Marine water conditioner applies a unique electrical signal throughout the piping system (metal or PVC), causing the ions to form clusters. Now when supersaturation occurs, the clusters precipitate out of the solution and form stable cystals which do not adhere to piping and equipment. Signals agitate biofilm colonies, causing them to detach and flush out. Bacteria and algae passing through the water conditioner's ferrite rings are charged by the electrical signal, forming a hydration layer of water around the cell. Osmosis then forces water into the bacterial and algae cells, creating osmotic pressure which ruptures the cell membrane and causes it to die.</p>
-      
+
       <p>Commonly applied for fresh water generators, plumbing systems, heat exchangers and water heaters, Hydropath Marine helps protect onboard water systems against harmful and accumulating effects of lime scale, mineral scale and bio scale a the unti both cleans and keeps clean wter treatment systems to help minimize required mantenance, resulting in minimum downtime and improved operation. All of this is done without the use of damaging chemicals.</p>
-      
+
       <p>"The main advantage here is the reduced maintenance expenditures, both in material and time," said Jere Widhalm, founder and CEO of D&W Marine Systems Management, a maritime engineering services company and U.S. distributor of Hydropath Marine. "What Hydropath does is that is helps maintain peak efficiency for much longer periods of time, which translates to cost savings, a more efficient ship and equipment," added Tal Journo, CEO of HydroFLOW USA, the US distributor of Hydropath Technology. With the Hydropath Marine unit installed, vessels' systems become capable of running more efficiently for longer periods of time, meaning owners are able to minimize expenditure – in this case by avoiding the price of less efficient systems that will need to be opened up, cleaned and repaired, demanding chemicals, labor and vessel downtime.</p>
-      
+
       <p>"The worse the scaling and fouling problems are on the vessels, the more effective this system is going to be." Widhalm said. "And one of the greatest things that we're finding about this system is that its return on investment is very often one maintenance cycle."</p>
-      
+
       <p>Widhalm and Journo explained that all shipowners can benefit from Hydropath Marine. "Anyone that has a marine application that has scale involved – and virtually all of them do – is a prime canditate," Widhalm said. "From small ships to very large ships, small systems to giant systems; the largest tanker in the world could use this system, as well as a tugboat."</p>
     `
   },
