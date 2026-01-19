@@ -2204,9 +2204,9 @@ const blogContent = {
       <br/>
       <p>Further, to demonstrate that the Hydropath Marine system in addition to treating the fresh water against bacteria and any possible kind of bio growth also protects the calorifier and the internal piping system from settlement of lime scale, an ability that exceeds the capabilities of the existing UV sterilizer.</p>
       <br/>
-      <h2>Systems Installed</h2>
+      <p><strong>Systems Installed</strong></p>
       <p>The Hydropath Marine sterilizing system consisting of two HM45 units that were installed on the fresh water unit prior to launching the vessel at Busan, South Korea. One HM45 unit has the duty to treat the cold consumption water supplied to the entire accommodation. The second HM45 unit treats the separate hot water circulation line leading to the calorifier.</p>
-      
+      <br/>
       <h2>Date of Installation</h2>
       <p>January 20, 2015, Busan, South Korea</p>
       
