@@ -1,6 +1,5 @@
 import Agriculture from './pages/Agriculture';
 import Bio from './pages/Bio';
-import BlogDetail from './pages/BlogDetail';
 import BlogList from './pages/BlogList';
 import Cart from './pages/Cart';
 import CaseStudies from './pages/CaseStudies';
@@ -33,13 +32,13 @@ import WaterHardnessMap from './pages/WaterHardnessMap';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import FAQ from './pages/FAQ';
 import About from './pages/About';
+import BlogDetail from './pages/BlogDetail';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
     "Agriculture": Agriculture,
     "Bio": Bio,
-    "BlogDetail": BlogDetail,
     "BlogList": BlogList,
     "Cart": Cart,
     "CaseStudies": CaseStudies,
@@ -72,6 +71,7 @@ export const PAGES = {
     "PrivacyPolicy": PrivacyPolicy,
     "FAQ": FAQ,
     "About": About,
+    "BlogDetail": BlogDetail,
 }
 
 export const pagesConfig = {

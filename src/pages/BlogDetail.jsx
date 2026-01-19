@@ -2190,6 +2190,35 @@ const blogContent = {
       <p>With such great results, Ray shipping ordered Hydropath Marine devices for all vessels in the fleet.</p>
     `
   },
+  'hermes-leader-report': {
+    title: 'M/V Hermes Leader Follow Up Report',
+    date: '2024-07-18',
+    readTime: '9 min read',
+    category: 'marine',
+    content: `
+      <h2>Client</h2>
+      <p>Ray Car Carriers Ltd. Stamco Ship Management Ltd., Piraeus, Greece.</p>
+      
+      <h2>Purpose of Installation</h2>
+      <p>Investigation of Hydropath Marine technology's abilities to fully replace and take over the function and operation of the existing UV sterilizer. Further, to demonstrate that the Hydropath Marine system in addition to treating the fresh water against bacteria and any possible kind of bio growth also protects the calorifier and the internal piping system from settlement of lime scale, an ability that exceeds the capabilities of the existing UV sterilizer.</p>
+      
+      <h2>Systems Installed</h2>
+      <p>The Hydropath Marine sterilizing system consisting of two HM45 units that were installed on the fresh water unit prior to launching the vessel at Busan, South Korea. One HM45 unit has the duty to treat the cold consumption water supplied to the entire accommodation. The second HM45 unit treats the separate hot water circulation line leading to the calorifier.</p>
+      
+      <h2>Date of Installation</h2>
+      <p>January 20, 2015, Busan, South Korea</p>
+      
+      <h2>Installation Location</h2>
+      <p>Two HM45 units were installed on board the vessel:</p>
+      <ul>
+        <li>First unit was installed on the cold water outlet to the accommodation and before the split to the calorifier.</li>
+        <li>The second unit was installed on the hot water return line to the calorifier.</li>
+      </ul>
+      
+      <h2>Findings</h2>
+      <p>In order to determine the actual quality of the freshwater that is consumed in all areas of the vessel's accommodation the water samples for the various tests were taken directly from a water tap in the vessel's galley leaving no doubt whatsoever that the water reaching the consumer is sterilized. The first water test was carried out on the day of launching the vessel back in January 2015 showing no traces of bacteria. Immediately after the samples for the above test were taken, and without any additional treatment, the HM45 systems were put to work. Following up on the performance of the HM45 system additional water tests were carried out in April and June this year with results showing no traces of any of the bacteria it was tested for and consequently attesting continuous non-hazardous drinking water quality.</p>
+    `
+  },
   // Agriculture blogs
   'antimicrobial-performance': {
     title: 'HydroFLOW Optimizes Antimicrobial Performance',
