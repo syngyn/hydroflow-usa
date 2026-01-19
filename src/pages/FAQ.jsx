@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: "Are all HydroFLOW water conditioners fully covered by warranty?",
-    answer: "On the residential units we offer a manufacturer-backed, five-year limited warranty against failure or defects in the product or its component parts. On the i and hm Range units we offer a manufacturer-backed, five-year limited warranty against failure or defects in the product or its component parts."
+    answer: "Please go to our warranty page https://hydroflow-usa.com/warranty/water_conditioner/"
   },
   {
     question: "Does Hydropath technology change the chemical composition of water",
