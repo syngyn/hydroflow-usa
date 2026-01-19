@@ -2196,9 +2196,9 @@ const blogContent = {
     readTime: '9 min read',
     category: 'marine',
     content: `
-      <h2>Client</h2>
+      <p><strong>Client</strong></p>
       <p>Ray Car Carriers Ltd. Stamco Ship Management Ltd., Piraeus, Greece.</p>
-      
+      <br/>
       <h2>Purpose of Installation</h2>
       <p>Investigation of Hydropath Marine technology's abilities to fully replace and take over the function and operation of the existing UV sterilizer. Further, to demonstrate that the Hydropath Marine system in addition to treating the fresh water against bacteria and any possible kind of bio growth also protects the calorifier and the internal piping system from settlement of lime scale, an ability that exceeds the capabilities of the existing UV sterilizer.</p>
       
