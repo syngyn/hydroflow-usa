@@ -28,9 +28,10 @@ import Scale from './pages/Scale';
 import StateTemperature from './pages/StateTemperature';
 import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
-import WaterHardnessMap from './pages/WaterHardnessMap';
 import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
+import WaterHardnessMap from './pages/WaterHardnessMap';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import __Layout from './Layout.jsx';
 
 
@@ -65,9 +66,10 @@ export const PAGES = {
     "StateTemperature": StateTemperature,
     "StateWaterHardness": StateWaterHardness,
     "Technology": Technology,
-    "WaterHardnessMap": WaterHardnessMap,
     "TermsOfService": TermsOfService,
     "Warranty": Warranty,
+    "WaterHardnessMap": WaterHardnessMap,
+    "PrivacyPolicy": PrivacyPolicy,
 }
 
 export const pagesConfig = {
