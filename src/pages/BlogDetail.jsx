@@ -2172,6 +2172,24 @@ const blogContent = {
       <p>HydroFLOW units can be installed on cooling towers, potable water systems, water heaters, and other building water systems where legionella control is needed. The signal propagates throughout the entire system, providing comprehensive protection at all points including areas that are difficult to reach with chemical treatments.</p>
     `
   },
+  // Marine blogs
+  'ray-shipping-fleet': {
+    title: 'Ray Shipping Equips its Entire Fleet with Hydropath Marine Units',
+    date: '2024-09-25',
+    readTime: '6 min read',
+    category: 'marine',
+    content: `
+      <p>Ray shipping company currently has more than 60 ships equipped with Hydropath Marine units for Fresh Water Generators and Fresh Water Systems.</p>
+      
+      <p><i>Hydro</i>FLOW devices were first successfully tested on a Fresh Water Generator on board of a Car Carrier M/V Hoegh America. Since that time, their scale buildup and bacteria corrosion have been completely reduced and their system has been clean without further maintenance work.</p>
+      
+      <p><i>Hydro</i>FLOW water conditioners are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
+      
+      <p>According to Ray Shipping: "The systems proved to be easy to install, very efficient in their technical results, and economical; saving labor work, spare parts, chemicals and preventing damages. The Hydropath Marine system saved us crew labor hours and costs and also replaced the use of expensive and hazardous chemicals."</p>
+      
+      <p>With such great results, Ray shipping ordered Hydropath Marine devices for all vessels in the fleet.</p>
+    `
+  },
   // Agriculture blogs
   'antimicrobial-performance': {
     title: 'HydroFLOW Optimizes Antimicrobial Performance',
