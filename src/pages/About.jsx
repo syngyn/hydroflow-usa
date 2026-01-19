@@ -183,6 +183,65 @@ export default function About() {
         </div>
       </section>
 
+      {/* Marine Success Story Section */}
+      <section className="py-24 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Success Story
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Ray Shipping Equips its Entire Fleet with Hydropath Marine Units
+            </h2>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-white rounded-3xl p-8 md:p-12 shadow-lg"
+          >
+            <div className="space-y-6 text-slate-600 leading-relaxed">
+              <p className="text-lg">
+                Ray shipping company currently has more than 60 ships equipped with Hydropath Marine units 
+                for Fresh Water Generators and Fresh Water Systems.
+              </p>
+              <p>
+                <i>Hydro</i>FLOW devices were first successfully tested on a Fresh Water Generator on board 
+                of a Car Carrier M/V Hoegh America. Since that time, their scale buildup and bacteria corrosion 
+                have been completely reduced and their system has been clean without further maintenance work.
+              </p>
+              <p>
+                <i>Hydro</i>FLOW water conditioners are environmentally friendly devices that have been distributed 
+                throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, 
+                Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust 
+                yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the 
+                fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the 
+                signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes 
+                existing deposits. This preventative action significantly reduces energy, chemical, water and 
+                maintenance costs which extends the service life of equipment and pipes.
+              </p>
+              <div className="bg-cyan-50 border-l-4 border-cyan-500 rounded-r-xl p-6 my-8">
+                <p className="text-slate-700 italic">
+                  "The systems proved to be easy to install, very efficient in their technical results, and economical; 
+                  saving labor work, spare parts, chemicals and preventing damages. The Hydropath Marine system saved 
+                  us crew labor hours and costs and also replaced the use of expensive and hazardous chemicals."
+                </p>
+                <p className="text-slate-900 font-semibold mt-4">— Ray Shipping</p>
+              </div>
+              <p>
+                With such great results, Ray shipping ordered Hydropath Marine devices for all vessels in the fleet.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-cyan-500 to-cyan-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
