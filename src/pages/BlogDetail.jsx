@@ -2229,7 +2229,7 @@ const blogContent = {
     category: 'marine',
     content: `
       <p>Shipowners seeking to combat the harmful effects of scale, bacteria, algae and biofouling inside their vessels' various water systems needn't look any further than Hydropath Marine, a chemical-free technology for onboard water treatment. The patented Hydropath technology, which uses electrical signals to kill algae and bacteria, was initially developed in the early '90s to treat lime scale within the home, but has since been developed for a dozen different product ranges for both land-based and marine applications, serving the maritime sector in particular with the brand Hydropath Marine Ltd.</p>
-
+      <br/>
       <p>A liquid solution inside ships' pipe systems may contain minerals dissolved in the form of ions. When temperature increases or pressure drops, the solution becomes supersaturated, causing the ions to adhere to piping and equipment surfaces in the form of scale. Over time, scale accumulates on heat plates along with biofilm consisting of bacteria, algae and barnacles, blocking narrow pathways to cause unwanted insulation, diminished heat transfer efficiency, reduced water flow and higher energy consumption. This means sytems will need to be opened and cleaned, an often time consuming process that typically requires the use of hazardous chemicals and can be damaging to the plates and scals.</p>
 
       <p>Hydropath Marine's water conditioning unit is easy to install as it is simply fitted around a pipe as an add-on with ferrite rings, resulting in very little downtime with no cutting or plumbing required. Their unit is available in various sizes and power ranges to fit an assortment of pipe dimensions.</p>
