@@ -13,7 +13,8 @@ const faqs = [
   },
   {
     question: "Are all HydroFLOW water conditioners fully covered by warranty?",
-    answer: "Please go to our warranty page https://hydroflow-usa.com/warranty/water_conditioner/"
+    answer: "For more information go to our warranty page",
+    link: "https://hydroflow-usa.com/warranty/water_conditioner/"
   },
   {
     question: "Does Hydropath technology change the chemical composition of water",
@@ -148,6 +149,19 @@ export default function FAQ() {
                   >
                     <div className="px-6 py-5 text-slate-700 leading-relaxed whitespace-pre-line">
                       {faq.answer}
+                      {faq.link && (
+                        <>
+                          {' '}
+                          <a 
+                            href={faq.link} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-cyan-600 hover:text-cyan-700 underline"
+                          >
+                            {faq.link}
+                          </a>
+                        </>
+                      )}
                     </div>
                   </motion.div>
                 )}
