@@ -2207,9 +2207,9 @@ const blogContent = {
       <p><strong>Systems Installed</strong></p>
       <p>The Hydropath Marine sterilizing system consisting of two HM45 units that were installed on the fresh water unit prior to launching the vessel at Busan, South Korea. One HM45 unit has the duty to treat the cold consumption water supplied to the entire accommodation. The second HM45 unit treats the separate hot water circulation line leading to the calorifier.</p>
       <br/>
-      <h2>Date of Installation</h2>
+      <p><strong>Date of Installation</strong></p>
       <p>January 20, 2015, Busan, South Korea</p>
-      
+      <br/>
       <h2>Installation Location</h2>
       <p>Two HM45 units were installed on board the vessel:</p>
       <ul>
