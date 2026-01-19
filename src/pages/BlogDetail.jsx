@@ -2210,7 +2210,7 @@ const blogContent = {
       <p><strong>Date of Installation</strong></p>
       <p>January 20, 2015, Busan, South Korea</p>
       <br/>
-      <h2>Installation Location</h2>
+      <p><strong>Installation Location</strong></p>
       <p>Two HM45 units were installed on board the vessel:</p>
       <ul>
         <li>First unit was installed on the cold water outlet to the accommodation and before the split to the calorifier.</li>
