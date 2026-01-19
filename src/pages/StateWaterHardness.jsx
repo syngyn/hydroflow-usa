@@ -1079,6 +1079,79 @@ export default function StateWaterHardness() {
         </div>
       </section>
 
+      {/* State-Specific Content - Alabama */}
+      {stateKey === 'alabama' && (
+        <section className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              <Card className="p-8">
+                <h2 className="text-2xl font-bold text-slate-900 mb-4">Water Quality in the State of Alabama</h2>
+                <div className="prose prose-slate max-w-none">
+                  <p className="text-slate-600 mb-4">
+                    Alabama is home to an estimated 4.9 million residents. It has the most inland waterways in the US with a total of 1,500 miles. Roughly 553 trillion gallons of water is stored in underground Alabama aquifers. Groundwater is the primary source of water for 44% of the population. Other drinking water sources come from surface waters such as rivers and reservoirs throughout Alabama state.
+                  </p>
+                </div>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              <Card className="p-8">
+                <h2 className="text-2xl font-bold text-slate-900 mb-4">Water Hardness by City</h2>
+                <div className="prose prose-slate max-w-none">
+                  <p className="text-slate-600 mb-4">
+                    Alabama water is moderately soft with a state average hardness of 61 PPM. While the majority of Alabama cities share soft water such as the water in Mobile (43 PPM), whose water comes from Big Creek Lake, some hard water areas are Huntsville (81 PPM), and Madison (98 PPM). This is due to limestone-rich aquifers in the Tennessee river valley.
+                  </p>
+                </div>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              <Card className="p-8">
+                <h2 className="text-2xl font-bold text-slate-900 mb-4">Manufacturing and Water Hardness</h2>
+                <div className="prose prose-slate max-w-none">
+                  <p className="text-slate-600 mb-4">
+                    Alabama's top manufacturing industries are automotive, chemical, technology, forestry and aeronautics. Product processing in most manufacturing plants requires water. Cooling towers and HVAC are imperative to keeping operations running smoothly. Though Alabama has relatively soft water, industrial facilities can discover that they still experience headaches related to scale buildup and their equipment can deteriorate at a rapid pace and experience efficiency loss.
+                  </p>
+                </div>
+              </Card>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              <Card className="p-8">
+                <h2 className="text-2xl font-bold text-slate-900 mb-4">Solutions to your Water Quality Problems</h2>
+                <div className="prose prose-slate max-w-none">
+                  <p className="text-slate-600 mb-4">
+                    Fixing your water quality issues in the state of Alabama will depend on your specific water source. It is best to test your potable water supply in order to get a better understanding of your water quality. Testing is relatively cheap. The test results will allow you to understand if your potable water has issues that need to be addressed. Common solutions to water contamination problems may include a water filtration system, a reverse osmosis system or other whole home water treatment solutions.
+                  </p>
+                  <p className="text-slate-600 mb-4">
+                    A problem that some Alabama residents will have to deal with is hard water. One old-fashioned, inefficient, expensive and unhealthy method to treat hard water is with a salt-based water softener. Most people don't realize that if you're using a water softener you are basically removing calcium and magnesium from your drinking water and adding salt to your diet. In addition, many states are banning the use of salt-based water softeners.
+                  </p>
+                  <p className="text-slate-600">
+                    Alternative water treatment solutions such as "water conditioners" have been gaining popularity in recent years because they are cheap to operate and the best eco-friendly solution for hard water. Hydropath technology, which powers the HydroFLOW water conditioners is by far the most efficient, cost-effective and eco-friendly solution to deal with hard water problems.
+                  </p>
+                </div>
+              </Card>
+            </motion.div>
+          </div>
+        </section>
+      )}
+
       {/* Info Section */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
