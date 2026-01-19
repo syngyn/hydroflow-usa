@@ -143,8 +143,84 @@ export default function About() {
         </div>
       </section>
 
-      {/* Values Section */}
+      {/* Hydropath Marine Section */}
       <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Marine Applications
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Hydropath Marine
+            </h2>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="prose prose-slate max-w-none prose-p:text-slate-600 prose-p:leading-relaxed"
+          >
+            <p>
+              Shipowners seeking to combat the harmful effects of scale, bacteria, algae and biofouling inside their vessels' various water systems needn't look any further than Hydropath Marine, a chemical-free technology for onboard water treatment. The patented Hydropath technology, which uses electrical signals to kill algae and bacteria, was initially developed in the early '90s to treat lime scale within the home, but has since been developed for a dozen different product ranges for both land-based and marine applications, serving the maritime sector in particular with the brand Hydropath Marine Ltd.
+            </p>
+
+            <p>
+              A liquid solution inside ships' pipe systems may contain minerals dissolved in the form of ions. When temperature increases or pressure drops, the solution becomes supersaturated, causing the ions to adhere to piping and equipment surfaces in the form of scale. Over time, scale accumulates on heat plates along with biofilm consisting of bacteria, algae and barnacles, blocking narrow pathways to cause unwanted insulation, diminished heat transfer efficiency, reduced water flow and higher energy consumption. This means systems will need to be opened and cleaned, an often time consuming process that typically requires the use of hazardous chemicals and can be damaging to the plates and seals.
+            </p>
+
+            <p>
+              Hydropath Marine's water conditioning unit is easy to install as it is simply fitted around a pipe as an add-on with ferrite rings, resulting in very little downtime with no cutting or plumbing required. Their unit is available in various sizes and power ranges to fit an assortment of pipe dimensions.
+            </p>
+
+            <p>
+              Once installed, the Hydropath Marine water conditioner applies a unique electrical signal throughout the piping system (metal or PVC), causing the ions to form clusters. Now when supersaturation occurs, the clusters precipitate out of the solution and form stable crystals which do not adhere to piping and equipment. Signals agitate biofilm colonies, causing them to detach and flush out. Bacteria and algae passing through the water conditioner's ferrite rings are charged by the electrical signal, forming a hydration layer of water around the cell. Osmosis then forces water into the bacterial and algae cells, creating osmotic pressure which ruptures the cell membrane and causes it to die.
+            </p>
+
+            <p>
+              Commonly applied for fresh water generators, plumbing systems, heat exchangers and water heaters, Hydropath Marine helps protect onboard water systems against harmful and accumulating effects of lime scale, mineral scale and bio scale as the unit both cleans and keeps clean water treatment systems to help minimize required maintenance, resulting in minimum downtime and improved operation. All of this is done without the use of damaging chemicals.
+            </p>
+
+            <blockquote className="border-l-4 border-cyan-500 pl-6 my-8">
+              <p className="text-lg italic text-slate-700">
+                "The main advantage here is the reduced maintenance expenditures, both in material and time. What Hydropath does is that it helps maintain peak efficiency for much longer periods of time, which translates to cost savings, a more efficient ship and equipment."
+              </p>
+              <footer className="text-slate-600 mt-2">
+                — Jere Widhalm, Founder and CEO of D&W Marine Systems Management
+              </footer>
+            </blockquote>
+
+            <blockquote className="border-l-4 border-cyan-500 pl-6 my-8">
+              <p className="text-lg italic text-slate-700">
+                "What Hydropath does is that it helps maintain peak efficiency for much longer periods of time, which translates to cost savings, a more efficient ship and equipment."
+              </p>
+              <footer className="text-slate-600 mt-2">
+                — Tal Journo, CEO of HydroFLOW USA
+              </footer>
+            </blockquote>
+
+            <p>
+              With the Hydropath Marine unit installed, vessels' systems become capable of running more efficiently for longer periods of time, meaning owners are able to minimize expenditure – in this case by avoiding the price of less efficient systems that will need to be opened up, cleaned and repaired, demanding chemicals, labor and vessel downtime.
+            </p>
+
+            <p>
+              "The worse the scaling and fouling problems are on the vessels, the more effective this system is going to be," Widhalm said. "And one of the greatest things that we're finding about this system is that its return on investment is very often one maintenance cycle."
+            </p>
+
+            <p>
+              Widhalm and Journo explained that all shipowners can benefit from Hydropath Marine. "Anyone that has a marine application that has scale involved – and virtually all of them do – is a prime candidate," Widhalm said. "From small ships to very large ships, small systems to giant systems; the largest tanker in the world could use this system, as well as a tugboat."
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Values Section */}
+      <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
