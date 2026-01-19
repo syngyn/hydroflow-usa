@@ -2216,7 +2216,7 @@ const blogContent = {
         <li>First unit was installed on the cold water outlet to the accommodation and before the split to the calorifier.</li>
         <li>The second unit was installed on the hot water return line to the calorifier.</li>
       </ul>
-      
+      <br/>
       <h2>Findings</h2>
       <p>In order to determine the actual quality of the freshwater that is consumed in all areas of the vessel's accommodation the water samples for the various tests were taken directly from a water tap in the vessel's galley leaving no doubt whatsoever that the water reaching the consumer is sterilized. The first water test was carried out on the day of launching the vessel back in January 2015 showing no traces of bacteria. Immediately after the samples for the above test were taken, and without any additional treatment, the HM45 systems were put to work. Following up on the performance of the HM45 system additional water tests were carried out in April and June this year with results showing no traces of any of the bacteria it was tested for and consequently attesting continuous non-hazardous drinking water quality.</p>
     `
