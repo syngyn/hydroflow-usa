@@ -32,6 +32,7 @@ import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import FAQ from './pages/FAQ';
 import __Layout from './Layout.jsx';
 
 
@@ -70,6 +71,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WaterHardnessMap": WaterHardnessMap,
     "PrivacyPolicy": PrivacyPolicy,
+    "FAQ": FAQ,
 }
 
 export const pagesConfig = {

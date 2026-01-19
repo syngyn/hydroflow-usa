@@ -102,6 +102,7 @@ export default function Footer() {
                 { name: 'Technology', href: 'Technology' },
                 { name: 'Knowledge Base', href: 'KnowledgeBase' },
                 { name: 'Water Hardness Map', href: 'WaterHardnessMap' },
+                { name: 'FAQ', href: 'FAQ' },
                 { name: 'About Us', href: 'About' },
                 { name: 'Contact', href: 'Contact' },
               ].map((item) => (
