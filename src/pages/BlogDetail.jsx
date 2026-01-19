@@ -2196,7 +2196,8 @@ const blogContent = {
     readTime: '9 min read',
     category: 'marine',
     content: `
-      <h2>Client</h2>
+      <p><strong>Client</strong></p>
+      <br />
       <p>Ray Car Carriers Ltd. Stamco Ship Management Ltd., Piraeus, Greece.</p>
       
       <h2>Purpose of Installation</h2>
