@@ -2277,7 +2277,6 @@ const blogContent = {
       <p>We installed the <i>Hydro</i>FLOW unit onto the 6" recirculation pipe that carries the T-Dump flume water from the back of the flume to the front where the new bins of apples are introduced with two primary</p>
       <br/>
       <p>objectives:</p>
-      <br/>
       <ol>
         <li>To determine the benefit of the Hydropath signal in the presence of the normal treatment dose of chemicals</li>
         <li>To determine the minimum chemical dosage required, in the presence of the Hydropath signal, to maintain equal or better microbiological control as compared to the use of chemicals alone</li>
