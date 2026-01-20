@@ -1,7 +1,6 @@
 import About from './pages/About';
 import Agriculture from './pages/Agriculture';
 import Bio from './pages/Bio';
-import BlogDetail from './pages/BlogDetail';
 import BlogList from './pages/BlogList';
 import Cart from './pages/Cart';
 import CaseStudies from './pages/CaseStudies';
@@ -33,6 +32,7 @@ import Technology from './pages/Technology';
 import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import BlogDetail from './pages/BlogDetail';
 import __Layout from './Layout.jsx';
 
 
@@ -40,7 +40,6 @@ export const PAGES = {
     "About": About,
     "Agriculture": Agriculture,
     "Bio": Bio,
-    "BlogDetail": BlogDetail,
     "BlogList": BlogList,
     "Cart": Cart,
     "CaseStudies": CaseStudies,
@@ -72,6 +71,7 @@ export const PAGES = {
     "TermsOfService": TermsOfService,
     "Warranty": Warranty,
     "WaterHardnessMap": WaterHardnessMap,
+    "BlogDetail": BlogDetail,
 }
 
 export const pagesConfig = {

@@ -2295,6 +2295,17 @@ const blogContent = {
       <h2>Additional Benefits</h2>
       <p>As a side-benefit, the cleaning and sanitation personnel reported that the debris accumulated on the side walls of the flumes was significantly lighter and easier to clean when the <i>Hydro</i>FLOW unit was in operation than under the normal operation of chemical treatment.</p>
       
+      <h2>Related Case Study: Scale on Apples in Yakima Valley Orchard</h2>
+      <p><strong>Customer:</strong> Eastern Washington apple grower in the Yakima Valley</p>
+      <p><strong>Application:</strong> Scale accumulation on apples from overhead sprayer system</p>
+      <p><strong>Installed unit:</strong> Custom <i>Hydro</i>FLOW 12" Water Conditioner</p>
+      <br/>
+      <p><strong>Background:</strong> The orchard uses overhead sprayers for temperature control and protection from sun damage. Even though acid is added to the sprayed water, apples still gather hard scale stains. The scale staining reduces the grade of the apples. In an average growing season, only 50% of the apples receive the highest grade rating.</p>
+      <br/>
+      <p><strong>Results:</strong> Scale deposits accumulate as fine powder which is very easy to remove. Over 90% of the apples are expected to receive the highest grade rating once processed. Two weeks after installation of the <i>Hydro</i>FLOW water conditioner, the pond's water became much clearer and the floating algae blooms reduced significantly. In addition, snails that used to clog the filters are no longer present.</p>
+      <br/>
+      <p><strong>Customer Quote:</strong> Orchard Manager: "The pond has never been this clear and the white powder washes right off the apples. The benefits of <i>Hydro</i>FLOW should have a very positive impact on our profits this season. Initial processing results are the best I've ever seen."</p>
+      
       <h2>Conclusion</h2>
       <p>The results of this study have demonstrated the dramatic benefit of Hydropath's eco-friendly technology for enhancing the ability of sanitizers to control bacteria and fungi in apple flume water systems, reducing the Minimum Inhibitory Concentration (MIC). Similar benefits have been observed in cooling water systems, pools, and other industrial water applications.</p>
     `
