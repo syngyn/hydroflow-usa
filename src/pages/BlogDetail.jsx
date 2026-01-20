@@ -2234,7 +2234,7 @@ const blogContent = {
       <br/>
 
       <p>Hydropath Marine's water conditioning unit is easy to install as it is simply fitted around a pipe as an add-on with ferrite rings, resulting in very little downtime with no cutting or plumbing required. Their unit is available in various sizes and power ranges to fit an assortment of pipe dimensions.</p>
-
+      <br/>
       <p>Once installed, the Hydropath Marine water conditioner applies a unique electrical signal throughout the piping system (metal or PVC), causing the ions to form clusters. Now when supersaturation occurs, the clusters precipitate out of the solution and form stable cystals which do not adhere to piping and equipment. Signals agitate biofilm colonies, causing them to detach and flush out. Bacteria and algae passing through the water conditioner's ferrite rings are charged by the electrical signal, forming a hydration layer of water around the cell. Osmosis then forces water into the bacterial and algae cells, creating osmotic pressure which ruptures the cell membrane and causes it to die.</p>
 
       <p>Commonly applied for fresh water generators, plumbing systems, heat exchangers and water heaters, Hydropath Marine helps protect onboard water systems against harmful and accumulating effects of lime scale, mineral scale and bio scale a the unti both cleans and keeps clean wter treatment systems to help minimize required mantenance, resulting in minimum downtime and improved operation. All of this is done without the use of damaging chemicals.</p>
