@@ -795,14 +795,25 @@ const caseStudyData = {
   'orchard-scale-on-apples': {
     category: 'agriculture',
     title: 'Orchard - Scale on Apples',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/57771495482721-510x510.jpg',
-    application: 'Orchard irrigation system',
-    installedUnits: 'HydroFLOW i Range',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/46881495658842.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'Eastern Washington apple grower',
+    application: 'Scale accumulation on apples',
+    installedUnits: 'Custom HydroFLOW 12" Water Conditioner',
+    background: 'The Orchard in the Yakima Valley, Washington, incorporates overhead sprayers for temperature control and protection from sun damage. Even though acid is added to the sprayed water, apples still gather hard scale stains. The scale staining reduces the grade of the apples. In an average growing season, only 50% of the apples receive the highest grade rating.',
+    successFactors: [
+      'Install Custom HydroFLOW 12" I Range on the pipe which supplies water to the Orchard',
+      'Scale deposits accumulate as fine powder which is very easy to remove',
+      'Over 90% of apples expected to receive highest grade rating'
+    ],
     results: [
       'Scale deposits accumulate as fine powder which is very easy to remove.',
-      'Better fruit quality.',
-      'Reduced maintenance requirements.'
-    ]
+      'Over 90% of the apples are expected to receive the highest grade rating once processed.',
+      'Two weeks after installation, the pond\'s water became much clearer and the floating algae blooms reduced significantly.',
+      'Snails that used to clog the filters are no longer present.',
+      'Orchard Manager: "The pond has never been this clear and the white powder washes right off the apples. The benefits of HydroFLOW should have a very positive impact on our profits this season. Initial processing results are the best I\'ve ever seen."'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/271605140596.pdf'
   },
   'aquavet-clinical-evaluation-fish-health': {
     category: 'agriculture',
