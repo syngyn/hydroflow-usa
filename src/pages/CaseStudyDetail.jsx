@@ -821,7 +821,7 @@ const caseStudyData = {
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34201495482816-510x510.jpg',
     customer: 'Aquaculture facility',
     application: 'Aquaculture fish health improvement in tilapia farming',
-    installedUnits: 'HydroFLOW i Range unit',
+    installedUnits: 'HydroFLOW HS40 unit',
     background: 'During 90 days of observation, the overall tilapia survival rate was considerably higher with HydroFLOW. The evaluation focused on measuring fish health, parasite prevention, and overall survival rates in controlled aquaculture conditions.',
     successFactors: [
       'Increase tilapia survival rates',
