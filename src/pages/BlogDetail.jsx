@@ -2259,7 +2259,7 @@ const blogContent = {
       <p>The packing line has a dual-flume system, with the flumes in series called the T-Dump and the Treatment Tank. The apples are transferred from storage bins into the T-Dump flume water tank, which is the most heavily fouled water in the facility due to the dirt and debris present on the bins and fruit. A large volume recirculation pump creates sufficient flow to float the apples along the T-dump flume to an elevator, where they are lifted out and dropped back down into a second flume, called the Treatment Tank.</p>
       
       <p>The Treatment Tank water stays considerably cleaner than that in the T-Dump, but can still contain a significant loading of bacteria and decay microorganisms.</p>
-      
+      <br/>
       <h2>Food Safety Concerns</h2>
       <p>Due to a 2014 listeriosis outbreak that was linked to consumption of carameled apples, there has been an increased effort to develop best practices to minimize the presence of food safety pathogens in apple packing water systems. The chemical treatment programs employed at this packing facility are consistent with most other apple packing facilities in the Northwest.</p>
       
