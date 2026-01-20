@@ -818,7 +818,7 @@ const caseStudyData = {
   'aquavet-clinical-evaluation-fish-health': {
     category: 'agriculture',
     title: 'Phase 1 - Aquavet Clinical Evaluation Gyrodactylus Spp',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34201495482816-510x510.jpg',
+    image: 'https://images.unsplash.com/photo-1535591273668-578e31182c4f?w=800',
     customer: 'Aquaculture facility',
     application: 'Aquaculture fish health improvement in tilapia farming',
     installedUnits: 'HydroFLOW HS40 unit',
