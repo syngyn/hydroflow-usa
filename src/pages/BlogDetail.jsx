@@ -2267,7 +2267,7 @@ const blogContent = {
       <br/>
       <h2>The Problem: Poor Microbial Control</h2>
       <p>Despite treatment of the T-Dump flume with 80 ppm of PAA, the measured levels of total aerobic bacteria and total fungi (molds/yeasts) were in the range of 10³-10⁷ cfu/mL, each. These results indicated very poor microbial control of bacteria and fungi within the treated T-Dump flume water system.</p>
-      
+      <br/>
       <h2>HydroFLOW Solution</h2>
       <p><i>Hydro</i>FLOW water conditioners are environmentally friendly devices that have been distributed throughout the world for many years. Over twenty years ago, Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate.</p>
       
