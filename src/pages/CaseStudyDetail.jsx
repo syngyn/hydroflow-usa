@@ -853,18 +853,7 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/84961495125171.pdf'
   },
-  'hydroflow-reduces-biofilm-baron-farms': {
-    category: 'agriculture',
-    title: 'HydroFLOW Reduces Biofilm at Baron Farms',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/65821495482910-510x510.jpg',
-    application: 'Farm irrigation system biofilm control',
-    installedUnits: 'HydroFLOW S-38',
-    results: [
-      'Significant biofilm reduction in irrigation systems.',
-      'Farmer satisfaction with results.',
-      'Cleaner, more efficient systems.'
-    ]
-  },
+
   'us-navy-seafighter': {
     category: 'marine',
     title: 'U.S. Navy Seafighter',
