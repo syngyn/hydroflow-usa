@@ -833,7 +833,8 @@ const caseStudyData = {
       'Improved parasite prevention without chemical treatments.',
       'Healthier fish overall with better growth rates.',
       'Cleaner water conditions in aquaculture tanks.'
-    ]
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/84961495125171.pdf'
   },
   'hydroflow-reduces-biofilm-baron-farms': {
     category: 'agriculture',
