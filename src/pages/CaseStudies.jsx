@@ -570,11 +570,12 @@ const caseStudies = [
     category: 'agriculture',
     title: 'HydroFLOW Reduces Biofilm at Baron Farms',
     slug: 'hydroflow-reduces-biofilm-baron-farms',
-    description: 'We are very pleased with the results and are happy with the HydroFLOW S-38! Thank you Hydroflow!',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/65821495482910-510x510.jpg',
-    results: ['Biofilm reduction', 'Farmer satisfaction', 'Clean systems'],
-    application_type: ['Irrigation'],
-    products_used: ['I Range']
+    description: 'The results were excellent! The water was clean and clear. Were able to get their organic food processing license.',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34421495659182.jpg',
+    results: ['Clean and clear water', 'Organic food processing license approved', 'Biofilm removed', 'Pipes descaled'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/64021494003033.pdf',
+    application_type: ['Wells', 'Other'],
+    products_used: ['Pearl Plus']
   },
 
   // Marine

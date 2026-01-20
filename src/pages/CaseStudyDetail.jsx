@@ -815,6 +815,23 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/271605140596.pdf'
   },
+  'hydroflow-reduces-biofilm-baron-farms': {
+    category: 'agriculture',
+    title: 'HydroFLOW Reduces Biofilm at Baron Farms',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34421495659182.jpg',
+    installer: 'HydroFLOW West',
+    customer: 'Baron Farms, WA',
+    application: 'Well – biofilm and bio-kill',
+    installedUnits: 'HydroFLOW s38 unit',
+    background: 'Baron Farms is an organic farm and they were having a water quality issue in the well. They didn\'t want to use harmful chemicals that would be dumped into the environment and couldn\'t not get their food processing license because of the water.',
+    successFactors: ['Descale the pipes', 'Remove biofilm in the pipes', 'Corrosion protection'],
+    results: [
+      'After a month and half from installation, the results were excellent!',
+      'The water was clean and clear.',
+      'Were able to get their organic food processing license.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/64021494003033.pdf'
+  },
   'aquavet-clinical-evaluation-fish-health': {
     category: 'agriculture',
     title: 'Phase 1 - Aquavet Clinical Evaluation Gyrodactylus Spp',
