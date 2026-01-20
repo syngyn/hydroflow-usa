@@ -2264,7 +2264,7 @@ const blogContent = {
       <p>Due to a 2014 listeriosis outbreak that was linked to consumption of carameled apples, there has been an increased effort to develop best practices to minimize the presence of food safety pathogens in apple packing water systems. The chemical treatment programs employed at this packing facility are consistent with most other apple packing facilities in the Northwest.</p>
       
       <p>The T-Dump flume was treated with citric acid and peroxyacetic acid (PAA), for the purpose of providing a strongly acidic medium for de-scaling hardness from apples while relying on the antimicrobial activity of PAA for microorganism control. The Treatment Tank was treated with chlorine (Sodium Hypochlorite, NaOCl) and a buffering acid to maintain the pH around 7.0, and was typically heated to about 90°F in order to warm the skin of the apples to properly accept a wax coating.</p>
-      
+      <br/>
       <h2>The Problem: Poor Microbial Control</h2>
       <p>Despite treatment of the T-Dump flume with 80 ppm of PAA, the measured levels of total aerobic bacteria and total fungi (molds/yeasts) were in the range of 10³-10⁷ cfu/mL, each. These results indicated very poor microbial control of bacteria and fungi within the treated T-Dump flume water system.</p>
       
