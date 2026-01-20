@@ -542,11 +542,18 @@ const caseStudies = [
     category: 'agriculture',
     title: 'Orchard - Scale on Apples',
     slug: 'orchard-scale-on-apples',
-    description: 'Scale deposits accumulate as fine powder which is very easy to remove.',
+    description: 'Scale deposits accumulate as fine powder which is very easy to remove. Over 90% of the apples are expected to receive the highest grade rating.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/57771495482721-510x510.jpg',
-    results: ['Easy cleaning', 'Better fruit quality', 'Less maintenance'],
-    application_type: ['Irrigation'],
-    products_used: ['I Range']
+    results: ['Over 90% highest grade rating', 'Easy scale removal', 'Clearer pond water', 'Reduced algae blooms', 'No filter clogging'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/271605140596.pdf',
+    application_type: ['Irrigation', 'Other'],
+    products_used: ['I Range'],
+    installer: 'HydroFLOW West',
+    customer: 'Eastern Washington apple grower',
+    application: 'Scale accumulation on apples',
+    installed_units: 'Custom HydroFLOW 12" Water Conditioner',
+    background: 'The Orchard in the Yakima Valley, Washington, incorporates overhead sprayers for temperature control and protection from sun damage. Even though acid is added to the sprayed water, apples still gather hard scale stains. The scale staining reduces the grade of the apples. In an average growing season, only 50% of the apples receive the highest grade rating.',
+    success_factors: ['Install Custom HydroFLOW 12" I Range on the pipe which supplies water to the Orchard', 'Scale deposits accumulate as fine powder which is very easy to remove', 'Over 90% of apples expected to receive highest grade rating', 'Pond water became much clearer and floating algae blooms reduced significantly', 'Snails that used to clog filters are no longer present']
   },
   {
     category: 'agriculture',
