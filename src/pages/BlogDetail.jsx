@@ -2272,8 +2272,8 @@ const blogContent = {
       <p><i>Hydro</i>FLOW water conditioners are environmentally friendly devices that have been distributed throughout the world for many years. Over twenty years ago, Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate.</p>
       
       <p>The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
-      
-      <h2>Installation and Testing</h2>
+      <br/>
+      <h2 className="underline">Installation and Testing</h2>
       <p>We installed the <i>Hydro</i>FLOW unit onto the 6" recirculation pipe that carries the T-Dump flume water from the back of the flume to the front where the new bins of apples are introduced with two primary objectives:</p>
       <ol>
         <li>To determine the benefit of the Hydropath signal in the presence of the normal treatment dose of chemicals</li>
