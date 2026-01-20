@@ -819,13 +819,20 @@ const caseStudyData = {
     category: 'agriculture',
     title: 'Aquavet Clinical Evaluation - Fish Health',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34201495482816-510x510.jpg',
-    application: 'Aquaculture fish health improvement',
-    installedUnits: 'HydroFLOW i Range',
-    background: 'During 90 days of observation, the overall tilapia survival rate was considerably higher with HydroFLOW.',
+    customer: 'Aquaculture facility',
+    application: 'Aquaculture fish health improvement in tilapia farming',
+    installedUnits: 'HydroFLOW i Range unit',
+    background: 'During 90 days of observation, the overall tilapia survival rate was considerably higher with HydroFLOW. The evaluation focused on measuring fish health, parasite prevention, and overall survival rates in controlled aquaculture conditions.',
+    successFactors: [
+      'Increase tilapia survival rates',
+      'Improve parasite prevention without chemicals',
+      'Enhance overall fish health and water quality'
+    ],
     results: [
-      'Higher survival rates for tilapia.',
-      'Improved parasite prevention.',
-      'Healthier fish overall.'
+      'Higher survival rates for tilapia during 90-day observation period.',
+      'Improved parasite prevention without chemical treatments.',
+      'Healthier fish overall with better growth rates.',
+      'Cleaner water conditions in aquaculture tanks.'
     ]
   },
   'hydroflow-reduces-biofilm-baron-farms': {
