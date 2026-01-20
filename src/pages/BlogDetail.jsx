@@ -2274,12 +2274,12 @@ const blogContent = {
       <p>The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
       <br/>
       <h2 className="underline">Installation and Testing</h2>
-      <p>We installed the <i>Hydro</i>FLOW unit onto the 6" recirculation pipe that carries the T-Dump flume water from the back of the flume to the front where the new bins of apples are introduced with two primary</p>
+      <p>We installed the <i>Hydro</i>FLOW unit onto the 6" recirculation pipe that carries the T-Dump flume water from the back of the flume to the front where the new bins of apples are introduced with two primary objectives:</p>
       <br/>
-      <p>objectives:</p>
+      <p>To determine the minimum chemical dosage required, in the presence of the Hydropath signal,</p>
       <ol>
         <li>To determine the benefit of the Hydropath signal in the presence of the normal treatment dose of chemicals</li>
-        <li>To determine the minimum chemical dosage required, in the presence of the Hydropath signal, to maintain equal or better microbiological control as compared to the use of chemicals alone</li>
+        <li>to maintain equal or better microbiological control as compared to the use of chemicals alone</li>
       </ol>
       
       <h2>Dramatic Results in the T-Dump</h2>
