@@ -2254,7 +2254,7 @@ const blogContent = {
     category: 'agriculture',
     content: `
       <p>An apple packing facility in the Pacific Northwest sought our help to reduce their chemical usage while minimizing risks associated with food safety bacteria and decay-causing mold.</p>
-      
+      <br/>
       <h2>The Challenge: Apple Packing Flume Systems</h2>
       <p>The packing line has a dual-flume system, with the flumes in series called the T-Dump and the Treatment Tank. The apples are transferred from storage bins into the T-Dump flume water tank, which is the most heavily fouled water in the facility due to the dirt and debris present on the bins and fruit. A large volume recirculation pump creates sufficient flow to float the apples along the T-dump flume to an elevator, where they are lifted out and dropped back down into a second flume, called the Treatment Tank.</p>
       
