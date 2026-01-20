@@ -557,7 +557,7 @@ const caseStudies = [
   },
   {
     category: 'agriculture',
-    title: 'Aquavet Clinical Evaluation - Fish Health',
+    title: 'Phase 1 - Aquavet Clinical Evaluation Gyrodactylus Spp',
     slug: 'aquavet-clinical-evaluation-fish-health',
     description: 'During 90 days of observation, the overall tilapia survival rate was considerably higher with HydroFLOW.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34201495482816-510x510.jpg',
