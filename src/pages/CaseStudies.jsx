@@ -543,7 +543,7 @@ const caseStudies = [
     title: 'Orchard - Scale on Apples',
     slug: 'orchard-scale-on-apples',
     description: 'Scale deposits accumulate as fine powder which is very easy to remove. Over 90% of the apples are expected to receive the highest grade rating.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/57771495482721-510x510.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/46881495658842.jpg',
     results: ['Over 90% highest grade rating', 'Easy scale removal', 'Clearer pond water', 'Reduced algae blooms', 'No filter clogging'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/271605140596.pdf',
     application_type: ['Irrigation', 'Other'],
