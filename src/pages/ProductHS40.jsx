@@ -63,7 +63,7 @@ export default function ProductHS40() {
               >
                 <img 
                   src={images[selectedImage]} 
-                  alt="HydroFLOW hs40"
+                  alt="<i>Hydro</i>FLOW hs40"
                   className="w-full h-96 object-contain"
                 />
               </motion.div>
@@ -258,7 +258,7 @@ export default function ProductHS40() {
               <div className="bg-white rounded-xl p-6">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Installation Instructions</h3>
                 <p className="text-slate-700 mb-6">
-                  HydroFLOW devices are designed for ease of installation. Professional installation may be available in your area depending on your plumbing configuration.
+                  <i>Hydro</i>FLOW devices are designed for ease of installation. Professional installation may be available in your area depending on your plumbing configuration.
                 </p>
                 <div className="space-y-2">
                   <Button variant="outline" className="w-full justify-start">

@@ -43,7 +43,7 @@ export default function ProductHMRange() {
               >
                 <img 
                   src={images[selectedImage]} 
-                  alt="HydroFLOW hm Range"
+                  alt="<i>Hydro</i>FLOW <i>hm</i> Range"
                   className="w-full h-96 object-contain"
                 />
               </motion.div>
@@ -273,7 +273,7 @@ export default function ProductHMRange() {
             Protect Your Vessel's Water Systems
           </h2>
           <p className="text-lg text-slate-300 mb-8">
-            Our marine specialists can help you select and configure the right HydroFLOW solution for your vessel.
+            Our marine specialists can help you select and configure the right <i>Hydro</i>FLOW solution for your vessel.
           </p>
           <Link to={createPageUrl('Contact')}>
             <Button className="bg-white text-blue-900 hover:bg-slate-100 rounded-full px-8 py-6 text-lg font-semibold">

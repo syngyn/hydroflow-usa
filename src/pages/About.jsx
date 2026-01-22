@@ -21,7 +21,7 @@ const values = [
   {
     icon: Globe,
     title: 'Global Presence',
-    description: 'HydroFLOW devices have been distributed throughout the world and officially entered the U.S. market in 2010.'
+    description: '<i>Hydro</i>FLOW devices have been distributed throughout the world and officially entered the U.S. market in 2010.'
   },
   {
     icon: Award,
@@ -130,7 +130,7 @@ export default function About() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="https://hydroflow-usa.com/wp-content/uploads/2016/08/about-us.webp"
-                  alt="HydroFLOW USA Headquarters"
+                  alt="<i>Hydro</i>FLOW USA Headquarters"
                   className="w-full h-auto"
                 />
               </div>

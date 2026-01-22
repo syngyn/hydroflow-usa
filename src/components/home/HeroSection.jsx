@@ -109,7 +109,7 @@ export default function HeroSection() {
               <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 overflow-hidden">
                 <img 
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png"
-                  alt="HydroFLOW Pearl Plus"
+                  alt="<i>Hydro</i>FLOW Pearl Plus"
                   className="w-full max-w-sm mx-auto transform hover:scale-105 transition-transform duration-500"
                 />
                 <div className="text-center mt-6">

@@ -63,7 +63,7 @@ export default function ProductPearl() {
               >
                 <img 
                   src={images[selectedImage]} 
-                  alt="HydroFLOW Pearl"
+                  alt="<i>Hydro</i>FLOW Pearl"
                   className="w-full h-96 object-contain"
                 />
               </motion.div>
@@ -233,7 +233,7 @@ export default function ProductPearl() {
               <div className="bg-white rounded-xl p-6">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Installation Instructions</h3>
                 <p className="text-slate-700 mb-6">
-                  HydroFLOW residential devices are designed for ease of installation. With this said, it may be necessary to have your unit installed professionally, depending on the configuration of your plumbing system.
+                  <i>Hydro</i>FLOW residential devices are designed for ease of installation. With this said, it may be necessary to have your unit installed professionally, depending on the configuration of your plumbing system.
                 </p>
                 <div className="aspect-video bg-slate-100 rounded-xl mb-6 flex items-center justify-center">
                   <p className="text-slate-500">Installation Video</p>
