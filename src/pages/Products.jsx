@@ -87,7 +87,7 @@ const products = [
   },
   {
     id: 'i-range-commercial',
-    name: 'IRange',
+    name: <><i>i</i>Range</>,
     category: 'commercial',
     tagline: 'Heavy-Duty Solutions',
     coverage: 'Large Commercial Applications',
@@ -106,7 +106,7 @@ const products = [
   },
   {
     id: 'i-range',
-    name: 'IRange',
+    name: <><i>i</i>Range</>,
     category: 'industrial',
     tagline: 'Heavy-Duty Solutions',
     coverage: 'Industrial & Large Commercial',

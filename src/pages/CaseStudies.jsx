@@ -65,7 +65,7 @@ const caseStudies = [
     results: ['Water savings', 'Reduced maintenance', 'Scale prevention'],
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/08/HydroFLOW-Case-Study-Massive-Texas-Factory-2025-update.pdf',
     application_type: ['Cooling Towers', 'Chillers'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -76,7 +76,7 @@ const caseStudies = [
     results: ['Reduced scaling', 'Consistent flow rates', 'Lower maintenance'],
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf',
     application_type: ['Wastewater Treatment'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -87,7 +87,7 @@ const caseStudies = [
     results: ['Scale elimination', 'Improved efficiency', 'Cost savings'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/39071639432386.pdf',
     application_type: ['Heat Exchangers', 'Other'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -98,7 +98,7 @@ const caseStudies = [
     results: ['Biofilm elimination', 'Fortune 500 approval', 'International success'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/61401638211314.pdf',
     application_type: ['Other'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -108,7 +108,7 @@ const caseStudies = [
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36831596736223.jpg',
     results: ['Struvite prevention', 'Easier cleaning', 'Reduced downtime'],
     application_type: ['Wastewater Treatment'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -119,7 +119,7 @@ const caseStudies = [
     results: ['No scale accumulation', 'Visible improvement', 'Municipal approved'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/84711596732922.pdf',
     application_type: ['Wastewater Treatment'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -130,7 +130,7 @@ const caseStudies = [
     results: ['Algae elimination', 'Chemical-free', 'Lower operational costs'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/85191493939481.pdf',
     application_type: ['Cooling Towers'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -141,7 +141,7 @@ const caseStudies = [
     results: ['Improved heat transfer', 'Scale breakdown', 'Better performance'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/46101493933705.pdf',
     application_type: ['Heat Exchangers', 'Other'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -152,7 +152,7 @@ const caseStudies = [
     results: ['Cost savings', 'Improved production', 'Quality enhancement'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/4171495131909.pdf',
     application_type: ['Other'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -163,7 +163,7 @@ const caseStudies = [
     results: ['Zero chemicals', 'No scale buildup', 'Significant savings'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/83871498261386.pdf',
     application_type: ['Cooling Towers', 'Heat Exchangers'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -174,7 +174,7 @@ const caseStudies = [
     results: ['Reduced deposits', 'Cleaner exchangers', 'Higher efficiency'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/39691493939531.pdf',
     application_type: ['Heat Exchangers', 'Steam Systems'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -185,7 +185,7 @@ const caseStudies = [
     results: ['Increased efficiency', 'Scale removal', 'Energy savings'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/88201550515726.pdf',
     application_type: ['Boilers', 'Steam Systems'],
-    products_used: ['I Range'],
+    products_used: [<><i>i</i>Range</>],
     installer: 'HydroFLOW Midwest',
     customer: 'Commercial trucking company from Rosemount, Minnesota',
     application: '60 horsepower low-pressure natural gas steam boiler (steam is used during the truck wash process)',
@@ -202,7 +202,7 @@ const caseStudies = [
     results: ['Consistent flow', 'Scale-free pipes', 'No maintenance needed'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/1431539882593.pdf',
     application_type: ['Other'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'industrial',
@@ -213,7 +213,7 @@ const caseStudies = [
     results: ['Struvite reduction', 'Softened deposits', 'Ohio success'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/78971648597202.pdf',
     application_type: ['Wastewater Treatment'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
 
   // Commercial
@@ -237,7 +237,7 @@ const caseStudies = [
     results: ['Reduced scale', 'Less corrosion', 'Extended equipment life'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/39511493849268.pdf',
     application_type: ['Boilers', 'Steam Systems', 'Food Processing'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'commercial',
@@ -248,7 +248,7 @@ const caseStudies = [
     results: ['Chemical-free operation', 'No scale buildup', 'Safe water quality'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/43851493848202.pdf',
     application_type: ['Cooling Towers'],
-    products_used: ['I Range'],
+    products_used: [<><i>i</i>Range</>],
     installer: 'HydroFLOW West',
     customer: 'Sunrise Children\'s Hospital – Las Vegas NV',
     application: 'Cooling Tower',
@@ -265,7 +265,7 @@ const caseStudies = [
     results: ['Zero chemical usage', 'Cost savings', 'Environmental benefits'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/36111563298950.pdf',
     application_type: ['Cooling Towers'],
-    products_used: ['I Range'],
+    products_used: [<><i>i</i>Range</>],
     installer: 'HydroFLOW West',
     customer: 'Nellis Air Force Base',
     application: 'Cooling Tower',
@@ -282,7 +282,7 @@ const caseStudies = [
     results: ['Cleanest ever', 'Medical facility approved', 'Outstanding results'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/43801662059912.pdf',
     application_type: ['Cooling Towers', 'Chillers'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'commercial',
@@ -315,7 +315,7 @@ const caseStudies = [
     results: ['Maintenance-free', 'Eco-friendly', 'Thousands saved'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/89611493849814.pdf',
     application_type: ['HVAC Systems', 'Cooling Towers'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'commercial',
@@ -337,7 +337,7 @@ const caseStudies = [
     results: ['Fire department approved', 'Limescale solved', 'High recommendation'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/36171495126964.pdf',
     application_type: ['Water Heaters', 'Other'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'commercial',
@@ -348,7 +348,7 @@ const caseStudies = [
     results: ['Cleanest pool award', 'State inspector approved', 'Outstanding results'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/86361539882313.pdf',
     application_type: ['Swimming Pools'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'commercial',
@@ -359,7 +359,7 @@ const caseStudies = [
     results: ['Water savings', 'Perfect nozzle performance', 'Lower maintenance'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/1561563299281.pdf',
     application_type: ['Car Wash'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'commercial',
@@ -370,7 +370,7 @@ const caseStudies = [
     results: ['75% less cleaning', 'No harsh chemicals', 'Easy maintenance'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/14241698879790.pdf',
     application_type: ['Water Heaters'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'commercial',
@@ -381,7 +381,7 @@ const caseStudies = [
     results: ['Low bacteria count', 'Reduced biofilm', 'Fast results'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/75341661965067.pdf',
     application_type: ['Cooling Towers'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
 
   // Residential
@@ -468,7 +468,7 @@ const caseStudies = [
     results: ['Multi-floor coverage', 'Consistent results', 'Resident satisfaction'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/51421493846519.pdf',
     application_type: ['Other'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'residential',
@@ -492,7 +492,7 @@ const caseStudies = [
     results: ['Improved grass health', 'Better irrigation', 'Water savings'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/68631698880628.pdf',
     application_type: ['Golf Course', 'Irrigation'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'agriculture',
@@ -503,7 +503,7 @@ const caseStudies = [
     results: ['Increased yield', 'Better quality', 'Healthier plants'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/HydroFLOW-agriculture-case-study-long-stem-roses.pdf',
     application_type: ['Greenhouses', 'Irrigation'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'agriculture',
@@ -514,7 +514,7 @@ const caseStudies = [
     results: ['Dramatic algae reduction', 'Cleaner water', 'Better crop health'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/81121493936806.pdf',
     application_type: ['Irrigation'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'agriculture',
@@ -536,7 +536,7 @@ const caseStudies = [
     results: ['Higher yields', 'Better quality', 'Proven results'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/74431493851538.pdf',
     application_type: ['Irrigation'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'agriculture',
@@ -547,7 +547,7 @@ const caseStudies = [
     results: ['Over 90% highest grade rating', 'Easy scale removal', 'Clearer pond water', 'Reduced algae blooms', 'No filter clogging'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/271605140596.pdf',
     application_type: ['Irrigation', 'Other'],
-    products_used: ['I Range'],
+    products_used: [<><i>i</i>Range</>],
     installer: 'HydroFLOW West',
     customer: 'Eastern Washington apple grower',
     application: 'Scale accumulation on apples',
@@ -564,7 +564,7 @@ const caseStudies = [
     results: ['Higher survival rates', 'Parasite prevention', 'Healthier fish'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/84961495125171.pdf',
     application_type: ['Aquaculture'],
-    products_used: ['I Range']
+    products_used: [<><i>i</i>Range</>]
   },
   {
     category: 'agriculture',
