@@ -286,7 +286,13 @@ export default function Products() {
                   </div>
 
                   {/* CTA */}
-                  <Link to={createPageUrl(`Product${product.name.replace(' ', '')}`)}>
+                  <Link to={createPageUrl(
+                    product.id === 'i-range-commercial' || product.id === 'i-range' ? 'ProductIRange' :
+                    product.id === 'pearl-plus' ? 'ProductPearlPlus' :
+                    product.id === 'pearl' ? 'ProductPearl' :
+                    product.id === 'hs40-residential' || product.id === 'hs40' ? 'ProductHS40' :
+                    product.id === 'hm-range' ? 'ProductHMRange' : 'Products'
+                  )}>
                     <Button className={`w-full rounded-full py-6 font-semibold transition-all ${
                       product.popular 
                         ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
