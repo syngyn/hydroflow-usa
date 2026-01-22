@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { motion, AnimatePresence } from 'framer-motion';
 import { useCart } from '@/components/cart/CartContext';
+import GlobalSearch from '@/components/search/GlobalSearch';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -128,7 +129,8 @@ export default function Navbar() {
           </div>
 
           {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-2">
+            <GlobalSearch />
             <a href="tel:1-888-559-4340" className={`flex items-center gap-2 text-sm font-medium ${
               isScrolled ? 'text-slate-600' : 'text-slate-600'
             }`}>
@@ -152,13 +154,26 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button 
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className={`lg:hidden p-2 rounded-lg ${isScrolled ? 'text-slate-700' : 'text-slate-700'}`}
-          >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile Actions */}
+          <div className="lg:hidden flex items-center gap-2">
+            <GlobalSearch />
+            <Link to={createPageUrl('Cart')}>
+              <Button variant="ghost" className="relative p-2">
+                <ShoppingCart className="w-5 h-5" />
+                {getCartCount() > 0 && (
+                  <span className="absolute -top-1 -right-1 bg-cyan-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-semibold">
+                    {getCartCount()}
+                  </span>
+                )}
+              </Button>
+            </Link>
+            <button 
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className={`p-2 rounded-lg ${isScrolled ? 'text-slate-700' : 'text-slate-700'}`}
+            >
+              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
       </div>
 
