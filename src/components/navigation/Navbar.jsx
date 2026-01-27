@@ -47,7 +47,6 @@ export default function Navbar() {
         { name: 'Corrosion', href: 'Corrosion' },
         { name: 'Performance With Time', href: 'PerformanceWithTime' },
         { name: 'Expectations', href: 'Expectations' },
-        { name: 'Installation Guides', href: 'InstallationGuides' },
       ]
     },
     { 

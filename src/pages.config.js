@@ -36,8 +36,6 @@ import Technology from './pages/Technology';
 import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import InstallationGuides from './pages/InstallationGuides';
-import InstallationWizard from './pages/InstallationWizard';
 import __Layout from './Layout.jsx';
 
 
@@ -80,8 +78,6 @@ export const PAGES = {
     "TermsOfService": TermsOfService,
     "Warranty": Warranty,
     "WaterHardnessMap": WaterHardnessMap,
-    "InstallationGuides": InstallationGuides,
-    "InstallationWizard": InstallationWizard,
 }
 
 export const pagesConfig = {
