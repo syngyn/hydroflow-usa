@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { StarRating } from "@/components/ui/star-rating";
+import { useRecommendations } from '@/components/recommendations/RecommendationContext';
+import ProductRecommendations from '@/components/recommendations/ProductRecommendations';
 
 const products = [
   {
@@ -135,6 +137,13 @@ const categories = [
 
 export default function Products() {
   const [activeCategory, setActiveCategory] = useState('all');
+  const { trackFilterUse } = useRecommendations();
+
+  useEffect(() => {
+    if (activeCategory !== 'all') {
+      trackFilterUse('category', activeCategory);
+    }
+  }, [activeCategory, trackFilterUse]);
 
   const filteredProducts = activeCategory === 'all' 
     ? products 
@@ -283,6 +292,9 @@ export default function Products() {
           </div>
         </div>
       </section>
+
+      {/* AI Recommendations */}
+      <ProductRecommendations limit={3} />
 
       {/* Help Section */}
       <section className="py-16 bg-white">

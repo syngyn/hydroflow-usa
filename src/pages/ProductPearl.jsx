@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
@@ -8,6 +8,8 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { useCart } from '@/components/cart/CartContext';
 import { toast } from 'sonner';
+import { useRecommendations } from '@/components/recommendations/RecommendationContext';
+import ProductRecommendations from '@/components/recommendations/ProductRecommendations';
 
 const images = [
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/pearl-transparent.webp',
@@ -20,6 +22,7 @@ const images = [
 export default function ProductPearl() {
   const [selectedImage, setSelectedImage] = useState(0);
   const { addToCart } = useCart();
+  const { trackProductView } = useRecommendations();
 
   const product = {
     id: 'pearl',
@@ -29,6 +32,14 @@ export default function ProductPearl() {
     image: images[0],
     coverage: 'Up to 1,000 sq ft'
   };
+
+  useEffect(() => {
+    trackProductView('pearl', {
+      name: 'Pearl',
+      category: 'residential',
+      price: 295
+    });
+  }, [trackProductView]);
 
   const handleAddToCart = () => {
     addToCart(product);
@@ -294,26 +305,8 @@ export default function ProductPearl() {
         </div>
       </section>
 
-      {/* Related Products */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">You May Also Like</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { name: 'Pearl Plus', price: 495, image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png' },
-              { name: 'HS40', price: 1990, image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/hs40-grey-background-800x800.webp' }
-            ].map((product) => (
-              <Link key={product.name} to={createPageUrl('Products')}>
-                <div className="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition-shadow">
-                  <img src={product.image} alt={product.name} className="w-full h-48 object-contain mb-4" />
-                  <h3 className="font-bold text-lg mb-2">{product.name}</h3>
-                  <p className="text-2xl font-bold text-cyan-600">${product.price}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* AI Recommendations */}
+      <ProductRecommendations currentProductId="pearl" limit={3} />
     </div>
   );
 }
