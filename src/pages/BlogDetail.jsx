@@ -2468,6 +2468,25 @@ export default function BlogDetail() {
         </div>
       </section>
 
+      {/* Featured Image */}
+      {blog.image && (
+        <section className="py-0 bg-white">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="rounded-2xl overflow-hidden shadow-2xl -mt-16 relative z-10"
+            >
+              <img 
+                src={blog.image}
+                alt={blog.title}
+                className="w-full h-96 object-cover"
+              />
+            </motion.div>
+          </div>
+        </section>
+      )}
+
       {/* Content Section */}
       <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -2476,9 +2495,20 @@ export default function BlogDetail() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            <Card className="p-8 md:p-12">
+            <Card className="p-8 md:p-12 shadow-xl border-0">
               <div 
-                className="prose prose-slate max-w-none prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-p:text-slate-600 prose-p:leading-relaxed prose-ul:my-4 prose-li:text-slate-600 prose-strong:text-slate-900"
+                className="prose prose-lg prose-slate max-w-none 
+                prose-headings:font-bold prose-headings:text-slate-900
+                prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:pb-3 prose-h2:border-b prose-h2:border-slate-200
+                prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:text-cyan-700
+                prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-6
+                prose-ul:my-6 prose-ul:space-y-3
+                prose-li:text-slate-700 prose-li:leading-relaxed
+                prose-strong:text-slate-900 prose-strong:font-semibold
+                prose-a:text-cyan-600 prose-a:no-underline hover:prose-a:underline
+                prose-blockquote:border-l-4 prose-blockquote:border-cyan-500 prose-blockquote:bg-cyan-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:italic prose-blockquote:my-8
+                prose-img:rounded-xl prose-img:shadow-lg prose-img:my-8
+                prose-ol:my-6 prose-ol:space-y-3"
                 dangerouslySetInnerHTML={{ __html: blog.content }}
               />
             </Card>

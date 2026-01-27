@@ -31,8 +31,8 @@ const getCategoryColor = (category) => {
 
 const blogData = {
   residential: [
-    { slug: 'water-quality-health-resolution', title: 'Why Water Quality Should Be Your Top Health Resolution', excerpt: 'Water quality is an important issue year-round. Learn about the fundamental importance of water and how to ensure your water quality contributes to your health.', date: '2025-01-15', readTime: '8 min read' },
-    { slug: 'different-types-of-water', title: 'What are the Different Types of Water?', excerpt: 'Water comes in many forms from many places. Learn about the different types of water and what makes each one unique.', date: '2024-12-20', readTime: '6 min read' },
+    { slug: 'water-quality-health-resolution', title: 'Why Water Quality Should Be Your Top Health Resolution', excerpt: 'Water quality is an important issue year-round. Learn about the fundamental importance of water and how to ensure your water quality contributes to your health.', date: '2025-01-15', readTime: '8 min read', image: 'https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&h=600&fit=crop' },
+    { slug: 'different-types-of-water', title: 'What are the Different Types of Water?', excerpt: 'Water comes in many forms from many places. Learn about the different types of water and what makes each one unique.', date: '2024-12-20', readTime: '6 min read', image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop' },
     { slug: 'water-myths', title: 'Water Myths', excerpt: "We all grew up hearing certain 'facts' about water. It's time to separate fact from fiction with scientific understanding.", date: '2024-11-10', readTime: '7 min read' },
     { slug: 'purge-water-heater', title: 'How to Purge your Water Heater', excerpt: 'Purging your water heater is essential to keep it functioning optimally. Step-by-step instructions for gas and electric water heaters.', date: '2024-10-15', readTime: '5 min read' },
     { slug: 'water-conditioner-vs-softener', title: 'Water Conditioner Vs. Water Softener', excerpt: 'Understanding the differences between water conditioners and water softeners to choose the right system for your needs.', date: '2024-09-22', readTime: '6 min read' },
@@ -147,29 +147,56 @@ export default function BlogList() {
                 transition={{ delay: Math.min(index * 0.05, 0.5) }}
               >
                 <Link to={createPageUrl('BlogDetail') + '?category=' + category + '&slug=' + blog.slug}>
-                  <Card className="h-full overflow-hidden hover:shadow-xl transition-all group cursor-pointer">
+                  <Card className="h-full overflow-hidden hover:shadow-2xl transition-all duration-500 group cursor-pointer border-0">
+                    {/* Image Section */}
+                    <div className="relative h-56 bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
+                      {blog.image ? (
+                        <img 
+                          src={blog.image}
+                          alt={blog.title}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                        />
+                      ) : (
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="text-8xl text-slate-300 opacity-50">
+                            {category === 'residential' && '🏠'}
+                            {category === 'commercial' && '🏢'}
+                            {category === 'industrial' && '🏭'}
+                            {category === 'agriculture' && '🌱'}
+                            {category === 'marine' && '⚓'}
+                          </div>
+                        </div>
+                      )}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                      <div className="absolute bottom-4 left-4 right-4">
+                        <Badge className="bg-white/90 text-slate-900 hover:bg-white capitalize backdrop-blur-sm">
+                          {category}
+                        </Badge>
+                      </div>
+                    </div>
+
                     <div className="p-6">
-                      <div className="flex items-center gap-4 text-sm text-slate-500 mb-3">
+                      <div className="flex items-center gap-4 text-xs text-slate-500 mb-3">
                         <div className="flex items-center gap-1">
-                          <Calendar className="w-4 h-4" />
+                          <Calendar className="w-3.5 h-3.5" />
                           {blog.date}
                         </div>
                         <div className="flex items-center gap-1">
-                          <Clock className="w-4 h-4" />
+                          <Clock className="w-3.5 h-3.5" />
                           {blog.readTime}
                         </div>
                       </div>
                       
-                      <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-cyan-600 transition-colors line-clamp-2">
+                      <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-cyan-600 transition-colors line-clamp-2 leading-snug">
                         {blog.title}
                       </h3>
                       
-                      <p className="text-slate-600 mb-4 line-clamp-3">
+                      <p className="text-slate-600 mb-4 line-clamp-3 text-sm leading-relaxed">
                         {blog.excerpt}
                       </p>
                       
-                      <div className="flex items-center text-cyan-600 font-medium group-hover:gap-3 transition-all">
-                        Read More
+                      <div className="flex items-center text-cyan-600 font-semibold text-sm group-hover:gap-3 transition-all">
+                        Read Full Article
                         <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                       </div>
                     </div>
