@@ -6,6 +6,7 @@ import { Star, Check, Package, Shield, Zap, ArrowRight } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { StarRating } from "@/components/ui/star-rating";
 import { useCart } from '@/components/cart/CartContext';
 import { toast } from 'sonner';
 import { useRecommendations } from '@/components/recommendations/RecommendationContext';
@@ -102,14 +103,7 @@ export default function ProductPearlPlus() {
               </h1>
 
               <div className="flex items-center gap-4 mb-4">
-                <div className="flex items-center">
-                  {[...Array(5)].map((_, i) => (
-                    <Star 
-                      key={i} 
-                      className={`w-5 h-5 ${i < 4 ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`}
-                    />
-                  ))}
-                </div>
+                <StarRating rating={4.46} size="w-5 h-5" />
                 <span className="text-slate-600">4.46 out of 5 (72 reviews)</span>
               </div>
 
@@ -281,11 +275,7 @@ export default function ProductPearlPlus() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-slate-900 mb-2">Customer Reviews</h2>
           <div className="flex items-center gap-4 mb-8">
-            <div className="flex items-center">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className={`w-5 h-5 ${i < 4 ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`} />
-              ))}
-            </div>
+            <StarRating rating={4.46} size="w-5 h-5" />
             <span className="text-slate-600">4.46 out of 5 based on 72 reviews</span>
           </div>
 
