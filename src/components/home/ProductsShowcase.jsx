@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { Star, ArrowRight, Check } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { StarRating } from "@/components/ui/star-rating";
 
 const products = [
   {
@@ -100,14 +101,7 @@ export default function ProductsShowcase() {
 
                 {/* Rating */}
                 <div className="flex items-center justify-center gap-2 mb-4">
-                  <div className="flex items-center">
-                    {[...Array(5)].map((_, i) => (
-                      <Star 
-                        key={i} 
-                        className={`w-4 h-4 ${i < Math.floor(product.rating) ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`}
-                      />
-                    ))}
-                  </div>
+                  <StarRating rating={product.rating} />
                   <span className="text-sm text-slate-600">({product.reviews} reviews)</span>
                 </div>
 
