@@ -47,7 +47,13 @@ export default function Navbar() {
         { name: 'Corrosion', href: 'Corrosion' },
       ]
     },
-    { name: 'Products', href: 'Products' },
+    { 
+      name: 'Products', 
+      dropdown: [
+        { name: 'All Products', href: 'Products' },
+        { name: 'Product Quiz', href: 'ProductQuiz' },
+      ]
+    },
     { 
       name: 'Blog', 
       dropdown: [
