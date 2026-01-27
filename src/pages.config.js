@@ -24,6 +24,7 @@ import ProductHS40 from './pages/ProductHS40';
 import ProductIRange from './pages/ProductIRange';
 import ProductPearl from './pages/ProductPearl';
 import ProductPearlPlus from './pages/ProductPearlPlus';
+import ProductQuiz from './pages/ProductQuiz';
 import Products from './pages/Products';
 import Residential from './pages/Residential';
 import Scale from './pages/Scale';
@@ -33,7 +34,6 @@ import Technology from './pages/Technology';
 import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import ProductQuiz from './pages/ProductQuiz';
 import __Layout from './Layout.jsx';
 
 
@@ -64,6 +64,7 @@ export const PAGES = {
     "ProductIRange": ProductIRange,
     "ProductPearl": ProductPearl,
     "ProductPearlPlus": ProductPearlPlus,
+    "ProductQuiz": ProductQuiz,
     "Products": Products,
     "Residential": Residential,
     "Scale": Scale,
@@ -73,7 +74,6 @@ export const PAGES = {
     "TermsOfService": TermsOfService,
     "Warranty": Warranty,
     "WaterHardnessMap": WaterHardnessMap,
-    "ProductQuiz": ProductQuiz,
 }
 
 export const pagesConfig = {

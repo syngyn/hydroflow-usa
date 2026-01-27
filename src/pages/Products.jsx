@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { Star, ArrowRight, Check, Filter, Home, Building2, Waves, HelpCircle } from 'lucide-react';
+import { ArrowRight, Check, Filter, Home, Building2, Waves, HelpCircle } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { StarRating } from "@/components/ui/star-rating";
 
 const products = [
   {
@@ -245,14 +246,7 @@ export default function Products() {
                 <div className="p-8">
                   {/* Rating */}
                   <div className="flex items-center gap-2 mb-3">
-                    <div className="flex items-center">
-                      {[...Array(5)].map((_, i) => (
-                        <Star 
-                          key={i} 
-                          className={`w-4 h-4 ${i < Math.floor(product.rating) ? 'text-amber-400 fill-amber-400' : 'text-slate-200'}`}
-                        />
-                      ))}
-                    </div>
+                    <StarRating rating={product.rating} />
                     <span className="text-sm text-slate-500">({product.reviews} reviews)</span>
                   </div>
 
