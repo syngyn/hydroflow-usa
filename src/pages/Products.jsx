@@ -304,9 +304,9 @@ export default function Products() {
               for your specific needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to={createPageUrl('Contact')}>
+              <Link to={createPageUrl('ProductQuiz')}>
                 <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-6">
-                  Contact Us
+                  Take Product Quiz
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>

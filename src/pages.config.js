@@ -10,6 +10,7 @@ import Checkout from './pages/Checkout';
 import Commercial from './pages/Commercial';
 import Contact from './pages/Contact';
 import Corrosion from './pages/Corrosion';
+import Expectations from './pages/Expectations';
 import FAQ from './pages/FAQ';
 import Filtration from './pages/Filtration';
 import FiltrationTechnology from './pages/FiltrationTechnology';
@@ -18,6 +19,7 @@ import Home from './pages/Home';
 import Industrial from './pages/Industrial';
 import KnowledgeBase from './pages/KnowledgeBase';
 import Marine from './pages/Marine';
+import PerformanceWithTime from './pages/PerformanceWithTime';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import ProductHMRange from './pages/ProductHMRange';
 import ProductHS40 from './pages/ProductHS40';
@@ -34,8 +36,6 @@ import Technology from './pages/Technology';
 import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import PerformanceWithTime from './pages/PerformanceWithTime';
-import Expectations from './pages/Expectations';
 import __Layout from './Layout.jsx';
 
 
@@ -52,6 +52,7 @@ export const PAGES = {
     "Commercial": Commercial,
     "Contact": Contact,
     "Corrosion": Corrosion,
+    "Expectations": Expectations,
     "FAQ": FAQ,
     "Filtration": Filtration,
     "FiltrationTechnology": FiltrationTechnology,
@@ -60,6 +61,7 @@ export const PAGES = {
     "Industrial": Industrial,
     "KnowledgeBase": KnowledgeBase,
     "Marine": Marine,
+    "PerformanceWithTime": PerformanceWithTime,
     "PrivacyPolicy": PrivacyPolicy,
     "ProductHMRange": ProductHMRange,
     "ProductHS40": ProductHS40,
@@ -76,8 +78,6 @@ export const PAGES = {
     "TermsOfService": TermsOfService,
     "Warranty": Warranty,
     "WaterHardnessMap": WaterHardnessMap,
-    "PerformanceWithTime": PerformanceWithTime,
-    "Expectations": Expectations,
 }
 
 export const pagesConfig = {
