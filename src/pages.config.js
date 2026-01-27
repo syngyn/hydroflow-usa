@@ -35,6 +35,7 @@ import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import PerformanceWithTime from './pages/PerformanceWithTime';
+import Expectations from './pages/Expectations';
 import __Layout from './Layout.jsx';
 
 
@@ -76,6 +77,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WaterHardnessMap": WaterHardnessMap,
     "PerformanceWithTime": PerformanceWithTime,
+    "Expectations": Expectations,
 }
 
 export const pagesConfig = {
