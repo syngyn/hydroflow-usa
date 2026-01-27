@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, ChevronLeft, CheckCircle2, Home, Building2, Factory, Ship, Waves } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { useRecommendations } from '@/components/recommendations/RecommendationContext';
 
 const quizQuestions = [
   {
@@ -136,7 +137,16 @@ export default function ProductQuiz() {
     if (currentStep < quizQuestions.length - 1) {
       setTimeout(() => setCurrentStep(currentStep + 1), 300);
     } else {
-      setTimeout(() => setShowResult(true), 300);
+      setTimeout(() => {
+        const result = getRecommendation();
+        trackQuizResult({
+          propertyType: answers.propertyType,
+          propertySize: answers.propertySize,
+          application: value,
+          recommendedProduct: result.product
+        });
+        setShowResult(true);
+      }, 300);
     }
   };
 
