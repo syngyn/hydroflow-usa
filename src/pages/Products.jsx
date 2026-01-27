@@ -49,29 +49,10 @@ const products = [
     description: 'Our most popular residential unit, perfect for standard-sized homes.'
   },
   {
-    id: 'hs40-residential',
-    name: 'hs40',
-    category: 'residential',
-    tagline: 'For Pools & Spas',
-    coverage: 'Residential Pools & Hot Tubs',
-    originalPrice: 2150,
-    price: 1990,
-    rating: 4.79,
-    reviews: 43,
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png',
-    features: [
-      'Swimming pools',
-      'Hot tubs and spas',
-      'Large residential properties',
-      'Commercial grade power'
-    ],
-    description: 'Industrial-strength protection for residential pools and spas.'
-  },
-  {
     id: 'hs40',
     name: 'hs40',
-    category: 'commercial',
-    tagline: 'Light Commercial Grade Power',
+    category: 'residential',
+    tagline: 'For Pools & Light Commercial',
     coverage: 'Pools, Spas & Light Commercial',
     originalPrice: 2150,
     price: 1990,
@@ -284,7 +265,7 @@ export default function Products() {
                     product.id === 'i-range-commercial' || product.id === 'i-range' ? 'ProductIRange' :
                     product.id === 'pearl-plus' ? 'ProductPearlPlus' :
                     product.id === 'pearl' ? 'ProductPearl' :
-                    product.id === 'hs40-residential' || product.id === 'hs40' ? 'ProductHS40' :
+                    product.id === 'hs40' ? 'ProductHS40' :
                     product.id === 'hm-range' ? 'ProductHMRange' : 'Products'
                   )}>
                     <Button className={`w-full rounded-full py-6 font-semibold transition-all ${
