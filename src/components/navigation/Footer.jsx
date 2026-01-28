@@ -103,6 +103,7 @@ export default function Footer() {
                 { name: 'Knowledge Base', href: 'KnowledgeBase' },
                 { name: 'Water Hardness Map', href: 'WaterHardnessMap' },
                 { name: 'Performance With Time', href: 'PerformanceWithTime' },
+                { name: 'What to Expect', href: 'Expectations' },
                 { name: 'FAQ', href: 'FAQ' },
                 { name: 'About Us', href: 'About' },
                 { name: 'Contact', href: 'Contact' },

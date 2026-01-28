@@ -46,7 +46,6 @@ export default function Navbar() {
         { name: 'Scale', href: 'Scale' },
         { name: 'Bio', href: 'Bio' },
         { name: 'Corrosion', href: 'Corrosion' },
-        { name: 'Expectations', href: 'Expectations' },
       ]
     },
     { 
