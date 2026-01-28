@@ -112,11 +112,7 @@ export default function ProductIRange() {
                 </p>
               </div>
 
-              <div className="bg-amber-50 border-l-4 border-amber-400 p-4">
-                <p className="text-sm text-amber-900">
-                  Installation of this device does not replace periodic equipment preventative maintenance procedures.
-                </p>
-              </div>
+
             </div>
           </div>
         </div>
