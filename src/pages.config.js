@@ -49,6 +49,8 @@
  */
 import About from './pages/About';
 import Agriculture from './pages/Agriculture';
+import AgricultureFarming from './pages/AgricultureFarming';
+import AgricultureLandscaping from './pages/AgricultureLandscaping';
 import Bio from './pages/Bio';
 import BlogDetail from './pages/BlogDetail';
 import BlogList from './pages/BlogList';
@@ -61,6 +63,7 @@ import Contact from './pages/Contact';
 import CoolingTowers from './pages/CoolingTowers';
 import Corrosion from './pages/Corrosion';
 import DroughtMitigation from './pages/DroughtMitigation';
+import ESCO from './pages/ESCO';
 import Expectations from './pages/Expectations';
 import FAQ from './pages/FAQ';
 import Filtration from './pages/Filtration';
@@ -92,15 +95,14 @@ import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import ESCO from './pages/ESCO';
-import AgricultureFarming from './pages/AgricultureFarming';
-import AgricultureLandscaping from './pages/AgricultureLandscaping';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
     "About": About,
     "Agriculture": Agriculture,
+    "AgricultureFarming": AgricultureFarming,
+    "AgricultureLandscaping": AgricultureLandscaping,
     "Bio": Bio,
     "BlogDetail": BlogDetail,
     "BlogList": BlogList,
@@ -113,6 +115,7 @@ export const PAGES = {
     "CoolingTowers": CoolingTowers,
     "Corrosion": Corrosion,
     "DroughtMitigation": DroughtMitigation,
+    "ESCO": ESCO,
     "Expectations": Expectations,
     "FAQ": FAQ,
     "Filtration": Filtration,
@@ -144,9 +147,6 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "ESCO": ESCO,
-    "AgricultureFarming": AgricultureFarming,
-    "AgricultureLandscaping": AgricultureLandscaping,
 }
 
 export const pagesConfig = {

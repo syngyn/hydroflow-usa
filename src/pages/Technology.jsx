@@ -265,6 +265,46 @@ export default function Technology() {
         </div>
       </section>
 
+      {/* Additional Videos Section */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="aspect-video rounded-2xl overflow-hidden shadow-2xl"
+            >
+              <iframe 
+                src="https://player.vimeo.com/video/239483917?badge=0&autoplay=0&muted=0"
+                className="w-full h-full"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="HydroFLOW Technology Video 1"
+              />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="aspect-video rounded-2xl overflow-hidden shadow-2xl"
+            >
+              <iframe 
+                src="https://player.vimeo.com/video/237775492?badge=0&autoplay=0&muted=0"
+                className="w-full h-full"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="HydroFLOW Technology Video 2"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Comparison Table */}
       <section className="py-24 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
