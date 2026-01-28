@@ -215,16 +215,13 @@ export default function Technology() {
               viewport={{ once: true }}
               className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl bg-slate-900"
             >
-              <img 
-                src="https://hydroflow-usa.com/wp-content/uploads/2024/05/technology.jpg"
-                alt="Hydropath Technology"
-                className="w-full h-full object-cover"
+              <iframe 
+                src="https://player.vimeo.com/video/1156126881?h=0&title=0&byline=0&portrait=0"
+                className="w-full h-full"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
               />
-              <div className="absolute inset-0 bg-slate-900/40 flex items-center justify-center">
-                <div className="w-20 h-20 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center cursor-pointer hover:bg-white/30 transition-colors">
-                  <PlayCircle className="w-12 h-12 text-white" />
-                </div>
-              </div>
             </motion.div>
           </div>
         </div>
