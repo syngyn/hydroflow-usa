@@ -237,6 +237,16 @@ export default function Agriculture() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
+            className="text-center mb-8"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+              G&G Orchards
+            </h2>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             className="aspect-video rounded-2xl overflow-hidden shadow-2xl"
           >
             <iframe 
