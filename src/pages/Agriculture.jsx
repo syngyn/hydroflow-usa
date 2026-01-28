@@ -230,6 +230,27 @@ export default function Agriculture() {
         </div>
       </section>
 
+      {/* Additional Video Section */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="aspect-video rounded-2xl overflow-hidden shadow-2xl"
+          >
+            <iframe 
+              src="https://player.vimeo.com/video/107484225?badge=0&autoplay=0&muted=0"
+              className="w-full h-full"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              title="HydroFLOW G&G Orchards Cooling Tower"
+            />
+          </motion.div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-green-500 to-green-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
