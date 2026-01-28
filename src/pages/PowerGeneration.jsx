@@ -233,34 +233,6 @@ export default function PowerGeneration() {
         </div>
       </section>
 
-      {/* Installation Gallery */}
-      <section className="py-16 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Power Generation Installations
-            </h2>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <img 
-              src="https://hydroflow-usa.com/wp-content/uploads/2025/12/power-generation-collage.jpg"
-              alt="Collage of HydroFLOW devices installed in power stations"
-              className="w-full rounded-2xl shadow-2xl"
-            />
-          </motion.div>
-        </div>
-      </section>
-
       {/* Case Study CTA */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
