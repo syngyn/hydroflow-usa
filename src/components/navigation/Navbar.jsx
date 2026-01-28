@@ -110,12 +110,23 @@ export default function Navbar() {
                   <DropdownMenuContent className="bg-white/95 backdrop-blur-md border-0 shadow-xl rounded-xl p-2">
                     {link.dropdown.map((item) => (
                       <DropdownMenuItem key={item.name} asChild>
-                        <Link 
-                          to={createPageUrl(item.href)}
-                          className="cursor-pointer rounded-lg px-4 py-2.5 text-slate-700 hover:text-cyan-600 hover:bg-cyan-50 transition-all"
-                        >
-                          {item.name}
-                        </Link>
+                        {item.external ? (
+                          <a 
+                            href={item.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cursor-pointer rounded-lg px-4 py-2.5 text-slate-700 hover:text-cyan-600 hover:bg-cyan-50 transition-all"
+                          >
+                            {item.name}
+                          </a>
+                        ) : (
+                          <Link 
+                            to={createPageUrl(item.href)}
+                            className="cursor-pointer rounded-lg px-4 py-2.5 text-slate-700 hover:text-cyan-600 hover:bg-cyan-50 transition-all"
+                          >
+                            {item.name}
+                          </Link>
+                        )}
                       </DropdownMenuItem>
                     ))}
                   </DropdownMenuContent>
