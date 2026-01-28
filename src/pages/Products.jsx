@@ -128,7 +128,12 @@ export default function Products() {
 
   const filteredProducts = activeCategory === 'all' 
     ? products 
-    : products.filter(p => p.category === activeCategory);
+    : products.filter(p => {
+      if (Array.isArray(p.categories)) {
+        return p.categories.includes(activeCategory);
+      }
+      return p.category === activeCategory;
+    });
 
   return (
     <div>
