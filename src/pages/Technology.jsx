@@ -294,16 +294,20 @@ export default function Technology() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="aspect-video rounded-2xl overflow-hidden shadow-2xl"
             >
-              <iframe 
-                src="https://player.vimeo.com/video/237775492?badge=0&autoplay=0&muted=0"
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center">
+                Brackets for custom units
+              </h3>
+              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+                <iframe 
+                  src="https://player.vimeo.com/video/237775492?badge=0&autoplay=0&muted=0"
                 className="w-full h-full"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
-                title="HydroFLOW Technology Video 2"
-              />
+                  title="HydroFLOW Technology Video 2"
+                />
+              </div>
             </motion.div>
           </div>
         </div>
