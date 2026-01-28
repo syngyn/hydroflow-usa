@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ThumbsUp, ThumbsDown, CheckCircle2, XCircle } from 'lucide-react';
+import { CheckCircle2, XCircle } from 'lucide-react';
 
 const shouldExpect = [
   'Prevent limescale accumulation and gradually remove limescale deposits in areas with constant water flow (i.e. inside pipes)',
@@ -64,16 +64,11 @@ export default function Expectations() {
               viewport={{ once: true }}
               className="bg-white rounded-3xl shadow-sm p-8"
             >
-              <div className="flex items-center gap-4 mb-8">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center shadow-lg flex-shrink-0">
-                  <ThumbsUp className="w-12 h-12 text-white" />
-                </div>
-                <div>
-                  <h2 className="text-3xl font-bold text-slate-900">
-                    What you <span className="italic text-green-600">should expect</span>
-                  </h2>
-                  <p className="text-slate-600">from <i>Hydro</i>FLOW</p>
-                </div>
+              <div className="mb-8">
+                <h2 className="text-3xl font-bold text-slate-900">
+                  What you <span className="italic text-green-600">should expect</span>
+                </h2>
+                <p className="text-slate-600">from <i>Hydro</i>FLOW</p>
               </div>
 
               <div className="space-y-4">
@@ -100,16 +95,11 @@ export default function Expectations() {
               viewport={{ once: true }}
               className="bg-white rounded-3xl shadow-sm p-8"
             >
-              <div className="flex items-center gap-4 mb-8">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center shadow-lg flex-shrink-0">
-                  <ThumbsDown className="w-12 h-12 text-white" />
-                </div>
-                <div>
-                  <h2 className="text-3xl font-bold text-slate-900">
-                    What you <span className="italic text-red-600">should not expect</span>
-                  </h2>
-                  <p className="text-slate-600">from <i>Hydro</i>FLOW</p>
-                </div>
+              <div className="mb-8">
+                <h2 className="text-3xl font-bold text-slate-900">
+                  What you <span className="italic text-red-600">should not expect</span>
+                </h2>
+                <p className="text-slate-600">from <i>Hydro</i>FLOW</p>
               </div>
 
               <div className="space-y-4">

@@ -58,17 +58,22 @@ import CaseStudyDetail from './pages/CaseStudyDetail';
 import Checkout from './pages/Checkout';
 import Commercial from './pages/Commercial';
 import Contact from './pages/Contact';
+import CoolingTowers from './pages/CoolingTowers';
 import Corrosion from './pages/Corrosion';
+import DroughtMitigation from './pages/DroughtMitigation';
 import Expectations from './pages/Expectations';
 import FAQ from './pages/FAQ';
 import Filtration from './pages/Filtration';
 import FiltrationTechnology from './pages/FiltrationTechnology';
+import FoodBeverage from './pages/FoodBeverage';
 import GroundwaterTemperatureMap from './pages/GroundwaterTemperatureMap';
 import Home from './pages/Home';
 import Industrial from './pages/Industrial';
 import KnowledgeBase from './pages/KnowledgeBase';
 import Marine from './pages/Marine';
 import PerformanceWithTime from './pages/PerformanceWithTime';
+import PlasticManufacturing from './pages/PlasticManufacturing';
+import PowerGeneration from './pages/PowerGeneration';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import ProductHMRange from './pages/ProductHMRange';
 import ProductHS40 from './pages/ProductHS40';
@@ -77,6 +82,7 @@ import ProductPearl from './pages/ProductPearl';
 import ProductPearlPlus from './pages/ProductPearlPlus';
 import ProductQuiz from './pages/ProductQuiz';
 import Products from './pages/Products';
+import ProtectiveEnclosure from './pages/ProtectiveEnclosure';
 import Residential from './pages/Residential';
 import Scale from './pages/Scale';
 import StateTemperature from './pages/StateTemperature';
@@ -84,14 +90,8 @@ import StateWaterHardness from './pages/StateWaterHardness';
 import Technology from './pages/Technology';
 import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
-import WaterHardnessMap from './pages/WaterHardnessMap';
-import CoolingTowers from './pages/CoolingTowers';
 import WastewaterStruvite from './pages/WastewaterStruvite';
-import FoodBeverage from './pages/FoodBeverage';
-import PlasticManufacturing from './pages/PlasticManufacturing';
-import DroughtMitigation from './pages/DroughtMitigation';
-import ProtectiveEnclosure from './pages/ProtectiveEnclosure';
-import PowerGeneration from './pages/PowerGeneration';
+import WaterHardnessMap from './pages/WaterHardnessMap';
 import __Layout from './Layout.jsx';
 
 
@@ -107,17 +107,22 @@ export const PAGES = {
     "Checkout": Checkout,
     "Commercial": Commercial,
     "Contact": Contact,
+    "CoolingTowers": CoolingTowers,
     "Corrosion": Corrosion,
+    "DroughtMitigation": DroughtMitigation,
     "Expectations": Expectations,
     "FAQ": FAQ,
     "Filtration": Filtration,
     "FiltrationTechnology": FiltrationTechnology,
+    "FoodBeverage": FoodBeverage,
     "GroundwaterTemperatureMap": GroundwaterTemperatureMap,
     "Home": Home,
     "Industrial": Industrial,
     "KnowledgeBase": KnowledgeBase,
     "Marine": Marine,
     "PerformanceWithTime": PerformanceWithTime,
+    "PlasticManufacturing": PlasticManufacturing,
+    "PowerGeneration": PowerGeneration,
     "PrivacyPolicy": PrivacyPolicy,
     "ProductHMRange": ProductHMRange,
     "ProductHS40": ProductHS40,
@@ -126,6 +131,7 @@ export const PAGES = {
     "ProductPearlPlus": ProductPearlPlus,
     "ProductQuiz": ProductQuiz,
     "Products": Products,
+    "ProtectiveEnclosure": ProtectiveEnclosure,
     "Residential": Residential,
     "Scale": Scale,
     "StateTemperature": StateTemperature,
@@ -133,14 +139,8 @@ export const PAGES = {
     "Technology": Technology,
     "TermsOfService": TermsOfService,
     "Warranty": Warranty,
-    "WaterHardnessMap": WaterHardnessMap,
-    "CoolingTowers": CoolingTowers,
     "WastewaterStruvite": WastewaterStruvite,
-    "FoodBeverage": FoodBeverage,
-    "PlasticManufacturing": PlasticManufacturing,
-    "DroughtMitigation": DroughtMitigation,
-    "ProtectiveEnclosure": ProtectiveEnclosure,
-    "PowerGeneration": PowerGeneration,
+    "WaterHardnessMap": WaterHardnessMap,
 }
 
 export const pagesConfig = {
