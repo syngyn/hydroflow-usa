@@ -251,7 +251,7 @@ export default function PowerGeneration() {
               </p>
               <a href="https://hydroflow-usa.com/case-studies/industrial-case-studies/rmel-electric-energy/" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-6">
-                  View Case Studies
+                  RMEL Electric Energy Magazine
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </a>
