@@ -162,21 +162,6 @@ export default function ProductPearl() {
 
             <TabsContent value="description" className="space-y-6">
               <div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-6">Product Overview</h3>
-                <div className="aspect-video rounded-xl overflow-hidden bg-slate-100 mb-8">
-                  <iframe
-                    src="https://player.vimeo.com/video/1127697487"
-                    width="100%"
-                    height="100%"
-                    frameBorder="0"
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    allowFullScreen
-                    className="w-full h-full"
-                  ></iframe>
-                </div>
-              </div>
-
-              <div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Popular Applications</h3>
                 <ul className="space-y-2">
                   {['Small homes', 'Apartments', 'RVs', 'Tankless water heaters'].map((app) => (
@@ -255,8 +240,16 @@ export default function ProductPearl() {
                 <p className="text-slate-700 mb-6">
                   <i>Hydro</i>FLOW residential devices are designed for ease of installation. With this said, it may be necessary to have your unit installed professionally, depending on the configuration of your plumbing system.
                 </p>
-                <div className="aspect-video bg-slate-100 rounded-xl mb-6 flex items-center justify-center">
-                  <p className="text-slate-500">Installation Video</p>
+                <div className="aspect-video rounded-xl overflow-hidden bg-slate-100 mb-6">
+                  <iframe
+                    src="https://player.vimeo.com/video/1127697487"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
                 </div>
                 <div className="space-y-2">
                   <Button variant="outline" className="w-full justify-start">
