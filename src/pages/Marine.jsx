@@ -305,13 +305,19 @@ export default function Marine() {
                 />
               </div>
             </div>
-            <div className="mt-8 text-center">
+            <div className="mt-8 text-center flex flex-col sm:flex-row gap-4 justify-center">
               <Link to={createPageUrl('Contact')}>
                 <Button className="bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white rounded-full px-8 py-6 font-semibold">
                   Request Marine Quote
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
+              <a href="https://hydroflow-usa.com/wp-content/uploads/2024/06/Marine-Brochure.pdf" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="rounded-full px-8 py-6 font-semibold border-2">
+                  Hydropath Marine Brochure
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
