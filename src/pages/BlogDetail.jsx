@@ -18,6 +18,11 @@ const getCategoryIcon = (category) => {
   return icons[category] || Home;
 };
 
+// Helper function to format blog content - add space between paragraphs and bold questions
+const formatBlogContent = (content) => {
+  return content.replace(/([^?]+\?)/g, '<strong>$1</strong>');
+};
+
 // Blog content from HydroFLOW website
 const blogContent = {
   'water-quality-health-resolution': {
@@ -2501,7 +2506,7 @@ export default function BlogDetail() {
                 prose-headings:font-bold prose-headings:text-slate-900
                 prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:pb-3 prose-h2:border-b prose-h2:border-slate-200
                 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:text-cyan-700
-                prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-6
+                prose-p:text-slate-700 prose-p:leading-relaxed prose-p:mb-8
                 prose-ul:my-6 prose-ul:space-y-3
                 prose-li:text-slate-700 prose-li:leading-relaxed
                 prose-strong:text-slate-900 prose-strong:font-semibold
@@ -2509,7 +2514,7 @@ export default function BlogDetail() {
                 prose-blockquote:border-l-4 prose-blockquote:border-cyan-500 prose-blockquote:bg-cyan-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:italic prose-blockquote:my-8
                 prose-img:rounded-xl prose-img:shadow-lg prose-img:my-8
                 prose-ol:my-6 prose-ol:space-y-3"
-                dangerouslySetInnerHTML={{ __html: blog.content }}
+                dangerouslySetInnerHTML={{ __html: formatBlogContent(blog.content) }}
               />
             </Card>
           </motion.div>
