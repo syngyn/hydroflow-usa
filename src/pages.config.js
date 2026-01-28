@@ -93,6 +93,8 @@ import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import ESCO from './pages/ESCO';
+import AgricultureFarming from './pages/AgricultureFarming';
+import AgricultureLandscaping from './pages/AgricultureLandscaping';
 import __Layout from './Layout.jsx';
 
 
@@ -143,6 +145,8 @@ export const PAGES = {
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
     "ESCO": ESCO,
+    "AgricultureFarming": AgricultureFarming,
+    "AgricultureLandscaping": AgricultureLandscaping,
 }
 
 export const pagesConfig = {
