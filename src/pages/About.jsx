@@ -127,11 +127,11 @@ export default function About() {
               viewport={{ once: true }}
               className="relative"
             >
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-slate-50">
                 <img 
                   src="https://hydroflow-usa.com/wp-content/uploads/2016/08/about-us.webp"
                   alt="<i>Hydro</i>FLOW USA Headquarters"
-                  className="w-full h-auto"
+                  className="w-full h-auto mix-blend-multiply"
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-6">
