@@ -257,7 +257,7 @@ export default function Products() {
 
                   {/* CTA */}
                   <Link to={createPageUrl(
-                    product.id === 'i-range-commercial' || product.id === 'i-range' ? 'ProductIRange' :
+                    product.id === 'i-range' ? 'ProductIRange' :
                     product.id === 'pearl-plus' ? 'ProductPearlPlus' :
                     product.id === 'pearl' ? 'ProductPearl' :
                     product.id === 'hs40' ? 'ProductHS40' :
