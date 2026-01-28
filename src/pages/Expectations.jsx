@@ -132,38 +132,7 @@ export default function Expectations() {
         </div>
       </section>
 
-      {/* Image Sections */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="rounded-2xl overflow-hidden shadow-lg"
-            >
-              <img
-                src="https://hydroflow-usa.com/images/ex1.png"
-                alt="HydroFLOW Benefits"
-                className="w-full h-auto"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="rounded-2xl overflow-hidden shadow-lg"
-            >
-              <img
-                src="https://hydroflow-usa.com/images/ex2.png"
-                alt="HydroFLOW Limitations"
-                className="w-full h-auto"
-              />
-            </motion.div>
-          </div>
-        </div>
-      </section>
+
     </div>
   );
 }
