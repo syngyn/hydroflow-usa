@@ -148,33 +148,6 @@ export default function BlogList() {
               >
                 <Link to={createPageUrl('BlogDetail') + '?category=' + category + '&slug=' + blog.slug}>
                   <Card className="h-full overflow-hidden hover:shadow-2xl transition-all duration-500 group cursor-pointer border-0">
-                    {/* Image Section */}
-                    <div className="relative h-56 bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
-                      {blog.image ? (
-                        <img 
-                          src={blog.image}
-                          alt={blog.title}
-                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                        />
-                      ) : (
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="text-8xl text-slate-300 opacity-50">
-                            {category === 'residential' && '🏠'}
-                            {category === 'commercial' && '🏢'}
-                            {category === 'industrial' && '🏭'}
-                            {category === 'agriculture' && '🌱'}
-                            {category === 'marine' && '⚓'}
-                          </div>
-                        </div>
-                      )}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                      <div className="absolute bottom-4 left-4 right-4">
-                        <Badge className="bg-white/90 text-slate-900 hover:bg-white capitalize backdrop-blur-sm">
-                          {category}
-                        </Badge>
-                      </div>
-                    </div>
-
                     <div className="p-6">
                       <div className="flex items-center gap-4 text-xs text-slate-500 mb-3">
                         <div className="flex items-center gap-1">
