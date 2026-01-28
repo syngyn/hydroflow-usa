@@ -36,6 +36,7 @@ export default function Navbar() {
         { name: 'Commercial', href: 'Commercial' },
         { name: 'Agriculture', href: 'Agriculture' },
         { name: 'Marine', href: 'Marine' },
+        { name: 'Power Generation', href: 'PowerGeneration' },
       ]
     },
     { 
