@@ -91,6 +91,7 @@ import FoodBeverage from './pages/FoodBeverage';
 import PlasticManufacturing from './pages/PlasticManufacturing';
 import DroughtMitigation from './pages/DroughtMitigation';
 import ProtectiveEnclosure from './pages/ProtectiveEnclosure';
+import PowerGeneration from './pages/PowerGeneration';
 import __Layout from './Layout.jsx';
 
 
@@ -139,6 +140,7 @@ export const PAGES = {
     "PlasticManufacturing": PlasticManufacturing,
     "DroughtMitigation": DroughtMitigation,
     "ProtectiveEnclosure": ProtectiveEnclosure,
+    "PowerGeneration": PowerGeneration,
 }
 
 export const pagesConfig = {
