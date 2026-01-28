@@ -227,15 +227,14 @@ export default function Industrial() {
             </h2>
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { title: 'i-Range', link: 'ProductIRange' },
               { title: 'Cooling Towers', link: 'CoolingTowers' },
               { title: 'Wastewater', link: 'WastewaterStruvite' },
               { title: 'Food and Beverage', link: 'FoodBeverage' },
               { title: 'Plastic Injection Molding', link: 'PlasticManufacturing' },
-              { title: 'Drought Mitigation', link: 'DroughtMitigation' },
-              { title: 'Protective Enclosure', link: 'ProtectiveEnclosure' }
+              { title: 'Drought Mitigation', link: 'DroughtMitigation' }
             ].map((item, index) => (
               <motion.div
                 key={item.title}
