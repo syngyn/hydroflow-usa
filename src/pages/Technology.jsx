@@ -273,16 +273,20 @@ export default function Technology() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="aspect-video rounded-2xl overflow-hidden shadow-2xl"
             >
-              <iframe 
-                src="https://player.vimeo.com/video/239483917?badge=0&autoplay=0&muted=0"
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center">
+                Transformer theory
+              </h3>
+              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+                <iframe 
+                  src="https://player.vimeo.com/video/239483917?badge=0&autoplay=0&muted=0"
                 className="w-full h-full"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
-                title="HydroFLOW Technology Video 1"
-              />
+                  title="HydroFLOW Technology Video 1"
+                />
+              </div>
             </motion.div>
 
             <motion.div
