@@ -61,6 +61,7 @@ import Contact from './pages/Contact';
 import CoolingTowers from './pages/CoolingTowers';
 import Corrosion from './pages/Corrosion';
 import DroughtMitigation from './pages/DroughtMitigation';
+import Expectations from './pages/Expectations';
 import FAQ from './pages/FAQ';
 import Filtration from './pages/Filtration';
 import FiltrationTechnology from './pages/FiltrationTechnology';
@@ -91,7 +92,7 @@ import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import Expectations from './pages/Expectations';
+import ESCO from './pages/ESCO';
 import __Layout from './Layout.jsx';
 
 
@@ -110,6 +111,7 @@ export const PAGES = {
     "CoolingTowers": CoolingTowers,
     "Corrosion": Corrosion,
     "DroughtMitigation": DroughtMitigation,
+    "Expectations": Expectations,
     "FAQ": FAQ,
     "Filtration": Filtration,
     "FiltrationTechnology": FiltrationTechnology,
@@ -140,7 +142,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "Expectations": Expectations,
+    "ESCO": ESCO,
 }
 
 export const pagesConfig = {
