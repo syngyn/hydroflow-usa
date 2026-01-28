@@ -281,8 +281,15 @@ export default function Industrial() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="bg-slate-50 rounded-3xl p-8"
+              className="bg-white rounded-3xl p-8 shadow-lg"
             >
+              <div className="mb-6">
+                <img 
+                  src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
+                  alt="HydroFLOW I Range"
+                  className="w-full max-w-xs mx-auto"
+                />
+              </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">I Range</h3>
               <p className="text-cyan-600 font-medium mb-4">Industrial Series</p>
               <p className="text-slate-600 mb-6">
