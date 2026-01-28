@@ -162,6 +162,21 @@ export default function ProductPearl() {
 
             <TabsContent value="description" className="space-y-6">
               <div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-6">Product Overview</h3>
+                <div className="aspect-video rounded-xl overflow-hidden bg-slate-100 mb-8">
+                  <iframe
+                    src="https://player.vimeo.com/video/1127697487"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Popular Applications</h3>
                 <ul className="space-y-2">
                   {['Small homes', 'Apartments', 'RVs', 'Tankless water heaters'].map((app) => (
