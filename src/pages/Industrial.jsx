@@ -323,8 +323,15 @@ export default function Industrial() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="bg-slate-50 rounded-3xl p-8"
+              className="bg-white rounded-3xl p-8 shadow-lg"
             >
+              <div className="mb-6">
+                <img 
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/95715f364_hfmarine.png"
+                  alt="HydroFLOW HM Range Marine"
+                  className="w-full max-w-xs mx-auto"
+                />
+              </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">HM Range</h3>
               <p className="text-cyan-600 font-medium mb-4">Hydropath Marine</p>
               <p className="text-slate-600 mb-6">
