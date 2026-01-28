@@ -7,11 +7,6 @@ import { Button } from "@/components/ui/button";
 
 const benefits = [
   {
-    icon: Shield,
-    title: 'Corrosion Protection',
-    description: 'Protect hull, pipes, and equipment from marine corrosion'
-  },
-  {
     icon: Waves,
     title: 'Scale Prevention',
     description: 'Prevent scale buildup in cooling systems and heat exchangers'
