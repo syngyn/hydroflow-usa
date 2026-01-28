@@ -213,14 +213,27 @@ export default function Navbar() {
                       {link.name}
                     </div>
                     {link.dropdown.map((item) => (
-                      <Link
-                        key={item.name}
-                        to={createPageUrl(item.href)}
-                        onClick={() => setMobileMenuOpen(false)}
-                        className="block px-4 py-2 text-slate-700 hover:text-cyan-600 hover:bg-cyan-50 rounded-lg transition-all"
-                      >
-                        {item.name}
-                      </Link>
+                      item.external ? (
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() => setMobileMenuOpen(false)}
+                          className="block px-4 py-2 text-slate-700 hover:text-cyan-600 hover:bg-cyan-50 rounded-lg transition-all"
+                        >
+                          {item.name}
+                        </a>
+                      ) : (
+                        <Link
+                          key={item.name}
+                          to={createPageUrl(item.href)}
+                          onClick={() => setMobileMenuOpen(false)}
+                          className="block px-4 py-2 text-slate-700 hover:text-cyan-600 hover:bg-cyan-50 rounded-lg transition-all"
+                        >
+                          {item.name}
+                        </Link>
+                      )
                     ))}
                   </div>
                 ) : (
