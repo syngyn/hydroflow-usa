@@ -124,49 +124,6 @@ export default function Commercial() {
         </div>
       </section>
 
-      {/* Learn More Section */}
-      <section className="py-16 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Learn more about...
-            </h2>
-          </motion.div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { title: 'i-Range', link: 'ProductIRange' },
-              { title: 'Cooling Towers', link: 'CoolingTowers' },
-              { title: 'Energy Service Companies (ESCO)', link: 'ESCO' },
-              { title: 'Drought Mitigation', link: 'DroughtMitigation' }
-            ].map((item, index) => (
-              <motion.div
-                key={item.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.05 }}
-              >
-                <Link to={createPageUrl(item.link)}>
-                  <Button 
-                    variant="outline" 
-                    className="w-full h-full py-6 text-left justify-start hover:bg-cyan-50 hover:border-cyan-500 hover:text-cyan-600 transition-all group"
-                  >
-                    <span className="font-semibold">{item.title}</span>
-                    <ArrowRight className="w-4 h-4 ml-auto group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                </Link>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Benefits */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -245,8 +202,51 @@ export default function Commercial() {
         </div>
       </section>
 
+      {/* Learn More Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              Learn more about...
+            </h2>
+          </motion.div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { title: 'i-Range', link: 'ProductIRange' },
+              { title: 'Cooling Towers', link: 'CoolingTowers' },
+              { title: 'Energy Service Companies (ESCO)', link: 'ESCO' },
+              { title: 'Drought Mitigation', link: 'DroughtMitigation' }
+            ].map((item, index) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.05 }}
+              >
+                <Link to={createPageUrl(item.link)}>
+                  <Button 
+                    variant="outline" 
+                    className="w-full h-full py-6 text-left justify-start hover:bg-cyan-50 hover:border-cyan-500 hover:text-cyan-600 transition-all group"
+                  >
+                    <span className="font-semibold">{item.title}</span>
+                    <ArrowRight className="w-4 h-4 ml-auto group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* HS40 Feature */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
