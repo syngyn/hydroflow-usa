@@ -86,11 +86,6 @@ export default function Residential() {
                 alt="<i>Hydro</i>FLOW Pearl Plus"
                 className="w-full h-full object-contain bg-white/10 backdrop-blur-sm p-8"
               />
-              <div className="absolute inset-0 flex items-center justify-center bg-black/20">
-                <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center cursor-pointer hover:bg-white/30 transition-colors">
-                  <PlayCircle className="w-8 h-8 text-white" />
-                </div>
-              </div>
             </motion.div>
           </div>
         </div>
