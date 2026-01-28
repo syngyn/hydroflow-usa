@@ -25,6 +25,11 @@ const benefits = [
     icon: Anchor,
     title: 'Easy Installation',
     description: 'Simple retrofit for existing vessels and new builds'
+  },
+  {
+    icon: Shield,
+    title: 'Mineral Deposit Prevention',
+    description: 'Prevents the buildup of mineral deposits in the vessels water systems'
   }
 ];
 
