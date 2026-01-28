@@ -85,6 +85,12 @@ import Technology from './pages/Technology';
 import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import CoolingTowers from './pages/CoolingTowers';
+import WastewaterStruvite from './pages/WastewaterStruvite';
+import FoodBeverage from './pages/FoodBeverage';
+import PlasticManufacturing from './pages/PlasticManufacturing';
+import DroughtMitigation from './pages/DroughtMitigation';
+import ProtectiveEnclosure from './pages/ProtectiveEnclosure';
 import __Layout from './Layout.jsx';
 
 
@@ -127,6 +133,12 @@ export const PAGES = {
     "TermsOfService": TermsOfService,
     "Warranty": Warranty,
     "WaterHardnessMap": WaterHardnessMap,
+    "CoolingTowers": CoolingTowers,
+    "WastewaterStruvite": WastewaterStruvite,
+    "FoodBeverage": FoodBeverage,
+    "PlasticManufacturing": PlasticManufacturing,
+    "DroughtMitigation": DroughtMitigation,
+    "ProtectiveEnclosure": ProtectiveEnclosure,
 }
 
 export const pagesConfig = {
