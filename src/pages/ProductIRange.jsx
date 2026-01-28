@@ -106,9 +106,15 @@ export default function ProductIRange() {
                 </div>
               </div>
 
-              <div className="bg-cyan-50 border-l-4 border-cyan-400 p-4">
+              <div className="bg-cyan-50 border-l-4 border-cyan-400 p-4 mb-4">
                 <p className="text-sm text-cyan-900">
                   <strong>Key Feature:</strong> Embedded power supply inside transducer with hardwired brass electrical connector for extreme durability.
+                </p>
+              </div>
+
+              <div className="bg-amber-50 border-l-4 border-amber-400 p-4">
+                <p className="text-sm text-amber-900">
+                  Installation of this device does not replace periodic equipment preventative maintenance procedures.
                 </p>
               </div>
             </div>
