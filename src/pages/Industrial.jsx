@@ -275,7 +275,7 @@ export default function Industrial() {
             </h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="max-w-2xl mx-auto">
             {/* I Range */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -317,47 +317,7 @@ export default function Industrial() {
               </Link>
             </motion.div>
 
-            {/* HM Range */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="bg-white rounded-3xl p-8 shadow-lg"
-            >
-              <div className="mb-6">
-                <img 
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/95715f364_hfmarine.png"
-                  alt="HydroFLOW HM Range Marine"
-                  className="w-full max-w-xs mx-auto"
-                />
-              </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-2"><i>hm</i> Range</h3>
-              <p className="text-cyan-600 font-medium mb-4">Hydropath Marine</p>
-              <p className="text-slate-600 mb-6">
-                Specialized units for marine and offshore applications, built to withstand 
-                harsh maritime environments.
-              </p>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-center gap-2 text-slate-700">
-                  <CheckCircle2 className="w-4 h-4 text-cyan-500" />
-                  Marine-grade materials
-                </li>
-                <li className="flex items-center gap-2 text-slate-700">
-                  <CheckCircle2 className="w-4 h-4 text-cyan-500" />
-                  Corrosion resistant
-                </li>
-                <li className="flex items-center gap-2 text-slate-700">
-                  <CheckCircle2 className="w-4 h-4 text-cyan-500" />
-                  Certified for marine use
-                </li>
-              </ul>
-              <Link to={createPageUrl('ProductHMRange')}>
-                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-6">
-                  View Details
-                </Button>
-              </Link>
-            </motion.div>
+
           </div>
         </div>
       </section>
