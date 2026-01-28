@@ -53,31 +53,45 @@ export default function Marine() {
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="max-w-3xl"
-          >
-            <span className="inline-block text-indigo-400 font-semibold text-sm uppercase tracking-wider mb-4">
-              Marine Solutions
-            </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Marine Water
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-200">
-                Treatment Solutions
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+            >
+              <span className="inline-block text-indigo-400 font-semibold text-sm uppercase tracking-wider mb-4">
+                Marine Solutions
               </span>
-            </h1>
-            <p className="text-xl text-slate-300 mb-8">
-              Protect boats and marine equipment from scale and corrosion with our 
-              specialized marine-grade water conditioning technology.
-            </p>
-            <Link to={createPageUrl('Contact')}>
-              <Button className="bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-indigo-500/30">
-                Get a Quote
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-            </Link>
-          </motion.div>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+                Marine Water
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-indigo-200">
+                  Treatment Solutions
+                </span>
+              </h1>
+              <p className="text-xl text-slate-300 mb-8">
+                Protect boats and marine equipment from scale and corrosion with our 
+                specialized marine-grade water conditioning technology.
+              </p>
+              <Link to={createPageUrl('Contact')}>
+                <Button className="bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-indigo-500/30">
+                  Get a Quote
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </Link>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.2 }}
+              className="relative"
+            >
+              <img 
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b3cfa299e_hfmarine.png"
+                alt="HydroFLOW Marine Unit"
+                className="w-full h-auto"
+              />
+            </motion.div>
+          </div>
         </div>
       </section>
 
