@@ -138,7 +138,7 @@ export default function Marine() {
             </h2>
           </motion.div>
 
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-2 gap-8">
             {/* Video 1 - Introduction */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -167,40 +167,12 @@ export default function Marine() {
               </div>
             </motion.div>
 
-            {/* Video 2 - Scale & Bio Treatment */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="bg-slate-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
-            >
-              <div className="aspect-video bg-slate-200">
-                <iframe
-                  src="https://player.vimeo.com/video/103957209"
-                  className="w-full h-full"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  title="How Hydropath Marine Treats Scale & Bio"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">
-                  How It Treats Scale & Bio
-                </h3>
-                <p className="text-slate-600">
-                  Discover how Hydropath Marine technology prevents scale buildup and controls biofouling in marine systems.
-                </p>
-              </div>
-            </motion.div>
-
             {/* Video 3 - Installation */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
+              transition={{ delay: 0.2 }}
               className="bg-slate-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
             >
               <div className="aspect-video bg-slate-200">
