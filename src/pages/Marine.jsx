@@ -121,6 +121,111 @@ export default function Marine() {
         </div>
       </section>
 
+      {/* Videos Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-indigo-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Videos
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              See <i>Hydro</i>path Marine in Action
+            </h2>
+          </motion.div>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Video 1 - Introduction */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="bg-slate-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
+            >
+              <div className="aspect-video bg-slate-200">
+                <iframe
+                  src="https://player.vimeo.com/video/1065131742"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title="Hydropath Marine Introduction"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-2">
+                  <i>Hydro</i>path Marine Overview
+                </h3>
+                <p className="text-slate-600">
+                  Learn about the Hydropath Marine (HM) range designed specifically for marine vessel water treatment.
+                </p>
+              </div>
+            </motion.div>
+
+            {/* Video 2 - Scale & Bio Treatment */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="bg-slate-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
+            >
+              <div className="aspect-video bg-slate-200">
+                <iframe
+                  src="https://player.vimeo.com/video/103957209"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title="How Hydropath Marine Treats Scale & Bio"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-2">
+                  How It Treats Scale & Bio
+                </h3>
+                <p className="text-slate-600">
+                  Discover how Hydropath Marine technology prevents scale buildup and controls biofouling in marine systems.
+                </p>
+              </div>
+            </motion.div>
+
+            {/* Video 3 - Installation */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="bg-slate-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow"
+            >
+              <div className="aspect-video bg-slate-200">
+                <iframe
+                  src="https://player.vimeo.com/video/105879318"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title="Hydropath Marine Installation"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-slate-900 mb-2">
+                  Installation Guide
+                </h3>
+                <p className="text-slate-600">
+                  Step-by-step installation video showing how to easily install Hydropath Marine units on vessels.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Applications */}
       <section className="py-24 bg-indigo-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
