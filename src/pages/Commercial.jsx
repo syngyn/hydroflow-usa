@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { Building2, Hotel, Utensils, Dumbbell, Hospital, GraduationCap, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { Building2, Hotel, Utensils, Dumbbell, Hospital, GraduationCap, ArrowRight, CheckCircle2, DollarSign, Shield, Zap, Leaf } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 
 const sectors = [
@@ -12,6 +12,29 @@ const sectors = [
   { icon: GraduationCap, name: 'Educational Institutions', description: 'Campus-wide water protection' },
   { icon: Building2, name: 'Office Buildings', description: 'Reduce maintenance costs' },
   { icon: Dumbbell, name: 'Fitness Centers', description: 'Protect pools, spas, and showers' }
+];
+
+const benefits = [
+  {
+    icon: DollarSign,
+    title: 'Reduce Operating Costs',
+    description: 'Significantly reduce chemical, water, and maintenance expenses'
+  },
+  {
+    icon: Shield,
+    title: 'Protect Equipment',
+    description: 'Extend the service life of pipes, boilers, and cooling systems'
+  },
+  {
+    icon: Zap,
+    title: 'Improve Efficiency',
+    description: 'Prevent scale buildup that reduces heat transfer efficiency'
+  },
+  {
+    icon: Leaf,
+    title: 'Eco-Friendly',
+    description: 'Chemical-free solution that meets environmental regulations'
+  }
 ];
 
 export default function Commercial() {
@@ -101,8 +124,48 @@ export default function Commercial() {
         </div>
       </section>
 
-      {/* Sectors */}
+      {/* Benefits */}
       <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Commercial Benefits
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Why Choose <i>Hydro</i>FLOW for Commercial Applications
+            </h2>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {benefits.map((benefit, index) => (
+              <motion.div
+                key={benefit.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="flex gap-6 p-8 rounded-2xl bg-slate-50 hover:bg-cyan-50 transition-colors"
+              >
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center flex-shrink-0">
+                  <benefit.icon className="w-7 h-7 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">{benefit.title}</h3>
+                  <p className="text-slate-600">{benefit.description}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Sectors */}
+      <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -126,7 +189,7 @@ export default function Commercial() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors group"
+                className="bg-white rounded-2xl p-8 hover:bg-cyan-50 transition-colors group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <sector.icon className="w-7 h-7 text-white" />
@@ -140,7 +203,7 @@ export default function Commercial() {
       </section>
 
       {/* HS40 Feature */}
-      <section className="py-24 bg-slate-50">
+      <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -202,7 +265,7 @@ export default function Commercial() {
       </section>
 
       {/* i Range Feature */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
