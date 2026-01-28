@@ -143,8 +143,7 @@ export default function Commercial() {
               { title: 'i-Range', link: 'ProductIRange' },
               { title: 'Cooling Towers', link: 'CoolingTowers' },
               { title: 'Energy Service Companies (ESCO)', link: 'ESCO' },
-              { title: 'Drought Mitigation', link: 'DroughtMitigation' },
-              { title: 'Protective Enclosure', link: 'ProtectiveEnclosure' }
+              { title: 'Drought Mitigation', link: 'DroughtMitigation' }
             ].map((item, index) => (
               <motion.div
                 key={item.title}
