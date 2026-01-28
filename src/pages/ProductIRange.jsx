@@ -134,29 +134,35 @@ export default function ProductIRange() {
 
             <TabsContent value="description" className="space-y-6">
               <div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">Product Videos</h3>
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <div className="aspect-video rounded-xl overflow-hidden bg-slate-100">
-                    <iframe
-                      src="https://player.vimeo.com/video/110159146"
-                      width="100%"
-                      height="100%"
-                      frameBorder="0"
-                      allow="autoplay; fullscreen; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-full"
-                    ></iframe>
+                <h3 className="text-2xl font-bold text-slate-900 mb-6">Product Videos</h3>
+                <div className="grid md:grid-cols-2 gap-8 mb-8">
+                  <div>
+                    <h4 className="text-lg font-semibold text-slate-900 mb-3">Product Overview</h4>
+                    <div className="aspect-video rounded-xl overflow-hidden bg-slate-100">
+                      <iframe
+                        src="https://player.vimeo.com/video/110159146"
+                        width="100%"
+                        height="100%"
+                        frameBorder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowFullScreen
+                        className="w-full h-full"
+                      ></iframe>
+                    </div>
                   </div>
-                  <div className="aspect-video rounded-xl overflow-hidden bg-slate-100">
-                    <iframe
-                      src="https://player.vimeo.com/video/237775492"
-                      width="100%"
-                      height="100%"
-                      frameBorder="0"
-                      allow="autoplay; fullscreen; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-full"
-                    ></iframe>
+                  <div>
+                    <h4 className="text-lg font-semibold text-slate-900 mb-3">Installation Instruction</h4>
+                    <div className="aspect-video rounded-xl overflow-hidden bg-slate-100">
+                      <iframe
+                        src="https://player.vimeo.com/video/237775492"
+                        width="100%"
+                        height="100%"
+                        frameBorder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowFullScreen
+                        className="w-full h-full"
+                      ></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
