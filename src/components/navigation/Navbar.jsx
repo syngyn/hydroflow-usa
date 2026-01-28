@@ -46,6 +46,7 @@ export default function Navbar() {
         { name: 'Scale', href: 'Scale' },
         { name: 'Bio', href: 'Bio' },
         { name: 'Corrosion', href: 'Corrosion' },
+        { name: 'Filtration', href: 'https://hydroflow-usa.com/filtration/', external: true },
       ]
     },
     { 
