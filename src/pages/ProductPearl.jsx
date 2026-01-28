@@ -252,10 +252,12 @@ export default function ProductPearl() {
                   ></iframe>
                 </div>
                 <div className="space-y-2">
-                  <Button variant="outline" className="w-full justify-start">
-                    <Package className="w-4 h-4 mr-2" />
-                    Download Pearl User Guide (PDF)
-                  </Button>
+                  <a href="https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Pearl-User-Guide-January-2023.pdf" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="w-full justify-start">
+                      <Package className="w-4 h-4 mr-2" />
+                      Download Pearl User Guide (PDF)
+                    </Button>
+                  </a>
                   <Button variant="outline" className="w-full justify-start">
                     <Package className="w-4 h-4 mr-2" />
                     Download Residential Brochure (PDF)
