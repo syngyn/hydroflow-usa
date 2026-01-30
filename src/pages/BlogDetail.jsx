@@ -1723,27 +1723,31 @@ const blogContent = {
     readTime: '8 min read',
     category: 'industrial',
     content: `
-      <p>Produced and flowback water have recently become an integral component in the hydraulic-fracturing process rather than an expensive waste requiring transport and disposal. Water-management practices have improved considerably for each aspect of the oilfield water cycle with efficiencies being introduced that improve safety, economics and reliability.</p>
+      <p>Produced and flowback water have recently become an integral component in the hydraulic-fracturing process rather than an expensive waste requiring transport and disposal. Water-management practices have improved considerably for each aspect of the oilfield water cycle with efficiencies being introduced that improve safety, economics and reliability. Bacterial fouling is a common concern in both water storage and use during hydraulic-fracturing operations, and historic methods of prevention and treatment incur high costs without real-time validation of effectiveness. Recent innovations allow chemical-free bacteria neutralization, as well as bacteria testing on location. This significantly improves control of bacterial contamination while reducing operating costs.</p>
       
-      <h2>Hydraulic Fracturing Water Management</h2>
-      <p>The hydraulic fracturing process requires large volumes of water mixed with proppants (sand or ceramic beads) and chemical additives to fracture underground rock formations and release trapped oil and gas. After fracturing, the water that returns to the surface contains not only the original fracturing fluids but also dissolved minerals, hydrocarbons, and naturally occurring radioactive materials (NORM) from the subsurface formations.</p>
+      <p><strong><i>Hydro</i>FLOW device at a frac water pit</strong></p>
       
-      <h2>Water Treatment Challenges</h2>
-      <p>One of the primary challenges in managing produced and flowback water is controlling bacterial growth. Sulfate-reducing bacteria (SRB) and acid-producing bacteria (APB) can cause significant operational problems including:</p>
-      <ul>
-        <li>Biofouling of equipment and pipelines</li>
-        <li>Microbiologically influenced corrosion (MIC)</li>
-        <li>Reservoir souring and hydrogen sulfide production</li>
-        <li>Reduced efficiency of downstream treatment processes</li>
-      </ul>
+      <h2><strong>What is Flowback and Produced Water?</strong></h2>
       
-      <h2>Chemical-Free Solutions</h2>
-      <p>Traditional methods rely heavily on biocides and other chemical treatments, which come with environmental concerns and operational costs. HydroFLOW offers a chemical-free alternative that uses frequency-based technology to neutralize bacteria and prevent biofilm formation without introducing harmful chemicals into the water cycle.</p>
+      <p>Flowback and produced water are normally anaerobic with <2 parts per million (ppm) of dissolved oxygen (O2). They frequently contain a wide range of bacteria that include sulfate-reducing bacteria (SRB) and acid-producing bacteria (APB). These waters also have free iron and other nutrients to allow the bacterial colonies to multiply rapidly in the anaerobic environment.</p>
       
-      <p>The 150 kHz signal produced by HydroFLOW units disrupts bacterial cell walls and prevents biofilm attachment, providing continuous protection throughout the water system. This approach not only reduces chemical costs but also minimizes environmental impact and simplifies water management procedures.</p>
+      <p>During pumping and water-handling operations, enough oxygen is introduced to change the environment to an aerobic condition so that aerobic bacteria can grow and proliferate rapidly. While not enough dissolved oxygen is added to kill anaerobic bacteria, their growth is retarded in this state. If allowed to return to a deeper low-oxygen zone, these anaerobic bacteria multiply aggressively. They form colonies that produce high-molecular-weight polysaccharides, which deposit on piping, proppant and other geologic formation surfaces as a biofilm. This serves as the glue that holds the microbial colonies to metal or rock surfaces. Given the right conditions downhole, these microbes continue to expand in numbers, deeper into the geology. This causes "souring" of the well by production of hydrogen sulfide.</p>
       
-      <h2>Field Testing Results</h2>
-      <p>Field tests have demonstrated significant reductions in bacterial counts and biofilm formation when HydroFLOW units are installed on produced water systems. The technology has proven effective in both preventing new bacterial growth and reducing existing contamination, making it a valuable tool for sustainable water management in hydraulic fracturing operations.</p>
+      <h2><strong>Impact of MIC</strong></h2>
+      
+      <p>It leads to microbiologically influenced corrosion (MIC) on the steel-production tubing and well-casing materials and plugs the pores and permeable seams in the rock. This decreases production and requires capital-intensive repairs. MIC is estimated to cost the oil and gas industry billions of dollars each year because of the capital costs in replacing and repairing pipelines and equipment. Added to that are the revenue losses from lost production.</p>
+      
+      <p><strong>MIC colony</strong></p>
+      
+      <h2><strong>How to Prevent Flowback</strong></h2>
+      
+      <p>To prevent these bacteria from being introduced to new wells, several different types of water bacterial treatments have been developed. They have shown varying measures of effectiveness. Dosing with bactericides and oxidants (either chlorine dioxide or ozone) tends to reduce the number of living colonies temporarily, but unless residual treatment effectiveness is maintained to keep populations in check, they often do not successfully eliminate the biofilm that serves to protect the colonies.</p>
+      
+      <h2><strong>How <i>Hydro</i>FLOW Provides Bacteria Neutralization</strong></h2>
+      
+      <p>The combination of Rapid-B bacteria testing and the <i>Hydro</i>FLOW device provide a step change in oilfield-bacteria control. <i>Hydro</i>FLOW water conditioners are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
+      
+      <p><strong>Installed <i>Hydro</i>FLOW device</strong></p>
     `
   },
   'cooling-tower-systems': {
@@ -1752,58 +1756,72 @@ const blogContent = {
     readTime: '10 min read',
     category: 'industrial',
     content: `
-      <h2>Cooling Tower Systems</h2>
-      <p>Cooling tower systems range in size and purpose from dealing with air conditioning in hotels to cooling power stations. However, they all perform the same basic task: they take heat from somewhere it is not wanted and dump it into the atmosphere. To do this they use water, for two main reasons: 1) Water is abundant, and 2) Water is very good at storing heat compared to other substances.</p>
+      <h2><strong>COOLING TOWER SYSTEMS</strong></h2>
+      
+      <p>Cooling tower systems range in size and purpose from dealing with air conditioning in hotels to cooling power stations. However, they all perform the same basic task: they take heat from somewhere it is not wanted and dump it into the atmosphere. To do this they use water, for two main reasons:</p>
+      
+      <ol>
+        <li>Water is abundant.</li>
+        <li>Water is very good at storing heat compared to other substances.</li>
+      </ol>
       
       <p>If we are using water to cool something down, that means heat is being transferred from that something to the water, i.e. the water is being heated. Whenever water is heated, there are likely to be problems with limescale.</p>
       
-      <p>These are the basic principles of a cooling tower system that apply to almost every cooling tower in operation:</p>
+      <p>These are the basic principles of a cooling tower system and apply to almost every cooling tower in operation.</p>
+      
       <ul>
-        <li>Cooling towers keep a heat source cool by evaporating water</li>
-        <li>Heat is transferred to the tower water in a heat exchanger</li>
-        <li>Problems: limescale in heat exchangers, bacteria and/or algae in the tower water</li>
-        <li>Blow-down, filtration and a chemical regiment are normally required for the tower to run efficiently</li>
-        <li>Maintenance is a necessary process for optimal operation</li>
+        <li>Cooling towers keep a heat source cool by evaporating water.</li>
+        <li>Heat is transferred to the tower water in a heat exchanger.</li>
+        <li>Problems: limescale in heat exchangers, bacteria and/or algae in the tower water.</li>
+        <li>Blow-down, filtration and a chemical regiment are normally required for the tower to run efficiently.</li>
+        <li>Maintenance is a necessary process for optimal operation.</li>
       </ul>
       
-      <h2>Cooling Tower Terminology</h2>
+      <p>We now briefly note some of the terms commonly used in reference to cooling towers.</p>
+      
       <ul>
-        <li><strong>Air Inlet and Outlet:</strong> The points at which air enters and leaves the tower</li>
-        <li><strong>Blowdown:</strong> Water is discharged from the system to control concentrations of salts or other impurities</li>
-        <li><strong>BTU (British Thermal Unit):</strong> The amount of heat required to raise one pound of water one degree F</li>
-        <li><strong>Capacity:</strong> The amount of water (GPM) that a cooling tower will cool through a specified range</li>
-        <li><strong>Casing or shell:</strong> The structure that supports the rest of the components</li>
-        <li><strong>Distribution System:</strong> Parts that distribute hot circulating water within the tower</li>
-        <li><strong>Drift Eliminators:</strong> Assembly of baffles that remove entrained water droplets from exhaust air</li>
-        <li><strong>Drift Loss:</strong> Water that leaves the tower as droplets (.3% without eliminators, .005% with)</li>
-        <li><strong>Fill:</strong> The portion that constitutes primary heat transfer surface (also called "packing")</li>
-        <li><strong>Forced Draft:</strong> Movement of air under pressure through a cooling tower</li>
-        <li><strong>Induced Draft:</strong> Movement of air through a tower by means of induced partial vacuum</li>
-        <li><strong>Cooling Tower Tonnage:</strong> 15,000 BTU/Hr/ton (includes 3,000 BTU for chiller compressor heat)</li>
-        <li><strong>Wet-Bulb Temperature:</strong> Critical design variable for evaporative cooling</li>
+        <li><strong>Air Inlet and Outlet –</strong> The points at which air enters and leaves the tower.</li>
+        <li><strong>Blowdown –</strong> Water is discharged from the system to control concentrations of salts or other impurities in the circulating water.</li>
+        <li><strong>BTU (British Thermal Unit)</strong> – The amount of heat gain (or loss) required to raise (or lower) the temperature of one pound of water one degree F.</li>
+        <li><strong>Capacity –</strong> The amount of water (GPM) that a cooling tower will cool through a specified range, at a specified approach and wet-bulb temperature.</li>
+        <li><strong>Casing or shell –</strong> This is the structure that supports the rest of the components.</li>
+        <li><strong>Distribution System –</strong> Those parts of a tower beginning with the inlet connection which distribute the hot circulating water within the tower to the points where it contacts the air for effective cooling.</li>
+        <li><strong>Drift Eliminators –</strong> An assembly of baffles or labyrinth passages through which the air passes prior to its exit from the tower, for the purpose of removing entrained water droplets from the exhaust air.</li>
+        <li><strong>Drift Loss –</strong> The water that leaves the cooling tower as droplets of water and typically equates to .3% of the circulating water in a tower without drift eliminators.</li>
+        <li><strong>Fill –</strong> That portion of a cooling tower that constitutes its primary heat transfer surface. Sometimes referred to as "packing".</li>
+        <li><strong>Forced Draft –</strong> Refers to the movement of air under pressure through a cooling tower. Fans of forced draft towers are located at the air inlets to "force" air through the tower.</li>
+        <li><strong>Induced Draft –</strong> Refers to the movement of air through a cooling tower by means of an induced partial vacuum.</li>
+        <li><strong>Cooling Tower Tonnage:</strong> Cooling towers are not the typical 12,000 BTU/Hr/ton. They are 15,000 BTU/Hr/ton. The added 3,000 BTU is for removing the Chiller compressor heat.</li>
+        <li><strong>Wet-Bulb Temperature –</strong> The temperature of the entering or ambient air adjacent to the cooling tower as measured with a wet-bulb thermometer.</li>
       </ul>
       
-      <h2>What is the Main Purpose of a Cooling Tower?</h2>
-      <p>The main point of a cooling tower is to cool something down. The process requires more than just a cooling tower. The next important piece is the heat exchanger. Tube-in-shell exchangers are often used in larger towers. In this type of exchanger, the tower water passes through a series of pipes within a "shell" or metal casing. The heat source passes through the shell around the tubes. Scale will form on the surfaces in contact with the tower water.</p>
+      <h2><strong>WHAT IS THE MAIN PURPOSE OF A COOLING TOWER?</strong></h2>
       
-      <h2>What is a Heat Exchanger?</h2>
-      <p>The heat exchanger is where water absorbs heat energy from the heat source, so the heat source is cooled, and the tower water is heated. The water is then pumped to the top of the cooling tower, where it is sprayed in a fine mist down through the tower. As the water drops fall through the air, they are cooled (mostly by evaporation). The water collects in a pool at the bottom of the tower, and from there it is pumped back to the heat exchanger, to start the process again.</p>
+      <p>The main point of a cooling tower is to cool something down. The process of cooling down requires more than just a cooling tower. The next important piece of a cooling tower system is the heat exchanger. Tube in shell exchangers are often used in larger towers. In this type of exchanger, the tower water passes through a series of pipes within a "shell" or metal casing. The heat source passes through the shell around the tubes. Scale will form on the surfaces that are in contact with the tower water.</p>
       
-      <h2>Difference Between a Condenser vs Heat Exchanger?</h2>
-      <p>When the heat source is steam rather than hot water, the heat exchanger is referred to as a condenser, although they are basically the same. This is because the steam is condensing back from steam to water. One extra difficulty with steam sources is that due to the high temperature of the steam, the tower water can boil at certain points (called "nucleate boiling" or "kettling"). This will leave all dissolved minerals behind, making it very hard to treat water for limescale.</p>
+      <h2><strong>WHAT IS A HEAT EXCHANGER?</strong></h2>
+      
+      <p>Obviously, the name "heat exchanger" implies that there is a transfer of heat taking place. This assumption is in fact true. The heat exchanger is where water absorbs heat energy from the heat source, so the heat source is cooled, and the tower water is heated. The water is then pumped to the top of the cooling tower, where it is sprayed in a fine mist down through the tower. As the water droplets fall through the air, they are cooled (mostly by evaporation). The water collects in a pool at the bottom of the tower (a tank or sump), and from there it is then pumped back to the heat exchanger, to start the process again.</p>
+      
+      <h2><strong>DIFFERENCE BETWEEN A CONDENSER VS HEAT EXCHANGER?</strong></h2>
+      
+      <p>When the heat source is steam rather than hot water, the heat exchanger is referred to as a condenser, although they are basically the same. This is because the steam is condensing back from steam to water. One extra difficulty with steam sources is that due to the high temperature of the steam, the tower water can boil at certain points (called "nucleate boiling" or "kettling"). This will leave all of the dissolved minerals behind, making it very hard to treat water for limescale.</p>
       
       <p>One of the main problems is scale in the heat exchangers. Scale acts as thermal insulation, making it harder for heat to transfer from the heat source to the tower water. Other significant problems are biofouling, bacteria and algae. These will often grow in the tower pool, which is a warm, stagnant body of water ideal for micro-organism growth.</p>
       
-      <h2>What is Blowdown? Why is it Necessary in a Cooling Tower?</h2>
-      <p>As water gradually evaporates to cool down, it gets more and more concentrated over time. The water is sprayed through the air and will pick up dust and other debris. The common way to deal with the build-up of minerals and debris is to perform a blowdown—flushing away water in the tower pool and replacing it with new water.</p>
+      <h2><strong>WHAT IS BLOWDOWN? WHY IS IT NECESSARY IN A COOLING TOWER?</strong></h2>
       
-      <p>Cooling towers work much more effectively with an automatic blowdown system installed, which discards and replaces some water automatically whenever a certain concentration of dissolved solids is reached. Manufacturers usually have recommendations about the blow-down level in terms of "cycles of concentration."</p>
+      <p>As water gradually evaporates to cool down, it gets more and more concentrated over time. The water is sprayed through the air and will pick up dust and other debris. The common way to deal with the build-up of minerals and debris in the cooling tower is to perform a blowdown. "Blowdown" is a term meaning that the water in the tower pool is flushed away and replaced with new water.</p>
       
-      <h2>What Does "Cycles of Concentration" Mean?</h2>
+      <p>Cooling towers work much more effectively with an automatic blowdown system installed, which discard and replace some of the water automatically whenever a certain concentration of dissolved solids is reached.</p>
+      
+      <h2><strong>WHAT DOES "CYCLES OF CONCENTRATION" MEAN?</strong></h2>
+      
       <p>Cycles of concentration are how many times more concentrated the tower water is than the make-up water. If no manufacturer's instructions are given, a safe rule of thumb is that blowdown is performed often enough to keep the concentration of the water (the T.D.S.) at no higher than 2000 ppm or no more than 3-4 times that of the incoming water.</p>
       
-      <h2>Is Filtration Needed with a Cooling Tower?</h2>
-      <p>Filtration can help remove larger particles from the tower pool, reducing the amount of blowdown required. The type of filtration used in cooling towers is called sidestream filtration, which means the filter is fitted to a smaller side stream pipe that takes water out of the pool, filters it, and returns it to the pool.</p>
+      <h2><strong>IS FILTRATION NEEDED WITH A COOLING TOWER?</strong></h2>
+      
+      <p>Filtration can also help remove the larger particles from the tower pool, which in turn reduces the amount of blowdown required. The type of filtration used in cooling towers is called side stream filtration, which means the filter is fitted to a smaller side stream pipe that takes water out of the pool, filters it, and then returns it to the pool.</p>
     `
   },
   'fouling-heat-transfer': {
