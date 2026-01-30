@@ -2561,6 +2561,38 @@ export default function BlogDetail() {
               </Link>
             </div>
           </motion.div>
+
+          {/* Wastewater Video - Only for wastewater-related blogs */}
+          {(slug === 'wastewater-treatment-applications' || 
+            slug === 'wastewater-plant-efficiency' || 
+            slug === 'more-hydropath-less-polymer') && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4 }}
+              className="mt-8"
+            >
+              <Card className="p-8 shadow-xl">
+                <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center">
+                  See <i>Hydro</i>FLOW in Action
+                </h3>
+                <p className="text-slate-600 mb-6 text-center">
+                  Watch how our technology transforms wastewater treatment
+                </p>
+                <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-slate-100">
+                  <iframe
+                    src="https://player.vimeo.com/video/1156116944"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
+                </div>
+              </Card>
+            </motion.div>
+          )}
         </div>
       </section>
     </div>
