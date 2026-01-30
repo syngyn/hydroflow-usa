@@ -1640,39 +1640,81 @@ const blogContent = {
     category: 'industrial',
     image: 'https://hydroflow-usa.com/assets/userfiles/images/WWTP%2Bblog.jpg',
     content: `
-      <h2>Wastewater Treatment Applications</h2>
+      <h2><strong>Wastewater Treatment Applications</strong></h2>
+      
       <p>Everything that goes down the drain eventually ends up at a wastewater treatment plant. You name it and it can probably be found somewhere in the wastewater stream. Dirt, food particles, fats, oils, chemicals and other less savory materials contaminate the water. This can cause a number of different issues for wastewater treatment facilities and the equipment involved in removing the contaminants from the water so they can be safely disposed of (or reused!). The award winning <i>Hydro</i>FLOW devices have been installed to control struvite accumulation, reduce polymer use, reduce chemical use, and enhance filtration efficiency in wastewater facilities across the US and the world.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/WWTP%2Bblog.jpg" alt="Wastewater treatment plant" />
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/WWTP%2Bblog.jpg" alt="2017 WEF Innovative Technology Award" />
       
-      <h2>Wastewater Treatment Terminology</h2>
-      <ul>
-        <li><strong>Aerobic Wastewater Treatment:</strong> A form of biological treatment using oxygen-feeding bacteria to break down organic material/contaminants.</li>
-        <li><strong>Anaerobic Wastewater Treatment:</strong> A form of biological treatment using bacteria that thrive in an oxygen-free environment. Struvite is a common problem in anaerobic systems.</li>
-        <li><strong>Cake:</strong> Term used to describe the leftover solid materials once water has been removed.</li>
-        <li><strong>Dewatering:</strong> The process of removing water from something, for example removing the water from mud.</li>
-        <li><strong>Flocculation:</strong> The "clumping" together of small solid particles to form larger solid particles.</li>
-        <li><strong>Polymer:</strong> A synthetic substance used to aid flocculation and thickening of sludge during dewatering.</li>
-        <li><strong>Sludge:</strong> A combination of solid materials removed from the wastewater stream in various treatment steps.</li>
-        <li><strong>Struvite:</strong> A phosphate mineral commonly found in anaerobic wastewater systems. Forms hard crystals made up of magnesium, ammonium and phosphates.</li>
-        <li><strong>Vivianite:</strong> A hydrated iron phosphate mineral found downstream of the anaerobic digestion process.</li>
-      </ul>
+      <p><strong>2017 WEF Innovative Technology Award</strong></p>
       
-      <h2>Wastewater Treatment Basic Steps</h2>
-      <ol>
-        <li><strong>Screening:</strong> Incoming raw wastewater passes through coarse screening to remove large debris.</li>
-        <li><strong>Grit Removal:</strong> Smaller heavy particles like sand and gravel settle out using gravity.</li>
-        <li><strong>Primary Settling:</strong> Heavier solids settle out while oils collect on top.</li>
-        <li><strong>Aeration/Activated Sludge:</strong> Biological degradation breaks down contaminants into more benign materials.</li>
-        <li><strong>Secondary Settling:</strong> Remaining sludge settles out, and 90% treated water moves to final filtration.</li>
-        <li><strong>Filtration:</strong> Remaining tiny particles are removed through filter media.</li>
-        <li><strong>Disinfection:</strong> Water is treated for bacteria through UV disinfection or chlorination.</li>
-      </ol>
+      <h2><strong>Wastewater Treatment Terminology</strong></h2>
       
-      <h2>How HydroFLOW Helps</h2>
-      <p>HydroFLOW has been shown to not only reduce Struvite accumulation but also causes existing crystals to soften. Instead of forming hard crystals, the Struvite is more like a thick mud that can be simply washed away with a pressure washer. The reduction in accumulation and softening of the Struvite leads to longer times between shutdown intervals, faster/easier cleaning, and less damage to filter equipment.</p>
+      <p><strong>Aerobic Wastewater Treatment</strong>– A form of biological treatment using oxygen-feeding bacteria to break down, or digest, organic material/contaminants and remove them from the wastewater.</p>
       
-      <p>Typically, a polymer will be used to aid flocculation of the small solid particles to make them separate from the water easier. HydroFLOW can help improve the efficiency of DAF processes by enhancing flocculation which in turn will reduce polymer use.</p>
+      <p><strong>Anaerobic Wastewater Treatment</strong> – A form of biological treatment using bacteria that thrive in an oxygen free environment to break down, or digest, organic material/contaminants and remove them from the wastewater. Note: Struvite is a common problem in anaerobic wastewater treatment systems.</p>
+      
+      <p><strong>Cake</strong>– Term used to describe the leftover solid materials once water has been removed. Often disposed of in a landfill, incinerated, or sometimes used as a fertilizer.</p>
+      
+      <p><strong>Dewatering –</strong> The process of removing water from something, for example removing the water from mud. Note: Wastewater treatment end use requires nearly complete separation of water from solids in order to return the water and solids to the environment.</p>
+      
+      <p><strong>Flocculation</strong>– The "clumping" together of small solid particles to form larger solid particles.</p>
+      
+      <p><strong>Polymer</strong>– A synthetic substance used to aid flocculation, or the "clumping" together of small solids to help them filter out better. It is also used to aid the thickening of sludge during dewatering.</p>
+      
+      <p><strong>Sludge</strong>– A combination of solid materials removed from the wastewater stream in various treatment steps.</p>
+      
+      <p><strong>Struvite</strong> – A phosphate mineral commonly found in anaerobic wastewater systems. Struvite forms a hard crystal made up of magnesium, ammonium and phosphates. Struvite can block filters, damage equipment and cause scale buildup that is detrimental to plant equipment and processes.</p>
+      
+      <p><strong>Vivianite –</strong> A hydrated iron phosphate mineral found in a number of geological environments. Vivianite is found in wastewater treatment as a hard scale downstream of the anaerobic digestion process. Much like Struvite, Vivianite can build up on instrumentation and equipment negatively affecting system performance.</p>
+      
+      <h2><strong>Wastewater Treatment Basic Steps</strong></h2>
+      
+      <p><strong>1. Screening</strong> – Incoming raw wastewater passes through a coarse screening process to remove large debris such as trash, wood fragments, plastics and grease. The remaining water moves to further treatment while the removed large solids are disposed of in a landfill.</p>
+      
+      <p><strong>2. Grit Removal</strong> – After screening the remaining water passes through a grit removal process where smaller heavy particles such as sand and gravel settle out using gravity. The remaining water moves to the next step while the sand and gravel are also typically disposed of in a landfill.</p>
+      
+      <p><strong>3. Primary Settling</strong> – After the heavier solids have been removed from the water it passes into a primary settling tank, or clarifier. During this step heavier solids will slowly settle out of the water while oils will collect on the top. The solids are removed from the top and bottom of the tank to be further treated (sludge processing). The remaining water continues on to further purification processes.</p>
+      
+      <p><strong>4. Aeration/Activated Sludge</strong> – During this step the bulk of treatment occurs using biological degradation to break down contaminants into more benign materials such as cell tissue and nitrogen. This process is much the same as the natural biological processes that occur in lakes and rivers but happens much faster. The cleaner water moves to the next step and the sludge moves on to further digesting.</p>
+      
+      <p><strong>5. Secondary Settling</strong>– Similar to step 3 the water passes into another settling tank, or clarifier, where any remaining sludge settles out to the bottom. The sludge from the bottom of the tank is returned to the activated sludge process and the now 90% treated water moves to final filtration and disinfection.</p>
+      
+      <p><strong>6. Filtration</strong> – The remaining tiny particles are removed from the water through a series of filter media to ensure all contaminants have been removed.</p>
+      
+      <p><strong>7. Disinfection</strong> – Once virtually all solids are removed, the water is treated for any remaining bacteria through processes such as UV disinfection or chlorination. The disinfected water is then discharged back into the environment per the plants discharge permit.</p>
+      
+      <p><strong><i>Hydro</i>FLOW Unit installed in an Anaerobic WWTP</strong></p>
+      
+      <h2><strong>Sludge Treatment Basic Steps</strong></h2>
+      
+      <p><strong>1. Air Flotation Thickening</strong> – The activated sludge is thickened by pumping tiny bubbles of air through it. The biological solids then float to the top and are skimmed off for further treatment and the remaining water below is returned to the start of the treatment plant. This process will typically increase the solids concentration from 1% to 3%.</p>
+      
+      <p><strong>2. Anaerobic Digestion</strong> – In this step the thickened activated sludge is combined with the primary sludge from steps 2-3 above and pumped into a digester. The sludge is then heated and continues to mix for upwards of a month where anaerobic bacteria will continue to break down contaminants. This process produces methane which is in turn used to heat the sludge.</p>
+      
+      <p><strong>3. Thickening</strong> – After the sludge is digested is it moved to a thickening process to remove more water from the solids. Gravity belt thickeners, belt filter presses, and centrifuges are examples of equipment used to further separate the solids from the water. The remaining water is very high in ammonia and is stored separately to be slowly returned to the start of the plant. The dried sludge is typically referred to as "cake".</p>
+      
+      <p><strong>4. Solids disposal</strong> – The solids have now had most of the water removed and are shipped off to landfill, incinerated, or in some cases used as fertilizer as they are high in nitrogen.</p>
+      
+      <h3><strong>Dissolved Air Flotation</strong></h3>
+      
+      <p>What is Dissolved Air Flotation (DAF)? DAF is a process that separates heavier solids from the wastewater stream. After course solids such as sand, rocks and other grit are removed from the incoming wastewater stream with screens and in various settling ponds. The remaining water flows into a dissolved air flotation system for further solids removal. In short, the water flows into a large tank where tiny air bubbles rise from the tank bottom up through the water to help separate the solids. Lighter solid materials will float up to the top of the tank while heavier solids will sink to the bottom. This leaves a layer of cleaner water in between that is pumped out for further treatment, while the solids at the top and bottom of the DAF are removed and treated separately.</p>
+      
+      <p><strong>How can <i>Hydro</i>FLOW help?</strong></p>
+      
+      <p>Typically, a polymer will be used to aid flocculation of the small solid particles to make them separate from the water easier. <i>Hydro</i>FLOW can help improve the efficiency a DAF process by enhancing flocculation which in turn will reduce polymer use.</p>
+      
+      <p>Sometimes as the water sits in the DAF process biological contaminants can begin to cause an undesirable smell. Since <i>Hydro</i>FLOW can also reduce biological contaminants, a side benefit for DAF applications is a reduction of that foul odor. This in turn can extend the frequency of cleaning the system saving both time and additional water usage.</p>
+      
+      <h3><strong>Belt Filter Press</strong></h3>
+      
+      <p>A belt filter press (or gravity belt press) is essentially a long porous filter used to further dry out sludge. The sludge is spread out across the belt and is either pressed through rollers (belt filter press) or allowed to sit and let gravity slowly pull the water through the filter. In both cases Struvite buildup is a common problem. As Struvite accumulates on the belt filters it begins to block the water flow reducing efficiency. Struvite is also very hard to remove requiring the system to be shut down for cleaning which involves physically removing the struvite from the belts and rollers. This harsh cleaning process can also damage the equipment, especially the belt itself.</p>
+      
+      <p><strong>Belt Filter Press</strong></p>
+      
+      <p><strong>How can <i>Hydro</i>FLOW help?</strong></p>
+      
+      <p><i>Hydro</i>FLOW has been shown to not only reduce Struvite accumulation but also causes existing crystals to soften. Instead of forming hard crystals the Struvite is more like a thick mud that can be simply washed away with a pressure washer. The reduction in accumulation and softening of the Struvite leads to longer times between shut down intervals, faster/easier cleaning, and less damage to the filter equipment.</p>
     `
   },
   'chemical-free-bacteria': {
