@@ -1830,48 +1830,34 @@ const blogContent = {
     readTime: '7 min read',
     category: 'industrial',
     content: `
+      <p><strong>What is Fouling and How Does it Affect Heat Transfer Efficiency?</strong></p>
+      
       <p>Scale and biofilm are referred to in the industry as a form of fouling. These however are not the only form of fouling that can occur. Fouling is simply defined as a process by which a surface becomes less efficient due to the accumulation of deposits on it.</p>
       
-      <h2>Types of Fouling</h2>
+      <h2><strong>Common Types of Fouling</strong></h2>
       
-      <h3>1. Scaling or Precipitation Fouling</h3>
-      <p>This is the most common type of fouling and occurs when dissolved salts in the water precipitate out of solution and deposit on surfaces. Common forms include calcium carbonate (limescale), calcium sulfate, and silica deposits. Scaling is temperature-dependent and typically worsens as water temperature increases.</p>
-      
-      <h3>2. Biological Fouling (Biofouling)</h3>
-      <p>Occurs when microorganisms attach to surfaces and form biofilms. This includes bacteria, algae, fungi, and other biological matter. Biofilms can harbor dangerous bacteria like legionella and create a protective environment that makes them difficult to remove with chemicals.</p>
-      
-      <h3>3. Corrosion Fouling</h3>
-      <p>When metal surfaces corrode, the corrosion products can accumulate and form deposits. This type of fouling is particularly problematic as it not only reduces efficiency but also damages equipment.</p>
-      
-      <h3>4. Particulate Fouling</h3>
-      <p>Occurs when suspended particles in the water settle out and accumulate on surfaces. This can include dirt, sand, silt, rust, and other solid particles. Common in cooling towers where airborne particles enter the system.</p>
-      
-      <h3>5. Chemical Reaction Fouling</h3>
-      <p>Results from chemical reactions that produce insoluble compounds that deposit on surfaces. This can include reactions between different treatment chemicals or reactions between chemicals and materials in the water.</p>
-      
-      <h2>How Fouling Affects Heat Transfer Efficiency</h2>
-      <p>Fouling has a dramatic impact on heat transfer efficiency because deposits act as an insulating layer between the heat source and the water. Even a thin layer of scale significantly reduces heat transfer:</p>
       <ul>
-        <li>1/16 inch of scale reduces efficiency by 12.5%</li>
-        <li>1/8 inch of scale reduces efficiency by 25%</li>
-        <li>1/4 inch of scale reduces efficiency by 50%</li>
+        <li><strong>Chemical fouling</strong>: when chemical changes within the fluid cause a fouling layer to be deposited onto the tube surface. A common example is scaling in a kettle or boiler caused by "hardness" salts depositing onto the heating elements.</li>
+        <li><strong>Biological fouling</strong>: this is caused by the growth of organisms within the fluid which deposit out onto the surfaces of the heat exchanger. This is normally removed by either chemical treatment or mechanical brushing processes.</li>
+        <li><strong>Deposition fouling</strong>: this is when particles contained within the fluid settle out onto the surface when the fluid velocity falls below a critical level.</li>
+        <li><strong>Corrosion fouling</strong>: this is when a layer of corrosion products build up on the surfaces of the tube forming an extra layer of high thermal resistance material.</li>
       </ul>
       
-      <p>This means that equipment must work harder and consume more energy to achieve the same results. In severe cases, fouling can completely block pipes or cause equipment to overheat and fail.</p>
+      <p>Water is used in a wide range of commercial applications. Every day, businesses and facilities heat water to serve the needs of their customers and patrons. Each year, a significant portion of their overhead is allotted to the fuel required to heat water, and every day that allotment becomes slightly higher because of build-up in the system.</p>
       
-      <h2>Economic Impact of Fouling</h2>
-      <p>The costs associated with fouling include:</p>
-      <ul>
-        <li>Increased energy consumption</li>
-        <li>Reduced equipment lifespan</li>
-        <li>Higher maintenance costs</li>
-        <li>Unplanned downtime and production losses</li>
-        <li>Chemical treatment expenses</li>
-        <li>Water waste from increased blowdown</li>
-      </ul>
+      <p>Water is often called the "universal solvent" because it dissolves most substances with which it comes in contact. This is why water contains dissolved minerals, such as calcium carbonate (lime), magnesium, silica, iron and phosphate. When water is heated, it undergoes a chemical reaction that causes the dissolved minerals to "precipitate" out as solids.</p>
       
-      <h2>HydroFLOW's Role in Preventing Fouling</h2>
-      <p>HydroFLOW addresses multiple types of fouling simultaneously. The 150 kHz signal prevents scale formation by causing minerals to form suspended crystals rather than hard deposits. It also disrupts biofilm formation and prevents bacterial attachment to surfaces. By preventing fouling, HydroFLOW helps maintain optimal heat transfer efficiency, reducing energy costs and extending equipment life.</p>
+      <p>Scale has a very low thermal conductivity. In fact, it acts as a better insulator than a conductor for heat transfer. The thermal conductivity of a typical lime/scale deposit measured in Btu/hr/ft²/in/°F ranges from three to seven. As a comparison, the thermal conductivity of copper is 2680 and steel is 460.</p>
+      
+      <h3><strong>Example of Increase in Energy Consumption as a Function of Scale</strong></h3>
+      
+      <p>It's easy to see why it's so important to keep scale formation under control in a cooling system. If you're spending $10,000 a month on energy for heat transfer and allow 1/8 of an inch of scale to build-up you will be spending $12,480.00 just to maintain the system at its current level.</p>
+      
+      <p>Scale is not the only form of fouling that can impede heat transfer. Biofouling is a phenomenon that occurs in environments where the concentration of bacteria is high and where there are available surfaces for them to grow.</p>
+      
+      <p>Biofouling is a general term referring to undesirable effects due to the attachment of micro-organisms at liquid-solid interfaces of heat exchangers and condensers. The microorganisms produce a slime layer which is a terrific heat insulator.</p>
+      
+      <p>Biofouling on the inside surface of heat exchanger tubes limits the heat exchanger's performance drastically and causes pronounced increase in heat transfer resistance. Nearly an 80% decrease has been observed in the performance of a cooling system over a 7-week period, due to biofouling.</p>
     `
   },
   'corrosion-hydroflow-help': {
@@ -1880,66 +1866,67 @@ const blogContent = {
     readTime: '8 min read',
     category: 'industrial',
     content: `
+      <h2><strong>Corrosion Problems? <i>Hydro</i>FLOW can Help.</strong></h2>
+      
+      <p><strong>What is Corrosion?</strong></p>
+      
       <p>Corrosion is a natural process that converts a refined metal into a more chemically stable form such as oxide, hydroxide, or sulfide. It is the gradual destruction of materials (usually a metal) by chemical and/or electrochemical reaction with their environment.</p>
       
-      <h2>Types of Corrosion</h2>
+      <p><strong>How can <i>Hydro</i>FLOW reduce the corrosion on the inner surface of a pipe?</strong></p>
       
-      <h3>1. Uniform Corrosion</h3>
-      <p>Also called general corrosion, this occurs evenly across the entire surface of the metal. While predictable, it can still cause significant damage over time. Common in unprotected steel exposed to moisture and oxygen.</p>
+      <p>There are a few different effects that contribute to the reduction of corrosion.</p>
       
-      <h3>2. Galvanic Corrosion</h3>
-      <p>Occurs when two different metals are in electrical contact in the presence of an electrolyte (like water). The more reactive metal becomes an anode and corrodes faster, while the less reactive metal is protected. Common when copper and steel are connected in plumbing systems.</p>
-      
-      <h3>3. Pitting Corrosion</h3>
-      <p>Localized corrosion that creates small holes or pits in the metal surface. Particularly dangerous because it can lead to equipment failure with minimal overall metal loss. Often caused by chloride ions in water.</p>
-      
-      <h3>4. Crevice Corrosion</h3>
-      <p>Occurs in confined spaces where stagnant solution can accumulate, such as under gaskets, washers, or deposits. The restricted flow prevents oxygen from reaching the surface, creating conditions favorable for corrosion.</p>
-      
-      <h3>5. Erosion Corrosion</h3>
-      <p>Caused by the combined action of corrosion and erosion, often in areas of high water velocity or turbulence. The flowing water removes protective oxide films, exposing fresh metal to corrosive attack.</p>
-      
-      <h3>6. Microbiologically Influenced Corrosion (MIC)</h3>
-      <p>Caused by the activity of microorganisms, particularly bacteria. Biofilms can create localized chemistry that differs from the bulk water, leading to accelerated corrosion beneath the biofilm.</p>
-      
-      <h2>Factors That Influence Corrosion</h2>
       <ul>
-        <li><strong>pH Levels:</strong> Both very acidic and very alkaline water can be corrosive</li>
-        <li><strong>Dissolved Oxygen:</strong> Higher oxygen levels generally increase corrosion rates</li>
-        <li><strong>Temperature:</strong> Higher temperatures typically accelerate corrosion</li>
-        <li><strong>Water Velocity:</strong> Can either increase or decrease corrosion depending on conditions</li>
-        <li><strong>Chloride Content:</strong> Chlorides are particularly aggressive to stainless steels</li>
-        <li><strong>Bacteria:</strong> Biofilms create localized corrosive environments</li>
+        <li>Allowing you to use hard water instead of soft water, which is corrosive.</li>
+        <li>Impeding the growth of magnetite (the protective coating).</li>
+        <li>The skin effect of an electromagnetic field.</li>
       </ul>
       
-      <h2>Economic Impact of Corrosion</h2>
-      <p>Corrosion costs industries billions of dollars annually through:</p>
-      <ul>
-        <li>Equipment replacement</li>
-        <li>Maintenance and repairs</li>
-        <li>Production downtime</li>
-        <li>Safety incidents</li>
-        <li>Product contamination</li>
-        <li>Energy losses from reduced efficiency</li>
-      </ul>
+      <p>One obvious and immediate benefit to using <i>Hydro</i>FLOW with regards to the corrosion rate is the fact that the use of the technology allows a system to be run using hard water.</p>
       
-      <h2>How Can HydroFLOW Help?</h2>
-      <p>HydroFLOW helps control corrosion through multiple mechanisms:</p>
+      <p>Hard Water is water that contains a high mineral content such as an amount of dissolved calcium and magnesium in the water. This causes the pH to rise making it less acidic since there is less ionic room.</p>
       
-      <h3>1. Biofilm Prevention</h3>
-      <p>By preventing biofilm formation, HydroFLOW eliminates a major source of microbiologically influenced corrosion. The 150 kHz signal disrupts bacterial adhesion and prevents the establishment of biofilms that create corrosive micro-environments.</p>
+      <p>Soft water is very corrosive; the reason for this can be thought of in several related ways. One way to think of this is that soft water has a lower pH, i.e. is more acidic, and therefore more able to cause corrosion. Another way to think of it is that soft water has ionic room and therefore wants to leech (dissolve) the metal from the pipe.</p>
       
-      <h3>2. Scale Removal</h3>
-      <p>Scale deposits can create crevices and differential aeration cells that promote localized corrosion. By preventing and removing scale, HydroFLOW helps maintain uniform surface conditions that resist corrosive attack.</p>
+      <p><i>Hydro</i>FLOW allows a system to be run using hard rather than softened water, with all the consequent benefits for corrosion reduction. Of course, this benefit only occurs for systems that are changing from soft to hard water. Even if systems are already running on hard water (and dealing with the limescale by cleaning) a positive effect on corrosion is still present.</p>
       
-      <h3>3. Reduced Chemical Usage</h3>
-      <p>Many corrosion inhibitor chemicals can actually contribute to other problems in water systems. By reducing the need for these chemicals, HydroFLOW simplifies water treatment and reduces the potential for adverse chemical interactions.</p>
+      <p>Below is a list of important terms when talking about corrosion:</p>
       
-      <h3>4. Improved Water Quality</h3>
-      <p>By maintaining cleaner water with less suspended solids and biological matter, HydroFLOW helps create conditions less favorable for corrosion to occur.</p>
+      <p><strong>Uniform Corrosion</strong></p>
       
-      <h2>Real-World Results</h2>
-      <p>Industrial facilities using HydroFLOW have reported significant reductions in corrosion rates, extended equipment life, and decreased maintenance costs. The technology provides continuous protection without the need for constant monitoring and chemical adjustment.</p>
+      <p>The most common form of corrosion that takes place over large areas and is characterized by corrosion proceeding evenly over the entire surface area, or a large fraction of the total area.</p>
+      
+      <p><strong>Pitting Corrosion</strong></p>
+      
+      <p>Pitting corrosion is a cavity, hole or pit that forms in a small area or point. This kind of corrosion is very aggressive and is difficult to detect. The pits, or holes are obscured by a small amount of corrosion product (rust) on the surface.</p>
+      
+      <p><strong>Crevice Corrosion</strong></p>
+      
+      <p>Crevice corrosion is a localized attack on a metal surface at, or immediately adjacent to, the gap or crevice between two joining surfaces in which a solution is trapped and not renewed.</p>
+      
+      <p><strong>Galvanic Corrosion</strong></p>
+      
+      <p>Galvanic Corrosion is extraordinarily common and occurs when two metals with different electrochemical charges are linked via a conductive path. Corrosion occurs when metal ions move from the anodic metal to the cathodic metal.</p>
+      
+      <p><strong>Stress Corrosion Cracking (SCC)</strong></p>
+      
+      <p>Stress Corrosion Cracking can seriously damage a component beyond the point of repair. When subjected to extreme tensile stress, a metal component can experience SCC along the grain boundary.</p>
+      
+      <p><strong>General Corrosion</strong></p>
+      
+      <p>General Corrosion occurs because of rust. When metal, specifically steel, is exposed to water, the surface is oxidized, and a thin layer of rust appears.</p>
+      
+      <p><strong>Microbiologically Influenced Corrosion (MIC)</strong></p>
+      
+      <p>MIC is closely related to the activity of living microorganisms in the soil, including microalgae, bacteria, archaea, and fungi. Microorganisms can accelerate the kinetics of anodic/cathodic corrosion reactions.</p>
+      
+      <p><strong>Damage caused by corrosion inside a pipe</strong></p>
+      
+      <p><strong>What is Magnetite?</strong></p>
+      
+      <p>Magnetite is the iron oxide Fe3O4 and refers to an ore of iron that occurs as a black isometric mineral. It is an important oxide of iron because it is highly polar and magnetic.</p>
+      
+      <p>When <i>Hydro</i>FLOW is applied to a pipe, the magnetite forms in a different manner. Instead of forming as a flakey substance, the magnetite forms as a hard, black layer on the pipe surface. This acts as a barrier between the iron in the pipe and the water and slows further corrosion.</p>
     `
   },
   'wastewater-plant-efficiency': {
@@ -1948,47 +1935,11 @@ const blogContent = {
     readTime: '9 min read',
     category: 'industrial',
     content: `
-      <p>Learn how <i>Hydro</i>FLOW helps wastewater treatment plants operate more efficiently and effectively by controlling struvite, reducing polymer usage, and enhancing filtration processes.</p>
+      <h2><strong>Wastewater Treatment Applications</strong></h2>
       
-      <h2>Common Challenges in Wastewater Treatment</h2>
-      <p>Wastewater treatment plants face numerous operational challenges that impact efficiency and costs:</p>
-      <ul>
-        <li>Struvite accumulation in pipes and equipment</li>
-        <li>High polymer consumption in dewatering processes</li>
-        <li>Biofilm formation in treatment equipment</li>
-        <li>Reduced filtration efficiency</li>
-        <li>Frequent equipment cleaning and maintenance</li>
-      </ul>
+      <p>Everything that goes down the drain eventually ends up at a wastewater treatment plant. You name it and it can probably be found somewhere in the wastewater stream. Dirt, food particles, fats, oils, chemicals and other less savory materials contaminate the water. This can cause a number of different issues for wastewater treatment facilities and the equipment involved in removing the contaminants from the water so they can be safely disposed of (or reused!). The award winning <i>Hydro</i>FLOW devices have been installed to control struvite accumulation, reduce polymer use, reduce chemical use, and enhance filtration efficiency in wastewater facilities across the US and the world.</p>
       
-      <h2>HydroFLOW Solutions for Wastewater Treatment</h2>
-      
-      <h3>Struvite Control</h3>
-      <p>Struvite (magnesium ammonium phosphate) is a major problem in anaerobic digestion systems. It forms hard, concrete-like deposits that can block pipes, damage equipment, and require costly shutdowns for removal. HydroFLOW prevents struvite from forming hard crystals, instead causing it to remain in a soft, mud-like state that can be easily flushed away.</p>
-      
-      <h3>Polymer Reduction</h3>
-      <p>HydroFLOW enhances the natural flocculation process, reducing the amount of polymer needed for effective solid-liquid separation. Plants have reported polymer reductions of 20-50% while maintaining or improving cake solids and centrate quality.</p>
-      
-      <h3>Enhanced Filtration</h3>
-      <p>The 150 kHz signal causes suspended particles to cluster together, making them easier to filter out. This improves filtration efficiency and extends the time between backwash cycles.</p>
-      
-      <h3>Biofilm and Bacteria Control</h3>
-      <p>HydroFLOW prevents biofilm formation and controls bacterial populations throughout the treatment process, reducing odors and improving overall plant hygiene.</p>
-      
-      <h2>Installation and Operation</h2>
-      <p>HydroFLOW units install in minutes on the outside of pipes without any plumbing modifications. They operate 24/7 with minimal power consumption (less than a standard light bulb) and require virtually no maintenance. The signal propagates throughout the entire water system, providing protection at every point.</p>
-      
-      <h2>Return on Investment</h2>
-      <p>Wastewater treatment plants typically see ROI within 12-24 months through:</p>
-      <ul>
-        <li>Reduced polymer costs</li>
-        <li>Lower maintenance expenses</li>
-        <li>Decreased chemical usage</li>
-        <li>Extended equipment life</li>
-        <li>Reduced downtime</li>
-        <li>Lower energy consumption</li>
-      </ul>
-      
-      <p>Multiple third-party verification reports have documented these benefits across various wastewater treatment facilities.</p>
+      <p><strong>2017 WEF Innovative Technology Award</strong></p>
     `
   },
   'cooling-towers-applications': {
@@ -2092,74 +2043,23 @@ const blogContent = {
     readTime: '11 min read',
     category: 'industrial',
     content: `
-      <p>Membrane filtration systems, particularly reverse osmosis (RO) and nanofiltration (NF), are critical technologies for water treatment and desalination. However, membrane fouling and scaling remain significant operational challenges that reduce efficiency, increase costs, and shorten membrane lifespan.</p>
+      <p>With the diminishing water resources and increased water demands, treatment of alternative water sources such as seawater, brackish water and reclaimed water can potentially be used as alternative water sources. A popular method used to purify these alternative water sources is reverse osmosis (RO), which is a process that uses membrane technology to remove 95-99% of the total dissolved solids (TDS). Despite pretreatment and advances in membrane technologies, membrane fouling and scaling issues continue to be a major obstacle to RO systems.</p>
       
-      <h2>Understanding Membrane Fouling and Scaling</h2>
-      <p>Membrane fouling occurs when particles, colloids, organic matter, or microorganisms accumulate on the membrane surface or within its pores. Scaling happens when dissolved minerals precipitate out of solution and form deposits on the membrane surface. Both phenomena reduce water flux, increase operating pressure, and degrade permeate quality.</p>
+      <p><strong>Commercial RO System at a brackish water treatment plant</strong></p>
       
-      <h3>Types of Membrane Fouling</h3>
-      <ul>
-        <li><strong>Particulate Fouling:</strong> Suspended particles accumulate on membrane surface</li>
-        <li><strong>Organic Fouling:</strong> Natural organic matter adsorbs onto membranes</li>
-        <li><strong>Biofouling:</strong> Bacterial growth and biofilm formation on membranes</li>
-        <li><strong>Scaling:</strong> Mineral precipitation (calcium carbonate, calcium sulfate, silica, etc.)</li>
-      </ul>
+      <h2><strong>How to Control Membrane Scaling</strong></h2>
       
-      <h2>Traditional Fouling Control Methods</h2>
-      <p>Conventional approaches include:</p>
-      <ul>
-        <li>Chemical pretreatment with antiscalants</li>
-        <li>Acid dosing to prevent scaling</li>
-        <li>Biocides to control bacterial growth</li>
-        <li>Regular chemical cleaning (CIP)</li>
-        <li>Membrane replacement</li>
-      </ul>
+      <p>Membrane scaling is generally controlled by pH adjustment, addition of antiscalant, or extensive pretreatment. <i>Hydro</i>FLOW devices, which are powered by Hydropath technology, are a solution to this challenge by providing a chemical-free alternative to control scaling and membrane biofouling by inhibiting the formation of hard scale and biofilm. In order to validate the efficacy of <i>Hydro</i>FLOW's ability to become a viable solution for RO systems, the New Mexico State University (NMSU) Department of Civil Engineering decided to evaluate the technology at the US Bureau of Reclamation Brackish Groundwater National Desalination Research Facility (BGNDRF).</p>
       
-      <p>While effective to some degree, these methods have drawbacks including high chemical costs, environmental concerns, membrane damage from harsh chemicals, and operational complexity.</p>
+      <p><strong>RO test skid with a <i>Hydro</i>FLOW s38 at BGNDRF</strong></p>
       
-      <h2>Why Hydropath is a Promising Technology</h2>
-      <p>Hydropath technology offers a chemical-free alternative for controlling membrane fouling and scaling. The 150 kHz signal induces ion clustering in the feed water, preventing scale formation and disrupting biofilm development.</p>
+      <p><strong><i>Hydro</i>FLOW s38 unit on RO</strong></p>
       
-      <h3>Mechanism of Action</h3>
-      <p>The Hydropath signal causes dissolved minerals to form stable clusters in suspension rather than precipitating as hard scale on membrane surfaces. Additionally, the signal interferes with bacterial adhesion, preventing biofilm formation that would otherwise reduce membrane performance.</p>
+      <h2><strong>Reduction of RO Membrane Scaling</strong></h2>
       
-      <h2>Testing Results with s38 and hs40 Models</h2>
-      <p>Controlled studies evaluating Hydropath technology for membrane protection have shown promising results:</p>
+      <p><i>Hydro</i>FLOW reduced membrane scaling by 40% which demonstrated it is a promising technology to significantly reduce membrane fouling. With this said, further testing is required to optimize the <i>Hydro</i>FLOW solution.</p>
       
-      <h3>Benefits Observed</h3>
-      <ul>
-        <li>Reduced scaling on membrane surfaces</li>
-        <li>Decreased frequency of chemical cleaning</li>
-        <li>Extended membrane lifespan</li>
-        <li>Maintained or improved flux rates</li>
-        <li>Reduced chemical usage (antiscalants and cleaning chemicals)</li>
-        <li>Lower operating pressures</li>
-        <li>Improved permeate quality</li>
-      </ul>
-      
-      <h2>Applications in Brackish Groundwater Desalination</h2>
-      <p>Brackish groundwater desalination presents particular challenges due to high mineral content. Hydropath technology has demonstrated effectiveness in:</p>
-      <ul>
-        <li>Preventing calcium carbonate scaling</li>
-        <li>Reducing silica deposition</li>
-        <li>Controlling biological fouling</li>
-        <li>Improving overall system recovery rates</li>
-      </ul>
-      
-      <h2>Economic and Environmental Benefits</h2>
-      <p>By reducing chemical dependency and extending membrane life, Hydropath technology offers both economic and environmental advantages:</p>
-      <ul>
-        <li>Lower operating costs</li>
-        <li>Reduced chemical handling and storage requirements</li>
-        <li>Decreased environmental impact from chemical discharge</li>
-        <li>Simplified operation and maintenance</li>
-        <li>Improved system reliability</li>
-      </ul>
-      
-      <h2>Implementation Considerations</h2>
-      <p>HydroFLOW units can be easily integrated into existing membrane systems without major modifications. The units install on the feed pipe upstream of the membrane modules and operate continuously to provide ongoing protection. The technology is compatible with conventional pretreatment methods and can work synergistically with reduced chemical dosing.</p>
-      
-      <p>As water scarcity increases and environmental regulations tighten, technologies like Hydropath that reduce chemical usage while maintaining performance become increasingly valuable for sustainable water treatment operations.</p>
+      <p><strong>BGNDRF Report</strong></p>
     `
   },
   'water-award': {
@@ -2171,24 +2071,19 @@ const blogContent = {
     content: `
       <p><i>Hydro</i>FLOW USA of Redmond, WA, received the prestigious Innovative Technology Award from the Water Environment Federation (WEF), an international not-for-profit technical and educational water quality organization.</p>
       
-      <h2>Innovative Technology Award</h2>
+      <h2><strong>Innovative Technology Award</strong></h2>
+      
       <p>The Innovative Technology Award recognizes WEF Associate Members who have introduced new innovative products or services related to the construction, operation or maintenance of treatment facilities.</p>
       
       <p>The <i>Hydro</i>FLOW product, powered by Hydropath technology, showed to be extremely innovative with field data supporting the claims of removing struvite build up in pipelines. This product could have an extreme benefit for many plants around the US struggling with this issue in their digesters, connecting pipes and dewatering devices.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/WEF%2BAward%2BCollage.png" alt="HydroFLOW team receives WEF award" />
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/WEF%2BAward%2BCollage.png" alt="hydroFLOW team receive WEF award" />
       
-      <p><i>Hydro</i>FLOW USA was honored during WEFTEC® 2017, the world's largest annual water quality conference and exhibition, in Chicago on October 3.</p>
+      <p><i>Hydro</i>FLOW USA was honored during WEFTEC® 2017, the world's largest annual water quality conference and exhibition, in Chicago on October 3. To learn more about <i>Hydro</i>FLOW USA solutions, contact us today.</p>
       
-      <h2>About Water Environment Federation</h2>
-      <p>The Water Environment Federation (WEF) is a not-for-profit technical and educational organization of 34,000 individual members and 75 affiliated Member Associations representing water quality professionals around the world. Since 1928, WEF and its members have protected public health and the environment.</p>
+      <h2><strong>About Water Environment Federation</strong></h2>
       
-      <p>As a global water sector leader, WEF's mission is to connect water professionals; enrich the expertise of water professionals; increase the awareness of the impact and value of water; and provide a platform for water sector innovation.</p>
-      
-      <h2>Significance of the Award</h2>
-      <p>This recognition from WEF validates the effectiveness of Hydropath technology in solving real-world water treatment challenges. The award highlights HydroFLOW's innovative approach to struvite control and its potential to benefit wastewater treatment facilities across the United States and beyond.</p>
-      
-      <p>The field data and third-party verification reports that supported this award demonstrate HydroFLOW's ability to deliver measurable results in reducing operational costs, improving efficiency, and providing sustainable water treatment solutions.</p>
+      <p>The Water Environment Federation (WEF) is a not-for-profit technical and educational organization of 34,000 individual members and 75 affiliated Member Associations representing water quality professionals around the world. Since 1928, WEF and its members have protected public health and the environment. As a global water sector leader, our mission is to connect water professionals; enrich the expertise of water professionals; increase the awareness of the impact and value of water; and provide a platform for water sector innovation.</p>
     `
   },
   'legionella-frequency-control': {
@@ -2198,43 +2093,27 @@ const blogContent = {
     category: 'industrial',
     image: 'https://hydroflow-usa.com/assets/userfiles/images/chart%2Bshowing%2Bincreases%2Bin%2Blegionella%2Bcases.jpg',
     content: `
-      <p>Bacteria exist in every aspect of our lives. Many bacteria are helpful, while some species of microorganisms can be very harmful to humans and the environment, under certain conditions. Buildings provide a hospitable environment for numerous types of bacteria, which can be detected in both air and water. Considerable efforts are taken to ensure that bacteria are prevented from harming building occupants and visitors. Most facility engineers and operation managers are focused on controlling waterborne pathogens (including legionella) that grow in cooling towers, chillers, and water systems.</p>
+      <p>Bacteria exist in every aspect of our lives. Many bacteria are helpful, while some species of microorganisms can be very harmful to humans and the environment, under certain conditions. Buildings provide a hospitable environment for numerous types of bacteria, which can be detected in both air and water. Considerable efforts are taken to ensure that bacteria are prevented from harming building occupants and visitors. Most facility engineers and operation managers are focused on controlling waterborne pathogens (including legionella) that grow in cooling towers, chillers, and water systems. Legionella has become a significant concern for management of water systems, especially in urban settings with large numbers of visitors and occupants in buildings.</p>
       
-      <p>Legionella has become a significant concern for management of water systems, especially in urban settings with large numbers of visitors and occupants in buildings.</p>
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/chart%2Bshowing%2Bincreases%2Bin%2Blegionella%2Bcases.jpg" alt="chart showing legionnaires' cases on the rise" />
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/chart%2Bshowing%2Bincreases%2Bin%2Blegionella%2Bcases.jpg" alt="Chart showing Legionnaires' cases on the rise" />
+      <h2><strong>Legionella Prevention</strong></h2>
       
-      <h2>Legionella Prevention</h2>
-      <p>A common legionella prevention practice is to apply chemistry, which sometimes helps in controlling bacteria. In addition, certain chemicals are used to attempt to control scale and corrosion. As long as the mixture of chemicals is compatible and monitored carefully, the water quality is reasonably managed.</p>
+      <p>A common legionella prevention practice is to apply chemistry, which sometimes helps in controlling bacteria. In addition, certain chemicals are used to attempt to control scale and corrosion. As long as the mixture of chemicals is compatible and monitored carefully, the water quality is reasonably managed. When cycles of concentration (COC) reach elevated levels of conductivity, the controllers automatically purge (blowdown) a percentage of water that is replaced with fresh make-up water that has less hardness as a means of controlling scale. Unfortunately, a significant amount of chemistry is also purged, requiring replenishment and balancing of chemicals. Traditionally, the process of controlling bacteria and scale continues constantly, with considerable costs relating to water and chemicals.</p>
       
-      <p>When cycles of concentration (COC) reach elevated levels of conductivity, the controllers automatically purge (blowdown) a percentage of water that is replaced with fresh make-up water that has less hardness as a means of controlling scale. Unfortunately, a significant amount of chemistry is also purged, requiring replenishment and balancing of chemicals. Traditionally, the process of controlling bacteria and scale continues constantly, with considerable costs relating to water and chemicals.</p>
+      <h2><strong>Alternate Method for Controlling Legionella</strong></h2>
       
-      <h2>Alternate Method for Controlling Legionella</h2>
-      <p><i>Hydro</i>FLOW water conditioners are an alternate method for controlling legionella without the use of potentially harmful chemicals. They are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market.</p>
-      
-      <p>Over twenty years ago, Hydropath Technology Limited, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits.</p>
-      
-      <p>This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
+      <p><i>Hydro</i>FLOW water conditioners are an alternate method for controlling legionella without the use of potentially harmful chemicals. They are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, Hydropath Technology Limited, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/HydroFLOW%2B14%25E2%2580%259D%2Bcustom%2Bunit%2Binstalled%2Bon%2Bcooling%2Btower%2Bfor%2Blegionella%2Bcontrol.jpg" alt="HydroFLOW 14 inch custom unit" />
+      
+      <p><strong><i>Hydro</i>FLOW 14" custom unit</strong></p>
+      
       <img src="https://hydroflow-usa.com/assets/userfiles/images/cooling%2Btower.jpg" alt="Cooling tower with a HydroFLOW unit installed for legionella control" />
       
-      <h2>Benefits of Frequency-Based Control</h2>
+      <p><strong>​Cooling tower with a HydroFLOW unit for legionella control</strong></p>
+      
       <p><i>Hydro</i>FLOW water conditioning devices are able to effectively control bacteria and biofilm in water systems, along with controlling scale and corrosion while improving filtration. <i>Hydro</i>FLOW reduces water, chemistry and energy use while saving substantial costs and usually pays for itself within 4-18 months.</p>
-      
-      <h3>Key Advantages</h3>
-      <ul>
-        <li>Chemical-free bacteria control</li>
-        <li>Continuous 24/7 protection</li>
-        <li>No harmful byproducts</li>
-        <li>Reduced chemical costs</li>
-        <li>Lower maintenance requirements</li>
-        <li>Environmentally sustainable</li>
-        <li>Safe for building occupants</li>
-      </ul>
-      
-      <h2>Application in Building Water Systems</h2>
-      <p>HydroFLOW units can be installed on cooling towers, potable water systems, water heaters, and other building water systems where legionella control is needed. The signal propagates throughout the entire system, providing comprehensive protection at all points including areas that are difficult to reach with chemical treatments.</p>
     `
   },
   // Marine blogs
