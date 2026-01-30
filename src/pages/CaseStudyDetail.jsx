@@ -1209,6 +1209,39 @@ export default function CaseStudyDetail() {
                 </Link>
               </div>
             </motion.div>
+
+            {/* Wastewater Video - Only for wastewater-related case studies */}
+            {(slug === 'sludge-line-struvite-treatment' || 
+              slug === 'city-of-walla-walla-wastewater-plant' || 
+              slug === 'lehigh-county-wwtp-struvite-treatment' || 
+              slug === 'wastewater-treatment-plant-in-ohio' ||
+              slug === 'massive-texas-factory') && (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.9 }}
+              >
+                <Card className="p-8">
+                  <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center">
+                    See <i>Hydro</i>FLOW in Action
+                  </h3>
+                  <p className="text-slate-600 mb-6 text-center">
+                    Watch how our technology transforms wastewater treatment
+                  </p>
+                  <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-slate-100">
+                    <iframe
+                      src="https://player.vimeo.com/video/1156116944"
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    ></iframe>
+                  </div>
+                </Card>
+              </motion.div>
+            )}
           </div>
         </div>
       </section>
