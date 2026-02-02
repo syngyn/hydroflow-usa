@@ -270,16 +270,20 @@ export default function Support() {
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <div className="aspect-video bg-slate-900 rounded-lg flex items-center justify-center mb-4">
-                        <PlayCircle className="w-16 h-16 text-white/50" />
+                      <div className="aspect-video rounded-lg overflow-hidden mb-4">
+                        <iframe
+                          src={guide.videoUrl}
+                          width="100%"
+                          height="100%"
+                          frameBorder="0"
+                          allow="autoplay; fullscreen; picture-in-picture"
+                          allowFullScreen
+                          className="w-full h-full"
+                        />
                       </div>
-                      <p className="text-sm text-slate-600 mb-4">
+                      <p className="text-sm text-slate-600">
                         Watch our complete installation guide for the {guide.product}
                       </p>
-                      <Button className="w-full" variant="outline">
-                        <PlayCircle className="w-4 h-4 mr-2" />
-                        Watch Full Video
-                      </Button>
                     </CardContent>
                   </Card>
 
@@ -345,35 +349,34 @@ export default function Support() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 gap-8">
             {videoResources.map((video, index) => (
-              <motion.a
+              <motion.div
                 key={index}
-                href={video.url}
-                target="_blank"
-                rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="group"
               >
-                <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-                  <div className="relative aspect-video bg-slate-900">
-                    <div className="absolute inset-0 flex items-center justify-center bg-black/50 group-hover:bg-black/30 transition-colors">
-                      <PlayCircle className="w-12 h-12 text-white" />
-                    </div>
-                    <div className="absolute bottom-2 right-2 bg-black/80 px-2 py-1 rounded text-xs text-white">
-                      {video.duration}
-                    </div>
+                <Card className="overflow-hidden">
+                  <div className="aspect-video">
+                    <iframe
+                      src={`https://player.vimeo.com/video/${video.url.split('/').pop().split('?')[0]}`}
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
                   <CardContent className="p-4">
-                    <h3 className="font-semibold text-slate-900 group-hover:text-cyan-600 transition-colors">
+                    <h3 className="font-semibold text-slate-900">
                       {video.title}
                     </h3>
                   </CardContent>
                 </Card>
-              </motion.a>
+              </motion.div>
             ))}
           </div>
         </div>
