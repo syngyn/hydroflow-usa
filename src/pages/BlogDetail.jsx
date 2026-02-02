@@ -1527,20 +1527,22 @@ const blogContent = {
     readTime: '9 min read',
     category: 'commercial',
     content: `
-      <p>Early Spring is a good time for facility operators to prepare their building water systems for the warm months ahead, and to consider safe and sustainable ways to prevent legionella, which forms in numerous water systems besides cooling towers. Legionella is not a new strain of bacteria, but with continuous improvements in the efficiencies of systems and building practices, these bacteria could be more difficult to control in some areas that chemicals have difficulty reaching. HydroFLOW is an electronic water conditioning device that controls bacteria, scale and corrosion in water systems. HydroFLOW controls legionella and algae in cooling towers, potable water systems and water heaters with a frequency that extends throughout a water system.</p>
+      <p>Early Spring is a good time for facility operators to prepare their building water systems for the warm months ahead, and to consider safe and sustainable ways to prevent legionella, which forms in numerous water systems besides cooling towers. Legionella is not a new strain of bacteria, but with continuous improvements in the efficiencies of systems and building practices, these bacteria could be more difficult to control in some areas that chemicals have difficulty reaching. <i>Hydro</i>FLOW is an electronic water conditioning device that controls bacteria, scale and corrosion in water systems. <i>Hydro</i>FLOW controls legionella and algae in cooling towers, potable water systems and water heaters with a frequency that extends throughout a water system.</p>
       
-      <p>Chemicals should be used in water systems according to regulations, and when used with HydroFLOW the volume of chemical use is reduced between 50%-75%, and water purging/blowdown is decreased by more than 50% in most cases. HydroFLOW reduces chemicals, water and energy use as a sustainable water management technology for water systems of any size.</p>
+      <p>Chemicals should be used in water systems according to regulations, and when used with <i>Hydro</i>FLOW the volume of chemical use is reduced between 50%-75%, and water purging/ blowdown is decreased by more than 50% in most cases. <i>Hydro</i>FLOW reduces chemicals, water and energy use as a sustainable water management technology for water systems of any size.</p>
       
       <p>Legionnaires outbreaks have occurred with some frequency recently, and after considerable time and review, ASHRAE approved the 188 standard for legionella in 2015 called ANSI/ASHRAE 188-2015, "Legionellosis: Risk Management for Building Water Systems." The Legionella risk reduction strategy set forth in 188-2015 is to implement a water management plan for building water systems including cooling towers, evaporative condensers, whirlpool spas, ornamental fountains, misters, atomizers, air washers, humidifiers, and other devices that release water droplets.</p>
       
-      <h2>Legionella Management</h2>
+      <h2><strong>Legionella Management</strong></h2>
+      
       <p>A management plan would be required for potable plumbing systems only in buildings that have any of the following:</p>
+      
       <ol>
-        <li>Multiple housing units with a centralized hot water system</li>
-        <li>More than 10 stories</li>
-        <li>Housing for occupants over the age of 65</li>
-        <li>Health care for patients staying longer than 24 hours</li>
-        <li>An area housing or treating persons at especially high risk of contracting Legionnaires' disease</li>
+        <li>multiple housing units with a centralized hot water system</li>
+        <li>more than 10 stories</li>
+        <li>housing for occupants over the age of 65</li>
+        <li>health care for patients staying longer than 24 hours</li>
+        <li>an area housing or treating persons at especially high risk of contracting Legionnaires' disease.</li>
       </ol>
       
       <p>HVAC contractors and others that provide services on or near cooling towers should take reasonable measures to protect themselves from Legionnaires' disease, and many building operators have initiated legionella testing programs on a schedule to monitor levels of bacteria in water systems. Water systems that are determined to require Legionella control measures require designers to provide documentation, diagrams, and instructions for monitoring and control of legionella, and should note locations of equipment access (and note inadequate access), filling and draining, flushing, sampling, temperature monitoring, treatment, no flow and low flow areas, possible cross connections between potable and non-potable systems, and outside air intakes.</p>
@@ -1549,8 +1551,9 @@ const blogContent = {
       
       <p>Legionella prevention and mitigation should be a part of every facility manager's standard operating procedures, and while chemicals have traditionally been at the forefront of control, more sustainable methods can be used that complement chemical applications while reducing their volume and cost.</p>
       
-      <h2>Legionella Treatment with HydroFLOW</h2>
-      <p>HydroFLOW installs in minutes and operates 24/7 without balancing dosages or concentrations. HydroFLOW neutralizes bacteria, biofilm and algae throughout a water system while controlling scale, which reduces another set of chemicals that require balancing. Sustainable water management is good for people, budgets and it improves operations.</p>
+      <h2><strong>Legionella Treatment with <i>Hydro</i>FLOW</strong></h2>
+      
+      <p><i>Hydro</i>FLOW installs in minutes and operates 24/7 without balancing dosages or concentrations. <i>Hydro</i>FLOW neutralizes bacteria, biofilm and algae throughout a water system while controlling scale, which reduces another set of chemicals that require balancing. Sustainable water management is good for people, budgets and it improves operations.</p>
     `
   },
   'silicates-effect': {
@@ -1559,17 +1562,20 @@ const blogContent = {
     readTime: '5 min read',
     category: 'commercial',
     content: `
-      <h2>Prevention of New Scale</h2>
+      <h2><strong>Prevention of New Scale</strong></h2>
+      
       <p>Scaling in pipes can be due to a range of different compounds. One of the most common of these is Calcium Carbonate (Limescale) but there is a range of others. One such family is the Silicates, (compounds containing silicon rather than carbon). In both cases, the minerals are in a dissolved form in the water as positively and negatively charged ions.</p>
       
       <p>Hydropath technology acts to create clusters of ions. These clusters are groups of dissolved ions that are still in solution but nevertheless have some structure and act as precursors to crystals. This means that when the water becomes supersaturated, the clusters act as "starting points," and the crystals form in suspension in the water, rather than as hard "scale" on the surface of pipes and equipment.</p>
       
       <p>This process is based on the ionic nature of the crystals, and therefore this effect applies to any scale formed from ionic compounds, including Carbonate Scaling and Silicate Scaling.</p>
       
-      <h2>Removal of Existing Scale</h2>
-      <p>When dissolved calcium and bicarbonate ions come out of solution and crystallize, they release carbon dioxide into the water. This makes the water able to dissolve the existing Calcium Carbonate scale. This release does not occur with silicate-based compounds and therefore HydroFLOW cannot directly remove the existing silicate scale.</p>
+      <h2><strong>Removal of Existing Scale</strong></h2>
       
-      <h2>Combined Silicate and Carbonate Scale</h2>
+      <p>When dissolved calcium and bicarbonate ions come out of solution and crystallize, they release carbon dioxide into the water. This makes the water able to dissolve the existing Calcium Carbonate scale. This release does not occur with silicate-based compounds and therefore <i>Hydro</i>FLOW cannot directly remove the existing silicate scale.</p>
+      
+      <h2><strong>Combined Silicate and Carbonate Scale</strong></h2>
+      
       <p>In practice, the scale in many systems is formed by a combination of both calcium carbonate and silicate scale. This means that what often happens, is that the silicate scale is formed in a matrix with calcium carbonate scale. Therefore, removing the calcium carbonate scale can remove the silicate scale because the scale formation is a matrix of calcium and silica. The silica does, in fact come off, but not as a direct result of dissolving the silica.</p>
     `
   },
@@ -1610,22 +1616,30 @@ const blogContent = {
     category: 'commercial',
     image: 'https://hydroflow-usa.com/assets/userfiles/images/S38%2Bunit%2Bon%2Bcommercial%2Bdishwasher.jpg',
     content: `
-      <h2>Award-Winning Descaler Aids California Restaurant</h2>
+      <h2><strong>Award-Winning Descaler Aids California Restaurant</strong></h2>
+      
       <p>The Brookfields Restaurant chain consists of three large eateries located in and around Sacramento, California. Like many others, Brookfields Restaurants were equipped with water softeners to control scale on their hot water equipment, which consists of hot water heaters, dishwashers, steamers, coffeemakers and espresso machines. Even with the softeners, Brookfields Restaurant managers reported that flatware looked dull and did not appear clean. Both flatware and dishes were also covered with water spots, and employees regularly had to clean scale deposits from the stainless steel appliances. Owner Sam Manolakas was concerned that even though flatware and dishes were cleaned and sterilized, their appearance would cause customers to question their cleanliness. The three restaurants triple-filtered their incoming water, but hard water problems persisted.</p>
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/S38%2Bunit%2Bon%2Bcommercial%2Bdishwasher.jpg" alt="S38 unit on a commercial dishwasher" />
       
-      <h2>Alternative Water Treatment Methods</h2>
-      <p>Mr. Manolakas began to look for alternative methods that would save the costs of managing the 11,000 gal of water used in each restaurant per day. In December 2010, a California-based representative of HydroFLOW, installed HydroFLOW an HS40 water conditioner at each restaurant and shut off or bypassed their water softeners.</p>
+      <p><strong>S38 unit on a commercial dishwasher</strong></p>
+      
+      <h2><strong>Alternative Water Treatment Methods</strong></h2>
+      
+      <p>Mr. Manolakas began to look for alternative methods that would save the costs of managing the 11,000 gal of water used in each restaurant per day. In December 2010, a California-based representative of <i>Hydro</i>FLOW, installed <i>Hydro</i>FLOW an HS40 water conditioner at each restaurant and shut off or bypassed their water softeners.</p>
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/HydroFLOW%2Bis%2Ban%2Baward-winning%2Btechnology%281%29.jpg" alt="HydroFLOW is an award-winning technology" />
       
-      <h2>How HydroFLOW Water Conditioners Work</h2>
-      <p>The HydroFLOW systems do not use salt or chemicals; rather they apply an electrical field to the water inside the pipes, which affects the ions that cause scale. The systems work via the patented Hydropath technology, which travels throughout the water system and causes ions to form small suspended clusters in the water, rather than a mass of hard scale inside pipes and equipment. The electrical signal consists of high-frequency oscillations which repeat at varying intervals. Water can hold a certain amount of dissolved minerals. It becomes less able to hold minerals under certain conditions, such as when it experiences a change in temperature or pressure. When this happens, scale begins to form on available surfaces, like the inside of a dishwasher or a pipe.</p>
+      <p><strong><i>Hydro</i>FLOW is an award-winning technology</strong></p>
+      
+      <h2><strong>How <i>Hydro</i>FLOW Water Conditioners Work</strong></h2>
+      
+      <p>The <i>Hydro</i>FLOW systems do not use salt or chemicals; rather they apply an electrical field to the water inside the pipes, which affects the ions that cause scale. The systems work via the patented Hydropath technology, which travels throughout the water system and causes ions to form small suspended clusters in the water, rather than a mass of hard scale inside pipes and equipment. The electrical signal consists of high-frequency oscillations which repeat at varying intervals. Water can hold a certain amount of dissolved minerals. It becomes less able to hold minerals under certain conditions, such as when it experiences a change in temperature or pressure. When this happens, scale begins to form on available surfaces, like the inside of a dishwasher or a pipe.</p>
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/S38%2Bunit%2Bon%2Ba%2Bcommercial%2Bsteam%2Boven.jpg" alt="S38 unit on a commercial steam oven" />
       
-      <h2>The Results</h2>
+      <p><strong>S38 unit on a commercial steam oven</strong></p>
+      
       <p>Within a few days of installing the new water conditioners, employees reported that flatware and dishes were shiny and clear. In addition, the stainless steel appliances were easier to clean. Minerals still left some water spots, but they could be easily wiped off with a dry cloth. After 30 days, it was determined that the Madison Avenue restaurant needed an additional small S38 water conditioner for its dishwasher due to the higher mineral content of the incoming water at that location. Mr. Manolakas was pleased with the results of the new water conditioners, reporting that the devices were remarkable in their ability to remove scale and produce shiny dishes and flatware. Each restaurant is able to save approximately $1,800 per year on softener maintenance and salt.</p>
       
       <p>The new water conditioners also allowed the Brookfields Sacramento restaurants to use fewer chemicals for cleaning and dishwasher care. Installation required no plumbing revisions and was completed in minutes. The systems require no maintenance and consume less than $1 worth of electricity per year. Additionally, they take up less space than the restaurants' previous water softeners.</p>
@@ -1642,30 +1656,37 @@ const blogContent = {
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B1%281%29.png" alt="Ice machine with biofilm" />
       
-      <h2>Dangers of Eating Ice</h2>
+      <p><strong>Ice machine with biofilm</strong></p>
+      
+      <h2><strong>Dangers of Eating Ice</strong></h2>
+      
       <p>Ice makers require scheduled disinfection and wiping down to ensure that bacteria and mold are not allowed to grow in the ice production areas or the storage bins. There is a range of bacteria that survive in the cold environment, including Listeria, Salmonella, E. coli, Shigella, and even legionella outbreaks can occur in hospital ice machines. Biofilm usually forms in the ice trays and is difficult to control. Biofilm encapsulates a number of bacteria species and serves to protect bacteria very effectively, even from chemicals.</p>
       
       <p>Biofilm is often called bio-slime, which regrows rapidly in moist environments. Ice machines with a "cleaning cycle" often do not disinfect the equipment, and will not eliminate biofilm and associated bacteria. Stopping ice production to thoroughly clean a machine requires careful scheduling to ensure that ice will be available for the next shift. Due to the expectation of clean tasting water that does not have chemical taste, the cleaning and maintenance process is a difficult and time-consuming process that requires a schedule; using safe chemicals and tools that do not leave residue.</p>
       
-      <h2>An Alternative Disinfectant for Your Ice Maker</h2>
-      <p>As an alternative to this process, a HydroFLOW unit can be installed. HydroFLOW water conditioners are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
+      <h2><strong>An Alternative Disinfectant for Your Ice Maker</strong></h2>
+      
+      <p>As an alternative to this process, a <i>Hydro</i>FLOW unit can be installed. <i>Hydro</i>FLOW water conditioners are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B4.png" alt="S38 unit on a commercial ice machine" />
       
-      <p>Biofilm often attaches to scale in water systems, which is difficult to remove, so the HydroFLOW saves time, expense and labor while maintaining bacteria and scale control. Kitchens and homes that use water softeners no longer need them after installing a HydroFLOW. Scale does not form, and existing scale is removed over time.</p>
+      <p><strong>S38 unit on a commercial ice machine</strong></p>
       
-      <h2>Restaurant Success Story</h2>
-      <p>A popular restaurant chain in the Dallas/Fort Worth area installed a HydroFlow unit on an ice machine that exhibited pink and black slime despite frequent cleaning. The machine was cleaned and a HydroFLOW S38 model was installed. After 30 days, the ice machine was inspected and no algae or discoloration from bacteria was present in the machine. The HydroFLOW prevented new contamination while removing existing bacteria. The restaurant installed HydroFLOW units in all of their restaurants with no biofouling after 6 months of use.</p>
+      <p>Biofilm often attaches to scale in water systems, which is difficult to remove, so the <i>Hydro</i>FLOW saves time, expense and labor while maintaining bacteria and scale control. Kitchens and homes that use water softeners no longer need them after installing a <i>Hydro</i>FLOW. Scale does not form, and existing scale is removed over time.</p>
       
-      <p>When labor and maintenance costs were calculated for manually cleaning an ice machine monthly, the cost of a HydroFLOW was recovered within 4 months.</p>
+      <p>A popular restaurant chain in the Dallas/Fort Worth area installed a <i>Hydro</i>Flow unit on an ice machine that exhibited pink and black slime despite frequent cleaning. The machine was cleaned and a <i>Hydro</i>FLOW S38 model was installed. After 30 days, the ice machine was inspected and no algae or discoloration from bacteria was present in the machine. The <i>Hydro</i>FLOW prevented new contamination while removing existing bacteria. The restaurant installed <i>Hydro</i>FLOW units in all of their restaurants with no biofouling after 6 months of use.</p>
+      
+      <p>When labor and maintenance costs were calculated for manually cleaning an ice machine monthly, the cost of a <i>Hydro</i>FLOW was recovered within 4 months.</p>
+      
+      <p><i>Hydro</i>FLOW received the 2015 Innovator of the Year award by the National Restaurant Association for applications in ice machines, steam tables, dishwashers and steamers. With a <i>Hydro</i>FLOW the expense and labor associated with having a water softener is eliminated.</p>
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B2.png" alt="HydroFLOW Receiving the National Restaurant Association Kitchen Innovations Award" />
       
-      <p>HydroFLOW received the 2015 Innovator of the Year award by the National Restaurant Association for applications in ice machines, steam tables, dishwashers and steamers. With a HydroFLOW the expense and labor associated with having a water softener is eliminated.</p>
+      <p><strong><i>Hydro</i>FLOW Receiving the National Restaurant Association Kitchen Innovations Award</strong></p>
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/What%2Bin%2Byour%2Bice%2Bpic%2B3.png" alt="Kitchen Innovations Award" />
       
-      <p>HydroFLOW water conditioners are powered by the patented Hydropath technology, are effective and operate on less than $10 of electricity per year. They have no moving parts and operate 24/7 to control bacteria and scale. HydroFLOW units are easy to install in minutes, and require no cutting of pipes or interruption of production. HydroFLOW reduces water use, chemicals and energy.</p>
+      <p><i>Hydro</i>FLOW water conditioners are powered by the patented Hydropath technology, are effective and operate on less than $10 of electricity per year. They have no moving parts and operate 24/7 to control bacteria and scale. <i>Hydro</i>FLOW units are easy to install in minutes, and require no cutting of pipes or interruption of production. <i>Hydro</i>FLOW reduces water use, chemicals and energy.</p>
     `
   },
   'canine-connection': {
@@ -1675,39 +1696,41 @@ const blogContent = {
     category: 'commercial',
     image: 'https://hydroflow-usa.com/assets/userfiles/images/Canine%2Btherapy%2Bpool.jpg',
     content: `
-      <p>On September 22, 2011, TOPS Veterinary initiated a test pilot to study the effectiveness of HydroFLOW's water conditioning technology on its canine therapy pools. TOPS is in the business of veterinary rehabilitation, and one of the treatment options it often employs is hydro-treadmill therapy. The facility has two – 1,000 gallon therapy pools, supported by a large sand filtration system, a dual-speed filtration pump and a booster for the jets.</p>
+      <p>On September 22, 2011, TOPS Veterinary initiated a test pilot to study the effectiveness of <i>Hydro</i>FLOW's water conditioning technology on its canine therapy pools. TOPS is in the business of veterinary rehabilitation, and one of the treatment options it often employs is hydro-treadmill therapy. The facility has two – 1,000 gallon therapy pools, supported by a large sand filtration system, a dual-speed filtration pump and a booster for the jets.</p>
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/Canine%2Btherapy%2Bpool.jpg" alt="Canine therapy pool" />
       
-      <h2>The Challenge</h2>
+      <p><strong>Canine therapy pool</strong></p>
+      
       <p>Prior to the pilot study, TOPS treated their pools with a low-level chlorine dosage and a copper ionization system. Additionally, chemicals were used to raise and lower pH, and other parameters on a regular basis. The pools were filled with water from the facility's well, which was treated to remove high levels of sulfur (19 ppm). Although the water is treated, the pool walls had become a greenish color, which the staff speculated was either the result of sulfur that remained in the water after it was treated or algae growth.</p>
       
-      <p>TOPS' interest in the HydroFLOW system was twofold: First, it wanted to see if it could maintain bacteria levels of zero by utilizing the system with a decreased amount of pool chemicals. Second, it wanted to find out if the system would have any effect on the greenish color of the pool walls.</p>
+      <p>TOPS' interest in the <i>Hydro</i>FLOW system was twofold: First, it wanted to see if it could maintain bacteria levels of zero by utilizing the system with a decreased amount of pool chemicals. Second, it wanted to find out if the system would have any effect on the greenish color of the pool walls.</p>
       
-      <p>A dog contributes much more dirt and bacteria to a pool than a human, putting a much higher load on the treatment system. Utilizing a pool for approximately 8 to 10 dogs per day compounds this effect, especially in such a small pool. Testing of the HydroFLOW system lasted 9.5 weeks.</p>
+      <p>A dog contributes much more dirt and bacteria to a pool than a human, putting a much higher load on the treatment system. Utilizing a pool for approximately 8 to 10 dogs per day compounds this effect, especially in such a small pool. Testing of the <i>Hydro</i>FLOW system lasted 9.5 weeks.</p>
       
-      <h2>Baseline Testing</h2>
       <p>TOPS took several baseline measurements prior to the installation of the new treatment system. The first measurements were taken prior to backwash, after evening shock the night before. They showed that with the facility's current treatment method, the pool water was relatively free of bacteria, with only five colonies appearing. The pool wall, however, was riddled with bacteria, with many colonies appearing in the test.</p>
       
-      <p>A second set of measurements was taken after backwash, with a two-day stabilization period to adjust the pH. The pool water continues to be essentially bacteria free, with only one colony appearing. Next, the facility put the pool into service for one day, with bacteria being introduced by the dogs.</p>
+      <p>A second set of measurements was taken after backwash, with a two-day stabilization period to adjust the pH.The pool water continues to be essentially bacteria free, with only one colony appearing. Next, the facility put the pool into service for one day, with bacteria being introduced by the dogs.</p>
       
       <p>A test was taken the next morning, following evening sanitation. No colonies appeared, indicating that the facility's current treatment protocol was effective, even with dogs introducing bacteria to the water.</p>
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/Commercial%2BBlog%2B3%2B-%2BPic%2B2.png" alt="Performing lab test on canine pool" />
       
-      <h2>HydroFLOW's Impact on Canine Therapy Pools</h2>
-      <p>The HydroFLOW system was then installed, and TOPS continued with its normal chemical dosage schedule, but with no additional backwash. The purpose was to determine whether the HydroFLOW system had any negative effects on bacteria levels, and to provide a baseline with the new system, but without a reduction in chemicals. After two weeks, tests showed that the new system had not increased bacteria levels, with no colonies appearing.</p>
+      <p><strong>Performing lab test on canine pool</strong></p>
+      
+      <h2><strong><i>Hydro</i>FLOW's Impact on Canine Therapy Pools</strong></h2>
+      
+      <p>The <i>Hydro</i>FLOW system was then installed, and TOPS continued with its normal chemical dosage schedule, but with no additional backwash. The purpose was to determine whether the <i>Hydro</i>FLOW system had any negative effects on bacteria levels, and to provide a baseline with the new system, but without a reduction in chemicals. After two weeks, tests showed that the new system had not increased bacteria levels, with no colonies appearing.</p>
       
       <p>TOPS continued this treatment scheme for an additional four weeks. Tests at the four and six-week marks continued to reveal no bacteria colonies. By six weeks, the maximum time between backwashes had elapsed. It was also determined that the treatment scheme had no effects on filter pump pressure.</p>
       
-      <p>Next, TOPS ran the HydroFLOW system for two weeks with chemicals reduced by 25% and the copper ionization system turned off. Testing after a backwash showed that the water remained bacteria free even with the reduction in chemicals.</p>
+      <p>Next, TOPS ran the <i>Hydro</i>FLOW system for two weeks with chemicals reduced by 25% and the copper ionization system turned off. Testing after a backwash showed that the water remained bacteria free even with the reduction in chemicals.</p>
       
       <p>For the next 1.5 weeks, staff reduced the chemicals by 50% and continued to leave the copper ionization system off. The pool water continued to have very low bacteria counts.</p>
       
       <p>At the end of the pilot study, TOPS re-tested the pool wall. It did not expect dramatically different results from the baseline test, due to the bacteria-harboring nature of the pool plaster. The test did show an improvement in the amount of bacteria however, with further improvements expected over time.</p>
       
-      <h2>Results and Savings</h2>
-      <p>The results showed that the facility could reduce chemical usage in its pools while still maintaining a sanitary environment by implementing the HydroFLOW system. Although the results showed that chemical usage could be reduced by up to 50%, the facility continues to use the 25% reduction to maintain a minimal chlorine signature in the pool at all times.</p>
+      <p>The results showed that the facility could reduce chemical usage in its pools while still maintaining a sanitary environment by implementing the <i>Hydro</i>FLOW system. Although the results showed that chemical usage could be reduced by up to 50%, the facility continues to use the 25% reduction to maintain a minimal chlorine signature in the pool at all times.</p>
       
       <p>According to staff, the clarity of the pools remained excellent throughout the test, with no noticeable degradation of water clarity. There was also no noticeable change in filter pump pressure, likely due to the fact that the filter pump is below grade, putting additional gravitational pressure on it. This is consistent with the history of the pool, because staff almost never see the pump pressure rise prior to backwashing.</p>
       
@@ -1723,29 +1746,31 @@ const blogContent = {
     category: 'commercial',
     image: 'https://hydroflow-usa.com/assets/userfiles/images/yakima%2Bvalley%2Bsymbol.jpg',
     content: `
-      <p>According to the U.S. Centers for Disease Control and Prevention, E. coli bacteria, normally found in the human gut and feces, are present in alarming quantities in a majority of pools. The bacteria find their way into pools when people do not take showers before swimming or have "accidents" in the water. It is more likely to find fecal contamination in municipal pools. HydroFLOW water conditioners are one method of secondary disinfection that can reduce bacterial contamination and chemical consumption in pools.</p>
+      <p>According to the U.S. Centers for Disease Control and Prevention, E. coli bacteria, normally found in the human gut and feces, are present in alarming quantities in a majority of pools. The bacteria find their way into pools when people do not take showers before swimming or have "accidents" in the water. It is more likely to find fecal contamination in municipal pools. <i>Hydro</i>FLOW water conditioners are one method of secondary disinfection that can reduce bacterial contamination and chemical consumption in pools.</p>
       
-      <p>The municipal swimming pool in Wapato, Washington is a 375,000-gallon olympic-sized outdoor pool that serves the community of the Yakima Valley area. The Yakima Nation pool operators made the decision to install a HydroFLOW water conditioner in front of the pool's filter system in order to optimize the pool's performance by eradicating bacteria, reducing chemical usage, enhancing filtration and minimizing maintenance.</p>
+      <p>The municipal swimming pool in Wapato, Washington is a 375,000-gallon olympic-sized outdoor pool that serves the community of the Yakima Valley area. The Yakima Nation pool operators made the decision to install a <i>Hydro</i>FLOW water conditioner in front of the pool's filter system in order to optimize the pool's performance by eradicating bacteria, reducing chemical usage, enhancing filtration and minimizing maintenance.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/yakima%2Bvalley%2Bsymbol.jpg" alt="Yakima Valley" />
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/yakima%2Bvalley%2Bsymbol.jpg" alt="yakima valley symbol" />
       
-      <h2>The Test Protocol</h2>
-      <p>During the 2012 swimming season, the pool operators decided to run the pool without using the HydroFLOW device for a full month to establish a baseline of chemical and filter media usage. The baseline data then were compared with the remaining three months of the bathing season. Return on investment was five months. Swimmers also noticed a reduction in chlorine smell and eye discomfort.</p>
+      <p>During the 2012 swimming season, the pool operators decided to run the pool without using the <i>Hydro</i>FLOW device for a full month to establish a baseline of chemical and filter media usage. The baseline data then were compared with the remaining three months of the bathing season. Return on investment was five months. Swimmers also noticed a reduction in chlorine smell and eye discomfort.</p>
       
-      <blockquote>"At the end of May, when the HydroFLOW device was turned on, we noticed immediate changes; the monitor kept reading high levels of pH and chlorine," said Isha Wyman, pool manager for the Yakima nation. "We had to keep reducing our chemicals in order to get the pH to stabilize between 7.2 and 8 and the chlorine to stay at 1 ppm. Our customers gave us compliments throughout the last three months of the bathing season. The state inspector claims our pool is the cleanest in the Yakima Valley."</blockquote>
+      <p>"At the end of May, when the <i>Hydro</i>FLOW device was turned on, we noticed immediate changes; the monitor kept reading high levels of pH and chlorine," said Isha Wyman, pool manager for the Yakima nation. "We had to keep reducing our chemicals in order to get the pH to stabilize between 7.2 and 8 and the chlorine to stay at 1 ppm. Our customers gave us compliments throughout the last three months of the bathing season. The state inspector claims our pool is the cleanest in the Yakima Valley."</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/before%2Bhydroflow%2Bin%2Bpool(3).jpg" alt="Pool before HydroFLOW" />
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/after%2Bhydroflow%2Bin%2Bpool(3).jpg" alt="Pool after HydroFLOW" />
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/before%2Bhydroflow%2Bin%2Bpool(3).jpg" alt="before using hydroFLOW in pool" />
       
-      <h2>How Hydropath Technology Optimizes a Swimming Pool</h2>
-      <p>HydroFLOW water conditioners are powered by patented Hydropath technology. They originally were invented to treat scale by inducing an alternating current decaying sine wave into the water. This alternating current causes the positive and negative mineral ions in the water to move rapidly, thus allowing them to attract and combine to form clusters. When super-saturation occurs in conditions such as a temperature increase or pressure change, these clusters precipitate out of solution and form stable crystals, which remain in suspension rather than adhering to equipment surfaces.</p>
+      <img src="https://hydroflow-usa.com/assets/userfiles/images/after%2Bhydroflow%2Bin%2Bpool(3).jpg" alt="after using hydroFLOW in pool" />
+      
+      <p><strong>After</strong></p>
+      
+      <h2><strong>How Hydropath Technology Optimizes a Swimming Pool</strong></h2>
+      
+      <p><i>Hydro</i>FLOW water conditioners are powered by patented Hydropath technology. They originally were invented to treat scale by inducing an alternating current decaying sine wave into the water. This alternating current causes the positive and negative mineral ions in the water to move rapidly, thus allowing them to attract and combine to form clusters. When super-saturation occurs in conditions such as a temperature increase or pressure change, these clusters precipitate out of solution and form stable crystals, which remain in suspension rather than adhering to equipment surfaces.</p>
       
       <p>In addition to scale treatment, the devices can eradicate bacteria by introducing them to the Hydropath signal. The signal also causes suspended particles to flock so that they are more easily filtered out of water systems.</p>
       
-      <h2>The History</h2>
       <p>This technology has been in existence for more than 20 years and is popular in Europe. It all began when the largest residential gas provider in the U.K., British Gas, was looking for a chemical-free water conditioning device to protect its customers' residential water heaters. The company was aware of other water conditioning methods, but found they did not meet its needs for scale reduction.</p>
       
-      <p>British Gas still purchases thousands of residential HydroFLOW units per year, which are mounted on many of the water heaters it installs. Over the past 20 years, additional benefits were discovered, such as bio-kill, corrosion reduction, filtration enhancement and more.</p>
+      <p>British Gas still purchases thousands of residential <i>Hydro</i>FLOW units per year, which are mounted on many of the water heaters it installs. Over the past 20 years, additional benefits were discovered, such as bio-kill, corrosion reduction, filtration enhancement and more.</p>
     `
   },
   'california-softener-ban': {
