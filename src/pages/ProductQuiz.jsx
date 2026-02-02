@@ -83,10 +83,20 @@ const productRecommendations = {
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
   },
   residential_large_wholehouse: {
-    product: 'hs40',
-    page: 'ProductHS40',
-    reason: 'Commercial-grade power for large properties',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+    products: [
+      {
+        product: 'Pearl',
+        page: 'ProductPearl',
+        image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg'
+      },
+      {
+        product: 'Pearl Plus',
+        page: 'ProductPearlPlus',
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
+      }
+    ],
+    reason: 'For large properties, we recommend using both a Pearl and Pearl Plus for comprehensive coverage',
+    multiProduct: true
   },
   residential_pool: {
     product: 'hs40',
@@ -302,33 +312,68 @@ export default function ProductQuiz() {
 
               {/* Recommended Product */}
               <Card className="p-8 mb-8">
-                <div className="mb-6">
-                  <img
-                    src={getRecommendation().image}
-                    alt={getRecommendation().product}
-                    className="h-48 w-auto mx-auto object-contain"
-                  />
-                </div>
-                <h3 className="text-3xl font-bold text-slate-900 mb-3">
-                  HydroFLOW {getRecommendation().product}
-                </h3>
-                <p className="text-lg text-slate-600 mb-8">
-                  {getRecommendation().reason}
-                </p>
-                
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link to={createPageUrl(getRecommendation().page)}>
-                    <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6">
-                      View Product Details
-                      <ChevronRight className="w-5 h-5 ml-2" />
-                    </Button>
-                  </Link>
-                  <Link to={createPageUrl('Products')}>
-                    <Button variant="outline" className="rounded-full px-8 py-6">
-                      Browse All Products
-                    </Button>
-                  </Link>
-                </div>
+                {getRecommendation().multiProduct ? (
+                  <>
+                    <div className="grid md:grid-cols-2 gap-6 mb-6">
+                      {getRecommendation().products.map((prod, idx) => (
+                        <div key={idx} className="text-center">
+                          <img
+                            src={prod.image}
+                            alt={prod.product}
+                            className="h-40 w-auto mx-auto object-contain mb-4"
+                          />
+                          <h4 className="text-xl font-bold text-slate-900">
+                            HydroFLOW {prod.product}
+                          </h4>
+                        </div>
+                      ))}
+                    </div>
+                    <p className="text-lg text-slate-600 mb-8">
+                      {getRecommendation().reason}
+                    </p>
+                    
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                      {getRecommendation().products.map((prod, idx) => (
+                        <Link key={idx} to={createPageUrl(prod.page)}>
+                          <Button variant={idx === 0 ? "default" : "outline"} className={idx === 0 ? "bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6" : "rounded-full px-8 py-6"}>
+                            View {prod.product}
+                            <ChevronRight className="w-5 h-5 ml-2" />
+                          </Button>
+                        </Link>
+                      ))}
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="mb-6">
+                      <img
+                        src={getRecommendation().image}
+                        alt={getRecommendation().product}
+                        className="h-48 w-auto mx-auto object-contain"
+                      />
+                    </div>
+                    <h3 className="text-3xl font-bold text-slate-900 mb-3">
+                      HydroFLOW {getRecommendation().product}
+                    </h3>
+                    <p className="text-lg text-slate-600 mb-8">
+                      {getRecommendation().reason}
+                    </p>
+                    
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                      <Link to={createPageUrl(getRecommendation().page)}>
+                        <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6">
+                          View Product Details
+                          <ChevronRight className="w-5 h-5 ml-2" />
+                        </Button>
+                      </Link>
+                      <Link to={createPageUrl('Products')}>
+                        <Button variant="outline" className="rounded-full px-8 py-6">
+                          Browse All Products
+                        </Button>
+                      </Link>
+                    </div>
+                  </>
+                )}
               </Card>
 
               {/* Retake Quiz */}
