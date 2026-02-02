@@ -50,7 +50,7 @@ const installationGuides = [
   },
   {
     product: 'hs40',
-    videoUrl: 'https://www.youtube.com/embed/your-hs40-video',
+    videoUrl: 'https://player.vimeo.com/video/250663038',
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/HS40-Installation-Manual-230524.pdf',
     steps: [
       'Identify installation point on main line or pool circulation',
