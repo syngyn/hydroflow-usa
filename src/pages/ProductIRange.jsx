@@ -81,7 +81,7 @@ export default function ProductIRange() {
               <div className="space-y-4 mb-8">
                 <Link to={createPageUrl('Contact')}>
                   <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6 text-lg font-semibold">
-                    Request a Quote
+                    Request More Information
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </Link>

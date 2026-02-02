@@ -103,7 +103,7 @@ export default function ProductHMRange() {
               <div className="space-y-4 mb-8">
                 <Link to={createPageUrl('Contact')}>
                   <Button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-full py-6 text-lg font-semibold">
-                    Request a Quote
+                    Request More Information
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </Link>
