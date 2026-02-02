@@ -284,6 +284,37 @@ export default function Products() {
       {/* AI Recommendations */}
       <ProductRecommendations limit={3} />
 
+      {/* ROI Calculator CTA */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-gradient-to-br from-green-50 to-green-100 rounded-3xl p-8 md:p-12 text-center"
+          >
+            <div className="w-16 h-16 rounded-full bg-green-500 flex items-center justify-center mx-auto mb-6">
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
+              Calculate Your Potential Savings
+            </h2>
+            <p className="text-slate-600 mb-8 max-w-xl mx-auto">
+              Use our interactive ROI calculator to see how much you can save on chemicals, 
+              maintenance, and energy costs with HydroFLOW.
+            </p>
+            <Link to={createPageUrl('Savings')}>
+              <Button className="bg-green-600 hover:bg-green-700 text-white rounded-full px-8 py-6">
+                Calculate ROI
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Help Section */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
