@@ -113,10 +113,10 @@ export default function ROICalculator({ embedded = false }) {
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="295">Pearl - $295</SelectItem>
-                  <SelectItem value="495">Pearl Plus - $495</SelectItem>
-                  <SelectItem value="1990">hs40 - $1,990</SelectItem>
-                  <SelectItem value="5000">Industrial Range - $5,000+</SelectItem>
+                  <SelectItem value="295">Pearl</SelectItem>
+                  <SelectItem value="495">Pearl Plus</SelectItem>
+                  <SelectItem value="1990">hs40</SelectItem>
+                  <SelectItem value="7500">i Range</SelectItem>
                 </SelectContent>
               </Select>
             </div>
