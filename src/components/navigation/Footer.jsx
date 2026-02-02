@@ -64,13 +64,18 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">Products</h4>
             <ul className="space-y-3">
-              {['Pearl', 'Pearl Plus', 'HS40', 'Industrial Range', 'Water Filters', 'Vitality Filter'].map((item) => (
+              {['Pearl', 'Pearl Plus', 'HS40', 'Industrial Range'].map((item) => (
                 <li key={item}>
                   <Link to={createPageUrl('Products')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
                     {item}
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link to={createPageUrl('Support')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                  Product Support
+                </Link>
+              </li>
             </ul>
           </div>
 
