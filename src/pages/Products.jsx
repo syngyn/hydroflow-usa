@@ -76,7 +76,7 @@ const products = [
     tagline: 'Heavy-Duty Solutions',
     coverage: 'Industrial & Large Commercial',
     price: null,
-    priceText: 'Contact for Quote',
+    priceText: null,
     rating: 4.9,
     reviews: 28,
     image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png',
@@ -95,7 +95,7 @@ const products = [
     tagline: 'Marine Solutions',
     coverage: 'Marine Vessels',
     price: null,
-    priceText: 'Contact for Quote',
+    priceText: null,
     rating: 4.85,
     reviews: 15,
     image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/hm-Range1-1400x788.png',
@@ -250,8 +250,10 @@ export default function Products() {
                         )}
                         <span className="text-3xl font-bold text-slate-900 ml-2">${product.price}</span>
                       </div>
-                    ) : (
+                    ) : product.priceText ? (
                       <span className="text-xl font-semibold text-slate-700">{product.priceText}</span>
+                    ) : (
+                      <div className="h-8"></div>
                     )}
                   </div>
 
