@@ -95,6 +95,7 @@ import TermsOfService from './pages/TermsOfService';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import Support from './pages/Support';
 import __Layout from './Layout.jsx';
 
 
@@ -147,6 +148,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
+    "Support": Support,
 }
 
 export const pagesConfig = {
