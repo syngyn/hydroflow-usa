@@ -26,7 +26,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const installationGuides = [
   {
     product: 'Pearl',
-    videoUrl: 'https://www.youtube.com/embed/your-pearl-video',
+    videoUrl: 'https://player.vimeo.com/video/1127697487',
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Installation-Instructions-230524.pdf',
     steps: [
       'Turn off water supply to your home',
@@ -38,7 +38,7 @@ const installationGuides = [
   },
   {
     product: 'Pearl Plus',
-    videoUrl: 'https://www.youtube.com/embed/your-pearl-plus-video',
+    videoUrl: 'https://player.vimeo.com/video/1128025470',
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Plus-Installation-Instructions-230524.pdf',
     steps: [
       'Locate main water line after the meter',
@@ -114,19 +114,19 @@ const videoResources = [
     title: 'How HydroFLOW Technology Works',
     thumbnail: 'https://img.youtube.com/vi/placeholder/maxresdefault.jpg',
     duration: '3:45',
-    url: 'https://www.youtube.com/watch?v=placeholder'
+    url: 'https://vimeo.com/1142247312?fl=pl&fe=sh'
   },
   {
     title: 'Pearl Installation Tutorial',
     thumbnail: 'https://img.youtube.com/vi/placeholder/maxresdefault.jpg',
     duration: '5:20',
-    url: 'https://www.youtube.com/watch?v=placeholder'
+    url: 'https://vimeo.com/1127697487?fl=pl&fe=sh'
   },
   {
     title: 'Pearl Plus Installation Guide',
     thumbnail: 'https://img.youtube.com/vi/placeholder/maxresdefault.jpg',
     duration: '6:15',
-    url: 'https://www.youtube.com/watch?v=placeholder'
+    url: 'https://vimeo.com/1128025470?fl=pl&fe=sh'
   },
   {
     title: 'Scale Prevention Demonstration',
