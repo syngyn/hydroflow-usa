@@ -129,10 +129,10 @@ const videoResources = [
     url: 'https://vimeo.com/1128025470?fl=pl&fe=sh'
   },
   {
-    title: 'Scale Prevention Demonstration',
+    title: 'hs40 Installation Video',
     thumbnail: 'https://img.youtube.com/vi/placeholder/maxresdefault.jpg',
-    duration: '4:30',
-    url: 'https://www.youtube.com/watch?v=placeholder'
+    duration: '5:45',
+    url: 'https://vimeo.com/250663038?fl=pl&fe=sh'
   }
 ];
 
