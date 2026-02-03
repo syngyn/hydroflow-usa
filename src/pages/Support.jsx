@@ -29,11 +29,10 @@ const installationGuides = [
     videoUrl: 'https://player.vimeo.com/video/1127697487',
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Installation-Instructions-230524.pdf',
     steps: [
-      'Turn off water supply to your home',
-      'Install Pearl on main water line after the meter',
-      'Ensure arrow on unit points in direction of water flow',
-      'Plug into standard 110V outlet',
-      'Turn water back on and verify LED indicator'
+      'Locate the cold-water line going into the hot water tank',
+      'Attach the unit around the pipe as close as possible to the hot water tank',
+      'Plug the unit into a standard 110V outlet',
+      'The LED indicator should be on. This means the unit is working'
     ]
   },
   {
@@ -41,11 +40,10 @@ const installationGuides = [
     videoUrl: 'https://player.vimeo.com/video/1128025470',
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Plus-Installation-Instructions-230524.pdf',
     steps: [
-      'Locate main water line after the meter',
-      'Install Pearl Plus with flow arrow pointing correct direction',
-      'Connect power cord to 110V outlet',
-      'Check that LED light is illuminated',
-      'System is now protecting your entire home'
+      'Locate the cold-water line going into the hot water tank',
+      'Attach the unit around the pipe as close as possible to the hot water tank',
+      'Plug the unit into a standard 110V outlet',
+      'The LED indicator should be on. This means the unit is working'
     ]
   },
   {

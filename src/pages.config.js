@@ -94,10 +94,10 @@ import StateWaterHardness from './pages/StateWaterHardness';
 import Support from './pages/Support';
 import Technology from './pages/Technology';
 import TermsOfService from './pages/TermsOfService';
+import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import VideoLibrary from './pages/VideoLibrary';
 import __Layout from './Layout.jsx';
 
 
@@ -149,10 +149,10 @@ export const PAGES = {
     "Support": Support,
     "Technology": Technology,
     "TermsOfService": TermsOfService,
+    "VideoLibrary": VideoLibrary,
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "VideoLibrary": VideoLibrary,
 }
 
 export const pagesConfig = {
