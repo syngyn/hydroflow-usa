@@ -88,12 +88,12 @@ export const RecommendationProvider = ({ children }) => {
       },
       { 
         id: 'hs40', 
-        name: 'hs40', 
+        name: <><i>hs</i>40</>, 
         price: 1990,
         category: 'residential',
         size: 'large',
         applications: ['pools', 'spas', 'large-homes', 'restaurants'],
-        image: 'https://hydroflow-usa.com/wp-content/uploads/2024/10/hs40-grey-background-800x800.webp'
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png'
       },
       { 
         id: 'i-range', 
