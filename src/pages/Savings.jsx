@@ -99,7 +99,7 @@ export default function Savings() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
               >
-                <Card className="text-center">
+                <Card className="text-center h-full">
                   <CardContent className="pt-6">
                     <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mx-auto mb-4">
                       <stat.icon className="w-6 h-6 text-cyan-600" />
