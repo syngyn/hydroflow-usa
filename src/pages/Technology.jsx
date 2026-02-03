@@ -9,7 +9,7 @@ const howItWorks = [
   {
     step: '01',
     title: 'Signal Induction',
-    description: 'The <i>Hydro</i>FLOW unit is installed around your pipe and induces a unique electrical signal of 150kHz.'
+    description: 'The HydroFLOW unit is installed around your pipe and induces a unique electrical signal of 150kHz.'
   },
   {
     step: '02',
