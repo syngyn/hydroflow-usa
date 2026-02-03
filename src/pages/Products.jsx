@@ -337,7 +337,7 @@ export default function Products() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to={createPageUrl('ProductQuiz')}>
                 <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-6">
-                  Take Product Quiz
+                  Take Product Selection Tool
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
