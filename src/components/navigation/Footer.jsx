@@ -104,7 +104,7 @@ export default function Footer() {
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">Resources</h4>
             <ul className="space-y-3">
               {[
-                { name: 'ROI Calculator', href: 'Savings' },
+                { name: 'Cooling Tower ROI Calculator', href: 'Savings' },
                 { name: 'Technology', href: 'Technology' },
                 { name: 'Knowledge Base', href: 'KnowledgeBase' },
                 { name: 'Water Hardness Map', href: 'WaterHardnessMap' },

@@ -85,10 +85,12 @@ export default function ProductIRange() {
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </Link>
-                <Button variant="outline" className="w-full rounded-full py-6 text-lg">
-                  View Case Studies
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
+                <Link to={createPageUrl('Savings')}>
+                  <Button variant="outline" className="w-full rounded-full py-6 text-lg">
+                    Cooling Tower ROI Calculator
+                    <ArrowRight className="w-5 h-5 ml-2" />
+                  </Button>
+                </Link>
               </div>
 
               <div className="grid grid-cols-3 gap-4 mb-8">
