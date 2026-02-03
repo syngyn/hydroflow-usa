@@ -9,12 +9,10 @@ import { Slider } from "@/components/ui/slider";
 
 export default function ROICalculator({ embedded = false }) {
   const [inputs, setInputs] = useState({
-    waterUsage: 15000, // gallons per month
     chemicalCost: 150, // per month
     maintenanceCost: 200, // per month
     energyCost: 100, // per month
-    propertyType: 'residential',
-    productPrice: 495 // Pearl Plus default
+    productPrice: 7500 // i Range
   });
 
   const [savings, setSavings] = useState({
@@ -62,12 +60,7 @@ export default function ROICalculator({ embedded = false }) {
     setInputs(prev => ({ ...prev, [key]: value }));
   };
 
-  const productPrices = {
-    'pearl': 295,
-    'pearl-plus': 495,
-    'hs40': 1990,
-    'industrial': 5000
-  };
+
 
   return (
     <div className={embedded ? '' : 'max-w-7xl mx-auto'}>
@@ -84,64 +77,6 @@ export default function ROICalculator({ embedded = false }) {
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
-            {/* Property Type */}
-            <div className="space-y-2">
-              <Label>Property Type</Label>
-              <Select 
-                value={inputs.propertyType} 
-                onValueChange={(value) => updateInput('propertyType', value)}
-              >
-                <SelectTrigger>
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="residential">Residential</SelectItem>
-                  <SelectItem value="commercial">Commercial</SelectItem>
-                  <SelectItem value="industrial">Industrial</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-
-            {/* Product Selection */}
-            <div className="space-y-2">
-              <Label>HydroFLOW Product</Label>
-              <Select 
-                value={inputs.productPrice.toString()}
-                onValueChange={(value) => updateInput('productPrice', parseInt(value))}
-              >
-                <SelectTrigger>
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="295">Pearl</SelectItem>
-                  <SelectItem value="495">Pearl Plus</SelectItem>
-                  <SelectItem value="1990">hs40</SelectItem>
-                  <SelectItem value="7500">i Range</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-
-            {/* Water Usage */}
-            <div className="space-y-3">
-              <div className="flex justify-between">
-                <Label>Monthly Water Usage (gallons)</Label>
-                <span className="text-sm font-semibold text-cyan-600">
-                  {inputs.waterUsage.toLocaleString()}
-                </span>
-              </div>
-              <Slider
-                value={[inputs.waterUsage]}
-                onValueChange={([value]) => updateInput('waterUsage', value)}
-                min={1000}
-                max={100000}
-                step={1000}
-                className="w-full"
-              />
-              <p className="text-xs text-slate-500">
-                Average household: 3,000-15,000 gallons/month
-              </p>
-            </div>
-
             {/* Chemical Costs */}
             <div className="space-y-2">
               <Label>Current Monthly Chemical Costs</Label>
