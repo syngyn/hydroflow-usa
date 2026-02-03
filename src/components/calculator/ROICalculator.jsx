@@ -180,7 +180,7 @@ export default function ROICalculator({ embedded = false }) {
                     </span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-slate-600">Energy Savings</span>
+                    <span className="text-sm text-slate-600">Improved Heat Transfer Efficiency</span>
                     <span className="font-semibold text-green-600">
                       ${savings.monthlyEnergySavings.toFixed(0)}/mo
                     </span>
