@@ -13,7 +13,7 @@ import { useRecommendations } from '@/components/recommendations/RecommendationC
 import ProductRecommendations from '@/components/recommendations/ProductRecommendations';
 
 const images = [
-  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png',
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/56711628157750.jpg',
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/31691628157718.jpg',
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/58321675360173.png',
