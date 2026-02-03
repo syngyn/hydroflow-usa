@@ -245,22 +245,33 @@ export default function Technology() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {benefits.map((benefit, index) => (
-              <motion.div
-                key={benefit.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="group relative bg-white rounded-2xl p-8 shadow-sm border border-slate-100 hover:shadow-xl hover:border-cyan-100 transition-all"
-              >
-                <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${benefit.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
-                  <benefit.icon className="w-7 h-7 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2">{benefit.title}</h3>
-                <p className="text-slate-600">{benefit.description}</p>
-              </motion.div>
-            ))}
+            {benefits.map((benefit, index) => {
+              const pageLinks = {
+                'Scale Prevention': 'Scale',
+                'Biofilm Reduction': 'Technology',
+                'Improved Filtration': 'Filtration',
+                'Corrosion Protection': 'Corrosion'
+              };
+              const pageName = pageLinks[benefit.title];
+              
+              return (
+                <Link key={benefit.title} to={createPageUrl(pageName)}>
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: index * 0.1 }}
+                    className="group relative bg-white rounded-2xl p-8 shadow-sm border border-slate-100 hover:shadow-xl hover:border-cyan-100 transition-all cursor-pointer h-full"
+                  >
+                    <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${benefit.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+                      <benefit.icon className="w-7 h-7 text-white" />
+                    </div>
+                    <h3 className="text-xl font-bold text-slate-900 mb-2">{benefit.title}</h3>
+                    <p className="text-slate-600">{benefit.description}</p>
+                  </motion.div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
