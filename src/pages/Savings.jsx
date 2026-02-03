@@ -75,7 +75,7 @@ export default function Savings() {
             className="text-center"
           >
             <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-4">
-              ROI Calculator
+              Cooling Tower ROI Calculator
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               Calculate Your Savings
