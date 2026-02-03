@@ -52,7 +52,7 @@ const products = [
   },
   {
     id: 'hs40',
-    name: 'hs40',
+    name: <><i>hs</i>40</>,
     category: 'residential',
     tagline: 'For Pools & Light Commercial',
     coverage: 'Pools, Spas & Light Commercial',

@@ -32,7 +32,7 @@ const products = [
     popular: true
   },
   {
-    name: 'HS40',
+    name: <><i>hs</i>40</>,
     tagline: 'Commercial Grade Power',
     coverage: 'Pools, Spas & Light Commercial',
     originalPrice: 2150,
