@@ -54,6 +54,11 @@ export default function Navbar() {
       dropdown: [
         { name: 'All Products', href: 'Products' },
         { name: 'Product Selection Tool', href: 'ProductQuiz' },
+        { name: 'Pearl', href: 'ProductPearl' },
+        { name: 'Pearl Plus', href: 'ProductPearlPlus' },
+        { name: 'hs40', href: 'ProductHS40' },
+        { name: 'i Range', href: 'ProductIRange' },
+        { name: 'HM Range', href: 'ProductHMRange' },
       ]
     },
     { 
