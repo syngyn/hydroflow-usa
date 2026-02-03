@@ -111,6 +111,7 @@ export default function Footer() {
                 { name: 'Performance With Time', href: 'PerformanceWithTime' },
                 { name: 'What to Expect', href: 'Expectations' },
                 { name: 'FAQ', href: 'FAQ' },
+                { name: 'Video Library', href: 'VideoLibrary' },
                 { name: 'About Us', href: 'About' },
                 { name: 'Contact', href: 'Contact' },
               ].map((item) => (
