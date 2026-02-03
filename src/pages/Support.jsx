@@ -49,12 +49,12 @@ const installationGuides = [
     ]
   },
   {
-    product: 'hs40',
+    product: <><i>hs</i>40</>,
     videoUrl: 'https://player.vimeo.com/video/250663038',
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/HS40-Installation-Manual-230524.pdf',
     steps: [
       'Identify installation point on main line or pool circulation',
-      'Mount hs40 unit on pipe using provided straps',
+      'Mount <i>hs</i>40 unit on pipe using provided straps',
       'Ensure proper flow direction alignment',
       'Connect to appropriate power source',
       'Verify unit operation via indicator light'
@@ -129,7 +129,7 @@ const videoResources = [
     url: 'https://vimeo.com/1128025470?fl=pl&fe=sh'
   },
   {
-    title: 'hs40 Installation Video',
+    title: '<i>hs</i>40 Installation Video',
     thumbnail: 'https://img.youtube.com/vi/placeholder/maxresdefault.jpg',
     duration: '5:45',
     url: 'https://vimeo.com/250663038?fl=pl&fe=sh'
@@ -150,7 +150,7 @@ const downloadableResources = [
     url: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Plus-Installation-Instructions-230524.pdf'
   },
   {
-    title: 'hs40 Installation Manual',
+    title: '<i>hs</i>40 Installation Manual',
     type: 'PDF',
     size: '3.2 MB',
     url: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/HS40-Installation-Manual-230524.pdf'
@@ -254,7 +254,7 @@ export default function Support() {
             <TabsList className="grid w-full grid-cols-4 max-w-2xl mx-auto mb-8">
               <TabsTrigger value="Pearl">Pearl</TabsTrigger>
               <TabsTrigger value="Pearl Plus">Pearl Plus</TabsTrigger>
-              <TabsTrigger value="hs40">hs40</TabsTrigger>
+              <TabsTrigger value="hs40"><i>hs</i>40</TabsTrigger>
               <TabsTrigger value="i Range">i Range</TabsTrigger>
             </TabsList>
 
