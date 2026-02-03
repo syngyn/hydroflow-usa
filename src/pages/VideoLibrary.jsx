@@ -14,137 +14,132 @@ const videos = [
     category: 'Installation'
   },
   {
-    id: '250663038',
-    title: 'hs40 Installation Video',
-    category: 'Installation'
-  },
-  {
-    id: '251220779',
+    id: '742819997',
     title: 'How to detect an electrical loop',
     category: 'Technical'
   },
   {
-    id: '254033893',
+    id: '755796406',
     title: 'What is voltage potential?',
     category: 'Technical'
   },
   {
-    id: '125498366',
+    id: '880334527',
     title: 'HydroFLOW foodservice video',
     category: 'Applications'
   },
   {
-    id: '250665078',
+    id: '723891443',
     title: 'Eaton surge protection device wiring instructions',
     category: 'Technical'
   },
   {
-    id: '237851027',
+    id: '689045209',
     title: 'How to make hard water',
     category: 'Technical'
   },
   {
-    id: '250661678',
+    id: '542897277',
     title: 'HydroFLOW Custom I72" installation video',
     category: 'Installation'
   },
   {
-    id: '237775492',
+    id: '722278472',
     title: 'HydroFLOW 3 head unit bracket and ferrites animation',
     category: 'Technical'
   },
   {
-    id: '903495787',
+    id: '1142247312',
     title: 'HydroFLOW introduction',
     category: 'Overview'
   },
   {
-    id: '250659306',
+    id: '806920687',
     title: 'HydroFLOW residential water treatment',
     category: 'Applications'
   },
   {
-    id: '239483917',
+    id: '447928299',
     title: 'HydroFLOW as a transformer',
     category: 'Technical'
   },
   {
-    id: '250662158',
+    id: '209619649',
     title: 'HydroFLOW commercial water treatment',
     category: 'Applications'
   },
   {
-    id: '250662926',
+    id: '201059133',
     title: 'HydroFLOW agricultural water treatment',
     category: 'Applications'
   },
   {
-    id: '250663686',
+    id: '334474583',
     title: 'HydroFLOW and swimming pools',
     category: 'Applications'
   },
   {
-    id: '250664554',
+    id: '706623726',
     title: 'HydroFLOW industrial water treatment',
     category: 'Applications'
   },
   {
-    id: '254228833',
+    id: '655448793',
     title: 'HydroFLOW installation at a combined cycle plant in the Great Lakes region',
     category: 'Case Studies'
   },
   {
-    id: '254228945',
+    id: '103957209',
     title: 'Hydropath Marine introduction',
     category: 'Overview'
   },
   {
-    id: '250665806',
+    id: '334472927',
     title: 'HydroFLOW pipe sizes and materials',
     category: 'Technical'
   },
   {
-    id: '254229125',
+    id: '334469406',
     title: 'HydroFLOW WWTP struvite treatment',
     category: 'Applications'
   },
   {
-    id: '254229227',
+    id: '334469357',
     title: 'HydroFLOW WWTP polymer reduction',
     category: 'Applications'
   },
   {
-    id: '254229349',
+    id: '297755376',
     title: 'HydroFLOW and flocculation animation',
     category: 'Technical'
   },
   {
-    id: '254229502',
+    id: '148682431',
     title: 'HydroFLOW in the news',
     category: 'Media'
   },
   {
-    id: '254229654',
+    id: '385135360',
     title: 'HydroFLOW and induction furnace cooling systems',
     category: 'Applications'
   },
   {
-    id: '254229785',
+    id: '107646148',
     title: 'Three minutes with Steve Hester of Baker Produce',
     category: 'Case Studies'
   },
   {
-    id: '254229939',
+    id: '107484225',
     title: 'G&G orchards cooling tower',
     category: 'Case Studies'
   },
   {
-    id: '254230081',
+    id: '107645625',
     title: 'Wapato pool interview',
     category: 'Case Studies'
   },
   {
-    id: '254230226',
+    id: '65602552',
     title: 'Hot water heater in apple processing factory – HydroFLOW scale treatment',
     category: 'Case Studies'
   }
