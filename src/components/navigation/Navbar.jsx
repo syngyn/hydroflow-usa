@@ -79,6 +79,7 @@ export default function Navbar() {
         { name: 'Groundwater Temperature Map', href: 'GroundwaterTemperatureMap' },
       ]
     },
+    { name: 'Cooling Tower ROI Calculator', href: 'Savings' },
     { name: 'Contact', href: 'Contact' },
   ];
 

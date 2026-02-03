@@ -70,7 +70,7 @@ export default function ROICalculator({ embedded = false }) {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Droplets className="w-5 h-5 text-cyan-600" />
-              Your Information
+              Cooling Tower ROI Calculator
             </CardTitle>
             <CardDescription>
               Enter your current costs to calculate potential savings
