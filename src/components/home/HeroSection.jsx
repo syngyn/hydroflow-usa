@@ -153,17 +153,50 @@ export default function HeroSection() {
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={currentProductIndex}
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.9 }}
-                    transition={{ duration: 0.5 }}
+                    initial={{ 
+                      opacity: 0, 
+                      scale: 1.2,
+                      filter: 'blur(20px) brightness(3)'
+                    }}
+                    animate={{ 
+                      opacity: 1, 
+                      scale: 1,
+                      filter: 'blur(0px) brightness(1)',
+                      transition: {
+                        duration: 0.8,
+                        ease: "easeOut"
+                      }
+                    }}
+                    exit={{ 
+                      opacity: 0, 
+                      scale: 0.8,
+                      filter: 'blur(20px) brightness(3)',
+                      transition: {
+                        duration: 0.6,
+                        ease: "easeIn"
+                      }
+                    }}
                     className="w-full"
                   >
                     <div className="h-64 md:h-80 flex items-center justify-center mb-6">
-                      <img 
+                      <motion.img 
                         src={products[currentProductIndex].image}
                         alt={products[currentProductIndex].name}
-                        className="max-h-full w-auto object-contain transform hover:scale-105 transition-transform duration-500"
+                        className="max-h-full w-auto object-contain"
+                        animate={{
+                          boxShadow: [
+                            '0 0 20px rgba(34, 211, 238, 0.3)',
+                            '0 0 40px rgba(34, 211, 238, 0.6)',
+                            '0 0 20px rgba(34, 211, 238, 0.3)'
+                          ]
+                        }}
+                        transition={{
+                          boxShadow: {
+                            duration: 2,
+                            repeat: Infinity,
+                            ease: "easeInOut"
+                          }
+                        }}
                       />
                     </div>
                     <div className="text-center">
