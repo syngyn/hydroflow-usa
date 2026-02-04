@@ -179,24 +179,10 @@ export default function HeroSection() {
                     className="w-full"
                   >
                     <div className="h-64 md:h-80 flex items-center justify-center mb-6">
-                      <motion.img 
+                      <img 
                         src={products[currentProductIndex].image}
                         alt={products[currentProductIndex].name}
                         className="max-h-full w-auto object-contain"
-                        animate={{
-                          boxShadow: [
-                            '0 0 20px rgba(34, 211, 238, 0.3)',
-                            '0 0 40px rgba(34, 211, 238, 0.6)',
-                            '0 0 20px rgba(34, 211, 238, 0.3)'
-                          ]
-                        }}
-                        transition={{
-                          boxShadow: {
-                            duration: 2,
-                            repeat: Infinity,
-                            ease: "easeInOut"
-                          }
-                        }}
                       />
                     </div>
                     <div className="text-center">
