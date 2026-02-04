@@ -118,7 +118,7 @@ export default function Bio() {
             >
               <div className="mb-4">
                 <img 
-                  src="https://hydroflow-usa.com/assets/userfiles/images/Bio/img2.jpg"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4115f043d_bacteria2.png"
                   alt="Water molecules attracted to bacterium"
                   className="w-full rounded-xl"
                 />
