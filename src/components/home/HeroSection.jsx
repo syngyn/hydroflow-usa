@@ -37,6 +37,14 @@ const products = [
     oldPrice: null,
     price: 'Custom',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png'
+  },
+  {
+    name: 'HM Range',
+    tag: 'MARINE',
+    coverage: 'Marine & vessel applications',
+    oldPrice: null,
+    price: 'Custom',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/hm-Range1-1400x788.png'
   }
 ];
 
@@ -46,7 +54,7 @@ export default function HeroSection() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentProductIndex((prev) => (prev + 1) % products.length);
-    }, 4000);
+    }, 5500);
     return () => clearInterval(interval);
   }, []);
 
