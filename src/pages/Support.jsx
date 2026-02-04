@@ -53,8 +53,9 @@ const installationGuides = [
     steps: [
       'Identify installation point on main line or pool circulation',
       'Mount hs40 unit on pipe using provided straps',
+      'Build the ring of ferrites around the pipe with the provided threaded plastic screws',
       'Ensure proper flow direction alignment',
-      'Connect to appropriate power source',
+      'Plug into a standard 110v wall outlet',
       'Verify unit operation via indicator light'
     ]
   }
