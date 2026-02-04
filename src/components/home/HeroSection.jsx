@@ -39,7 +39,7 @@ const products = [
     image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png'
   },
   {
-    name: 'HM Range',
+    name: <><i>hm</i> Range</>,
     tag: 'MARINE',
     coverage: 'Marine & vessel applications',
     oldPrice: null,
