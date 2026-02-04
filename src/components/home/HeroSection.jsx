@@ -186,7 +186,7 @@ export default function HeroSection() {
                     }}
                     className="w-full"
                   >
-                    <div className="h-64 md:h-80 flex items-center justify-center mb-6">
+                    <div className="h-64 md:h-80 flex items-center justify-center mb-3">
                       <img 
                         src={products[currentProductIndex].image}
                         alt={products[currentProductIndex].name}
