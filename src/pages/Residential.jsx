@@ -86,7 +86,7 @@ export default function Residential() {
               className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://hydroflow-usa.com/wp-content/uploads/2024/10/pearl-plus-grey-background-799x800.webp"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png"
                 alt="<i>Hydro</i>FLOW Pearl Plus"
                 className="w-full h-full object-contain bg-white/10 backdrop-blur-sm p-8"
               />
