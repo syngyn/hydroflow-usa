@@ -138,7 +138,7 @@ export default function Bio() {
             >
               <div className="mb-4">
                 <img 
-                  src="https://hydroflow-usa.com/assets/userfiles/images/Bio/img3.jpg"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a7fa9c9b1_bacxteria3.png"
                   alt="Osmosis drawing water into bacterium"
                   className="w-full rounded-xl"
                 />
