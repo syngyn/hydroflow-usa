@@ -369,6 +369,68 @@ export default function Commercial() {
         </div>
       </section>
 
+      {/* Case Studies */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Success Stories
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Commercial Case Studies
+            </h2>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=hotels'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Hotels</h3>
+                <p className="text-slate-600 italic mb-4">"Guest satisfaction has improved and our maintenance costs have dropped significantly."</p>
+                <p className="text-sm text-cyan-600 font-medium">Hospitality</p>
+              </motion.div>
+            </Link>
+
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=disney-springs-parking-garage'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Disney Springs Parking Garage</h3>
+                <p className="text-slate-600 italic mb-4">"HydroFLOW has exceeded our expectations in protecting our HVAC systems."</p>
+                <p className="text-sm text-cyan-600 font-medium">Large Commercial</p>
+              </motion.div>
+            </Link>
+
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=restaurant'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Restaurant</h3>
+                <p className="text-slate-600 italic mb-4">"Our equipment runs more efficiently and our water quality has never been better."</p>
+                <p className="text-sm text-cyan-600 font-medium">Food Service</p>
+              </motion.div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-cyan-500 to-cyan-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

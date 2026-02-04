@@ -21,17 +21,20 @@ const caseStudies = [
   {
     title: 'Residential Tower',
     quote: 'Not only had the HydroFLOW units prevented any scale from accumulating, but had actually reversed the scale that had built up prior to the installation.',
-    type: 'Property Management'
+    type: 'Property Management',
+    slug: 'residential-tower'
   },
   {
     title: 'Product Evaluation – Tankless Boiler',
     quote: 'The test clearly showed that HydroFLOW was effective even in very hard water conditions, and kept the pipes completely clear.',
-    type: 'Independent Testing'
+    type: 'Independent Testing',
+    slug: 'product-evaluation-tankless-boiler'
   },
   {
     title: 'Residential Water Heater',
     quote: 'The HydroFLOW unit was not only able to stop new scale from forming but also cleaned up the existing scale buildup from the water heater and shower heads.',
-    type: 'Homeowner'
+    type: 'Homeowner',
+    slug: 'residential-water-heater'
   }
 ];
 
@@ -280,18 +283,22 @@ export default function Residential() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {caseStudies.map((study, index) => (
-              <motion.div
+              <Link 
                 key={study.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-slate-50 rounded-2xl p-8"
+                to={createPageUrl('CaseStudyDetail') + `?slug=${study.slug}`}
               >
-                <h3 className="font-bold text-slate-900 mb-4">{study.title}</h3>
-                <p className="text-slate-600 italic mb-4">"{study.quote}"</p>
-                <p className="text-sm text-cyan-600 font-medium">{study.type}</p>
-              </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer h-full"
+                >
+                  <h3 className="font-bold text-slate-900 mb-4">{study.title}</h3>
+                  <p className="text-slate-600 italic mb-4">"{study.quote}"</p>
+                  <p className="text-sm text-cyan-600 font-medium">{study.type}</p>
+                </motion.div>
+              </Link>
             ))}
           </div>
         </div>

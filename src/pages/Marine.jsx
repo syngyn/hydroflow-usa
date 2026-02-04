@@ -323,6 +323,68 @@ export default function Marine() {
         </div>
       </section>
 
+      {/* Case Studies */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-indigo-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Success Stories
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Marine Case Studies
+            </h2>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=superyacht'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-indigo-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Superyacht</h3>
+                <p className="text-slate-600 italic mb-4">"The HydroFLOW system has eliminated scale in our fresh water generators and UV sterilizers."</p>
+                <p className="text-sm text-indigo-600 font-medium">Luxury Yacht</p>
+              </motion.div>
+            </Link>
+
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=commercial-fishing-fleet'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-indigo-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Commercial Fishing Fleet</h3>
+                <p className="text-slate-600 italic mb-4">"Our cooling systems stay cleaner and our maintenance costs have dropped significantly."</p>
+                <p className="text-sm text-indigo-600 font-medium">Commercial Vessel</p>
+              </motion.div>
+            </Link>
+
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=offshore-platform'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-indigo-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Offshore Platform</h3>
+                <p className="text-slate-600 italic mb-4">"HydroFLOW has proven reliable in the harshest marine environments."</p>
+                <p className="text-sm text-indigo-600 font-medium">Offshore</p>
+              </motion.div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-indigo-500 to-indigo-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

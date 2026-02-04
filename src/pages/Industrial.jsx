@@ -322,6 +322,68 @@ export default function Industrial() {
         </div>
       </section>
 
+      {/* Case Studies */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Success Stories
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Industrial Case Studies
+            </h2>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=pharmaceutical-plant'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Pharmaceutical Plant</h3>
+                <p className="text-slate-600 italic mb-4">"HydroFLOW technology has proven to be reliable and effective in preventing scale buildup in our critical systems."</p>
+                <p className="text-sm text-cyan-600 font-medium">Manufacturing</p>
+              </motion.div>
+            </Link>
+
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=alufire'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Alufire</h3>
+                <p className="text-slate-600 italic mb-4">"The results were immediate and impressive. Scale accumulation stopped completely."</p>
+                <p className="text-sm text-cyan-600 font-medium">Industrial</p>
+              </motion.div>
+            </Link>
+
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=cooling-tower-installation'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Cooling Tower Installation</h3>
+                <p className="text-slate-600 italic mb-4">"We've seen a dramatic reduction in maintenance costs and downtime since installing HydroFLOW."</p>
+                <p className="text-sm text-cyan-600 font-medium">Industrial Cooling</p>
+              </motion.div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-cyan-500 to-cyan-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

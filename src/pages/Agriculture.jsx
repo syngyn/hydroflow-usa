@@ -278,6 +278,68 @@ export default function Agriculture() {
         </div>
       </section>
 
+      {/* Case Studies */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-green-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Success Stories
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Agricultural Case Studies
+            </h2>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=greenhouse-misting-system'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-green-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Greenhouse Misting System</h3>
+                <p className="text-slate-600 italic mb-4">"Our misting nozzles stay clean and our plants are thriving with the improved water quality."</p>
+                <p className="text-sm text-green-600 font-medium">Greenhouse</p>
+              </motion.div>
+            </Link>
+
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=gg-orchards-cooling-tower'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-green-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">G&G Orchards Cooling Tower</h3>
+                <p className="text-slate-600 italic mb-4">"We've eliminated scale buildup and dramatically reduced our chemical usage."</p>
+                <p className="text-sm text-green-600 font-medium">Food Processing</p>
+              </motion.div>
+            </Link>
+
+            <Link to={createPageUrl('CaseStudyDetail') + '?slug=drip-irrigation-system'}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="bg-slate-50 rounded-2xl p-8 hover:bg-green-50 transition-colors cursor-pointer h-full"
+              >
+                <h3 className="font-bold text-slate-900 mb-4">Drip Irrigation System</h3>
+                <p className="text-slate-600 italic mb-4">"Our irrigation system efficiency has improved significantly with no more clogged emitters."</p>
+                <p className="text-sm text-green-600 font-medium">Farming</p>
+              </motion.div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-green-500 to-green-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
