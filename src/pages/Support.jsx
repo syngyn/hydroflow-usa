@@ -116,7 +116,7 @@ const videoResources = [
     url: 'https://vimeo.com/1128025470?fl=pl&fe=sh'
   },
   {
-    title: '<i>hs</i>40 Installation Video',
+    title: 'hs40 Installation Video',
     thumbnail: 'https://img.youtube.com/vi/placeholder/maxresdefault.jpg',
     duration: '5:45',
     url: 'https://vimeo.com/250663038?fl=pl&fe=sh'
@@ -137,7 +137,7 @@ const downloadableResources = [
     url: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Plus-Installation-Instructions-230524.pdf'
   },
   {
-    title: '<i>hs</i>40 Installation Manual',
+    title: 'hs40 Installation Manual',
     type: 'PDF',
     size: '3.2 MB',
     url: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/HS40-Installation-Manual-230524.pdf'

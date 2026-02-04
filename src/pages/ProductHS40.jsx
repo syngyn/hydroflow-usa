@@ -268,7 +268,7 @@ export default function ProductHS40() {
                 <div className="space-y-2">
                   <Button variant="outline" className="w-full justify-start">
                     <Package className="w-4 h-4 mr-2" />
-                    Download <i>hs</i>40 User Guide (PDF)
+                    Download hs40 User Guide (PDF)
                   </Button>
                   <Button variant="outline" className="w-full justify-start">
                     <Package className="w-4 h-4 mr-2" />
