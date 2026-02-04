@@ -146,11 +146,10 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="hidden lg:block"
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 rounded-3xl blur-2xl" />
-              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 overflow-hidden min-h-[600px] flex items-center justify-center">
+              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden min-h-[400px] md:min-h-[600px] flex items-center justify-center">
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={currentProductIndex}
@@ -160,21 +159,17 @@ export default function HeroSection() {
                     transition={{ duration: 0.5 }}
                     className="w-full"
                   >
-                    <img 
-                      src={products[currentProductIndex].image}
-                      alt={products[currentProductIndex].name}
-                      className="w-full max-w-sm mx-auto transform hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="text-center mt-6">
+                    <div className="h-64 md:h-80 flex items-center justify-center mb-6">
+                      <img 
+                        src={products[currentProductIndex].image}
+                        alt={products[currentProductIndex].name}
+                        className="max-h-full w-auto object-contain transform hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="text-center">
                       <div className="text-cyan-400 text-sm font-medium mb-1">{products[currentProductIndex].tag}</div>
-                      <h3 className="text-white text-2xl font-bold mb-2">{products[currentProductIndex].name}</h3>
+                      <h3 className="text-white text-xl md:text-2xl font-bold mb-2">{products[currentProductIndex].name}</h3>
                       <p className="text-slate-400 text-sm">{products[currentProductIndex].coverage}</p>
-                      <div className="mt-4">
-                        {products[currentProductIndex].oldPrice && (
-                          <span className="text-slate-400 line-through text-lg">{products[currentProductIndex].oldPrice}</span>
-                        )}
-                        <span className="text-white text-3xl font-bold ml-3">{products[currentProductIndex].price}</span>
-                      </div>
                     </div>
                   </motion.div>
                 </AnimatePresence>
