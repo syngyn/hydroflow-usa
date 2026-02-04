@@ -98,7 +98,7 @@ export default function Bio() {
             >
               <div className="mb-4">
                 <img 
-                  src="https://hydroflow-usa.com/assets/userfiles/images/Bio/img1.jpg"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/538a371ae_bacteria1.png"
                   alt="Bacterium passing through HydroFLOW"
                   className="w-full rounded-xl"
                 />
