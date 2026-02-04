@@ -38,7 +38,7 @@ export default function HeroSection() {
               <span className="text-sm text-white/80">Eco-Friendly Water Treatment</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 text-center lg:text-left">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               <span className="block whitespace-nowrap">Advanced Water</span>
               <span className="block whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
                 Treatment Solutions
