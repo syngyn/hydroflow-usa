@@ -158,7 +158,6 @@ export default function HeroSection() {
                         alt={products[currentProductIndex].name}
                         className="max-h-full w-auto object-contain"
                         style={
-                          currentProductIndex === 4 ? { transform: 'scale(1.2)' } :
                           currentProductIndex === 2 ? { transform: 'scale(0.7)' } : {}
                         }
                       />
