@@ -85,10 +85,10 @@ export default function Technology() {
             <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-4">
               Patented Technology
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 px-4">
               How Hydropath Technology Works
             </h1>
-            <p className="text-xl text-slate-300">
+            <p className="text-base sm:text-lg md:text-xl text-slate-300 px-4">
               Discover the revolutionary technology that treats water without chemicals, 
               salt, or maintenance.
             </p>
@@ -118,7 +118,7 @@ export default function Technology() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {howItWorks.map((step, index) => {
               const icons = [null, Radio, Gem, RefreshCw];
               const Icon = icons[index];
@@ -244,7 +244,7 @@ export default function Technology() {
             </h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid sm:grid-cols-2 gap-4 md:gap-8">
             {benefits.map((benefit, index) => {
               const pageLinks = {
                 'Scale Prevention': 'Scale',

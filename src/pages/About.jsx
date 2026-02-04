@@ -51,10 +51,10 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 px-4">
               About <i>Hydro</i><span className="text-cyan-400">FLOW</span> USA
             </h1>
-            <p className="text-xl text-slate-300 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto px-4">
               The exclusive U.S. distributor of revolutionary water conditioners powered by 
               patented Hydropath technology.
             </p>
@@ -65,7 +65,7 @@ export default function About() {
       {/* Stats Section */}
       <section className="py-16 bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}
@@ -75,8 +75,8 @@ export default function About() {
                 transition={{ delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="text-4xl md:text-5xl font-bold text-cyan-600 mb-2">{stat.value}</div>
-                <div className="text-slate-600">{stat.label}</div>
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-cyan-600 mb-2">{stat.value}</div>
+                <div className="text-slate-600 text-sm sm:text-base">{stat.label}</div>
               </motion.div>
             ))}
           </div>

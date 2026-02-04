@@ -153,10 +153,10 @@ export default function Products() {
             <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-4">
               Water Conditioners
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 px-4">
               <i>Hydro</i>FLOW Products
             </h1>
-            <p className="text-xl text-slate-300 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto px-4">
               Find the perfect <i>Hydro</i>FLOW water conditioner for your home, business, or industrial facility.
             </p>
           </motion.div>
@@ -164,22 +164,23 @@ export default function Products() {
       </section>
 
       {/* Category Filter */}
-      <section className="py-8 bg-white border-b sticky top-20 z-40">
+      <section className="py-4 md:py-8 bg-white border-b sticky top-20 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center">
-            <div className="inline-flex bg-slate-100 rounded-full p-1">
+          <div className="flex justify-center overflow-x-auto pb-2 md:pb-0">
+            <div className="inline-flex bg-slate-100 rounded-full p-1 min-w-fit">
               {categories.map((cat) => (
                 <button
                   key={cat.id}
                   onClick={() => setActiveCategory(cat.id)}
-                  className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium transition-all ${
+                  className={`flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${
                     activeCategory === cat.id
                       ? 'bg-white text-cyan-600 shadow-md'
                       : 'text-slate-600 hover:text-slate-900'
                   }`}
                 >
-                  <cat.icon className="w-4 h-4" />
-                  {cat.name}
+                  <cat.icon className="w-3 h-3 sm:w-4 sm:h-4" />
+                  <span className="hidden sm:inline">{cat.name}</span>
+                  <span className="sm:hidden">{cat.name.split(' ')[0]}</span>
                 </button>
               ))}
             </div>
@@ -188,9 +189,9 @@ export default function Products() {
       </section>
 
       {/* Products Grid */}
-      <section className="py-16 bg-slate-50">
+      <section className="py-8 md:py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             {filteredProducts.map((product, index) => (
               <motion.div
                 key={product.id}
@@ -219,41 +220,41 @@ export default function Products() {
                 </div>
 
                 {/* Product Info */}
-                <div className="p-8">
+                <div className="p-4 sm:p-6 md:p-8">
                   {/* Rating */}
                   {product.id !== 'i-range' && product.id !== 'hm-range' && (
                     <div className="flex items-center gap-2 mb-3">
-                      <StarRating rating={product.rating} />
-                      <span className="text-sm text-slate-500">({product.reviews} reviews)</span>
+                      <StarRating rating={product.rating} size="sm" />
+                      <span className="text-xs sm:text-sm text-slate-500">({product.reviews} reviews)</span>
                     </div>
                   )}
 
                   {/* Name & Tagline */}
-                  <h3 className="text-2xl font-bold text-slate-900 mb-1">{product.name}</h3>
-                  <p className="text-cyan-600 font-medium text-sm mb-2">{product.tagline}</p>
-                  <p className="text-slate-500 text-sm mb-4">{product.coverage}</p>
+                  <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-1">{product.name}</h3>
+                  <p className="text-cyan-600 font-medium text-xs sm:text-sm mb-2">{product.tagline}</p>
+                  <p className="text-slate-500 text-xs sm:text-sm mb-4">{product.coverage}</p>
 
                   {/* Features */}
-                  <div className="space-y-2 mb-6">
+                  <div className="space-y-2 mb-4 md:mb-6">
                     {product.features.slice(0, 3).map((feature) => (
-                      <div key={feature} className="flex items-center gap-2 text-sm text-slate-600">
-                        <Check className="w-4 h-4 text-cyan-500 flex-shrink-0" />
+                      <div key={feature} className="flex items-center gap-2 text-xs sm:text-sm text-slate-600">
+                        <Check className="w-3 h-3 sm:w-4 sm:h-4 text-cyan-500 flex-shrink-0" />
                         {feature}
                       </div>
                     ))}
                   </div>
 
                   {/* Price */}
-                  <div className="mb-6">
+                  <div className="mb-4 md:mb-6">
                     {product.price ? (
                       <div>
                         {product.originalPrice && (
-                          <span className="text-slate-400 line-through text-lg">${product.originalPrice}</span>
+                          <span className="text-slate-400 line-through text-base sm:text-lg">${product.originalPrice}</span>
                         )}
-                        <span className="text-3xl font-bold text-slate-900 ml-2">${product.price}</span>
+                        <span className="text-2xl sm:text-3xl font-bold text-slate-900 ml-2">${product.price}</span>
                       </div>
                     ) : product.priceText ? (
-                      <span className="text-xl font-semibold text-slate-700">{product.priceText}</span>
+                      <span className="text-lg sm:text-xl font-semibold text-slate-700">{product.priceText}</span>
                     ) : (
                       <div className="h-8"></div>
                     )}
@@ -267,13 +268,13 @@ export default function Products() {
                     product.id === 'hs40' ? 'ProductHS40' :
                     product.id === 'hm-range' ? 'ProductHMRange' : 'Products'
                   )}>
-                    <Button className={`w-full rounded-full py-6 font-semibold transition-all ${
+                    <Button className={`w-full rounded-full py-4 sm:py-6 text-sm sm:text-base font-semibold transition-all ${
                       product.popular 
                         ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
                         : 'bg-slate-900 hover:bg-slate-800 text-white'
                     }`}>
                       View Details
-                      <ArrowRight className="w-4 h-4 ml-2" />
+                      <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-2" />
                     </Button>
                   </Link>
                 </div>
