@@ -221,10 +221,12 @@ export default function Products() {
                 {/* Product Info */}
                 <div className="p-8">
                   {/* Rating */}
-                  <div className="flex items-center gap-2 mb-3">
-                    <StarRating rating={product.rating} />
-                    <span className="text-sm text-slate-500">({product.reviews} reviews)</span>
-                  </div>
+                  {product.id !== 'i-range' && product.id !== 'hm-range' && (
+                    <div className="flex items-center gap-2 mb-3">
+                      <StarRating rating={product.rating} />
+                      <span className="text-sm text-slate-500">({product.reviews} reviews)</span>
+                    </div>
+                  )}
 
                   {/* Name & Tagline */}
                   <h3 className="text-2xl font-bold text-slate-900 mb-1">{product.name}</h3>
