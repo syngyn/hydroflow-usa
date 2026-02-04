@@ -141,19 +141,6 @@ const downloadableResources = [
     type: 'PDF',
     size: '3.2 MB',
     url: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/HS40-Installation-Manual-230524.pdf'
-  },
-
-  {
-    title: 'Product Comparison Guide',
-    type: 'PDF',
-    size: '1.2 MB',
-    url: '#'
-  },
-  {
-    title: 'Warranty Information',
-    type: 'PDF',
-    size: '0.8 MB',
-    url: '#'
   }
 ];
 
