@@ -190,7 +190,8 @@ export default function HeroSection() {
                       <img 
                         src={products[currentProductIndex].image}
                         alt={products[currentProductIndex].name}
-                        className="max-h-full w-auto object-contain"
+                        className={`max-h-full w-auto object-contain ${currentProductIndex === 4 ? 'scale-120' : ''}`}
+                        style={currentProductIndex === 4 ? { transform: 'scale(1.2)' } : {}}
                       />
                     </div>
                     <div className="text-center">
