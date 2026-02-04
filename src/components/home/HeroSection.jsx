@@ -95,9 +95,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg text-slate-300 leading-relaxed mb-8 max-w-xl">
-              Protect your home and business with our patented Hydropath technology. 
-              Chemical-free, maintenance-free water conditioning that prevents scale, 
-              reduces bacteria, and extends equipment life.
+              Sustainable and eco-friendly water treatment products that are designed to optimize the performance of residential, commercial, industrial, agricultural, and marine water systems.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
