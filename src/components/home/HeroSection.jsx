@@ -39,7 +39,7 @@ export default function HeroSection() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-              Advanced Water
+              <span className="whitespace-nowrap">Advanced Water</span>
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
                 Treatment Solutions
               </span>
