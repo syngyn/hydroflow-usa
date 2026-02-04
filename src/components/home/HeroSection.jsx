@@ -117,36 +117,7 @@ export default function HeroSection() {
               </Link>
             </div>
 
-            {/* Trust badges */}
-            <div className="flex flex-wrap gap-8">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-white/10 backdrop-blur-sm flex items-center justify-center">
-                  <Shield className="w-6 h-6 text-cyan-400" />
-                </div>
-                <div>
-                  <div className="text-white font-semibold">20+ Years</div>
-                  <div className="text-slate-400 text-sm">Proven Technology</div>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-white/10 backdrop-blur-sm flex items-center justify-center">
-                  <Leaf className="w-6 h-6 text-cyan-400" />
-                </div>
-                <div>
-                  <div className="text-white font-semibold">Chemical-Free</div>
-                  <div className="text-slate-400 text-sm">Eco-Friendly</div>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-white/10 backdrop-blur-sm flex items-center justify-center">
-                  <Zap className="w-6 h-6 text-cyan-400" />
-                </div>
-                <div>
-                  <div className="text-white font-semibold">$5/Year</div>
-                  <div className="text-slate-400 text-sm">To Operate</div>
-                </div>
-              </div>
-            </div>
+
           </motion.div>
 
           {/* Hero Image/Card Carousel */}
