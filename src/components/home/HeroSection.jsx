@@ -1,11 +1,55 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { ArrowRight, Play, Shield, Leaf, Zap } from 'lucide-react';
 import { Button } from "@/components/ui/button";
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const products = [
+  {
+    name: 'Pearl Plus',
+    tag: 'MOST POPULAR',
+    coverage: 'For homes up to 3,000 sq ft',
+    oldPrice: '$695',
+    price: '$495',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
+  },
+  {
+    name: 'Pearl',
+    tag: 'BEST VALUE',
+    coverage: 'For homes up to 2,000 sq ft',
+    oldPrice: '$595',
+    price: '$395',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c1d3eeaba_Pearl.png'
+  },
+  {
+    name: 'hs40',
+    tag: 'POOL & SPA',
+    coverage: 'For pools up to 40,000 gallons',
+    oldPrice: '$695',
+    price: '$495',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/02f91a2d1_hs40.png'
+  },
+  {
+    name: 'i-Range',
+    tag: 'INDUSTRIAL',
+    coverage: 'Commercial & industrial applications',
+    oldPrice: null,
+    price: 'Custom',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5a30b2b8f_i-Range.png'
+  }
+];
 
 export default function HeroSection() {
+  const [currentProductIndex, setCurrentProductIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentProductIndex((prev) => (prev + 1) % products.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background with gradient overlay */}
@@ -97,7 +141,7 @@ export default function HeroSection() {
             </div>
           </motion.div>
 
-          {/* Hero Image/Card */}
+          {/* Hero Image/Card Carousel */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -106,20 +150,46 @@ export default function HeroSection() {
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 rounded-3xl blur-2xl" />
-              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 overflow-hidden">
-                <img 
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png"
-                  alt="<i>Hydro</i>FLOW Pearl Plus"
-                  className="w-full max-w-sm mx-auto transform hover:scale-105 transition-transform duration-500"
-                />
-                <div className="text-center mt-6">
-                  <div className="text-cyan-400 text-sm font-medium mb-1">MOST POPULAR</div>
-                  <h3 className="text-white text-2xl font-bold mb-2">Pearl Plus</h3>
-                  <p className="text-slate-400 text-sm">For homes up to 3,000 sq ft</p>
-                  <div className="mt-4">
-                    <span className="text-slate-400 line-through text-lg">$695</span>
-                    <span className="text-white text-3xl font-bold ml-3">$495</span>
-                  </div>
+              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 overflow-hidden min-h-[600px] flex items-center justify-center">
+                <AnimatePresence mode="wait">
+                  <motion.div
+                    key={currentProductIndex}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.9 }}
+                    transition={{ duration: 0.5 }}
+                    className="w-full"
+                  >
+                    <img 
+                      src={products[currentProductIndex].image}
+                      alt={products[currentProductIndex].name}
+                      className="w-full max-w-sm mx-auto transform hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="text-center mt-6">
+                      <div className="text-cyan-400 text-sm font-medium mb-1">{products[currentProductIndex].tag}</div>
+                      <h3 className="text-white text-2xl font-bold mb-2">{products[currentProductIndex].name}</h3>
+                      <p className="text-slate-400 text-sm">{products[currentProductIndex].coverage}</p>
+                      <div className="mt-4">
+                        {products[currentProductIndex].oldPrice && (
+                          <span className="text-slate-400 line-through text-lg">{products[currentProductIndex].oldPrice}</span>
+                        )}
+                        <span className="text-white text-3xl font-bold ml-3">{products[currentProductIndex].price}</span>
+                      </div>
+                    </div>
+                  </motion.div>
+                </AnimatePresence>
+                
+                {/* Carousel indicators */}
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+                  {products.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setCurrentProductIndex(index)}
+                      className={`w-2 h-2 rounded-full transition-all ${
+                        index === currentProductIndex ? 'bg-cyan-400 w-8' : 'bg-white/30'
+                      }`}
+                    />
+                  ))}
                 </div>
               </div>
             </div>
