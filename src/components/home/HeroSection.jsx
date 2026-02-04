@@ -85,10 +85,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
-              <span className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
-              <span className="text-sm text-white/80">Eco-Friendly Water Treatment</span>
-            </div>
+
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 text-center lg:text-left">
               <span className="block whitespace-nowrap">Advanced Water</span>
@@ -128,7 +125,7 @@ export default function HeroSection() {
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 rounded-3xl blur-2xl" />
-              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden aspect-square flex items-center justify-center">
+              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden flex items-center justify-center" style={{ aspectRatio: '4/3', maxHeight: '500px' }}>
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={currentProductIndex}
