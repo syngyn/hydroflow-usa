@@ -78,13 +78,12 @@ export default function HeroSection() {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
-        <div className="grid lg:grid-cols-2 gap-12 items-stretch">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex flex-col justify-between"
           >
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
               <span className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
@@ -126,9 +125,8 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="flex items-center"
           >
-            <div className="relative w-full">
+            <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 rounded-3xl blur-2xl" />
               <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden aspect-square flex items-center justify-center">
                 <AnimatePresence mode="wait">
