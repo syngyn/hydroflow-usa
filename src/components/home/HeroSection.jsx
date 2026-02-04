@@ -197,7 +197,7 @@ export default function HeroSection() {
                         }
                       />
                     </div>
-                    <div className="text-center">
+                    <div className="text-center mb-8">
                       <h3 className="text-white text-xl md:text-2xl font-bold">{products[currentProductIndex].name}</h3>
                     </div>
                   </motion.div>
