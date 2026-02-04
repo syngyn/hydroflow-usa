@@ -23,7 +23,7 @@ const products = [
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png'
   },
   {
-    name: 'hs40',
+    name: <><i>hs</i>40</>,
     tag: 'POOL & SPA',
     coverage: 'For pools up to 40,000 gallons',
     oldPrice: '$2,150',
@@ -31,7 +31,7 @@ const products = [
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png'
   },
   {
-    name: 'i-Range',
+    name: <><i>i</i> Range</>,
     tag: 'INDUSTRIAL',
     coverage: 'Commercial & industrial applications',
     oldPrice: null,
