@@ -12,7 +12,7 @@ const products = [
     coverage: 'For homes up to 3,000 sq ft',
     oldPrice: '$695',
     price: '$495',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/pearl-plus-transparent.webp'
   },
   {
     name: 'Pearl',
@@ -20,15 +20,15 @@ const products = [
     coverage: 'For homes up to 2,000 sq ft',
     oldPrice: '$595',
     price: '$395',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c1d3eeaba_Pearl.png'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png'
   },
   {
     name: 'hs40',
     tag: 'POOL & SPA',
     coverage: 'For pools up to 40,000 gallons',
-    oldPrice: '$695',
-    price: '$495',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/02f91a2d1_hs40.png'
+    oldPrice: '$2,150',
+    price: '$1,990',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png'
   },
   {
     name: 'i-Range',
@@ -36,7 +36,7 @@ const products = [
     coverage: 'Commercial & industrial applications',
     oldPrice: null,
     price: 'Custom',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5a30b2b8f_i-Range.png'
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png'
   }
 ];
 
