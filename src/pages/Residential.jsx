@@ -12,7 +12,6 @@ const benefits = [
   { icon: Shield, title: 'Extends appliance life', description: 'Prevents scale damage' },
   { icon: DollarSign, title: 'Pays for itself', description: 'In less than a year' },
   { icon: Leaf, title: 'Eco-friendly', description: '100% chemical-free' },
-  { icon: Shield, title: 'Extends the life of appliances', description: 'Prevents scale damage' },
   { icon: Home, title: 'Does not take up valuable space', description: 'Compact installation' }
 ];
 
