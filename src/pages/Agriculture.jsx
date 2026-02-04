@@ -62,12 +62,23 @@ export default function Agriculture() {
             <span className="inline-block text-green-400 font-semibold text-sm uppercase tracking-wider mb-4">
               Agriculture Solutions
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Agricultural Water
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-200">
-                Treatment Solutions
-              </span>
-            </h1>
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+                  Agricultural Water
+                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-200">
+                    Treatment Solutions
+                  </span>
+                </h1>
+              </div>
+              <div className="hidden lg:block">
+                <img 
+                  src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
+                  alt="HydroFLOW i Range"
+                  className="w-full max-w-md ml-auto"
+                />
+              </div>
+            </div>
             <p className="text-xl text-slate-300 mb-8">
               Improve irrigation systems and protect farming equipment with our 
               eco-friendly water conditioning technology.
