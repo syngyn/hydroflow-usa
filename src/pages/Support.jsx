@@ -188,7 +188,7 @@ export default function Support() {
               Installation & Support
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Everything you need to install, maintain, and troubleshoot your HydroFLOW system.
+              Everything you need to install, maintain, and troubleshoot your <i>Hydro</i>FLOW equipment.
             </p>
           </motion.div>
 
