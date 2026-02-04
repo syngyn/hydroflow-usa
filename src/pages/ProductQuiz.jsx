@@ -35,6 +35,7 @@ const quizQuestions = [
       residential: [
         { value: 'wholehouse', label: 'Whole House', icon: Home, description: 'Protect entire home plumbing' },
         { value: 'pool', label: 'Pool/Spa', icon: Waves, description: 'Swimming pool or hot tub' },
+        { value: 'both', label: 'Whole Home and Pool/Spa', icon: Home, description: 'Complete property protection' },
       ]
     }
   }
@@ -74,6 +75,59 @@ const productRecommendations = {
     page: 'ProductHS40',
     reason: 'Industrial-strength protection for pools and spas',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+  },
+  residential_small_both: {
+    products: [
+      {
+        product: 'Pearl',
+        page: 'ProductPearl',
+        image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg'
+      },
+      {
+        product: 'hs40',
+        page: 'ProductHS40',
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+      }
+    ],
+    reason: 'Pearl for your home plumbing and hs40 for your pool/spa - complete protection',
+    multiProduct: true
+  },
+  residential_medium_both: {
+    products: [
+      {
+        product: 'Pearl Plus',
+        page: 'ProductPearlPlus',
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
+      },
+      {
+        product: 'hs40',
+        page: 'ProductHS40',
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+      }
+    ],
+    reason: 'Pearl Plus for your home plumbing and hs40 for your pool/spa - complete protection',
+    multiProduct: true
+  },
+  residential_large_both: {
+    products: [
+      {
+        product: 'Pearl',
+        page: 'ProductPearl',
+        image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg'
+      },
+      {
+        product: 'Pearl Plus',
+        page: 'ProductPearlPlus',
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
+      },
+      {
+        product: 'hs40',
+        page: 'ProductHS40',
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+      }
+    ],
+    reason: 'Pearl and Pearl Plus for your large home plus hs40 for your pool/spa - comprehensive coverage',
+    multiProduct: true
   },
   commercial: {
     product: 'hs40 or iRange',
@@ -145,6 +199,9 @@ export default function ProductQuiz() {
       return productRecommendations[key] || productRecommendations.residential_medium_wholehouse;
     } else if (propertyType === 'residential' && application === 'pool') {
       return productRecommendations.residential_pool;
+    } else if (propertyType === 'residential' && application === 'both') {
+      const key = `residential_${propertySize}_both`;
+      return productRecommendations[key] || productRecommendations.residential_medium_both;
     } else if (propertyType === 'commercial') {
       return productRecommendations.commercial;
     } else if (propertyType === 'industrial') {
