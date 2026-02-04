@@ -157,7 +157,7 @@ export default function HeroSection() {
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 rounded-3xl blur-2xl" />
-              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden min-h-[400px] md:min-h-[600px] flex items-center justify-center">
+              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden aspect-square flex items-center justify-center">
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={currentProductIndex}
@@ -190,8 +190,11 @@ export default function HeroSection() {
                       <img 
                         src={products[currentProductIndex].image}
                         alt={products[currentProductIndex].name}
-                        className={`max-h-full w-auto object-contain ${currentProductIndex === 4 ? 'scale-120' : ''}`}
-                        style={currentProductIndex === 4 ? { transform: 'scale(1.2)' } : {}}
+                        className="max-h-full w-auto object-contain"
+                        style={
+                          currentProductIndex === 4 ? { transform: 'scale(1.2)' } :
+                          currentProductIndex === 2 ? { transform: 'scale(0.7)' } : {}
+                        }
                       />
                     </div>
                     <div className="text-center">
