@@ -13,9 +13,6 @@ const quizQuestions = [
     question: 'What type of property do you have?',
     options: [
       { value: 'residential', label: 'Residential', icon: Home, description: 'Home, apartment, or condo' },
-      { value: 'commercial', label: 'Commercial', icon: Building2, description: 'Office, retail, or small business' },
-      { value: 'industrial', label: 'Industrial', icon: Factory, description: 'Manufacturing or large facility' },
-      { value: 'marine', label: 'Marine', icon: Ship, description: 'Boat, yacht, or vessel' },
     ]
   },
   {
@@ -27,19 +24,6 @@ const quizQuestions = [
         { value: 'small', label: 'Small', description: 'Apartment or condo (up to 1,000 sq ft)' },
         { value: 'medium', label: 'Medium', description: 'Standard home (1,000 - 3,000 sq ft)' },
         { value: 'large', label: 'Large', description: 'Large home or estate (3,000+ sq ft)' },
-      ],
-      commercial: [
-        { value: 'small', label: 'Small', description: 'Small office or retail space' },
-        { value: 'medium', label: 'Medium', description: 'Multi-unit building' },
-        { value: 'large', label: 'Large', description: 'Large commercial complex' },
-      ],
-      industrial: [
-        { value: 'medium', label: 'Medium', description: 'Small to medium facility' },
-        { value: 'large', label: 'Large', description: 'Large manufacturing plant' },
-      ],
-      marine: [
-        { value: 'small', label: 'Small', description: 'Small vessel or yacht' },
-        { value: 'large', label: 'Large', description: 'Large vessel or ship' },
       ]
     }
   },
@@ -51,19 +35,6 @@ const quizQuestions = [
       residential: [
         { value: 'wholehouse', label: 'Whole House', icon: Home, description: 'Protect entire home plumbing' },
         { value: 'pool', label: 'Pool/Spa', icon: Waves, description: 'Swimming pool or hot tub' },
-      ],
-      commercial: [
-        { value: 'building', label: 'Building Water', description: 'General building water systems' },
-        { value: 'hvac', label: 'HVAC/Cooling', description: 'Cooling towers or HVAC systems' },
-      ],
-      industrial: [
-        { value: 'cooling', label: 'Cooling Systems', description: 'Industrial cooling towers' },
-        { value: 'boilers', label: 'Boilers/Steam', description: 'Boiler and steam systems' },
-        { value: 'process', label: 'Process Water', description: 'Manufacturing process water' },
-      ],
-      marine: [
-        { value: 'freshwater', label: 'Fresh Water Generator', description: 'Desalination systems' },
-        { value: 'cooling', label: 'Cooling Systems', description: 'Marine cooling systems' },
       ]
     }
   }
