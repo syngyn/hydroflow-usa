@@ -163,7 +163,7 @@ export default function HeroSection() {
                       scale: 1,
                       filter: 'blur(0px) brightness(1)',
                       transition: {
-                        duration: 0.8,
+                        duration: 2.3,
                         ease: "easeOut"
                       }
                     }}
@@ -172,7 +172,7 @@ export default function HeroSection() {
                       scale: 0.8,
                       filter: 'blur(20px) brightness(3)',
                       transition: {
-                        duration: 0.6,
+                        duration: 2.1,
                         ease: "easeIn"
                       }
                     }}
