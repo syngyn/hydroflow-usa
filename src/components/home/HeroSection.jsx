@@ -194,9 +194,7 @@ export default function HeroSection() {
                       />
                     </div>
                     <div className="text-center">
-                      <div className="text-cyan-400 text-sm font-medium mb-1">{products[currentProductIndex].tag}</div>
-                      <h3 className="text-white text-xl md:text-2xl font-bold mb-2">{products[currentProductIndex].name}</h3>
-                      <p className="text-slate-400 text-sm">{products[currentProductIndex].coverage}</p>
+                      <h3 className="text-white text-xl md:text-2xl font-bold">{products[currentProductIndex].name}</h3>
                     </div>
                   </motion.div>
                 </AnimatePresence>
