@@ -47,29 +47,18 @@ const installationGuides = [
     ]
   },
   {
-    product: <><i>hs</i>40</>,
+    product: 'hs40',
     videoUrl: 'https://player.vimeo.com/video/250663038',
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/HS40-Installation-Manual-230524.pdf',
     steps: [
       'Identify installation point on main line or pool circulation',
-      'Mount <i>hs</i>40 unit on pipe using provided straps',
+      'Mount hs40 unit on pipe using provided straps',
       'Ensure proper flow direction alignment',
       'Connect to appropriate power source',
       'Verify unit operation via indicator light'
     ]
-  },
-  {
-    product: 'i Range',
-    videoUrl: 'https://www.youtube.com/embed/your-irange-video',
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/Industrial-Range-Installation-Guide.pdf',
-    steps: [
-      'Consult with HydroFLOW specialist for custom specifications',
-      'Prepare mounting location near target system',
-      'Install unit according to pipe size requirements',
-      'Complete electrical connections per spec sheet',
-      'Commission system and verify signal strength'
-    ]
   }
+
 ];
 
 const troubleshootingFAQs = [
@@ -153,12 +142,7 @@ const downloadableResources = [
     size: '3.2 MB',
     url: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/HS40-Installation-Manual-230524.pdf'
   },
-  {
-    title: 'i Range Technical Specifications',
-    type: 'PDF',
-    size: '1.8 MB',
-    url: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/Industrial-Range-Installation-Guide.pdf'
-  },
+
   {
     title: 'Product Comparison Guide',
     type: 'PDF',
@@ -249,11 +233,10 @@ export default function Support() {
           </div>
 
           <Tabs value={selectedProduct} onValueChange={setSelectedProduct} className="w-full">
-            <TabsList className="grid w-full grid-cols-4 max-w-2xl mx-auto mb-8">
+            <TabsList className="grid w-full grid-cols-3 max-w-2xl mx-auto mb-8">
               <TabsTrigger value="Pearl">Pearl</TabsTrigger>
               <TabsTrigger value="Pearl Plus">Pearl Plus</TabsTrigger>
               <TabsTrigger value="hs40"><i>hs</i>40</TabsTrigger>
-              <TabsTrigger value="i Range">i Range</TabsTrigger>
             </TabsList>
 
             {installationGuides.map((guide) => (
