@@ -100,7 +100,7 @@ export default function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Link to={createPageUrl('Products')}>
-                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30 hover:shadow-cyan-500/50 transition-all w-64">
+                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-8 py-6 text-lg font-semibold transition-all w-64">
                   Residential Solutions
                 </Button>
               </Link>
