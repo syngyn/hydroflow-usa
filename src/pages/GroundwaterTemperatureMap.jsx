@@ -168,9 +168,6 @@ const stateTemperatures = {
 
 export default function GroundwaterTemperatureMap() {
   const [selectedState, setSelectedState] = useState(null);
-  
-  // Get all cities from all states
-  const allCities = Object.values(stateTemperatures).flatMap(state => state.cities || []);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -194,47 +191,9 @@ export default function GroundwaterTemperatureMap() {
               </h1>
             </div>
             <p className="text-xl text-orange-100 max-w-3xl mx-auto">
-              Discover the average groundwater temperature in your area and find the right water heater solution
+              Select your state below to view average groundwater temperatures and water heater recommendations
             </p>
           </motion.div>
-        </div>
-      </section>
-
-      {/* How to Use Section */}
-      <section className="py-12 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8"
-          >
-            <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-              <Info className="w-6 h-6 text-orange-600" />
-              How to Use the Interactive Map
-            </h2>
-            <ol className="space-y-3 text-slate-700">
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 bg-orange-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">1</span>
-                <span>Click on a State to zoom in and view details</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 bg-orange-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">2</span>
-                <span>Click on a City to see its average groundwater temperature</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 bg-orange-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">3</span>
-                <span>Use the search box to find your location by ZIP code</span>
-              </li>
-            </ol>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Search Section */}
-      <section className="py-8 bg-slate-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <LocationSearch type="temperature" />
         </div>
       </section>
 
@@ -245,7 +204,6 @@ export default function GroundwaterTemperatureMap() {
             type="temperature"
             data={stateTemperatures}
             onStateSelect={setSelectedState}
-            cities={allCities}
           />
         </div>
       </section>
