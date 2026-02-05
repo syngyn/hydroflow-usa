@@ -151,10 +151,10 @@ export default function HeroSection() {
                     }}
                     className="w-full"
                   >
-                    <div className="text-center mb-8">
-                      <h3 className="text-white text-xl md:text-2xl font-bold">{products[currentProductIndex].name}</h3>
+                    <div className="text-center mb-4 md:mb-8">
+                      <h3 className="text-white text-lg md:text-2xl font-bold">{products[currentProductIndex].name}</h3>
                     </div>
-                    <div className="h-64 md:h-80 flex items-center justify-center mb-0 md:mb-3">
+                    <div className="h-48 md:h-80 flex items-center justify-center mb-0 md:mb-3">
                       <img 
                         src={products[currentProductIndex].image}
                         alt={products[currentProductIndex].name}
