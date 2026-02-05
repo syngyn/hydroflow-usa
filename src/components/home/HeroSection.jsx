@@ -79,14 +79,13 @@ export default function HeroSection() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Content */}
+          {/* Text Content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
+            className="order-1 lg:col-span-1"
           >
-
-
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 text-center lg:text-left">
               <span className="block whitespace-nowrap">Advanced Water</span>
               <span className="block whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
@@ -97,21 +96,6 @@ export default function HeroSection() {
             <p className="text-lg text-slate-300 leading-relaxed mb-8 max-w-xl">
               Sustainable and eco-friendly water treatment products that are designed to optimize the performance of residential, commercial, industrial, agricultural, and marine water systems.
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 mb-12 items-center sm:items-start">
-              <Link to={createPageUrl('Products')}>
-                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-8 py-6 text-lg font-semibold transition-all w-64">
-                  Residential Solutions
-                </Button>
-              </Link>
-              <Link to={createPageUrl('Industrial')}>
-                <Button variant="outline" className="border-2 border-white/50 text-white bg-white/10 hover:bg-white/20 rounded-full px-8 py-6 text-lg font-semibold backdrop-blur-sm w-64">
-                  Industrial Solutions
-                </Button>
-              </Link>
-            </div>
-
-
           </motion.div>
 
           {/* Hero Image/Card Carousel */}
@@ -119,6 +103,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
+            className="order-2 lg:order-none"
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 rounded-3xl blur-2xl" />
@@ -181,10 +166,29 @@ export default function HeroSection() {
                   ))}
                 </div>
               </div>
-            </div>
-          </motion.div>
-        </div>
-      </div>
+              </div>
+              </motion.div>
+
+              {/* Buttons */}
+              <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="order-3 lg:order-none lg:col-span-2 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center sm:items-start"
+              >
+              <Link to={createPageUrl('Products')}>
+              <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-8 py-6 text-lg font-semibold transition-all w-64">
+                Residential Solutions
+              </Button>
+              </Link>
+              <Link to={createPageUrl('Industrial')}>
+              <Button variant="outline" className="border-2 border-white/50 text-white bg-white/10 hover:bg-white/20 rounded-full px-8 py-6 text-lg font-semibold backdrop-blur-sm w-64">
+                Industrial Solutions
+              </Button>
+              </Link>
+              </motion.div>
+              </div>
+              </div>
 
       {/* Scroll indicator */}
       <motion.div 
