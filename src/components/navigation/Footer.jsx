@@ -107,6 +107,7 @@ export default function Footer() {
                 { name: 'Video Library', href: 'VideoLibrary' },
                 { name: 'About Us', href: 'About' },
                 { name: 'Contact', href: 'Contact' },
+                { name: 'Removed Content Page', href: 'RemovedContentPage' },
               ].map((item) => (
                 <li key={item.name}>
                   <Link to={createPageUrl(item.href)} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
