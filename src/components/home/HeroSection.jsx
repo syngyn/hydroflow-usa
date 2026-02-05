@@ -78,13 +78,13 @@ export default function HeroSection() {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Text Content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="order-1 lg:col-span-1"
+            className="order-1"
           >
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 text-center lg:text-left">
               <span className="block whitespace-nowrap">Advanced Water</span>
@@ -93,7 +93,7 @@ export default function HeroSection() {
               </span>
             </h1>
 
-            <p className="text-lg text-slate-300 leading-relaxed mb-8 max-w-xl">
+            <p className="text-lg text-slate-300 leading-relaxed mb-8 max-w-xl text-center lg:text-left mx-auto lg:mx-0">
               Sustainable and eco-friendly water treatment products that are designed to optimize the performance of residential, commercial, industrial, agricultural, and marine water systems.
             </p>
           </motion.div>
@@ -103,7 +103,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="order-2 lg:order-none"
+            className="order-2 w-full"
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 rounded-3xl blur-2xl" />
@@ -152,7 +152,7 @@ export default function HeroSection() {
                     </div>
                   </motion.div>
                 </AnimatePresence>
-                
+
                 {/* Carousel indicators */}
                 <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
                   {products.map((_, index) => (
@@ -166,29 +166,29 @@ export default function HeroSection() {
                   ))}
                 </div>
               </div>
-              </div>
-              </motion.div>
+            </div>
+          </motion.div>
 
-              {/* Buttons */}
-              <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="order-3 lg:order-none lg:col-span-2 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center sm:items-start"
-              >
-              <Link to={createPageUrl('Products')}>
+          {/* Buttons */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="order-3 w-full flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center sm:items-start"
+          >
+            <Link to={createPageUrl('Products')}>
               <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-8 py-6 text-lg font-semibold transition-all w-64">
                 Residential Solutions
               </Button>
-              </Link>
-              <Link to={createPageUrl('Industrial')}>
+            </Link>
+            <Link to={createPageUrl('Industrial')}>
               <Button variant="outline" className="border-2 border-white/50 text-white bg-white/10 hover:bg-white/20 rounded-full px-8 py-6 text-lg font-semibold backdrop-blur-sm w-64">
                 Industrial Solutions
               </Button>
-              </Link>
-              </motion.div>
-              </div>
-              </div>
+            </Link>
+          </motion.div>
+        </div>
+      </div>
 
       {/* Scroll indicator */}
       <motion.div 
