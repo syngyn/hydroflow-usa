@@ -44,7 +44,7 @@ const products = [
     coverage: 'Marine & vessel applications',
     oldPrice: null,
     price: 'Custom',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/hm-Range1-1400x788.png'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f78dd7ace_hm-Rangenew.png'
   }
 ];
 
