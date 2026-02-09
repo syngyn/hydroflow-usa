@@ -57,21 +57,19 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">Products</h4>
             <ul className="space-y-3">
-              {['Pearl', 'Pearl Plus', <><i>hs</i>40</>, <><i>i</i>Range</>, <><i>hm</i>Range</>].map((item, idx) => (
-                <li key={idx}>
-                  <Link to={createPageUrl('Products')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
-                    {item}
-                  </Link>
-                </li>
-              ))}
               <li>
-                <Link to={createPageUrl('FilterHousings')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
-                  Filter Housings
+                <Link to={createPageUrl('Shop')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                  Residential Products
                 </Link>
               </li>
               <li>
-                <Link to={createPageUrl('FilterCartridges')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
-                  Filter Cartridges
+                <Link to={createPageUrl('ProductIRange')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                  <i>i</i>Range (Industrial)
+                </Link>
+              </li>
+              <li>
+                <Link to={createPageUrl('ProductHMRange')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                  <i>hm</i>Range (Marine)
                 </Link>
               </li>
               <li>

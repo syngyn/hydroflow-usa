@@ -2,21 +2,115 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { ArrowRight, Check, Droplet, Shield, Sparkles } from 'lucide-react';
+import { ArrowRight, Check, HelpCircle } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { StarRating } from "@/components/ui/star-rating";
 import { useCart } from '@/components/cart/CartContext';
 import { toast } from 'sonner';
+
+const hydroflowProducts = [
+  {
+    id: 'pearl',
+    name: 'Pearl',
+    category: 'conditioner',
+    tagline: 'Perfect for Apartments & Condos',
+    coverage: 'Up to 1,000 sq ft',
+    originalPrice: 425,
+    price: 295,
+    rating: 4.38,
+    reviews: 56,
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png',
+    features: [
+      'Apartments and townhomes',
+      'Condos up to 1,000 sq ft',
+      'Small single-family homes',
+      'Easy DIY installation'
+    ],
+    detailPage: 'ProductPearl'
+  },
+  {
+    id: 'pearl-plus',
+    name: 'Pearl Plus',
+    category: 'conditioner',
+    tagline: 'Most Popular Choice',
+    coverage: 'Up to 3,000 sq ft',
+    originalPrice: 695,
+    price: 495,
+    rating: 4.46,
+    reviews: 72,
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png',
+    features: [
+      'Standard sized homes',
+      'Homes up to 3,000 sq ft',
+      'Multi-story properties',
+      'Complex plumbing systems'
+    ],
+    popular: true,
+    detailPage: 'ProductPearlPlus'
+  },
+  {
+    id: 'hs40',
+    name: <><i>hs</i>40</>,
+    category: 'conditioner',
+    tagline: 'For Pools & Light Commercial',
+    coverage: 'Pools, Spas & Light Commercial',
+    originalPrice: 2150,
+    price: 1990,
+    rating: 4.79,
+    reviews: 43,
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png',
+    features: [
+      'Swimming pools',
+      'Hot tubs and spas',
+      'Light commercial applications',
+      'Large residential properties'
+    ],
+    detailPage: 'ProductHS40'
+  }
+];
+
+const filterHousings = [
+  {
+    id: 'filter-housing-10',
+    name: '10" Stainless Steel Filter Housing',
+    category: 'housing',
+    size: '10"',
+    price: 249.95,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/10_inch_housing_grey-1-600x800.webp',
+    features: [
+      'Premium stainless steel construction',
+      'Corrosion resistant',
+      'Easy cartridge replacement',
+      'Durable and long-lasting'
+    ]
+  },
+  {
+    id: 'filter-housing-20',
+    name: '20" Stainless Steel Filter Housing',
+    category: 'housing',
+    size: '20"',
+    price: 379.95,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/20_inch_housing_grey-600x800.webp',
+    features: [
+      'Premium stainless steel construction',
+      'Corrosion resistant',
+      'Easy cartridge replacement',
+      'Durable and long-lasting',
+      'Higher capacity filtration'
+    ]
+  }
+];
 
 const wholeHomeCartridges = [
   {
     id: 'sediment-20',
     name: 'Sediment Filter (20")',
+    category: 'cartridge',
     size: '20" x 4.5"',
     price: 29.95,
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/SED20-inch-cartridge.png',
     tagline: 'Basic filtration',
-    description: 'Basic single-stage sediment filtration for whole home water systems. Removes dirt, sand, and other particulates.',
     features: [
       'Removes sediment and particulates',
       '20-inch length for whole home systems',
@@ -27,11 +121,11 @@ const wholeHomeCartridges = [
   {
     id: 'activated-carbon-20',
     name: 'Activated Carbon Block (20")',
+    category: 'cartridge',
     size: '20" x 4.5"',
     price: 35.95,
     image: 'https://hydroflow-usa.com/wp-content/uploads/2024/05/acb-10-inch-filter-scaled.webp',
     tagline: 'More complex filtration',
-    description: 'Advanced activated carbon filtration for improved taste, odor, and contaminant removal.',
     features: [
       'Removes chlorine, taste, and odor',
       'Reduces organic contaminants',
@@ -43,11 +137,11 @@ const wholeHomeCartridges = [
   {
     id: 'force-field-20',
     name: 'Force Field (20")',
+    category: 'cartridge',
     size: '20" x 4.5"',
     price: 499.95,
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp',
     tagline: 'State of the art for pristine water quality',
-    description: 'Premium multi-stage filtration system delivering the highest level of water purity for whole home applications.',
     features: [
       'Multi-stage advanced filtration',
       'Removes widest range of contaminants',
@@ -61,11 +155,11 @@ const underCounterCartridges = [
   {
     id: 'activated-carbon-10',
     name: 'Activated Carbon Block (10")',
+    category: 'cartridge',
     size: '10" x 2.5"',
     price: 19.95,
     image: 'https://hydroflow-usa.com/wp-content/uploads/2024/05/acb-10-inch-filter-scaled.webp',
     tagline: 'Basic filtration',
-    description: 'Compact activated carbon filtration for under-the-counter systems. Improves taste and removes chlorine.',
     features: [
       'Fits standard 10" housings',
       'Activated carbon technology',
@@ -76,11 +170,11 @@ const underCounterCartridges = [
   {
     id: 'force-field-10',
     name: 'Force Field (10")',
+    category: 'cartridge',
     size: '10" x 2.5"',
     price: 149.95,
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp',
     tagline: 'State of the art for pristine water quality',
-    description: 'Absolute filtration power in a compact 10-inch format. Perfect for under-counter installations.',
     features: [
       'Absolute filtration performance',
       'Multi-layer protection',
@@ -90,36 +184,18 @@ const underCounterCartridges = [
   }
 ];
 
-const benefits = [
-  {
-    icon: Droplet,
-    title: 'Pure Water',
-    description: 'Remove contaminants, improve taste, and enjoy crystal-clear water throughout your home'
-  },
-  {
-    icon: Shield,
-    title: 'Certified Quality',
-    description: 'All cartridges meet rigorous quality standards for safe and effective filtration'
-  },
-  {
-    icon: Sparkles,
-    title: 'Easy Replacement',
-    description: 'Simple cartridge replacement ensures consistent performance and water quality'
-  }
-];
-
-export default function FilterCartridges() {
+export default function Shop() {
   const { addToCart } = useCart();
 
-  const handleAddToCart = (cartridge) => {
+  const handleAddToCart = (product) => {
     addToCart({
-      id: cartridge.id,
-      name: cartridge.name,
-      price: cartridge.price,
-      image: cartridge.image,
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      image: product.image,
       quantity: 1
     });
-    toast.success(`${cartridge.name} added to cart`);
+    toast.success(`${product.name} added to cart`);
   };
 
   return (
@@ -138,93 +214,193 @@ export default function FilterCartridges() {
             className="text-center"
           >
             <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-4">
-              Water Filter Cartridges
+              Residential Water Solutions
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Replacement
+              Complete Water Treatment
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
-                Filter Cartridges
+                For Your Home
               </span>
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              High-quality replacement filter cartridges for whole home and under-counter water filtration systems.
+              Electronic water conditioners, filter housings, and replacement cartridges for comprehensive home water treatment.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Product Categories Navigation */}
-      <section className="py-12 bg-white border-b">
+      {/* Product Selection Tool */}
+      <section className="py-8 bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link to={createPageUrl('Products')}>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer text-center group"
-              >
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-xl flex items-center justify-center">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">Electronic Conditioners</h3>
-                <p className="text-sm text-slate-600">Chemical-free water conditioning</p>
-              </motion.div>
-            </Link>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              className="bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-2xl p-8 border-2 border-cyan-500 text-center"
-            >
-              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-xl flex items-center justify-center">
-                <Droplet className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-2">Home Filtration</h3>
-              <p className="text-sm text-slate-600">Filter cartridges & housings</p>
-              <Badge className="mt-3 bg-cyan-600 text-white">You're Here</Badge>
-            </motion.div>
-
-            <Link to={createPageUrl('Products')}>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer text-center group"
-              >
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-xl flex items-center justify-center">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">On-the-Go Hydration</h3>
-                <p className="text-sm text-slate-600">Portable filtration solutions</p>
-              </motion.div>
+          <div className="flex justify-center">
+            <Link to={createPageUrl('ProductQuiz')}>
+              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-6 py-3 font-semibold">
+                <HelpCircle className="w-4 h-4 mr-2" />
+                Find Your Perfect Product
+              </Button>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-16 bg-slate-50">
+      {/* HydroFLOW Electronic Conditioners */}
+      <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8">
-            {benefits.map((benefit, index) => (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Electronic Conditioners
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              <i>Hydro</i>FLOW Water Conditioners
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Chemical-free electronic water conditioning for residential and light commercial applications
+            </p>
+          </motion.div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {hydroflowProducts.map((product, index) => (
               <motion.div
-                key={benefit.title}
+                key={product.id}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow text-center"
+                className={`relative group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 ${
+                  product.popular ? 'ring-2 ring-cyan-500' : ''
+                }`}
               >
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center mb-6 mx-auto">
-                  <benefit.icon className="w-7 h-7 text-white" />
+                {product.popular && (
+                  <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10">
+                    <Badge className="bg-cyan-500 text-white hover:bg-cyan-500 px-4 py-1 font-semibold">
+                      MOST POPULAR
+                    </Badge>
+                  </div>
+                )}
+
+                <div className="relative h-64 bg-gradient-to-b from-slate-50 to-white flex items-center justify-center p-8">
+                  <img 
+                    src={product.image}
+                    alt={product.name}
+                    className="h-full w-auto object-contain transform group-hover:scale-110 transition-transform duration-500"
+                  />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{benefit.title}</h3>
-                <p className="text-slate-600">{benefit.description}</p>
+
+                <div className="p-8">
+                  <div className="flex items-center gap-2 mb-3">
+                    <StarRating rating={product.rating} size="sm" />
+                    <span className="text-sm text-slate-500">({product.reviews} reviews)</span>
+                  </div>
+
+                  <h3 className="text-2xl font-bold text-slate-900 mb-1">{product.name}</h3>
+                  <p className="text-cyan-600 font-medium text-sm mb-2">{product.tagline}</p>
+                  <p className="text-slate-500 text-sm mb-4">{product.coverage}</p>
+
+                  <div className="space-y-2 mb-6">
+                    {product.features.slice(0, 3).map((feature) => (
+                      <div key={feature} className="flex items-center gap-2 text-sm text-slate-600">
+                        <Check className="w-4 h-4 text-cyan-500 flex-shrink-0" />
+                        {feature}
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="mb-6">
+                    {product.originalPrice && (
+                      <span className="text-slate-400 line-through text-lg">${product.originalPrice}</span>
+                    )}
+                    <span className="text-3xl font-bold text-slate-900 ml-2">${product.price}</span>
+                  </div>
+
+                  <Link to={createPageUrl(product.detailPage)}>
+                    <Button className={`w-full rounded-full py-6 text-base font-semibold transition-all ${
+                      product.popular 
+                        ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
+                        : 'bg-slate-900 hover:bg-slate-800 text-white'
+                    }`}>
+                      View Details
+                      <ArrowRight className="w-4 h-4 ml-2" />
+                    </Button>
+                  </Link>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Filter Housings */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Filter Housings
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              Stainless Steel Filter Housings
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Premium quality stainless steel housings for long-lasting filtration
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {filterHousings.map((housing, index) => (
+              <motion.div
+                key={housing.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-200"
+              >
+                <div className="relative h-96 bg-gradient-to-b from-slate-50 to-white flex items-center justify-center p-8">
+                  <img 
+                    src={housing.image}
+                    alt={housing.name}
+                    className="h-full w-auto object-contain"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <Badge className="bg-cyan-500 text-white text-lg px-4 py-2">
+                      {housing.size}
+                    </Badge>
+                  </div>
+                </div>
+
+                <div className="p-8">
+                  <h3 className="text-2xl font-bold text-slate-900 mb-4">{housing.name}</h3>
+
+                  <div className="space-y-2 mb-6">
+                    {housing.features.map((feature) => (
+                      <div key={feature} className="flex items-center gap-2 text-sm text-slate-600">
+                        <Check className="w-4 h-4 text-cyan-500 flex-shrink-0" />
+                        {feature}
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="mb-6">
+                    <span className="text-3xl font-bold text-slate-900">${housing.price}</span>
+                  </div>
+
+                  <Button 
+                    onClick={() => handleAddToCart(housing)}
+                    className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6 text-base font-semibold"
+                  >
+                    Add to Cart
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </div>
               </motion.div>
             ))}
           </div>
@@ -232,7 +408,7 @@ export default function FilterCartridges() {
       </section>
 
       {/* Whole Home Cartridges */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -269,7 +445,6 @@ export default function FilterCartridges() {
                   </div>
                 )}
 
-                {/* Product Image */}
                 <div className="relative h-80 bg-gradient-to-b from-slate-50 to-white flex items-center justify-center p-8">
                   <img 
                     src={cartridge.image}
@@ -278,13 +453,10 @@ export default function FilterCartridges() {
                   />
                 </div>
 
-                {/* Product Info */}
                 <div className="p-8">
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">{cartridge.name}</h3>
-                  <p className="text-cyan-600 font-medium text-sm mb-3">{cartridge.tagline}</p>
-                  <p className="text-slate-600 mb-6">{cartridge.description}</p>
+                  <p className="text-cyan-600 font-medium text-sm mb-4">{cartridge.tagline}</p>
 
-                  {/* Features */}
                   <div className="space-y-2 mb-6">
                     {cartridge.features.map((feature) => (
                       <div key={feature} className="flex items-center gap-2 text-sm text-slate-600">
@@ -294,12 +466,10 @@ export default function FilterCartridges() {
                     ))}
                   </div>
 
-                  {/* Price */}
                   <div className="mb-6">
                     <span className="text-3xl font-bold text-slate-900">${cartridge.price}</span>
                   </div>
 
-                  {/* CTA */}
                   <Button 
                     onClick={() => handleAddToCart(cartridge)}
                     className={`w-full rounded-full py-6 text-base font-semibold ${
@@ -319,7 +489,7 @@ export default function FilterCartridges() {
       </section>
 
       {/* Under Counter Cartridges */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -348,7 +518,6 @@ export default function FilterCartridges() {
                 transition={{ delay: index * 0.1 }}
                 className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border-2 border-slate-200"
               >
-                {/* Product Image */}
                 <div className="relative h-80 bg-gradient-to-b from-slate-50 to-white flex items-center justify-center p-8">
                   <img 
                     src={cartridge.image}
@@ -357,13 +526,10 @@ export default function FilterCartridges() {
                   />
                 </div>
 
-                {/* Product Info */}
                 <div className="p-8">
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">{cartridge.name}</h3>
-                  <p className="text-cyan-600 font-medium text-sm mb-3">{cartridge.tagline}</p>
-                  <p className="text-slate-600 mb-6">{cartridge.description}</p>
+                  <p className="text-cyan-600 font-medium text-sm mb-4">{cartridge.tagline}</p>
 
-                  {/* Features */}
                   <div className="space-y-2 mb-6">
                     {cartridge.features.map((feature) => (
                       <div key={feature} className="flex items-center gap-2 text-sm text-slate-600">
@@ -373,12 +539,10 @@ export default function FilterCartridges() {
                     ))}
                   </div>
 
-                  {/* Price */}
                   <div className="mb-6">
                     <span className="text-3xl font-bold text-slate-900">${cartridge.price}</span>
                   </div>
 
-                  {/* CTA */}
                   <Button 
                     onClick={() => handleAddToCart(cartridge)}
                     className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-6 text-base font-semibold"
@@ -405,7 +569,7 @@ export default function FilterCartridges() {
               Need Help Choosing?
             </h2>
             <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
-              Our water treatment experts can help you select the right filter cartridge for your system.
+              Our water treatment experts are here to help you find the perfect solution for your home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to={createPageUrl('Contact')}>
