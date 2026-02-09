@@ -249,7 +249,7 @@ export default function Products() {
                 {/* Product Info */}
                 <div className="p-4 sm:p-6 md:p-8">
                   {/* Rating */}
-                  {product.id !== 'i-range' && product.id !== 'hm-range' && (
+                  {product.rating && (
                     <div className="flex items-center gap-2 mb-3">
                       <StarRating rating={product.rating} size="sm" />
                       <span className="text-xs sm:text-sm text-slate-500">({product.reviews} reviews)</span>
