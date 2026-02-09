@@ -242,7 +242,7 @@ export default function Products() {
             <Link to={createPageUrl('ProductQuiz')}>
               <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-6 py-3 font-semibold">
                 <HelpCircle className="w-4 h-4 mr-2" />
-                Find Your Perfect Product
+                Find Your Perfect <span><i>Hydro</i>FLOW</span> Product
               </Button>
             </Link>
           </div>
@@ -268,6 +268,21 @@ export default function Products() {
               Chemical-free water conditioning technology for residential and commercial applications
             </p>
           </motion.div>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <Link to={createPageUrl('PerformanceWithTime')}>
+              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
+                Performance With Time
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
+            <Link to={createPageUrl('Expectations')}>
+              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
+                What to Expect
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
+          </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             {products.filter(p => p.category === 'residential').map((product, index) => (
@@ -330,11 +345,7 @@ export default function Products() {
                     product.id === 'pearl' ? 'ProductPearl' :
                     product.id === 'hs40' ? 'ProductHS40' : 'Products'
                   )}>
-                    <Button className={`w-full rounded-full py-4 sm:py-6 text-sm sm:text-base font-semibold transition-all ${
-                      product.popular 
-                        ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
-                        : 'bg-slate-900 hover:bg-slate-800 text-white'
-                    }`}>
+                    <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4 sm:py-6 text-sm sm:text-base font-semibold transition-all">
                       View Details
                       <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-2" />
                     </Button>
@@ -377,7 +388,10 @@ export default function Products() {
                 className="relative group bg-slate-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
               >
                 <Link to={createPageUrl(
-                  product.id === 'activated-carbon-20' ? 'ProductActivatedCarbon20' : 'Products'
+                  product.id === 'activated-carbon-20' ? 'ProductActivatedCarbon20' :
+                  product.id === 'sediment-20' ? 'ProductSediment20' :
+                  product.id === 'activated-carbon-10' ? 'ProductActivatedCarbon10' :
+                  product.id === 'force-field-10' ? 'ProductForceField10' : 'Products'
                 )}>
                   <div className="relative h-48 bg-gradient-to-b from-white to-slate-50 flex items-center justify-center p-6">
                     <img 
@@ -395,17 +409,13 @@ export default function Products() {
                       <span className="text-xl font-bold text-slate-900">${product.price}</span>
                     </div>
                   </div>
-                </Link>
-
                 <div className="px-4 pb-4">
-                  <Button 
-                    onClick={() => handleAddToCart(product)}
-                    className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-3 text-sm font-semibold"
-                  >
-                    Add to Cart
-                    <ShoppingCart className="w-3 h-3 ml-2" />
+                  <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-3 text-sm font-semibold">
+                    View Details
+                    <ArrowRight className="w-3 h-3 ml-2" />
                   </Button>
                 </div>
+                </Link>
               </motion.div>
             ))}
           </div>
@@ -477,20 +487,23 @@ export default function Products() {
                     <span className="text-2xl font-bold text-slate-900">${product.price}</span>
                   </div>
 
-                  <Button 
-                    onClick={() => handleAddToCart(product)}
-                    className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4 text-base font-semibold"
-                  >
-                    Add to Cart
-                    <ShoppingCart className="w-4 h-4 ml-2" />
-                  </Button>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+                  <Link to={createPageUrl(
+                    product.id === 'filter-housing-10' ? 'ProductFilterHousing10' :
+                    product.id === 'filter-housing-20' ? 'ProductFilterHousing20' :
+                    'FilterHousings'
+                  )}>
+                    <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4 text-base font-semibold">
+                      View Details
+                      <ArrowRight className="w-4 h-4 ml-2" />
+                    </Button>
+                  </Link>
+                  </div>
+                  </motion.div>
+                  ))}
+                  </div>
 
-          <div className="text-center mt-8">
-            <Link to={createPageUrl('FilterHousings')}>
+                  <div className="text-center mt-8">
+                  <Link to={createPageUrl('FilterHousings')}>
               <Button variant="outline" className="rounded-full px-8 py-4 border-2">
                 View All Filter Housings
                 <ArrowRight className="w-4 h-4 ml-2" />
