@@ -84,6 +84,7 @@ import ProductIRange from './pages/ProductIRange';
 import ProductPearl from './pages/ProductPearl';
 import ProductPearlPlus from './pages/ProductPearlPlus';
 import ProductQuiz from './pages/ProductQuiz';
+import Products from './pages/Products';
 import ProtectiveEnclosure from './pages/ProtectiveEnclosure';
 import RemovedContentPage from './pages/RemovedContentPage';
 import Residential from './pages/Residential';
@@ -98,7 +99,8 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import Shop from './pages/Shop';
+import FilterHousings from './pages/FilterHousings';
+import FilterCartridges from './pages/FilterCartridges';
 import __Layout from './Layout.jsx';
 
 
@@ -140,6 +142,7 @@ export const PAGES = {
     "ProductPearl": ProductPearl,
     "ProductPearlPlus": ProductPearlPlus,
     "ProductQuiz": ProductQuiz,
+    "Products": Products,
     "ProtectiveEnclosure": ProtectiveEnclosure,
     "RemovedContentPage": RemovedContentPage,
     "Residential": Residential,
@@ -154,7 +157,8 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "Shop": Shop,
+    "FilterHousings": FilterHousings,
+    "FilterCartridges": FilterCartridges,
 }
 
 export const pagesConfig = {
