@@ -477,7 +477,9 @@ export default function Products() {
                   </div>
 
                   <Link to={createPageUrl(
-                    product.id === 'filter-housing-10' ? 'ProductFilterHousing10' : 'FilterHousings'
+                    product.id === 'filter-housing-10' ? 'ProductFilterHousing10' :
+                    product.id === 'filter-housing-20' ? 'ProductFilterHousing20' :
+                    'FilterHousings'
                   )}>
                     <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4 text-base font-semibold">
                       View Details
