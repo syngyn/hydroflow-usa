@@ -476,20 +476,19 @@ export default function Products() {
                     <span className="text-2xl font-bold text-slate-900">${product.price}</span>
                   </div>
 
-                  <Button 
-                    onClick={() => handleAddToCart(product)}
-                    className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4 text-base font-semibold"
-                  >
-                    Add to Cart
-                    <ShoppingCart className="w-4 h-4 ml-2" />
-                  </Button>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+                  <Link to={createPageUrl('FilterHousings')}>
+                    <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4 text-base font-semibold">
+                      View Details
+                      <ArrowRight className="w-4 h-4 ml-2" />
+                    </Button>
+                  </Link>
+                  </div>
+                  </motion.div>
+                  ))}
+                  </div>
 
-          <div className="text-center mt-8">
-            <Link to={createPageUrl('FilterHousings')}>
+                  <div className="text-center mt-8">
+                  <Link to={createPageUrl('FilterHousings')}>
               <Button variant="outline" className="rounded-full px-8 py-4 border-2">
                 View All Filter Housings
                 <ArrowRight className="w-4 h-4 ml-2" />
