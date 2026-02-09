@@ -267,12 +267,6 @@ export default function Products() {
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
               Chemical-free water conditioning technology for residential and commercial applications
             </p>
-            <div className="mt-4">
-              <Link to={createPageUrl('PerformanceWithTime')} className="text-cyan-600 hover:text-cyan-700 font-semibold inline-flex items-center gap-2">
-                Learn About Performance With Time
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
           </motion.div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
