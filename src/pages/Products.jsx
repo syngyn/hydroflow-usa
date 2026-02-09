@@ -377,7 +377,8 @@ export default function Products() {
                 className="relative group bg-slate-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
               >
                 <Link to={createPageUrl(
-                  product.id === 'activated-carbon-20' ? 'ProductActivatedCarbon20' : 'Products'
+                  product.id === 'activated-carbon-20' ? 'ProductActivatedCarbon20' :
+                  product.id === 'sediment-20' ? 'ProductSediment20' : 'Products'
                 )}>
                   <div className="relative h-48 bg-gradient-to-b from-white to-slate-50 flex items-center justify-center p-6">
                     <img 
