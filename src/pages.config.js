@@ -80,12 +80,15 @@ import PerformanceWithTime from './pages/PerformanceWithTime';
 import PlasticManufacturing from './pages/PlasticManufacturing';
 import PowerGeneration from './pages/PowerGeneration';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import ProductActivatedCarbon10 from './pages/ProductActivatedCarbon10';
+import ProductActivatedCarbon20 from './pages/ProductActivatedCarbon20';
 import ProductHMRange from './pages/ProductHMRange';
 import ProductHS40 from './pages/ProductHS40';
 import ProductIRange from './pages/ProductIRange';
 import ProductPearl from './pages/ProductPearl';
 import ProductPearlPlus from './pages/ProductPearlPlus';
 import ProductQuiz from './pages/ProductQuiz';
+import ProductSediment20 from './pages/ProductSediment20';
 import Products from './pages/Products';
 import ProtectiveEnclosure from './pages/ProtectiveEnclosure';
 import RemovedContentPage from './pages/RemovedContentPage';
@@ -101,9 +104,7 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import ProductActivatedCarbon20 from './pages/ProductActivatedCarbon20';
-import ProductSediment20 from './pages/ProductSediment20';
-import ProductActivatedCarbon10 from './pages/ProductActivatedCarbon10';
+import ProductForceField10 from './pages/ProductForceField10';
 import __Layout from './Layout.jsx';
 
 
@@ -141,12 +142,15 @@ export const PAGES = {
     "PlasticManufacturing": PlasticManufacturing,
     "PowerGeneration": PowerGeneration,
     "PrivacyPolicy": PrivacyPolicy,
+    "ProductActivatedCarbon10": ProductActivatedCarbon10,
+    "ProductActivatedCarbon20": ProductActivatedCarbon20,
     "ProductHMRange": ProductHMRange,
     "ProductHS40": ProductHS40,
     "ProductIRange": ProductIRange,
     "ProductPearl": ProductPearl,
     "ProductPearlPlus": ProductPearlPlus,
     "ProductQuiz": ProductQuiz,
+    "ProductSediment20": ProductSediment20,
     "Products": Products,
     "ProtectiveEnclosure": ProtectiveEnclosure,
     "RemovedContentPage": RemovedContentPage,
@@ -162,9 +166,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "ProductActivatedCarbon20": ProductActivatedCarbon20,
-    "ProductSediment20": ProductSediment20,
-    "ProductActivatedCarbon10": ProductActivatedCarbon10,
+    "ProductForceField10": ProductForceField10,
 }
 
 export const pagesConfig = {
