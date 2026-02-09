@@ -52,7 +52,6 @@ export default function Navbar() {
     { 
       name: 'Products', 
       dropdown: [
-        { name: 'All Products', href: 'Products' },
         { name: 'Product Selection Tool', href: 'ProductQuiz' },
         { name: 'Pearl', href: 'ProductPearl' },
         { name: 'Pearl Plus', href: 'ProductPearlPlus' },
