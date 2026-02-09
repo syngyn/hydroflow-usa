@@ -155,6 +155,40 @@ const products = [
     ],
     description: 'Absolute filtration power in a compact 10-inch format.',
     isCartridge: true
+  },
+  {
+    id: 'filter-housing-10',
+    name: '10" Stainless Steel Filter Housing',
+    category: 'filtration',
+    tagline: 'Premium Quality Housing',
+    coverage: 'Residential & Light Commercial',
+    price: 249.95,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/10_inch_housing_grey-1-600x800.webp',
+    features: [
+      'Premium stainless steel construction',
+      'Corrosion resistant',
+      'Easy cartridge replacement',
+      'Durable and long-lasting'
+    ],
+    description: 'High-quality 10-inch stainless steel filter housing designed for residential and light commercial applications.',
+    isCartridge: true
+  },
+  {
+    id: 'filter-housing-20',
+    name: '20" Stainless Steel Filter Housing',
+    category: 'filtration',
+    tagline: 'Heavy-Duty Housing',
+    coverage: 'Residential & Commercial',
+    price: 379.95,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/20_inch_housing_grey-600x800.webp',
+    features: [
+      'Premium stainless steel construction',
+      'Corrosion resistant',
+      'Easy cartridge replacement',
+      'Durable and long-lasting'
+    ],
+    description: 'Heavy-duty 20-inch stainless steel filter housing for demanding residential and commercial water filtration needs.',
+    isCartridge: true
   }
 ];
 
