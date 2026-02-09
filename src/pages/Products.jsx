@@ -2,13 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { ArrowRight, Check, Filter, Home, Building2, Waves, HelpCircle } from 'lucide-react';
+import { ArrowRight, Check, Filter, Home, Building2, Waves, HelpCircle, ShoppingCart } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { StarRating } from "@/components/ui/star-rating";
 import { useRecommendations } from '@/components/recommendations/RecommendationContext';
 import ProductRecommendations from '@/components/recommendations/ProductRecommendations';
+import { useCart } from '@/components/cart/CartContext';
+import { toast } from 'sonner';
 
 const products = [
   {
@@ -68,11 +70,108 @@ const products = [
       'Large residential properties'
     ],
     description: 'Industrial-strength protection for pools, spas, and light commercial use.'
+  },
+  {
+    id: 'sediment-20',
+    name: 'Sediment Filter (20")',
+    category: 'filtration',
+    tagline: 'Basic Filtration',
+    coverage: 'Whole Home Systems',
+    price: 29.95,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/SED20-inch-cartridge.png',
+    features: [
+      'Removes sediment and particulates',
+      '20-inch length',
+      'Cost-effective basic filtration',
+      'Easy to replace'
+    ],
+    description: 'Basic single-stage sediment filtration for whole home water systems.',
+    isCartridge: true
+  },
+  {
+    id: 'activated-carbon-20',
+    name: 'Activated Carbon (20")',
+    category: 'filtration',
+    tagline: 'More Complex Filtration',
+    coverage: 'Whole Home Systems',
+    price: 35.95,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/05/acb-10-inch-filter-scaled.webp',
+    features: [
+      'Removes chlorine, taste, and odor',
+      'Advanced carbon block technology',
+      'Reduces organic contaminants',
+      'Compatible with whole home housings'
+    ],
+    description: 'Advanced activated carbon filtration for improved taste and odor removal.',
+    isCartridge: true
+  },
+  {
+    id: 'force-field-20',
+    name: 'Force Field (20")',
+    category: 'filtration',
+    tagline: 'State of the Art Filtration',
+    coverage: 'Whole Home Systems',
+    price: 499.95,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp',
+    features: [
+      'Multi-stage advanced filtration',
+      'Removes widest range of contaminants',
+      'Premium quality construction',
+      'Exceptional water clarity'
+    ],
+    description: 'Premium multi-stage filtration delivering the highest level of water purity.',
+    isCartridge: true
+  },
+  {
+    id: 'activated-carbon-10',
+    name: 'Activated Carbon (10")',
+    category: 'filtration',
+    tagline: 'Under-Counter Filtration',
+    coverage: 'Point-of-Use Systems',
+    price: 19.95,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/05/acb-10-inch-filter-scaled.webp',
+    features: [
+      'Fits standard 10" housings',
+      'Removes chlorine and odors',
+      'Compact design',
+      'Activated carbon technology'
+    ],
+    description: 'Compact activated carbon filtration for under-the-counter systems.',
+    isCartridge: true
+  },
+  {
+    id: 'force-field-10',
+    name: 'Force Field (10")',
+    category: 'filtration',
+    tagline: 'Premium Under-Counter Filtration',
+    coverage: 'Point-of-Use Systems',
+    price: 149.95,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp',
+    features: [
+      'Absolute filtration performance',
+      'Multi-layer protection',
+      'Compact 10" design',
+      'Premium water quality'
+    ],
+    description: 'Absolute filtration power in a compact 10-inch format.',
+    isCartridge: true
   }
 ];
 
 export default function Products() {
   const { trackFilterUse } = useRecommendations();
+  const { addToCart } = useCart();
+
+  const handleAddToCart = (product) => {
+    addToCart({
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      image: product.image,
+      quantity: 1
+    });
+    toast.success(`${product.name} added to cart`);
+  };
 
   return (
     <div>
@@ -189,22 +288,36 @@ export default function Products() {
                   </div>
 
                   {/* CTA */}
-                  <Link to={createPageUrl(
-                    product.id === 'i-range' ? 'ProductIRange' :
-                    product.id === 'pearl-plus' ? 'ProductPearlPlus' :
-                    product.id === 'pearl' ? 'ProductPearl' :
-                    product.id === 'hs40' ? 'ProductHS40' :
-                    product.id === 'hm-range' ? 'ProductHMRange' : 'Products'
-                  )}>
-                    <Button className={`w-full rounded-full py-4 sm:py-6 text-sm sm:text-base font-semibold transition-all ${
-                      product.popular 
-                        ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
-                        : 'bg-slate-900 hover:bg-slate-800 text-white'
-                    }`}>
-                      View Details
-                      <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-2" />
+                  {product.isCartridge ? (
+                    <Button 
+                      onClick={() => handleAddToCart(product)}
+                      className={`w-full rounded-full py-4 sm:py-6 text-sm sm:text-base font-semibold transition-all ${
+                        product.popular 
+                          ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
+                          : 'bg-slate-900 hover:bg-slate-800 text-white'
+                      }`}
+                    >
+                      Add to Cart
+                      <ShoppingCart className="w-3 h-3 sm:w-4 sm:h-4 ml-2" />
                     </Button>
-                  </Link>
+                  ) : (
+                    <Link to={createPageUrl(
+                      product.id === 'i-range' ? 'ProductIRange' :
+                      product.id === 'pearl-plus' ? 'ProductPearlPlus' :
+                      product.id === 'pearl' ? 'ProductPearl' :
+                      product.id === 'hs40' ? 'ProductHS40' :
+                      product.id === 'hm-range' ? 'ProductHMRange' : 'Products'
+                    )}>
+                      <Button className={`w-full rounded-full py-4 sm:py-6 text-sm sm:text-base font-semibold transition-all ${
+                        product.popular 
+                          ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
+                          : 'bg-slate-900 hover:bg-slate-800 text-white'
+                      }`}>
+                        View Details
+                        <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-2" />
+                      </Button>
+                    </Link>
+                  )}
                 </div>
               </motion.div>
             ))}
