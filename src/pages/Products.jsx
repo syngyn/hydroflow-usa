@@ -269,10 +269,16 @@ export default function Products() {
             </p>
           </motion.div>
 
-          <div className="text-center mb-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Link to={createPageUrl('PerformanceWithTime')}>
               <Button variant="outline" className="rounded-full px-8 py-4 border-2">
                 Performance With Time
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
+            <Link to={createPageUrl('Expectations')}>
+              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
+                What to Expect
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
