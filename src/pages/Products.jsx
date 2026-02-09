@@ -376,22 +376,28 @@ export default function Products() {
                 transition={{ delay: index * 0.1 }}
                 className="relative group bg-slate-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
               >
-                <div className="relative h-48 bg-gradient-to-b from-white to-slate-50 flex items-center justify-center p-6">
-                  <img 
-                    src={product.image}
-                    alt={product.name}
-                    className="h-full w-auto object-contain transform group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-
-                <div className="p-4">
-                  <h3 className="text-lg font-bold text-slate-900 mb-1">{product.name}</h3>
-                  <p className="text-cyan-600 font-medium text-xs mb-2">{product.tagline}</p>
-                  
-                  <div className="mb-4">
-                    <span className="text-xl font-bold text-slate-900">${product.price}</span>
+                <Link to={createPageUrl(
+                  product.id === 'activated-carbon-20' ? 'ProductActivatedCarbon20' : 'Products'
+                )}>
+                  <div className="relative h-48 bg-gradient-to-b from-white to-slate-50 flex items-center justify-center p-6">
+                    <img 
+                      src={product.image}
+                      alt={product.name}
+                      className="h-full w-auto object-contain transform group-hover:scale-110 transition-transform duration-500"
+                    />
                   </div>
 
+                  <div className="p-4">
+                    <h3 className="text-lg font-bold text-slate-900 mb-1">{product.name}</h3>
+                    <p className="text-cyan-600 font-medium text-xs mb-2">{product.tagline}</p>
+                    
+                    <div className="mb-4">
+                      <span className="text-xl font-bold text-slate-900">${product.price}</span>
+                    </div>
+                  </div>
+                </Link>
+
+                <div className="px-4 pb-4">
                   <Button 
                     onClick={() => handleAddToCart(product)}
                     className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-3 text-sm font-semibold"
