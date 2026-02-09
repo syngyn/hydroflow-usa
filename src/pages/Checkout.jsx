@@ -169,9 +169,9 @@ export default function Checkout() {
                   </div>
                 </Card>
 
-                {/* Shipping Address */}
+                {/* Billing Address */}
                 <Card className="p-6">
-                  <h2 className="text-2xl font-bold text-slate-900 mb-6">Shipping Address</h2>
+                  <h2 className="text-2xl font-bold text-slate-900 mb-6">Billing Address</h2>
                   <div className="space-y-6">
                     <div>
                       <Label htmlFor="address">Address *</Label>
