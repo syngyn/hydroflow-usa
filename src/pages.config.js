@@ -103,6 +103,7 @@ import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import ProductActivatedCarbon20 from './pages/ProductActivatedCarbon20';
 import ProductSediment20 from './pages/ProductSediment20';
+import ProductActivatedCarbon10 from './pages/ProductActivatedCarbon10';
 import __Layout from './Layout.jsx';
 
 
@@ -163,6 +164,7 @@ export const PAGES = {
     "WaterHardnessMap": WaterHardnessMap,
     "ProductActivatedCarbon20": ProductActivatedCarbon20,
     "ProductSediment20": ProductSediment20,
+    "ProductActivatedCarbon10": ProductActivatedCarbon10,
 }
 
 export const pagesConfig = {
