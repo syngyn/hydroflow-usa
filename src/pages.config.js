@@ -105,6 +105,7 @@ import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import ProductForceField10 from './pages/ProductForceField10';
+import ProductFilterHousing10 from './pages/ProductFilterHousing10';
 import __Layout from './Layout.jsx';
 
 
@@ -167,6 +168,7 @@ export const PAGES = {
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
     "ProductForceField10": ProductForceField10,
+    "ProductFilterHousing10": ProductFilterHousing10,
 }
 
 export const pagesConfig = {
