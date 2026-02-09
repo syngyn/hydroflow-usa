@@ -71,29 +71,8 @@ const products = [
   }
 ];
 
-const categories = [
-  { id: 'all', name: 'All Products', icon: Filter },
-  { id: 'residential', name: 'Residential', icon: Home }
-];
-
 export default function Products() {
-  const [activeCategory, setActiveCategory] = useState('all');
   const { trackFilterUse } = useRecommendations();
-
-  useEffect(() => {
-    if (activeCategory !== 'all') {
-      trackFilterUse('category', activeCategory);
-    }
-  }, [activeCategory, trackFilterUse]);
-
-  const filteredProducts = activeCategory === 'all' 
-    ? products 
-    : products.filter(p => {
-      if (Array.isArray(p.categories)) {
-        return p.categories.includes(activeCategory);
-      }
-      return p.category === activeCategory;
-    });
 
   return (
     <div>
@@ -123,27 +102,16 @@ export default function Products() {
         </div>
       </section>
 
-      {/* Category Filter */}
+      {/* Product Selection Tool */}
       <section className="py-4 md:py-8 bg-white border-b sticky top-20 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center overflow-x-auto pb-2 md:pb-0">
-            <div className="inline-flex bg-slate-100 rounded-full p-1 min-w-fit">
-              {categories.map((cat) => (
-                <button
-                  key={cat.id}
-                  onClick={() => setActiveCategory(cat.id)}
-                  className={`flex items-center gap-1 sm:gap-2 px-3 sm:px-6 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${
-                    activeCategory === cat.id
-                      ? 'bg-white text-cyan-600 shadow-md'
-                      : 'text-slate-600 hover:text-slate-900'
-                  }`}
-                >
-                  <cat.icon className="w-3 h-3 sm:w-4 sm:h-4" />
-                  <span className="hidden sm:inline">{cat.name}</span>
-                  <span className="sm:hidden">{cat.name.split(' ')[0]}</span>
-                </button>
-              ))}
-            </div>
+          <div className="flex justify-center">
+            <Link to={createPageUrl('ProductQuiz')}>
+              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-6 py-3 font-semibold">
+                <HelpCircle className="w-4 h-4 mr-2" />
+                Find Your Perfect Product
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -152,7 +120,7 @@ export default function Products() {
       <section className="py-8 md:py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
-            {filteredProducts.map((product, index) => (
+            {products.map((product, index) => (
               <motion.div
                 key={product.id}
                 initial={{ opacity: 0, y: 20 }}
