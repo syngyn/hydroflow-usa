@@ -68,52 +68,12 @@ const products = [
       'Large residential properties'
     ],
     description: 'Industrial-strength protection for pools, spas, and light commercial use.'
-  },
-  {
-    id: 'i-range',
-    name: <><i>i</i>Range</>,
-    categories: ['commercial', 'industrial'],
-    tagline: 'Heavy-Duty Solutions',
-    coverage: 'Industrial & Large Commercial',
-    price: null,
-    priceText: null,
-    rating: 4.9,
-    reviews: 28,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png',
-    features: [
-      'Manufacturing facilities',
-      'Large commercial buildings',
-      'Cooling towers',
-      'Custom pipe sizes'
-    ],
-    description: 'Custom solutions for industrial and large commercial applications.'
-  },
-  {
-    id: 'hm-range',
-    name: 'hmRange',
-    category: 'industrial',
-    tagline: 'Marine Solutions',
-    coverage: 'Marine Vessels',
-    price: null,
-    priceText: null,
-    rating: 4.85,
-    reviews: 15,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/hm-Range1-1400x788.png',
-    features: [
-      'Fresh water generators',
-      'Marine cooling systems',
-      'UV sterilizers',
-      'IP68 waterproof'
-    ],
-    description: 'Marine-grade water treatment for vessels and maritime applications.'
   }
 ];
 
 const categories = [
   { id: 'all', name: 'All Products', icon: Filter },
-  { id: 'residential', name: 'Residential', icon: Home },
-  { id: 'commercial', name: 'Commercial', icon: Building2 },
-  { id: 'industrial', name: 'Industrial', icon: Waves }
+  { id: 'residential', name: 'Residential', icon: Home }
 ];
 
 export default function Products() {
