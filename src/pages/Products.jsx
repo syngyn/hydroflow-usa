@@ -242,7 +242,7 @@ export default function Products() {
             <Link to={createPageUrl('ProductQuiz')}>
               <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-6 py-3 font-semibold">
                 <HelpCircle className="w-4 h-4 mr-2" />
-                Find Your Perfect HydroFLOW Product
+                Find Your Perfect <i>Hydro</i>FLOW Product
               </Button>
             </Link>
           </div>
