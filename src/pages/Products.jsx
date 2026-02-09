@@ -330,11 +330,7 @@ export default function Products() {
                     product.id === 'pearl' ? 'ProductPearl' :
                     product.id === 'hs40' ? 'ProductHS40' : 'Products'
                   )}>
-                    <Button className={`w-full rounded-full py-4 sm:py-6 text-sm sm:text-base font-semibold transition-all ${
-                      product.popular 
-                        ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white' 
-                        : 'bg-slate-900 hover:bg-slate-800 text-white'
-                    }`}>
+                    <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4 sm:py-6 text-sm sm:text-base font-semibold transition-all">
                       View Details
                       <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-2" />
                     </Button>
