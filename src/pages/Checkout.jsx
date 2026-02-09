@@ -3,12 +3,13 @@ import { useNavigate } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { useCart } from '@/components/cart/CartContext';
 import { motion } from 'framer-motion';
-import { CheckCircle2, Lock } from 'lucide-react';
+import { CheckCircle2, Lock, Package } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
 
 export default function Checkout() {
   const { cart, getCartTotal, clearCart } = useCart();
@@ -17,6 +18,7 @@ export default function Checkout() {
   const [orderComplete, setOrderComplete] = useState(false);
   const [couponCode, setCouponCode] = useState('');
   const [appliedCoupon, setAppliedCoupon] = useState(null);
+  const [differentShipping, setDifferentShipping] = useState(false);
 
   // Sample coupons - you can replace with API call
   const coupons = {
@@ -35,6 +37,11 @@ export default function Checkout() {
     state: '',
     zipCode: '',
     country: 'US',
+    shippingAddress: '',
+    shippingCity: '',
+    shippingState: '',
+    shippingZipCode: '',
+    shippingCountry: 'US',
     notes: ''
   });
 
@@ -229,8 +236,83 @@ export default function Checkout() {
                         </SelectContent>
                       </Select>
                     </div>
+                    <div className="flex items-center gap-2 pt-4">
+                      <Checkbox 
+                        id="differentShipping"
+                        checked={differentShipping}
+                        onCheckedChange={setDifferentShipping}
+                      />
+                      <Label htmlFor="differentShipping" className="cursor-pointer">
+                        Ship to a different address
+                      </Label>
+                    </div>
                   </div>
                 </Card>
+
+                {/* Shipping Address */}
+                {differentShipping && (
+                  <Card className="p-6">
+                    <h2 className="text-2xl font-bold text-slate-900 mb-6">Shipping Address</h2>
+                    <div className="space-y-6">
+                      <div>
+                        <Label htmlFor="shippingAddress">Address *</Label>
+                        <Input
+                          id="shippingAddress"
+                          required={differentShipping}
+                          value={formData.shippingAddress}
+                          onChange={(e) => setFormData({...formData, shippingAddress: e.target.value})}
+                          className="rounded-xl mt-2"
+                        />
+                      </div>
+                      <div className="grid md:grid-cols-3 gap-6">
+                        <div>
+                          <Label htmlFor="shippingCity">City *</Label>
+                          <Input
+                            id="shippingCity"
+                            required={differentShipping}
+                            value={formData.shippingCity}
+                            onChange={(e) => setFormData({...formData, shippingCity: e.target.value})}
+                            className="rounded-xl mt-2"
+                          />
+                        </div>
+                        <div>
+                          <Label htmlFor="shippingState">State *</Label>
+                          <Input
+                            id="shippingState"
+                            required={differentShipping}
+                            value={formData.shippingState}
+                            onChange={(e) => setFormData({...formData, shippingState: e.target.value})}
+                            className="rounded-xl mt-2"
+                            placeholder="CA"
+                          />
+                        </div>
+                        <div>
+                          <Label htmlFor="shippingZipCode">Zip Code *</Label>
+                          <Input
+                            id="shippingZipCode"
+                            required={differentShipping}
+                            value={formData.shippingZipCode}
+                            onChange={(e) => setFormData({...formData, shippingZipCode: e.target.value})}
+                            className="rounded-xl mt-2"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <Label htmlFor="shippingCountry">Country *</Label>
+                        <Select value={formData.shippingCountry} onValueChange={(value) => setFormData({...formData, shippingCountry: value})}>
+                          <SelectTrigger className="rounded-xl mt-2">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="US">United States</SelectItem>
+                            <SelectItem value="CA">Canada</SelectItem>
+                            <SelectItem value="MX">Mexico</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </div>
+                  </Card>
+                )}
 
                 {/* Order Notes */}
                 <Card className="p-6">
