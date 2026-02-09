@@ -66,6 +66,8 @@ import DroughtMitigation from './pages/DroughtMitigation';
 import ESCO from './pages/ESCO';
 import Expectations from './pages/Expectations';
 import FAQ from './pages/FAQ';
+import FilterCartridges from './pages/FilterCartridges';
+import FilterHousings from './pages/FilterHousings';
 import Filtration from './pages/Filtration';
 import FiltrationTechnology from './pages/FiltrationTechnology';
 import FoodBeverage from './pages/FoodBeverage';
@@ -99,8 +101,6 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import FilterHousings from './pages/FilterHousings';
-import FilterCartridges from './pages/FilterCartridges';
 import __Layout from './Layout.jsx';
 
 
@@ -124,6 +124,8 @@ export const PAGES = {
     "ESCO": ESCO,
     "Expectations": Expectations,
     "FAQ": FAQ,
+    "FilterCartridges": FilterCartridges,
+    "FilterHousings": FilterHousings,
     "Filtration": Filtration,
     "FiltrationTechnology": FiltrationTechnology,
     "FoodBeverage": FoodBeverage,
@@ -157,8 +159,6 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "FilterHousings": FilterHousings,
-    "FilterCartridges": FilterCartridges,
 }
 
 export const pagesConfig = {

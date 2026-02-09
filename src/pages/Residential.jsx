@@ -264,8 +264,118 @@ export default function Residential() {
         </div>
       </section>
 
+      {/* Filter Cartridges Section */}
+      <section className="py-24 bg-white border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
+              Water Filtration
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              Replacement Filter Cartridges
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              High-quality replacement filters for whole home and under-counter systems
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition-all"
+            >
+              <div className="h-48 flex items-center justify-center mb-4">
+                <img 
+                  src="https://hydroflow-usa.com/wp-content/uploads/2023/08/SED20-inch-cartridge.png"
+                  alt="Sediment Filter"
+                  className="h-full w-auto object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Sediment Filter (20")</h3>
+              <p className="text-sm text-slate-600 mb-4">Basic filtration</p>
+              <div className="text-2xl font-bold text-slate-900 mb-4">$29.95</div>
+              <Link to={createPageUrl('FilterCartridges')}>
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-4">
+                  View Details
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </Link>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition-all border-2 border-cyan-500"
+            >
+              <div className="absolute top-4 left-1/2 -translate-x-1/2 bg-cyan-500 text-white text-xs font-semibold px-4 py-1 rounded-full z-10">
+                MOST POPULAR
+              </div>
+              <div className="h-48 flex items-center justify-center mb-4 mt-4">
+                <img 
+                  src="https://hydroflow-usa.com/wp-content/uploads/2024/05/acb-10-inch-filter-scaled.webp"
+                  alt="Activated Carbon Filter"
+                  className="h-full w-auto object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Activated Carbon (20")</h3>
+              <p className="text-sm text-slate-600 mb-4">More complex filtration</p>
+              <div className="text-2xl font-bold text-slate-900 mb-4">$35.95</div>
+              <Link to={createPageUrl('FilterCartridges')}>
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4">
+                  View Details
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </Link>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition-all"
+            >
+              <div className="h-48 flex items-center justify-center mb-4">
+                <img 
+                  src="https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp"
+                  alt="Force Field Filter"
+                  className="h-full w-auto object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Force Field (20")</h3>
+              <p className="text-sm text-slate-600 mb-4">State of the art filtration</p>
+              <div className="text-2xl font-bold text-slate-900 mb-4">$499.95</div>
+              <Link to={createPageUrl('FilterCartridges')}>
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-4">
+                  View Details
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </Link>
+            </motion.div>
+          </div>
+
+          <div className="text-center">
+            <Link to={createPageUrl('FilterCartridges')}>
+              <Button variant="outline" className="rounded-full px-8 py-6 border-2">
+                View All Filter Cartridges
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Case Studies */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
