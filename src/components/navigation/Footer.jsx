@@ -70,6 +70,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link to={createPageUrl('FilterCartridges')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                  Filter Cartridges
+                </Link>
+              </li>
+              <li>
                 <Link to={createPageUrl('Support')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
                   Product Support
                 </Link>

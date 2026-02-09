@@ -100,6 +100,7 @@ import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import FilterHousings from './pages/FilterHousings';
+import FilterCartridges from './pages/FilterCartridges';
 import __Layout from './Layout.jsx';
 
 
@@ -157,6 +158,7 @@ export const PAGES = {
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
     "FilterHousings": FilterHousings,
+    "FilterCartridges": FilterCartridges,
 }
 
 export const pagesConfig = {
