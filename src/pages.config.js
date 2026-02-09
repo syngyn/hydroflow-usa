@@ -89,7 +89,6 @@ import ProductPearl from './pages/ProductPearl';
 import ProductPearlPlus from './pages/ProductPearlPlus';
 import ProductQuiz from './pages/ProductQuiz';
 import ProductSediment20 from './pages/ProductSediment20';
-import Products from './pages/Products';
 import ProtectiveEnclosure from './pages/ProtectiveEnclosure';
 import RemovedContentPage from './pages/RemovedContentPage';
 import Residential from './pages/Residential';
@@ -107,6 +106,7 @@ import WaterHardnessMap from './pages/WaterHardnessMap';
 import ProductForceField10 from './pages/ProductForceField10';
 import ProductFilterHousing10 from './pages/ProductFilterHousing10';
 import ProductFilterHousing20 from './pages/ProductFilterHousing20';
+import Products from './pages/Products';
 import __Layout from './Layout.jsx';
 
 
@@ -153,7 +153,6 @@ export const PAGES = {
     "ProductPearlPlus": ProductPearlPlus,
     "ProductQuiz": ProductQuiz,
     "ProductSediment20": ProductSediment20,
-    "Products": Products,
     "ProtectiveEnclosure": ProtectiveEnclosure,
     "RemovedContentPage": RemovedContentPage,
     "Residential": Residential,
@@ -171,6 +170,7 @@ export const PAGES = {
     "ProductForceField10": ProductForceField10,
     "ProductFilterHousing10": ProductFilterHousing10,
     "ProductFilterHousing20": ProductFilterHousing20,
+    "Products": Products,
 }
 
 export const pagesConfig = {

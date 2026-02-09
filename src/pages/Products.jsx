@@ -269,6 +269,15 @@ export default function Products() {
             </p>
           </motion.div>
 
+          <div className="text-center mb-8">
+            <Link to={createPageUrl('PerformanceWithTime')}>
+              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
+                Performance With Time
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
+          </div>
+
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             {products.filter(p => p.category === 'residential').map((product, index) => (
               <motion.div
