@@ -65,6 +65,11 @@ export default function Footer() {
                 </li>
               ))}
               <li>
+                <Link to={createPageUrl('FilterHousings')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                  Filter Housings
+                </Link>
+              </li>
+              <li>
                 <Link to={createPageUrl('Support')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
                   Product Support
                 </Link>
