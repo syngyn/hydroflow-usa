@@ -398,17 +398,13 @@ export default function Products() {
                       <span className="text-xl font-bold text-slate-900">${product.price}</span>
                     </div>
                   </div>
-                </Link>
-
                 <div className="px-4 pb-4">
-                  <Button 
-                    onClick={() => handleAddToCart(product)}
-                    className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-3 text-sm font-semibold"
-                  >
-                    Add to Cart
-                    <ShoppingCart className="w-3 h-3 ml-2" />
+                  <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-3 text-sm font-semibold">
+                    View Details
+                    <ArrowRight className="w-3 h-3 ml-2" />
                   </Button>
                 </div>
+                </Link>
               </motion.div>
             ))}
           </div>
