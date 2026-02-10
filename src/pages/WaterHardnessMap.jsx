@@ -112,7 +112,7 @@ export default function WaterHardnessMap() {
               {
                 step: '1',
                 title: 'Search Your Location',
-                description: 'Enter your city, state, or zip code in the search bar above'
+                description: 'Enter your city, state, or zip code in the search bar'
               },
               {
                 step: '2',
