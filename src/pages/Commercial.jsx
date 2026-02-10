@@ -261,7 +261,7 @@ export default function Commercial() {
                 <i>hs</i>40 Light Commercial
               </h2>
               <p className="text-lg text-slate-600 mb-6">
-                The hs40 is our go-to solution for light commercial applications, including 
+                The <i>hs</i>40 is our go-to solution for light commercial applications, including 
                 pools, spas, restaurants, and small businesses.
               </p>
               <ul className="space-y-3 mb-8">
