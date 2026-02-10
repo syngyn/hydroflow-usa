@@ -46,10 +46,10 @@ export default function Footer() {
                 <Mail className="w-4 h-4" />
                 <span className="text-sm">sales@hydroflow-usa.com</span>
               </a>
-              <div className="flex items-start gap-3 text-slate-400">
+              <a href="https://www.google.com/maps/place/8561+154th+Ave+NE+%23230,+Redmond,+WA+98052" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 text-slate-400 hover:text-cyan-400 transition-colors">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <span className="text-sm">8561 154th AVE NE, Suite 230<br />Redmond, WA 98052</span>
-              </div>
+              </a>
             </div>
           </div>
 
