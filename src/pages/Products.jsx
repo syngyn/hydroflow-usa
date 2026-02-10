@@ -397,15 +397,6 @@ export default function Products() {
               </motion.div>
             ))}
           </div>
-
-          <div className="text-center mt-8">
-            <Link to={createPageUrl('FilterCartridges')}>
-              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
-                View All Filter Cartridges
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
-          </div>
         </div>
       </section>
 
