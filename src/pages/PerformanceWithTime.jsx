@@ -77,7 +77,7 @@ export default function PerformanceWithTime() {
               Performance With Time
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Understanding how <i>Hydro</i>FLOW technology protects your plumbing system over time
+              Understanding how <i>Hydro</i>FLOW protects your plumbing system over time
             </p>
           </motion.div>
         </div>
