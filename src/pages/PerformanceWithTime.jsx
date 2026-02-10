@@ -92,16 +92,6 @@ export default function PerformanceWithTime() {
         </div>
       </section>
 
-      {/* Product Info Banner */}
-      <section className="py-8 bg-cyan-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-slate-700">
-            The <strong>Pearl</strong> model is designed for small homes. The <strong>Pearl Plus</strong> model is designed for standard homes and commercial kitchens. 
-            The <strong>hs40</strong> model is designed for residential pools but it is sometimes used to protect large homes and restaurants.
-          </p>
-        </div>
-      </section>
-
       {/* Timeline Content */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
