@@ -23,7 +23,9 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Address',
-    details: ['8561 154th AVE NE, Suite 230', 'Redmond, WA 98052']
+    details: ['8561 154th AVE NE, Suite 230', 'Redmond, WA 98052'],
+    action: 'https://www.google.com/maps/place/8561+154th+Ave+NE+%23230,+Redmond,+WA+98052',
+    newTab: true
   },
   {
     icon: Clock,
@@ -94,6 +96,7 @@ export default function Contact() {
                 {info.action ? (
                   <a 
                     href={info.action}
+                    {...(info.newTab && { target: "_blank", rel: "noopener noreferrer" })}
                     className="block bg-slate-50 rounded-2xl p-6 hover:bg-cyan-50 hover:shadow-lg transition-all group h-full"
                   >
                     <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mb-4 group-hover:bg-cyan-500 transition-colors">
