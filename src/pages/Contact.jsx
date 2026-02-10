@@ -94,7 +94,7 @@ export default function Contact() {
                 {info.action ? (
                   <a 
                     href={info.action}
-                    className="block bg-slate-50 rounded-2xl p-6 hover:bg-cyan-50 hover:shadow-lg transition-all group"
+                    className="block bg-slate-50 rounded-2xl p-6 hover:bg-cyan-50 hover:shadow-lg transition-all group h-full"
                   >
                     <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mb-4 group-hover:bg-cyan-500 transition-colors">
                       <info.icon className="w-6 h-6 text-cyan-600 group-hover:text-white transition-colors" />
@@ -105,7 +105,7 @@ export default function Contact() {
                     ))}
                   </a>
                 ) : (
-                  <div className="bg-slate-50 rounded-2xl p-6">
+                  <div className="bg-slate-50 rounded-2xl p-6 h-full">
                     <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mb-4">
                       <info.icon className="w-6 h-6 text-cyan-600" />
                     </div>
