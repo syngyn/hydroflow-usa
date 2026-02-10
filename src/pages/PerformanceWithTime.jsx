@@ -83,26 +83,41 @@ export default function PerformanceWithTime() {
         </div>
       </section>
 
-      {/* Timeline Navigation */}
-      <section className="bg-white border-b sticky top-20 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex justify-center items-center gap-2 overflow-x-auto">
-            <span className="text-sm text-slate-500 whitespace-nowrap mr-4">Click on a day to learn more →</span>
-            {timeline.map((item, index) => (
-              <a
-                key={item.day}
-                href={`#day-${index}`}
-                onClick={() => setActiveIndex(index)}
-                className={`flex flex-col items-center px-4 py-3 rounded-lg transition-all min-w-[120px] ${
-                  activeIndex === index 
-                    ? `bg-gradient-to-r ${item.color} text-white shadow-lg scale-105` 
-                    : 'hover:bg-slate-50'
-                }`}
-              >
-                <span className={`font-bold mb-1 ${activeIndex === index ? 'text-white' : 'text-slate-900'}`}>{item.day}</span>
-                <span className={`text-xs text-center leading-tight ${activeIndex === index ? 'text-white' : 'text-slate-600'}`}>{item.title}</span>
-              </a>
-            ))}
+      {/* Performance Timeline */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center text-slate-900 mb-12">
+            Performance Timeline
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {timeline.map((item, index) => {
+              const Icon = item.icon;
+              return (
+                <motion.a
+                  key={item.day}
+                  href={`#day-${index}`}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  onClick={() => setActiveIndex(index)}
+                  className={`group relative bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border-2 overflow-hidden ${
+                    activeIndex === index 
+                      ? 'border-cyan-500 shadow-xl' 
+                      : 'border-slate-100 hover:border-cyan-500'
+                  }`}
+                >
+                  <div className={`h-2 bg-gradient-to-r ${item.color}`} />
+                  <div className="p-6">
+                    <div className={`w-12 h-12 rounded-xl ${item.bgColor} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
+                      <Icon className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="font-bold text-slate-900 mb-1">{item.day}</div>
+                    <div className="text-sm text-slate-600">{item.title}</div>
+                  </div>
+                </motion.a>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -158,39 +173,7 @@ export default function PerformanceWithTime() {
         </div>
       </section>
 
-      {/* Visual Timeline */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-slate-900 mb-12">
-            Performance Timeline
-          </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {timeline.map((item, index) => {
-              const Icon = item.icon;
-              return (
-                <motion.a
-                  key={item.day}
-                  href={`#day-${index}`}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
-                  className="group relative bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all border-2 border-slate-100 hover:border-cyan-500 overflow-hidden"
-                >
-                  <div className={`h-2 bg-gradient-to-r ${item.color}`} />
-                  <div className="p-6">
-                    <div className={`w-12 h-12 rounded-xl ${item.bgColor} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
-                      <Icon className="w-6 h-6 text-white" />
-                    </div>
-                    <div className="font-bold text-slate-900 mb-1">{item.day}</div>
-                    <div className="text-sm text-slate-600">{item.title}</div>
-                  </div>
-                </motion.a>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+
     </div>
   );
 }
