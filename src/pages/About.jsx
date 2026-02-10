@@ -8,8 +8,7 @@ import { Button } from "@/components/ui/button";
 const stats = [
   { value: '20+', label: 'Years of Innovation' },
   { value: '100K+', label: 'Units Installed Worldwide' },
-  { value: '50+', label: 'Countries Served' },
-  { value: '24/7', label: 'Customer Support' }
+  { value: '50+', label: 'Countries Served' }
 ];
 
 const values = [
