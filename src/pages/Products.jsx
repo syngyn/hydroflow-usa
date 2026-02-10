@@ -219,11 +219,23 @@ export default function Products() {
       {/* Product Selection Tool */}
       <section className="py-4 md:py-8 bg-white border-b sticky top-20 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to={createPageUrl('ProductQuiz')}>
-              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-6 py-3 font-semibold">
+              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-4 font-semibold">
                 <HelpCircle className="w-4 h-4 mr-2" />
                 Find Your Perfect <span><i>Hydro</i>FLOW</span> Product
+              </Button>
+            </Link>
+            <Link to={createPageUrl('PerformanceWithTime')}>
+              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
+                Performance With Time
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
+            <Link to={createPageUrl('Expectations')}>
+              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
+                What to Expect
+                <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
           </div>
@@ -249,21 +261,6 @@ export default function Products() {
               Chemical-free water conditioning technology for residential and commercial applications
             </p>
           </motion.div>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Link to={createPageUrl('PerformanceWithTime')}>
-              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
-                Performance With Time
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
-            <Link to={createPageUrl('Expectations')}>
-              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
-                What to Expect
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
-          </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             {products.filter(p => p.category === 'residential').map((product, index) => (
