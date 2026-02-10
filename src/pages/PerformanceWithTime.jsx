@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, CheckCircle2, Droplets, Shield } from 'lucide-react';
 
@@ -48,16 +48,6 @@ Kindly note the HydroFLOW device does not replace routine maintenance procedures
 ];
 
 export default function PerformanceWithTime() {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveIndex((prev) => (prev + 1) % timeline.length);
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div>
       {/* Hero Section */}
@@ -92,18 +82,23 @@ export default function PerformanceWithTime() {
               <a
                 key={item.day}
                 href={`#day-${index}`}
-                onClick={() => setActiveIndex(index)}
-                className={`flex flex-col items-center px-4 py-3 rounded-lg transition-all min-w-[120px] ${
-                  activeIndex === index 
-                    ? `bg-gradient-to-r ${item.color} text-white shadow-lg scale-105` 
-                    : 'hover:bg-slate-50'
-                }`}
+                className={`flex flex-col items-center px-4 py-3 rounded-lg hover:bg-slate-50 transition-all min-w-[120px]`}
               >
-                <span className={`font-bold mb-1 ${activeIndex === index ? 'text-white' : 'text-slate-900'}`}>{item.day}</span>
-                <span className={`text-xs text-center leading-tight ${activeIndex === index ? 'text-white' : 'text-slate-600'}`}>{item.title}</span>
+                <span className="font-bold text-slate-900 mb-1">{item.day}</span>
+                <span className="text-xs text-slate-600 text-center leading-tight">{item.title}</span>
               </a>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Product Info Banner */}
+      <section className="py-8 bg-cyan-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-slate-700">
+            The <strong>Pearl</strong> model is designed for small homes. The <strong>Pearl Plus</strong> model is designed for standard homes and commercial kitchens. 
+            The <strong>hs40</strong> model is designed for residential pools but it is sometimes used to protect large homes and restaurants.
+          </p>
         </div>
       </section>
 
