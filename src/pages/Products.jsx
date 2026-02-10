@@ -286,7 +286,7 @@ export default function Products() {
                   <img 
                     src={product.image}
                     alt={product.name}
-                    className="h-full w-auto object-contain transform group-hover:scale-110 transition-transform duration-500"
+                    className={`h-full w-auto object-contain transform group-hover:scale-110 transition-transform duration-500 ${product.id === 'pearl-plus' ? 'scale-125' : ''}`}
                   />
                 </div>
 
