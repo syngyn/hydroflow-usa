@@ -20,7 +20,7 @@ const values = [
   {
     icon: Globe,
     title: 'Global Presence',
-    description: 'HydroFLOW devices have been distributed throughout the world and officially entered the U.S. market in 2010.'
+    description: '<i>Hydro</i>FLOW devices have been distributed throughout the world and officially entered the U.S. market in 2010.'
   },
   {
     icon: Award,
