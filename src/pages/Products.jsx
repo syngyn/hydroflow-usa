@@ -210,7 +210,7 @@ export default function Products() {
               <i>Hydro</i>FLOW Products
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto px-4">
-              Find the ideal <i>Hydro</i>FLOW water conditioner for your home, business, or industrial facility.
+              Find the ideal <i>Hydro</i>FLOW water conditioner for your home or business
             </p>
           </motion.div>
         </div>
