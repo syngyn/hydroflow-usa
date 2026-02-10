@@ -283,7 +283,7 @@ export default function Commercial() {
               </div>
               <Link to={createPageUrl('Products')}>
                 <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 font-semibold">
-                  View <i>hs</i>40
+                  View<i>hs</i>40
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
