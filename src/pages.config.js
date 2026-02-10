@@ -47,7 +47,6 @@
  *
  * The mainPage value must match a key in the PAGES object exactly.
  */
-import About from './pages/About';
 import Agriculture from './pages/Agriculture';
 import AgricultureFarming from './pages/AgricultureFarming';
 import AgricultureLandscaping from './pages/AgricultureLandscaping';
@@ -107,11 +106,11 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import About from './pages/About';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
-    "About": About,
     "Agriculture": Agriculture,
     "AgricultureFarming": AgricultureFarming,
     "AgricultureLandscaping": AgricultureLandscaping,
@@ -171,6 +170,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
+    "About": About,
 }
 
 export const pagesConfig = {
