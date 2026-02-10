@@ -52,7 +52,7 @@ export default function About() {
             className="text-center"
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 px-4">
-              About <i>Hydro</i><span className="text-cyan-400">FLOW</span> USA
+              About <i>Hydro</i><span className="text-white">FLOW</span> USA
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto px-4">
               The exclusive U.S. distributor of revolutionary water conditioners powered by 
