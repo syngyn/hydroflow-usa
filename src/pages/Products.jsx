@@ -105,23 +105,7 @@ const products = [
     description: 'Advanced activated carbon filtration for improved taste and odor removal.',
     isCartridge: true
   },
-  {
-    id: 'force-field-20',
-    name: 'Force Field (20")',
-    category: 'filtration',
-    tagline: 'State of the Art Filtration',
-    coverage: 'Whole Home Systems',
-    price: 499.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp',
-    features: [
-      'Multi-stage advanced filtration',
-      'Removes widest range of contaminants',
-      'Premium quality construction',
-      'Exceptional water clarity'
-    ],
-    description: 'Premium multi-stage filtration delivering the highest level of water purity.',
-    isCartridge: true
-  },
+
   {
     id: 'activated-carbon-10',
     name: 'Activated Carbon (10")',
@@ -222,14 +206,11 @@ export default function Products() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
-            <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-4">
-              Water Conditioners
-            </span>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 px-4">
               <i>Hydro</i>FLOW Products
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-3xl mx-auto px-4">
-              Find the perfect <i>Hydro</i>FLOW water conditioner for your home, business, or industrial facility.
+              Find the ideal <i>Hydro</i>FLOW water conditioner for your home, business, or industrial facility.
             </p>
           </motion.div>
         </div>
@@ -238,11 +219,23 @@ export default function Products() {
       {/* Product Selection Tool */}
       <section className="py-4 md:py-8 bg-white border-b sticky top-20 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to={createPageUrl('ProductQuiz')}>
-              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-6 py-3 font-semibold">
+              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-4 font-semibold">
                 <HelpCircle className="w-4 h-4 mr-2" />
                 Find Your Perfect <span><i>Hydro</i>FLOW</span> Product
+              </Button>
+            </Link>
+            <Link to={createPageUrl('PerformanceWithTime')}>
+              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-4 font-semibold">
+                Performance With Time
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </Link>
+            <Link to={createPageUrl('Expectations')}>
+              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-4 font-semibold">
+                What to Expect
+                <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
           </div>
@@ -268,21 +261,6 @@ export default function Products() {
               Chemical-free water conditioning technology for residential and commercial applications
             </p>
           </motion.div>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Link to={createPageUrl('PerformanceWithTime')}>
-              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
-                Performance With Time
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
-            <Link to={createPageUrl('Expectations')}>
-              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
-                What to Expect
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
-          </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             {products.filter(p => p.category === 'residential').map((product, index) => (
@@ -418,15 +396,6 @@ export default function Products() {
                 </Link>
               </motion.div>
             ))}
-          </div>
-
-          <div className="text-center mt-8">
-            <Link to={createPageUrl('FilterCartridges')}>
-              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
-                View All Filter Cartridges
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
           </div>
         </div>
       </section>
