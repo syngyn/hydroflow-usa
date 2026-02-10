@@ -227,13 +227,13 @@ export default function Products() {
               </Button>
             </Link>
             <Link to={createPageUrl('PerformanceWithTime')}>
-              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
+              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-4 font-semibold">
                 Performance With Time
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
             <Link to={createPageUrl('Expectations')}>
-              <Button variant="outline" className="rounded-full px-8 py-4 border-2">
+              <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-4 font-semibold">
                 What to Expect
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
