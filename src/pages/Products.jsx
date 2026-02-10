@@ -258,7 +258,7 @@ export default function Products() {
               <i>Hydro</i>FLOW Units
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Chemical-free water conditioning technology for residential and commercial applications
+              Chemical-free water conditioning technology for residential and small commercial applications
             </p>
           </motion.div>
 
