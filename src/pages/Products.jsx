@@ -105,23 +105,7 @@ const products = [
     description: 'Advanced activated carbon filtration for improved taste and odor removal.',
     isCartridge: true
   },
-  {
-    id: 'force-field-20',
-    name: 'Force Field (20")',
-    category: 'filtration',
-    tagline: 'State of the Art Filtration',
-    coverage: 'Whole Home Systems',
-    price: 499.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp',
-    features: [
-      'Multi-stage advanced filtration',
-      'Removes widest range of contaminants',
-      'Premium quality construction',
-      'Exceptional water clarity'
-    ],
-    description: 'Premium multi-stage filtration delivering the highest level of water purity.',
-    isCartridge: true
-  },
+
   {
     id: 'activated-carbon-10',
     name: 'Activated Carbon (10")',
