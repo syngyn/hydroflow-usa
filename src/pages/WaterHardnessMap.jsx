@@ -58,7 +58,7 @@ export default function WaterHardnessMap() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="mb-8"
+            className="mb-8 lg:max-w-md"
           >
             <LocationSearch onLocationSelect={setSelectedLocation} />
           </motion.div>
