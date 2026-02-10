@@ -18,10 +18,10 @@ export default function Footer() {
                 Contact us for a free consultation and find the perfect solution.
               </p>
             </div>
-            <Link 
+            <Link
               to={createPageUrl('Contact')}
-              className="group flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold transition-all shadow-lg shadow-cyan-500/25 text-sm sm:text-base"
-            >
+              className="group flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold transition-all shadow-lg shadow-cyan-500/25 text-sm sm:text-base">
+
               Get Started
               <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
@@ -34,8 +34,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <p className="text-slate-400 text-sm leading-relaxed mb-6">
-              The exclusive U.S. distributor of <i>Hydro</i>FLOW water conditioners powered by patented Hydropath technology.
+            <p className="text-slate-400 text-sm leading-relaxed mb-6">The exclusive U.S. distributor of HydroFLOW water conditioners, which are powered by the patented Hydropath technology.
+
             </p>
             <div className="space-y-3">
               <a href="tel:1-888-559-4340" className="flex items-center gap-3 text-slate-400 hover:text-cyan-400 transition-colors">
@@ -57,13 +57,13 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">Products</h4>
             <ul className="space-y-3">
-              {['Pearl', 'Pearl Plus', <><i>hs</i>40</>, <><i>i</i>Range</>, <><i>hm</i>Range</>].map((item, idx) => (
-                <li key={idx}>
+              {['Pearl', 'Pearl Plus', <><i>hs</i>40</>, <><i>i</i>Range</>, <><i>hm</i>Range</>].map((item, idx) =>
+              <li key={idx}>
                   <Link to={createPageUrl('Products')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
                     {item}
                   </Link>
                 </li>
-              ))}
+              )}
               <li>
                 <Link to={createPageUrl('FilterHousings')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
                   Filter Housings
@@ -87,18 +87,18 @@ export default function Footer() {
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">Market Sectors</h4>
             <ul className="space-y-3">
               {[
-                { name: 'Residential', href: 'Residential' },
-                { name: 'Industrial', href: 'Industrial' },
-                { name: 'Commercial', href: 'Commercial' },
-                { name: 'Agriculture', href: 'Agriculture' },
-                { name: 'Marine', href: 'Marine' },
-              ].map((item) => (
-                <li key={item.name}>
+              { name: 'Residential', href: 'Residential' },
+              { name: 'Industrial', href: 'Industrial' },
+              { name: 'Commercial', href: 'Commercial' },
+              { name: 'Agriculture', href: 'Agriculture' },
+              { name: 'Marine', href: 'Marine' }].
+              map((item) =>
+              <li key={item.name}>
                   <Link to={createPageUrl(item.href)} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
                     {item.name}
                   </Link>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
 
@@ -107,24 +107,24 @@ export default function Footer() {
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">Resources</h4>
             <ul className="space-y-3">
               {[
-                { name: 'Cooling Tower ROI Calculator', href: 'Savings' },
-                { name: 'Technology', href: 'Technology' },
-                { name: 'Knowledge Base', href: 'KnowledgeBase' },
-                { name: 'Water Hardness Map', href: 'WaterHardnessMap' },
-                { name: 'Performance With Time', href: 'PerformanceWithTime' },
-                { name: 'What to Expect', href: 'Expectations' },
-                { name: 'FAQ', href: 'FAQ' },
-                { name: 'Video Library', href: 'VideoLibrary' },
-                { name: 'About Us', href: 'About' },
-                { name: 'Contact', href: 'Contact' },
-                { name: 'Removed Content Page', href: 'RemovedContentPage' },
-              ].map((item) => (
-                <li key={item.name}>
+              { name: 'Cooling Tower ROI Calculator', href: 'Savings' },
+              { name: 'Technology', href: 'Technology' },
+              { name: 'Knowledge Base', href: 'KnowledgeBase' },
+              { name: 'Water Hardness Map', href: 'WaterHardnessMap' },
+              { name: 'Performance With Time', href: 'PerformanceWithTime' },
+              { name: 'What to Expect', href: 'Expectations' },
+              { name: 'FAQ', href: 'FAQ' },
+              { name: 'Video Library', href: 'VideoLibrary' },
+              { name: 'About Us', href: 'About' },
+              { name: 'Contact', href: 'Contact' },
+              { name: 'Removed Content Page', href: 'RemovedContentPage' }].
+              map((item) =>
+              <li key={item.name}>
                   <Link to={createPageUrl(item.href)} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
                     {item.name}
                   </Link>
                 </li>
-              ))}
+              )}
               <li>
                 <a href="https://hydroflow-usa.com/assets/userfiles/files/Statement_of_Qualifications.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
                   Statement of Qualifications
@@ -159,6 +159,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 }
