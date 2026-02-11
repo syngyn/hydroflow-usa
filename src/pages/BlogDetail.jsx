@@ -1831,7 +1831,7 @@ const blogContent = {
   },
   // Industrial blogs
   'wastewater-treatment-applications': {
-    title: 'HydroFLOW and Wastewater Treatment Plant Applications',
+    title: '<i>Hydro</i>FLOW and Wastewater Treatment Plant Applications',
     date: '2024-12-10',
     readTime: '9 min read',
     category: 'industrial',
