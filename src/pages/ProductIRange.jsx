@@ -45,6 +45,7 @@ export default function ProductIRange() {
                     src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
                     alt="<i>Hydro</i>FLOW <i>i</i> Range"
                     className="w-full max-w-lg h-full object-contain drop-shadow-2xl"
+                    style={{ transform: 'scale(1.3)' }}
                   />
                 </div>
               </motion.div>
