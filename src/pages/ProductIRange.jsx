@@ -42,7 +42,7 @@ export default function ProductIRange() {
                 />
                 <div className="absolute inset-0 flex items-center justify-end p-4 pr-8">
                   <img 
-                    src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9f1053a47_irange1.png"
                     alt="<i>Hydro</i>FLOW <i>i</i> Range"
                     className="w-full max-w-lg h-full object-contain drop-shadow-2xl"
                     style={{ transform: 'scale(1.3)' }}
