@@ -15,7 +15,7 @@ const shouldExpect = [
 ];
 
 const shouldNotExpect = [
-  '"Soften" water – it is not a water softener, it is an eco-friendly and chemical-free water conditioner',
+  '"Soften" water - it is not a water softener, it is an eco-friendly and chemical-free water conditioner',
   'Be waterproof – it needs to be properly protected when installed in wet areas or outdoors',
   'Remove all stains from your glassware – a dishwasher rinse aid might be required',
   'Remove heavy metals or minerals – it is not a reverse osmosis system',

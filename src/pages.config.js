@@ -52,8 +52,6 @@ import Agriculture from './pages/Agriculture';
 import AgricultureFarming from './pages/AgricultureFarming';
 import AgricultureLandscaping from './pages/AgricultureLandscaping';
 import Bio from './pages/Bio';
-import BlogDetail from './pages/BlogDetail';
-import BlogList from './pages/BlogList';
 import Cart from './pages/Cart';
 import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
@@ -107,6 +105,8 @@ import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import ProductHMRange from './pages/ProductHMRange';
+import BlogDetail from './pages/BlogDetail';
+import BlogList from './pages/BlogList';
 import __Layout from './Layout.jsx';
 
 
@@ -116,8 +116,6 @@ export const PAGES = {
     "AgricultureFarming": AgricultureFarming,
     "AgricultureLandscaping": AgricultureLandscaping,
     "Bio": Bio,
-    "BlogDetail": BlogDetail,
-    "BlogList": BlogList,
     "Cart": Cart,
     "CaseStudies": CaseStudies,
     "CaseStudyDetail": CaseStudyDetail,
@@ -171,6 +169,8 @@ export const PAGES = {
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
     "ProductHMRange": ProductHMRange,
+    "BlogDetail": BlogDetail,
+    "BlogList": BlogList,
 }
 
 export const pagesConfig = {
