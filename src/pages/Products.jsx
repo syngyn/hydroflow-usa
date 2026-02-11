@@ -364,13 +364,13 @@ export default function Products() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
                 className="relative group bg-slate-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 h-full flex flex-col"
-              >
+                >
                 <Link to={createPageUrl(
                   product.id === 'activated-carbon-20' ? 'ProductActivatedCarbon20' :
                   product.id === 'sediment-20' ? 'ProductSediment20' :
                   product.id === 'activated-carbon-10' ? 'ProductActivatedCarbon10' :
                   product.id === 'force-field-10' ? 'ProductForceField10' : 'Products'
-                )}>
+                )} className="flex flex-col h-full">
                   <div className="relative h-48 bg-gradient-to-b from-white to-slate-50 flex items-center justify-center p-6">
                     <img 
                       src={product.image}
