@@ -39,6 +39,7 @@ export default function ProductIRange() {
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9f1053a47_irange1.png"
                   alt="Industrial facility"
                   className="w-full h-auto object-cover"
+                  style={{ transform: 'scale(0.8)' }}
                 />
                 <div className="absolute inset-0 flex items-center justify-end p-4 pr-8">
                   <img 
