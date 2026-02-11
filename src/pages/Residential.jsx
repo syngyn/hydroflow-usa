@@ -302,7 +302,7 @@ export default function Residential() {
               <p className="text-sm text-slate-600 mb-4">Basic filtration</p>
               <div className="text-2xl font-bold text-slate-900 mb-4">$29.95</div>
               <Link to={createPageUrl('FilterCartridges')}>
-                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-4">
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4">
                   View Details
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
@@ -355,7 +355,7 @@ export default function Residential() {
               <p className="text-sm text-slate-600 mb-4">State of the art filtration</p>
               <div className="text-2xl font-bold text-slate-900 mb-4">$499.95</div>
               <Link to={createPageUrl('FilterCartridges')}>
-                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-4">
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4">
                   View Details
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
