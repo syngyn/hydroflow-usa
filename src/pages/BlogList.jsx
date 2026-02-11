@@ -126,7 +126,7 @@ export default function BlogList() {
               </Badge>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 capitalize">
-              {category} Blog
+              {category === 'industrial' ? <><i>Hydro</i>FLOW Industrial Blog</> : `${category} Blog`}
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
               Expert insights, tips, and news for {category} water treatment solutions
