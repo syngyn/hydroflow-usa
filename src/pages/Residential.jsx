@@ -196,7 +196,7 @@ export default function Residential() {
                 <span className="text-3xl font-bold text-slate-900 ml-2">$295</span>
               </div>
               <Link to={createPageUrl('Products')}>
-                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-6">
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6">
                   Select Pearl
                 </Button>
               </Link>
@@ -255,7 +255,7 @@ export default function Residential() {
                 <span className="text-3xl font-bold text-slate-900 ml-2">$1,990</span>
               </div>
               <Link to={createPageUrl('ProductHS40')}>
-                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-6">
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6">
                   Select hs40
                 </Button>
               </Link>
