@@ -16,12 +16,12 @@ const shouldExpect = [
 
 const shouldNotExpect = [
   '"Soften" water - it is not a water softener, it is an eco-friendly and chemical-free water conditioner',
-  'Be waterproof – it needs to be properly protected when installed in wet areas or outdoors',
-  'Remove all stains from your glassware – a dishwasher rinse aid might be required',
-  'Remove heavy metals or minerals – it is not a reverse osmosis system',
-  'Completely stop the use of pool chemicals – it will help reduce chemicals by up to 50%',
-  'Completely remove limescale stains in areas without constant water flow – it will make limescale stains easier to remove',
-  'Remove suspended solids – it is not a filter',
+  'Be waterproof - it needs to be properly protected when installed in wet areas or outdoors',
+  'Remove all stains from your glassware - a dishwasher rinse aid might be required',
+  'Remove heavy metals or minerals - it is not a reverse osmosis system',
+  'Completely stop the use of pool chemicals - it will help reduce chemicals by up to 50%',
+  'Completely remove limescale stains in areas without constant water flow - it will make limescale stains easier to remove',
+  'Remove suspended solids - it is not a filter',
   'Remove "rotten egg" smell',
   'Remove iron staining'
 ];
