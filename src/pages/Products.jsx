@@ -355,7 +355,7 @@ export default function Products() {
             </p>
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 md:gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 md:gap-6 justify-items-center">
             {products.filter(p => p.category === 'filtration' && !p.id.includes('housing')).map((product, index) => (
               <motion.div
                 key={product.id}
