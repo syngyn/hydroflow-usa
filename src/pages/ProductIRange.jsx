@@ -33,22 +33,14 @@ export default function ProductIRange() {
               <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="relative bg-slate-50 rounded-3xl overflow-hidden"
+                className="relative bg-slate-50 rounded-3xl overflow-hidden flex items-center justify-center p-8"
               >
                 <img 
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9f1053a47_irange1.png"
-                  alt="Industrial facility"
-                  className="w-full h-auto object-cover"
-                  style={{ transform: 'scale(0.8)' }}
+                  alt="<i>Hydro</i>FLOW <i>i</i> Range"
+                  className="w-full max-w-lg h-auto object-contain drop-shadow-2xl"
+                  style={{ transform: 'scale(0.78)' }}
                 />
-                <div className="absolute inset-0 flex items-center justify-end p-4 pr-8">
-                  <img 
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9f1053a47_irange1.png"
-                    alt="<i>Hydro</i>FLOW <i>i</i> Range"
-                    className="w-full max-w-lg h-full object-contain drop-shadow-2xl"
-                    style={{ transform: 'scale(0.78)' }}
-                  />
-                </div>
               </motion.div>
             </div>
 
