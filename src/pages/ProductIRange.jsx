@@ -46,7 +46,7 @@ export default function ProductIRange() {
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9f1053a47_irange1.png"
                     alt="<i>Hydro</i>FLOW <i>i</i> Range"
                     className="w-full max-w-lg h-full object-contain drop-shadow-2xl"
-                    style={{ transform: 'scale(1.3)' }}
+                    style={{ transform: 'scale(0.65)' }}
                   />
                 </div>
               </motion.div>
