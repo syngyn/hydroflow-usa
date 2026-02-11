@@ -363,7 +363,7 @@ export default function Products() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="relative group bg-slate-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
+                className="relative group bg-slate-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 h-full flex flex-col"
               >
                 <Link to={createPageUrl(
                   product.id === 'activated-carbon-20' ? 'ProductActivatedCarbon20' :
@@ -379,15 +379,15 @@ export default function Products() {
                     />
                   </div>
 
-                  <div className="p-4">
+                  <div className="p-4 flex-grow">
                     <h3 className="text-lg font-bold text-slate-900 mb-1">{product.name}</h3>
                     <p className="text-cyan-600 font-medium text-xs mb-2">{product.tagline}</p>
-                    
+
                     <div className="mb-4">
                       <span className="text-xl font-bold text-slate-900">${product.price}</span>
                     </div>
                   </div>
-                <div className="px-4 pb-4">
+                  <div className="px-4 pb-4 mt-auto">
                   <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-3 text-sm font-semibold">
                     View Details
                     <ArrowRight className="w-3 h-3 ml-2" />
