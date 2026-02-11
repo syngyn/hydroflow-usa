@@ -307,7 +307,7 @@ export default function Technology() {
               transition={{ delay: 0.1 }}
             >
               <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center">
-                HydroFLOW introduction
+                <i>Hydro</i>FLOW introduction
               </h3>
               <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
                 <iframe 
