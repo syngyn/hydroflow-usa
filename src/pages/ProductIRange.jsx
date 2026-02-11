@@ -36,7 +36,7 @@ export default function ProductIRange() {
                 className="relative bg-slate-50 rounded-3xl overflow-hidden"
               >
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2024/04/products-industrial_1200w.jpg"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9f1053a47_irange1.png"
                   alt="Industrial facility"
                   className="w-full h-auto object-cover"
                 />
