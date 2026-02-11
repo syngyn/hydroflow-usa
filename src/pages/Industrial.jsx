@@ -311,7 +311,7 @@ export default function Industrial() {
                 </li>
               </ul>
               <Link to={createPageUrl('ProductIRange')}>
-                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-6">
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6">
                   View Details
                 </Button>
               </Link>
