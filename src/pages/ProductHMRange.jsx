@@ -48,19 +48,7 @@ export default function ProductHMRange() {
                 />
               </motion.div>
               
-              <div className="flex gap-2 overflow-x-auto pb-2">
-                {images.map((img, idx) => (
-                  <button
-                    key={idx}
-                    onClick={() => setSelectedImage(idx)}
-                    className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all ${
-                      selectedImage === idx ? 'border-cyan-500' : 'border-slate-200'
-                    }`}
-                  >
-                    <img src={img} alt={`View ${idx + 1}`} className="w-full h-full object-cover" />
-                  </button>
-                ))}
-              </div>
+
             </div>
 
             {/* Product Info */}
