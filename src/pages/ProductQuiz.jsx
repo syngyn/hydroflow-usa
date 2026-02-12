@@ -226,12 +226,9 @@ export default function ProductQuiz() {
       {/* Header */}
       <div className="bg-white border-b">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <h1 className="text-3xl font-bold text-slate-900 text-center mb-2">
+          <h1 className="text-3xl font-bold text-slate-900 text-center">
             Product Selection Tool
           </h1>
-          <p className="text-slate-600 text-center">
-           Answer a few questions to find the perfect HydroFLOW product for your needs
-          </p>
         </div>
       </div>
 
