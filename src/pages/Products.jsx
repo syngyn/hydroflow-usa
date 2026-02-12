@@ -324,7 +324,7 @@ export default function Products() {
                       </span>
                     )}
                     <p className={`text-4xl font-black mt-2 ${product.popular ? 'text-white' : 'text-slate-900'}`}>
-                      ${product.price}
+                      ${typeof product.price === 'number' ? product.price.toLocaleString() : product.price}
                     </p>
                   </div>
 
