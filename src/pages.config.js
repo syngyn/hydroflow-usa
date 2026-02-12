@@ -90,7 +90,6 @@ import ProductHS40 from './pages/ProductHS40';
 import ProductIRange from './pages/ProductIRange';
 import ProductPearl from './pages/ProductPearl';
 import ProductPearlPlus from './pages/ProductPearlPlus';
-import ProductQuiz from './pages/ProductQuiz';
 import ProductSediment20 from './pages/ProductSediment20';
 import Products from './pages/Products';
 import ProtectiveEnclosure from './pages/ProtectiveEnclosure';
@@ -107,6 +106,7 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import ProductQuiz from './pages/ProductQuiz';
 import __Layout from './Layout.jsx';
 
 
@@ -154,7 +154,6 @@ export const PAGES = {
     "ProductIRange": ProductIRange,
     "ProductPearl": ProductPearl,
     "ProductPearlPlus": ProductPearlPlus,
-    "ProductQuiz": ProductQuiz,
     "ProductSediment20": ProductSediment20,
     "Products": Products,
     "ProtectiveEnclosure": ProtectiveEnclosure,
@@ -171,6 +170,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
+    "ProductQuiz": ProductQuiz,
 }
 
 export const pagesConfig = {
