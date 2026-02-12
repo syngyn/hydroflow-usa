@@ -243,66 +243,90 @@ export default function Products() {
       </section>
 
       {/* HydroFLOW Water Conditioners */}
-      <section className="py-8 md:py-16 bg-white">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-white via-cyan-50/30 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-12"
+            className="text-center mb-16"
           >
-            <span className="inline-block text-slate-900 font-semibold text-sm uppercase tracking-wider mb-4">
+            <span className="inline-block text-cyan-600 font-bold text-sm uppercase tracking-widest mb-6 px-4 py-2 bg-cyan-50 rounded-full">
               The <i>Hydro</i>FLOW Pearl Series
             </span>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-4 leading-tight">
+            <h2 className="text-5xl md:text-6xl lg:text-7xl font-black text-slate-900 mb-6 leading-tight">
               Your Whole Home Water<br />Protection Solution
             </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">Find the perfect HydroFLOW unit for your home</p>
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {products.filter(p => p.category === 'residential').map((product, index) => (
               <motion.div
                 key={product.id}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className={`relative group bg-slate-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 ${
-                  product.popular ? 'ring-2 ring-cyan-500' : ''
+                transition={{ delay: index * 0.1, duration: 0.5 }}
+                whileHover={{ y: -8, transition: { duration: 0.3 } }}
+                className={`relative group rounded-3xl overflow-hidden transition-all duration-300 ${
+                  product.popular 
+                    ? 'bg-gradient-to-br from-cyan-400 to-cyan-500 shadow-xl' 
+                    : 'bg-white shadow-lg hover:shadow-2xl'
                 }`}
               >
                 {product.popular && (
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 z-10">
-                    <Badge className="bg-cyan-500 text-white hover:bg-cyan-500 px-4 py-2 font-bold rounded-b-lg">
-                      MOST POPULAR
+                  <motion.div 
+                    initial={{ scale: 0.8, opacity: 0 }}
+                    whileInView={{ scale: 1, opacity: 1 }}
+                    className="absolute -top-2 left-1/2 -translate-x-1/2 z-10"
+                  >
+                    <Badge className="bg-white text-cyan-600 hover:bg-white font-black px-6 py-2.5 text-xs uppercase tracking-wider shadow-lg">
+                      Most Popular
                     </Badge>
-                  </div>
+                  </motion.div>
                 )}
 
-                <div className="relative h-64 bg-white flex items-center justify-center p-6">
-                  <img 
+                <div className={`relative h-72 flex items-center justify-center p-8 ${
+                  product.popular 
+                    ? 'bg-cyan-500/20' 
+                    : 'bg-gradient-to-br from-slate-50 to-slate-100'
+                }`}>
+                  <motion.img 
                     src={product.image}
                     alt={product.name}
-                    className={`h-full w-auto object-contain ${product.id === 'pearl-plus' ? 'scale-125' : ''}`}
+                    whileHover={{ scale: 1.08 }}
+                    transition={{ duration: 0.4 }}
+                    className={`h-full w-auto object-contain filter drop-shadow-lg ${product.id === 'pearl-plus' ? 'scale-125' : ''}`}
                   />
                 </div>
 
-                <div className="p-6">
+                <div className={`p-8 ${product.popular ? 'text-white' : ''}`}>
                   {product.rating && (
-                    <div className="flex items-center justify-center gap-2 mb-3">
+                    <div className="flex items-center justify-center gap-2 mb-4">
                       <StarRating rating={product.rating} size="sm" />
-                      <span className="text-sm text-slate-500">({product.reviews})</span>
+                      <span className={`text-sm font-medium ${product.popular ? 'text-cyan-50' : 'text-slate-500'}`}>
+                        ({product.reviews} reviews)
+                      </span>
                     </div>
                   )}
 
-                  <h3 className="text-2xl font-bold text-slate-900 mb-3 text-center">{product.name}</h3>
-                  <p className="text-slate-600 text-sm mb-6 text-center">{product.coverage}</p>
+                  <h3 className={`text-3xl font-black mb-3 text-center ${product.popular ? 'text-white' : 'text-slate-900'}`}>
+                    {product.name}
+                  </h3>
+                  <p className={`text-base mb-8 text-center font-medium ${product.popular ? 'text-cyan-50' : 'text-slate-600'}`}>
+                    {product.coverage}
+                  </p>
 
-                  <div className="mb-6">
+                  <div className="mb-8 text-center">
                     {product.originalPrice && (
-                      <span className="text-slate-400 line-through text-lg">${product.originalPrice}</span>
+                      <span className={`line-through text-lg font-semibold ${product.popular ? 'text-cyan-100' : 'text-slate-400'}`}>
+                        ${product.originalPrice}
+                      </span>
                     )}
-                    <span className="text-3xl font-bold text-slate-900 ml-2">${product.price}</span>
+                    <p className={`text-4xl font-black mt-2 ${product.popular ? 'text-white' : 'text-slate-900'}`}>
+                      ${product.price}
+                    </p>
                   </div>
 
                   <Link to={createPageUrl(
@@ -310,9 +334,15 @@ export default function Products() {
                     product.id === 'pearl' ? 'ProductPearl' :
                     product.id === 'hs40' ? 'ProductHS40' : 'Products'
                   )}>
-                    <Button className="w-full bg-slate-800 hover:bg-slate-900 text-white rounded-lg py-3 text-base font-semibold transition-all">
-                      Select
-                    </Button>
+                    <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                      <Button className={`w-full rounded-xl py-4 text-base font-black uppercase tracking-wider transition-all ${
+                        product.popular
+                          ? 'bg-white text-cyan-600 hover:bg-slate-100 shadow-lg'
+                          : 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white'
+                      }`}>
+                        Select
+                      </Button>
+                    </motion.div>
                   </Link>
                 </div>
               </motion.div>
