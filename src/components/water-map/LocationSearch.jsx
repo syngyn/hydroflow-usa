@@ -103,12 +103,13 @@ export default function LocationSearch({ onLocationSelect }) {
               className="w-full px-6 py-4 text-left hover:bg-cyan-50 transition-colors flex items-center gap-3 border-b last:border-b-0"
             >
               <MapPin className="w-5 h-5 text-cyan-500" />
-              <div>
+              <div className="flex-1">
                 <div className="font-medium text-slate-900">
                   {location.city}, {location.state}
                 </div>
                 <div className="text-sm text-slate-500">
                   {location.zip} • Hardness: {location.hardness} mg/L
+                  {location.distance && ` • ${Math.round(location.distance)} km away`}
                 </div>
               </div>
             </button>
