@@ -958,7 +958,7 @@ export default function CaseStudies() {
               Ready to Experience These Results?
             </h2>
             <p className="text-slate-600 mb-8 max-w-xl mx-auto">
-              Join thousands of satisfied customers who have improved their water systems with HydroFLOW technology.
+              Join thousands of satisfied customers who have improved their water systems with <i>Hydro</i>FLOW technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to={createPageUrl('Products')}>
