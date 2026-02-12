@@ -10,15 +10,60 @@ export default function LocationSearch({ onLocationSelect }) {
   const [suggestions, setSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
 
-  const handleSearch = (value) => {
+  // Calculate distance between two coordinates (Haversine formula)
+  const calculateDistance = (lat1, lon1, lat2, lon2) => {
+    const R = 6371; // Earth's radius in km
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = 
+      Math.sin(dLat/2) * Math.sin(dLat/2) +
+      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+      Math.sin(dLon/2) * Math.sin(dLon/2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    return R * c;
+  };
+
+  const handleSearch = async (value) => {
     setSearchTerm(value);
     
     if (value.length >= 2) {
-      const filtered = hardnessData.filter(location => 
+      // First try exact matches
+      let filtered = hardnessData.filter(location => 
         location.city.toLowerCase().includes(value.toLowerCase()) ||
         location.state.toLowerCase().includes(value.toLowerCase()) ||
         location.zip.includes(value)
       );
+
+      // If searching by zip and no exact match, find nearest location
+      if (filtered.length === 0 && /^\d{5}$/.test(value.trim())) {
+        setIsSearching(true);
+        try {
+          // Use geocoding to get coordinates for the zip code
+          const response = await fetch(`https://nominatim.openstreetmap.org/search?postalcode=${value}&country=US&format=json&limit=1`);
+          const data = await response.json();
+          
+          if (data && data.length > 0) {
+            const zipLat = parseFloat(data[0].lat);
+            const zipLon = parseFloat(data[0].lon);
+            
+            // Find nearest location in our database
+            const locationsWithDistance = hardnessData.map(location => ({
+              ...location,
+              distance: calculateDistance(zipLat, zipLon, location.lat, location.lng)
+            }));
+            
+            // Sort by distance and take the 5 nearest
+            filtered = locationsWithDistance
+              .sort((a, b) => a.distance - b.distance)
+              .slice(0, 5);
+          }
+        } catch (error) {
+          console.error('Geocoding error:', error);
+        } finally {
+          setIsSearching(false);
+        }
+      }
+      
       setSuggestions(filtered);
     } else {
       setSuggestions([]);
