@@ -122,6 +122,8 @@ export default function LocationSearch({ onLocationSelect }) {
               </div>
             </button>
           ))}
+          </>
+          )}
         </motion.div>
       )}
     </div>
