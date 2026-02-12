@@ -39,21 +39,6 @@ const wholeHomeCartridges = [
       'Compatible with whole home housings'
     ],
     popular: true
-  },
-  {
-    id: 'force-field-20',
-    name: 'Force Field (20")',
-    size: '20" x 4.5"',
-    price: 499.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp',
-    tagline: 'State of the art for pristine water quality',
-    description: 'Premium multi-stage filtration system delivering the highest level of water purity for whole home applications.',
-    features: [
-      'Multi-stage advanced filtration',
-      'Removes widest range of contaminants',
-      'Premium quality construction',
-      'Exceptional water clarity and taste'
-    ]
   }
 ];
 
