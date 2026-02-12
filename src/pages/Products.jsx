@@ -399,7 +399,7 @@ export default function Products() {
                     <p className="text-cyan-600 font-medium text-xs mb-2">{product.tagline}</p>
 
                     <div className="mb-4">
-                      <span className="text-xl font-bold text-slate-900">${product.price}</span>
+                      <span className="text-xl font-bold text-slate-900">${typeof product.price === 'number' ? product.price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : product.price}</span>
                     </div>
                   </div>
                   <div className="px-4 pb-4 mt-auto">
