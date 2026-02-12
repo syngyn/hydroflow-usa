@@ -257,7 +257,6 @@ export default function Products() {
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-slate-900 mb-6 leading-tight">
               Your Whole Home Water<br />Protection Solution
             </h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">Find the perfect HydroFLOW unit for your home</p>
           </motion.div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
