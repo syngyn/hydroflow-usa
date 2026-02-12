@@ -243,7 +243,7 @@ export default function Products() {
       </section>
 
       {/* HydroFLOW Water Conditioners */}
-      <section className="py-8 md:py-16 bg-slate-50">
+      <section className="py-8 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -251,15 +251,12 @@ export default function Products() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
-              Electronic Water Conditioners
+            <span className="inline-block text-slate-900 font-semibold text-sm uppercase tracking-wider mb-4">
+              The <i>Hydro</i>FLOW Pearl Series
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              <i>Hydro</i>FLOW Units
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-4 leading-tight">
+              Your Whole Home Water<br />Protection Solution
             </h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto sm:whitespace-nowrap">
-              Chemical-free water conditioning technology for residential and small commercial applications
-            </p>
           </motion.div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
@@ -270,52 +267,42 @@ export default function Products() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className={`relative group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 ${
+                className={`relative group bg-slate-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 ${
                   product.popular ? 'ring-2 ring-cyan-500' : ''
                 }`}
               >
                 {product.popular && (
-                  <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10">
-                    <Badge className="bg-cyan-500 text-white hover:bg-cyan-500 px-4 py-1 font-semibold">
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 z-10">
+                    <Badge className="bg-cyan-500 text-white hover:bg-cyan-500 px-4 py-2 font-bold rounded-b-lg">
                       MOST POPULAR
                     </Badge>
                   </div>
                 )}
 
-                <div className="relative h-64 bg-gradient-to-b from-slate-50 to-white flex items-center justify-center p-8">
+                <div className="relative h-64 bg-white flex items-center justify-center p-6">
                   <img 
                     src={product.image}
                     alt={product.name}
-                    className={`h-full w-auto object-contain transform group-hover:scale-110 transition-transform duration-500 ${product.id === 'pearl-plus' ? 'scale-125' : ''}`}
+                    className={`h-full w-auto object-contain ${product.id === 'pearl-plus' ? 'scale-125' : ''}`}
                   />
                 </div>
 
-                <div className="p-4 sm:p-6 md:p-8">
+                <div className="p-6">
                   {product.rating && (
-                    <div className="flex items-center gap-2 mb-3">
+                    <div className="flex items-center justify-center gap-2 mb-3">
                       <StarRating rating={product.rating} size="sm" />
-                      <span className="text-xs sm:text-sm text-slate-500">({product.reviews} reviews)</span>
+                      <span className="text-sm text-slate-500">({product.reviews})</span>
                     </div>
                   )}
 
-                  <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-1">{product.name}</h3>
-                  <p className="text-cyan-600 font-medium text-xs sm:text-sm mb-2">{product.tagline}</p>
-                  <p className="text-slate-500 text-xs sm:text-sm mb-4">{product.coverage}</p>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-3 text-center">{product.name}</h3>
+                  <p className="text-slate-600 text-sm mb-6 text-center">{product.coverage}</p>
 
-                  <div className="space-y-2 mb-4 md:mb-6">
-                    {product.features.slice(0, 3).map((feature) => (
-                      <div key={feature} className="flex items-center gap-2 text-xs sm:text-sm text-slate-600">
-                        <Check className="w-3 h-3 sm:w-4 sm:h-4 text-cyan-500 flex-shrink-0" />
-                        {feature}
-                      </div>
-                    ))}
-                  </div>
-
-                  <div className="mb-4 md:mb-6">
+                  <div className="mb-6">
                     {product.originalPrice && (
-                      <span className="text-slate-400 line-through text-base sm:text-lg">${product.originalPrice}</span>
+                      <span className="text-slate-400 line-through text-lg">${product.originalPrice}</span>
                     )}
-                    <span className="text-2xl sm:text-3xl font-bold text-slate-900 ml-2">${product.price}</span>
+                    <span className="text-3xl font-bold text-slate-900 ml-2">${product.price}</span>
                   </div>
 
                   <Link to={createPageUrl(
@@ -323,9 +310,8 @@ export default function Products() {
                     product.id === 'pearl' ? 'ProductPearl' :
                     product.id === 'hs40' ? 'ProductHS40' : 'Products'
                   )}>
-                    <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-4 sm:py-6 text-sm sm:text-base font-semibold transition-all">
-                      View Details
-                      <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-2" />
+                    <Button className="w-full bg-slate-800 hover:bg-slate-900 text-white rounded-lg py-3 text-base font-semibold transition-all">
+                      Select
                     </Button>
                   </Link>
                 </div>
