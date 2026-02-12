@@ -90,12 +90,20 @@ export default function LocationSearch({ onLocationSelect }) {
       </div>
 
       {/* Suggestions Dropdown */}
-      {suggestions.length > 0 && (
+      {(suggestions.length > 0 || isSearching) && (
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden z-[1001]"
         >
+          {isSearching && (
+            <div className="px-6 py-4 flex items-center gap-3 justify-center">
+              <Loader2 className="w-5 h-5 text-cyan-500 animate-spin" />
+              <span className="text-slate-600">Finding nearest location...</span>
+            </div>
+          )}
+          {!isSearching && suggestions.length > 0 && (
+            <>
           {suggestions.map((location, index) => (
             <button
               key={index}
