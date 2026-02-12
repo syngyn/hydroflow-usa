@@ -242,6 +242,11 @@ export default function ProductQuiz() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
             >
+              {/* Instruction Text */}
+              <p className="text-2xl font-bold text-slate-900 text-center mb-8">
+                Answer a few questions to find the perfect HydroFLOW product for your needs
+              </p>
+
               {/* Progress Bar */}
               <div className="mb-8">
                 <div className="flex justify-between items-center mb-2">
@@ -261,11 +266,6 @@ export default function ProductQuiz() {
                   />
                 </div>
               </div>
-
-              {/* Instruction Text */}
-              <p className="text-2xl font-bold text-slate-900 text-center mb-8">
-                Answer a few questions to find the perfect HydroFLOW product for your needs
-              </p>
 
               {/* Question */}
               <Card className="p-8 mb-6">
