@@ -62,6 +62,11 @@ export default function HardnessInfo({ location }) {
               {location.city}, {location.state}
             </h3>
             <p className="text-slate-600">ZIP: {location.zip}</p>
+            {location.distance && (
+              <p className="text-xs text-slate-500 mt-1">
+                Based on nearest location data ({Math.round(location.distance)} km away)
+              </p>
+            )}
           </div>
           <Badge className={`bg-${hardnessInfo.color}-100 text-${hardnessInfo.color}-700 hover:bg-${hardnessInfo.color}-100 px-4 py-2 text-sm`}>
             {hardnessInfo.level} Water
