@@ -51,11 +51,19 @@ export default function LocationSearch({ onLocationSelect }) {
               ...location,
               distance: calculateDistance(zipLat, zipLon, location.lat, location.lng)
             }));
-            
-            // Sort by distance and take the 5 nearest
-            filtered = locationsWithDistance
-              .sort((a, b) => a.distance - b.distance)
-              .slice(0, 5);
+
+            // Sort by distance and take the nearest one
+            const nearest = locationsWithDistance
+              .sort((a, b) => a.distance - b.distance)[0];
+
+            // Create a synthetic location with the searched zip but nearest location's hardness
+            filtered = [{
+              ...nearest,
+              zip: value.trim(),
+              city: data[0].display_name.split(',')[0] || nearest.city,
+              lat: zipLat,
+              lng: zipLon
+            }];
           }
         } catch (error) {
           console.error('Geocoding error:', error);
