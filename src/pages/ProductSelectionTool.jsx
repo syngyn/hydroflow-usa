@@ -243,7 +243,7 @@ export default function ProductSelectionTool() {
               exit={{ opacity: 0, x: -20 }}
             >
               {/* Intro Text */}
-              <p className="text-xl font-bold text-slate-900 text-center mb-8">
+              <p className="text-xl font-bold text-slate-900 text-left sm:text-center mb-8">
                 Answer a few questions to find the ideal HydroFLOW product for your needs
               </p>
 
