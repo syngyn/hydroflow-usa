@@ -228,7 +228,7 @@ export default function Products() {
             </Link>
             <Link to={createPageUrl('PerformanceWithTime')}>
               <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-4 font-semibold">
-                Performance With Time
+                Performance with Time
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
