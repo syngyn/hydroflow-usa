@@ -226,9 +226,12 @@ export default function ProductQuiz() {
       {/* Header */}
       <div className="bg-white border-b">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <h1 className="text-3xl font-bold text-slate-900 text-center">
+          <h1 className="text-3xl font-bold text-slate-900 text-center mb-2">
             Product Selection Tool
           </h1>
+          <p className="text-xl font-bold text-slate-900 text-center">
+           Answer a few questions to find the ideal<br className="hidden md:inline" /> HydroFLOW product for your needs
+          </p>
         </div>
       </div>
 
@@ -242,11 +245,6 @@ export default function ProductQuiz() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
             >
-              {/* Instruction Text */}
-              <p className="text-4xl font-bold text-slate-900 text-center mb-8">
-                Answer a few questions to find the ideal<br className="hidden md:inline" /> HydroFLOW product for your needs
-              </p>
-
               {/* Progress Bar */}
               <div className="mb-8">
                 <div className="flex justify-between items-center mb-2">
