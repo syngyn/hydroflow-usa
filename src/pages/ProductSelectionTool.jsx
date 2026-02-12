@@ -229,9 +229,6 @@ export default function ProductSelectionTool() {
           <h1 className="text-3xl font-bold text-slate-900 text-center mb-2">
             Product Selection Tool
           </h1>
-          <p className="text-slate-600 text-center">
-           Answer a few questions to find the ideal HydroFLOW product for your needs
-          </p>
         </div>
       </div>
 

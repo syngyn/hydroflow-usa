@@ -107,6 +107,7 @@ import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import ProductSelectionTool from './pages/ProductSelectionTool';
+import ProductQuiz from './pages/ProductQuiz';
 import __Layout from './Layout.jsx';
 
 
@@ -171,6 +172,7 @@ export const PAGES = {
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
     "ProductSelectionTool": ProductSelectionTool,
+    "ProductQuiz": ProductQuiz,
 }
 
 export const pagesConfig = {
