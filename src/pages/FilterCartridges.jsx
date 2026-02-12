@@ -264,7 +264,7 @@ export default function FilterCartridges() {
                 </div>
 
                 {/* Product Info */}
-                <div className="p-8">
+                <div className="p-8 flex flex-col flex-grow">
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">{cartridge.name}</h3>
                   <p className="text-cyan-600 font-medium text-sm mb-3">{cartridge.tagline}</p>
                   <p className="text-slate-600 mb-6">{cartridge.description}</p>
@@ -280,7 +280,7 @@ export default function FilterCartridges() {
                   </div>
 
                   {/* Price */}
-                  <div className="mb-6">
+                  <div className="mb-6 mt-auto">
                     <span className="text-3xl font-bold text-slate-900">${cartridge.price}</span>
                   </div>
 
