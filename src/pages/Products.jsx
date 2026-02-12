@@ -57,7 +57,7 @@ const products = [
     name: <><i>hs</i>40</>,
     category: 'residential',
     tagline: 'For Pools & Light Commercial',
-    coverage: 'Pools, Spas & Light Commercial',
+    coverage: 'For pools, spas and light commercial use',
     originalPrice: 2150,
     price: 1990,
     rating: 4.79,
