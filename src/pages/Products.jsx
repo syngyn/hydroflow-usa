@@ -220,7 +220,7 @@ export default function Products() {
       <section className="py-4 md:py-8 bg-white border-b sticky top-20 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center sm:items-start">
-            <Link to={createPageUrl('ProductQuiz')}>
+            <Link to={createPageUrl('ProductSelectionTool')}>
               <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-4 font-semibold">
                 Product Selection Tool
                 <ArrowRight className="w-4 h-4 ml-2" />
@@ -527,7 +527,7 @@ export default function Products() {
               for your specific needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to={createPageUrl('ProductQuiz')}>
+              <Link to={createPageUrl('ProductSelectionTool')}>
                 <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-8 py-6">
                   Take Product Selection Tool
                   <ArrowRight className="w-5 h-5 ml-2" />

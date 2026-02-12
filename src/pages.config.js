@@ -106,7 +106,6 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import ProductQuiz from './pages/ProductQuiz';
 import ProductSelectionTool from './pages/ProductSelectionTool';
 import __Layout from './Layout.jsx';
 
@@ -171,7 +170,6 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "ProductQuiz": ProductQuiz,
     "ProductSelectionTool": ProductSelectionTool,
 }
 
