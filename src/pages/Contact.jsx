@@ -284,36 +284,7 @@ export default function Contact() {
                 />
               </div>
 
-              {/* International Partners */}
-              <div className="bg-white rounded-2xl p-8 mb-8">
-                <h3 className="text-xl font-bold text-slate-900 mb-4">International Partners</h3>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div>
-                    <h4 className="font-semibold text-slate-700 mb-2">Canadian Customers</h4>
-                    <a href="http://www.hydroflowcanada.com/" target="_blank" rel="noopener noreferrer" className="text-cyan-600 hover:underline text-sm block">
-                      HydroFLOW Canada
-                    </a>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-700 mb-2">Mexican Customers</h4>
-                    <a href="https://hydroflow-mexico.mx/" target="_blank" rel="noopener noreferrer" className="text-cyan-600 hover:underline text-sm block mb-1">
-                      HydroFLOW Mexico
-                    </a>
-                    <a href="https://www.mitemx.com/techhydroflow/" target="_blank" rel="noopener noreferrer" className="text-cyan-600 hover:underline text-sm block mb-1">
-                      Mite Mexico
-                    </a>
-                    <a href="http://www.gicsemerca.com.mx/" target="_blank" rel="noopener noreferrer" className="text-cyan-600 hover:underline text-sm block">
-                      GICSE MERCA
-                    </a>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-700 mb-2">Global Customers</h4>
-                    <a href="http://www.hydropath.com/" target="_blank" rel="noopener noreferrer" className="text-cyan-600 hover:underline text-sm">
-                      Hydropath Technology
-                    </a>
-                  </div>
-                </div>
-              </div>
+
 
 
             </motion.div>
