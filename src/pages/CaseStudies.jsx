@@ -650,6 +650,18 @@ const applicationTypes = [
 
 const products = ['Pearl', 'Pearl Plus', 'HS40', 'I Range', 'HM Range'];
 
+// Helper function to format HydroFLOW text
+const formatHydroFLOW = (text) => {
+  if (!text) return text;
+  const parts = text.split('HydroFLOW');
+  return parts.map((part, index) => (
+    <React.Fragment key={index}>
+      {part}
+      {index < parts.length - 1 && <><i>Hydro</i>FLOW</>}
+    </React.Fragment>
+  ));
+};
+
 export default function CaseStudies() {
   const [searchParams] = useSearchParams();
   const categoryFromUrl = searchParams.get('category') || 'all';
