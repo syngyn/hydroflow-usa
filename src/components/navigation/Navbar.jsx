@@ -52,7 +52,7 @@ export default function Navbar() {
     { 
       name: 'Products', 
       dropdown: [
-        { name: 'Product Selection Tool', href: 'ProductQuiz' },
+        { name: 'Product Selection Tool', href: 'ProductSelectionTool' },
         { name: 'Pearl', href: 'ProductPearl' },
         { name: 'Pearl Plus', href: 'ProductPearlPlus' },
         { name: 'hs40', href: 'ProductHS40' },
