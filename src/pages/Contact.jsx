@@ -284,8 +284,20 @@ export default function Contact() {
                 />
               </div>
 
-
-
+              {/* Global Customers */}
+              <div className="bg-white rounded-2xl p-8 text-center">
+                <p className="text-slate-700 text-lg">
+                  Global customers, please contact:{' '}
+                  <a 
+                    href="http://www.hydropath.com/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-cyan-600 hover:underline font-semibold"
+                  >
+                    www.hydropath.com
+                  </a>
+                </p>
+              </div>
 
             </motion.div>
           </div>
