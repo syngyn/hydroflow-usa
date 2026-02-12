@@ -230,7 +230,7 @@ export default function ProductSelectionTool() {
             Product Selection Tool
           </h1>
           <p className="text-slate-600 text-center">
-           Answer a few questions to find the perfect HydroFLOW product for your needs
+           Answer a few questions to find the ideal HydroFLOW product for your needs
           </p>
         </div>
       </div>
