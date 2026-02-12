@@ -254,7 +254,7 @@ export default function Products() {
             <span className="inline-block text-cyan-600 font-bold text-xl uppercase tracking-widest mb-6 px-4 py-2 bg-cyan-50 rounded-full">
               The <i>Hydro</i>FLOW Pearl Series
             </span>
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-black text-slate-900 mb-6 leading-tight">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-slate-900 mb-6 leading-tight">
               Your Whole Home Water<br />Protection Solution
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">Find the perfect HydroFLOW unit for your home</p>
