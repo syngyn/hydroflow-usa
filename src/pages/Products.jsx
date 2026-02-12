@@ -37,7 +37,7 @@ const products = [
     name: 'Pearl Plus',
     category: 'residential',
     tagline: 'Most Popular Choice',
-    coverage: 'Up to 3,000 sq ft',
+    coverage: 'For standard sized homes up to 3,000 sq ft',
     originalPrice: 695,
     price: 495,
     rating: 4.46,
