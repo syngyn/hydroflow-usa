@@ -922,7 +922,7 @@ export default function CaseStudies() {
                     </h3>
                     
                     <p className="text-slate-600 mb-4 line-clamp-3">
-                      {study.description}
+                      {formatHydroFLOW(study.description)}
                     </p>
                     
                     {study.results && (
