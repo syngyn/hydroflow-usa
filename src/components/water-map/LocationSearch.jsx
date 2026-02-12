@@ -102,9 +102,7 @@ export default function LocationSearch({ onLocationSelect }) {
               <span className="text-slate-600">Finding nearest location...</span>
             </div>
           )}
-          {!isSearching && suggestions.length > 0 && (
-            <>
-          {suggestions.map((location, index) => (
+          {!isSearching && suggestions.length > 0 && suggestions.map((location, index) => (
             <button
               key={index}
               onClick={() => handleSelectLocation(location)}
@@ -122,8 +120,6 @@ export default function LocationSearch({ onLocationSelect }) {
               </div>
             </button>
           ))}
-          </>
-          )}
         </motion.div>
       )}
     </div>
