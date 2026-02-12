@@ -424,7 +424,7 @@ export default function Products() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
+            <span className="inline-block text-cyan-600 font-bold text-xl uppercase tracking-widest mb-6 px-4 py-2 bg-cyan-50 rounded-full">
               Premium Quality
             </span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-slate-900 mb-6 leading-tight">
