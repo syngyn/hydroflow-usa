@@ -265,12 +265,12 @@ export default function FilterCartridges() {
 
                 {/* Product Info */}
                 <div className="p-8 flex flex-col flex-grow">
-                  <h3 className="text-2xl font-bold text-slate-900 mb-2">{cartridge.name}</h3>
-                  <p className="text-cyan-600 font-medium text-sm mb-3">{cartridge.tagline}</p>
-                  <p className="text-slate-600 mb-6">{cartridge.description}</p>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-2 min-h-[60px]">{cartridge.name}</h3>
+                  <p className="text-cyan-600 font-medium text-sm mb-3 min-h-[20px]">{cartridge.tagline}</p>
+                  <p className="text-slate-600 mb-6 min-h-[48px]">{cartridge.description}</p>
 
                   {/* Features */}
-                  <div className="space-y-2 mb-6">
+                  <div className="space-y-2 mb-6 min-h-[112px]">
                     {cartridge.features.map((feature) => (
                       <div key={feature} className="flex items-center gap-2 text-sm text-slate-600">
                         <Check className="w-4 h-4 text-cyan-500 flex-shrink-0" />
