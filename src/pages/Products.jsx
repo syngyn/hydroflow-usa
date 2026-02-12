@@ -320,7 +320,7 @@ export default function Products() {
                   <div className="mb-8 text-center">
                     {product.originalPrice && (
                       <span className={`line-through text-lg font-semibold ${product.popular ? 'text-cyan-100' : 'text-slate-400'}`}>
-                        ${typeof product.originalPrice === 'number' ? product.originalPrice.toLocaleString() : product.originalPrice}
+                        ${typeof product.originalPrice === 'number' ? product.originalPrice.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : product.originalPrice}
                       </span>
                     )}
                     <p className={`text-4xl font-black mt-2 ${product.popular ? 'text-white' : 'text-slate-900'}`}>
