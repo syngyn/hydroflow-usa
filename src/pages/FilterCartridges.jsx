@@ -16,7 +16,7 @@ const wholeHomeCartridges = [
     price: 29.95,
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/SED20-inch-cartridge.png',
     tagline: 'Basic filtration',
-    description: 'Basic single-stage sediment filtration for whole home water systems. Removes dirt, sand, and other particulates.',
+    description: 'Basic single-stage sediment filtration for whole home water systems.',
     features: [
       'Removes sediment and particulates',
       '20-inch length for whole home systems',
