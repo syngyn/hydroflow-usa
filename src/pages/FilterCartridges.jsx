@@ -259,7 +259,7 @@ export default function FilterCartridges() {
                   <img 
                     src={cartridge.image}
                     alt={cartridge.name}
-                    className="h-full w-auto object-contain"
+                    className={`h-full w-auto object-contain ${cartridge.id === 'sediment-20' ? 'scale-[1.2]' : ''}`}
                   />
                 </div>
 
