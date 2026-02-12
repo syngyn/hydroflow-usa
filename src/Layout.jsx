@@ -14,7 +14,7 @@ export default function Layout({ children, currentPageName }) {
           <main className="flex-grow">
             {children}
           </main>
-          <Footer />
+          <Footer currentPageName={currentPageName} />
           <Toaster position="top-right" richColors />
         </div>
       </RecommendationProvider>
