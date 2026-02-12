@@ -18,7 +18,7 @@ const products = [
     name: 'Pearl',
     category: 'residential',
     tagline: 'Perfect for Apartments & Condos',
-    coverage: 'Up to 1,000 sq ft',
+    coverage: 'For apartments, townhomes, and condos up to 1,000 sq ft',
     originalPrice: 425,
     price: 295,
     rating: 4.38,
