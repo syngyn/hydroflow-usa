@@ -73,7 +73,7 @@ export default function ProductRecommendations({ currentProductId, limit = 3 }) 
                   
                   {product.price ? (
                     <p className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-transparent">
-                      ${product.price}
+                      ${typeof product.price === 'number' ? product.price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : product.price}
                     </p>
                   ) : (
                     <p className="text-lg font-semibold text-slate-700">Contact for Quote</p>
