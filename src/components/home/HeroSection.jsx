@@ -88,8 +88,8 @@ export default function HeroSection() {
 
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 text-center lg:text-left">
-              <span className="block whitespace-nowrap">Advanced Water</span>
-              <span className="block whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
+              <span className="block">Advanced Water</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
                 Treatment Solutions
               </span>
             </h1>
@@ -99,13 +99,13 @@ export default function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-6 md:mb-12 items-center sm:items-start">
-              <Link to={createPageUrl('Products')}>
-                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-8 py-6 text-lg font-semibold transition-all w-64">
+              <Link to={createPageUrl('Products')} className="w-full sm:w-auto">
+                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-8 py-6 text-lg font-semibold transition-all w-full sm:w-64">
                   Residential Solutions
                 </Button>
               </Link>
-              <Link to={createPageUrl('Industrial')}>
-                <Button variant="outline" className="border-2 border-white/50 text-white bg-white/10 hover:bg-white/20 rounded-full px-8 py-6 text-lg font-semibold backdrop-blur-sm w-64">
+              <Link to={createPageUrl('Industrial')} className="w-full sm:w-auto">
+                <Button variant="outline" className="border-2 border-white/50 text-white bg-white/10 hover:bg-white/20 rounded-full px-8 py-6 text-lg font-semibold backdrop-blur-sm w-full sm:w-64">
                   Industrial Solutions
                 </Button>
               </Link>
@@ -122,7 +122,7 @@ export default function HeroSection() {
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 rounded-3xl blur-2xl" />
-              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden flex items-center justify-center" style={{ aspectRatio: '4/3', maxHeight: '500px' }}>
+              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-4 md:p-8 overflow-hidden flex items-center justify-center" style={{ aspectRatio: '4/3', maxHeight: '500px' }}>
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={currentProductIndex}
