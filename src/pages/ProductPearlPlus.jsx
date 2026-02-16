@@ -127,7 +127,7 @@ export default function ProductPearlPlus() {
               </div>
 
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                An upgraded version of the dependable s38, the Pearl Plus is designed to protect standard size homes from the harmful effects of scale and decrease the risk of waterborne biological contamination. It is also a popular choice within the food service industry to protect commercial kitchen equipment from scale buildup.
+                The Pearl Plus is designed to protect standard size homes from the harmful effects of scale and decrease the risk of waterborne biological contamination. It is also a popular choice within the food service industry to protect commercial kitchen equipment from scale buildup.
               </p>
 
               <div className="mb-6">
