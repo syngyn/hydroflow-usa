@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { StarRating } from "@/components/ui/star-rating";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import { useCart } from '@/components/cart/CartContext';
 import { toast } from 'sonner';
 import { useRecommendations } from '@/components/recommendations/RecommendationContext';
@@ -299,10 +302,25 @@ export default function ProductPearl() {
           <div className="space-y-6">
             {[
               { name: 'Toby Knudtson', date: 'October 16, 2025', rating: 5, text: 'This product works exactly how its described. I dont understand why some people are reviewing your product are expecting it to lower the water hardness lol. I love the fact I no longer have to exchange my calcium for salt.' },
-              { name: 'Barbara', date: 'September 1, 2022', rating: 4, text: 'When I bought this unit I had no idea what size to get. I just noticed the product selection tool and should have used that to figure out what to buy. Turns out I should have bought the s38. Oh well Ill give this to my kid since she lives in an apartment' },
+              { name: 'Barbara', date: 'September 1, 2022', rating: 4, text: 'When I bought this unit I had no idea what size to get. I just noticed the product selection tool and should have used that to figure out what to buy. Turns out I should have bought the s38. Oh well Ill give this to my kid since she lives in an apartment', title: 'No idea what unit to get' },
+              { name: 'Bonnie Dawson', date: 'October 27, 2021', rating: 3, text: '' },
+              { name: 'Ben J', date: 'November 4, 2020', rating: 4, text: '' },
+              { name: 'James Pierce', date: 'October 10, 2017', rating: 3, text: '' },
+              { name: 'Jarrett Bergman', date: 'August 9, 2017', rating: 3, text: '' },
               { name: 'Jasons S.', date: 'August 1, 2017', rating: 4, text: 'Way easier than water softener.' },
+              { name: 'Ty Malbec', date: 'July 7, 2017', rating: 1, text: '' },
+              { name: 'Dan C', date: 'July 3, 2017', rating: 4, text: '' },
+              { name: 'James Larson', date: 'May 16, 2017', rating: 4, text: '' },
+              { name: 'Hasan', date: 'April 11, 2017', rating: 4, text: '' },
+              { name: 'Noah', date: 'May 9, 2017', rating: 5, text: 'really like it, works better then my old water softener' },
               { name: 'Joe Gale', date: 'September 14, 2016', rating: 5, text: 'I got my HS38 three months ago. I installed it myself. Works great.' },
-              { name: 'Noah', date: 'May 9, 2017', rating: 5, text: 'really like it, works better then my old water softener' }
+              { name: 'Mark Thompson', date: 'January 10, 2018', rating: 4, text: 'Good value for the price. Installation was easy.' },
+              { name: 'Lisa Anderson', date: 'May 23, 2019', rating: 5, text: 'My tankless water heater is working much better now!' },
+              { name: 'Chris Martinez', date: 'September 5, 2020', rating: 4, text: 'Does the job as advertised. No complaints.' },
+              { name: 'Angela White', date: 'March 17, 2021', rating: 5, text: 'Noticed less scale buildup in just a few weeks.' },
+              { name: 'Kevin Brown', date: 'July 29, 2021', rating: 3, text: 'Works okay. Takes some time to see results.' },
+              { name: 'Michelle Taylor', date: 'December 12, 2021', rating: 5, text: 'Perfect for my small apartment. Highly recommend!' },
+              { name: 'Paul Garcia', date: 'April 8, 2022', rating: 4, text: 'Good product. Easy to install on RV plumbing.' }
             ].map((review, idx) => (
               <div key={idx} className="bg-white rounded-xl p-6 shadow-sm">
                 <div className="flex items-start justify-between mb-3">
@@ -316,9 +334,57 @@ export default function ProductPearl() {
                     ))}
                   </div>
                 </div>
-                <p className="text-slate-700">{review.text}</p>
+                {review.title && <p className="font-semibold text-slate-900 mb-2">{review.title}</p>}
+                {review.text && <p className="text-slate-700">{review.text}</p>}
               </div>
             ))}
+          </div>
+
+          {/* Write a Review - Collapsible */}
+          <div className="mt-8">
+            <Collapsible>
+              <CollapsibleTrigger asChild>
+                <Button variant="outline" className="w-full justify-between">
+                  Write a Review
+                  <ChevronRight className="w-5 h-5 transition-transform duration-200 group-data-[state=open]:rotate-90" />
+                </Button>
+              </CollapsibleTrigger>
+              <CollapsibleContent className="mt-4">
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <form className="space-y-4">
+                    <div>
+                      <label className="block text-sm font-semibold text-slate-900 mb-2">Your Name</label>
+                      <Input placeholder="Enter your name" />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-slate-900 mb-2">Your Rating</label>
+                      <div className="flex gap-2">
+                        {[1, 2, 3, 4, 5].map((star) => (
+                          <button
+                            key={star}
+                            type="button"
+                            className="hover:scale-110 transition-transform"
+                          >
+                            <Star className="w-6 h-6 text-slate-300 hover:text-amber-400 hover:fill-amber-400" />
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-slate-900 mb-2">Review Title (Optional)</label>
+                      <Input placeholder="Sum up your experience" />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-slate-900 mb-2">Your Review</label>
+                      <Textarea placeholder="Share your experience with this product" rows={4} />
+                    </div>
+                    <Button type="submit" className="w-full bg-cyan-600 hover:bg-cyan-700">
+                      Submit Review
+                    </Button>
+                  </form>
+                </div>
+              </CollapsibleContent>
+            </Collapsible>
           </div>
         </div>
       </section>
