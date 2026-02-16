@@ -404,6 +404,55 @@ export default function ProductPearlPlus() {
               </div>
             ))}
           </div>
+
+            {/* Write a Review */}
+            <div className="mt-8">
+              <Collapsible>
+                <CollapsibleTrigger asChild>
+                  <Button variant="outline" className="w-full justify-between">
+                    Write a Review
+                    <ChevronRight className="w-5 h-5 transition-transform duration-200 group-data-[state=open]:rotate-90" />
+                  </Button>
+                </CollapsibleTrigger>
+                <CollapsibleContent className="mt-4">
+                  <div className="bg-white rounded-xl p-6 shadow-sm">
+                    <form className="space-y-4">
+                      <div>
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">Your Name</label>
+                        <Input placeholder="Enter your name" />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">Your Rating</label>
+                        <div className="flex gap-2">
+                          {[1, 2, 3, 4, 5].map((star) => (
+                            <button
+                              key={star}
+                              type="button"
+                              className="hover:scale-110 transition-transform"
+                            >
+                              <Star className="w-6 h-6 text-slate-300 hover:text-amber-400 hover:fill-amber-400" />
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                      <div>
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">Review Title (Optional)</label>
+                        <Input placeholder="Sum up your experience" />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">Your Review</label>
+                        <Textarea placeholder="Share your experience with this product" rows={4} />
+                      </div>
+                      <Button type="submit" className="w-full bg-cyan-600 hover:bg-cyan-700">
+                        Submit Review
+                      </Button>
+                    </form>
+                  </div>
+                </CollapsibleContent>
+              </Collapsible>
+            </div>
+          </CollapsibleContent>
+        </Collapsible>
         </div>
       </section>
 
