@@ -151,7 +151,7 @@ export default function ProductHS40() {
               <div className="bg-amber-50 border-l-4 border-amber-400 p-4 mb-8">
                 <div className="flex items-center gap-2 mb-1">
                   <Trophy className="w-5 h-5 text-amber-600" />
-                  <p className="font-semibold text-amber-900">2015 Kitchen Innovations Award</p>
+                  <p className="font-semibold text-amber-900">Kitchen Innovations Award</p>
                 </div>
                 <p className="text-sm text-amber-800">Recognized by the National Restaurant Association</p>
               </div>
