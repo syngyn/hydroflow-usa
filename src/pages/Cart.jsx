@@ -54,10 +54,10 @@ export default function Cart() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.1 }}
                 >
-                  <Card className="p-6">
-                    <div className="flex gap-6">
+                  <Card className="p-4 sm:p-6">
+                    <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                       {/* Product Image */}
-                      <div className="w-32 h-32 bg-slate-100 rounded-lg flex-shrink-0 overflow-hidden">
+                      <div className="w-24 h-24 sm:w-32 sm:h-32 bg-slate-100 rounded-lg flex-shrink-0 overflow-hidden mx-auto sm:mx-0">
                         <img
                           src={item.image}
                           alt={item.name}
@@ -66,23 +66,23 @@ export default function Cart() {
                       </div>
 
                       {/* Product Details */}
-                      <div className="flex-grow">
-                        <div className="flex justify-between items-start mb-2">
-                          <div>
-                            <h3 className="text-xl font-bold text-slate-900">{item.name}</h3>
+                      <div className="flex-grow min-w-0">
+                        <div className="flex justify-between items-start mb-2 gap-2">
+                          <div className="min-w-0 flex-1">
+                            <h3 className="text-lg sm:text-xl font-bold text-slate-900 break-words">{item.name}</h3>
                             {item.coverage && (
                               <p className="text-sm text-slate-500">{item.coverage}</p>
                             )}
                           </div>
                           <button
                             onClick={() => removeFromCart(item.id)}
-                            className="text-red-500 hover:text-red-700 transition-colors"
+                            className="text-red-500 hover:text-red-700 transition-colors flex-shrink-0"
                           >
                             <Trash2 className="w-5 h-5" />
                           </button>
                         </div>
 
-                        <div className="flex items-center justify-between mt-4">
+                        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-4">
                           {/* Quantity Controls */}
                           <div className="flex items-center gap-3">
                             <button
@@ -101,10 +101,10 @@ export default function Cart() {
                           </div>
 
                           {/* Price */}
-                          <div className="text-right">
+                          <div className="text-center sm:text-right">
                             {item.price ? (
                               <>
-                                <p className="text-2xl font-bold text-slate-900">
+                                <p className="text-xl sm:text-2xl font-bold text-slate-900">
                                   ${(item.price * item.quantity).toFixed(2)}
                                 </p>
                                 <p className="text-sm text-slate-500">
