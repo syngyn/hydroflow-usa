@@ -102,7 +102,7 @@ export default function ProductHS40() {
                 <h3 className="text-xl font-bold text-slate-900 mb-4">Installation Video</h3>
                 <div className="aspect-video rounded-2xl overflow-hidden bg-slate-900">
                   <iframe
-                    src="https://player.vimeo.com/video/1128025470"
+                    src="https://player.vimeo.com/video/250662992"
                     width="100%"
                     height="100%"
                     frameBorder="0"
@@ -286,7 +286,7 @@ export default function ProductHS40() {
                 </p>
                 <div className="aspect-video rounded-xl overflow-hidden bg-slate-100 mb-6">
                   <iframe
-                    src="https://player.vimeo.com/video/1128025470"
+                    src="https://player.vimeo.com/video/250662992"
                     width="100%"
                     height="100%"
                     frameBorder="0"
