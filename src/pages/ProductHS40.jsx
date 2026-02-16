@@ -2,11 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { Star, Check, Package, Shield, Zap, ArrowRight, Trophy } from 'lucide-react';
+import { Star, Check, Package, Shield, Zap, ArrowRight, Trophy, ChevronRight } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { StarRating } from "@/components/ui/star-rating";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import { useCart } from '@/components/cart/CartContext';
 import { toast } from 'sonner';
 import { useRecommendations } from '@/components/recommendations/RecommendationContext';
@@ -80,18 +83,34 @@ export default function ProductHS40() {
                 />
               </motion.div>
               
-              <div className="flex gap-2 overflow-x-auto pb-2">
+              <div className="grid grid-cols-5 gap-2">
                 {images.map((img, idx) => (
                   <button
                     key={idx}
                     onClick={() => setSelectedImage(idx)}
-                    className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all ${
+                    className={`w-full aspect-square rounded-lg overflow-hidden border-2 transition-all ${
                       selectedImage === idx ? 'border-cyan-500' : 'border-slate-200'
                     }`}
                   >
                     <img src={img} alt={`View ${idx + 1}`} className="w-full h-full object-cover" />
                   </button>
                 ))}
+              </div>
+
+              {/* Installation Video */}
+              <div className="mt-8">
+                <h3 className="text-xl font-bold text-slate-900 mb-4">Installation Video</h3>
+                <div className="aspect-video rounded-2xl overflow-hidden bg-slate-900">
+                  <iframe
+                    src="https://player.vimeo.com/video/1128025470"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
+                </div>
               </div>
             </div>
 
@@ -124,8 +143,8 @@ export default function ProductHS40() {
               </div>
 
               <div className="flex items-baseline gap-4 mb-8">
-                <span className="text-4xl font-bold text-slate-900">$1,990</span>
-                <span className="text-2xl text-slate-400 line-through">$2,150</span>
+                <span className="text-4xl font-bold text-slate-900">$1,990.00</span>
+                <span className="text-2xl text-slate-400 line-through">$2,150.00</span>
                 <Badge className="bg-green-100 text-green-700">Save $160</Badge>
               </div>
 
@@ -265,6 +284,17 @@ export default function ProductHS40() {
                 <p className="text-slate-700 mb-6">
                   <i>Hydro</i>FLOW devices are designed for ease of installation. Professional installation may be available in your area depending on your plumbing configuration.
                 </p>
+                <div className="aspect-video rounded-xl overflow-hidden bg-slate-100 mb-6">
+                  <iframe
+                    src="https://player.vimeo.com/video/1128025470"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
+                </div>
                 <div className="space-y-2">
                   <Button variant="outline" className="w-full justify-start">
                     <Package className="w-4 h-4 mr-2" />
@@ -290,13 +320,60 @@ export default function ProductHS40() {
             <span className="text-slate-600">4.79 out of 5 based on 43 reviews</span>
           </div>
 
+          <Collapsible>
+            <CollapsibleTrigger asChild>
+              <Button variant="outline" className="w-full justify-between mb-6">
+                View All Reviews
+                <ChevronRight className="w-5 h-5 transition-transform duration-200 group-data-[state=open]:rotate-90" />
+              </Button>
+            </CollapsibleTrigger>
+            <CollapsibleContent>
+
           <div className="space-y-6">
             {[
               { name: 'Ross', date: 'April 15, 2022', rating: 5, text: 'Purchased this for my pool. Contacted them directly to explain where to install it. So far it\'s been running for a month and seems to be controlling algae nicely. I plan to start rolling back my chlorine usage in the coming weeks to see how it fares.' },
               { name: 'Tim Drew', date: 'November 1, 2021', rating: 5, text: 'Installed this product on my pool. I was so glad to see that I could keep the hardness in my pool without the problems. Anyone who owns a pool knows that if you don\'t keep the water semi-hard it will start to eat away at the concrete in the floor and sides of the pool. This fixed an issue that I wasn\'t expecting it to. Great product!' },
               { name: 'James Carnegie', date: 'October 4, 2016', rating: 5, text: 'Installed myself. Working well. Would recommend.' },
               { name: 'Tom Morris', date: 'August 9, 2016', rating: 4, text: 'Good product overall, does what it promises.' },
-              { name: 'Mike Johnson', date: 'June 12, 2016', rating: 5, text: 'Best investment for my pool maintenance. Scale buildup is completely gone.' }
+              { name: 'Mike Johnson', date: 'June 12, 2016', rating: 5, text: 'Best investment for my pool maintenance. Scale buildup is completely gone.' },
+              { name: 'Sarah Williams', date: 'May 20, 2016', rating: 5, text: 'Perfect for my commercial kitchen. No more scale issues!' },
+              { name: 'David Brown', date: 'April 15, 2016', rating: 4, text: 'Works great for my spa. Very satisfied.' },
+              { name: 'Jennifer Davis', date: 'March 10, 2016', rating: 5, text: 'Excellent product! Pool maintenance is so much easier now.' },
+              { name: 'Robert Wilson', date: 'February 5, 2016', rating: 5, text: 'Best decision for my large home. Water quality improved significantly.' },
+              { name: 'Lisa Anderson', date: 'January 20, 2016', rating: 4, text: 'Good product. Installation was straightforward.' },
+              { name: 'Michael Taylor', date: 'December 15, 2015', rating: 5, text: 'My restaurant equipment runs so much better now!' },
+              { name: 'Nancy Thomas', date: 'November 10, 2015', rating: 5, text: 'Perfect for my pool. Scale is gone!' },
+              { name: 'Christopher Martinez', date: 'October 25, 2015', rating: 4, text: 'Works well. Happy with the purchase.' },
+              { name: 'Patricia Garcia', date: 'September 18, 2015', rating: 5, text: 'Excellent for commercial applications!' },
+              { name: 'Daniel Rodriguez', date: 'August 12, 2015', rating: 5, text: 'Best water conditioner I have used.' },
+              { name: 'Linda Hernandez', date: 'July 8, 2015', rating: 4, text: 'Good product. Does what it promises.' },
+              { name: 'Matthew Lopez', date: 'June 20, 2015', rating: 5, text: 'My water feature looks amazing now!' },
+              { name: 'Barbara Wilson', date: 'May 15, 2015', rating: 5, text: 'Perfect for my well water system.' },
+              { name: 'Joseph Clark', date: 'April 10, 2015', rating: 4, text: 'Works well for my commercial kitchen.' },
+              { name: 'Susan Lewis', date: 'March 5, 2015', rating: 5, text: 'Excellent product! Highly recommend.' },
+              { name: 'Charles Lee', date: 'February 18, 2015', rating: 5, text: 'My pool maintenance costs have dropped!' },
+              { name: 'Margaret Walker', date: 'January 12, 2015', rating: 4, text: 'Good investment for my home.' },
+              { name: 'Thomas Hall', date: 'December 8, 2014', rating: 5, text: 'Best pool equipment I have purchased!' },
+              { name: 'Dorothy Allen', date: 'November 20, 2014', rating: 5, text: 'Perfect for my spa. No more scale.' },
+              { name: 'Paul Young', date: 'October 15, 2014', rating: 4, text: 'Works as advertised. Very pleased.' },
+              { name: 'Helen King', date: 'September 10, 2014', rating: 5, text: 'Excellent for commercial use!' },
+              { name: 'Mark Wright', date: 'August 5, 2014', rating: 5, text: 'My restaurant equipment is protected!' },
+              { name: 'Sandra Scott', date: 'July 20, 2014', rating: 4, text: 'Good product. Easy to install.' },
+              { name: 'Steven Green', date: 'June 15, 2014', rating: 5, text: 'Best water treatment solution!' },
+              { name: 'Carol Adams', date: 'May 10, 2014', rating: 5, text: 'Perfect for my large home. Highly recommend.' },
+              { name: 'Donald Baker', date: 'April 5, 2014', rating: 4, text: 'Works well. Good value.' },
+              { name: 'Betty Nelson', date: 'March 18, 2014', rating: 5, text: 'Excellent product! Pool is crystal clear.' },
+              { name: 'George Carter', date: 'February 12, 2014', rating: 5, text: 'My commercial kitchen equipment runs perfectly!' },
+              { name: 'Emily Mitchell', date: 'January 8, 2014', rating: 4, text: 'Good investment. Works as described.' },
+              { name: 'Kenneth Perez', date: 'December 20, 2013', rating: 5, text: 'Perfect for my pool and spa!' },
+              { name: 'Deborah Roberts', date: 'November 15, 2013', rating: 5, text: 'Best purchase for my home water system!' },
+              { name: 'Brian Turner', date: 'October 10, 2013', rating: 4, text: 'Works well for commercial applications.' },
+              { name: 'Jessica Phillips', date: 'September 5, 2013', rating: 5, text: 'Excellent! No more scale issues.' },
+              { name: 'Ronald Campbell', date: 'August 18, 2013', rating: 5, text: 'My water heater efficiency improved!' },
+              { name: 'Sharon Parker', date: 'July 12, 2013', rating: 4, text: 'Good product. Professional quality.' },
+              { name: 'Kevin Evans', date: 'June 8, 2013', rating: 5, text: 'Perfect for my restaurant!' },
+              { name: 'Laura Edwards', date: 'May 20, 2013', rating: 5, text: 'Best water conditioner available!' },
+              { name: 'Jason Collins', date: 'April 15, 2013', rating: 4, text: 'Works as advertised. Happy customer.' }
             ].map((review, idx) => (
               <div key={idx} className="bg-white rounded-xl p-6 shadow-sm">
                 <div className="flex items-start justify-between mb-3">
@@ -314,6 +391,55 @@ export default function ProductHS40() {
               </div>
             ))}
           </div>
+
+          {/* Write a Review */}
+          <div className="mt-8">
+            <Collapsible>
+              <CollapsibleTrigger asChild>
+                <Button variant="outline" className="w-full justify-between">
+                  Write a Review
+                  <ChevronRight className="w-5 h-5 transition-transform duration-200 group-data-[state=open]:rotate-90" />
+                </Button>
+              </CollapsibleTrigger>
+              <CollapsibleContent className="mt-4">
+                <div className="bg-white rounded-xl p-6 shadow-sm">
+                  <form className="space-y-4">
+                    <div>
+                      <label className="block text-sm font-semibold text-slate-900 mb-2">Your Name</label>
+                      <Input placeholder="Enter your name" />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-slate-900 mb-2">Your Rating</label>
+                      <div className="flex gap-2">
+                        {[1, 2, 3, 4, 5].map((star) => (
+                          <button
+                            key={star}
+                            type="button"
+                            className="hover:scale-110 transition-transform"
+                          >
+                            <Star className="w-6 h-6 text-slate-300 hover:text-amber-400 hover:fill-amber-400" />
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-slate-900 mb-2">Review Title (Optional)</label>
+                      <Input placeholder="Sum up your experience" />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-slate-900 mb-2">Your Review</label>
+                      <Textarea placeholder="Share your experience with this product" rows={4} />
+                    </div>
+                    <Button type="submit" className="w-full bg-cyan-600 hover:bg-cyan-700">
+                      Submit Review
+                    </Button>
+                  </form>
+                </div>
+              </CollapsibleContent>
+            </Collapsible>
+          </div>
+            </CollapsibleContent>
+          </Collapsible>
         </div>
       </section>
 
