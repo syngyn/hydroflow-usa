@@ -126,7 +126,7 @@ export default function ProductPearl() {
               </div>
 
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                An upgraded version of the reliable hs38, the Pearl is designed to protect a single piece of equipment, such as a tankless water heater, from the effects of scale and decrease the risk of waterborne biological contamination. Other popular applications include small studio apartments and recreational vehicles (RVs).
+                The Pearl is designed to protect a single piece of equipment, such as a tankless water heater, from the effects of scale and decrease the risk of waterborne biological contamination. Other popular applications include small studio apartments and recreational vehicles (RVs).
               </p>
 
               <div className="mb-6">
