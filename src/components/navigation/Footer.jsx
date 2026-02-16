@@ -77,6 +77,11 @@ export default function Footer({ currentPageName }) {
                 </Link>
               </li>
               <li>
+                <Link to={createPageUrl('BundleDeal')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                  Pearl Plus Bundle
+                </Link>
+              </li>
+              <li>
                 <Link to={createPageUrl('Support')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
                   Product Support
                 </Link>

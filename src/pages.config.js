@@ -108,6 +108,7 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import BundleDeal from './pages/BundleDeal';
 import __Layout from './Layout.jsx';
 
 
@@ -173,6 +174,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
+    "BundleDeal": BundleDeal,
 }
 
 export const pagesConfig = {
