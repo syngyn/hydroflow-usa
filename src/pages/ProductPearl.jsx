@@ -132,8 +132,8 @@ export default function ProductPearl() {
               </div>
 
               <div className="flex items-baseline gap-4 mb-8">
-                <span className="text-4xl font-bold text-slate-900">$295</span>
-                <span className="text-2xl text-slate-400 line-through">$425</span>
+                <span className="text-4xl font-bold text-slate-900">$295.00</span>
+                <span className="text-2xl text-slate-400 line-through">$425.00</span>
                 <Badge className="bg-green-100 text-green-700">Save $130</Badge>
               </div>
 
