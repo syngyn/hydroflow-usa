@@ -69,7 +69,13 @@ export default function Cart() {
                       <div className="flex-grow min-w-0">
                         <div className="flex justify-between items-start mb-2 gap-2">
                           <div className="min-w-0 flex-1">
-                            <h3 className="text-lg sm:text-xl font-bold text-slate-900 break-words">{item.name}</h3>
+                            <h3 className="text-lg sm:text-xl font-bold text-slate-900 break-words">
+                              {item.name === 'HS40' ? (
+                                <><i>hs</i>40</>
+                              ) : (
+                                item.name
+                              )}
+                            </h3>
                             {item.coverage && (
                               <p className="text-sm text-slate-500">{item.coverage}</p>
                             )}
