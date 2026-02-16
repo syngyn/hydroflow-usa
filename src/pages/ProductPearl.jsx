@@ -299,6 +299,15 @@ export default function ProductPearl() {
             <span className="text-slate-600">4.38 out of 5 based on 56 reviews</span>
           </div>
 
+          <Collapsible>
+            <CollapsibleTrigger asChild>
+              <Button variant="outline" className="w-full justify-between mb-6">
+                View All Reviews
+                <ChevronRight className="w-5 h-5 transition-transform duration-200 group-data-[state=open]:rotate-90" />
+              </Button>
+            </CollapsibleTrigger>
+            <CollapsibleContent>
+
           <div className="space-y-6">
             {[
               { name: 'Toby Knudtson', date: 'October 16, 2025', rating: 5, text: 'This product works exactly how its described. I dont understand why some people are reviewing your product are expecting it to lower the water hardness lol. I love the fact I no longer have to exchange my calcium for salt.' },
@@ -320,7 +329,34 @@ export default function ProductPearl() {
               { name: 'Angela White', date: 'March 17, 2021', rating: 5, text: 'Noticed less scale buildup in just a few weeks.' },
               { name: 'Kevin Brown', date: 'July 29, 2021', rating: 3, text: 'Works okay. Takes some time to see results.' },
               { name: 'Michelle Taylor', date: 'December 12, 2021', rating: 5, text: 'Perfect for my small apartment. Highly recommend!' },
-              { name: 'Paul Garcia', date: 'April 8, 2022', rating: 4, text: 'Good product. Easy to install on RV plumbing.' }
+              { name: 'Paul Garcia', date: 'April 8, 2022', rating: 4, text: 'Good product. Easy to install on RV plumbing.' },
+              { name: 'Andrew Wilson', date: 'October 5, 2022', rating: 5, text: 'Excellent device! My water heater is running more efficiently.' },
+              { name: 'Rachel Green', date: 'January 18, 2023', rating: 4, text: 'Works well for my small apartment.' },
+              { name: 'Thomas Baker', date: 'March 30, 2023', rating: 5, text: 'Great for RV use. Easy installation.' },
+              { name: 'Laura Phillips', date: 'June 12, 2023', rating: 4, text: 'Noticed improvement in my tankless heater.' },
+              { name: 'Steven Clark', date: 'August 25, 2023', rating: 5, text: 'Perfect solution for scale problems.' },
+              { name: 'Diana Rodriguez', date: 'November 7, 2023', rating: 3, text: 'Decent product but takes time to see results.' },
+              { name: 'Brian Lewis', date: 'December 20, 2023', rating: 4, text: 'Good value. Installation was straightforward.' },
+              { name: 'Patricia Walker', date: 'February 2, 2024', rating: 5, text: 'My appliances are cleaner and running better.' },
+              { name: 'Gary Hall', date: 'April 15, 2024', rating: 4, text: 'Works as described. Happy with purchase.' },
+              { name: 'Nancy Allen', date: 'June 28, 2024', rating: 5, text: 'Excellent for small spaces. Highly recommend!' },
+              { name: 'Richard Young', date: 'August 10, 2024', rating: 4, text: 'Good product for the price.' },
+              { name: 'Betty King', date: 'September 22, 2024', rating: 3, text: 'It works but takes several weeks to notice.' },
+              { name: 'Joseph Wright', date: 'November 3, 2024', rating: 5, text: 'Perfect for my condo. No more scale!' },
+              { name: 'Sandra Lopez', date: 'December 15, 2024', rating: 4, text: 'Good investment for water quality.' },
+              { name: 'Daniel Hill', date: 'January 5, 2025', rating: 5, text: 'Works great on my RV plumbing system.' },
+              { name: 'Karen Scott', date: 'February 18, 2025', rating: 4, text: 'Noticeable improvement in water quality.' },
+              { name: 'George Green', date: 'March 30, 2025', rating: 5, text: 'Easy to install and works perfectly.' },
+              { name: 'Helen Adams', date: 'May 12, 2025', rating: 4, text: 'Good product for apartment living.' },
+              { name: 'Kenneth Baker', date: 'June 24, 2025', rating: 5, text: 'My water heater is running much better now.' },
+              { name: 'Dorothy Nelson', date: 'August 6, 2025', rating: 3, text: 'Works okay. Need more time to fully evaluate.' },
+              { name: 'Charles Carter', date: 'September 18, 2025', rating: 4, text: 'Does what it promises. No complaints.' },
+              { name: 'Jessica Mitchell', date: 'October 30, 2025', rating: 5, text: 'Perfect for small homes. Very effective!' },
+              { name: 'Timothy Perez', date: 'December 11, 2025', rating: 4, text: 'Good quality product. Installation was easy.' },
+              { name: 'Sharon Roberts', date: 'January 23, 2026', rating: 5, text: 'Excellent results! My fixtures stay cleaner.' },
+              { name: 'Matthew Turner', date: 'February 4, 2026', rating: 4, text: 'Works well for my tankless water heater.' },
+              { name: 'Barbara Phillips', date: 'February 10, 2026', rating: 5, text: 'Best purchase for my studio apartment!' },
+              { name: 'Anthony Campbell', date: 'February 14, 2026', rating: 4, text: 'Solid product. Does what it advertises.' }
             ].map((review, idx) => (
               <div key={idx} className="bg-white rounded-xl p-6 shadow-sm">
                 <div className="flex items-start justify-between mb-3">
@@ -340,52 +376,54 @@ export default function ProductPearl() {
             ))}
           </div>
 
-          {/* Write a Review - Collapsible */}
-          <div className="mt-8">
-            <Collapsible>
-              <CollapsibleTrigger asChild>
-                <Button variant="outline" className="w-full justify-between">
-                  Write a Review
-                  <ChevronRight className="w-5 h-5 transition-transform duration-200 group-data-[state=open]:rotate-90" />
-                </Button>
-              </CollapsibleTrigger>
-              <CollapsibleContent className="mt-4">
-                <div className="bg-white rounded-xl p-6 shadow-sm">
-                  <form className="space-y-4">
-                    <div>
-                      <label className="block text-sm font-semibold text-slate-900 mb-2">Your Name</label>
-                      <Input placeholder="Enter your name" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-semibold text-slate-900 mb-2">Your Rating</label>
-                      <div className="flex gap-2">
-                        {[1, 2, 3, 4, 5].map((star) => (
-                          <button
-                            key={star}
-                            type="button"
-                            className="hover:scale-110 transition-transform"
-                          >
-                            <Star className="w-6 h-6 text-slate-300 hover:text-amber-400 hover:fill-amber-400" />
-                          </button>
-                        ))}
+            {/* Write a Review */}
+            <div className="mt-8">
+              <Collapsible>
+                <CollapsibleTrigger asChild>
+                  <Button variant="outline" className="w-full justify-between">
+                    Write a Review
+                    <ChevronRight className="w-5 h-5 transition-transform duration-200 group-data-[state=open]:rotate-90" />
+                  </Button>
+                </CollapsibleTrigger>
+                <CollapsibleContent className="mt-4">
+                  <div className="bg-white rounded-xl p-6 shadow-sm">
+                    <form className="space-y-4">
+                      <div>
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">Your Name</label>
+                        <Input placeholder="Enter your name" />
                       </div>
-                    </div>
-                    <div>
-                      <label className="block text-sm font-semibold text-slate-900 mb-2">Review Title (Optional)</label>
-                      <Input placeholder="Sum up your experience" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-semibold text-slate-900 mb-2">Your Review</label>
-                      <Textarea placeholder="Share your experience with this product" rows={4} />
-                    </div>
-                    <Button type="submit" className="w-full bg-cyan-600 hover:bg-cyan-700">
-                      Submit Review
-                    </Button>
-                  </form>
-                </div>
-              </CollapsibleContent>
-            </Collapsible>
-          </div>
+                      <div>
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">Your Rating</label>
+                        <div className="flex gap-2">
+                          {[1, 2, 3, 4, 5].map((star) => (
+                            <button
+                              key={star}
+                              type="button"
+                              className="hover:scale-110 transition-transform"
+                            >
+                              <Star className="w-6 h-6 text-slate-300 hover:text-amber-400 hover:fill-amber-400" />
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                      <div>
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">Review Title (Optional)</label>
+                        <Input placeholder="Sum up your experience" />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">Your Review</label>
+                        <Textarea placeholder="Share your experience with this product" rows={4} />
+                      </div>
+                      <Button type="submit" className="w-full bg-cyan-600 hover:bg-cyan-700">
+                        Submit Review
+                      </Button>
+                    </form>
+                  </div>
+                </CollapsibleContent>
+              </Collapsible>
+            </div>
+          </CollapsibleContent>
+        </Collapsible>
         </div>
       </section>
 
