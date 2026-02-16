@@ -93,6 +93,22 @@ export default function ProductPearl() {
                   </button>
                 ))}
               </div>
+
+              {/* Installation Video */}
+              <div className="mt-8">
+                <h3 className="text-xl font-bold text-slate-900 mb-4">Installation Video</h3>
+                <div className="aspect-video rounded-2xl overflow-hidden bg-slate-900">
+                  <iframe
+                    src="https://player.vimeo.com/video/1127697487"
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
+                </div>
+              </div>
             </div>
 
             {/* Product Info */}
