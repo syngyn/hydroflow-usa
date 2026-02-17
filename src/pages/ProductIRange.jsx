@@ -281,7 +281,16 @@ export default function ProductIRange() {
                     '<i>i</i> Range Custom Specification',
                     '<i>i</i> Range Multi-head Specification'
                   ].map((doc) => (
-                    <Button key={doc} variant="outline" className="w-full justify-start">
+                    <Button 
+                      key={doc} 
+                      variant="outline" 
+                      className="w-full justify-start"
+                      onClick={() => {
+                        if (doc === '<i>i</i> Range Multi-head Specification') {
+                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/21ddd2e8b_HydroFLOW-i-Range-Custom-Multihead-Spec-Guide.pdf', '_blank');
+                        }
+                      }}
+                    >
                       <Package className="w-4 h-4 mr-2" />
                       <span dangerouslySetInnerHTML={{ __html: doc }} /> (PDF)
                     </Button>
