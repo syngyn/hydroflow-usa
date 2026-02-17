@@ -121,7 +121,7 @@ export default function BundleDeal() {
                 {images.map((img, idx) => (
                   <button
                     key={idx}
-                    onClick={() => emblaApi && emblaApi.scrollToSnapList()[idx]()}
+                    onClick={() => emblaApi && emblaApi.scrollTo(idx)}
                     className={`w-full aspect-square rounded-lg overflow-hidden border-2 transition-all ${
                       idx === 0 ? 'border-cyan-500' : 'border-slate-200'
                     }`}
