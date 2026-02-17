@@ -290,6 +290,8 @@ export default function ProductIRange() {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/21ddd2e8b_HydroFLOW-i-Range-Custom-Multihead-Spec-Guide.pdf', '_blank');
                         } else if (doc === '<i>i</i> Range Custom Specification') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/35dcc8be9_HydroFLOW-Custom-i-Range-Gen-4-Specifications.pdf', '_blank');
+                        } else if (doc === '<i>i</i> Range Specification and Installation') {
+                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b411d45c8_HydroFLOW-i-Range-Gen-4-Specifications.pdf', '_blank');
                         }
                       }}
                     >
