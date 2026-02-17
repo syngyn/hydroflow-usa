@@ -105,7 +105,7 @@ export default function BundleDeal() {
               </motion.div>
 
               {/* Thumbnail Indicators */}
-              <div className="flex gap-2 overflow-x-auto">
+              <div className="flex gap-2 overflow-x-auto ml-4">
                 {images.map((img, idx) => (
                   <button
                     key={idx}
