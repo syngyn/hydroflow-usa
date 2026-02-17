@@ -190,14 +190,14 @@ export default function ProductPearlPlus() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Popular Applications</h3>
                 <ul className="space-y-2">
                   {[
-                    'Standard homes',
-                    'Water heaters',
-                    'Commercial dishwashers',
-                    'Steam and proofer ovens',
-                    'Ice machines',
-                    'Commercial humidifiers',
-                    'Evaporators',
-                    'Aquariums'
+                    'Standard homes.',
+                    'Water heaters.',
+                    'Commercial dishwashers.',
+                    'Steam and proofer ovens.',
+                    'Ice machines.',
+                    'Commercial humidifiers.',
+                    'Evaporators.',
+                    'Aquariums.'
                   ].map((app) => (
                     <li key={app} className="flex items-center gap-2 text-slate-700">
                       <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
