@@ -278,8 +278,9 @@ export default function ProductIRange() {
                     '<i>Hydro</i>FLOW Hotel Industry Brochure',
                     '<i>Hydro</i>FLOW Wastewater Brochure',
                     '<i>Hydro</i>FLOW Steam Boiler Protection',
-                    '<i>Hydro</i>FLOW Swimming Pool Brochure',
-                    '<i>Hydro</i>FLOW Mining Industry Brochure'
+                      '<i>Hydro</i>FLOW Steam Boiler Brochure',
+                      '<i>Hydro</i>FLOW Swimming Pool Brochure',
+                      '<i>Hydro</i>FLOW Mining Industry Brochure'
                   ].map((doc) => (
                     <Button 
                       key={doc} 
