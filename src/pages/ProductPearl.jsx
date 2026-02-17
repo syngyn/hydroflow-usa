@@ -28,9 +28,17 @@ const images = [
 ];
 
 export default function ProductPearl() {
-  const [selectedImage, setSelectedImage] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(0);
   const { addToCart } = useCart();
   const { trackProductView } = useRecommendations();
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % images.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + images.length) % images.length);
+  };
 
   const product = {
     id: 'pearl',
