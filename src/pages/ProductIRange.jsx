@@ -163,14 +163,14 @@ export default function ProductIRange() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Popular Applications</h3>
                 <ul className="space-y-2">
                   {[
-                    'Cooling Towers',
-                    'Boilers',
-                    'Heat Exchangers',
-                    'Chillers',
-                    'Filtration Systems',
-                    'Dewatering Systems',
-                    'Irrigation Systems',
-                    'Power Generation'
+                    'Cooling Towers.',
+                    'Boilers.',
+                    'Heat Exchangers.',
+                    'Chillers.',
+                    'Filtration Systems.',
+                    'Dewatering Systems.',
+                    'Irrigation Systems.',
+                    'Power Generation.'
                   ].map((app) => (
                     <li key={app} className="flex items-center gap-2 text-slate-700">
                       <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
@@ -184,12 +184,12 @@ export default function ProductIRange() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Main Benefits</h3>
                 <ul className="space-y-2">
                   {[
-                    'Dissolves and removes existing scale',
-                    'Prevents new scale accumulation',
-                    'Deactivates bacteria and algae',
-                    'Prevents and removes biofoul',
-                    'Boosts filtration efficiency',
-                    'Significantly reduces corrosion'
+                    'Dissolves and removes existing scale.',
+                    'Prevents new scale accumulation.',
+                    'Deactivates bacteria and algae.',
+                    'Prevents and removes biofoul.',
+                    'Boosts filtration efficiency.',
+                    'Significantly reduces corrosion.'
                   ].map((benefit) => (
                     <li key={benefit} className="flex items-center gap-2 text-slate-700">
                       <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
@@ -203,12 +203,12 @@ export default function ProductIRange() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Financial & Environmental Benefits</h3>
                 <ul className="space-y-2">
                   {[
-                    'Reduces energy consumption',
-                    'Increases efficiency of water heating equipment and machinery',
-                    'Eliminates or decreases chemical usage',
-                    'Decreases need for chemical safety precautions, storage and disposal',
-                    'Reduces maintenance costs',
-                    'Average one to two year payback period'
+                    'Reduces energy consumption.',
+                    'Increases efficiency of water heating equipment and machinery.',
+                    'Eliminates or decreases chemical usage.',
+                    'Decreases need for chemical safety precautions, storage and disposal.',
+                    'Reduces maintenance costs.',
+                    'Average one to two year payback period.'
                   ].map((benefit) => (
                     <li key={benefit} className="flex items-center gap-2 text-slate-700">
                       <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
@@ -222,10 +222,10 @@ export default function ProductIRange() {
                <h3 className="text-2xl font-bold text-slate-900 mb-4">Additional Benefits</h3>
                <ul className="space-y-2">
                  {[
-                   'Non-intrusive and easy to install - no plumbing modifications required',
-                   'Propagates the Hydropath signal along the entire water system',
-                   'Provides 24-hour protection',
-                   'Does not interfere with other electrical systems'
+                  'Non-intrusive and easy to install - no plumbing modifications required.',
+                  'Propagates the Hydropath signal along the entire water system.',
+                  'Provides 24-hour protection.',
+                  'Does not interfere with other electrical systems.'
                  ].map((benefit) => (
                    <li key={benefit} className="flex items-center gap-2 text-slate-700">
                      <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
