@@ -352,12 +352,12 @@ export default function Products() {
 
         {/* Bundle Deal */}
         <section className="py-8 bg-slate-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="relative rounded-2xl overflow-hidden bg-white shadow-lg max-w-2xl mx-auto flex items-center gap-6 p-6"
+              className="relative rounded-2xl overflow-hidden bg-white shadow-lg w-full flex items-center gap-6 p-6"
             >
               <div className="h-48 w-48 flex-shrink-0">
                 <img 
