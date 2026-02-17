@@ -221,10 +221,10 @@ export default function ProductPearl() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Additional Benefits</h3>
                 <ul className="space-y-2 mb-4">
                   {[
-                    'Non-intrusive and easy to install – no plumbing modifications required',
-                    'Propagates the Hydropath signal along the entire water system',
-                    'Provides 24-hour protection',
-                    'Does not interfere with other electrical systems'
+                    'Non-intrusive and easy to install – no plumbing modifications required.',
+                    'Propagates the Hydropath signal along the entire water system.',
+                    'Provides 24-hour protection.',
+                    'Does not interfere with other electrical systems.'
                   ].map((benefit) => (
                     <li key={benefit} className="flex items-center gap-2 text-slate-700">
                       <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
