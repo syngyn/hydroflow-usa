@@ -254,6 +254,39 @@ export default function ProductHS40() {
                   ))}
                 </ul>
               </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Additional Benefits</h3>
+                <ul className="space-y-2 mb-4">
+                  {[
+                    'Non-intrusive and easy to install – no plumbing modifications required.',
+                    'Propagates the Hydropath signal along with the entire water system.',
+                    'Provides 24-hour protection.',
+                    'Does not interfere with other electrical systems.'
+                  ].map((benefit) => (
+                    <li key={benefit} className="flex items-center gap-2 text-slate-700">
+                      <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
+                      {benefit}
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-slate-700 mb-4">
+                  Installation of this device does not replace periodic equipment preventative maintenance procedures. Such as purging your water heater.
+                </p>
+                <p className="text-slate-700 mb-4">
+                  <i>Hydro</i>FLOW residential devices are designed for ease of installation. With this said, it may be necessary to have your unit installed professionally, depending on the configuration of your plumbing system.
+                </p>
+                <p className="text-slate-700 mb-4">
+                  For additional technical information about these products, please visit our <Link to={createPageUrl('Technology')} className="text-cyan-600 hover:underline">technology page</Link>. If you have any questions or wish to locate a local representative, please <Link to={createPageUrl('Contact')} className="text-cyan-600 hover:underline">contact us</Link>.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">About <i>Hydro</i>FLOW <i>hs</i>40</h3>
+                <p className="text-slate-700">
+                  The <i>hs</i>40 is a descaler and chemical Reducer for pools, large homes and commercial kitchens. It is designed to protect your heating system and appliances and make limescale-stained surfaces easier to clean.
+                </p>
+              </div>
             </TabsContent>
 
             <TabsContent value="specs" className="space-y-4">
