@@ -20,7 +20,12 @@ const images = [
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/54751673473275.jpg',
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/29181677886890.png',
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/41661675266257.png',
-  'https://hydroflow-usa.com/wp-content/uploads/2023/08/85731673473417.jpg'
+  'https://hydroflow-usa.com/wp-content/uploads/2023/08/85731673473417.jpg',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b6e4a3e4b_WholeHomeProtectionAmazon.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e5781ca28_amazonheatingelements.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5c04cdd9e_EasyInstrallationpearlamazon.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/000504ec6_toughonbiofilmamazonpearl.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/632696b76_whatsintheboxpearl.png'
 ];
 
 export default function ProductPearl() {
