@@ -292,6 +292,8 @@ export default function ProductIRange() {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/35dcc8be9_HydroFLOW-Custom-i-Range-Gen-4-Specifications.pdf', '_blank');
                         } else if (doc === '<i>i</i> Range Specification and Installation') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b411d45c8_HydroFLOW-i-Range-Gen-4-Specifications.pdf', '_blank');
+                        } else if (doc === '<i>Hydro</i>FLOW General Brochure') {
+                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2484cae7b_Hydropath_Technology-HydroFLOW_General_Brochure.pdf', '_blank');
                         }
                       }}
                     >
