@@ -53,6 +53,23 @@ const products = [
     description: 'Our most popular residential unit, perfect for standard-sized homes.'
   },
   {
+    id: 'bundle-deal',
+    name: 'Bundle & Save',
+    category: 'residential',
+    tagline: 'Save Over 5%',
+    coverage: 'Covers up to 4,000 sq ft',
+    price: 695,
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg',
+    features: [
+      'Larger homes and properties',
+      'Multiple plumbing systems',
+      'RV compatible',
+      'Best value package'
+    ],
+    isBundleCard: true,
+    description: 'Pearl Plus & Pearl combination for maximum coverage and savings.'
+  },
+  {
     id: 'hs40',
     name: <><i>hs</i>40</>,
     category: 'residential',
