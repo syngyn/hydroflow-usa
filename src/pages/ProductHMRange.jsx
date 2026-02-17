@@ -301,6 +301,8 @@ export default function ProductHMRange() {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9306506ea_Marine-Brochure.pdf', '_blank');
                         } else if (doc === 'Hydropath hm Range Specification') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/31da6063b_HydropathMarineSpecGuide.pdf', '_blank');
+                        } else if (doc === 'Hydropath hm Range Installation Guide') {
+                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/55130d803_HydropathMarineHMRangeInstallationGuide.pdf', '_blank');
                         }
                       }}
                     >
