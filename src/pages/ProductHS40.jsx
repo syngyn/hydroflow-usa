@@ -240,12 +240,12 @@ export default function ProductHS40() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Financial & Environmental Benefits</h3>
                 <ul className="space-y-2">
                   {[
-                    'Reduces energy consumption',
-                    'Increases efficiency of water heating equipment and machinery',
-                    'Eliminates or decreases chemical usage',
-                    'Decreases need for chemical safety precautions, storage and disposal',
-                    'Reduces maintenance costs',
-                    'Average one year payback period'
+                    'Reduces energy consumption.',
+                    'Increases efficiency of water heating equipment and machinery.',
+                    'Eliminates or decreases chemical usage.',
+                    'Decreases need for chemical safety precautions, storage and disposal.',
+                    'Reduces maintenance costs.',
+                    'Average one year payback period.'
                   ].map((benefit) => (
                     <li key={benefit} className="flex items-center gap-2 text-slate-700">
                       <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
