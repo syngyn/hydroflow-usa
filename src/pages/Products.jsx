@@ -349,7 +349,8 @@ export default function Products() {
                   <Link to={createPageUrl(
                     product.id === 'pearl-plus' ? 'ProductPearlPlus' :
                     product.id === 'pearl' ? 'ProductPearl' :
-                    product.id === 'hs40' ? 'ProductHS40' : 'Products'
+                    product.id === 'hs40' ? 'ProductHS40' :
+                    product.id === 'bundle-deal' ? 'BundleDeal' : 'Products'
                   )}>
                     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                       <Button className={`w-full rounded-xl py-4 text-base font-black uppercase tracking-wider transition-all ${
