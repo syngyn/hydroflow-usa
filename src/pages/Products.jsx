@@ -366,7 +366,7 @@ export default function Products() {
               </motion.div>
             ))}
             </div>
-          </div>
+            </div>
         </div>
         </section>
 
