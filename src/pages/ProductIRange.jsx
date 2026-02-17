@@ -296,6 +296,8 @@ export default function ProductIRange() {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2484cae7b_Hydropath_Technology-HydroFLOW_General_Brochure.pdf', '_blank');
                         } else if (doc === '<i>Hydro</i>FLOW Commercial Brochure') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/769ba1377_Hydropath_Technology-HydroFLOW_Commercial_Brochure.pdf', '_blank');
+                        } else if (doc === '<i>Hydro</i>FLOW Cooling Tower Brochure') {
+                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/90d9ec379_Hydropath_Technology-HydroFLOW_Cooling_Towers_Brochure.pdf', '_blank');
                         }
                       }}
                     >
