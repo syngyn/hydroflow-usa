@@ -20,7 +20,11 @@ const images = [
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/3121673370046.png',
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/76041673368629.png',
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/79461673369704.png',
-  'https://hydroflow-usa.com/wp-content/uploads/2024/04/bundle-heating-element.jpg'
+  'https://hydroflow-usa.com/wp-content/uploads/2024/04/bundle-heating-element.jpg',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/12e91b62b_amazonheatingelements.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/225f78608_easyinstallationPearlPlusAmazon.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/cb2934d1d_toughonbiofilmamazonpearl.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f3ffa0ec0_Whatsintheboxpearlplusfromamazon.png'
 ];
 
 export default function ProductPearlPlus() {
