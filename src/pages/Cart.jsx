@@ -111,10 +111,10 @@ export default function Cart() {
                             {item.price ? (
                               <>
                                 <p className="text-xl sm:text-2xl font-bold text-slate-900">
-                                  ${(item.price * item.quantity).toFixed(2)}
+                                  ${(item.price * item.quantity).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                                 </p>
                                 <p className="text-sm text-slate-500">
-                                  ${item.price.toFixed(2)} each
+                                  ${item.price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} each
                                 </p>
                               </>
                             ) : (
@@ -137,7 +137,7 @@ export default function Cart() {
                 <div className="space-y-4 mb-6">
                   <div className="flex justify-between text-slate-600">
                     <span>Subtotal</span>
-                    <span>${getCartTotal().toFixed(2)}</span>
+                    <span>${getCartTotal().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                   </div>
                   <div className="flex justify-between text-slate-600">
                     <span>Shipping</span>
@@ -150,7 +150,7 @@ export default function Cart() {
                   <div className="border-t pt-4">
                     <div className="flex justify-between text-xl font-bold text-slate-900">
                       <span>Total</span>
-                      <span>${getCartTotal().toFixed(2)}</span>
+                      <span>${getCartTotal().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                     </div>
                   </div>
                 </div>
