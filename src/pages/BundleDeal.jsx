@@ -77,31 +77,55 @@ export default function BundleDeal() {
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Image Gallery */}
+            {/* Image Carousel */}
             <div>
               <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="bg-slate-50 rounded-3xl p-8 mb-4"
+                className="relative bg-slate-50 rounded-3xl p-8 mb-4 overflow-hidden"
               >
-                <img 
-                  src={images[selectedImage]} 
-                  alt="HydroFLOW Pearl Plus Bundle"
-                  className="w-full h-96 object-contain"
-                />
+                <div className="overflow-hidden rounded-lg" ref={emblaRef}>
+                  <div className="flex">
+                    {images.map((img, idx) => (
+                      <div key={idx} className="min-w-0 flex-[0_0_100%]">
+                        <img 
+                          src={img} 
+                          alt={`HydroFLOW Pearl Plus Bundle - Image ${idx + 1}`}
+                          className="w-full h-96 object-contain"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                
+                <button
+                  onClick={scrollPrev}
+                  disabled={!canScrollPrev}
+                  className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white disabled:opacity-30 p-2 rounded-full transition-all"
+                  aria-label="Previous image"
+                >
+                  <ChevronLeft className="w-6 h-6 text-slate-900" />
+                </button>
+                
+                <button
+                  onClick={scrollNext}
+                  disabled={!canScrollNext}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white disabled:opacity-30 p-2 rounded-full transition-all"
+                  aria-label="Next image"
+                >
+                  <ChevronRight className="w-6 h-6 text-slate-900" />
+                </button>
               </motion.div>
               
-              <div className="grid grid-cols-6 gap-2">
-                {images.map((img, idx) => (
+              <div className="flex gap-2 justify-center">
+                {images.map((_, idx) => (
                   <button
                     key={idx}
-                    onClick={() => setSelectedImage(idx)}
-                    className={`w-full aspect-square rounded-lg overflow-hidden border-2 transition-all ${
-                      selectedImage === idx ? 'border-cyan-500' : 'border-slate-200'
-                    }`}
-                  >
-                    <img src={img} alt={`View ${idx + 1}`} className="w-full h-full object-cover" />
-                  </button>
+                    onClick={() => emblaApi && emblaApi.scrollSnapList()[idx] && emblaApi.scrollToSnapList()[idx]()}
+                    className="h-2 rounded-full transition-all bg-slate-300 hover:bg-slate-400"
+                    style={{ width: '24px' }}
+                    aria-label={`Go to image ${idx + 1}`}
+                  />
                 ))}
               </div>
             </div>
