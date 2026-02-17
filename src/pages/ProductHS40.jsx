@@ -202,12 +202,12 @@ export default function ProductHS40() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Popular Applications</h3>
                 <ul className="space-y-2">
                   {[
-                    'Large homes',
-                    'Residential wells',
-                    'Restaurant kitchens',
-                    'Water features',
-                    'Residential and commercial pools and spas',
-                    'Residential and commercial water heaters'
+                    'Large homes.',
+                    'Residential wells.',
+                    'Restaurant kitchens.',
+                    'Water features.',
+                    'Residential and commercial pools and spas.',
+                    'Residential and commercial water heaters.'
                   ].map((app) => (
                     <li key={app} className="flex items-center gap-2 text-slate-700">
                       <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
