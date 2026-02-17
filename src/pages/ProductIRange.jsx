@@ -268,6 +268,9 @@ export default function ProductIRange() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">Download Resources</h3>
                 <div className="space-y-3">
                   {[
+                    '<i>i</i> Range Specification and Installation',
+                    '<i>i</i> Range Custom Specification',
+                    '<i>i</i> Range Multi-head Specification',
                     '<i>Hydro</i>FLOW General Brochure',
                     '<i>Hydro</i>FLOW Commercial Brochure',
                     '<i>Hydro</i>FLOW Cooling Tower Brochure',
@@ -276,10 +279,7 @@ export default function ProductIRange() {
                     '<i>Hydro</i>FLOW Wastewater Brochure',
                     '<i>Hydro</i>FLOW Steam Boiler Protection',
                     '<i>Hydro</i>FLOW Swimming Pool Brochure',
-                    '<i>Hydro</i>FLOW Mining Industry Brochure',
-                    '<i>i</i> Range Specification and Installation',
-                    '<i>i</i> Range Custom Specification',
-                    '<i>i</i> Range Multi-head Specification'
+                    '<i>Hydro</i>FLOW Mining Industry Brochure'
                   ].map((doc) => (
                     <Button 
                       key={doc} 
