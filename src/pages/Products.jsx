@@ -278,7 +278,7 @@ export default function Products() {
 
           <div className="flex justify-center">
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            {products.filter(p => p.category === 'residential').map((product, index) => (
+            {products.filter(p => p.category === 'residential' && !p.isBundleCard).map((product, index) => (
               <motion.div
                 key={product.id}
                 initial={{ opacity: 0, y: 30 }}
