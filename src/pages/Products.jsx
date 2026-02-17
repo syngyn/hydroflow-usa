@@ -357,7 +357,7 @@ export default function Products() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="relative rounded-2xl overflow-hidden bg-white shadow-lg w-full flex flex-col items-center justify-center gap-4 p-8"
+              className="relative rounded-2xl overflow-hidden bg-white shadow-lg w-full flex flex-col items-center justify-center gap-3 p-5"
             >
               <div className="h-96 w-96 flex-shrink-0">
                 <img 
