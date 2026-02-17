@@ -56,6 +56,7 @@ export default function Navbar() {
         { name: 'Pearl', href: 'ProductPearl' },
         { name: 'Pearl Plus', href: 'ProductPearlPlus' },
         { name: 'hs40', href: 'ProductHS40' },
+        { name: 'Bundle & Save', href: 'BundleDeal' },
         { name: 'i Range', href: 'ProductIRange' },
         { name: 'HM Range', href: 'ProductHMRange' },
       ]
