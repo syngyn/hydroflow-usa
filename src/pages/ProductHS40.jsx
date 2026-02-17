@@ -164,10 +164,12 @@ export default function ProductHS40() {
                   Add to Cart
                   <Package className="w-5 h-5 ml-2" />
                 </Button>
-                <Button variant="outline" className="w-full rounded-full py-6 text-lg">
-                  Buy on Amazon
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
+                <a href="https://www.amazon.com/HydroFLOW-Electronic-Softener-Conditioner-Commercial/dp/B01FZPC7JG?ref_=ast_sto_dp" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="w-full rounded-full py-6 text-lg">
+                    Buy on Amazon
+                    <ArrowRight className="w-5 h-5 ml-2" />
+                  </Button>
+                </a>
               </div>
 
               <div className="grid grid-cols-2 gap-4 mb-8">
