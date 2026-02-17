@@ -359,7 +359,7 @@ export default function Products() {
               viewport={{ once: true }}
               className="relative rounded-2xl overflow-hidden bg-white shadow-lg w-full flex flex-col items-center justify-center gap-8 p-8"
             >
-              <div className="h-72 w-72 flex-shrink-0">
+              <div className="h-96 w-96 flex-shrink-0">
                 <img 
                   src="https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg"
                   alt="Pearl Plus & Pearl Bundle"
