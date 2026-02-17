@@ -348,10 +348,62 @@ export default function Products() {
             ))}
           </div>
         </div>
-      </section>
+        </section>
 
-      {/* Filter Cartridges */}
-      <section className="py-16 bg-white">
+        {/* Bundle Deal */}
+        <section className="py-16 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-slate-900 mb-4 leading-tight">
+              Bundle & Save Over 5%
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Covers up to 4,000 sq ft
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="relative group rounded-3xl overflow-hidden bg-white shadow-xl max-w-3xl mx-auto"
+          >
+            <div className="relative h-80 flex items-center justify-center p-8 bg-gradient-to-br from-slate-100 to-slate-50">
+              <img 
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png"
+                alt="Pearl Plus & Pearl Bundle"
+                className="h-full w-auto object-contain filter drop-shadow-lg"
+              />
+            </div>
+
+            <div className="p-8 text-center">
+              <h3 className="text-2xl font-black text-slate-900 mb-3">
+                Pearl Plus + Pearl Bundle
+              </h3>
+              <p className="text-slate-600 mb-6 text-base">
+                Ideal for larger homes, properties with multiple plumbing systems, homeowners with RVs, and more.
+              </p>
+
+              <Link to={createPageUrl('BundleDeal')}>
+                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                  <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-4 text-base font-semibold">
+                    Select Bundle
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </motion.div>
+              </Link>
+            </div>
+          </motion.div>
+        </div>
+        </section>
+
+        {/* Filter Cartridges */}
+        <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
