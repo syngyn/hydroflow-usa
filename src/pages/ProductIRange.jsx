@@ -309,6 +309,8 @@ export default function ProductIRange() {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/157ee00e6_HydroFLOW_Leaflet_Steam_Boiler_Protection.pdf', '_blank');
                         } else if (doc === '<i>Hydro</i>FLOW Swimming Pool Brochure') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7b6d6ee90_Hydropath_Technology-HydroFLOW_Swimming_Pools.pdf', '_blank');
+                        } else if (doc === '<i>Hydro</i>FLOW Steam Boiler Brochure') {
+                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8b381d42e_Hydropath_Technology-HydroFLOW_Steam_Boiler_Brochure.pdf', '_blank');
                         } else if (doc === '<i>Hydro</i>FLOW Mining Industry Brochure') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6d1d02bce_Hydropath_Technology-HydroFLOW_Mining_Industry_Brochure.pdf', '_blank');
                         }
