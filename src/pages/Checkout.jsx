@@ -360,7 +360,7 @@ export default function Checkout() {
                         {item.name} × {item.quantity}
                       </span>
                       <span className="font-medium">
-                        {item.price ? `$${(item.price * item.quantity).toFixed(2)}` : 'Quote'}
+                        {item.price ? `$${(item.price * item.quantity).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : 'Quote'}
                       </span>
                     </div>
                   ))}
@@ -369,7 +369,7 @@ export default function Checkout() {
                 <div className="border-t pt-4 space-y-3">
                   <div className="flex justify-between text-slate-600">
                     <span>Subtotal</span>
-                    <span>${subtotal.toFixed(2)}</span>
+                    <span>${subtotal.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                   </div>
                   {appliedCoupon && (
                     <div className="flex justify-between text-green-600">
@@ -382,7 +382,7 @@ export default function Checkout() {
                           Remove
                         </button>
                       </span>
-                      <span>-${discount.toFixed(2)}</span>
+                      <span>-${discount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                     </div>
                   )}
                   <div className="flex justify-between text-slate-600">
@@ -391,12 +391,12 @@ export default function Checkout() {
                   </div>
                   <div className="flex justify-between text-slate-600">
                     <span>Tax (est.)</span>
-                    <span>${tax.toFixed(2)}</span>
+                    <span>${tax.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                   </div>
                   <div className="border-t pt-3">
                     <div className="flex justify-between text-xl font-bold text-slate-900">
                       <span>Total</span>
-                      <span>${total.toFixed(2)}</span>
+                      <span>${total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                     </div>
                   </div>
                 </div>

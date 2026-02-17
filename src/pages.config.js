@@ -87,8 +87,10 @@ import ProductFilterHousing10 from './pages/ProductFilterHousing10';
 import ProductFilterHousing20 from './pages/ProductFilterHousing20';
 import ProductForceField10 from './pages/ProductForceField10';
 import ProductHMRange from './pages/ProductHMRange';
+import ProductHS40 from './pages/ProductHS40';
 import ProductIRange from './pages/ProductIRange';
 import ProductPearl from './pages/ProductPearl';
+import ProductPearlPlus from './pages/ProductPearlPlus';
 import ProductQuiz from './pages/ProductQuiz';
 import ProductSediment20 from './pages/ProductSediment20';
 import ProductSelectionTool from './pages/ProductSelectionTool';
@@ -107,8 +109,6 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import ProductPearlPlus from './pages/ProductPearlPlus';
-import ProductHS40 from './pages/ProductHS40';
 import __Layout from './Layout.jsx';
 
 
@@ -153,8 +153,10 @@ export const PAGES = {
     "ProductFilterHousing20": ProductFilterHousing20,
     "ProductForceField10": ProductForceField10,
     "ProductHMRange": ProductHMRange,
+    "ProductHS40": ProductHS40,
     "ProductIRange": ProductIRange,
     "ProductPearl": ProductPearl,
+    "ProductPearlPlus": ProductPearlPlus,
     "ProductQuiz": ProductQuiz,
     "ProductSediment20": ProductSediment20,
     "ProductSelectionTool": ProductSelectionTool,
@@ -173,8 +175,6 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "ProductPearlPlus": ProductPearlPlus,
-    "ProductHS40": ProductHS40,
 }
 
 export const pagesConfig = {
