@@ -117,15 +117,17 @@ export default function BundleDeal() {
                 </button>
               </motion.div>
               
-              <div className="flex gap-2 justify-center">
-                {images.map((_, idx) => (
+              <div className="grid grid-cols-6 gap-2 mt-4">
+                {images.map((img, idx) => (
                   <button
                     key={idx}
-                    onClick={() => emblaApi && emblaApi.scrollSnapList()[idx] && emblaApi.scrollToSnapList()[idx]()}
-                    className="h-2 rounded-full transition-all bg-slate-300 hover:bg-slate-400"
-                    style={{ width: '24px' }}
-                    aria-label={`Go to image ${idx + 1}`}
-                  />
+                    onClick={() => emblaApi && emblaApi.scrollToSnapList()[idx]()}
+                    className={`w-full aspect-square rounded-lg overflow-hidden border-2 transition-all ${
+                      idx === 0 ? 'border-cyan-500' : 'border-slate-200'
+                    }`}
+                  >
+                    <img src={img} alt={`View ${idx + 1}`} className="w-full h-full object-cover" />
+                  </button>
                 ))}
               </div>
             </div>
