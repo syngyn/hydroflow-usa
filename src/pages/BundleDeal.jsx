@@ -74,51 +74,47 @@ export default function BundleDeal() {
               <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="relative bg-slate-50 rounded-3xl p-8 mb-4 overflow-hidden"
+                className="relative bg-slate-50 rounded-3xl p-8 mb-4 group"
               >
-                <div className="overflow-hidden rounded-lg" ref={emblaRef}>
-                  <div className="flex">
-                    {images.map((img, idx) => (
-                      <div key={idx} className="min-w-0 flex-[0_0_100%]">
-                        <img 
-                          src={img} 
-                          alt={`HydroFLOW Pearl Plus Bundle - Image ${idx + 1}`}
-                          className="w-full h-96 object-contain"
-                        />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                
+                <img 
+                  src={images[currentSlide]} 
+                  alt="HydroFLOW Pearl Plus Bundle"
+                  className="w-full h-96 object-contain"
+                />
+
+                {/* Navigation Buttons */}
                 <button
-                  onClick={scrollPrev}
-                  disabled={!canScrollPrev}
-                  className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white disabled:opacity-30 p-2 rounded-full transition-all"
+                  onClick={prevSlide}
+                  className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity"
                   aria-label="Previous image"
                 >
                   <ChevronLeft className="w-6 h-6 text-slate-900" />
                 </button>
-                
                 <button
-                  onClick={scrollNext}
-                  disabled={!canScrollNext}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-white/80 hover:bg-white disabled:opacity-30 p-2 rounded-full transition-all"
+                  onClick={nextSlide}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity"
                   aria-label="Next image"
                 >
                   <ChevronRight className="w-6 h-6 text-slate-900" />
                 </button>
+
+                {/* Slide Counter */}
+                <div className="absolute bottom-4 right-4 bg-slate-900/70 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  {currentSlide + 1} / {images.length}
+                </div>
               </motion.div>
-              
-              <div className="grid grid-cols-6 gap-2 mt-4">
+
+              {/* Thumbnail Indicators */}
+              <div className="flex gap-2 overflow-x-auto">
                 {images.map((img, idx) => (
                   <button
                     key={idx}
-                    onClick={() => emblaApi && emblaApi.scrollTo(idx)}
-                    className={`w-full aspect-square rounded-lg overflow-hidden border-2 transition-all ${
-                      idx === 0 ? 'border-cyan-500' : 'border-slate-200'
+                    onClick={() => setCurrentSlide(idx)}
+                    className={`h-16 w-16 flex-shrink-0 rounded-lg overflow-hidden border-2 transition-all ${
+                      currentSlide === idx ? 'border-cyan-500' : 'border-slate-200'
                     }`}
                   >
-                    <img src={img} alt={`View ${idx + 1}`} className="w-full h-full object-cover" />
+                    <img src={img} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
                   </button>
                 ))}
               </div>
