@@ -259,7 +259,7 @@ export default function ProductHS40() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Additional Benefits</h3>
                 <ul className="space-y-2 mb-4">
                   {[
-                    'Non-intrusive and easy to install – no plumbing modifications required.',
+                    'Non-intrusive and easy to install - no plumbing modifications required.',
                     'Propagates the Hydropath signal along with the entire water system.',
                     'Provides 24-hour protection.',
                     'Does not interfere with other electrical systems.'
