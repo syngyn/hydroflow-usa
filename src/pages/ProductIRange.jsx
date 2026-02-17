@@ -306,6 +306,8 @@ export default function ProductIRange() {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bc3a8662b_Hydropath_Technology-HydroFLOW_Wastewater_Brochure.pdf', '_blank');
                         } else if (doc === '<i>Hydro</i>FLOW Steam Boiler Protection Brochure') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/157ee00e6_HydroFLOW_Leaflet_Steam_Boiler_Protection.pdf', '_blank');
+                        } else if (doc === '<i>Hydro</i>FLOW Swimming Pool Brochure') {
+                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7b6d6ee90_Hydropath_Technology-HydroFLOW_Swimming_Pools.pdf', '_blank');
                         }
                       }}
                     >
