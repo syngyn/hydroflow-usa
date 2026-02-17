@@ -202,12 +202,12 @@ export default function ProductPearl() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Main Benefits</h3>
                 <ul className="space-y-2">
                   {[
-                    'Dissolves and removes existing scale',
-                    'Prevents new scale accumulation',
-                    'Reduces energy consumption',
-                    'Increases efficiency of water heating equipment',
-                    'Replaces salt-based softeners',
-                    'Average one year payback period'
+                    'Dissolves and removes existing scale.',
+                    'Prevents new scale accumulation.',
+                    'Reduces energy consumption.',
+                    'Increases efficiency of water heating equipment.',
+                    'Replaces salt-based softeners.',
+                    'Average one year payback period.'
                   ].map((benefit) => (
                     <li key={benefit} className="flex items-center gap-2 text-slate-700">
                       <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
