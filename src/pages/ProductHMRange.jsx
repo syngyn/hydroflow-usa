@@ -290,7 +290,7 @@ export default function ProductHMRange() {
                   {[
                     'Hydropath Marine Brochure',
                     'Hydropath hm Range Specification',
-                    'HydroFLOW hm Range Installation Guide'
+                    'Hydropath hm Range Installation Guide'
                   ].map((doc) => (
                     <Button 
                       key={doc} 
