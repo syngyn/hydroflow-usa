@@ -366,7 +366,47 @@ export default function Products() {
               </motion.div>
             ))}
             </div>
+          </div>
+
+          {/* Bundle Deal Card */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-16 max-w-sm mx-auto"
+          >
+            <div className="relative rounded-3xl overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-300">
+              <div className="h-64 flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 p-8">
+                <img 
+                  src="https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg"
+                  alt="Pearl Plus & Pearl Bundle"
+                  className="h-full w-auto object-contain"
+                />
+              </div>
+
+              <div className="p-8 text-center">
+                <h3 className="text-2xl font-black text-slate-900 mb-2">
+                  Bundle & Save Over 5%
+                </h3>
+                <p className="text-slate-600 mb-6 text-sm">
+                  Covers up to 4,000 sq ft. Ideal for larger homes, properties with multiple plumbing systems, homeowners with RVs, and more.
+                </p>
+
+                <div className="mb-6">
+                  <p className="text-3xl font-black text-slate-900">
+                    $695
+                  </p>
+                </div>
+
+                <Link to={createPageUrl('BundleDeal')}>
+                  <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-xl py-4 text-base font-black uppercase tracking-wider">
+                    Select Bundle
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </Button>
+                </Link>
+              </div>
             </div>
+          </motion.div>
         </div>
         </section>
 
