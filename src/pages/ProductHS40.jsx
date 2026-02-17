@@ -221,12 +221,12 @@ export default function ProductHS40() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Main Benefits</h3>
                 <ul className="space-y-2">
                   {[
-                    'Dissolves and removes existing scale',
-                    'Prevents new scale accumulation',
-                    'Deactivates bacteria and algae',
-                    'Prevents and removes biofoul',
-                    'Boosts filtration efficiency',
-                    'Significantly reduces corrosion'
+                    'Dissolves and removes existing scale.',
+                    'Prevents new scale accumulation.',
+                    'Deactivates bacteria and algae.',
+                    'Prevents and removes biofoul.',
+                    'Boosts filtration efficiency.',
+                    'Significantly reduces corrosion.'
                   ].map((benefit) => (
                     <li key={benefit} className="flex items-center gap-2 text-slate-700">
                       <Check className="w-5 h-5 text-cyan-600 flex-shrink-0" />
