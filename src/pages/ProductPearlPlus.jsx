@@ -293,10 +293,12 @@ export default function ProductPearlPlus() {
                       Download Pearl Plus User Guide (PDF)
                     </Button>
                   </a>
-                  <Button variant="outline" className="w-full justify-start">
-                    <Package className="w-4 h-4 mr-2" />
-                    Download Residential Brochure (PDF)
-                  </Button>
+                  <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6405df304_HydroFLOW-Residential-Brochure.pdf" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="w-full justify-start">
+                      <Package className="w-4 h-4 mr-2" />
+                      Download Residential Brochure (PDF)
+                    </Button>
+                  </a>
                 </div>
               </div>
             </TabsContent>
