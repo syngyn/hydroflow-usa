@@ -357,9 +357,9 @@ export default function Products() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="relative rounded-2xl overflow-hidden bg-white shadow-lg w-full flex flex-col md:flex-row items-center justify-center gap-6 p-8"
+              className="relative rounded-2xl overflow-hidden bg-white shadow-lg w-full flex flex-col items-center justify-center gap-8 p-8"
             >
-              <div className="h-56 w-56 flex-shrink-0">
+              <div className="h-72 w-72 flex-shrink-0">
                 <img 
                   src="https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg"
                   alt="Pearl Plus & Pearl Bundle"
@@ -367,7 +367,7 @@ export default function Products() {
                 />
               </div>
 
-              <div className="text-center md:text-left md:flex-grow">
+              <div className="text-center max-w-md">
                 <h3 className="text-xl font-black text-slate-900 mb-2">
                   Bundle & Save Over 5%
                 </h3>
