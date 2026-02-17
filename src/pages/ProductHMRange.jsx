@@ -292,7 +292,16 @@ export default function ProductHMRange() {
                     'HydroFLOW hm Range Specifications',
                     'HydroFLOW hm Range Installation Guide'
                   ].map((doc) => (
-                    <Button key={doc} variant="outline" className="w-full justify-start">
+                    <Button 
+                      key={doc} 
+                      variant="outline" 
+                      className="w-full justify-start"
+                      onClick={() => {
+                        if (doc === 'Hydropath Marine Brochure') {
+                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9306506ea_Marine-Brochure.pdf', '_blank');
+                        }
+                      }}
+                    >
                       <Package className="w-4 h-4 mr-2" />
                       {doc} (PDF)
                     </Button>
