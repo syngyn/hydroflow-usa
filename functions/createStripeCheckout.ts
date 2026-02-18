@@ -6,10 +6,13 @@ const stripe = new Stripe(Deno.env.get('STRIPE_SECRET_KEY'));
 Deno.serve(async (req) => {
   try {
     const base44 = createClientFromRequest(req);
-    const user = await base44.auth.me();
-
-    if (!user) {
-      return Response.json({ error: 'Unauthorized' }, { status: 401 });
+    
+    // Allow checkout without authentication
+    let user = null;
+    try {
+      user = await base44.auth.me();
+    } catch (error) {
+      // User not authenticated, continue anyway
     }
 
     const { cart, state, customerEmail, customerName } = await req.json();
@@ -67,7 +70,7 @@ Deno.serve(async (req) => {
         base44_app_id: Deno.env.get('BASE44_APP_ID'),
         customer_name: customerName,
         state: state,
-        user_id: user.id,
+        user_id: user?.id || 'guest',
       },
       shipping_address_collection: {
         allowed_countries: ['US'],
