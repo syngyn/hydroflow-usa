@@ -1,119 +1,142 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { useCart } from '@/components/cart/CartContext';
 import { motion } from 'framer-motion';
-import { CheckCircle2, Lock, Package } from 'lucide-react';
+import { CheckCircle2, Lock, Package, AlertCircle } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Checkbox } from "@/components/ui/checkbox";
+import { base44 } from '@/api/base44Client';
+import { toast } from 'sonner';
+
+const US_STATES = [
+  { code: 'AL', name: 'Alabama' },
+  { code: 'AK', name: 'Alaska' },
+  { code: 'AZ', name: 'Arizona' },
+  { code: 'AR', name: 'Arkansas' },
+  { code: 'CA', name: 'California' },
+  { code: 'CO', name: 'Colorado' },
+  { code: 'CT', name: 'Connecticut' },
+  { code: 'DE', name: 'Delaware' },
+  { code: 'FL', name: 'Florida' },
+  { code: 'GA', name: 'Georgia' },
+  { code: 'HI', name: 'Hawaii' },
+  { code: 'ID', name: 'Idaho' },
+  { code: 'IL', name: 'Illinois' },
+  { code: 'IN', name: 'Indiana' },
+  { code: 'IA', name: 'Iowa' },
+  { code: 'KS', name: 'Kansas' },
+  { code: 'KY', name: 'Kentucky' },
+  { code: 'LA', name: 'Louisiana' },
+  { code: 'ME', name: 'Maine' },
+  { code: 'MD', name: 'Maryland' },
+  { code: 'MA', name: 'Massachusetts' },
+  { code: 'MI', name: 'Michigan' },
+  { code: 'MN', name: 'Minnesota' },
+  { code: 'MS', name: 'Mississippi' },
+  { code: 'MO', name: 'Missouri' },
+  { code: 'MT', name: 'Montana' },
+  { code: 'NE', name: 'Nebraska' },
+  { code: 'NV', name: 'Nevada' },
+  { code: 'NH', name: 'New Hampshire' },
+  { code: 'NJ', name: 'New Jersey' },
+  { code: 'NM', name: 'New Mexico' },
+  { code: 'NY', name: 'New York' },
+  { code: 'NC', name: 'North Carolina' },
+  { code: 'ND', name: 'North Dakota' },
+  { code: 'OH', name: 'Ohio' },
+  { code: 'OK', name: 'Oklahoma' },
+  { code: 'OR', name: 'Oregon' },
+  { code: 'PA', name: 'Pennsylvania' },
+  { code: 'RI', name: 'Rhode Island' },
+  { code: 'SC', name: 'South Carolina' },
+  { code: 'SD', name: 'South Dakota' },
+  { code: 'TN', name: 'Tennessee' },
+  { code: 'TX', name: 'Texas' },
+  { code: 'UT', name: 'Utah' },
+  { code: 'VT', name: 'Vermont' },
+  { code: 'VA', name: 'Virginia' },
+  { code: 'WA', name: 'Washington' },
+  { code: 'WV', name: 'West Virginia' },
+  { code: 'WI', name: 'Wisconsin' },
+  { code: 'WY', name: 'Wyoming' }
+];
 
 export default function Checkout() {
-  const { cart, getCartTotal, clearCart } = useCart();
+  const { cart, getCartTotal } = useCart();
   const navigate = useNavigate();
+  const location = useLocation();
   const [isProcessing, setIsProcessing] = useState(false);
-  const [orderComplete, setOrderComplete] = useState(false);
-  const [couponCode, setCouponCode] = useState('');
-  const [appliedCoupon, setAppliedCoupon] = useState(null);
-  const [differentShipping, setDifferentShipping] = useState(false);
-
-  // Sample coupons - you can replace with API call
-  const coupons = {
-    'SAVE10': { discount: 0.10, type: 'percentage' },
-    'SAVE20': { discount: 0.20, type: 'percentage' },
-    'HYDROFLOW50': { discount: 50, type: 'fixed' }
-  };
+  const [selectedState, setSelectedState] = useState('');
+  const [isInIframe, setIsInIframe] = useState(false);
 
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
     email: '',
-    phone: '',
-    address: '',
-    city: '',
-    state: '',
-    zipCode: '',
-    country: 'US',
-    shippingAddress: '',
-    shippingCity: '',
-    shippingState: '',
-    shippingZipCode: '',
-    shippingCountry: 'US',
-    notes: ''
   });
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsProcessing(true);
+  useEffect(() => {
+    // Check if running in iframe
+    setIsInIframe(window.self !== window.top);
+  }, []);
 
-    // Simulate processing
-    await new Promise(resolve => setTimeout(resolve, 2000));
-
-    setOrderComplete(true);
-    setIsProcessing(false);
-    
-    // Clear cart after successful order
-    setTimeout(() => {
-      clearCart();
-      navigate(createPageUrl('Home'));
-    }, 3000);
+  const calculateTax = () => {
+    if (selectedState === 'WA') {
+      return getCartTotal() * 0.105;
+    }
+    return 0;
   };
 
-  if (cart.length === 0 && !orderComplete) {
-    navigate(createPageUrl('Cart'));
-    return null;
-  }
+  const calculateTotal = () => {
+    return getCartTotal() + calculateTax();
+  };
 
-  if (orderComplete) {
-    return (
-      <div className="min-h-screen bg-slate-50 pt-32 pb-16">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            className="text-center"
-          >
-            <div className="w-24 h-24 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-6">
-              <CheckCircle2 className="w-12 h-12 text-green-600" />
-            </div>
-            <h1 className="text-4xl font-bold text-slate-900 mb-4">Order Submitted!</h1>
-            <p className="text-xl text-slate-600 mb-8">
-              Thank you for your order. We'll contact you shortly to finalize payment and shipping details.
-            </p>
-            <p className="text-slate-500">Redirecting to homepage...</p>
-          </motion.div>
-        </div>
-      </div>
-    );
-  }
+  const handleCheckout = async () => {
+    if (!selectedState) {
+      toast.error('Please select your state');
+      return;
+    }
 
-  const handleApplyCoupon = () => {
-    const coupon = coupons[couponCode.toUpperCase()];
-    if (coupon) {
-      setAppliedCoupon({ code: couponCode.toUpperCase(), ...coupon });
-      setCouponCode('');
-    } else {
-      alert('Invalid coupon code');
+    if (!formData.firstName || !formData.lastName || !formData.email) {
+      toast.error('Please fill in all required fields');
+      return;
+    }
+
+    if (isInIframe) {
+      toast.error('Checkout only works from published app. Please open in a new tab.');
+      return;
+    }
+
+    setIsProcessing(true);
+
+    try {
+      const response = await base44.functions.invoke('createStripeCheckout', {
+        cart,
+        state: selectedState,
+        customerEmail: formData.email,
+        customerName: `${formData.firstName} ${formData.lastName}`,
+      });
+
+      if (response.data.url) {
+        window.location.href = response.data.url;
+      } else {
+        throw new Error('No checkout URL received');
+      }
+    } catch (error) {
+      console.error('Checkout error:', error);
+      toast.error('Failed to create checkout session. Please try again.');
+      setIsProcessing(false);
     }
   };
 
-  const handleRemoveCoupon = () => {
-    setAppliedCoupon(null);
-  };
-
-  const subtotal = getCartTotal();
-  const discount = appliedCoupon 
-    ? appliedCoupon.type === 'percentage' 
-      ? subtotal * appliedCoupon.discount 
-      : appliedCoupon.discount
-    : 0;
-  const subtotalAfterDiscount = subtotal - discount;
-  const shipping = 0; // Will be calculated
-  const tax = subtotalAfterDiscount * 0.08; // 8% estimate
-  const total = subtotalAfterDiscount + shipping + tax;
+  if (cart.length === 0) {
+    navigate(createPageUrl('Cart'));
+    return null;
+  }
 
   return (
     <div className="min-h-screen bg-slate-50 pt-32 pb-16">
@@ -127,7 +150,21 @@ export default function Checkout() {
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Checkout Form */}
             <div className="lg:col-span-2">
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <div className="space-y-6">
+                {/* iframe Warning */}
+                {isInIframe && (
+                  <Card className="p-4 bg-amber-50 border-amber-200">
+                    <div className="flex items-start gap-3">
+                      <AlertCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="text-sm font-medium text-amber-900">
+                          Checkout only works from published app. Please open in a new tab to complete your purchase.
+                        </p>
+                      </div>
+                    </div>
+                  </Card>
+                )}
+
                 {/* Contact Information */}
                 <Card className="p-6">
                   <h2 className="text-2xl font-bold text-slate-900 mb-6">Contact Information</h2>
@@ -152,7 +189,7 @@ export default function Checkout() {
                         className="rounded-xl mt-2"
                       />
                     </div>
-                    <div>
+                    <div className="md:col-span-2">
                       <Label htmlFor="email">Email *</Label>
                       <Input
                         id="email"
@@ -163,166 +200,32 @@ export default function Checkout() {
                         className="rounded-xl mt-2"
                       />
                     </div>
-                    <div>
-                      <Label htmlFor="phone">Phone</Label>
-                      <Input
-                        id="phone"
-                        type="tel"
-                        value={formData.phone}
-                        onChange={(e) => setFormData({...formData, phone: e.target.value})}
-                        className="rounded-xl mt-2"
-                      />
-                    </div>
                   </div>
                 </Card>
 
-                {/* Billing Address */}
+                {/* State Selection */}
                 <Card className="p-6">
-                  <h2 className="text-2xl font-bold text-slate-900 mb-6">Billing Address</h2>
-                  <div className="space-y-6">
-                    <div>
-                      <Label htmlFor="address">Address *</Label>
-                      <Input
-                        id="address"
-                        required
-                        value={formData.address}
-                        onChange={(e) => setFormData({...formData, address: e.target.value})}
-                        className="rounded-xl mt-2"
-                      />
-                    </div>
-                    <div className="grid md:grid-cols-3 gap-6">
-                      <div>
-                        <Label htmlFor="city">City *</Label>
-                        <Input
-                          id="city"
-                          required
-                          value={formData.city}
-                          onChange={(e) => setFormData({...formData, city: e.target.value})}
-                          className="rounded-xl mt-2"
-                        />
-                      </div>
-                      <div>
-                        <Label htmlFor="state">State *</Label>
-                        <Input
-                          id="state"
-                          required
-                          value={formData.state}
-                          onChange={(e) => setFormData({...formData, state: e.target.value})}
-                          className="rounded-xl mt-2"
-                          placeholder="CA"
-                        />
-                      </div>
-                      <div>
-                        <Label htmlFor="zipCode">Zip Code *</Label>
-                        <Input
-                          id="zipCode"
-                          required
-                          value={formData.zipCode}
-                          onChange={(e) => setFormData({...formData, zipCode: e.target.value})}
-                          className="rounded-xl mt-2"
-                        />
-                      </div>
-                    </div>
-                    <div>
-                      <Label htmlFor="country">Country *</Label>
-                      <Select value={formData.country} onValueChange={(value) => setFormData({...formData, country: value})}>
-                        <SelectTrigger className="rounded-xl mt-2">
-                          <SelectValue />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="US">United States</SelectItem>
-                          <SelectItem value="CA">Canada</SelectItem>
-                          <SelectItem value="MX">Mexico</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-                    <div className="flex items-center gap-2 pt-4">
-                      <Checkbox 
-                        id="differentShipping"
-                        checked={differentShipping}
-                        onCheckedChange={setDifferentShipping}
-                      />
-                      <Label htmlFor="differentShipping" className="cursor-pointer">
-                        Ship to a different address
-                      </Label>
-                    </div>
-                  </div>
-                </Card>
-
-                {/* Shipping Address */}
-                {differentShipping && (
-                  <Card className="p-6">
-                    <h2 className="text-2xl font-bold text-slate-900 mb-6">Shipping Address</h2>
-                    <div className="space-y-6">
-                      <div>
-                        <Label htmlFor="shippingAddress">Address *</Label>
-                        <Input
-                          id="shippingAddress"
-                          required={differentShipping}
-                          value={formData.shippingAddress}
-                          onChange={(e) => setFormData({...formData, shippingAddress: e.target.value})}
-                          className="rounded-xl mt-2"
-                        />
-                      </div>
-                      <div className="grid md:grid-cols-3 gap-6">
-                        <div>
-                          <Label htmlFor="shippingCity">City *</Label>
-                          <Input
-                            id="shippingCity"
-                            required={differentShipping}
-                            value={formData.shippingCity}
-                            onChange={(e) => setFormData({...formData, shippingCity: e.target.value})}
-                            className="rounded-xl mt-2"
-                          />
-                        </div>
-                        <div>
-                          <Label htmlFor="shippingState">State *</Label>
-                          <Input
-                            id="shippingState"
-                            required={differentShipping}
-                            value={formData.shippingState}
-                            onChange={(e) => setFormData({...formData, shippingState: e.target.value})}
-                            className="rounded-xl mt-2"
-                            placeholder="CA"
-                          />
-                        </div>
-                        <div>
-                          <Label htmlFor="shippingZipCode">Zip Code *</Label>
-                          <Input
-                            id="shippingZipCode"
-                            required={differentShipping}
-                            value={formData.shippingZipCode}
-                            onChange={(e) => setFormData({...formData, shippingZipCode: e.target.value})}
-                            className="rounded-xl mt-2"
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <Label htmlFor="shippingCountry">Country *</Label>
-                        <Select value={formData.shippingCountry} onValueChange={(value) => setFormData({...formData, shippingCountry: value})}>
-                          <SelectTrigger className="rounded-xl mt-2">
-                            <SelectValue />
-                          </SelectTrigger>
-                          <SelectContent>
-                            <SelectItem value="US">United States</SelectItem>
-                            <SelectItem value="CA">Canada</SelectItem>
-                            <SelectItem value="MX">Mexico</SelectItem>
-                          </SelectContent>
-                        </Select>
-                      </div>
-                    </div>
-                  </Card>
-                )}
-
-                {/* Order Notes */}
-                <Card className="p-6">
-                  <h2 className="text-2xl font-bold text-slate-900 mb-6">Order Notes (Optional)</h2>
-                  <textarea
-                    value={formData.notes}
-                    onChange={(e) => setFormData({...formData, notes: e.target.value})}
-                    placeholder="Any special instructions or notes about your order..."
-                    className="w-full rounded-xl border border-slate-200 p-3 min-h-32 focus:outline-none focus:ring-2 focus:ring-cyan-500"
-                  />
+                  <h2 className="text-2xl font-bold text-slate-900 mb-6">Select Your State</h2>
+                  <Select value={selectedState} onValueChange={setSelectedState}>
+                    <SelectTrigger className="w-full rounded-xl">
+                      <SelectValue placeholder="Choose state" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {US_STATES.map((state) => (
+                        <SelectItem key={state.code} value={state.code}>
+                          {state.name}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                  <p className="text-sm text-slate-500 mt-3">
+                    Only shipping to United States addresses
+                  </p>
+                  {selectedState === 'WA' && (
+                    <p className="text-sm text-cyan-600 mt-2 font-medium">
+                      Washington state sales tax (10.5%) will be applied
+                    </p>
+                  )}
                 </Card>
 
                 {/* Payment Notice */}
@@ -330,22 +233,22 @@ export default function Checkout() {
                   <div className="flex items-start gap-3">
                     <Lock className="w-6 h-6 text-cyan-600 flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold text-slate-900 mb-1">Payment Processing</h3>
+                      <h3 className="font-semibold text-slate-900 mb-1">Secure Payment with Stripe</h3>
                       <p className="text-sm text-slate-600">
-                        After submitting your order, our team will contact you to arrange payment and confirm shipping details.
+                        Your payment information is processed securely. Billing and shipping address will be collected on the next page.
                       </p>
                     </div>
                   </div>
                 </Card>
 
                 <Button
-                  type="submit"
-                  disabled={isProcessing}
-                  className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-full py-6 text-lg font-semibold"
+                  onClick={handleCheckout}
+                  disabled={isProcessing || !selectedState || isInIframe}
+                  className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-full py-6 text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {isProcessing ? 'Processing...' : 'Submit Order'}
+                  {isProcessing ? 'Redirecting to Payment...' : 'Continue to Payment'}
                 </Button>
-              </form>
+              </div>
             </div>
 
             {/* Order Summary */}
@@ -360,7 +263,7 @@ export default function Checkout() {
                         {item.name} × {item.quantity}
                       </span>
                       <span className="font-medium">
-                        {item.price ? `$${(item.price * item.quantity).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : 'Quote'}
+                        ${(item.price * item.quantity).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                       </span>
                     </div>
                   ))}
@@ -369,57 +272,25 @@ export default function Checkout() {
                 <div className="border-t pt-4 space-y-3">
                   <div className="flex justify-between text-slate-600">
                     <span>Subtotal</span>
-                    <span>${subtotal.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                    <span>${getCartTotal().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                   </div>
-                  {appliedCoupon && (
-                    <div className="flex justify-between text-green-600">
-                      <span className="flex items-center gap-2">
-                        Discount ({appliedCoupon.code})
-                        <button 
-                          onClick={handleRemoveCoupon}
-                          className="text-xs text-red-500 hover:text-red-700"
-                        >
-                          Remove
-                        </button>
-                      </span>
-                      <span>-${discount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
-                    </div>
-                  )}
                   <div className="flex justify-between text-slate-600">
                     <span>Shipping</span>
-                    <span>TBD</span>
+                    <span>Calculated at checkout</span>
                   </div>
                   <div className="flex justify-between text-slate-600">
-                    <span>Tax (est.)</span>
-                    <span>${tax.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                    <span>Tax</span>
+                    <span>
+                      {selectedState === 'WA' 
+                        ? `$${calculateTax().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` 
+                        : '$0.00'}
+                    </span>
                   </div>
                   <div className="border-t pt-3">
                     <div className="flex justify-between text-xl font-bold text-slate-900">
                       <span>Total</span>
-                      <span>${total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                      <span>${calculateTotal().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                     </div>
-                  </div>
-                </div>
-
-                {/* Coupon Code Input */}
-                <div className="mt-6 pt-6 border-t">
-                  <Label className="text-sm text-slate-700 mb-2 block">Have a coupon code?</Label>
-                  <div className="flex gap-2">
-                    <Input
-                      placeholder="Enter code"
-                      value={couponCode}
-                      onChange={(e) => setCouponCode(e.target.value)}
-                      onKeyPress={(e) => e.key === 'Enter' && handleApplyCoupon()}
-                      className="rounded-xl"
-                    />
-                    <Button 
-                      onClick={handleApplyCoupon}
-                      variant="outline"
-                      className="rounded-xl whitespace-nowrap"
-                      disabled={!couponCode.trim()}
-                    >
-                      Apply
-                    </Button>
                   </div>
                 </div>
               </Card>
