@@ -148,6 +148,8 @@ export default function Checkout() {
 
     try {
       const shippingState = shippingDifferent ? formData.shippingState : formData.billingState;
+
+      console.log('Calling checkout function...');
       const response = await base44.functions.invoke('createStripeCheckout', {
         cart,
         state: shippingState,
@@ -175,14 +177,18 @@ export default function Checkout() {
         },
       });
 
-      if (response.data.url) {
+      console.log('Response:', response);
+
+      if (response?.data?.url) {
         window.location.href = response.data.url;
       } else {
-        throw new Error('No checkout URL received');
+        console.error('Invalid response:', response);
+        throw new Error('No checkout URL received from server');
       }
     } catch (error) {
       console.error('Checkout error:', error);
-      toast.error('Failed to create checkout session. Please try again.');
+      const errorMessage = error?.response?.data?.error || error?.message || 'Failed to create checkout session';
+      toast.error(errorMessage);
       setIsProcessing(false);
     }
   };
