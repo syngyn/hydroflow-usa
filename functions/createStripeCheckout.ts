@@ -23,7 +23,7 @@ Deno.serve(async (req) => {
     }
     
     body = JSON.parse(text);
-    const { cart, state, customerEmail, customerName, billingAddress, shippingAddress } = body;
+    const { cart, state, customerEmail, customerName, frontendUrl, billingAddress, shippingAddress } = body;
 
     console.log('Request received:', { state, customerEmail, cartLength: cart?.length });
 

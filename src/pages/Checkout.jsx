@@ -155,6 +155,7 @@ export default function Checkout() {
         state: shippingState,
         customerEmail: formData.email,
         customerName: `${formData.firstName} ${formData.lastName}`,
+        frontendUrl: window.location.origin,
         billingAddress: {
           line1: formData.billingAddress,
           city: formData.billingCity,
