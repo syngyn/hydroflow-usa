@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
@@ -210,6 +211,10 @@ export default function Products() {
 
   return (
     <div>
+      <Helmet>
+        <title>Water Treatment Products - HydroFLOW Residential & Commercial Solutions</title>
+        <meta name="description" content="Browse HydroFLOW's complete range of eco-friendly water treatment products including Pearl Plus, HS40, I Range, and filtration systems for all applications." />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative pt-32 pb-16 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
         <div className="absolute inset-0">
