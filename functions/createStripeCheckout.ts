@@ -6,10 +6,14 @@ Deno.serve(async (req) => {
   let body;
   try {
     console.log('Parsing request body...');
-    const text = await req.text();
-    console.log('Raw body:', text);
+    
+    // Clone the request to read it twice if needed
+    const clonedReq = req.clone();
+    const text = await clonedReq.text();
+    console.log('Raw body length:', text?.length || 0);
     
     if (!text || text.trim() === '') {
+      console.error('Empty request body received');
       return Response.json({ error: 'Request body is empty' }, { status: 400 });
     }
     
