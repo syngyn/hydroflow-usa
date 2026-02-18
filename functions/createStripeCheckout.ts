@@ -3,6 +3,11 @@ import Stripe from 'npm:stripe@17.5.0';
 const stripe = new Stripe(Deno.env.get('STRIPE_TEST_SECRET_KEY'));
 
 Deno.serve(async (req) => {
+  // Only handle POST requests - GET requests should go to frontend pages
+  if (req.method !== 'POST') {
+    return new Response('Method not allowed', { status: 405 });
+  }
+
   let body;
   try {
     console.log('Parsing request body...');
