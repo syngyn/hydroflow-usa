@@ -5,16 +5,6 @@ const stripe = new Stripe(Deno.env.get('STRIPE_SECRET_KEY'));
 
 Deno.serve(async (req) => {
   try {
-    const base44 = createClientFromRequest(req);
-    
-    // Allow checkout without authentication
-    let user = null;
-    try {
-      user = await base44.auth.me();
-    } catch (error) {
-      // User not authenticated, continue anyway
-    }
-
     const { cart, state, customerEmail, customerName } = await req.json();
 
     // Validate state is a US state
@@ -59,18 +49,20 @@ Deno.serve(async (req) => {
       });
     }
 
+    // Get the origin from the request URL
+    const origin = new URL(req.url).origin;
+
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: lineItems,
       mode: 'payment',
-      success_url: `${req.headers.get('origin')}/checkout-success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${req.headers.get('origin')}/checkout`,
+      success_url: `${origin}/checkout-success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${origin}/checkout`,
       customer_email: customerEmail,
       metadata: {
         base44_app_id: Deno.env.get('BASE44_APP_ID'),
         customer_name: customerName,
         state: state,
-        user_id: user?.id || 'guest',
       },
       shipping_address_collection: {
         allowed_countries: ['US'],
