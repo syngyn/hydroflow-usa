@@ -4,7 +4,15 @@ const stripe = new Stripe(Deno.env.get('STRIPE_TEST_SECRET_KEY'));
 
 Deno.serve(async (req) => {
   try {
-    const { cart, state, customerEmail, customerName, billingAddress, shippingAddress } = await req.json();
+    console.log('Parsing request body...');
+    const body = await req.json();
+    const { cart, state, customerEmail, customerName, billingAddress, shippingAddress } = body;
+
+    console.log('Request received:', { state, customerEmail, cartLength: cart?.length });
+
+    if (!cart || cart.length === 0) {
+      return Response.json({ error: 'Cart is empty' }, { status: 400 });
+    }
 
     // Shipping rates by state code
     const SHIPPING_RATES = {
@@ -23,6 +31,7 @@ Deno.serve(async (req) => {
 
     // Validate state
     if (!state || !SHIPPING_RATES[state]) {
+      console.error('Invalid state:', state);
       return Response.json({ error: 'Invalid US state' }, { status: 400 });
     }
 
@@ -31,61 +40,48 @@ Deno.serve(async (req) => {
     const shippingCost = SHIPPING_RATES[state];
 
     // Create line items from cart
-    const lineItems = cart.map(item => {
-      const productData = {
-        name: item.name,
-        images: item.image ? [item.image] : [],
-      };
-      
-      // Only add description if it exists and is not empty
-      if (item.coverage && item.coverage.trim()) {
-        productData.description = item.coverage;
-      }
-      
-      return {
-        price_data: {
-          currency: 'usd',
-          product_data: productData,
-          unit_amount: Math.round(item.price * 100), // Convert to cents
-        },
-        quantity: item.quantity,
-      };
-    });
-
-    // Calculate subtotal for tax
-    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    const taxAmount = Math.round(subtotal * taxRate * 100); // Tax in cents
-
-    // Add shipping as a line item
-    lineItems.push({
+    const lineItems = cart.map(item => ({
       price_data: {
         currency: 'usd',
         product_data: {
-          name: 'Shipping',
+          name: item.name,
+          images: item.image ? [item.image] : [],
+          description: item.coverage || undefined,
         },
+        unit_amount: Math.round(item.price * 100),
+      },
+      quantity: item.quantity,
+    }));
+
+    // Calculate subtotal for tax
+    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    const taxAmount = Math.round(subtotal * taxRate * 100);
+
+    // Add shipping
+    lineItems.push({
+      price_data: {
+        currency: 'usd',
+        product_data: { name: 'Shipping' },
         unit_amount: Math.round(shippingCost * 100),
       },
       quantity: 1,
     });
 
-    // Add tax as a line item if applicable
+    // Add tax if applicable
     if (taxAmount > 0) {
       lineItems.push({
         price_data: {
           currency: 'usd',
-          product_data: {
-            name: 'Washington State Sales Tax (10.5%)',
-          },
+          product_data: { name: 'Washington State Sales Tax (10.5%)' },
           unit_amount: taxAmount,
         },
         quantity: 1,
       });
     }
 
-    // Get the origin from the request URL
     const origin = new URL(req.url).origin;
 
-    // Create the checkout session
+    console.log('Creating Stripe session...');
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: lineItems,
@@ -101,9 +97,10 @@ Deno.serve(async (req) => {
       },
     });
 
+    console.log('Session created successfully:', session.id);
     return Response.json({ url: session.url });
   } catch (error) {
     console.error('Stripe checkout error:', error);
-    return Response.json({ error: error.message }, { status: 500 });
+    return Response.json({ error: error.message || 'Checkout failed' }, { status: 500 });
   }
 });
