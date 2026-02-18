@@ -8,69 +8,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card } from "@/components/ui/card";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { base44 } from '@/api/base44Client';
 import { toast } from 'sonner';
-
-const US_STATES = [
-  { code: 'AL', name: 'Alabama' },
-  { code: 'AK', name: 'Alaska' },
-  { code: 'AZ', name: 'Arizona' },
-  { code: 'AR', name: 'Arkansas' },
-  { code: 'CA', name: 'California' },
-  { code: 'CO', name: 'Colorado' },
-  { code: 'CT', name: 'Connecticut' },
-  { code: 'DE', name: 'Delaware' },
-  { code: 'FL', name: 'Florida' },
-  { code: 'GA', name: 'Georgia' },
-  { code: 'HI', name: 'Hawaii' },
-  { code: 'ID', name: 'Idaho' },
-  { code: 'IL', name: 'Illinois' },
-  { code: 'IN', name: 'Indiana' },
-  { code: 'IA', name: 'Iowa' },
-  { code: 'KS', name: 'Kansas' },
-  { code: 'KY', name: 'Kentucky' },
-  { code: 'LA', name: 'Louisiana' },
-  { code: 'ME', name: 'Maine' },
-  { code: 'MD', name: 'Maryland' },
-  { code: 'MA', name: 'Massachusetts' },
-  { code: 'MI', name: 'Michigan' },
-  { code: 'MN', name: 'Minnesota' },
-  { code: 'MS', name: 'Mississippi' },
-  { code: 'MO', name: 'Missouri' },
-  { code: 'MT', name: 'Montana' },
-  { code: 'NE', name: 'Nebraska' },
-  { code: 'NV', name: 'Nevada' },
-  { code: 'NH', name: 'New Hampshire' },
-  { code: 'NJ', name: 'New Jersey' },
-  { code: 'NM', name: 'New Mexico' },
-  { code: 'NY', name: 'New York' },
-  { code: 'NC', name: 'North Carolina' },
-  { code: 'ND', name: 'North Dakota' },
-  { code: 'OH', name: 'Ohio' },
-  { code: 'OK', name: 'Oklahoma' },
-  { code: 'OR', name: 'Oregon' },
-  { code: 'PA', name: 'Pennsylvania' },
-  { code: 'RI', name: 'Rhode Island' },
-  { code: 'SC', name: 'South Carolina' },
-  { code: 'SD', name: 'South Dakota' },
-  { code: 'TN', name: 'Tennessee' },
-  { code: 'TX', name: 'Texas' },
-  { code: 'UT', name: 'Utah' },
-  { code: 'VT', name: 'Vermont' },
-  { code: 'VA', name: 'Virginia' },
-  { code: 'WA', name: 'Washington' },
-  { code: 'WV', name: 'West Virginia' },
-  { code: 'WI', name: 'Wisconsin' },
-  { code: 'WY', name: 'Wyoming' }
-];
 
 export default function Checkout() {
   const { cart, getCartTotal } = useCart();
   const navigate = useNavigate();
   const location = useLocation();
   const [isProcessing, setIsProcessing] = useState(false);
-  const [selectedState, setSelectedState] = useState('');
+  const [selectedState, setSelectedState] = useState('WA');
   const [isInIframe, setIsInIframe] = useState(false);
 
   const [formData, setFormData] = useState({
@@ -85,10 +31,7 @@ export default function Checkout() {
   }, []);
 
   const calculateTax = () => {
-    if (selectedState === 'WA') {
-      return getCartTotal() * 0.105;
-    }
-    return 0;
+    return getCartTotal() * 0.105;
   };
 
   const calculateTotal = () => {
@@ -96,11 +39,6 @@ export default function Checkout() {
   };
 
   const handleCheckout = async () => {
-    if (!selectedState) {
-      toast.error('Please select your state');
-      return;
-    }
-
     if (!formData.firstName || !formData.lastName || !formData.email) {
       toast.error('Please fill in all required fields');
       return;
@@ -203,31 +141,6 @@ export default function Checkout() {
                   </div>
                 </Card>
 
-                {/* State Selection */}
-                <Card className="p-6">
-                  <h2 className="text-2xl font-bold text-slate-900 mb-6">Select Your State</h2>
-                  <Select value={selectedState} onValueChange={setSelectedState}>
-                    <SelectTrigger className="w-full rounded-xl">
-                      <SelectValue placeholder="Choose state" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {US_STATES.map((state) => (
-                        <SelectItem key={state.code} value={state.code}>
-                          {state.name}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                  <p className="text-sm text-slate-500 mt-3">
-                    Only shipping to United States addresses
-                  </p>
-                  {selectedState === 'WA' && (
-                    <p className="text-sm text-cyan-600 mt-2 font-medium">
-                      Washington state sales tax (10.5%) will be applied
-                    </p>
-                  )}
-                </Card>
-
                 {/* Payment Notice */}
                 <Card className="p-6 bg-cyan-50 border-cyan-200">
                   <div className="flex items-start gap-3">
@@ -243,7 +156,7 @@ export default function Checkout() {
 
                 <Button
                   onClick={handleCheckout}
-                  disabled={isProcessing || !selectedState || isInIframe}
+                  disabled={isProcessing || isInIframe}
                   className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-full py-6 text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isProcessing ? 'Redirecting to Payment...' : 'Continue to Payment'}
@@ -281,9 +194,7 @@ export default function Checkout() {
                   <div className="flex justify-between text-slate-600">
                     <span>Tax</span>
                     <span>
-                      {selectedState === 'WA' 
-                        ? `$${calculateTax().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` 
-                        : '$0.00'}
+                      ${calculateTax().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                     </span>
                   </div>
                   <div className="border-t pt-3">
