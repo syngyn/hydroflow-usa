@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { useCart } from '@/components/cart/CartContext';
@@ -6,9 +6,75 @@ import { motion } from 'framer-motion';
 import { Trash2, Plus, Minus, ShoppingBag, ArrowRight } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+
+const US_STATES = [
+  { code: 'AL', name: 'Alabama' },
+  { code: 'AK', name: 'Alaska' },
+  { code: 'AZ', name: 'Arizona' },
+  { code: 'AR', name: 'Arkansas' },
+  { code: 'CA', name: 'California' },
+  { code: 'CO', name: 'Colorado' },
+  { code: 'CT', name: 'Connecticut' },
+  { code: 'DE', name: 'Delaware' },
+  { code: 'FL', name: 'Florida' },
+  { code: 'GA', name: 'Georgia' },
+  { code: 'HI', name: 'Hawaii' },
+  { code: 'ID', name: 'Idaho' },
+  { code: 'IL', name: 'Illinois' },
+  { code: 'IN', name: 'Indiana' },
+  { code: 'IA', name: 'Iowa' },
+  { code: 'KS', name: 'Kansas' },
+  { code: 'KY', name: 'Kentucky' },
+  { code: 'LA', name: 'Louisiana' },
+  { code: 'ME', name: 'Maine' },
+  { code: 'MD', name: 'Maryland' },
+  { code: 'MA', name: 'Massachusetts' },
+  { code: 'MI', name: 'Michigan' },
+  { code: 'MN', name: 'Minnesota' },
+  { code: 'MS', name: 'Mississippi' },
+  { code: 'MO', name: 'Missouri' },
+  { code: 'MT', name: 'Montana' },
+  { code: 'NE', name: 'Nebraska' },
+  { code: 'NV', name: 'Nevada' },
+  { code: 'NH', name: 'New Hampshire' },
+  { code: 'NJ', name: 'New Jersey' },
+  { code: 'NM', name: 'New Mexico' },
+  { code: 'NY', name: 'New York' },
+  { code: 'NC', name: 'North Carolina' },
+  { code: 'ND', name: 'North Dakota' },
+  { code: 'OH', name: 'Ohio' },
+  { code: 'OK', name: 'Oklahoma' },
+  { code: 'OR', name: 'Oregon' },
+  { code: 'PA', name: 'Pennsylvania' },
+  { code: 'RI', name: 'Rhode Island' },
+  { code: 'SC', name: 'South Carolina' },
+  { code: 'SD', name: 'South Dakota' },
+  { code: 'TN', name: 'Tennessee' },
+  { code: 'TX', name: 'Texas' },
+  { code: 'UT', name: 'Utah' },
+  { code: 'VT', name: 'Vermont' },
+  { code: 'VA', name: 'Virginia' },
+  { code: 'WA', name: 'Washington' },
+  { code: 'WV', name: 'West Virginia' },
+  { code: 'WI', name: 'Wisconsin' },
+  { code: 'WY', name: 'Wyoming' }
+];
 
 export default function Cart() {
   const { cart, removeFromCart, updateQuantity, getCartTotal } = useCart();
+  const [selectedState, setSelectedState] = useState('');
+
+  const calculateTax = () => {
+    if (selectedState === 'WA') {
+      return getCartTotal() * 0.105;
+    }
+    return 0;
+  };
+
+  const calculateTotal = () => {
+    return getCartTotal() + calculateTax();
+  };
 
   if (cart.length === 0) {
     return (
@@ -134,6 +200,27 @@ export default function Cart() {
               <Card className="p-6 sticky top-24">
                 <h2 className="text-2xl font-bold text-slate-900 mb-6">Order Summary</h2>
 
+                <div className="mb-6">
+                  <label className="block text-sm font-semibold text-slate-700 mb-2">
+                    Select Your State
+                  </label>
+                  <Select value={selectedState} onValueChange={setSelectedState}>
+                    <SelectTrigger className="w-full">
+                      <SelectValue placeholder="Choose state" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {US_STATES.map((state) => (
+                        <SelectItem key={state.code} value={state.code}>
+                          {state.name}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                  <p className="text-xs text-slate-500 mt-1">
+                    Only shipping to United States addresses
+                  </p>
+                </div>
+
                 <div className="space-y-4 mb-6">
                   <div className="flex justify-between text-slate-600">
                     <span>Subtotal</span>
@@ -145,22 +232,35 @@ export default function Cart() {
                   </div>
                   <div className="flex justify-between text-slate-600">
                     <span>Tax</span>
-                    <span>Calculated at checkout</span>
+                    <span>
+                      {selectedState === 'WA' 
+                        ? `$${calculateTax().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` 
+                        : '$0.00'}
+                    </span>
                   </div>
+                  {selectedState === 'WA' && (
+                    <p className="text-xs text-slate-500">Washington state sales tax: 10.5%</p>
+                  )}
                   <div className="border-t pt-4">
                     <div className="flex justify-between text-xl font-bold text-slate-900">
                       <span>Total</span>
-                      <span>${getCartTotal().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                      <span>${calculateTotal().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                     </div>
                   </div>
                 </div>
 
                 <Link to={createPageUrl('Checkout')}>
-                  <Button className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-full py-6 font-semibold">
+                  <Button 
+                    disabled={!selectedState}
+                    className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-full py-6 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
                     Proceed to Checkout
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </Link>
+                {!selectedState && (
+                  <p className="text-sm text-red-600 text-center mt-2">Please select your state to continue</p>
+                )}
 
                 <Link to={createPageUrl('Products')}>
                   <Button variant="outline" className="w-full mt-3 rounded-full py-6">
