@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
@@ -52,6 +53,10 @@ export default function BundleDeal() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Pearl Plus Bundle Deal - HydroFLOW Water Treatment for Large Homes</title>
+        <meta name="description" content="Get the HydroFLOW Pearl Plus Bundle with Pearl Booster for homes over 3,000 sq ft. Save $45 on this chemical-free water conditioning system. 5-year warranty included." />
+      </Helmet>
       {/* Breadcrumb */}
       <div className="bg-slate-50 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

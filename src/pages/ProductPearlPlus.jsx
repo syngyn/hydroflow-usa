@@ -63,6 +63,10 @@ export default function ProductPearlPlus() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>HydroFLOW Pearl Plus - Residential Water Conditioner | No Salt, No Chemicals</title>
+        <meta name="description" content="The HydroFLOW Pearl Plus provides whole-home water treatment for homes up to 3,000 sq ft. Chemical-free scale prevention, easy DIY installation, 5-year warranty. $395." />
+      </Helmet>
       {/* Breadcrumb */}
       <div className="bg-slate-50 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Navbar from '@/components/navigation/Navbar';
 import Footer from '@/components/navigation/Footer';
 import { CartProvider } from '@/components/cart/CartContext';
@@ -9,6 +10,10 @@ export default function Layout({ children, currentPageName }) {
   return (
     <CartProvider>
       <RecommendationProvider>
+        <Helmet>
+          <title>HydroFLOW USA - Eco-Friendly Water Treatment Solutions</title>
+          <meta name="description" content="HydroFLOW offers innovative, chemical-free water treatment technology for residential, commercial, and industrial applications. Prevent scale and biofilm naturally." />
+        </Helmet>
         <div className="min-h-screen flex flex-col bg-white">
           <Navbar />
           <main className="flex-grow">
