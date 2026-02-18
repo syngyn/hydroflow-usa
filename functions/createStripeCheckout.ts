@@ -1,4 +1,3 @@
-import { createClientFromRequest } from 'npm:@base44/sdk@0.8.6';
 import Stripe from 'npm:stripe@17.5.0';
 
 const stripe = new Stripe(Deno.env.get('STRIPE_SECRET_KEY'));
@@ -86,26 +85,21 @@ Deno.serve(async (req) => {
     // Get the origin from the request URL
     const origin = new URL(req.url).origin;
 
-    // Prepare session config
-    const sessionConfig = {
+    // Create the checkout session
+    const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: lineItems,
       mode: 'payment',
       success_url: `${origin}/checkout-success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/checkout`,
       customer_email: customerEmail,
+      phone_number_collection: { enabled: true },
       metadata: {
         base44_app_id: Deno.env.get('BASE44_APP_ID'),
         customer_name: customerName,
         state: state,
       },
-    };
-
-    // Since we're collecting address in our form, we don't need Stripe to collect it
-    // Just set phone number collection
-    sessionConfig.phone_number_collection = { enabled: true };
-
-    const session = await stripe.checkout.sessions.create(sessionConfig);
+    });
 
     return Response.json({ url: session.url });
   } catch (error) {
