@@ -96,15 +96,13 @@ Deno.serve(async (req) => {
       });
     }
 
-    const origin = new URL(req.url).origin;
-
     console.log('Creating Stripe session...');
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       line_items: lineItems,
       mode: 'payment',
-      success_url: `${origin}/CheckoutSuccess?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${origin}/Checkout`,
+      success_url: `${frontendUrl}/CheckoutSuccess?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${frontendUrl}/Checkout`,
       customer_email: customerEmail,
       phone_number_collection: { enabled: true },
       metadata: {
