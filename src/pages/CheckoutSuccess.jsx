@@ -16,15 +16,20 @@ export default function CheckoutSuccess() {
 
   useEffect(() => {
     if (!hasCleared) {
-      clearCart();
-      setHasCleared(true);
-      
-      // Trigger confetti
-      confetti({
-        particleCount: 100,
-        spread: 70,
-        origin: { y: 0.6 }
-      });
+      try {
+        clearCart();
+        setHasCleared(true);
+        
+        // Trigger confetti
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 }
+        });
+      } catch (error) {
+        console.error('Error clearing cart:', error);
+        setHasCleared(true);
+      }
     }
   }, [hasCleared, clearCart]);
 
