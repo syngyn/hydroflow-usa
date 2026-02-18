@@ -18,18 +18,26 @@ Deno.serve(async (req) => {
     const taxRate = state === 'WA' ? 0.105 : 0;
 
     // Create line items from cart
-    const lineItems = cart.map(item => ({
-      price_data: {
-        currency: 'usd',
-        product_data: {
-          name: item.name,
-          images: item.image ? [item.image] : [],
-          description: item.coverage || '',
+    const lineItems = cart.map(item => {
+      const productData = {
+        name: item.name,
+        images: item.image ? [item.image] : [],
+      };
+      
+      // Only add description if it exists and is not empty
+      if (item.coverage && item.coverage.trim()) {
+        productData.description = item.coverage;
+      }
+      
+      return {
+        price_data: {
+          currency: 'usd',
+          product_data: productData,
+          unit_amount: Math.round(item.price * 100), // Convert to cents
         },
-        unit_amount: Math.round(item.price * 100), // Convert to cents
-      },
-      quantity: item.quantity,
-    }));
+        quantity: item.quantity,
+      };
+    });
 
     // Calculate subtotal for tax
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
