@@ -101,17 +101,9 @@ Deno.serve(async (req) => {
       },
     };
 
-    // Add shipping details if provided
-    if (shippingAddress) {
-      sessionConfig.shipping_address_collection = null;
-    }
-
-    // Add billing details if provided
-    if (billingAddress) {
-      sessionConfig.billing_address_collection = null;
-      sessionConfig.customer_creation = 'always';
-      sessionConfig.phone_number_collection = { enabled: true };
-    }
+    // Since we're collecting address in our form, we don't need Stripe to collect it
+    // Just set phone number collection
+    sessionConfig.phone_number_collection = { enabled: true };
 
     const session = await stripe.checkout.sessions.create(sessionConfig);
 
