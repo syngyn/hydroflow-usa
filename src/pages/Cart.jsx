@@ -201,22 +201,7 @@ export default function Cart() {
                 <h2 className="text-2xl font-bold text-slate-900 mb-6">Order Summary</h2>
 
                 <div className="mb-6">
-                  <label className="block text-sm font-semibold text-slate-700 mb-2">
-                    Select Your State
-                  </label>
-                  <Select value={selectedState} onValueChange={setSelectedState}>
-                    <SelectTrigger className="w-full">
-                      <SelectValue placeholder="Choose state" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {US_STATES.map((state) => (
-                        <SelectItem key={state.code} value={state.code}>
-                          {state.name}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                  <p className="text-xs text-slate-500 mt-1">
+                  <p className="text-xs text-slate-500">
                     Only shipping to United States addresses
                   </p>
                 </div>
@@ -232,15 +217,8 @@ export default function Cart() {
                   </div>
                   <div className="flex justify-between text-slate-600">
                     <span>Tax</span>
-                    <span>
-                      {selectedState === 'WA' 
-                        ? `$${calculateTax().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` 
-                        : '$0.00'}
-                    </span>
+                    <span>Calculated at checkout</span>
                   </div>
-                  {selectedState === 'WA' && (
-                    <p className="text-xs text-slate-500">Washington state sales tax: 10.5%</p>
-                  )}
                   <div className="border-t pt-4">
                     <div className="flex justify-between text-xl font-bold text-slate-900">
                       <span>Total</span>
@@ -251,16 +229,12 @@ export default function Cart() {
 
                 <Link to={createPageUrl('Checkout')}>
                   <Button 
-                    disabled={!selectedState}
-                    className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-full py-6 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full bg-cyan-600 hover:bg-cyan-700 text-white rounded-full py-6 font-semibold"
                   >
                     Proceed to Checkout
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
                 </Link>
-                {!selectedState && (
-                  <p className="text-sm text-red-600 text-center mt-2">Please select your state to continue</p>
-                )}
 
                 <Link to={createPageUrl('Products')}>
                   <Button variant="outline" className="w-full mt-3 rounded-full py-6">
