@@ -8,8 +8,63 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card } from "@/components/ui/card";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
 import { base44 } from '@/api/base44Client';
 import { toast } from 'sonner';
+
+const US_STATES = [
+  { code: 'AL', name: 'Alabama' },
+  { code: 'AK', name: 'Alaska' },
+  { code: 'AZ', name: 'Arizona' },
+  { code: 'AR', name: 'Arkansas' },
+  { code: 'CA', name: 'California' },
+  { code: 'CO', name: 'Colorado' },
+  { code: 'CT', name: 'Connecticut' },
+  { code: 'DE', name: 'Delaware' },
+  { code: 'FL', name: 'Florida' },
+  { code: 'GA', name: 'Georgia' },
+  { code: 'HI', name: 'Hawaii' },
+  { code: 'ID', name: 'Idaho' },
+  { code: 'IL', name: 'Illinois' },
+  { code: 'IN', name: 'Indiana' },
+  { code: 'IA', name: 'Iowa' },
+  { code: 'KS', name: 'Kansas' },
+  { code: 'KY', name: 'Kentucky' },
+  { code: 'LA', name: 'Louisiana' },
+  { code: 'ME', name: 'Maine' },
+  { code: 'MD', name: 'Maryland' },
+  { code: 'MA', name: 'Massachusetts' },
+  { code: 'MI', name: 'Michigan' },
+  { code: 'MN', name: 'Minnesota' },
+  { code: 'MS', name: 'Mississippi' },
+  { code: 'MO', name: 'Missouri' },
+  { code: 'MT', name: 'Montana' },
+  { code: 'NE', name: 'Nebraska' },
+  { code: 'NV', name: 'Nevada' },
+  { code: 'NH', name: 'New Hampshire' },
+  { code: 'NJ', name: 'New Jersey' },
+  { code: 'NM', name: 'New Mexico' },
+  { code: 'NY', name: 'New York' },
+  { code: 'NC', name: 'North Carolina' },
+  { code: 'ND', name: 'North Dakota' },
+  { code: 'OH', name: 'Ohio' },
+  { code: 'OK', name: 'Oklahoma' },
+  { code: 'OR', name: 'Oregon' },
+  { code: 'PA', name: 'Pennsylvania' },
+  { code: 'RI', name: 'Rhode Island' },
+  { code: 'SC', name: 'South Carolina' },
+  { code: 'SD', name: 'South Dakota' },
+  { code: 'TN', name: 'Tennessee' },
+  { code: 'TX', name: 'Texas' },
+  { code: 'UT', name: 'Utah' },
+  { code: 'VT', name: 'Vermont' },
+  { code: 'VA', name: 'Virginia' },
+  { code: 'WA', name: 'Washington' },
+  { code: 'WV', name: 'West Virginia' },
+  { code: 'WI', name: 'Wisconsin' },
+  { code: 'WY', name: 'Wyoming' }
+];
 
 export default function Checkout() {
   const { cart, getCartTotal } = useCart();
@@ -18,15 +73,23 @@ export default function Checkout() {
   const [isProcessing, setIsProcessing] = useState(false);
   const [selectedState, setSelectedState] = useState('WA');
   const [isInIframe, setIsInIframe] = useState(false);
+  const [shippingDifferent, setShippingDifferent] = useState(false);
 
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
     email: '',
+    billingAddress: '',
+    billingCity: '',
+    billingState: '',
+    billingZip: '',
+    shippingAddress: '',
+    shippingCity: '',
+    shippingState: '',
+    shippingZip: '',
   });
 
   useEffect(() => {
-    // Check if running in iframe
     setIsInIframe(window.self !== window.top);
   }, []);
 
@@ -44,6 +107,16 @@ export default function Checkout() {
       return;
     }
 
+    if (!formData.billingAddress || !formData.billingCity || !formData.billingState || !formData.billingZip) {
+      toast.error('Please fill in billing address');
+      return;
+    }
+
+    if (shippingDifferent && (!formData.shippingAddress || !formData.shippingCity || !formData.shippingState || !formData.shippingZip)) {
+      toast.error('Please fill in shipping address');
+      return;
+    }
+
     if (isInIframe) {
       toast.error('Checkout only works from published app. Please open in a new tab.');
       return;
@@ -57,6 +130,26 @@ export default function Checkout() {
         state: selectedState,
         customerEmail: formData.email,
         customerName: `${formData.firstName} ${formData.lastName}`,
+        billingAddress: {
+          line1: formData.billingAddress,
+          city: formData.billingCity,
+          state: formData.billingState,
+          postal_code: formData.billingZip,
+          country: 'US',
+        },
+        shippingAddress: shippingDifferent ? {
+          line1: formData.shippingAddress,
+          city: formData.shippingCity,
+          state: formData.shippingState,
+          postal_code: formData.shippingZip,
+          country: 'US',
+        } : {
+          line1: formData.billingAddress,
+          city: formData.billingCity,
+          state: formData.billingState,
+          postal_code: formData.billingZip,
+          country: 'US',
+        },
       });
 
       if (response.data.url) {
@@ -141,6 +234,135 @@ export default function Checkout() {
                   </div>
                 </Card>
 
+                {/* Billing Address */}
+                <Card className="p-6">
+                  <h2 className="text-2xl font-bold text-slate-900 mb-6">Billing Address</h2>
+                  <div className="space-y-6">
+                    <div>
+                      <Label htmlFor="billingAddress">Address *</Label>
+                      <Input
+                        id="billingAddress"
+                        required
+                        value={formData.billingAddress}
+                        onChange={(e) => setFormData({...formData, billingAddress: e.target.value})}
+                        className="rounded-xl mt-2"
+                      />
+                    </div>
+                    <div className="grid md:grid-cols-3 gap-4">
+                      <div>
+                        <Label htmlFor="billingCity">City *</Label>
+                        <Input
+                          id="billingCity"
+                          required
+                          value={formData.billingCity}
+                          onChange={(e) => setFormData({...formData, billingCity: e.target.value})}
+                          className="rounded-xl mt-2"
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="billingState">State *</Label>
+                        <Select value={formData.billingState} onValueChange={(value) => setFormData({...formData, billingState: value})}>
+                          <SelectTrigger className="rounded-xl mt-2">
+                            <SelectValue placeholder="Select state" />
+                          </SelectTrigger>
+                          <SelectContent>
+                            {US_STATES.map((state) => (
+                              <SelectItem key={state.code} value={state.code}>
+                                {state.name}
+                              </SelectItem>
+                            ))}
+                          </SelectContent>
+                        </Select>
+                      </div>
+                      <div>
+                        <Label htmlFor="billingZip">ZIP Code *</Label>
+                        <Input
+                          id="billingZip"
+                          required
+                          value={formData.billingZip}
+                          onChange={(e) => setFormData({...formData, billingZip: e.target.value})}
+                          className="rounded-xl mt-2"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </Card>
+
+                {/* Shipping Different Checkbox */}
+                <Card className="p-6">
+                  <div className="flex items-center space-x-2">
+                    <Checkbox 
+                      id="shippingDifferent" 
+                      checked={shippingDifferent}
+                      onCheckedChange={setShippingDifferent}
+                    />
+                    <Label htmlFor="shippingDifferent" className="text-base font-medium cursor-pointer">
+                      Shipping address is different than billing
+                    </Label>
+                  </div>
+
+                  {/* Shipping Address - Conditional */}
+                  {shippingDifferent && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      className="mt-6"
+                    >
+                      <h3 className="text-xl font-bold text-slate-900 mb-4">Shipping Address</h3>
+                      <div className="space-y-6">
+                        <div>
+                          <Label htmlFor="shippingAddress">Address *</Label>
+                          <Input
+                            id="shippingAddress"
+                            required
+                            value={formData.shippingAddress}
+                            onChange={(e) => setFormData({...formData, shippingAddress: e.target.value})}
+                            className="rounded-xl mt-2"
+                          />
+                        </div>
+                        <div className="grid md:grid-cols-3 gap-4">
+                          <div>
+                            <Label htmlFor="shippingCity">City *</Label>
+                            <Input
+                              id="shippingCity"
+                              required
+                              value={formData.shippingCity}
+                              onChange={(e) => setFormData({...formData, shippingCity: e.target.value})}
+                              className="rounded-xl mt-2"
+                            />
+                          </div>
+                          <div>
+                            <Label htmlFor="shippingState">State *</Label>
+                            <Select value={formData.shippingState} onValueChange={(value) => setFormData({...formData, shippingState: value})}>
+                              <SelectTrigger className="rounded-xl mt-2">
+                                <SelectValue placeholder="Select state" />
+                              </SelectTrigger>
+                              <SelectContent>
+                                {US_STATES.map((state) => (
+                                  <SelectItem key={state.code} value={state.code}>
+                                    {state.name}
+                                  </SelectItem>
+                                ))}
+                              </SelectContent>
+                            </Select>
+                          </div>
+                          <div>
+                            <Label htmlFor="shippingZip">ZIP Code *</Label>
+                            <Input
+                              id="shippingZip"
+                              required
+                              value={formData.shippingZip}
+                              onChange={(e) => setFormData({...formData, shippingZip: e.target.value})}
+                              className="rounded-xl mt-2"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </Card>
+
                 {/* Payment Notice */}
                 <Card className="p-6 bg-cyan-50 border-cyan-200">
                   <div className="flex items-start gap-3">
@@ -148,7 +370,7 @@ export default function Checkout() {
                     <div>
                       <h3 className="font-semibold text-slate-900 mb-1">Secure Payment with Stripe</h3>
                       <p className="text-sm text-slate-600">
-                        Your payment information is processed securely. Billing and shipping address will be collected on the next page.
+                        Your payment information is processed securely by Stripe.
                       </p>
                     </div>
                   </div>
