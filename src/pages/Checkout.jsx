@@ -93,12 +93,34 @@ export default function Checkout() {
     setIsInIframe(window.self !== window.top);
   }, []);
 
+  const getShippingCost = () => {
+    const shippingRates = {
+      'AL': 31.57, 'AK': 184.8, 'AZ': 30.14, 'AR': 30.14, 'CA': 29.1,
+      'CO': 29.1, 'CT': 30.14, 'DE': 30.14, 'FL': 30.14, 'GA': 30.14,
+      'HI': 184.8, 'ID': 29.1, 'IL': 30.14, 'IN': 30.14, 'IA': 30.14,
+      'KS': 30.14, 'KY': 30.14, 'LA': 30.14, 'ME': 31.57, 'MD': 30.14,
+      'MA': 30.14, 'MI': 30.14, 'MN': 30.14, 'MS': 30.14, 'MO': 30.14,
+      'MT': 29.1, 'NE': 30.14, 'NV': 29.1, 'NH': 30.14, 'NJ': 30.14,
+      'NM': 29.1, 'NY': 30.14, 'NC': 30.14, 'ND': 30.14, 'OH': 30.14,
+      'OK': 30.14, 'OR': 29.1, 'PA': 30.14, 'RI': 30.14, 'SC': 30.14,
+      'SD': 30.14, 'TN': 30.14, 'TX': 30.14, 'UT': 29.1, 'VT': 30.14,
+      'VA': 30.14, 'WA': 29.1, 'WV': 30.14, 'WI': 30.14, 'WY': 29.1,
+      'AS': 184.8, 'DC': 30.14, 'GU': 184.8, 'MP': 184.8, 'PR': 184.8, 'VI': 184.8
+    };
+    const shippingState = shippingDifferent ? formData.shippingState : formData.billingState;
+    return shippingRates[shippingState] || 0;
+  };
+
   const calculateTax = () => {
-    return getCartTotal() * 0.105;
+    const billingState = formData.billingState;
+    if (billingState === 'WA') {
+      return getCartTotal() * 0.105;
+    }
+    return 0;
   };
 
   const calculateTotal = () => {
-    return getCartTotal() + calculateTax();
+    return getCartTotal() + getShippingCost() + calculateTax();
   };
 
   const handleCheckout = async () => {
@@ -125,9 +147,10 @@ export default function Checkout() {
     setIsProcessing(true);
 
     try {
+      const shippingState = shippingDifferent ? formData.shippingState : formData.billingState;
       const response = await base44.functions.invoke('createStripeCheckout', {
         cart,
-        state: selectedState,
+        state: shippingState,
         customerEmail: formData.email,
         customerName: `${formData.firstName} ${formData.lastName}`,
         billingAddress: {
@@ -411,7 +434,12 @@ export default function Checkout() {
                   </div>
                   <div className="flex justify-between text-slate-600">
                     <span>Shipping</span>
-                    <span>Calculated at checkout</span>
+                    <span>
+                      {(shippingDifferent ? formData.shippingState : formData.billingState) ? 
+                        `$${getShippingCost().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : 
+                        'Enter address'
+                      }
+                    </span>
                   </div>
                   <div className="flex justify-between text-slate-600">
                     <span>Tax</span>

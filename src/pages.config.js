@@ -59,6 +59,7 @@ import Cart from './pages/Cart';
 import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
 import Checkout from './pages/Checkout';
+import CheckoutSuccess from './pages/CheckoutSuccess';
 import Commercial from './pages/Commercial';
 import Contact from './pages/Contact';
 import CoolingTowers from './pages/CoolingTowers';
@@ -109,7 +110,6 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import CheckoutSuccess from './pages/CheckoutSuccess';
 import __Layout from './Layout.jsx';
 
 
@@ -126,6 +126,7 @@ export const PAGES = {
     "CaseStudies": CaseStudies,
     "CaseStudyDetail": CaseStudyDetail,
     "Checkout": Checkout,
+    "CheckoutSuccess": CheckoutSuccess,
     "Commercial": Commercial,
     "Contact": Contact,
     "CoolingTowers": CoolingTowers,
@@ -176,7 +177,6 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "CheckoutSuccess": CheckoutSuccess,
 }
 
 export const pagesConfig = {

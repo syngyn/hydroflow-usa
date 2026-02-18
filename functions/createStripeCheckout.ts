@@ -7,15 +7,29 @@ Deno.serve(async (req) => {
   try {
     const { cart, state, customerEmail, customerName, billingAddress, shippingAddress } = await req.json();
 
-    // Validate state is a US state
-    const US_STATE_CODES = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'];
-    
-    if (!state || !US_STATE_CODES.includes(state)) {
+    // Shipping rates by state code
+    const SHIPPING_RATES = {
+      'AL': 31.57, 'AK': 184.8, 'AZ': 30.14, 'AR': 30.14, 'CA': 29.1,
+      'CO': 29.1, 'CT': 30.14, 'DE': 30.14, 'FL': 30.14, 'GA': 30.14,
+      'HI': 184.8, 'ID': 29.1, 'IL': 30.14, 'IN': 30.14, 'IA': 30.14,
+      'KS': 30.14, 'KY': 30.14, 'LA': 30.14, 'ME': 31.57, 'MD': 30.14,
+      'MA': 30.14, 'MI': 30.14, 'MN': 30.14, 'MS': 30.14, 'MO': 30.14,
+      'MT': 29.1, 'NE': 30.14, 'NV': 29.1, 'NH': 30.14, 'NJ': 30.14,
+      'NM': 29.1, 'NY': 30.14, 'NC': 30.14, 'ND': 30.14, 'OH': 30.14,
+      'OK': 30.14, 'OR': 29.1, 'PA': 30.14, 'RI': 30.14, 'SC': 30.14,
+      'SD': 30.14, 'TN': 30.14, 'TX': 30.14, 'UT': 29.1, 'VT': 30.14,
+      'VA': 30.14, 'WA': 29.1, 'WV': 30.14, 'WI': 30.14, 'WY': 29.1,
+      'AS': 184.8, 'DC': 30.14, 'GU': 184.8, 'MP': 184.8, 'PR': 184.8, 'VI': 184.8
+    };
+
+    // Validate state
+    if (!state || !SHIPPING_RATES[state]) {
       return Response.json({ error: 'Invalid US state' }, { status: 400 });
     }
 
     // Calculate tax (10.5% for WA, 0% for others)
     const taxRate = state === 'WA' ? 0.105 : 0;
+    const shippingCost = SHIPPING_RATES[state];
 
     // Create line items from cart
     const lineItems = cart.map(item => {
@@ -42,6 +56,18 @@ Deno.serve(async (req) => {
     // Calculate subtotal for tax
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     const taxAmount = Math.round(subtotal * taxRate * 100); // Tax in cents
+
+    // Add shipping as a line item
+    lineItems.push({
+      price_data: {
+        currency: 'usd',
+        product_data: {
+          name: 'Shipping',
+        },
+        unit_amount: Math.round(shippingCost * 100),
+      },
+      quantity: 1,
+    });
 
     // Add tax as a line item if applicable
     if (taxAmount > 0) {
@@ -77,20 +103,7 @@ Deno.serve(async (req) => {
 
     // Add shipping details if provided
     if (shippingAddress) {
-      sessionConfig.shipping_options = [
-        {
-          shipping_rate_data: {
-            type: 'fixed_amount',
-            fixed_amount: { amount: 0, currency: 'usd' },
-            display_name: 'Standard Shipping',
-          },
-        },
-      ];
       sessionConfig.shipping_address_collection = null;
-      sessionConfig.shipping_details = {
-        name: customerName,
-        address: shippingAddress,
-      };
     }
 
     // Add billing details if provided
