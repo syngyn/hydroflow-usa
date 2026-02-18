@@ -3,9 +3,17 @@ import Stripe from 'npm:stripe@17.5.0';
 const stripe = new Stripe(Deno.env.get('STRIPE_TEST_SECRET_KEY'));
 
 Deno.serve(async (req) => {
+  let body;
   try {
     console.log('Parsing request body...');
-    const body = await req.json();
+    const text = await req.text();
+    console.log('Raw body:', text);
+    
+    if (!text || text.trim() === '') {
+      return Response.json({ error: 'Request body is empty' }, { status: 400 });
+    }
+    
+    body = JSON.parse(text);
     const { cart, state, customerEmail, customerName, billingAddress, shippingAddress } = body;
 
     console.log('Request received:', { state, customerEmail, cartLength: cart?.length });
