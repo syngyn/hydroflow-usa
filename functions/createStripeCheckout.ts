@@ -1,11 +1,11 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.6';
 import Stripe from 'npm:stripe@17.5.0';
 
-const stripe = new Stripe(Deno.env.get('STRIPE_TEST_SECRET_KEY'));
+const stripe = new Stripe(Deno.env.get('STRIPE_SECRET_KEY'));
 
 Deno.serve(async (req) => {
   try {
-    const { cart, state, customerEmail, customerName } = await req.json();
+    const { cart, state, customerEmail, customerName, billingAddress, shippingAddress } = await req.json();
 
     // Validate state is a US state
     const US_STATE_CODES = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'];
@@ -60,7 +60,8 @@ Deno.serve(async (req) => {
     // Get the origin from the request URL
     const origin = new URL(req.url).origin;
 
-    const session = await stripe.checkout.sessions.create({
+    // Prepare session config
+    const sessionConfig = {
       payment_method_types: ['card'],
       line_items: lineItems,
       mode: 'payment',
@@ -72,11 +73,34 @@ Deno.serve(async (req) => {
         customer_name: customerName,
         state: state,
       },
-      shipping_address_collection: {
-        allowed_countries: ['US'],
-      },
-      billing_address_collection: 'required',
-    });
+    };
+
+    // Add shipping details if provided
+    if (shippingAddress) {
+      sessionConfig.shipping_options = [
+        {
+          shipping_rate_data: {
+            type: 'fixed_amount',
+            fixed_amount: { amount: 0, currency: 'usd' },
+            display_name: 'Standard Shipping',
+          },
+        },
+      ];
+      sessionConfig.shipping_address_collection = null;
+      sessionConfig.shipping_details = {
+        name: customerName,
+        address: shippingAddress,
+      };
+    }
+
+    // Add billing details if provided
+    if (billingAddress) {
+      sessionConfig.billing_address_collection = null;
+      sessionConfig.customer_creation = 'always';
+      sessionConfig.phone_number_collection = { enabled: true };
+    }
+
+    const session = await stripe.checkout.sessions.create(sessionConfig);
 
     return Response.json({ url: session.url });
   } catch (error) {
