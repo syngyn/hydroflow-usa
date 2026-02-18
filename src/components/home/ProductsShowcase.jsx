@@ -17,7 +17,8 @@ const products = [
     rating: 4.38,
     reviews: 56,
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png',
-    features: ['Apartments', 'Townhomes', 'Condos', 'Small homes']
+    features: ['Apartments', 'Townhomes', 'Condos', 'Small homes'],
+    page: 'ProductPearl'
   },
   {
     name: 'Pearl Plus',
@@ -29,7 +30,8 @@ const products = [
     reviews: 72,
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png',
     features: ['Standard homes', 'Large homes', 'Multi-story', 'Complex plumbing'],
-    popular: true
+    popular: true,
+    page: 'ProductPearlPlus'
   },
   {
     name: <><i>hs</i>40</>,
@@ -40,7 +42,8 @@ const products = [
     rating: 4.79,
     reviews: 43,
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png',
-    features: ['Swimming pools', 'Hot tubs & spas', 'Light commercial', 'Large properties']
+    features: ['Swimming pools', 'Hot tubs & spas', 'Light commercial', 'Large properties'],
+    page: 'ProductHS40'
   }
 ];
 
@@ -68,18 +71,18 @@ export default function ProductsShowcase() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {products.map((product, index) => (
-            <motion.div
-              key={product.name}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className={`relative group rounded-3xl overflow-hidden transition-all duration-500 ${
-                product.popular 
-                  ? 'bg-gradient-to-b from-cyan-500 to-cyan-600 p-[2px]' 
-                  : 'border border-slate-200'
-              }`}
-            >
+            <Link key={product.page} to={createPageUrl(product.page)} className="block">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className={`relative group rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl cursor-pointer ${
+                  product.popular 
+                    ? 'bg-gradient-to-b from-cyan-500 to-cyan-600 p-[2px]' 
+                    : 'border border-slate-200'
+                }`}
+              >
               {product.popular && (
                 <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10">
                   <Badge className="bg-white text-cyan-600 hover:bg-white px-4 py-1 font-semibold">
@@ -129,18 +132,17 @@ export default function ProductsShowcase() {
                 </div>
 
                 {/* CTA */}
-                <Link to={createPageUrl('Products')}>
-                  <Button className={`w-full rounded-full py-6 font-semibold transition-all ${
-                    product.popular 
-                      ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white shadow-lg shadow-cyan-500/25' 
-                      : 'bg-slate-900 hover:bg-slate-800 text-white'
-                  }`}>
-                    Select {product.name}
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Button>
-                </Link>
+                <Button className={`w-full rounded-full py-6 font-semibold transition-all ${
+                  product.popular 
+                    ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white shadow-lg shadow-cyan-500/25' 
+                    : 'bg-slate-900 hover:bg-slate-800 text-white'
+                }`}>
+                  Select {product.name}
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
               </div>
             </motion.div>
+            </Link>
           ))}
         </div>
 
