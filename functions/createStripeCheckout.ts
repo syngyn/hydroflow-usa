@@ -90,7 +90,7 @@ Deno.serve(async (req) => {
       payment_method_types: ['card'],
       line_items: lineItems,
       mode: 'payment',
-      success_url: `${origin}/checkout-success?session_id={CHECKOUT_SESSION_ID}`,
+      success_url: `${origin}/CheckoutSuccess?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/checkout`,
       customer_email: customerEmail,
       phone_number_collection: { enabled: true },
