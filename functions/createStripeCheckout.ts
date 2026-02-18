@@ -68,6 +68,11 @@ Deno.serve(async (req) => {
         allowed_countries: ['US'],
       },
       billing_address_collection: 'required',
+      payment_method_options: {
+        card: {
+          setup_future_usage: null,
+        },
+      },
     });
 
     return Response.json({ url: session.url });
