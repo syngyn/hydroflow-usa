@@ -59,6 +59,8 @@ export default function Navbar() {
         { name: 'Bundle & Save', href: 'BundleDeal' },
         { name: 'i Range', href: 'ProductIRange' },
         { name: 'HM Range', href: 'ProductHMRange' },
+        { name: 'Filter Cartridges', href: 'FilterCartridges' },
+        { name: 'Filter Housings', href: 'FilterHousings' },
       ]
     },
     { 
