@@ -12,7 +12,8 @@ const products = [
     coverage: 'For homes up to 3,000 sq ft',
     oldPrice: '$695',
     price: '$495',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/pearl-plus-transparent.webp'
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/pearl-plus-transparent.webp',
+    page: 'ProductPearlPlus'
   },
   {
     name: 'Pearl',
@@ -20,7 +21,8 @@ const products = [
     coverage: 'For homes up to 2,000 sq ft',
     oldPrice: '$595',
     price: '$395',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png',
+    page: 'ProductPearl'
   },
   {
     name: <><i>hs</i>40</>,
@@ -28,7 +30,8 @@ const products = [
     coverage: 'For pools up to 40,000 gallons',
     oldPrice: '$2,150',
     price: '$1,990',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png',
+    page: 'ProductHS40'
   },
   {
     name: <><i>i</i> Range</>,
@@ -36,7 +39,8 @@ const products = [
     coverage: 'Commercial & industrial applications',
     oldPrice: null,
     price: 'Custom',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png'
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png',
+    page: 'ProductIRange'
   },
   {
     name: <><i>hm</i> Range</>,
@@ -44,7 +48,8 @@ const products = [
     coverage: 'Marine & vessel applications',
     oldPrice: null,
     price: 'Custom',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f78dd7ace_hm-Rangenew.png'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f78dd7ace_hm-Rangenew.png',
+    page: 'ProductHMRange'
   }
 ];
 
@@ -151,20 +156,22 @@ export default function HeroSection() {
                     }}
                     className="w-full"
                   >
-                    <div className="text-center mb-4 md:mb-8">
-                      <h3 className="text-white text-lg md:text-2xl font-bold">{products[currentProductIndex].name}</h3>
-                    </div>
-                    <div className="h-48 md:h-80 flex items-center justify-center mb-0 md:mb-3">
-                      <img 
-                        src={products[currentProductIndex].image}
-                        alt={products[currentProductIndex].name}
-                        className="max-h-full w-auto object-contain"
-                        style={
-                          currentProductIndex === 2 ? { transform: 'scale(0.7)' } : 
-                          currentProductIndex === 4 ? { transform: 'scale(0.9)' } : {}
-                        }
-                      />
-                    </div>
+                    <Link to={createPageUrl(products[currentProductIndex].page)} className="block">
+                      <div className="text-center mb-4 md:mb-8">
+                        <h3 className="text-white text-lg md:text-2xl font-bold">{products[currentProductIndex].name}</h3>
+                      </div>
+                      <div className="h-48 md:h-80 flex items-center justify-center mb-0 md:mb-3 cursor-pointer">
+                        <img 
+                          src={products[currentProductIndex].image}
+                          alt={products[currentProductIndex].name}
+                          className="max-h-full w-auto object-contain transition-transform hover:scale-105"
+                          style={
+                            currentProductIndex === 2 ? { transform: 'scale(0.7)' } : 
+                            currentProductIndex === 4 ? { transform: 'scale(0.9)' } : {}
+                          }
+                        />
+                      </div>
+                    </Link>
                   </motion.div>
                 </AnimatePresence>
                 
