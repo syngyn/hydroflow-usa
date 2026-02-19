@@ -70,10 +70,29 @@ Deno.serve(async (req) => {
       quantity: item.quantity,
     }));
 
-    // Calculate subtotal for tax
+    // Calculate subtotal and discount
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     const discountAmount = parseFloat(couponDiscount) || 0;
     const subtotalAfterDiscount = Math.max(0, subtotal - discountAmount);
+    
+    // If there's a discount, apply it proportionally to cart items
+    if (discountAmount > 0 && subtotal > 0) {
+      const discountRatio = 1 - (discountAmount / subtotal);
+      lineItems.forEach(item => {
+        item.price_data.unit_amount = Math.round(item.price_data.unit_amount * discountRatio);
+      });
+      
+      // Add a line item showing the discount
+      lineItems.push({
+        price_data: {
+          currency: 'usd',
+          product_data: { name: `✓ Discount Applied: ${couponCode || 'Coupon'}` },
+          unit_amount: 1,
+        },
+        quantity: 1,
+      });
+    }
+    
     const taxAmount = Math.round(subtotalAfterDiscount * taxRate * 100);
 
     // Add shipping
@@ -93,19 +112,6 @@ Deno.serve(async (req) => {
           currency: 'usd',
           product_data: { name: 'Washington State Sales Tax (10.5%)' },
           unit_amount: taxAmount,
-        },
-        quantity: 1,
-      });
-    }
-
-    // Add discount if applicable (negative unit_amount is allowed)
-    if (discountAmount > 0) {
-      const discountAmountCents = Math.round(discountAmount * 100);
-      lineItems.push({
-        price_data: {
-          currency: 'usd',
-          product_data: { name: `Discount (${couponCode || 'Coupon'})` },
-          unit_amount: -Math.abs(discountAmountCents), // Ensure it's negative
         },
         quantity: 1,
       });
