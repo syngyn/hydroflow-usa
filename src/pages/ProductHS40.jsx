@@ -134,7 +134,7 @@ export default function ProductHS40() {
               </div>
 
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                Designed to protect pools, spas and commercial kitchens from the destructive effects of scale and biofilm. Decreases the risk of a waterborne pathogenic contamination. The award-winning hs40 water conditioner provides a chemical-free solution for the harmful effects of scale, corrosion, bacteria, and algae.
+                Designed to protect pools, spas and commercial kitchens from the destructive effects of scale and biofilm. Decreases the risk of a waterborne pathogenic contamination. The award-winning <i>hs</i>40 water conditioner provides a chemical-free solution for the harmful effects of scale, corrosion, bacteria, and algae.
               </p>
 
               <div className="mb-6">
