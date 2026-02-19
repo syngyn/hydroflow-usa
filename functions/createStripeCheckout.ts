@@ -125,6 +125,36 @@ Deno.serve(async (req) => {
     });
 
     console.log('Session created successfully:', session.id);
+
+    // Save order to database immediately when checkout session is created
+    const { createClientFromRequest } = await import('npm:@base44/sdk@0.8.6');
+    const base44 = createClientFromRequest(req);
+
+    const orderItems = cart.map(item => ({
+      name: item.name,
+      quantity: item.quantity,
+      unit_price: item.price,
+      total_price: item.price * item.quantity
+    }));
+
+    await base44.asServiceRole.entities.Order.create({
+      stripe_session_id: session.id,
+      stripe_payment_status: 'pending',
+      customer_name: customerName,
+      customer_email: customerEmail,
+      items: orderItems,
+      subtotal: subtotalAfterDiscount,
+      shipping_cost: shippingCost,
+      tax_amount: taxAmount / 100,
+      discount_amount: discountAmount,
+      coupon_code: couponCode,
+      total_amount: (subtotalAfterDiscount + shippingCost + (taxAmount / 100)),
+      shipping_address: shippingAddress,
+      shipping_state: state,
+      status: 'pending'
+    });
+
+    console.log('Order saved to database with pending status');
     return Response.json({ url: session.url });
   } catch (error) {
     console.error('Stripe checkout error:', error);

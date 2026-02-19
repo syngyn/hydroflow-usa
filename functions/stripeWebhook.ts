@@ -159,53 +159,81 @@ Deno.serve(async (req) => {
 
       console.log('Receipt copy sent to jason.rusk@hydroflow-usa.com');
 
-      // Save order to database
-      const orderItems = lineItems
-        .filter(item => !item.description.includes('Shipping') && !item.description.includes('Tax'))
-        .map(item => ({
-          name: item.description,
-          quantity: item.quantity,
-          unit_price: item.price.unit_amount / 100,
-          total_price: (item.price.unit_amount * item.quantity) / 100
-        }));
-
-      const shippingItem = lineItems.find(item => item.description.includes('Shipping'));
-      const taxItem = lineItems.find(item => item.description.includes('Tax'));
-      const subtotal = orderItems.reduce((sum, item) => sum + item.total_price, 0);
-
-      await base44.asServiceRole.entities.Order.create({
-        stripe_session_id: session.id,
-        stripe_payment_status: fullSession.payment_status === 'paid' ? 'paid' : 'pending',
-        customer_name: customerName,
-        customer_email: customerEmail,
-        customer_phone: customerPhone,
-        items: orderItems,
-        subtotal: subtotal,
-        shipping_cost: shippingItem ? shippingItem.price.unit_amount / 100 : 0,
-        tax_amount: taxItem ? taxItem.price.unit_amount / 100 : 0,
-        total_amount: fullSession.amount_total / 100,
-        billing_address: billingAddress,
-        shipping_address: shippingAddress,
-        shipping_state: shippingState,
-        status: 'processing'
+      // Update existing order in database
+      const existingOrders = await base44.asServiceRole.entities.Order.filter({
+        stripe_session_id: session.id
       });
 
-      console.log('Order saved to database');
+      if (existingOrders.length > 0) {
+        const orderId = existingOrders[0].id;
+        await base44.asServiceRole.entities.Order.update(orderId, {
+          stripe_payment_status: fullSession.payment_status === 'paid' ? 'paid' : 'pending',
+          customer_phone: customerPhone,
+          billing_address: billingAddress,
+          status: 'processing'
+        });
+        console.log('Order updated to processing status');
+      } else {
+        console.log('No existing order found, creating new one');
+        const orderItems = lineItems
+          .filter(item => !item.description.includes('Shipping') && !item.description.includes('Tax'))
+          .map(item => ({
+            name: item.description,
+            quantity: item.quantity,
+            unit_price: item.price.unit_amount / 100,
+            total_price: (item.price.unit_amount * item.quantity) / 100
+          }));
+
+        const shippingItem = lineItems.find(item => item.description.includes('Shipping'));
+        const taxItem = lineItems.find(item => item.description.includes('Tax'));
+        const subtotal = orderItems.reduce((sum, item) => sum + item.total_price, 0);
+
+        await base44.asServiceRole.entities.Order.create({
+          stripe_session_id: session.id,
+          stripe_payment_status: fullSession.payment_status === 'paid' ? 'paid' : 'pending',
+          customer_name: customerName,
+          customer_email: customerEmail,
+          customer_phone: customerPhone,
+          items: orderItems,
+          subtotal: subtotal,
+          shipping_cost: shippingItem ? shippingItem.price.unit_amount / 100 : 0,
+          tax_amount: taxItem ? taxItem.price.unit_amount / 100 : 0,
+          total_amount: fullSession.amount_total / 100,
+          billing_address: billingAddress,
+          shipping_address: shippingAddress,
+          shipping_state: shippingState,
+          status: 'processing'
+        });
+        console.log('Order saved to database');
+      }
     }
 
     if (event.type === 'checkout.session.expired' || event.type === 'payment_intent.payment_failed') {
       const session = event.data.object;
       
-      await base44.asServiceRole.entities.Order.create({
-        stripe_session_id: session.id,
-        stripe_payment_status: 'failed',
-        customer_email: session.customer_email || session.customer_details?.email || 'unknown@email.com',
-        customer_name: session.customer_details?.name || 'Unknown',
-        total_amount: (session.amount_total || 0) / 100,
-        status: 'failed'
+      // Update existing order to failed status
+      const existingOrders = await base44.asServiceRole.entities.Order.filter({
+        stripe_session_id: session.id
       });
 
-      console.log('Failed order saved to database');
+      if (existingOrders.length > 0) {
+        const orderId = existingOrders[0].id;
+        await base44.asServiceRole.entities.Order.update(orderId, {
+          stripe_payment_status: 'failed',
+          status: 'failed'
+        });
+        console.log('Order updated to failed status');
+      } else {
+        await base44.asServiceRole.entities.Order.create({
+          stripe_session_id: session.id,
+          stripe_payment_status: 'failed',
+          customer_email: session.customer_email || session.customer_details?.email || 'unknown@email.com',
+          customer_name: session.customer_details?.name || 'Unknown',
+          total_amount: (session.amount_total || 0) / 100,
+          status: 'failed'
+        });
+        console.log('Failed order saved to database');
+      }
     }
 
     return Response.json({ received: true });
