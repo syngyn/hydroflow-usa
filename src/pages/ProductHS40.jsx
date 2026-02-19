@@ -276,9 +276,25 @@ export default function ProductHS40() {
                 <p className="text-slate-700 mb-4">
                   <i>Hydro</i>FLOW residential devices are designed for ease of installation. With this said, it may be necessary to have your unit installed professionally, depending on the configuration of your plumbing system.
                 </p>
-                <p className="text-slate-700 mb-4">
+                <p className="text-slate-700 mb-6">
                   For additional technical information about these products, please visit our <Link to={createPageUrl('Technology')} className="text-cyan-600 hover:underline">technology page</Link>. If you have any questions or wish to locate a local representative, please <Link to={createPageUrl('Contact')} className="text-cyan-600 hover:underline">contact us</Link>.
                 </p>
+
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Product Resources</h3>
+                <div className="space-y-2 mb-6">
+                  <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/32bd5081f_HydroFLOW-hs40-User-Guide.pdf" target="_blank" rel="noopener noreferrer">
+                   <Button variant="outline" className="w-full justify-start">
+                     <Package className="w-4 h-4 mr-2" />
+                     Download <i>hs</i>40 User Guide (PDF)
+                   </Button>
+                  </a>
+                  <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6405df304_HydroFLOW-Residential-Brochure.pdf" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="w-full justify-start">
+                      <Package className="w-4 h-4 mr-2" />
+                      Download Residential Brochure (PDF)
+                    </Button>
+                  </a>
+                </div>
               </div>
 
               <div>
@@ -319,7 +335,7 @@ export default function ProductHS40() {
                 <p className="text-slate-700 mb-6">
                   <i>Hydro</i>FLOW devices are designed for ease of installation. Professional installation may be available in your area depending on your plumbing configuration.
                 </p>
-                <div className="aspect-video rounded-xl overflow-hidden bg-slate-100 mb-6">
+                <div className="aspect-video rounded-xl overflow-hidden bg-slate-100">
                   <iframe
                     src="https://player.vimeo.com/video/250662992"
                     width="100%"
@@ -329,20 +345,6 @@ export default function ProductHS40() {
                     allowFullScreen
                     className="w-full h-full"
                   ></iframe>
-                </div>
-                <div className="space-y-2">
-                  <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/32bd5081f_HydroFLOW-hs40-User-Guide.pdf" target="_blank" rel="noopener noreferrer">
-                   <Button variant="outline" className="w-full justify-start">
-                     <Package className="w-4 h-4 mr-2" />
-                     Download <i>hs</i>40 User Guide (PDF)
-                   </Button>
-                  </a>
-                  <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6405df304_HydroFLOW-Residential-Brochure.pdf" target="_blank" rel="noopener noreferrer">
-                    <Button variant="outline" className="w-full justify-start">
-                      <Package className="w-4 h-4 mr-2" />
-                      Download Residential Brochure (PDF)
-                    </Button>
-                  </a>
                 </div>
               </div>
             </TabsContent>
