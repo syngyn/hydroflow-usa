@@ -286,10 +286,10 @@ export default function ProductHS40() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Product Resources</h3>
                 <div className="space-y-2 mb-6">
                   <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/32bd5081f_HydroFLOW-hs40-User-Guide.pdf" target="_blank" rel="noopener noreferrer">
-                   <Button variant="outline" className="w-full justify-start">
-                     <Package className="w-4 h-4 mr-2" />
-                     Download <i>hs</i>40 User Guide (PDF)
-                   </Button>
+                  <Button variant="outline" className="w-full justify-start">
+                    <Package className="w-4 h-4 mr-2" />
+                    Download <i>hs40</i> User Guide (PDF)
+                  </Button>
                   </a>
                   <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6405df304_HydroFLOW-Residential-Brochure.pdf" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" className="w-full justify-start">
