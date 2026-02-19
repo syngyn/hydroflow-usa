@@ -33,6 +33,7 @@ Deno.serve(async (req) => {
       const lineItems = fullSession.line_items?.data || [];
       const shippingState = fullSession.metadata?.shipping_state || '';
       const shippingAddress = fullSession.metadata?.shipping_address ? JSON.parse(fullSession.metadata.shipping_address) : null;
+      const billingAddress = fullSession.customer_details?.address || null;
 
       // Build order items HTML
       let itemsHtml = '';
@@ -183,6 +184,7 @@ Deno.serve(async (req) => {
         shipping_cost: shippingItem ? shippingItem.price.unit_amount / 100 : 0,
         tax_amount: taxItem ? taxItem.price.unit_amount / 100 : 0,
         total_amount: fullSession.amount_total / 100,
+        billing_address: billingAddress,
         shipping_address: shippingAddress,
         shipping_state: shippingState,
         status: 'processing'
