@@ -75,21 +75,11 @@ Deno.serve(async (req) => {
     const discountAmount = parseFloat(couponDiscount) || 0;
     const subtotalAfterDiscount = Math.max(0, subtotal - discountAmount);
     
-    // If there's a discount, apply it proportionally to cart items
+    // Apply discount proportionally to cart items before sending to Stripe
     if (discountAmount > 0 && subtotal > 0) {
       const discountRatio = 1 - (discountAmount / subtotal);
       lineItems.forEach(item => {
         item.price_data.unit_amount = Math.round(item.price_data.unit_amount * discountRatio);
-      });
-      
-      // Add a line item showing the discount
-      lineItems.push({
-        price_data: {
-          currency: 'usd',
-          product_data: { name: `✓ Discount Applied: ${couponCode || 'Coupon'}` },
-          unit_amount: 1,
-        },
-        quantity: 1,
       });
     }
     
