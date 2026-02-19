@@ -300,12 +300,7 @@ export default function ProductHS40() {
                 </div>
               </div>
 
-              <div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">About <i>Hydro</i>FLOW <i>hs</i>40</h3>
-                <p className="text-slate-700">
-                  The <i>hs</i>40 is a descaler and chemical Reducer for pools, large homes and commercial kitchens. It is designed to protect your heating system and appliances and make limescale-stained surfaces easier to clean.
-                </p>
-              </div>
+
             </TabsContent>
 
             <TabsContent value="specs" className="space-y-4">
