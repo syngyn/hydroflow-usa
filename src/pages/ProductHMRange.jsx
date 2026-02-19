@@ -24,7 +24,7 @@ export default function ProductHMRange() {
             <span>/</span>
             <Link to={createPageUrl('Products')} className="hover:text-cyan-600">Products</Link>
             <span>/</span>
-            <span className="text-slate-900">hm Range</span>
+            <span className="text-slate-900"><i>hm</i> Range</span>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ export default function ProductHMRange() {
               </h1>
 
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                The Hydropath Marine hm Range is specifically designed for operation on marine vessels. It provides water treatment benefits, including scale protection and biofouling control, in both fresh and sea water. Fully encapsulated and waterproof with IP68 rating and specially-designed surge protector.
+                The Hydropath Marine <i>hm</i> Range is specifically designed for operation on marine vessels. It provides water treatment benefits, including scale protection and biofouling control, in both fresh and sea water. Fully encapsulated and waterproof with IP68 rating and specially-designed surge protector.
               </p>
 
               <div className="mb-6">
@@ -289,8 +289,8 @@ export default function ProductHMRange() {
                 <div className="space-y-3">
                   {[
                     'Hydropath Marine Brochure',
-                    'Hydropath hm Range Specification',
-                    'Hydropath hm Range Installation Guide'
+                    'Hydropath <i>hm</i> Range Specification',
+                    'Hydropath <i>hm</i> Range Installation Guide'
                   ].map((doc) => (
                     <Button 
                       key={doc} 
@@ -299,9 +299,9 @@ export default function ProductHMRange() {
                       onClick={() => {
                         if (doc === 'Hydropath Marine Brochure') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9306506ea_Marine-Brochure.pdf', '_blank');
-                        } else if (doc === 'Hydropath hm Range Specification') {
+                        } else if (doc === 'Hydropath <i>hm</i> Range Specification') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/31da6063b_HydropathMarineSpecGuide.pdf', '_blank');
-                        } else if (doc === 'Hydropath hm Range Installation Guide') {
+                        } else if (doc === 'Hydropath <i>hm</i> Range Installation Guide') {
                           window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/55130d803_HydropathMarineHMRangeInstallationGuide.pdf', '_blank');
                         }
                       }}
