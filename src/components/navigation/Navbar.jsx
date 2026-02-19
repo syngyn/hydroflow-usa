@@ -55,10 +55,10 @@ export default function Navbar() {
         { name: 'Product Selection Tool', href: 'ProductSelectionTool' },
         { name: 'Pearl', href: 'ProductPearl' },
         { name: 'Pearl Plus', href: 'ProductPearlPlus' },
-        { name: <><i>hs</i>40</>, href: 'ProductHS40' },
+        { name: <span><i>hs</i>40</span>, href: 'ProductHS40' },
         { name: 'Bundle & Save', href: 'BundleDeal' },
-        { name: <><i>i</i>Range</>, href: 'ProductIRange' },
-        { name: <><i>hm</i>Range</>, href: 'ProductHMRange' },
+        { name: <span><i>i</i>Range</span>, href: 'ProductIRange' },
+        { name: <span><i>hm</i>Range</span>, href: 'ProductHMRange' },
         { name: 'Filter Cartridges', href: 'FilterCartridges' },
         { name: 'Filter Housings', href: 'FilterHousings' },
       ]
