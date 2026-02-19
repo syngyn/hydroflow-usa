@@ -23,7 +23,7 @@ Deno.serve(async (req) => {
     }
 
     body = JSON.parse(text);
-    const { cart, state, customerEmail, customerName, frontendUrl, billingAddress, shippingAddress, couponDiscount, couponCode } = body;
+    const { cart, state, customerEmail, customerName, frontendUrl, shippingAddress, couponDiscount, couponCode } = body;
 
     console.log('Request received:', { state, customerEmail, cartLength: cart?.length });
 
@@ -119,7 +119,8 @@ Deno.serve(async (req) => {
       metadata: {
         base44_app_id: Deno.env.get('BASE44_APP_ID'),
         customer_name: customerName,
-        state: state,
+        shipping_state: state,
+        shipping_address: JSON.stringify(shippingAddress),
       },
     });
 
