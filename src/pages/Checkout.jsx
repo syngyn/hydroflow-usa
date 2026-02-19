@@ -115,8 +115,8 @@ export default function Checkout() {
   };
 
   const calculateTax = () => {
-    const billingState = formData.billingState;
-    if (billingState === 'WA') {
+    const taxState = shippingDifferent ? formData.shippingState : formData.billingState;
+    if (taxState === 'WA') {
       return getCartTotal() * 0.105;
     }
     return 0;
@@ -169,14 +169,16 @@ export default function Checkout() {
       return;
     }
 
-    if (!formData.billingAddress || !formData.billingCity || !formData.billingState || !formData.billingZip) {
-      toast.error('Please fill in billing address');
-      return;
-    }
-
-    if (shippingDifferent && (!formData.shippingAddress || !formData.shippingCity || !formData.shippingState || !formData.shippingZip)) {
-      toast.error('Please fill in shipping address');
-      return;
+    if (!shippingDifferent) {
+      if (!formData.billingAddress || !formData.billingCity || !formData.billingState || !formData.billingZip) {
+        toast.error('Please fill in billing address');
+        return;
+      }
+    } else {
+      if (!formData.shippingAddress || !formData.shippingCity || !formData.shippingState || !formData.shippingZip) {
+        toast.error('Please fill in shipping address');
+        return;
+      }
     }
 
     if (isInIframe) {
@@ -198,13 +200,6 @@ export default function Checkout() {
         frontendUrl: window.location.origin,
         couponDiscount: appliedCoupon ? appliedCoupon.discount_amount : 0,
         couponCode: appliedCoupon ? appliedCoupon.coupon.code : null,
-        billingAddress: {
-          line1: formData.billingAddress,
-          city: formData.billingCity,
-          state: formData.billingState,
-          postal_code: formData.billingZip,
-          country: 'US',
-        },
         shippingAddress: shippingDifferent ? {
           line1: formData.shippingAddress,
           city: formData.shippingCity,
