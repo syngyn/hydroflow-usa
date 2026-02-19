@@ -55,20 +55,10 @@ const productRecommendations = {
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
   },
   residential_large_wholehouse: {
-    products: [
-      {
-        product: 'Pearl',
-        page: 'ProductPearl',
-        image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg'
-      },
-      {
-        product: 'Pearl Plus',
-        page: 'ProductPearlPlus',
-        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
-      }
-    ],
-    reason: 'For large properties, we recommend using both a Pearl and Pearl Plus for comprehensive coverage',
-    multiProduct: true
+    product: 'Bundle Deal',
+    page: 'BundleDeal',
+    reason: 'Perfect for large properties - includes Pearl and Pearl Plus for comprehensive coverage up to 4,000 sq ft',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg'
   },
   residential_pool: {
     product: 'hs40',
@@ -111,14 +101,9 @@ const productRecommendations = {
   residential_large_both: {
     products: [
       {
-        product: 'Pearl',
-        page: 'ProductPearl',
-        image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg'
-      },
-      {
-        product: 'Pearl Plus',
-        page: 'ProductPearlPlus',
-        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
+        product: 'Bundle Deal',
+        page: 'BundleDeal',
+        image: 'https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg'
       },
       {
         product: 'hs40',
@@ -126,7 +111,7 @@ const productRecommendations = {
         image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
       }
     ],
-    reason: 'Pearl and Pearl Plus for your large home plus hs40 for your pool/spa - comprehensive coverage',
+    reason: 'Bundle Deal for your large home and hs40 for your pool/spa - comprehensive coverage',
     multiProduct: true
   },
   commercial: {
