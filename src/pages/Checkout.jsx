@@ -74,6 +74,9 @@ export default function Checkout() {
   const [selectedState, setSelectedState] = useState('WA');
   const [isInIframe, setIsInIframe] = useState(false);
   const [shippingDifferent, setShippingDifferent] = useState(false);
+  const [couponCode, setCouponCode] = useState('');
+  const [appliedCoupon, setAppliedCoupon] = useState(null);
+  const [couponLoading, setCouponLoading] = useState(false);
 
   const [formData, setFormData] = useState({
     firstName: '',
@@ -119,8 +122,45 @@ export default function Checkout() {
     return 0;
   };
 
+  const calculateDiscount = () => {
+    if (!appliedCoupon) return 0;
+    return appliedCoupon.discount_amount || 0;
+  };
+
   const calculateTotal = () => {
-    return getCartTotal() + getShippingCost() + calculateTax();
+    return getCartTotal() + getShippingCost() + calculateTax() - calculateDiscount();
+  };
+
+  const handleApplyCoupon = async () => {
+    if (!couponCode.trim()) {
+      toast.error('Please enter a coupon code');
+      return;
+    }
+
+    setCouponLoading(true);
+    try {
+      const response = await base44.functions.invoke('validateCoupon', {
+        code: couponCode.trim(),
+        subtotal: getCartTotal()
+      });
+
+      if (response?.data?.valid) {
+        setAppliedCoupon(response.data);
+        toast.success(`Coupon applied! You saved $${response.data.discount_amount.toFixed(2)}`);
+      }
+    } catch (error) {
+      const errorMessage = error?.response?.data?.error || 'Invalid coupon code';
+      toast.error(errorMessage);
+      setAppliedCoupon(null);
+    } finally {
+      setCouponLoading(false);
+    }
+  };
+
+  const handleRemoveCoupon = () => {
+    setAppliedCoupon(null);
+    setCouponCode('');
+    toast.success('Coupon removed');
   };
 
   const handleCheckout = async () => {
@@ -156,6 +196,8 @@ export default function Checkout() {
         customerEmail: formData.email,
         customerName: `${formData.firstName} ${formData.lastName}`,
         frontendUrl: window.location.origin,
+        couponDiscount: appliedCoupon ? appliedCoupon.discount_amount : 0,
+        couponCode: appliedCoupon ? appliedCoupon.coupon.code : null,
         billingAddress: {
           line1: formData.billingAddress,
           city: formData.billingCity,
@@ -434,6 +476,43 @@ export default function Checkout() {
                   ))}
                 </div>
 
+                {/* Coupon Code */}
+                <div className="border-t pt-4 mb-4">
+                  <Label className="text-sm font-semibold text-slate-900 mb-2">Have a coupon code?</Label>
+                  <div className="flex gap-2 mt-2">
+                    <Input
+                      value={couponCode}
+                      onChange={(e) => setCouponCode(e.target.value.toUpperCase())}
+                      placeholder="Enter code"
+                      disabled={appliedCoupon !== null}
+                      className="rounded-xl"
+                    />
+                    {appliedCoupon ? (
+                      <Button
+                        onClick={handleRemoveCoupon}
+                        variant="outline"
+                        className="rounded-xl whitespace-nowrap"
+                      >
+                        Remove
+                      </Button>
+                    ) : (
+                      <Button
+                        onClick={handleApplyCoupon}
+                        disabled={couponLoading}
+                        className="bg-cyan-600 hover:bg-cyan-700 rounded-xl whitespace-nowrap"
+                      >
+                        {couponLoading ? 'Checking...' : 'Apply'}
+                      </Button>
+                    )}
+                  </div>
+                  {appliedCoupon && (
+                    <div className="mt-2 flex items-center gap-2 text-sm text-green-600">
+                      <CheckCircle2 className="w-4 h-4" />
+                      <span>Coupon "{appliedCoupon.coupon.code}" applied</span>
+                    </div>
+                  )}
+                </div>
+
                 <div className="border-t pt-4 space-y-3">
                   <div className="flex justify-between text-slate-600">
                     <span>Subtotal</span>
@@ -454,6 +533,12 @@ export default function Checkout() {
                       ${calculateTax().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                     </span>
                   </div>
+                  {appliedCoupon && (
+                    <div className="flex justify-between text-green-600 font-medium">
+                      <span>Discount ({appliedCoupon.coupon.code})</span>
+                      <span>-${calculateDiscount().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                    </div>
+                  )}
                   <div className="border-t pt-3">
                     <div className="flex justify-between text-xl font-bold text-slate-900">
                       <span>Total</span>

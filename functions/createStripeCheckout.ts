@@ -16,14 +16,14 @@ Deno.serve(async (req) => {
     const clonedReq = req.clone();
     const text = await clonedReq.text();
     console.log('Raw body length:', text?.length || 0);
-    
+
     if (!text || text.trim() === '') {
       console.error('Empty request body received');
       return Response.json({ error: 'Request body is empty' }, { status: 400 });
     }
-    
+
     body = JSON.parse(text);
-    const { cart, state, customerEmail, customerName, frontendUrl, billingAddress, shippingAddress } = body;
+    const { cart, state, customerEmail, customerName, frontendUrl, billingAddress, shippingAddress, couponDiscount, couponCode } = body;
 
     console.log('Request received:', { state, customerEmail, cartLength: cart?.length });
 
@@ -72,7 +72,9 @@ Deno.serve(async (req) => {
 
     // Calculate subtotal for tax
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    const taxAmount = Math.round(subtotal * taxRate * 100);
+    const discountAmount = couponDiscount || 0;
+    const subtotalAfterDiscount = Math.max(0, subtotal - discountAmount);
+    const taxAmount = Math.round(subtotalAfterDiscount * taxRate * 100);
 
     // Add shipping
     lineItems.push({
@@ -83,6 +85,18 @@ Deno.serve(async (req) => {
       },
       quantity: 1,
     });
+
+    // Add discount if applicable
+    if (discountAmount > 0) {
+      lineItems.push({
+        price_data: {
+          currency: 'usd',
+          product_data: { name: `Discount (${couponCode || 'Coupon'})` },
+          unit_amount: -Math.round(discountAmount * 100),
+        },
+        quantity: 1,
+      });
+    }
 
     // Add tax if applicable
     if (taxAmount > 0) {
