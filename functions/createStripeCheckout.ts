@@ -1,6 +1,6 @@
 import Stripe from 'npm:stripe@17.5.0';
 
-const stripe = new Stripe(Deno.env.get('STRIPE_SECRET_KEY'));
+const stripe = new Stripe(Deno.env.get('STRIPE_TEST_SECRET_KEY'));
 
 Deno.serve(async (req) => {
   // Only handle POST requests - GET requests should go to frontend pages
@@ -72,7 +72,7 @@ Deno.serve(async (req) => {
 
     // Calculate subtotal for tax
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    const discountAmount = couponDiscount || 0;
+    const discountAmount = parseFloat(couponDiscount) || 0;
     const subtotalAfterDiscount = Math.max(0, subtotal - discountAmount);
     const taxAmount = Math.round(subtotalAfterDiscount * taxRate * 100);
 
