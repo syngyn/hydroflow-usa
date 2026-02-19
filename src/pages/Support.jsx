@@ -27,7 +27,7 @@ const installationGuides = [
   {
     product: 'Pearl',
     videoUrl: 'https://player.vimeo.com/video/1127697487',
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Installation-Instructions-230524.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f20a0ef50_HydroFLOW-Pearl-User-Guide.pdf',
     steps: [
       'Locate the cold-water line going into the hot water tank',
       'Attach the unit around the pipe as close as possible to the hot water tank',
