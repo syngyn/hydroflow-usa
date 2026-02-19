@@ -262,7 +262,7 @@ export default function ProductHS40() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Additional Benefits</h3>
                 <ul className="space-y-2 mb-4">
                   {[
-                    'Non-intrusive and easy to install - no plumbing modifications required.',
+                    'Non-intrusive and easy to install – no plumbing modifications required.',
                     'Propagates the Hydropath signal along with the entire water system.',
                     'Provides 24-hour protection.',
                     'Does not interfere with other electrical systems.'
@@ -280,7 +280,7 @@ export default function ProductHS40() {
                   <i>Hydro</i>FLOW residential devices are designed for ease of installation. With this said, it may be necessary to have your unit installed professionally, depending on the configuration of your plumbing system.
                 </p>
                 <p className="text-slate-700 mb-6">
-                  For additional technical information about these products, please visit our <Link to={createPageUrl('Technology')} className="text-cyan-600 hover:underline">technology page</Link>. If you have any questions or wish to locate a local representative, please <Link to={createPageUrl('Contact')} className="text-cyan-600 hover:underline">contact us</Link>.
+                  For additional technical information about these products, please visit our <Link to={createPageUrl('Technology')} className="text-cyan-600 hover:underline">technology page</Link>.
                 </p>
 
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Product Resources</h3>
