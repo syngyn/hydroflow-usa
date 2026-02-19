@@ -134,7 +134,10 @@ export default function ProductHS40() {
               </div>
 
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                Designed to protect pools, spas and commercial kitchens from the destructive effects of scale and biofilm. Decreases the risk of a waterborne pathogenic contamination. The award-winning <i>hs</i>40 water conditioner provides a chemical-free solution for the harmful effects of scale, corrosion, bacteria, and algae.
+                The award-winning <i>hs</i>40 water conditioner provides a chemical-free solution for the harmful effects of scale, corrosion, bacteria, and algae in residential, swimming pools, and small commercial applications. In addition, the <i>hs</i>40 increases filtration efficiency via flocculation. This powerful and durable water conditioner provides a fully encapsulated printed circuit board and power supply connection sealed with an 'O' ring. The <i>hs</i>40 fits pipes up to 63mm (2.5") outer diameter.
+              </p>
+              <p className="text-lg text-slate-700 mb-6 leading-relaxed">
+                The <i>hs</i>40 device was awarded the prestigious 2015 Kitchen Innovations Award by the National Restaurant Association. This award recognizes and celebrates cutting-edge equipment and technology that specifically improves the "back of the house" operations and benefits foodservice operators.
               </p>
 
               <div className="mb-6">
