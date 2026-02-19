@@ -125,10 +125,10 @@ const videoResources = [
 
 const downloadableResources = [
   {
-    title: 'Pearl Installation Instructions',
+    title: 'Pearl User Guide',
     type: 'PDF',
     size: '2.4 MB',
-    url: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Installation-Instructions-230524.pdf'
+    url: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f20a0ef50_HydroFLOW-Pearl-User-Guide.pdf'
   },
   {
     title: 'Pearl Plus Installation Instructions',
