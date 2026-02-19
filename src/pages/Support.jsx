@@ -49,7 +49,7 @@ const installationGuides = [
   {
     product: 'hs40',
     videoUrl: 'https://player.vimeo.com/video/250663038',
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/HS40-Installation-Manual-230524.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f5783e0fb_HydroFLOW-hs40-User-Guide.pdf',
     steps: [
       'Identify installation point on main line or pool circulation',
       'Mount hs40 unit on pipe using provided straps',
@@ -137,10 +137,10 @@ const downloadableResources = [
     url: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6c97dfa30_HydroFLOW-Pearl-Plus-User-Guide-2026.pdf'
   },
   {
-    title: 'hs40 Installation Manual',
+    title: 'hs40 User Guide',
     type: 'PDF',
     size: '3.2 MB',
-    url: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/HS40-Installation-Manual-230524.pdf'
+    url: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f5783e0fb_HydroFLOW-hs40-User-Guide.pdf'
   }
 ];
 
