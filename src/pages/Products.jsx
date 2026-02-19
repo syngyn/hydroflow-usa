@@ -87,7 +87,7 @@ const products = [
       'Light commercial applications',
       'Large residential properties'
     ],
-    description: 'Industrial-strength protection for pools, spas, and light commercial use.'
+    description: 'Industrial-strength protection for pools, spas, and light commercial use. This is a do it yourself (DIY) product, but professional installation may be available in your area.'
   },
   {
     id: 'sediment-20',
