@@ -72,7 +72,7 @@ const troubleshootingFAQs = [
   },
   {
     question: 'Can I install it myself?',
-    answer: 'Yes! Pearl and Pearl Plus are designed for easy DIY installation. Simply clamp the unit onto your main water line and plug it in. No plumbing modifications needed. For commercial/industrial units, professional installation is recommended.'
+    answer: 'Yes! Pearl, Pearl Plus, and hs40 are designed for easy DIY installation. Simply clamp the unit onto your main water line and plug it in. No plumbing modifications needed. For commercial/industrial units, professional installation is recommended.'
   },
   {
     question: 'Do I need to maintain the unit?',
