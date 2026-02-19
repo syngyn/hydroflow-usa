@@ -71,7 +71,7 @@ const productRecommendations = {
     multiProduct: true
   },
   residential_pool: {
-    product: 'hs40',
+    product: <><i>hs</i>40</>,
     page: 'ProductHS40',
     reason: 'Industrial-strength protection for pools and spas',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
@@ -84,12 +84,12 @@ const productRecommendations = {
         image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg'
       },
       {
-        product: 'hs40',
+        product: <><i>hs</i>40</>,
         page: 'ProductHS40',
         image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
       }
     ],
-    reason: 'Pearl for your home plumbing and hs40 for your pool/spa - complete protection',
+    reason: 'Pearl for your home plumbing and <i>hs</i>40 for your pool/spa - complete protection',
     multiProduct: true
   },
   residential_medium_both: {
@@ -100,12 +100,12 @@ const productRecommendations = {
         image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
       },
       {
-        product: 'hs40',
+        product: <><i>hs</i>40</>,
         page: 'ProductHS40',
         image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
       }
     ],
-    reason: 'Pearl Plus for your home plumbing and hs40 for your pool/spa - complete protection',
+    reason: 'Pearl Plus for your home plumbing and <i>hs</i>40 for your pool/spa - complete protection',
     multiProduct: true
   },
   residential_large_both: {
@@ -121,12 +121,12 @@ const productRecommendations = {
         image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
       },
       {
-        product: 'hs40',
+        product: <><i>hs</i>40</>,
         page: 'ProductHS40',
         image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
       }
     ],
-    reason: 'Pearl and Pearl Plus for your large home plus hs40 for your pool/spa - comprehensive coverage',
+    reason: 'Pearl and Pearl Plus for your large home plus <i>hs</i>40 for your pool/spa - comprehensive coverage',
     multiProduct: true
   },
   commercial: {
@@ -244,7 +244,7 @@ export default function ProductSelectionTool() {
             >
               {/* Intro Text */}
               <p className="text-xl font-bold text-slate-900 text-left mb-8 sm:whitespace-nowrap">
-                Answer a few questions to find the ideal HydroFLOW product for your needs
+                Answer a few questions to find the ideal <i>Hydro</i>FLOW product for your needs
               </p>
 
               {/* Progress Bar */}
@@ -353,7 +353,7 @@ export default function ProductSelectionTool() {
                             className="h-40 w-auto mx-auto object-contain mb-4"
                           />
                           <h4 className="text-xl font-bold text-slate-900">
-                            HydroFLOW {prod.product}
+                            <i>Hydro</i>FLOW {prod.product}
                           </h4>
                         </div>
                       ))}
@@ -383,7 +383,7 @@ export default function ProductSelectionTool() {
                       />
                     </div>
                     <h3 className="text-3xl font-bold text-slate-900 mb-3">
-                      HydroFLOW {getRecommendation().product}
+                      <i>Hydro</i>FLOW {getRecommendation().product}
                     </h3>
                     <p className="text-lg text-slate-600 mb-8">
                       {getRecommendation().reason}
