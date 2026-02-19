@@ -57,8 +57,8 @@ export default function Navbar() {
         { name: 'Pearl Plus', href: 'ProductPearlPlus' },
         { name: <><i>hs</i>40</>, href: 'ProductHS40' },
         { name: 'Bundle & Save', href: 'BundleDeal' },
-        { name: <><i>i</i> Range</>, href: 'ProductIRange' },
-        { name: <><i>hm</i> Range</>, href: 'ProductHMRange' },
+        { name: <><i>i</i>Range</>, href: 'ProductIRange' },
+        { name: <><i>hm</i>Range</>, href: 'ProductHMRange' },
         { name: 'Filter Cartridges', href: 'FilterCartridges' },
         { name: 'Filter Housings', href: 'FilterHousings' },
       ]
