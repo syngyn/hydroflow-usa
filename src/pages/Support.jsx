@@ -38,7 +38,7 @@ const installationGuides = [
   {
     product: 'Pearl Plus',
     videoUrl: 'https://player.vimeo.com/video/1128025470',
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Plus-Installation-Instructions-230524.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6c97dfa30_HydroFLOW-Pearl-Plus-User-Guide-2026.pdf',
     steps: [
       'Locate the cold-water line going into the hot water tank',
       'Attach the unit around the pipe as close as possible to the hot water tank',
@@ -131,10 +131,10 @@ const downloadableResources = [
     url: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f20a0ef50_HydroFLOW-Pearl-User-Guide.pdf'
   },
   {
-    title: 'Pearl Plus Installation Instructions',
+    title: 'Pearl Plus User Guide',
     type: 'PDF',
     size: '2.6 MB',
-    url: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Pearl-Plus-Installation-Instructions-230524.pdf'
+    url: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6c97dfa30_HydroFLOW-Pearl-Plus-User-Guide-2026.pdf'
   },
   {
     title: 'hs40 Installation Manual',
