@@ -76,6 +76,18 @@ Deno.serve(async (req) => {
     const subtotalAfterDiscount = Math.max(0, subtotal - discountAmount);
     const taxAmount = Math.round(subtotalAfterDiscount * taxRate * 100);
 
+    // Add discount as a separate line item (must be positive amount)
+    if (discountAmount > 0) {
+      lineItems.push({
+        price_data: {
+          currency: 'usd',
+          product_data: { name: `Discount (${couponCode || 'Coupon'})` },
+          unit_amount: Math.round(discountAmount * 100),
+        },
+        quantity: -1, // Negative quantity to subtract from total
+      });
+    }
+
     // Add shipping
     lineItems.push({
       price_data: {
@@ -85,18 +97,6 @@ Deno.serve(async (req) => {
       },
       quantity: 1,
     });
-
-    // Add discount if applicable
-    if (discountAmount > 0) {
-      lineItems.push({
-        price_data: {
-          currency: 'usd',
-          product_data: { name: `Discount (${couponCode || 'Coupon'})` },
-          unit_amount: -Math.round(discountAmount * 100),
-        },
-        quantity: 1,
-      });
-    }
 
     // Add tax if applicable
     if (taxAmount > 0) {
