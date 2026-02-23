@@ -890,8 +890,13 @@ export default function CaseStudies() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: Math.min(index * 0.05, 0.5) }}
               >
-                <Link to={study.slug ? createPageUrl('CaseStudyDetail') + '?slug=' + study.slug : '#'}>
-                  <Card className="h-full overflow-hidden hover:shadow-xl transition-all group cursor-pointer">
+                {study.externalUrl ? (
+                  <a href={study.externalUrl} target="_blank" rel="noopener noreferrer">
+                    <Card className="h-full overflow-hidden hover:shadow-xl transition-all group cursor-pointer">
+                ) : (
+                  <Link to={study.slug ? createPageUrl('CaseStudyDetail') + '?slug=' + study.slug : '#'}>
+                    <Card className="h-full overflow-hidden hover:shadow-xl transition-all group cursor-pointer">
+                )}
                   {study.image && (
                     <div className="h-48 overflow-hidden bg-slate-100">
                       <img 
