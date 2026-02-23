@@ -953,7 +953,7 @@ export default function CaseStudies() {
                     )}
                   </div>
                 </Card>
-                </Link>
+                {study.externalUrl ? </a> : </Link>}
               </motion.div>
             ))}
             </div>
