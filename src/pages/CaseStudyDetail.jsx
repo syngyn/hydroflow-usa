@@ -44,7 +44,7 @@ const caseStudyData = {
     image: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/sludge-line-i150.jpg',
     customer: 'A wastewater treatment plant in Chicago Illinois.',
     application: 'Struvite scale treatment.',
-    installedUnits: 'HydroFLOW i150 unit.',
+    installedUnits: '<><i>Hydro</i>FLOW i150 unit.</>',
     background: 'Struvite accumulation in the plant\'s digested sludge line causes reduced flow rates, leading to shut down and chemical cleaning of the 2-mile underground line to restore necessary flow rates.',
     results: [
       'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.'
@@ -57,7 +57,7 @@ const caseStudyData = {
     image: 'https://hydroflow-usa.com/wp-content/uploads/2026/02/Screw-Press-case-Study_struvite-1.webp',
     customer: 'A wastewater treatment plant in the State of Utah, United States.',
     application: 'Struvite scale treatment',
-    installedUnits: 'HydroFLOW Custom i8″',
+    installedUnits: '<>HydroFLOW Custom i8″</>',
     background: 'Struvite accumulation in the plant\'s two screw presses is a constant and costly maintenance issue.',
     results: [
       'After 30 days, the press did not require cleaning, and only had a little mud-like Struvite accumulation',
@@ -1208,7 +1208,7 @@ export default function CaseStudyDetail() {
                 Ready to Experience Similar Results?
               </h3>
               <p className="text-slate-600 mb-6 max-w-xl mx-auto">
-                Contact us to learn how HydroFLOW can solve your water treatment challenges.
+                Contact us to learn how <i>Hydro</i>FLOW can solve your water treatment challenges.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to={createPageUrl('Products')}>
