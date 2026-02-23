@@ -215,6 +215,17 @@ const caseStudies = [
     application_type: ['Wastewater Treatment'],
     products_used: ['iRange']
   },
+  {
+    category: 'industrial',
+    title: 'Screw Press Struvite Treatment',
+    slug: 'screw-press-struvite-treatment',
+    description: 'Industrial wastewater treatment facility using <i>Hydro</i>FLOW technology to combat struvite buildup on screw press equipment.',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/sludge-line-i150.jpg',
+    results: ['Reduced struvite buildup', 'Improved equipment performance', 'Lower maintenance costs'],
+    externalUrl: 'https://hydroflow-usa.com/case-studies/industrial-case-studies/screw-press-struvite-treatment/',
+    application_type: ['Wastewater Treatment'],
+    products_used: ['iRange']
+  },
 
   // Commercial
   {
