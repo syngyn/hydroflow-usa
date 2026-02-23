@@ -44,12 +44,26 @@ const caseStudyData = {
     image: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/sludge-line-i150.jpg',
     customer: 'A wastewater treatment plant in Chicago Illinois.',
     application: 'Struvite scale treatment.',
-    installedUnits: 'HydroFLOW i150 unit.',
+    installedUnits: '<i>Hydro</i>FLOW i150 unit.',
     background: 'Struvite accumulation in the plant\'s digested sludge line causes reduced flow rates, leading to shut down and chemical cleaning of the 2-mile underground line to restore necessary flow rates.',
     results: [
-      'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.'
+      'After 3 months of operation, <i>Hydro</i>FLOW was able to reduce scaling and maintain consistent flow rates.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
+  },
+  'screw-press-struvite-treatment': {
+    category: 'industrial',
+    title: 'Screw Press Struvite Treatment',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2026/02/Screw-Press-case-Study_struvite-1.webp',
+    customer: 'A wastewater treatment plant in the State of Utah, United States.',
+    application: 'Struvite scale treatment',
+    installedUnits: '<i>Hydro</i>FLOW Custom i8″',
+    background: 'Struvite accumulation in the plant\'s two screw presses is a constant and costly maintenance issue.',
+    results: [
+      'After 30 days, the press did not require cleaning, and only had a little mud-like Struvite accumulation',
+      'After 60 days, the press was pressure washed, taking less than 4 hours to complete instead of the typical 30 hours with chemicals'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2026/02/HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf'
   },
   'gold-leed-campus': {
     category: 'commercial',
