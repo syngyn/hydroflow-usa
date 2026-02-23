@@ -215,17 +215,6 @@ const caseStudies = [
     application_type: ['Wastewater Treatment'],
     products_used: ['iRange']
   },
-  {
-    category: 'industrial',
-    title: 'Screw Press Struvite Treatment',
-    slug: 'screw-press-struvite-treatment',
-    description: 'Industrial wastewater treatment facility using <i>Hydro</i>FLOW technology to combat struvite buildup on screw press equipment.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/sludge-line-i150.jpg',
-    results: ['Reduced struvite buildup', 'Improved equipment performance', 'Lower maintenance costs'],
-    externalUrl: 'https://hydroflow-usa.com/case-studies/industrial-case-studies/screw-press-struvite-treatment/',
-    application_type: ['Wastewater Treatment'],
-    products_used: ['iRange']
-  },
 
   // Commercial
   {
@@ -883,9 +872,15 @@ export default function CaseStudies() {
             </div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredStudies.map((study, index) => {
-              const cardContent = (
-                <Card className="h-full overflow-hidden hover:shadow-xl transition-all group cursor-pointer">
+            {filteredStudies.map((study, index) => (
+              <motion.div
+                key={`${study.category}-${index}`}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: Math.min(index * 0.05, 0.5) }}
+              >
+                <Link to={study.slug ? createPageUrl('CaseStudyDetail') + '?slug=' + study.slug : '#'}>
+                  <Card className="h-full overflow-hidden hover:shadow-xl transition-all group cursor-pointer">
                   {study.image && (
                     <div className="h-48 overflow-hidden bg-slate-100">
                       <img 
@@ -942,27 +937,9 @@ export default function CaseStudies() {
                     )}
                   </div>
                 </Card>
-              );
-
-              return (
-                <motion.div
-                  key={`${study.category}-${index}`}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: Math.min(index * 0.05, 0.5) }}
-                >
-                  {study.externalUrl ? (
-                    <a href={study.externalUrl} target="_blank" rel="noopener noreferrer">
-                      {cardContent}
-                    </a>
-                  ) : (
-                    <Link to={study.slug ? createPageUrl('CaseStudyDetail') + '?slug=' + study.slug : '#'}>
-                      {cardContent}
-                    </Link>
-                  )}
-                </motion.div>
-              );
-            })}
+                </Link>
+              </motion.div>
+            ))}
             </div>
           )}
         </div>
