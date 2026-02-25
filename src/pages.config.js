@@ -111,6 +111,13 @@ import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import AlabamaWaterHardness from './pages/AlabamaWaterHardness';
+import AlaskaWaterHardness from './pages/AlaskaWaterHardness';
+import ArizonaWaterHardness from './pages/ArizonaWaterHardness';
+import ArkansasWaterHardness from './pages/ArkansasWaterHardness';
+import CaliforniaWaterHardness from './pages/CaliforniaWaterHardness';
+import ColoradoWaterHardness from './pages/ColoradoWaterHardness';
+import ConnecticutWaterHardness from './pages/ConnecticutWaterHardness';
+import DelawareWaterHardness from './pages/DelawareWaterHardness';
 import __Layout from './Layout.jsx';
 
 
@@ -179,6 +186,13 @@ export const PAGES = {
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
     "AlabamaWaterHardness": AlabamaWaterHardness,
+    "AlaskaWaterHardness": AlaskaWaterHardness,
+    "ArizonaWaterHardness": ArizonaWaterHardness,
+    "ArkansasWaterHardness": ArkansasWaterHardness,
+    "CaliforniaWaterHardness": CaliforniaWaterHardness,
+    "ColoradoWaterHardness": ColoradoWaterHardness,
+    "ConnecticutWaterHardness": ConnecticutWaterHardness,
+    "DelawareWaterHardness": DelawareWaterHardness,
 }
 
 export const pagesConfig = {
