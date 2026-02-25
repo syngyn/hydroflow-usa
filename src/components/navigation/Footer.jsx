@@ -162,6 +162,9 @@ export default function Footer({ currentPageName }) {
               <Link to={createPageUrl('Warranty')} className="hover:text-slate-300 transition-colors">
                 Warranty
               </Link>
+              <Link to={createPageUrl('StateWaterHardness')} className="hover:text-slate-300 transition-colors">
+                State Pages
+              </Link>
             </div>
           </div>
         </div>

@@ -51,19 +51,27 @@ import About from './pages/About';
 import Agriculture from './pages/Agriculture';
 import AgricultureFarming from './pages/AgricultureFarming';
 import AgricultureLandscaping from './pages/AgricultureLandscaping';
+import AlabamaWaterHardness from './pages/AlabamaWaterHardness';
+import AlaskaWaterHardness from './pages/AlaskaWaterHardness';
+import ArizonaWaterHardness from './pages/ArizonaWaterHardness';
+import ArkansasWaterHardness from './pages/ArkansasWaterHardness';
 import Bio from './pages/Bio';
 import BlogDetail from './pages/BlogDetail';
 import BlogList from './pages/BlogList';
 import BundleDeal from './pages/BundleDeal';
+import CaliforniaWaterHardness from './pages/CaliforniaWaterHardness';
 import Cart from './pages/Cart';
 import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
 import Checkout from './pages/Checkout';
 import CheckoutSuccess from './pages/CheckoutSuccess';
+import ColoradoWaterHardness from './pages/ColoradoWaterHardness';
 import Commercial from './pages/Commercial';
+import ConnecticutWaterHardness from './pages/ConnecticutWaterHardness';
 import Contact from './pages/Contact';
 import CoolingTowers from './pages/CoolingTowers';
 import Corrosion from './pages/Corrosion';
+import DelawareWaterHardness from './pages/DelawareWaterHardness';
 import DroughtMitigation from './pages/DroughtMitigation';
 import ESCO from './pages/ESCO';
 import Expectations from './pages/Expectations';
@@ -110,14 +118,6 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
-import AlabamaWaterHardness from './pages/AlabamaWaterHardness';
-import AlaskaWaterHardness from './pages/AlaskaWaterHardness';
-import ArizonaWaterHardness from './pages/ArizonaWaterHardness';
-import ArkansasWaterHardness from './pages/ArkansasWaterHardness';
-import CaliforniaWaterHardness from './pages/CaliforniaWaterHardness';
-import ColoradoWaterHardness from './pages/ColoradoWaterHardness';
-import ConnecticutWaterHardness from './pages/ConnecticutWaterHardness';
-import DelawareWaterHardness from './pages/DelawareWaterHardness';
 import __Layout from './Layout.jsx';
 
 
@@ -126,19 +126,27 @@ export const PAGES = {
     "Agriculture": Agriculture,
     "AgricultureFarming": AgricultureFarming,
     "AgricultureLandscaping": AgricultureLandscaping,
+    "AlabamaWaterHardness": AlabamaWaterHardness,
+    "AlaskaWaterHardness": AlaskaWaterHardness,
+    "ArizonaWaterHardness": ArizonaWaterHardness,
+    "ArkansasWaterHardness": ArkansasWaterHardness,
     "Bio": Bio,
     "BlogDetail": BlogDetail,
     "BlogList": BlogList,
     "BundleDeal": BundleDeal,
+    "CaliforniaWaterHardness": CaliforniaWaterHardness,
     "Cart": Cart,
     "CaseStudies": CaseStudies,
     "CaseStudyDetail": CaseStudyDetail,
     "Checkout": Checkout,
     "CheckoutSuccess": CheckoutSuccess,
+    "ColoradoWaterHardness": ColoradoWaterHardness,
     "Commercial": Commercial,
+    "ConnecticutWaterHardness": ConnecticutWaterHardness,
     "Contact": Contact,
     "CoolingTowers": CoolingTowers,
     "Corrosion": Corrosion,
+    "DelawareWaterHardness": DelawareWaterHardness,
     "DroughtMitigation": DroughtMitigation,
     "ESCO": ESCO,
     "Expectations": Expectations,
@@ -185,14 +193,6 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
-    "AlabamaWaterHardness": AlabamaWaterHardness,
-    "AlaskaWaterHardness": AlaskaWaterHardness,
-    "ArizonaWaterHardness": ArizonaWaterHardness,
-    "ArkansasWaterHardness": ArkansasWaterHardness,
-    "CaliforniaWaterHardness": CaliforniaWaterHardness,
-    "ColoradoWaterHardness": ColoradoWaterHardness,
-    "ConnecticutWaterHardness": ConnecticutWaterHardness,
-    "DelawareWaterHardness": DelawareWaterHardness,
 }
 
 export const pagesConfig = {
