@@ -360,17 +360,17 @@ export default function FilterCartridges() {
                   {/* CTA */}
                   <Button 
                     onClick={() => handleAddToCart(cartridge)}
-                    className="w-full bg-slate-900 hover:bg-slate-800 text-white rounded-full py-6 text-base font-semibold"
+                    className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6 text-base font-semibold"
                   >
                     Add to Cart
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+                  </div>
+                  </motion.div>
+                  ))}
+                  </div>
+                  </div>
+                  </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-cyan-500 to-cyan-600">
