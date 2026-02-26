@@ -9,11 +9,11 @@ const timeline = [
     icon: CheckCircle2,
     color: 'from-red-500 to-red-600',
     bgColor: 'bg-red-500',
-    content: `When properly installed, the HydroFLOW device will immediately begin to protect your plumbing system and/or pool; hard scale accumulation in areas with constant water flow will stop. If installed outdoors, ensure the device is protected properly protected from weather damage. Be sure to follow the installation instructions that are provided with the HydroFLOW water conditioner and contact us with any installation questions or concerns.
+    content: `When properly installed, the <i>Hydro</i>FLOW device will immediately begin to protect your plumbing system and/or pool; hard scale accumulation in areas with constant water flow will stop. If installed outdoors, ensure the device is protected properly protected from weather damage. Be sure to follow the installation instructions that are provided with the <i>Hydro</i>FLOW water conditioner and contact us with any installation questions or concerns.
 
-In the unlikely event scale accumulation does not stop, the device is most likely installed incorrectly and HydroFLOW USA should be contacted to troubleshoot the problem.
+In the unlikely event scale accumulation does not stop, the device is most likely installed incorrectly and <i>Hydro</i>FLOW USA should be contacted to troubleshoot the problem.
 
-Your water softener should be bypassed after installing a HydroFLOW device. If you utilized a water softener for many years, turning it off might take some getting used to. You could notice some scale residue in your dishwasher, which can be easily addressed with a rinse agent that is formulated for hard water. When taking a shower, you might notice that the water has a less "slimy" feel and some soaps might not lather as before.`,
+Your water softener should be bypassed after installing a <i>Hydro</i>FLOW device. If you utilized a water softener for many years, turning it off might take some getting used to. You could notice some scale residue in your dishwasher, which can be easily addressed with a rinse agent that is formulated for hard water. When taking a shower, you might notice that the water has a less "slimy" feel and some soaps might not lather as before.`,
     image: 'https://hydroflow-usa.com/images/per1.jpg'
   },
   {
@@ -42,7 +42,7 @@ Your water softener should be bypassed after installing a HydroFLOW device. If y
     bgColor: 'bg-slate-700',
     content: `You will notice the benefits of your appliances running more efficient and your pool will continue to experience clearer water, reduced chemical consumption and decreased "Chlorine Smell".
 
-Kindly note the HydroFLOW device does not replace routine maintenance procedures. Professionally purging your water heater is recommended in order to flush out any scale debris that may have collected at the bottom of the tank. In addition, it is recommended to periodically ensure your pool equipment is operating properly.`,
+Kindly note the <i>Hydro</i>FLOW device does not replace routine maintenance procedures. Professionally purging your water heater is recommended in order to flush out any scale debris that may have collected at the bottom of the tank. In addition, it is recommended to periodically ensure your pool equipment is operating properly.`,
     image: 'https://hydroflow-usa.com/images/per4.jpg'
   }
 ];
@@ -153,9 +153,7 @@ export default function PerformanceWithTime() {
                   <div className="grid md:grid-cols-2 gap-8 p-8">
                     <div className="space-y-4">
                       {item.content.split('\n\n').map((paragraph, i) => (
-                        <p key={i} className="text-slate-600 leading-relaxed">
-                          {paragraph}
-                        </p>
+                       <p key={i} className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: paragraph }} />
                       ))}
                     </div>
                     <div className="flex items-center justify-center">
