@@ -978,7 +978,7 @@ const caseStudyData = {
   'industrial-water-heaters': {
     category: 'industrial',
     title: 'Industrial Water Heaters - Apple Packing Facility',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9cccf2d47_Apples.png',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2026/02/apple-packing-facility-water-heaters.jpg',
     installer: 'HydroFLOW USA',
     customer: 'Apple packing facility in the U.S. Northwest that installed 6 HydroFLOW units in multiple locations over the last 15 years',
     application: 'Bank of 3 water heaters supplying warm water to apple washing nozzles',
