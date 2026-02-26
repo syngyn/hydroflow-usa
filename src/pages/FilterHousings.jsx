@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { ArrowRight, Check, Shield, Droplet, ThermometerSun } from 'lucide-react';
+import { ArrowRight, Check, Shield, Droplet, ThermometerSun, Leaf } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useCart } from '@/components/cart/CartContext';
