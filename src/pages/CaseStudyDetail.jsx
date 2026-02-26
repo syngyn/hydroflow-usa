@@ -1133,7 +1133,7 @@ export default function CaseStudyDetail() {
                 >
                   <Card className="p-6">
                     <h3 className="font-semibold text-slate-900 mb-2">Customer</h3>
-                    <p className="text-slate-600">{study.customer}</p>
+                    <p className="text-slate-600" dangerouslySetInnerHTML={{ __html: study.customer }} />
                   </Card>
                 </motion.div>
               )}
@@ -1178,7 +1178,7 @@ export default function CaseStudyDetail() {
               >
                 <Card className="p-6">
                   <h3 className="text-xl font-bold text-slate-900 mb-4">Background</h3>
-                  <p className="text-slate-600 leading-relaxed">{study.background}</p>
+                  <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: study.background }} />
                 </Card>
               </motion.div>
             )}
