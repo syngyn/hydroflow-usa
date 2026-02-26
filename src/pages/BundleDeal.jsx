@@ -283,19 +283,19 @@ export default function BundleDeal() {
             <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b62feb902_HydroFLOW-Pearl-Plus-User-Guide2026.pdf" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" className="w-full justify-start text-left">
                 <Package className="w-4 h-4 mr-2 flex-shrink-0" />
-                <i>Hydro</i>FLOW Pearl Plus User Guide (PDF)
+                <span className="whitespace-nowrap"><i>Hydro</i>FLOW</span> Pearl Plus User Guide (PDF)
               </Button>
             </a>
             <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bae9e79a4_HydroFLOW-Pearl-User-Guide-January-2026.pdf" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" className="w-full justify-start text-left">
                 <Package className="w-4 h-4 mr-2 flex-shrink-0" />
-                <i>Hydro</i>FLOW Pearl User Guide (PDF)
+                <span className="whitespace-nowrap"><i>Hydro</i>FLOW</span> Pearl User Guide (PDF)
               </Button>
             </a>
             <a href="https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Residential-Brochure-January-2023.pdf" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" className="w-full justify-start text-left">
                 <Package className="w-4 h-4 mr-2 flex-shrink-0" />
-                <i>Hydro</i>FLOW Residential Brochure (PDF)
+                <span className="whitespace-nowrap"><i>Hydro</i>FLOW</span> Residential Brochure (PDF)
               </Button>
             </a>
           </div>
