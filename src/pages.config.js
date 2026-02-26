@@ -110,7 +110,6 @@ import Residential from './pages/Residential';
 import Savings from './pages/Savings';
 import Scale from './pages/Scale';
 import StateTemperature from './pages/StateTemperature';
-import StateWaterHardness from './pages/StateWaterHardness';
 import Support from './pages/Support';
 import Technology from './pages/Technology';
 import TermsOfService from './pages/TermsOfService';
@@ -118,6 +117,7 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import StateWaterHardness from './pages/StateWaterHardness';
 import __Layout from './Layout.jsx';
 
 
@@ -185,7 +185,6 @@ export const PAGES = {
     "Savings": Savings,
     "Scale": Scale,
     "StateTemperature": StateTemperature,
-    "StateWaterHardness": StateWaterHardness,
     "Support": Support,
     "Technology": Technology,
     "TermsOfService": TermsOfService,
@@ -193,6 +192,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
+    "StateWaterHardness": StateWaterHardness,
 }
 
 export const pagesConfig = {
