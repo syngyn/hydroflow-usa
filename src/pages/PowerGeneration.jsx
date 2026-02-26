@@ -283,7 +283,7 @@ export default function PowerGeneration() {
               </a>
               <Link to={createPageUrl('Contact')}>
                 <Button variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-full px-8 py-6 text-lg font-semibold">
-                  Contact <i>Hydro</i>FLOW USA
+                  Contact <span className="whitespace-nowrap"><i>Hydro</i>FLOW</span> USA
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
