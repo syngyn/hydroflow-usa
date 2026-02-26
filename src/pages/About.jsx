@@ -20,7 +20,8 @@ const values = [
   {
     icon: Globe,
     title: 'Global Presence',
-    description: '<i>Hydro</i>FLOW devices have been distributed throughout the world and officially entered the U.S. market in 2010.'
+    description: 'HydroFLOW devices have been distributed throughout the world and officially entered the U.S. market in 2010.',
+    descriptionNode: <><i>Hydro</i>FLOW devices have been distributed throughout the world and officially entered the U.S. market in 2010.</>
   },
   {
     icon: Award,
@@ -154,7 +155,7 @@ export default function About() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">{value.title}</h3>
-                  <p className="text-slate-600">{value.description}</p>
+                  <p className="text-slate-600">{value.descriptionNode || value.description}</p>
                 </div>
               </motion.div>
             ))}
