@@ -285,11 +285,7 @@ export default function FilterCartridges() {
                   {/* CTA */}
                   <Button 
                     onClick={() => handleAddToCart(cartridge)}
-                    className={`w-full rounded-full py-6 text-base font-semibold ${
-                      cartridge.popular
-                        ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white'
-                        : 'bg-slate-900 hover:bg-slate-800 text-white'
-                    }`}
+                    className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full py-6 text-base font-semibold"
                   >
                     Add to Cart
                     <ArrowRight className="w-4 h-4 ml-2" />
