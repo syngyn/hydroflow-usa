@@ -224,47 +224,7 @@ export default function AgricultureLandscaping() {
             </motion.div>
           </div>
 
-          {/* Before/After Images */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mt-16 grid md:grid-cols-3 gap-6"
-          >
-            <div className="bg-white rounded-xl overflow-hidden shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&q=80"
-                alt="Reduced water usage"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4">
-                <h4 className="font-bold text-slate-900 mb-1">20% Less Water</h4>
-                <p className="text-sm text-slate-600">Significant reduction in water consumption</p>
-              </div>
-            </div>
-            <div className="bg-white rounded-xl overflow-hidden shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?w=600&q=80"
-                alt="Scale removal"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4">
-                <h4 className="font-bold text-slate-900 mb-1">Removed Scale</h4>
-                <p className="text-sm text-slate-600">Cleaned irrigation lines effectively</p>
-              </div>
-            </div>
-            <div className="bg-white rounded-xl overflow-hidden shadow-lg">
-              <img 
-                src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&q=80"
-                alt="Healthier turf"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4">
-                <h4 className="font-bold text-slate-900 mb-1">Healthier Turf</h4>
-                <p className="text-sm text-slate-600">Greener, more resilient grass</p>
-              </div>
-            </div>
-          </motion.div>
+
         </div>
       </section>
 
