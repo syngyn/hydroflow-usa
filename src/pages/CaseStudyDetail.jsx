@@ -982,7 +982,7 @@ const caseStudyData = {
     customer: 'Apple packing facility in the U.S. Northwest that installed 6 <i>Hydro</i>FLOW units in multiple locations over the last 15 years',
     application: 'Bank of 3 water heaters supplying warm water to apple washing nozzles',
     installedUnits: 'Generation 4 HydroFLOW i60 unit with HydroKNCT IoT device for remote monitoring via Hydropath Care',
-    background: 'Limescale was fouling the bank of 3 water heaters that supply warm water to the apple washing nozzles, leading to extensive maintenance and premature equipment failure. A HydroFLOW unit was installed in 2011 on the incoming water line feeding the 3 water heaters to evaluate effectiveness of preventing and removing limescale deposits from tubes and tank walls.',
+    background: 'Limescale was fouling the bank of 3 water heaters that supply warm water to the apple washing nozzles, leading to extensive maintenance and premature equipment failure. A <i>Hydro</i>FLOW unit was installed in 2011 on the incoming water line feeding the 3 water heaters to evaluate effectiveness of preventing and removing limescale deposits from tubes and tank walls.',
     successFactors: [
       'Continuous operation from 2011 to 2026',
       'Significant reduction in maintenance requirements',
