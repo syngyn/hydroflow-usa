@@ -112,7 +112,7 @@ export default function ProductHS40() {
                  </div>
                </motion.div>
               
-              <div className="hidden md:grid grid-cols-5 gap-2">
+              <div className="md:grid grid-cols-5 gap-2 hidden md:flex">
                 {images.map((img, idx) => (
                   <button
                     key={idx}
