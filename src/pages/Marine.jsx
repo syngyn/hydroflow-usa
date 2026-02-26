@@ -148,7 +148,7 @@ export default function Marine() {
               Videos
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-              See <i>Hydro</i>path Marine in Action
+              See Hydropath Marine in Action
             </h2>
           </motion.div>
 
