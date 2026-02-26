@@ -130,6 +130,20 @@ import KentuckyWaterHardness from './pages/KentuckyWaterHardness';
 import LouisianaWaterHardness from './pages/LouisianaWaterHardness';
 import MaineWaterHardness from './pages/MaineWaterHardness';
 import MarylandWaterHardness from './pages/MarylandWaterHardness';
+import MassachusettsWaterHardness from './pages/MassachusettsWaterHardness';
+import MichiganWaterHardness from './pages/MichiganWaterHardness';
+import MinnesotaWaterHardness from './pages/MinnesotaWaterHardness';
+import MississippiWaterHardness from './pages/MississippiWaterHardness';
+import MissouriWaterHardness from './pages/MissouriWaterHardness';
+import MontanaWaterHardness from './pages/MontanaWaterHardness';
+import NebraskaWaterHardness from './pages/NebraskaWaterHardness';
+import NevadaWaterHardness from './pages/NevadaWaterHardness';
+import NewHampshireWaterHardness from './pages/NewHampshireWaterHardness';
+import NewJerseyWaterHardness from './pages/NewJerseyWaterHardness';
+import NewMexicoWaterHardness from './pages/NewMexicoWaterHardness';
+import NewYorkWaterHardness from './pages/NewYorkWaterHardness';
+import NorthCarolinaWaterHardness from './pages/NorthCarolinaWaterHardness';
+import NorthDakotaWaterHardness from './pages/NorthDakotaWaterHardness';
 import __Layout from './Layout.jsx';
 
 
@@ -217,6 +231,20 @@ export const PAGES = {
     "LouisianaWaterHardness": LouisianaWaterHardness,
     "MaineWaterHardness": MaineWaterHardness,
     "MarylandWaterHardness": MarylandWaterHardness,
+    "MassachusettsWaterHardness": MassachusettsWaterHardness,
+    "MichiganWaterHardness": MichiganWaterHardness,
+    "MinnesotaWaterHardness": MinnesotaWaterHardness,
+    "MississippiWaterHardness": MississippiWaterHardness,
+    "MissouriWaterHardness": MissouriWaterHardness,
+    "MontanaWaterHardness": MontanaWaterHardness,
+    "NebraskaWaterHardness": NebraskaWaterHardness,
+    "NevadaWaterHardness": NevadaWaterHardness,
+    "NewHampshireWaterHardness": NewHampshireWaterHardness,
+    "NewJerseyWaterHardness": NewJerseyWaterHardness,
+    "NewMexicoWaterHardness": NewMexicoWaterHardness,
+    "NewYorkWaterHardness": NewYorkWaterHardness,
+    "NorthCarolinaWaterHardness": NorthCarolinaWaterHardness,
+    "NorthDakotaWaterHardness": NorthDakotaWaterHardness,
 }
 
 export const pagesConfig = {
