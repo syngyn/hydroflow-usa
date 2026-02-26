@@ -144,6 +144,21 @@ import NewMexicoWaterHardness from './pages/NewMexicoWaterHardness';
 import NewYorkWaterHardness from './pages/NewYorkWaterHardness';
 import NorthCarolinaWaterHardness from './pages/NorthCarolinaWaterHardness';
 import NorthDakotaWaterHardness from './pages/NorthDakotaWaterHardness';
+import OhioWaterHardness from './pages/OhioWaterHardness';
+import OklahomaWaterHardness from './pages/OklahomaWaterHardness';
+import OregonWaterHardness from './pages/OregonWaterHardness';
+import PennsylvaniaWaterHardness from './pages/PennsylvaniaWaterHardness';
+import RhodeIslandWaterHardness from './pages/RhodeIslandWaterHardness';
+import SouthCarolinaWaterHardness from './pages/SouthCarolinaWaterHardness';
+import SouthDakotaWaterHardness from './pages/SouthDakotaWaterHardness';
+import TennesseeWaterHardness from './pages/TennesseeWaterHardness';
+import TexasWaterHardness from './pages/TexasWaterHardness';
+import UtahWaterHardness from './pages/UtahWaterHardness';
+import VermontWaterHardness from './pages/VermontWaterHardness';
+import VirginiaWaterHardness from './pages/VirginiaWaterHardness';
+import WashingtonWaterHardness from './pages/WashingtonWaterHardness';
+import WestVirginiaWaterHardness from './pages/WestVirginiaWaterHardness';
+import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
 import __Layout from './Layout.jsx';
 
 
@@ -245,6 +260,21 @@ export const PAGES = {
     "NewYorkWaterHardness": NewYorkWaterHardness,
     "NorthCarolinaWaterHardness": NorthCarolinaWaterHardness,
     "NorthDakotaWaterHardness": NorthDakotaWaterHardness,
+    "OhioWaterHardness": OhioWaterHardness,
+    "OklahomaWaterHardness": OklahomaWaterHardness,
+    "OregonWaterHardness": OregonWaterHardness,
+    "PennsylvaniaWaterHardness": PennsylvaniaWaterHardness,
+    "RhodeIslandWaterHardness": RhodeIslandWaterHardness,
+    "SouthCarolinaWaterHardness": SouthCarolinaWaterHardness,
+    "SouthDakotaWaterHardness": SouthDakotaWaterHardness,
+    "TennesseeWaterHardness": TennesseeWaterHardness,
+    "TexasWaterHardness": TexasWaterHardness,
+    "UtahWaterHardness": UtahWaterHardness,
+    "VermontWaterHardness": VermontWaterHardness,
+    "VirginiaWaterHardness": VirginiaWaterHardness,
+    "WashingtonWaterHardness": WashingtonWaterHardness,
+    "WestVirginiaWaterHardness": WestVirginiaWaterHardness,
+    "WisconsinWaterHardness": WisconsinWaterHardness,
 }
 
 export const pagesConfig = {
