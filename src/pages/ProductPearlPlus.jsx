@@ -306,7 +306,7 @@ export default function ProductPearlPlus() {
 
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Product Resources</h3>
                 <div className="space-y-2">
-                  <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a181c1f2c_HydroFLOW-Pearl-Plus-User-Guide2026.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c45f8c718_HydroFLOW-Pearl-Plus-User-Guide2026.pdf" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" className="w-full justify-start">
                       <Package className="w-4 h-4 mr-2" />
                       Download Pearl Plus User Guide (PDF)
