@@ -51,7 +51,6 @@ import About from './pages/About';
 import Agriculture from './pages/Agriculture';
 import AgricultureFarming from './pages/AgricultureFarming';
 import AgricultureLandscaping from './pages/AgricultureLandscaping';
-import AlabamaWaterHardness from './pages/AlabamaWaterHardness';
 import AlaskaWaterHardness from './pages/AlaskaWaterHardness';
 import ArizonaWaterHardness from './pages/ArizonaWaterHardness';
 import ArkansasWaterHardness from './pages/ArkansasWaterHardness';
@@ -110,14 +109,27 @@ import Residential from './pages/Residential';
 import Savings from './pages/Savings';
 import Scale from './pages/Scale';
 import StateTemperature from './pages/StateTemperature';
-import StateWaterHardness from './pages/StateWaterHardness';
 import Support from './pages/Support';
 import Technology from './pages/Technology';
 import TermsOfService from './pages/TermsOfService';
 import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
+import StateWaterHardness from './pages/StateWaterHardness';
+import AlabamaWaterHardness from './pages/AlabamaWaterHardness';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import FloridaWaterHardness from './pages/FloridaWaterHardness';
+import GeorgiaWaterHardness from './pages/GeorgiaWaterHardness';
+import HawaiiWaterHardness from './pages/HawaiiWaterHardness';
+import IdahoWaterHardness from './pages/IdahoWaterHardness';
+import IllinoisWaterHardness from './pages/IllinoisWaterHardness';
+import IndianaWaterHardness from './pages/IndianaWaterHardness';
+import IowaWaterHardness from './pages/IowaWaterHardness';
+import KansasWaterHardness from './pages/KansasWaterHardness';
+import KentuckyWaterHardness from './pages/KentuckyWaterHardness';
+import LouisianaWaterHardness from './pages/LouisianaWaterHardness';
+import MaineWaterHardness from './pages/MaineWaterHardness';
+import MarylandWaterHardness from './pages/MarylandWaterHardness';
 import __Layout from './Layout.jsx';
 
 
@@ -126,7 +138,6 @@ export const PAGES = {
     "Agriculture": Agriculture,
     "AgricultureFarming": AgricultureFarming,
     "AgricultureLandscaping": AgricultureLandscaping,
-    "AlabamaWaterHardness": AlabamaWaterHardness,
     "AlaskaWaterHardness": AlaskaWaterHardness,
     "ArizonaWaterHardness": ArizonaWaterHardness,
     "ArkansasWaterHardness": ArkansasWaterHardness,
@@ -185,14 +196,27 @@ export const PAGES = {
     "Savings": Savings,
     "Scale": Scale,
     "StateTemperature": StateTemperature,
-    "StateWaterHardness": StateWaterHardness,
     "Support": Support,
     "Technology": Technology,
     "TermsOfService": TermsOfService,
     "VideoLibrary": VideoLibrary,
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
+    "StateWaterHardness": StateWaterHardness,
+    "AlabamaWaterHardness": AlabamaWaterHardness,
     "WaterHardnessMap": WaterHardnessMap,
+    "FloridaWaterHardness": FloridaWaterHardness,
+    "GeorgiaWaterHardness": GeorgiaWaterHardness,
+    "HawaiiWaterHardness": HawaiiWaterHardness,
+    "IdahoWaterHardness": IdahoWaterHardness,
+    "IllinoisWaterHardness": IllinoisWaterHardness,
+    "IndianaWaterHardness": IndianaWaterHardness,
+    "IowaWaterHardness": IowaWaterHardness,
+    "KansasWaterHardness": KansasWaterHardness,
+    "KentuckyWaterHardness": KentuckyWaterHardness,
+    "LouisianaWaterHardness": LouisianaWaterHardness,
+    "MaineWaterHardness": MaineWaterHardness,
+    "MarylandWaterHardness": MarylandWaterHardness,
 }
 
 export const pagesConfig = {
