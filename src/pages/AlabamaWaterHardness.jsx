@@ -6,7 +6,7 @@ export default function AlabamaWaterHardness() {
   return (
     <div>
       <Helmet>
-        <title>Alabama Water Hardness - Water Quality by City | HydroFLOW USA</title>
+        <title>Alabama Water Hardness - Water Quality by City | <i>Hydro</i>FLOW USA</title>
         <meta name="description" content="Alabama water hardness averages 61 PPM (moderately soft). Find water hardness data for Birmingham, Mobile, Huntsville, Madison and other Alabama cities." />
       </Helmet>
 
