@@ -126,7 +126,6 @@ import ProductFilterHousing10 from './pages/ProductFilterHousing10';
 import ProductFilterHousing20 from './pages/ProductFilterHousing20';
 import ProductForceField10 from './pages/ProductForceField10';
 import ProductHMRange from './pages/ProductHMRange';
-import ProductHS40 from './pages/ProductHS40';
 import ProductIRange from './pages/ProductIRange';
 import ProductPearl from './pages/ProductPearl';
 import ProductPearlPlus from './pages/ProductPearlPlus';
@@ -157,6 +156,7 @@ import Warranty from './pages/Warranty';
 import WashingtonWaterHardness from './pages/WashingtonWaterHardness';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import ProductHS40 from './pages/ProductHS40';
 import WestVirginiaWaterHardness from './pages/WestVirginiaWaterHardness';
 import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
 import WyomingWaterHardness from './pages/WyomingWaterHardness';
@@ -243,7 +243,6 @@ export const PAGES = {
     "ProductFilterHousing20": ProductFilterHousing20,
     "ProductForceField10": ProductForceField10,
     "ProductHMRange": ProductHMRange,
-    "ProductHS40": ProductHS40,
     "ProductIRange": ProductIRange,
     "ProductPearl": ProductPearl,
     "ProductPearlPlus": ProductPearlPlus,
@@ -274,6 +273,7 @@ export const PAGES = {
     "WashingtonWaterHardness": WashingtonWaterHardness,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
+    "ProductHS40": ProductHS40,
     "WestVirginiaWaterHardness": WestVirginiaWaterHardness,
     "WisconsinWaterHardness": WisconsinWaterHardness,
     "WyomingWaterHardness": WyomingWaterHardness,
