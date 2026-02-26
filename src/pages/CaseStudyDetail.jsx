@@ -979,7 +979,7 @@ const caseStudyData = {
     category: 'industrial',
     title: 'Industrial Water Heaters - Apple Packing Facility',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9edfa037e_Apples.jpeg',
-    customer: 'Apple packing facility in the U.S. Northwest that installed 6 HydroFLOW units in multiple locations over the last 15 years',
+    customer: 'Apple packing facility in the U.S. Northwest that installed 6 <i>Hydro</i>FLOW units in multiple locations over the last 15 years',
     application: 'Bank of 3 water heaters supplying warm water to apple washing nozzles',
     installedUnits: 'Generation 4 HydroFLOW i60 unit with HydroKNCT IoT device for remote monitoring via Hydropath Care',
     background: 'Limescale was fouling the bank of 3 water heaters that supply warm water to the apple washing nozzles, leading to extensive maintenance and premature equipment failure. A HydroFLOW unit was installed in 2011 on the incoming water line feeding the 3 water heaters to evaluate effectiveness of preventing and removing limescale deposits from tubes and tank walls.',
