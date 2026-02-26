@@ -94,32 +94,46 @@ export default function StateWaterHardness() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {states.map((state, index) => {
-              const pageUrl = `${state.replace(/\s+/g, '')}WaterHardness`;
-              
               return (
                 <motion.div
-                  key={state}
+                  key={state.name}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.01 }}
                 >
-                  <Link
-                    to={createPageUrl(pageUrl)}
-                    className="group block bg-slate-50 hover:bg-cyan-50 rounded-lg p-4 transition-all duration-200 border border-slate-200 hover:border-cyan-300 hover:shadow-md"
-                  >
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-full bg-cyan-100 group-hover:bg-cyan-500 flex items-center justify-center transition-colors">
-                          <MapPin className="w-5 h-5 text-cyan-600 group-hover:text-white transition-colors" />
+                  {state.page ? (
+                    <Link
+                      to={createPageUrl(state.page)}
+                      className="group block bg-slate-50 hover:bg-cyan-50 rounded-lg p-4 transition-all duration-200 border border-slate-200 hover:border-cyan-300 hover:shadow-md"
+                    >
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-full bg-cyan-100 group-hover:bg-cyan-500 flex items-center justify-center transition-colors">
+                            <MapPin className="w-5 h-5 text-cyan-600 group-hover:text-white transition-colors" />
+                          </div>
+                          <span className="font-semibold text-slate-900 group-hover:text-cyan-700 transition-colors">
+                            {state.name}
+                          </span>
                         </div>
-                        <span className="font-semibold text-slate-900 group-hover:text-cyan-700 transition-colors">
-                          {state}
-                        </span>
+                        <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-cyan-500 group-hover:translate-x-1 transition-all" />
                       </div>
-                      <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-cyan-500 group-hover:translate-x-1 transition-all" />
+                    </Link>
+                  ) : (
+                    <div className="block bg-slate-100 rounded-lg p-4 border border-slate-200 opacity-60">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center">
+                            <MapPin className="w-5 h-5 text-slate-400" />
+                          </div>
+                          <span className="font-semibold text-slate-600">
+                            {state.name}
+                          </span>
+                        </div>
+                        <ChevronRight className="w-5 h-5 text-slate-300" />
+                      </div>
                     </div>
-                  </Link>
+                  )}
                 </motion.div>
               );
             })}
