@@ -51,6 +51,7 @@ import About from './pages/About';
 import Agriculture from './pages/Agriculture';
 import AgricultureFarming from './pages/AgricultureFarming';
 import AgricultureLandscaping from './pages/AgricultureLandscaping';
+import AlabamaWaterHardness from './pages/AlabamaWaterHardness';
 import AlaskaWaterHardness from './pages/AlaskaWaterHardness';
 import ArizonaWaterHardness from './pages/ArizonaWaterHardness';
 import ArkansasWaterHardness from './pages/ArkansasWaterHardness';
@@ -79,12 +80,42 @@ import FilterCartridges from './pages/FilterCartridges';
 import FilterHousings from './pages/FilterHousings';
 import Filtration from './pages/Filtration';
 import FiltrationTechnology from './pages/FiltrationTechnology';
+import FloridaWaterHardness from './pages/FloridaWaterHardness';
 import FoodBeverage from './pages/FoodBeverage';
+import GeorgiaWaterHardness from './pages/GeorgiaWaterHardness';
 import GroundwaterTemperatureMap from './pages/GroundwaterTemperatureMap';
+import HawaiiWaterHardness from './pages/HawaiiWaterHardness';
 import Home from './pages/Home';
+import IdahoWaterHardness from './pages/IdahoWaterHardness';
+import IllinoisWaterHardness from './pages/IllinoisWaterHardness';
+import IndianaWaterHardness from './pages/IndianaWaterHardness';
 import Industrial from './pages/Industrial';
+import IowaWaterHardness from './pages/IowaWaterHardness';
+import KansasWaterHardness from './pages/KansasWaterHardness';
+import KentuckyWaterHardness from './pages/KentuckyWaterHardness';
 import KnowledgeBase from './pages/KnowledgeBase';
+import LouisianaWaterHardness from './pages/LouisianaWaterHardness';
+import MaineWaterHardness from './pages/MaineWaterHardness';
 import Marine from './pages/Marine';
+import MarylandWaterHardness from './pages/MarylandWaterHardness';
+import MassachusettsWaterHardness from './pages/MassachusettsWaterHardness';
+import MichiganWaterHardness from './pages/MichiganWaterHardness';
+import MinnesotaWaterHardness from './pages/MinnesotaWaterHardness';
+import MississippiWaterHardness from './pages/MississippiWaterHardness';
+import MissouriWaterHardness from './pages/MissouriWaterHardness';
+import MontanaWaterHardness from './pages/MontanaWaterHardness';
+import NebraskaWaterHardness from './pages/NebraskaWaterHardness';
+import NevadaWaterHardness from './pages/NevadaWaterHardness';
+import NewHampshireWaterHardness from './pages/NewHampshireWaterHardness';
+import NewJerseyWaterHardness from './pages/NewJerseyWaterHardness';
+import NewMexicoWaterHardness from './pages/NewMexicoWaterHardness';
+import NewYorkWaterHardness from './pages/NewYorkWaterHardness';
+import NorthCarolinaWaterHardness from './pages/NorthCarolinaWaterHardness';
+import NorthDakotaWaterHardness from './pages/NorthDakotaWaterHardness';
+import OhioWaterHardness from './pages/OhioWaterHardness';
+import OklahomaWaterHardness from './pages/OklahomaWaterHardness';
+import OregonWaterHardness from './pages/OregonWaterHardness';
+import PennsylvaniaWaterHardness from './pages/PennsylvaniaWaterHardness';
 import PerformanceWithTime from './pages/PerformanceWithTime';
 import PlasticManufacturing from './pages/PlasticManufacturing';
 import PowerGeneration from './pages/PowerGeneration';
@@ -106,57 +137,26 @@ import Products from './pages/Products';
 import ProtectiveEnclosure from './pages/ProtectiveEnclosure';
 import RemovedContentPage from './pages/RemovedContentPage';
 import Residential from './pages/Residential';
+import RhodeIslandWaterHardness from './pages/RhodeIslandWaterHardness';
 import Savings from './pages/Savings';
 import Scale from './pages/Scale';
-import StateTemperature from './pages/StateTemperature';
-import Support from './pages/Support';
-import Technology from './pages/Technology';
-import TermsOfService from './pages/TermsOfService';
-import VideoLibrary from './pages/VideoLibrary';
-import Warranty from './pages/Warranty';
-import WastewaterStruvite from './pages/WastewaterStruvite';
-import StateWaterHardness from './pages/StateWaterHardness';
-import AlabamaWaterHardness from './pages/AlabamaWaterHardness';
-import WaterHardnessMap from './pages/WaterHardnessMap';
-import FloridaWaterHardness from './pages/FloridaWaterHardness';
-import GeorgiaWaterHardness from './pages/GeorgiaWaterHardness';
-import HawaiiWaterHardness from './pages/HawaiiWaterHardness';
-import IdahoWaterHardness from './pages/IdahoWaterHardness';
-import IllinoisWaterHardness from './pages/IllinoisWaterHardness';
-import IndianaWaterHardness from './pages/IndianaWaterHardness';
-import IowaWaterHardness from './pages/IowaWaterHardness';
-import KansasWaterHardness from './pages/KansasWaterHardness';
-import KentuckyWaterHardness from './pages/KentuckyWaterHardness';
-import LouisianaWaterHardness from './pages/LouisianaWaterHardness';
-import MaineWaterHardness from './pages/MaineWaterHardness';
-import MarylandWaterHardness from './pages/MarylandWaterHardness';
-import MassachusettsWaterHardness from './pages/MassachusettsWaterHardness';
-import MichiganWaterHardness from './pages/MichiganWaterHardness';
-import MinnesotaWaterHardness from './pages/MinnesotaWaterHardness';
-import MississippiWaterHardness from './pages/MississippiWaterHardness';
-import MissouriWaterHardness from './pages/MissouriWaterHardness';
-import MontanaWaterHardness from './pages/MontanaWaterHardness';
-import NebraskaWaterHardness from './pages/NebraskaWaterHardness';
-import NevadaWaterHardness from './pages/NevadaWaterHardness';
-import NewHampshireWaterHardness from './pages/NewHampshireWaterHardness';
-import NewJerseyWaterHardness from './pages/NewJerseyWaterHardness';
-import NewMexicoWaterHardness from './pages/NewMexicoWaterHardness';
-import NewYorkWaterHardness from './pages/NewYorkWaterHardness';
-import NorthCarolinaWaterHardness from './pages/NorthCarolinaWaterHardness';
-import NorthDakotaWaterHardness from './pages/NorthDakotaWaterHardness';
-import OhioWaterHardness from './pages/OhioWaterHardness';
-import OklahomaWaterHardness from './pages/OklahomaWaterHardness';
-import OregonWaterHardness from './pages/OregonWaterHardness';
-import PennsylvaniaWaterHardness from './pages/PennsylvaniaWaterHardness';
-import RhodeIslandWaterHardness from './pages/RhodeIslandWaterHardness';
 import SouthCarolinaWaterHardness from './pages/SouthCarolinaWaterHardness';
 import SouthDakotaWaterHardness from './pages/SouthDakotaWaterHardness';
+import StateTemperature from './pages/StateTemperature';
+import StateWaterHardness from './pages/StateWaterHardness';
+import Support from './pages/Support';
+import Technology from './pages/Technology';
 import TennesseeWaterHardness from './pages/TennesseeWaterHardness';
+import TermsOfService from './pages/TermsOfService';
 import TexasWaterHardness from './pages/TexasWaterHardness';
 import UtahWaterHardness from './pages/UtahWaterHardness';
 import VermontWaterHardness from './pages/VermontWaterHardness';
+import VideoLibrary from './pages/VideoLibrary';
 import VirginiaWaterHardness from './pages/VirginiaWaterHardness';
+import Warranty from './pages/Warranty';
 import WashingtonWaterHardness from './pages/WashingtonWaterHardness';
+import WastewaterStruvite from './pages/WastewaterStruvite';
+import WaterHardnessMap from './pages/WaterHardnessMap';
 import WestVirginiaWaterHardness from './pages/WestVirginiaWaterHardness';
 import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
 import WyomingWaterHardness from './pages/WyomingWaterHardness';
@@ -168,6 +168,7 @@ export const PAGES = {
     "Agriculture": Agriculture,
     "AgricultureFarming": AgricultureFarming,
     "AgricultureLandscaping": AgricultureLandscaping,
+    "AlabamaWaterHardness": AlabamaWaterHardness,
     "AlaskaWaterHardness": AlaskaWaterHardness,
     "ArizonaWaterHardness": ArizonaWaterHardness,
     "ArkansasWaterHardness": ArkansasWaterHardness,
@@ -196,12 +197,42 @@ export const PAGES = {
     "FilterHousings": FilterHousings,
     "Filtration": Filtration,
     "FiltrationTechnology": FiltrationTechnology,
+    "FloridaWaterHardness": FloridaWaterHardness,
     "FoodBeverage": FoodBeverage,
+    "GeorgiaWaterHardness": GeorgiaWaterHardness,
     "GroundwaterTemperatureMap": GroundwaterTemperatureMap,
+    "HawaiiWaterHardness": HawaiiWaterHardness,
     "Home": Home,
+    "IdahoWaterHardness": IdahoWaterHardness,
+    "IllinoisWaterHardness": IllinoisWaterHardness,
+    "IndianaWaterHardness": IndianaWaterHardness,
     "Industrial": Industrial,
+    "IowaWaterHardness": IowaWaterHardness,
+    "KansasWaterHardness": KansasWaterHardness,
+    "KentuckyWaterHardness": KentuckyWaterHardness,
     "KnowledgeBase": KnowledgeBase,
+    "LouisianaWaterHardness": LouisianaWaterHardness,
+    "MaineWaterHardness": MaineWaterHardness,
     "Marine": Marine,
+    "MarylandWaterHardness": MarylandWaterHardness,
+    "MassachusettsWaterHardness": MassachusettsWaterHardness,
+    "MichiganWaterHardness": MichiganWaterHardness,
+    "MinnesotaWaterHardness": MinnesotaWaterHardness,
+    "MississippiWaterHardness": MississippiWaterHardness,
+    "MissouriWaterHardness": MissouriWaterHardness,
+    "MontanaWaterHardness": MontanaWaterHardness,
+    "NebraskaWaterHardness": NebraskaWaterHardness,
+    "NevadaWaterHardness": NevadaWaterHardness,
+    "NewHampshireWaterHardness": NewHampshireWaterHardness,
+    "NewJerseyWaterHardness": NewJerseyWaterHardness,
+    "NewMexicoWaterHardness": NewMexicoWaterHardness,
+    "NewYorkWaterHardness": NewYorkWaterHardness,
+    "NorthCarolinaWaterHardness": NorthCarolinaWaterHardness,
+    "NorthDakotaWaterHardness": NorthDakotaWaterHardness,
+    "OhioWaterHardness": OhioWaterHardness,
+    "OklahomaWaterHardness": OklahomaWaterHardness,
+    "OregonWaterHardness": OregonWaterHardness,
+    "PennsylvaniaWaterHardness": PennsylvaniaWaterHardness,
     "PerformanceWithTime": PerformanceWithTime,
     "PlasticManufacturing": PlasticManufacturing,
     "PowerGeneration": PowerGeneration,
@@ -223,57 +254,26 @@ export const PAGES = {
     "ProtectiveEnclosure": ProtectiveEnclosure,
     "RemovedContentPage": RemovedContentPage,
     "Residential": Residential,
+    "RhodeIslandWaterHardness": RhodeIslandWaterHardness,
     "Savings": Savings,
     "Scale": Scale,
-    "StateTemperature": StateTemperature,
-    "Support": Support,
-    "Technology": Technology,
-    "TermsOfService": TermsOfService,
-    "VideoLibrary": VideoLibrary,
-    "Warranty": Warranty,
-    "WastewaterStruvite": WastewaterStruvite,
-    "StateWaterHardness": StateWaterHardness,
-    "AlabamaWaterHardness": AlabamaWaterHardness,
-    "WaterHardnessMap": WaterHardnessMap,
-    "FloridaWaterHardness": FloridaWaterHardness,
-    "GeorgiaWaterHardness": GeorgiaWaterHardness,
-    "HawaiiWaterHardness": HawaiiWaterHardness,
-    "IdahoWaterHardness": IdahoWaterHardness,
-    "IllinoisWaterHardness": IllinoisWaterHardness,
-    "IndianaWaterHardness": IndianaWaterHardness,
-    "IowaWaterHardness": IowaWaterHardness,
-    "KansasWaterHardness": KansasWaterHardness,
-    "KentuckyWaterHardness": KentuckyWaterHardness,
-    "LouisianaWaterHardness": LouisianaWaterHardness,
-    "MaineWaterHardness": MaineWaterHardness,
-    "MarylandWaterHardness": MarylandWaterHardness,
-    "MassachusettsWaterHardness": MassachusettsWaterHardness,
-    "MichiganWaterHardness": MichiganWaterHardness,
-    "MinnesotaWaterHardness": MinnesotaWaterHardness,
-    "MississippiWaterHardness": MississippiWaterHardness,
-    "MissouriWaterHardness": MissouriWaterHardness,
-    "MontanaWaterHardness": MontanaWaterHardness,
-    "NebraskaWaterHardness": NebraskaWaterHardness,
-    "NevadaWaterHardness": NevadaWaterHardness,
-    "NewHampshireWaterHardness": NewHampshireWaterHardness,
-    "NewJerseyWaterHardness": NewJerseyWaterHardness,
-    "NewMexicoWaterHardness": NewMexicoWaterHardness,
-    "NewYorkWaterHardness": NewYorkWaterHardness,
-    "NorthCarolinaWaterHardness": NorthCarolinaWaterHardness,
-    "NorthDakotaWaterHardness": NorthDakotaWaterHardness,
-    "OhioWaterHardness": OhioWaterHardness,
-    "OklahomaWaterHardness": OklahomaWaterHardness,
-    "OregonWaterHardness": OregonWaterHardness,
-    "PennsylvaniaWaterHardness": PennsylvaniaWaterHardness,
-    "RhodeIslandWaterHardness": RhodeIslandWaterHardness,
     "SouthCarolinaWaterHardness": SouthCarolinaWaterHardness,
     "SouthDakotaWaterHardness": SouthDakotaWaterHardness,
+    "StateTemperature": StateTemperature,
+    "StateWaterHardness": StateWaterHardness,
+    "Support": Support,
+    "Technology": Technology,
     "TennesseeWaterHardness": TennesseeWaterHardness,
+    "TermsOfService": TermsOfService,
     "TexasWaterHardness": TexasWaterHardness,
     "UtahWaterHardness": UtahWaterHardness,
     "VermontWaterHardness": VermontWaterHardness,
+    "VideoLibrary": VideoLibrary,
     "VirginiaWaterHardness": VirginiaWaterHardness,
+    "Warranty": Warranty,
     "WashingtonWaterHardness": WashingtonWaterHardness,
+    "WastewaterStruvite": WastewaterStruvite,
+    "WaterHardnessMap": WaterHardnessMap,
     "WestVirginiaWaterHardness": WestVirginiaWaterHardness,
     "WisconsinWaterHardness": WisconsinWaterHardness,
     "WyomingWaterHardness": WyomingWaterHardness,
