@@ -386,15 +386,15 @@ export default function FilterCartridges() {
             <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
               Our water treatment experts can help you select the right filter cartridge for your system.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to={createPageUrl('Contact')}>
-                <Button className="bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
+              <Link to={createPageUrl('Contact')} className="flex-1 sm:flex-none">
+                <Button className="w-full sm:w-auto bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
                   Contact Us
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="tel:1-888-559-4340">
-                <Button className="bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
+              <a href="tel:1-888-559-4340" className="flex-1 sm:flex-none">
+                <Button className="w-full sm:w-auto bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
                   Call 1-888-559-4340
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
