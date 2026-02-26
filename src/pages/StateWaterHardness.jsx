@@ -6,56 +6,16 @@ import { motion } from 'framer-motion';
 import { MapPin, ChevronRight } from 'lucide-react';
 
 const states = [
-  { name: 'Alabama', page: 'AlabamaWaterHardness' },
-  { name: 'Alaska', page: 'AlaskaWaterHardness' },
-  { name: 'Arizona', page: 'ArizonaWaterHardness' },
-  { name: 'Arkansas', page: 'ArkansasWaterHardness' },
-  { name: 'California', page: 'CaliforniaWaterHardness' },
-  { name: 'Colorado', page: 'ColoradoWaterHardness' },
-  { name: 'Connecticut', page: 'ConnecticutWaterHardness' },
-  { name: 'Delaware', page: 'DelawareWaterHardness' },
-  { name: 'Florida', page: null },
-  { name: 'Georgia', page: null },
-  { name: 'Hawaii', page: null },
-  { name: 'Idaho', page: null },
-  { name: 'Illinois', page: null },
-  { name: 'Indiana', page: null },
-  { name: 'Iowa', page: null },
-  { name: 'Kansas', page: null },
-  { name: 'Kentucky', page: null },
-  { name: 'Louisiana', page: null },
-  { name: 'Maine', page: null },
-  { name: 'Maryland', page: null },
-  { name: 'Massachusetts', page: null },
-  { name: 'Michigan', page: null },
-  { name: 'Minnesota', page: null },
-  { name: 'Mississippi', page: null },
-  { name: 'Missouri', page: null },
-  { name: 'Montana', page: null },
-  { name: 'Nebraska', page: null },
-  { name: 'Nevada', page: null },
-  { name: 'New Hampshire', page: null },
-  { name: 'New Jersey', page: null },
-  { name: 'New Mexico', page: null },
-  { name: 'New York', page: null },
-  { name: 'North Carolina', page: null },
-  { name: 'North Dakota', page: null },
-  { name: 'Ohio', page: null },
-  { name: 'Oklahoma', page: null },
-  { name: 'Oregon', page: null },
-  { name: 'Pennsylvania', page: null },
-  { name: 'Rhode Island', page: null },
-  { name: 'South Carolina', page: null },
-  { name: 'South Dakota', page: null },
-  { name: 'Tennessee', page: null },
-  { name: 'Texas', page: null },
-  { name: 'Utah', page: null },
-  { name: 'Vermont', page: null },
-  { name: 'Virginia', page: null },
-  { name: 'Washington', page: null },
-  { name: 'West Virginia', page: null },
-  { name: 'Wisconsin', page: null },
-  { name: 'Wyoming', page: null }
+  'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 
+  'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia',
+  'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa',
+  'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland',
+  'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri',
+  'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey',
+  'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio',
+  'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina',
+  'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
+  'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
 ];
 
 export default function StateWaterHardness() {
@@ -94,46 +54,32 @@ export default function StateWaterHardness() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {states.map((state, index) => {
+              const pageUrl = `${state.replace(/\s+/g, '')}WaterHardness`;
+              
               return (
                 <motion.div
-                  key={state.name}
+                  key={state}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.01 }}
                 >
-                  {state.page ? (
-                    <Link
-                      to={createPageUrl(state.page)}
-                      className="group block bg-slate-50 hover:bg-cyan-50 rounded-lg p-4 transition-all duration-200 border border-slate-200 hover:border-cyan-300 hover:shadow-md"
-                    >
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                          <div className="w-10 h-10 rounded-full bg-cyan-100 group-hover:bg-cyan-500 flex items-center justify-center transition-colors">
-                            <MapPin className="w-5 h-5 text-cyan-600 group-hover:text-white transition-colors" />
-                          </div>
-                          <span className="font-semibold text-slate-900 group-hover:text-cyan-700 transition-colors">
-                            {state.name}
-                          </span>
+                  <Link
+                    to={createPageUrl(pageUrl)}
+                    className="group block bg-slate-50 hover:bg-cyan-50 rounded-lg p-4 transition-all duration-200 border border-slate-200 hover:border-cyan-300 hover:shadow-md"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-cyan-100 group-hover:bg-cyan-500 flex items-center justify-center transition-colors">
+                          <MapPin className="w-5 h-5 text-cyan-600 group-hover:text-white transition-colors" />
                         </div>
-                        <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-cyan-500 group-hover:translate-x-1 transition-all" />
+                        <span className="font-semibold text-slate-900 group-hover:text-cyan-700 transition-colors">
+                          {state}
+                        </span>
                       </div>
-                    </Link>
-                  ) : (
-                    <div className="block bg-slate-100 rounded-lg p-4 border border-slate-200 opacity-60">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                          <div className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center">
-                            <MapPin className="w-5 h-5 text-slate-400" />
-                          </div>
-                          <span className="font-semibold text-slate-600">
-                            {state.name}
-                          </span>
-                        </div>
-                        <ChevronRight className="w-5 h-5 text-slate-300" />
-                      </div>
+                      <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-cyan-500 group-hover:translate-x-1 transition-all" />
                     </div>
-                  )}
+                  </Link>
                 </motion.div>
               );
             })}
