@@ -54,7 +54,7 @@ export default function BundleDeal() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Pearl Plus Bundle Deal - HydroFLOW Water Treatment for Large Homes</title>
+        <title>Pearl Plus Bundle Deal - <i>Hydro</i>FLOW Water Treatment for Large Homes</title>
         <meta name="description" content="Get the HydroFLOW Pearl Plus Bundle with Pearl Booster for homes over 3,000 sq ft. Save $45 on this chemical-free water conditioning system. 5-year warranty included." />
       </Helmet>
       {/* Breadcrumb */}
@@ -83,7 +83,7 @@ export default function BundleDeal() {
               >
                 <img 
                   src={images[currentSlide]} 
-                  alt="HydroFLOW Pearl Plus Bundle"
+                  alt="<i>Hydro</i>FLOW Pearl Plus Bundle"
                   className="w-full h-96 object-contain"
                 />
 
@@ -226,7 +226,7 @@ export default function BundleDeal() {
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Easy Installation</h3>
                   <p className="text-slate-700">
-                    HydroFLOW requires no plumbing modifications for its non-intrusive and easy installation. The unit easily attaches to your cold-water line.
+                    <i>Hydro</i>FLOW requires no plumbing modifications for its non-intrusive and easy installation. The unit easily attaches to your cold-water line.
                   </p>
                 </div>
               </div>
@@ -317,13 +317,13 @@ export default function BundleDeal() {
                 name: 'Tammy Meagher', 
                 date: 'May 2, 2024', 
                 rating: 5, 
-                text: 'I can\'t recommend the HydroFLOW Pearl Plus bundle deal enough! Easy Scale Prevention: Since installing the system, I\'ve noticed a huge difference in how easy it is to wipe away hard water stains. Eco-Friendly Solution: I love that the HydroFLOW system is chemical-free and doesn\'t use salt. DIY Installation: Even though I\'m not the handiest person, I was able to install the Pearl Plus myself with no problems. Perfect for Bigger Homes: The bundle with the Pearl Booster was ideal for my house because it\'s over 3,000 square feet. Great Value: The bundle price felt very reasonable considering the benefits I\'m getting. Overall, I\'m so happy with my HydroFLOW Pearl Plus bundle. Highly recommend!' 
+                text: 'I can\'t recommend the <i>Hydro</i>FLOW Pearl Plus bundle deal enough! Easy Scale Prevention: Since installing the system, I\'ve noticed a huge difference in how easy it is to wipe away hard water stains. Eco-Friendly Solution: I love that the <i>Hydro</i>FLOW system is chemical-free and doesn\'t use salt. DIY Installation: Even though I\'m not the handiest person, I was able to install the Pearl Plus myself with no problems. Perfect for Bigger Homes: The bundle with the Pearl Booster was ideal for my house because it\'s over 3,000 square feet. Great Value: The bundle price felt very reasonable considering the benefits I\'m getting. Overall, I\'m so happy with my <i>Hydro</i>FLOW Pearl Plus bundle. Highly recommend!' 
               },
               { 
                 name: 'DeeG', 
                 date: 'July 20, 2024', 
                 rating: 5, 
-                text: 'Having previously installed HydroFLOW units on our residence about 4½ years ago, we achieved dramatic results. Our water hardness is 144 PPM. Scale would build up on the shower head to be visible, start to plug the spray. Not anymore. The dishwasher used to have a haze on the dishes. They are spotless now. The units continue to perform flawlessly. They draw about 1.2 watts per unit, which costs less than $5 per year to operate. Due to the current amazing performance, we purchased a HydroFLOW Pearl Plus with Pearl Booster for our RV. So far, it appears to mirror the results in our house. We highly recommend HydroFLOW as an economical, cost effective, environmentally friendly, maintenance free solution.' 
+                text: 'Having previously installed <i>Hydro</i>FLOW units on our residence about 4½ years ago, we achieved dramatic results. Our water hardness is 144 PPM. Scale would build up on the shower head to be visible, start to plug the spray. Not anymore. The dishwasher used to have a haze on the dishes. They are spotless now. The units continue to perform flawlessly. They draw about 1.2 watts per unit, which costs less than $5 per year to operate. Due to the current amazing performance, we purchased a <i>Hydro</i>FLOW Pearl Plus with Pearl Booster for our RV. So far, it appears to mirror the results in our house. We highly recommend <i>Hydro</i>FLOW as an economical, cost effective, environmentally friendly, maintenance free solution.' 
               },
               { 
                 name: 'Dan', 
