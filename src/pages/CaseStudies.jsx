@@ -69,28 +69,6 @@ const caseStudies = [
   },
   {
     category: 'industrial',
-    title: 'Steel Company Spray Bar System',
-    slug: 'steel-company-spray-bar-system',
-    description: 'Steel manufacturing facility in Ontario, Canada with scale issues on their galvanizing line.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24681639432386.jpg',
-    results: ['Scale elimination', 'Improved efficiency', 'Cost savings'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/39071639432386.pdf',
-    application_type: ['Heat Exchangers', 'Other'],
-    products_used: ['iRange']
-  },
-  {
-    category: 'industrial',
-    title: 'Industrial Water Heaters - Apple Packing Facility',
-    slug: 'industrial-water-heaters',
-    description: 'Apple packing facility in the U.S. Northwest installed HydroFLOW units that extended water heater lifespan by 14 years.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9edfa037e_Apples.jpeg',
-    results: ['14-year equipment life extension', 'Real-time monitoring', '70% scale reduction'],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ca3b1534f_HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf',
-    application_type: ['Water Heaters'],
-    products_used: ['iRange']
-  },
-  {
-    category: 'industrial',
     title: 'Sludge Line Struvite Treatment',
     slug: 'sludge-line-struvite-treatment',
     description: 'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.',
@@ -102,12 +80,12 @@ const caseStudies = [
   },
   {
     category: 'industrial',
-    title: 'Water Bath Cooling System - Plastics Processing',
-    slug: 'water-bath-cooling-system',
-    description: 'Plastics manufacturing facility with scale buildup in water bath cooling systems.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/41c97ee0b_download-11.jpeg',
-    results: ['Scale elimination', 'Improved cooling efficiency', 'Extended equipment life'],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bc24ddba2_HydroFLOW-Case-Study-Water-Bath-Cooling-System.pdf',
+    title: 'Steel Company Spray Bar System',
+    slug: 'steel-company-spray-bar-system',
+    description: 'Steel manufacturing facility in Ontario, Canada with scale issues on their galvanizing line.',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24681639432386.jpg',
+    results: ['Scale elimination', 'Improved efficiency', 'Cost savings'],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/39071639432386.pdf',
     application_type: ['Heat Exchangers', 'Other'],
     products_used: ['iRange']
   },
