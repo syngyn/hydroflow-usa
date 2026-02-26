@@ -20,6 +20,30 @@ const getCategoryIcon = (category) => {
 
 // Complete case study data with all details
 const caseStudyData = {
+  'industrial-water-heaters': {
+    category: 'industrial',
+    title: 'Industrial Water Heaters - Apple Packing Facility',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9edfa037e_Apples.jpeg',
+    customer: 'Apple packing facility in the U.S. Northwest that installed 6 <i>Hydro</i>FLOW units in multiple locations over the last 15 years',
+    application: 'Bank of 3 water heaters supplying warm water to apple washing nozzles',
+    installedUnits: 'Generation 4 HydroFLOW i60 unit with HydroKNCT IoT device for remote monitoring via Hydropath Care',
+    background: 'Limescale was fouling the bank of 3 water heaters that supply warm water to the apple washing nozzles, leading to extensive maintenance and premature equipment failure. A <i>Hydro</i>FLOW unit was installed in 2011 on the incoming water line feeding the 3 water heaters to evaluate effectiveness of preventing and removing limescale deposits from tubes and tank walls.',
+    successFactors: [
+      'Continuous operation from 2011 to 2026',
+      'Significant reduction in maintenance requirements',
+      'Extended equipment lifespan resulting in major cost savings',
+      'Seamless integration with new high-efficiency equipment',
+      'Real-time monitoring for proactive maintenance'
+    ],
+    results: [
+      '70% reduction in limescale deposits on tubes and tank walls within 3 months of initial installation in 2011',
+      'Extended water heater lifespan by 14 years beyond expected end of life - allowing them to continue operation until 2025',
+      'Eliminated extensive maintenance costs and premature equipment failure',
+      'Successfully upgraded to new high-efficiency water heaters in 2025 with Generation 4 i60 protection',
+      'Real-time monitoring capability through HydroKNCT IoT device and Hydropath Care software enables proactive maintenance'
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ca3b1534f_HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf'
+  },
   'massive-texas-factory': {
     category: 'industrial',
     title: 'Massive Texas Factory',
@@ -332,30 +356,6 @@ const caseStudyData = {
       'Any buildup found to occur was a loose, fluffier material instead of a concrete like buildup.'
     ],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/39071639432386.pdf'
-  },
-  'industrial-water-heaters': {
-    category: 'industrial',
-    title: 'Industrial Water Heaters - Apple Packing Facility',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9edfa037e_Apples.jpeg',
-    customer: 'Apple packing facility in the U.S. Northwest that installed 6 <i>Hydro</i>FLOW units in multiple locations over the last 15 years',
-    application: 'Bank of 3 water heaters supplying warm water to apple washing nozzles',
-    installedUnits: 'Generation 4 HydroFLOW i60 unit with HydroKNCT IoT device for remote monitoring via Hydropath Care',
-    background: 'Limescale was fouling the bank of 3 water heaters that supply warm water to the apple washing nozzles, leading to extensive maintenance and premature equipment failure. A <i>Hydro</i>FLOW unit was installed in 2011 on the incoming water line feeding the 3 water heaters to evaluate effectiveness of preventing and removing limescale deposits from tubes and tank walls.',
-    successFactors: [
-      'Continuous operation from 2011 to 2026',
-      'Significant reduction in maintenance requirements',
-      'Extended equipment lifespan resulting in major cost savings',
-      'Seamless integration with new high-efficiency equipment',
-      'Real-time monitoring for proactive maintenance'
-    ],
-    results: [
-      '70% reduction in limescale deposits on tubes and tank walls within 3 months of initial installation in 2011',
-      'Extended water heater lifespan by 14 years beyond expected end of life - allowing them to continue operation until 2025',
-      'Eliminated extensive maintenance costs and premature equipment failure',
-      'Successfully upgraded to new high-efficiency water heaters in 2025 with Generation 4 i60 protection',
-      'Real-time monitoring capability through HydroKNCT IoT device and Hydropath Care software enables proactive maintenance'
-    ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ca3b1534f_HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf'
   },
   'biofilm-reduction-referral-letter': {
     category: 'industrial',
