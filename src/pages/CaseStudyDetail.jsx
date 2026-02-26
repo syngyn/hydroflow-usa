@@ -1053,7 +1053,9 @@ export default function CaseStudyDetail() {
               </Badge>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              {study.title}
+              {study.title.split('HydroFLOW').map((part, idx) => (
+                idx === 0 ? part : <span key={idx}><i>Hydro</i>FLOW{part}</span>
+              ))}
             </h1>
           </motion.div>
         </div>
