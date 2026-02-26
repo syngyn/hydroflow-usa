@@ -12,32 +12,29 @@ const quizQuestions = [
     id: 'propertyType',
     question: 'What type of property do you have?',
     options: [
-      { value: 'residential', label: 'Residential', icon: Home, description: 'Home, apartment, or condo' },
+      { value: 'home', label: 'Home', icon: Home, description: 'Single-family house' },
+      { value: 'townhouse', label: 'Townhouse', icon: Building2, description: 'Multi-level attached home' },
+      { value: 'apartment', label: 'Apartment', icon: Building2, description: 'Apartment unit' },
+      { value: 'condo', label: 'Condo', icon: Building2, description: 'Condominium unit' },
     ]
   },
   {
     id: 'propertySize',
-    question: 'What is the size of your property?',
-    dependsOn: 'propertyType',
-    options: {
-      residential: [
-        { value: 'small', label: 'Small', description: 'Apartment or condo (up to 1,000 sq ft)' },
-        { value: 'medium', label: 'Medium', description: 'Standard home (1,000 - 3,000 sq ft)' },
-        { value: 'large', label: 'Large', description: 'Large home or estate (3,000+ sq ft)' },
-      ]
-    }
+    question: 'What size is the property?',
+    options: [
+      { value: 'small', label: 'Small', description: 'Up to 1,000 sq ft' },
+      { value: 'medium', label: 'Medium', description: '1,000 - 3,000 sq ft' },
+      { value: 'large', label: 'Large', description: '3,000+ sq ft' },
+    ]
   },
   {
     id: 'application',
     question: 'What is your primary application?',
-    dependsOn: 'propertyType',
-    options: {
-      residential: [
-        { value: 'wholehouse', label: 'Whole House', icon: Home, description: 'Protect entire home plumbing' },
-        { value: 'pool', label: 'Pool/Spa', icon: Waves, description: 'Swimming pool or hot tub' },
-        { value: 'both', label: 'Whole Home and Pool/Spa', icon: Home, description: 'Complete property protection' },
-      ]
-    }
+    options: [
+      { value: 'wholehouse', label: 'Whole House', icon: Home, description: 'Protect entire home plumbing' },
+      { value: 'pool', label: 'Pool/Spa', icon: Waves, description: 'Swimming pool or hot tub' },
+      { value: 'both', label: 'Whole Home and Pool/Spa', icon: Home, description: 'Complete property protection' },
+    ]
   }
 ];
 
@@ -144,10 +141,6 @@ export default function ProductSelectionTool() {
   const progress = ((currentStep + 1) / quizQuestions.length) * 100;
 
   const getOptions = () => {
-    if (currentQuestion.dependsOn) {
-      const dependencyValue = answers[currentQuestion.dependsOn];
-      return currentQuestion.options[dependencyValue] || [];
-    }
     return currentQuestion.options;
   };
 
@@ -177,22 +170,16 @@ export default function ProductSelectionTool() {
   };
 
   const getRecommendation = () => {
-    const { propertyType, propertySize, application } = answers;
+    const { propertySize, application } = answers;
     
-    if (propertyType === 'residential' && application === 'wholehouse') {
+    if (application === 'wholehouse') {
       const key = `residential_${propertySize}_wholehouse`;
       return productRecommendations[key] || productRecommendations.residential_medium_wholehouse;
-    } else if (propertyType === 'residential' && application === 'pool') {
+    } else if (application === 'pool') {
       return productRecommendations.residential_pool;
-    } else if (propertyType === 'residential' && application === 'both') {
+    } else if (application === 'both') {
       const key = `residential_${propertySize}_both`;
       return productRecommendations[key] || productRecommendations.residential_medium_both;
-    } else if (propertyType === 'commercial') {
-      return productRecommendations.commercial;
-    } else if (propertyType === 'industrial') {
-      return productRecommendations.industrial;
-    } else if (propertyType === 'marine') {
-      return productRecommendations.marine;
     }
     
     return productRecommendations.residential_medium_wholehouse;
