@@ -54,7 +54,7 @@ export default function BundleDeal() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Pearl Plus Bundle Deal - <i>Hydro</i>FLOW Water Treatment for Large Homes</title>
+        <title>Pearl Plus Bundle Deal - HydroFLOW Water Treatment for Large Homes</title>
         <meta name="description" content="Get the HydroFLOW Pearl Plus Bundle with Pearl Booster for homes over 3,000 sq ft. Save $45 on this chemical-free water conditioning system. 5-year warranty included." />
       </Helmet>
       {/* Breadcrumb */}
