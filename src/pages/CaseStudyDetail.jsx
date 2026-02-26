@@ -1052,9 +1052,7 @@ export default function CaseStudyDetail() {
                 {study.category}
               </Badge>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              {study.title}
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6" dangerouslySetInnerHTML={{ __html: study.title }} />
           </motion.div>
         </div>
       </section>
