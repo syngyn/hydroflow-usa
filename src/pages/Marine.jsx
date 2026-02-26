@@ -173,7 +173,7 @@ export default function Marine() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-2">
-                  <i>Hydro</i>path Marine Overview
+                  Hydropath Marine Overview
                 </h3>
                 <p className="text-slate-600">
                   Learn about the Hydropath Marine (HM) range designed specifically for marine vessel water treatment.
