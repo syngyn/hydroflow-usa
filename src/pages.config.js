@@ -61,7 +61,6 @@ import BlogList from './pages/BlogList';
 import BundleDeal from './pages/BundleDeal';
 import CaliforniaWaterHardness from './pages/CaliforniaWaterHardness';
 import Cart from './pages/Cart';
-import CaseStudies from './pages/CaseStudies';
 import Checkout from './pages/Checkout';
 import CheckoutSuccess from './pages/CheckoutSuccess';
 import ColoradoWaterHardness from './pages/ColoradoWaterHardness';
@@ -117,6 +116,7 @@ import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import CaseStudies from './pages/CaseStudies';
 import CaseStudyDetail from './pages/CaseStudyDetail';
 import __Layout from './Layout.jsx';
 
@@ -136,7 +136,6 @@ export const PAGES = {
     "BundleDeal": BundleDeal,
     "CaliforniaWaterHardness": CaliforniaWaterHardness,
     "Cart": Cart,
-    "CaseStudies": CaseStudies,
     "Checkout": Checkout,
     "CheckoutSuccess": CheckoutSuccess,
     "ColoradoWaterHardness": ColoradoWaterHardness,
@@ -192,6 +191,7 @@ export const PAGES = {
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
+    "CaseStudies": CaseStudies,
     "CaseStudyDetail": CaseStudyDetail,
 }
 
