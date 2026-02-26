@@ -280,7 +280,7 @@ export default function BundleDeal() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-slate-900 mb-8">Installation Resources</h2>
           <div className="space-y-3">
-            <a href="https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Pearl-Plus-User-Guide-January-2023.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b62feb902_HydroFLOW-Pearl-Plus-User-Guide2026.pdf" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" className="w-full justify-start text-left">
                 <Package className="w-4 h-4 mr-2 flex-shrink-0" />
                 <i>Hydro</i>FLOW Pearl Plus User Guide (PDF)
