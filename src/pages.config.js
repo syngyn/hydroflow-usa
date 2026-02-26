@@ -159,6 +159,7 @@ import VirginiaWaterHardness from './pages/VirginiaWaterHardness';
 import WashingtonWaterHardness from './pages/WashingtonWaterHardness';
 import WestVirginiaWaterHardness from './pages/WestVirginiaWaterHardness';
 import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
+import WyomingWaterHardness from './pages/WyomingWaterHardness';
 import __Layout from './Layout.jsx';
 
 
@@ -275,6 +276,7 @@ export const PAGES = {
     "WashingtonWaterHardness": WashingtonWaterHardness,
     "WestVirginiaWaterHardness": WestVirginiaWaterHardness,
     "WisconsinWaterHardness": WisconsinWaterHardness,
+    "WyomingWaterHardness": WyomingWaterHardness,
 }
 
 export const pagesConfig = {
