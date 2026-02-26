@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
-import { Star, Check, Package, Shield, Zap, ArrowRight, Trophy, ChevronRight } from 'lucide-react';
+import { Star, Check, Package, Shield, Zap, ArrowRight, Trophy, ChevronRight, ChevronLeft } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
@@ -24,9 +24,17 @@ const images = [
 ];
 
 export default function ProductHS40() {
-  const [selectedImage, setSelectedImage] = useState(0);
-  const { addToCart } = useCart();
-  const { trackProductView } = useRecommendations();
+   const [selectedImage, setSelectedImage] = useState(0);
+   const { addToCart } = useCart();
+   const { trackProductView } = useRecommendations();
+
+   const nextSlide = () => {
+     setSelectedImage((prev) => (prev + 1) % images.length);
+   };
+
+   const prevSlide = () => {
+     setSelectedImage((prev) => (prev - 1 + images.length) % images.length);
+   };
 
   const product = {
     id: 'hs40',
@@ -72,16 +80,37 @@ export default function ProductHS40() {
             {/* Image Gallery */}
             <div>
               <motion.div 
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="bg-slate-50 rounded-3xl p-8 mb-4"
-              >
-                <img 
-                  src={images[selectedImage]} 
-                  alt="HydroFLOW hs40"
-                  className="w-full h-96 object-contain"
-                />
-              </motion.div>
+                 initial={{ opacity: 0 }}
+                 animate={{ opacity: 1 }}
+                 className="relative bg-slate-50 rounded-3xl p-8 mb-4 group"
+               >
+                 <img 
+                   src={images[selectedImage]} 
+                   alt="HydroFLOW hs40"
+                   className="w-full h-96 object-contain"
+                 />
+
+                 {/* Navigation Buttons */}
+                 <button
+                   onClick={prevSlide}
+                   className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity"
+                   aria-label="Previous image"
+                 >
+                   <ChevronLeft className="w-6 h-6 text-slate-900" />
+                 </button>
+                 <button
+                   onClick={nextSlide}
+                   className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity"
+                   aria-label="Next image"
+                 >
+                   <ChevronRight className="w-6 h-6 text-slate-900" />
+                 </button>
+
+                 {/* Slide Counter */}
+                 <div className="absolute bottom-4 right-4 bg-slate-900/70 text-white px-3 py-1 rounded-full text-sm font-medium">
+                   {selectedImage + 1} / {images.length}
+                 </div>
+               </motion.div>
               
               <div className="hidden md:grid grid-cols-5 gap-2">
                 {images.map((img, idx) => (
