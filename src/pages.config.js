@@ -51,7 +51,6 @@ import About from './pages/About';
 import Agriculture from './pages/Agriculture';
 import AgricultureFarming from './pages/AgricultureFarming';
 import AgricultureLandscaping from './pages/AgricultureLandscaping';
-import AlabamaWaterHardness from './pages/AlabamaWaterHardness';
 import AlaskaWaterHardness from './pages/AlaskaWaterHardness';
 import ArizonaWaterHardness from './pages/ArizonaWaterHardness';
 import ArkansasWaterHardness from './pages/ArkansasWaterHardness';
@@ -117,6 +116,7 @@ import TermsOfService from './pages/TermsOfService';
 import VideoLibrary from './pages/VideoLibrary';
 import Warranty from './pages/Warranty';
 import WastewaterStruvite from './pages/WastewaterStruvite';
+import AlabamaWaterHardness from './pages/AlabamaWaterHardness';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import __Layout from './Layout.jsx';
 
@@ -126,7 +126,6 @@ export const PAGES = {
     "Agriculture": Agriculture,
     "AgricultureFarming": AgricultureFarming,
     "AgricultureLandscaping": AgricultureLandscaping,
-    "AlabamaWaterHardness": AlabamaWaterHardness,
     "AlaskaWaterHardness": AlaskaWaterHardness,
     "ArizonaWaterHardness": ArizonaWaterHardness,
     "ArkansasWaterHardness": ArkansasWaterHardness,
@@ -192,6 +191,7 @@ export const PAGES = {
     "VideoLibrary": VideoLibrary,
     "Warranty": Warranty,
     "WastewaterStruvite": WastewaterStruvite,
+    "AlabamaWaterHardness": AlabamaWaterHardness,
     "WaterHardnessMap": WaterHardnessMap,
 }
 
