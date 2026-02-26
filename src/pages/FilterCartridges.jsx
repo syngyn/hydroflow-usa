@@ -172,22 +172,7 @@ export default function FilterCartridges() {
               <Badge className="mt-3 bg-cyan-600 text-white">You're Here</Badge>
             </motion.div>
 
-            <Link to={createPageUrl('Products')}>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="bg-slate-50 rounded-2xl p-8 hover:bg-cyan-50 transition-colors cursor-pointer text-center group"
-              >
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-xl flex items-center justify-center">
-                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">On-the-Go Hydration</h3>
-                <p className="text-sm text-slate-600">Portable filtration solutions</p>
-              </motion.div>
-            </Link>
+
           </div>
         </div>
       </section>
