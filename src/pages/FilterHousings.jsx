@@ -289,8 +289,9 @@ export default function FilterHousings() {
                 </Button>
               </Link>
               <a href="tel:1-888-559-4340">
-                <Button variant="outline" className="border-2 border-white text-white hover:bg-white/10 rounded-full px-8 py-6 text-lg font-semibold">
+                <Button className="bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
                   Call 1-888-559-4340
+                  <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </a>
             </div>
