@@ -117,7 +117,7 @@ export default function ProductPearl() {
               </motion.div>
 
               {/* Thumbnail Indicators */}
-              <div className="flex gap-2 overflow-x-auto">
+              <div className="hidden md:flex gap-2">
                 {images.map((img, idx) => (
                   <button
                     key={idx}
