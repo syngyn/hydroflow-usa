@@ -149,7 +149,7 @@ export default function AlabamaWaterHardness() {
               A problem that some Alabama residents will have to deal with is <strong>hard water</strong>. One old-fashioned, inefficient, expensive and unhealthy method to treat hard water is with a salt-based water softener. Most people don't realize that if you're using a water softener you are basically removing calcium and magnesium from your drinking water and adding salt to your diet. In addition, many states are banning the use of salt-based water softeners.
             </p>
             <p className="text-lg text-slate-700 leading-relaxed">
-              Alternative water treatment solutions such as "water conditioners" have been gaining popularity in recent years because they are cheap to operate and the best eco-friendly solution for hard water. <i>Hydro</i>PATH technology, which powers the <i>Hydro</i>FLOW water conditioners is by far the most efficient, cost-effective and eco-friendly solution to deal with hard water problems. To learn more about how <i>Hydro</i>FLOW solves the problems created by hard water, please check out our technology page.
+              Alternative water treatment solutions such as "water conditioners" have been gaining popularity in recent years because they are cheap to operate and the best eco-friendly solution for hard water. HydroPATH technology, which powers the <i>Hydro</i>FLOW water conditioners is by far the most efficient, cost-effective and eco-friendly solution to deal with hard water problems. To learn more about how <i>Hydro</i>FLOW solves the problems created by hard water, please check out our technology page.
             </p>
           </div>
 
