@@ -344,7 +344,14 @@ export default function BundleDeal() {
                     ))}
                   </div>
                 </div>
-                <p className="text-slate-700">{review.text}</p>
+                <p className="text-slate-700">
+                  {review.text.split('HydroFLOW').map((part, i) => (
+                    <React.Fragment key={i}>
+                      {part}
+                      {i < review.text.split('HydroFLOW').length - 1 && <><i>Hydro</i>FLOW</>}
+                    </React.Fragment>
+                  ))}
+                </p>
               </Card>
             ))}
           </div>
