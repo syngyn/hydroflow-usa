@@ -163,69 +163,15 @@ export default function WaterHardnessMap() {
               'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee',
               'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia',
               'Wisconsin', 'Wyoming'
-            ].map((state) => {
-              const pageNameMap = {
-                'Alabama': 'AlabamaWaterHardness',
-                'Alaska': 'AlaskaWaterHardness',
-                'Arizona': 'ArizonaWaterHardness',
-                'Arkansas': 'ArkansasWaterHardness',
-                'California': 'CaliforniaWaterHardness',
-                'Colorado': 'ColoradoWaterHardness',
-                'Connecticut': 'ConnecticutWaterHardness',
-                'Delaware': 'DelawareWaterHardness',
-                'Florida': 'FloridaWaterHardness',
-                'Georgia': 'GeorgiaWaterHardness',
-                'Hawaii': 'HawaiiWaterHardness',
-                'Idaho': 'IdahoWaterHardness',
-                'Illinois': 'IllinoisWaterHardness',
-                'Indiana': 'IndianaWaterHardness',
-                'Iowa': 'IowaWaterHardness',
-                'Kansas': 'KansasWaterHardness',
-                'Kentucky': 'KentuckyWaterHardness',
-                'Louisiana': 'LouisianaWaterHardness',
-                'Maine': 'MaineWaterHardness',
-                'Maryland': 'MarylandWaterHardness',
-                'Massachusetts': 'MassachusettsWaterHardness',
-                'Michigan': 'MichiganWaterHardness',
-                'Minnesota': 'MinnesotaWaterHardness',
-                'Mississippi': 'MississippiWaterHardness',
-                'Missouri': 'MissouriWaterHardness',
-                'Montana': 'MontanaWaterHardness',
-                'Nebraska': 'NebraskaWaterHardness',
-                'Nevada': 'NevadaWaterHardness',
-                'New Hampshire': 'NewHampshireWaterHardness',
-                'New Jersey': 'NewJerseyWaterHardness',
-                'New Mexico': 'NewMexicoWaterHardness',
-                'New York': 'NewYorkWaterHardness',
-                'North Carolina': 'NorthCarolinaWaterHardness',
-                'North Dakota': 'NorthDakotaWaterHardness',
-                'Ohio': 'OhioWaterHardness',
-                'Oklahoma': 'OklahomaWaterHardness',
-                'Oregon': 'OregonWaterHardness',
-                'Pennsylvania': 'PennsylvaniaWaterHardness',
-                'Rhode Island': 'RhodeIslandWaterHardness',
-                'South Carolina': 'SouthCarolinaWaterHardness',
-                'South Dakota': 'SouthDakotaWaterHardness',
-                'Tennessee': 'TennesseeWaterHardness',
-                'Texas': 'TexasWaterHardness',
-                'Utah': 'UtahWaterHardness',
-                'Vermont': 'VermontWaterHardness',
-                'Virginia': 'VirginiaWaterHardness',
-                'Washington': 'WashingtonWaterHardness',
-                'West Virginia': 'WestVirginiaWaterHardness',
-                'Wisconsin': 'WisconsinWaterHardness',
-                'Wyoming': 'WyomingWaterHardness'
-              };
-              return (
-                <Link
-                  key={state}
-                  to={createPageUrl(pageNameMap[state])}
-                  className="px-4 py-3 bg-white hover:bg-cyan-50 rounded-lg border border-slate-200 hover:border-cyan-300 text-slate-700 hover:text-cyan-600 font-medium text-sm transition-all text-center"
-                >
-                  {state}
-                </Link>
-              );
-            })}
+            ].map((state) => (
+              <Link
+                key={state}
+                to={createPageUrl('StateWaterHardness') + `?state=${state.toLowerCase().replace(/\s+/g, '')}`}
+                className="px-4 py-3 bg-white hover:bg-cyan-50 rounded-lg border border-slate-200 hover:border-cyan-300 text-slate-700 hover:text-cyan-600 font-medium text-sm transition-all text-center"
+              >
+                {state}
+              </Link>
+            ))}
           </div>
         </div>
       </section>
