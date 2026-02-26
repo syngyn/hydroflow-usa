@@ -39,7 +39,7 @@ const caseStudyData = {
       '70% reduction in limescale deposits on tubes and tank walls within 3 months of initial installation in 2011',
       'Extended water heater lifespan by 14 years beyond expected end of life - allowing them to continue operation until 2025',
       'Eliminated extensive maintenance costs and premature equipment failure',
-      'Successfully upgraded to new high-efficiency water heaters in 2025 with Generation 4 i60 protection',
+      'Successfully upgraded to new high-efficiency water heaters in 2025 with Generation 4 i60 unit protection',
       'Real-time monitoring capability through HydroKNCT IoT device and Hydropath Care software enables proactive maintenance'
     ],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ca3b1534f_HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf'
