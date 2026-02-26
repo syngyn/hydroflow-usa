@@ -228,7 +228,7 @@ export default function Marine() {
                 Marine Applications
               </h2>
               <p className="text-lg text-indigo-100/80 mb-8">
-                Our hm Range is specifically designed for marine applications, 
+                Our <i>hm</i> Range is specifically designed for marine applications, 
                 built with marine-grade materials to withstand the harshest conditions.
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
