@@ -979,7 +979,6 @@ const caseStudyData = {
     category: 'industrial',
     title: 'Industrial Water Heaters - Apple Packing Facility',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9edfa037e_Apples.jpeg',
-    installer: 'HydroFLOW USA',
     customer: 'Apple packing facility in the U.S. Northwest that installed 6 HydroFLOW units in multiple locations over the last 15 years',
     application: 'Bank of 3 water heaters supplying warm water to apple washing nozzles',
     installedUnits: 'Generation 4 HydroFLOW i60 unit with HydroKNCT IoT device for remote monitoring via Hydropath Care',
