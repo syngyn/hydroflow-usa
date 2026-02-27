@@ -166,7 +166,7 @@ export default function WaterHardnessMap() {
             ].map((state) => (
               <Link
                 key={state}
-                to={createPageUrl('StateWaterHardness') + `?state=${state.toLowerCase().replace(/\s+/g, '')}`}
+                to={createPageUrl(`${state.replace(/\s+/g, '')}WaterHardness`)}
                 className="px-4 py-3 bg-white hover:bg-cyan-50 rounded-lg border border-slate-200 hover:border-cyan-300 text-slate-700 hover:text-cyan-600 font-medium text-sm transition-all text-center"
               >
                 {state}
