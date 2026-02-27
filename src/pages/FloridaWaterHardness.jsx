@@ -36,8 +36,8 @@ export default function FloridaWaterHardness() {
 
       <div className="min-h-screen bg-white">
         {/* Hero Section */}
-        <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-          <div className="absolute inset-0 opacity-20">
+        <section className="relative pt-32 pb-20">
+          <div className="absolute inset-0">
             <img 
               src="https://hydroflow-usa.com/assets/pics/60481667847340.jpg" 
               alt="Florida Water Hardness Map" 
