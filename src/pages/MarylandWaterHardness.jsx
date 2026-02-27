@@ -35,7 +35,7 @@ export default function MarylandWaterHardness() {
               animate={{ opacity: 1, y: 0 }}
               className="text-center"
             >
-              <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Maryland</h1>
+              <h1 className="text-5xl md:text-6xl font-bold text-white mb-6" style={{textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000'}}>Maryland</h1>
             </motion.div>
           </div>
         </section>
