@@ -17,10 +17,22 @@ export default function StateWaterHardnessTemplate({
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-        <div className="absolute inset-0">
-          <div className="absolute top-20 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-cyan-400/10 rounded-full blur-3xl" />
-        </div>
+        {heroImageUrl && (
+          <div className="absolute inset-0">
+            <img 
+              src={heroImageUrl} 
+              alt={`${stateName} Water Hardness map`}
+              className="w-full h-full object-cover opacity-30"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-800/50 to-slate-900/80" />
+          </div>
+        )}
+        {!heroImageUrl && (
+          <div className="absolute inset-0">
+            <div className="absolute top-20 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-cyan-400/10 rounded-full blur-3xl" />
+          </div>
+        )}
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -28,13 +40,6 @@ export default function StateWaterHardnessTemplate({
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
-            {heroImageUrl && (
-              <img 
-                src={heroImageUrl} 
-                alt={`${stateName} Water Hardness map`}
-                className="w-full max-w-4xl mx-auto rounded-xl shadow-2xl mb-8"
-              />
-            )}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               {stateName}
             </h1>
