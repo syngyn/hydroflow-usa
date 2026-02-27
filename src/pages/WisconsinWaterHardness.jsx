@@ -24,8 +24,8 @@ export default function WisconsinWaterHardness() {
       </Helmet>
 
       <div className="min-h-screen bg-white">
-        <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-          <div className="absolute inset-0 opacity-20">
+        <section className="relative pt-32 pb-20">
+          <div className="absolute inset-0">
             <img 
               src="https://hydroflow-usa.com/assets/pics/54461667849832.jpg" 
               alt="Wisconsin Water Hardness Map" 
