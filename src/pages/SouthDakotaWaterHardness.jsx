@@ -36,7 +36,7 @@ export default function SouthDakotaWaterHardness() {
               animate={{ opacity: 1, y: 0 }}
               className="text-center"
             >
-              <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">South Dakota</h1>
+              <h1 className="text-5xl md:text-6xl font-bold text-white mb-6" style={{textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000'}}>South Dakota</h1>
             </motion.div>
           </div>
         </section>
