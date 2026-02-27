@@ -16,7 +16,7 @@ export default function StateWaterHardnessTemplate({
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      <section className={`relative pt-32 pb-20 ${heroImageUrl ? '' : 'bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900'}`}>
         {heroImageUrl && (
           <div className="absolute inset-0">
             <img 
