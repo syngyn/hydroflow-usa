@@ -8,6 +8,12 @@ import { RecommendationProvider } from '@/components/recommendations/Recommendat
 import { Toaster } from 'sonner';
 
 export default function Layout({ children, currentPageName }) {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <CartProvider>
       <RecommendationProvider>
