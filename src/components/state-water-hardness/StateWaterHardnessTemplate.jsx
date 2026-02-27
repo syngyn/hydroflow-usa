@@ -24,7 +24,7 @@ export default function StateWaterHardnessTemplate({
               alt={`${stateName} Water Hardness map`}
               className="w-full h-full object-cover opacity-30"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-800/50 to-slate-900/80" />
+            <div className="absolute inset-0 bg-slate-900/20" />
           </div>
         )}
         {!heroImageUrl && (
