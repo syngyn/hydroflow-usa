@@ -25,7 +25,7 @@ export default function OklahomaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7809cd2e5_1031667849357.jpg" 
               alt="Oklahoma Water Hardness Map" 
               className="w-full h-full object-cover"
             />

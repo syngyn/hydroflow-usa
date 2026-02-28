@@ -18,7 +18,7 @@ import ProductRecommendations from '@/components/recommendations/ProductRecommen
 
 const images = [
   'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/00e27e7ff_pearl-plus-on-pipe.png',
-  'https://hydroflow-usa.com/wp-content/uploads/2023/08/3121673370046.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/be0c54136_3121673370046.png',
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/76041673368629.png',
   'https://hydroflow-usa.com/wp-content/uploads/2023/08/79461673369704.png',
   'https://hydroflow-usa.com/wp-content/uploads/2024/04/bundle-heating-element.jpg',
