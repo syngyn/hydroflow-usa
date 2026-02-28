@@ -17,10 +17,10 @@ import ProductRecommendations from '@/components/recommendations/ProductRecommen
 
 const images = [
   'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png',
-  'https://hydroflow-usa.com/wp-content/uploads/2023/08/54751673473275.jpg',
-  'https://hydroflow-usa.com/wp-content/uploads/2023/08/29181677886890.png',
-  'https://hydroflow-usa.com/wp-content/uploads/2023/08/41661675266257.png',
-  'https://hydroflow-usa.com/wp-content/uploads/2023/08/85731673473417.jpg',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8f6505e00_30571515406209.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e6986a68f_19271515502671.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9b2aebf69_32216222811053.jpg',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/405099a22_32216222811052.jpg',
   'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b6e4a3e4b_WholeHomeProtectionAmazon.png',
   'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5c04cdd9e_EasyInstrallationpearlamazon.png',
   'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/000504ec6_toughonbiofilmamazonpearl.png',

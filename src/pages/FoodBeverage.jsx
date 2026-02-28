@@ -22,7 +22,7 @@ export default function FoodBeverage() {
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://hydroflow-usa.com/wp-content/uploads/2023/12/41331648842275.jpg"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d2bb1ce8a_14841665168757.png"
             alt="Food and beverage processing"
             className="w-full h-full object-cover opacity-20"
           />
