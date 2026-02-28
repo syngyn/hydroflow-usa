@@ -25,7 +25,7 @@ export default function LouisianaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://hydroflow-usa.com/assets/pics/3861667848445.jpg" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="Louisiana Water Hardness Map" 
               className="w-full h-full object-cover"
             />

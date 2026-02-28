@@ -27,7 +27,7 @@ export default function IowaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://hydroflow-usa.com/assets/pics/72121667848282.jpg" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="Iowa Water Hardness Map" 
               className="w-full h-full object-cover"
             />
