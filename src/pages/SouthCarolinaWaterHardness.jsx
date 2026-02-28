@@ -27,7 +27,7 @@ export default function SouthCarolinaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://hydroflow-usa.com/assets/pics/19261667849508.jpg" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="South Carolina Water Hardness Map" 
               className="w-full h-full object-cover"
             />

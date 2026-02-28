@@ -25,6 +25,8 @@ export default function RhodeIslandWaterHardness() {
             <img 
               src="https://hydroflow-usa.com/assets/pics/16531667849470.jpg" 
               alt="Rhode Island Water Hardness Map" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg"
+              alt="Rhode Island Water Hardness Map"
               className="w-full h-full object-cover"
             />
           </div>

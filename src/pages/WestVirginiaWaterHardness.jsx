@@ -25,7 +25,7 @@ export default function WestVirginiaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://hydroflow-usa.com/assets/pics/76641667849798.jpg" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="West Virginia Water Hardness Map" 
               className="w-full h-full object-cover"
             />
