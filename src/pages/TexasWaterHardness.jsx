@@ -27,7 +27,7 @@ export default function TexasWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=1600&q=80" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="Texas Water Hardness Map" 
               className="w-full h-full object-cover"
             />

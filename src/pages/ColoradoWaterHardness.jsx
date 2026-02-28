@@ -27,7 +27,7 @@ export default function ColoradoWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://hydroflow-usa.com/assets/pics/33991667847214.jpg" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="Colorado Water Hardness Map" 
               className="w-full h-full object-cover"
             />

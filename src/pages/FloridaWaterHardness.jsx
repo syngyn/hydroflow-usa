@@ -39,7 +39,7 @@ export default function FloridaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://hydroflow-usa.com/assets/pics/60481667847340.jpg" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="Florida Water Hardness Map" 
               className="w-full h-full object-cover"
             />

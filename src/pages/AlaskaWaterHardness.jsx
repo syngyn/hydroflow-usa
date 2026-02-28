@@ -28,7 +28,7 @@ export default function AlaskaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://hydroflow-usa.com/assets/pics/40621667827567.jpg" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="Alaska Water Hardness Map" 
               className="w-full h-full object-cover"
             />

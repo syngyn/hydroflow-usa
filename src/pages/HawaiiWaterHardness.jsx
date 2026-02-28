@@ -27,7 +27,7 @@ export default function HawaiiWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://hydroflow-usa.com/assets/pics/76381667846800.jpg" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="Hawaii Water Hardness Map" 
               className="w-full h-full object-cover"
             />

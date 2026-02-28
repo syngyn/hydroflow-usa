@@ -30,7 +30,7 @@ export default function ArizonaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://hydroflow-usa.com/assets/pics/44721667846973.jpg" 
+              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
               alt="Arizona Water Hardness Map" 
               className="w-full h-full object-cover"
             />
