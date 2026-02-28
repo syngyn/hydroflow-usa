@@ -95,7 +95,7 @@ export default function Navbar() {
             <img 
               src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3c5af58d4_logotrasparnet.png" 
               alt="HydroFLOW USA" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
           </Link>
 
