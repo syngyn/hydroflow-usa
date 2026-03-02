@@ -40,7 +40,7 @@ export default function AgricultureLandscaping() {
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-green-900 via-green-800 to-green-900 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://hydroflow-usa.com/wp-content/uploads/2024/05/image-8.jpg"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/61ccc724d_24091655247748.jpg"
             alt="Landscaping and lawn care"
             className="w-full h-full object-cover opacity-30"
           />
