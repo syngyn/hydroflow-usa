@@ -46,7 +46,7 @@ export default function Industrial() {
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1920&q=80"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2e44cfe10_78251563483594.jpg"
             alt="Industrial facility"
             className="w-full h-full object-cover opacity-20"
           />

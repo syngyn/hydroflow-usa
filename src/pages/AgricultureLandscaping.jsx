@@ -150,7 +150,7 @@ export default function AgricultureLandscaping() {
                 </p>
                 <div className="rounded-xl overflow-hidden mb-6">
                   <img 
-                    src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&q=80"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2a59d5b5e_77171495579956.png"
                     alt="Golf course with irrigation issues"
                     className="w-full h-64 object-cover"
                   />
