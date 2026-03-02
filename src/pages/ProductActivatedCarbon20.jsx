@@ -112,19 +112,6 @@ export default function ProductActivatedCarbon20() {
                   className="w-1/4 h-auto object-contain"
                 />
               </div>
-              <div className="grid grid-cols-2 gap-4">
-                {productData.images.map((img, idx) => (
-                  <button
-                    key={idx}
-                    onClick={() => setSelectedImage(idx)}
-                    className={`bg-white rounded-xl p-4 border-2 transition-all ${
-                      selectedImage === idx ? 'border-cyan-500' : 'border-slate-200 hover:border-slate-300'
-                    }`}
-                  >
-                    <img src={img} alt={`View ${idx + 1}`} className="w-full h-auto object-contain" />
-                  </button>
-                ))}
-              </div>
             </motion.div>
 
             {/* Product Info */}
