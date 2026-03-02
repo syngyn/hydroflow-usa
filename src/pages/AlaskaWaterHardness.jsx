@@ -28,8 +28,8 @@ export default function AlaskaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
-              alt="Alaska Water Hardness Map" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/21d140a59_Alaska.jpg" 
+              alt="Alaska Mountains" 
               className="w-full h-full object-cover"
             />
           </div>
