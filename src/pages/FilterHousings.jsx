@@ -14,7 +14,7 @@ const filterHousings = [
     name: '10" Stainless Steel Filter Housing',
     size: '10"',
     price: 249.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/10_inch_housing_grey-1-600x800.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f4799ac18_10inchhousing.png',
     features: [
       'Premium stainless steel construction',
       'Corrosion resistant',
