@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
 const images = [
-  'https://hydroflow-usa.com/wp-content/uploads/2025/10/hm-Range1-1400x788.png'
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5c8f2161_ProductRange2025standardunitsv3690.png'
 ];
 
 export default function ProductHMRange() {
