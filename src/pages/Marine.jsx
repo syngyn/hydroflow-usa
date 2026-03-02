@@ -247,7 +247,7 @@ export default function Marine() {
               viewport={{ once: true }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=800&q=80"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/acf43e8b6_78611495752951.jpg"
                 alt="Marine vessel"
                 className="rounded-2xl shadow-2xl"
               />
