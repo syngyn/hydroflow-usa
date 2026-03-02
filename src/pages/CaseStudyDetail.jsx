@@ -420,7 +420,7 @@ const caseStudyData = {
       'With the increase in slump this system could create cost savings by reducing materials properties and maintaining workability.',
       'Documented an increase in compressive strength which would result in cost savings during the concrete production.'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/968133043_4171495131909.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/4171495131909.pdf'
   },
   'inland-power-plant-in-china': {
     category: 'industrial',
@@ -476,7 +476,7 @@ const caseStudyData = {
       'The customer\'s personnel were very surprised because typically removal of scale involves hard manual labor.',
       'A "T" section was removed from the main line in order to inspect the inside of the pipe. The rate of scale removal from the bottom was much faster than the top and sides due to constant water flow.'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9df77444d_1431539882593.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/1431539882593.pdf'
   },
   'wastewater-treatment-plant-in-ohio': {
     category: 'industrial',
@@ -643,7 +643,7 @@ const caseStudyData = {
       'Nozzles that barely sprayed water or were plugged were now operating properly.',
       'After 6 months of operation, all nozzles are working perfectly; saving water and greatly reducing maintenance costs.'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ac84c7ab9_1561563299281.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/1561563299281.pdf'
   },
   'hotel-hot-water-system': {
     category: 'commercial',
@@ -813,7 +813,7 @@ const caseStudyData = {
       'Saved $300 in pool chemicals that normally have to buy to get the pool adjusted correctly.',
       'Only added one bag of Multi Shock and kept a couple of chlorine tablets in the floater.'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f5d89f1a9_8651539882719.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/8651539882719.pdf'
   },
   'residential-tower': {
     category: 'residential',
@@ -851,7 +851,7 @@ const caseStudyData = {
       'Snails that used to clog the filters are no longer present.',
       'Orchard Manager: "The pond has never been this clear and the white powder washes right off the apples. The benefits of HydroFLOW should have a very positive impact on our profits this season. Initial processing results are the best I\'ve ever seen."'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/558f293df_271605140596.pdf'
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/271605140596.pdf'
   },
   'hydroflow-reduces-biofilm-baron-farms': {
     category: 'agriculture',

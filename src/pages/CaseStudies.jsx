@@ -150,7 +150,7 @@ const caseStudies = [
     description: 'The HydroFLOW device has shown that it can improve and save costs during the concrete production process.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/14321495583049.jpg',
     results: ['Cost savings', 'Improved production', 'Quality enhancement'],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/968133043_4171495131909.pdf',
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/4171495131909.pdf',
     application_type: ['Other'],
     products_used: ['iRange']
   },
@@ -200,7 +200,7 @@ const caseStudies = [
     description: 'No drop in water flow due to HydroFLOW\'s ability to keep the pipe free of scale accumulation.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/77171495579956.jpg',
     results: ['Consistent flow', 'Scale-free pipes', 'No maintenance needed'],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9df77444d_1431539882593.pdf',
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/1431539882593.pdf',
     application_type: ['Other'],
     products_used: ['iRange']
   },
@@ -357,7 +357,7 @@ const caseStudies = [
     description: 'After 6 months of operation, all nozzles are working perfectly; saving water and greatly reducing maintenance costs.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/78091560356620.jpg',
     results: ['Water savings', 'Perfect nozzle performance', 'Lower maintenance'],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ac84c7ab9_1561563299281.pdf',
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/1561563299281.pdf',
     application_type: ['Car Wash'],
     products_used: ['iRange']
   },
@@ -455,7 +455,7 @@ const caseStudies = [
     description: 'Swimming pool scale and biofilm control without harsh chemicals.',
     image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800',
     results: ['Crystal clear water', 'Less chemicals', 'Easier maintenance'],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f5d89f1a9_8651539882719.pdf',
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/8651539882719.pdf',
     application_type: ['Swimming Pools'],
     products_used: ['HS40']
   },
@@ -545,7 +545,7 @@ const caseStudies = [
     description: 'Scale deposits accumulate as fine powder which is very easy to remove. Over 90% of the apples are expected to receive the highest grade rating.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/46881495658842.jpg',
     results: ['Over 90% highest grade rating', 'Easy scale removal', 'Clearer pond water', 'Reduced algae blooms', 'No filter clogging'],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/558f293df_271605140596.pdf',
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/271605140596.pdf',
     application_type: ['Irrigation', 'Other'],
     products_used: ['iRange'],
     installer: 'HydroFLOW West',
