@@ -63,7 +63,7 @@ const underCounterCartridges = [
     name: 'Force Field (10")',
     size: '10" x 2.5"',
     price: 149.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a0db785d4_10inchff.png',
     tagline: 'State of the art for pristine water quality',
     description: 'Absolute filtration power in a compact 10-inch format. Perfect for under-counter installations.',
     features: [
