@@ -45,7 +45,7 @@ export default function ESCO() {
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://hydroflow-usa.com/wp-content/uploads/2024/05/image-10.jpg"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bc138404f_76171664488239.JPG"
             alt="ESCO"
             className="w-full h-full object-cover opacity-30"
           />
@@ -230,7 +230,7 @@ export default function ESCO() {
               className="lg:order-2"
             >
               <img 
-                src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0ad4a7a15_79051513979745.png"
                 alt="Chemical Plant"
                 className="rounded-2xl shadow-xl w-full"
               />
