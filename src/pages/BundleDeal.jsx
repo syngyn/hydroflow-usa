@@ -16,12 +16,12 @@ import { useCart } from '@/components/cart/CartContext';
 import { toast } from 'sonner';
 
 const images = [
-  'https://hydroflow-usa.com/wp-content/uploads/2024/04/bundle-deal-2.jpg',
-  'https://hydroflow-usa.com/wp-content/uploads/2024/04/The-power-of-two.jpg',
-  'https://hydroflow-usa.com/wp-content/uploads/2024/04/bundle-tough-on-biofilm.jpg',
-  'https://hydroflow-usa.com/wp-content/uploads/2024/04/whats-in-the-box-bundle.jpg',
-  'https://hydroflow-usa.com/wp-content/uploads/2024/04/Bundle-ease-of-install.jpg',
-  'https://hydroflow-usa.com/wp-content/uploads/2024/04/bundle-heating-element.jpg'
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b86f80be_bundle-deal.jpg',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ad4d42761_Bundle-ease-of-install-247x296.jpg',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/88c277ca6_bundle-heating-element.jpg',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f66b588b4_bundle-tough-on-biofilm.jpg',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7d30ec157_Whatsintheboxpearlplusfromamazon.png',
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6747e2e1b_80901675288696.png'
 ];
 
 export default function BundleDeal() {
