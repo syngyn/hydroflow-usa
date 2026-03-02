@@ -102,11 +102,11 @@ export default function ProductActivatedCarbon10() {
               animate={{ opacity: 1, x: 0 }}
               className="space-y-4"
             >
-              <div className="bg-white rounded-3xl p-12 shadow-lg">
+              <div className="bg-white rounded-3xl p-12 shadow-lg flex items-center justify-center">
                 <img 
                   src={productData.image}
                   alt={productData.name}
-                  className="w-full h-auto object-contain"
+                  className="w-1/2 h-auto object-contain"
                 />
               </div>
             </motion.div>
