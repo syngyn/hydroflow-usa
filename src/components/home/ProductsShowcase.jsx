@@ -28,7 +28,7 @@ const products = [
     price: 495,
     rating: 4.46,
     reviews: 72,
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/00e27e7ff_pearl-plus-on-pipe.png',
     features: ['Standard homes', 'Large homes', 'Multi-story', 'Complex plumbing'],
     popular: true,
     page: 'ProductPearlPlus'
