@@ -29,7 +29,7 @@ const wholeHomeCartridges = [
     name: 'Activated Carbon Block (20")',
     size: '20" x 4.5"',
     price: 35.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/05/acb-10-inch-filter-scaled.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f8c11c8a2_ActivatedCarbonBlockFilter20inch.png',
     tagline: 'More complex filtration',
     description: 'Advanced activated carbon filtration for improved taste, odor, and contaminant removal.',
     features: [
