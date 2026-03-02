@@ -102,7 +102,7 @@ export const RecommendationProvider = ({ children }) => {
         category: 'industrial',
         size: 'industrial',
         applications: ['manufacturing', 'cooling-towers', 'large-commercial'],
-        image: 'https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png'
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3fbd76a6a_D727n9Bg.png'
       },
       { 
         id: 'hm-range', 
