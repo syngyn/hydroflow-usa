@@ -106,7 +106,7 @@ export default function ProductActivatedCarbon10() {
                 <img 
                   src={productData.image}
                   alt={productData.name}
-                  className="w-1/2 h-auto object-contain"
+                  className="w-1/4 h-auto object-contain"
                 />
               </div>
             </motion.div>
