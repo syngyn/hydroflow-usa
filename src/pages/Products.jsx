@@ -386,7 +386,7 @@ export default function Products() {
             >
               <div className="h-96 w-96 flex-shrink-0 -mb-8">
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b86f80be_bundle-deal.jpg"
                   alt="Pearl Plus & Pearl Bundle"
                   className="w-full h-full object-contain"
                 />
