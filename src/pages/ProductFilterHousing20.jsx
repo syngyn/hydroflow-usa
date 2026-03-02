@@ -17,6 +17,7 @@ const productData = {
   rating: 4.29,
   reviewCount: 7,
   images: [
+    'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/311d70c27_20inchhousing.png',
     'https://hydroflow-usa.com/wp-content/uploads/2023/08/20_inch_housing.webp',
     'https://hydroflow-usa.com/wp-content/uploads/2023/08/20-inch-housing-apart.png',
     'https://hydroflow-usa.com/wp-content/uploads/2023/08/20-inch-housing-1.png'
