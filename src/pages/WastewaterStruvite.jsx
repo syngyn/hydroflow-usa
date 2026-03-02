@@ -20,7 +20,7 @@ const caseStudies = [
     title: 'Wastewater Treatment Plant in St. Paul, Minnesota',
     description: '<i>Hydro</i>FLOW equipment was installed on the main centrate line to determine if the device could reduce the accumulation of hard struvite formation inside the pipes.',
     results: 'After 6 months, the pipes were given a quick water flush and then opened. The results were outstanding. The remaining struvite build-up will continue to be removed during normal plant operation.',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/WWTP%2Bblog.jpg'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/20d0bba80_60921654270039.png'
   },
   {
     title: 'Water Reclamation Facility in Orlando, Florida',
@@ -130,7 +130,7 @@ export default function WastewaterStruvite() {
             className="text-center"
           >
             <img 
-              src="https://hydroflow-usa.com/assets/userfiles/images/WWTP%2Bblog.jpg"
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/20d0bba80_60921654270039.png"
               alt="Wastewater treatment plant"
               className="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl mb-8"
             />

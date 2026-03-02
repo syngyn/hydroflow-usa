@@ -29,7 +29,7 @@ export default function PowerGeneration() {
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://hydroflow-usa.com/images/power-generation.jpg"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/13ca58db7_67581667847030.jpg"
             alt="Power generation facility"
             className="w-full h-full object-cover opacity-20"
           />
