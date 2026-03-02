@@ -109,7 +109,7 @@ export default function ProductActivatedCarbon20() {
                 <img 
                   src={productData.images[selectedImage]}
                   alt={productData.name}
-                  className="w-1/2 h-auto object-contain"
+                  className="w-1/4 h-auto object-contain"
                 />
               </div>
               <div className="grid grid-cols-2 gap-4">
