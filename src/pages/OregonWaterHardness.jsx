@@ -28,7 +28,7 @@ export default function OregonWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://water.usgs.gov/edu/images/characteristics/hard-water-map.jpg" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2d2207e9d_46781667849394.jpg" 
               alt="Oregon Water Hardness Map" 
               className="w-full h-full object-cover"
             />
