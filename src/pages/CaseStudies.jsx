@@ -63,7 +63,7 @@ const caseStudies = [
     description: 'EcoTech Solutions installed two HydroFLOW i-Range units to help saving water in a 5.2 million square foot factory in Texas.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/massive-texas-factory.webp',
     results: ['Water savings', 'Reduced maintenance', 'Scale prevention'],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/08/HydroFLOW-Case-Study-Massive-Texas-Factory-2025-update.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/46e80b0d5_HydroFLOW-industrial-case-study-massive-Texas-factory.pdf',
     application_type: ['Cooling Towers', 'Chillers'],
     products_used: ['iRange']
   },
@@ -501,7 +501,7 @@ const caseStudies = [
     description: 'The grower wanted to see how HydroFLOW could increase the output from his greenhouses.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2024/03/Long-Stem-Rose-picture-for-the-case-study-2.jpg',
     results: ['Increased yield', 'Better quality', 'Healthier plants'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/HydroFLOW-agriculture-case-study-long-stem-roses.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1da5d4765_HydroFLOW-agriculture-case-study-long-stem-roses.pdf',
     application_type: ['Greenhouses', 'Irrigation'],
     products_used: ['iRange']
   },
@@ -586,6 +586,7 @@ const caseStudies = [
     description: 'HydroFLOW succeeded in keeping the strainer free of biofouling for a much longer period.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/seafighter-510x510.webp',
     results: ['Extended maintenance intervals', 'Biofouling prevention', 'Naval approved'],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b06911af1_HydroFLOW-marine-case-study-US-Navy-Seafighter.pdf',
     application_type: ['Marine Systems'],
     products_used: ['HM Range']
   },

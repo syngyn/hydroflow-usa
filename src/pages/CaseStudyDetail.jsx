@@ -60,7 +60,7 @@ const caseStudyData = {
       'Due to the water savings that can be achieved with HydroFLOW, the customer may be able to delay a multi-million-dollar wastewater treatment plant upgrade for another 3-5 years.',
       'The customer plans to install more HydroFLOW units throughout the facility, including 7 additional cooling tower systems'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/08/HydroFLOW-Case-Study-Massive-Texas-Factory-2025-update.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/46e80b0d5_HydroFLOW-industrial-case-study-massive-Texas-factory.pdf'
   },
   'sludge-line-struvite-treatment': {
     category: 'industrial',
@@ -270,7 +270,7 @@ const caseStudyData = {
       'Due to the water savings that can be achieved with HydroFLOW, the customer may be able to delay a multi-million-dollar wastewater treatment plant upgrade for another 3-5 years.',
       'The customer plans to install more HydroFLOW units throughout the facility, including 7 additional cooling tower systems.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2025/08/HydroFLOW-Case-Study-Massive-Texas-Factory-2025-update.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/46e80b0d5_HydroFLOW-industrial-case-study-massive-Texas-factory.pdf'
   },
   'sludge-line-struvite-treatment': {
     category: 'industrial',
@@ -691,7 +691,7 @@ const caseStudyData = {
       'Production levels were maintained through the cold months and the overall quality of flowers improved.',
       'Longer shelf life and better-quality flowers.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/HydroFLOW-agriculture-case-study-long-stem-roses.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1da5d4765_HydroFLOW-agriculture-case-study-long-stem-roses.pdf'
   },
   'residential-water-heater': {
     category: 'residential',
@@ -902,7 +902,8 @@ const caseStudyData = {
       'Extended maintenance intervals for strainer systems.',
       'Effective biofouling prevention.',
       'Approved for naval use.'
-    ]
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b06911af1_HydroFLOW-marine-case-study-US-Navy-Seafighter.pdf'
   },
   'mv-hermes-leader-uv-system': {
     category: 'marine',
