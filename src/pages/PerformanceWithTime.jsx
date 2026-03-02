@@ -14,7 +14,7 @@ const timeline = [
 In the unlikely event scale accumulation does not stop, the device is most likely installed incorrectly and <i>Hydro</i>FLOW USA should be contacted to troubleshoot the problem.
 
 Your water softener should be bypassed after installing a <i>Hydro</i>FLOW device. If you utilized a water softener for many years, turning it off might take some getting used to. You could notice some scale residue in your dishwasher, which can be easily addressed with a rinse agent that is formulated for hard water. When taking a shower, you might notice that the water has a less "slimy" feel and some soaps might not lather as before.`,
-    image: 'https://hydroflow-usa.com/images/per1.jpg'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e7ece57d5_per1.jpg'
   },
   {
     day: 'Day 30',
@@ -23,7 +23,7 @@ Your water softener should be bypassed after installing a <i>Hydro</i>FLOW devic
     color: 'from-orange-500 to-orange-600',
     bgColor: 'bg-orange-500',
     content: `You may notice a very thin film of white or light gray powdery residue at the showerheads, the sink basins, and the pool's waterline. This powder is left behind when the water evaporates and will wipe off easily. Additional benefits to your pool will include clearer water, reduced chemical consumption and decreased "Chlorine Smell".`,
-    image: 'https://hydroflow-usa.com/images/per2.jpg'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a6f9cbcce_per2.jpg'
   },
   {
     day: 'Day 60',
@@ -32,7 +32,7 @@ Your water softener should be bypassed after installing a <i>Hydro</i>FLOW devic
     color: 'from-cyan-500 to-cyan-600',
     bgColor: 'bg-cyan-500',
     content: `If you have an older home, you may notice small scale flakes that are being removed from your plumbing system. Keep an eye on your faucet aerators because they may collect the debris that is being purged from your pipes.`,
-    image: 'https://hydroflow-usa.com/images/per3.jpg'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d0f9f2abd_per3.jpg'
   },
   {
     day: 'Day 90+',
@@ -43,7 +43,7 @@ Your water softener should be bypassed after installing a <i>Hydro</i>FLOW devic
     content: `You will notice the benefits of your appliances running more efficient and your pool will continue to experience clearer water, reduced chemical consumption and decreased "Chlorine Smell".
 
 Kindly note the <i>Hydro</i>FLOW device does not replace routine maintenance procedures. Professionally purging your water heater is recommended in order to flush out any scale debris that may have collected at the bottom of the tank. In addition, it is recommended to periodically ensure your pool equipment is operating properly.`,
-    image: 'https://hydroflow-usa.com/images/per4.jpg'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/46c10d9df_per4.jpg'
   }
 ];
 
