@@ -55,7 +55,7 @@ const productRecommendations = {
     product: 'Bundle Deal',
     page: 'BundleDeal',
     reason: 'Perfect for large properties - includes Pearl and Pearl Plus for comprehensive coverage up to 4,000 sq ft',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b86f80be_bundle-deal.jpg'
   },
   residential_pool: {
     product: 'hs40',
@@ -100,7 +100,7 @@ const productRecommendations = {
       {
         product: 'Bundle Deal',
         page: 'BundleDeal',
-        image: 'https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg'
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b86f80be_bundle-deal.jpg'
       },
       {
         product: 'hs40',
