@@ -105,11 +105,11 @@ export default function ProductActivatedCarbon20() {
               animate={{ opacity: 1, x: 0 }}
               className="space-y-4"
             >
-              <div className="bg-white rounded-3xl p-12 shadow-lg">
+              <div className="bg-white rounded-3xl p-12 shadow-lg flex justify-center">
                 <img 
                   src={productData.images[selectedImage]}
                   alt={productData.name}
-                  className="w-full h-auto object-contain"
+                  className="w-1/2 h-auto object-contain"
                 />
               </div>
               <div className="grid grid-cols-2 gap-4">
