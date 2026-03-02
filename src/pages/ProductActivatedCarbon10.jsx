@@ -19,7 +19,7 @@ const productData = {
   rating: 4.67,
   reviewCount: 3,
   inStock: 10,
-  image: 'https://hydroflow-usa.com/wp-content/uploads/2024/05/acb-10-inch-filter-1.webp',
+  image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e7ec21bb7_acb10inchfilter.png',
   specifications: {
     'Weight': '3 lbs',
     'Dimensions': '13" × 3" × 3"',
