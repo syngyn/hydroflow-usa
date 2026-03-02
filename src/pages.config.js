@@ -62,7 +62,6 @@ import BundleDeal from './pages/BundleDeal';
 import CaliforniaWaterHardness from './pages/CaliforniaWaterHardness';
 import Cart from './pages/Cart';
 import CaseStudies from './pages/CaseStudies';
-import CaseStudyDetail from './pages/CaseStudyDetail';
 import Checkout from './pages/Checkout';
 import CheckoutSuccess from './pages/CheckoutSuccess';
 import ColoradoWaterHardness from './pages/ColoradoWaterHardness';
@@ -157,6 +156,7 @@ import Warranty from './pages/Warranty';
 import WashingtonWaterHardness from './pages/WashingtonWaterHardness';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
+import CaseStudyDetail from './pages/CaseStudyDetail';
 import WestVirginiaWaterHardness from './pages/WestVirginiaWaterHardness';
 import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
 import WyomingWaterHardness from './pages/WyomingWaterHardness';
@@ -179,7 +179,6 @@ export const PAGES = {
     "CaliforniaWaterHardness": CaliforniaWaterHardness,
     "Cart": Cart,
     "CaseStudies": CaseStudies,
-    "CaseStudyDetail": CaseStudyDetail,
     "Checkout": Checkout,
     "CheckoutSuccess": CheckoutSuccess,
     "ColoradoWaterHardness": ColoradoWaterHardness,
@@ -274,6 +273,7 @@ export const PAGES = {
     "WashingtonWaterHardness": WashingtonWaterHardness,
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
+    "CaseStudyDetail": CaseStudyDetail,
     "WestVirginiaWaterHardness": WestVirginiaWaterHardness,
     "WisconsinWaterHardness": WisconsinWaterHardness,
     "WyomingWaterHardness": WyomingWaterHardness,
