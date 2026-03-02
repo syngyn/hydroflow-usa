@@ -19,7 +19,7 @@ const productData = {
   rating: 4.55,
   reviewCount: 11,
   images: [
-    'https://hydroflow-usa.com/wp-content/uploads/2023/08/Activated-Carbon-Block-Filter-20-inch-1.webp',
+    'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/318b6a108_ActivatedCarbonBlockFilter20inch.png',
     'https://hydroflow-usa.com/wp-content/uploads/2023/08/ACB-graphic.png'
   ],
   specifications: {
