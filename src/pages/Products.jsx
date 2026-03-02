@@ -113,7 +113,7 @@ const products = [
     tagline: 'More Complex Filtration',
     coverage: 'Whole Home Systems',
     price: 35.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/05/acb-10-inch-filter-scaled.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/12d1a391c_ACB20filter.jpg',
     features: [
       'Removes chlorine, taste, and odor',
       'Advanced carbon block technology',
