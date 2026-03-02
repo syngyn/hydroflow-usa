@@ -14,7 +14,7 @@ const wholeHomeCartridges = [
     name: 'Sediment Filter (20")',
     size: '20" x 4.5"',
     price: 29.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/SED20-inch-cartridge.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f382ca81e_SED20x45filter.png',
     tagline: 'Basic filtration',
     description: 'Basic single-stage sediment filtration for whole home water systems.',
     features: [
