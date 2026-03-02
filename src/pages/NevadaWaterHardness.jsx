@@ -27,7 +27,7 @@ export default function NevadaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7d87c11a8_81741649097518.png" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fcf355442_74941667848957.jpg" 
               alt="Nevada Water Hardness Map" 
               className="w-full h-full object-cover"
             />

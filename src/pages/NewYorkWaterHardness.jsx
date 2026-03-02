@@ -26,7 +26,7 @@ export default function NewYorkWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6909c9626_48451667846899.jpg" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e9a1094c0_74551667849128.jpg" 
               alt="New York Water Hardness Map" 
               className="w-full h-full object-cover"
             />
