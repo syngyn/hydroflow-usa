@@ -24,7 +24,7 @@ const images = [
   'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b6e4a3e4b_WholeHomeProtectionAmazon.png',
   'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5c04cdd9e_EasyInstrallationpearlamazon.png',
   'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/000504ec6_toughonbiofilmamazonpearl.png',
-  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/632696b76_whatsintheboxpearl.png'
+  'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/369b42fb4_661316222799811.jpg'
 ];
 
 export default function ProductPearl() {
