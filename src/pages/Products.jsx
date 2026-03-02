@@ -113,7 +113,7 @@ const products = [
     tagline: 'More Complex Filtration',
     coverage: 'Whole Home Systems',
     price: 35.95,
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/12d1a391c_ACB20filter.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/318b6a108_ActivatedCarbonBlockFilter20inch.png',
     features: [
       'Removes chlorine, taste, and odor',
       'Advanced carbon block technology',
