@@ -12,17 +12,30 @@ export const useRecommendations = () => {
 
 export const RecommendationProvider = ({ children }) => {
   const [behavior, setBehavior] = useState(() => {
-    const stored = localStorage.getItem('hydroflow_user_behavior');
-    return stored ? JSON.parse(stored) : {
-      viewedProducts: [],
-      filterSelections: {},
-      quizResults: null,
-      lastVisit: Date.now()
-    };
+    try {
+      const stored = localStorage.getItem('hydroflow_user_behavior');
+      return stored ? JSON.parse(stored) : {
+        viewedProducts: [],
+        filterSelections: {},
+        quizResults: null,
+        lastVisit: Date.now()
+      };
+    } catch {
+      return {
+        viewedProducts: [],
+        filterSelections: {},
+        quizResults: null,
+        lastVisit: Date.now()
+      };
+    }
   });
 
   useEffect(() => {
-    localStorage.setItem('hydroflow_user_behavior', JSON.stringify(behavior));
+    try {
+      localStorage.setItem('hydroflow_user_behavior', JSON.stringify(behavior));
+    } catch {
+      // localStorage might be unavailable or full
+    }
   }, [behavior]);
 
   const trackProductView = (productId, productData) => {
