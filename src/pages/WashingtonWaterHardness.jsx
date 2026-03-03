@@ -27,7 +27,7 @@ export default function WashingtonWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5d7104a14_agdproductions-seattle-5466835_1920.jpg" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f6ed04e89_popshotsphotos-seattle-4025000_1920.jpg" 
               alt="Washington Water Hardness Map" 
               className="w-full h-full object-cover"
             />
