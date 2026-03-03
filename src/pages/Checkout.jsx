@@ -518,15 +518,17 @@ export default function Checkout() {
                     <span>Subtotal</span>
                     <span>${getCartTotal().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                   </div>
-                  <div className="flex justify-between text-slate-600">
-                    <span>Shipping</span>
-                    <span>
-                      {(shippingDifferent ? formData.shippingState : formData.billingState) ? 
-                        `$${getShippingCost().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : 
-                        'Enter address'
-                      }
-                    </span>
-                  </div>
+                  {!allNoShipping && (
+                    <div className="flex justify-between text-slate-600">
+                      <span>Shipping</span>
+                      <span>
+                        {(shippingDifferent ? formData.shippingState : formData.billingState) ? 
+                          `$${getShippingCost().toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : 
+                          'Enter address'
+                        }
+                      </span>
+                    </div>
+                  )}
                   <div className="flex justify-between text-slate-600">
                     <span>Tax</span>
                     <span>
