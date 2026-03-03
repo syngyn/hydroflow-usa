@@ -88,15 +88,17 @@ Deno.serve(async (req) => {
     
     const taxAmount = Math.round(subtotalAfterDiscount * taxRate * 100);
 
-    // Add shipping
-    lineItems.push({
-      price_data: {
-        currency: 'usd',
-        product_data: { name: 'Shipping' },
-        unit_amount: Math.round(shippingCost * 100),
-      },
-      quantity: 1,
-    });
+    // Add shipping (only if applicable)
+    if (shippingCost > 0) {
+      lineItems.push({
+        price_data: {
+          currency: 'usd',
+          product_data: { name: 'Shipping' },
+          unit_amount: Math.round(shippingCost * 100),
+        },
+        quantity: 1,
+      });
+    }
 
     // Add tax if applicable
     if (taxAmount > 0) {
