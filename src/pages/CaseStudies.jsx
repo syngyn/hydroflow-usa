@@ -61,7 +61,7 @@ const caseStudies = [
     title: 'Massive Texas Factory',
     slug: 'massive-texas-factory',
     description: 'EcoTech Solutions installed two HydroFLOW i-Range units to help saving water in a 5.2 million square foot factory in Texas.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/massive-texas-factory.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33ba861ce_MassiveTXfactory.png',
     results: ['Water savings', 'Reduced maintenance', 'Scale prevention'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/46e80b0d5_HydroFLOW-industrial-case-study-massive-Texas-factory.pdf',
     application_type: ['Cooling Towers', 'Chillers'],
