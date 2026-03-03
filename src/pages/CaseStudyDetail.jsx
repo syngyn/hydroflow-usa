@@ -168,7 +168,7 @@ const caseStudyData = {
   'nellis-air-force-base-cooling-tower': {
     category: 'commercial',
     title: 'Nellis Air Force Base Cooling Tower',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36551561660043.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b8987c812_36551561660043.jpg',
     installer: 'HydroFLOW West',
     customer: 'Nellis Air Force Base',
     application: 'Cooling Tower',
@@ -310,7 +310,7 @@ const caseStudyData = {
   'bakery-steam-boilers': {
     category: 'commercial',
     title: 'Bakery Steam Boilers',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/44051495481164.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4bf8d7c50_44051495481164.jpg',
     installer: 'HydroFLOW USA',
     customer: 'Bimbo Bakeries USA (BBU)',
     application: 'Steam Boilers',
@@ -376,7 +376,7 @@ const caseStudyData = {
   'lehigh-county-wwtp-struvite-treatment': {
     category: 'industrial',
     title: 'Lehigh County WWTP - Struvite Treatment',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/36831596736223.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5efe67d09_36831596736223-247x296.jpg',
     customer: 'Lehigh County Wastewater Treatment Plant',
     application: 'Struvite scale treatment in wastewater treatment plant',
     installedUnits: 'HydroFLOW industrial unit',
@@ -462,7 +462,7 @@ const caseStudyData = {
   'natural-gas-and-oil-producer': {
     category: 'industrial',
     title: 'Natural Gas and Oil Producer',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/77171495579956.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/95e20dfb8_42271494367189.jpg',
     installer: 'HydroFLOW West Inc',
     customer: 'Natural gas and oil producer in Nikiski, Alaska, USA',
     application: 'Offshore petroleum production operation. The device was installed on a 4.5" outer diameter recycled water pipe, after the separator',
@@ -663,7 +663,7 @@ const caseStudyData = {
   'office-building-cooling-towers-in-us-southeast': {
     category: 'commercial',
     title: 'Office Building Cooling Towers in US Southeast',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/42301661965280.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4c66c1e24_42301661965280.jpg',
     installer: 'Southeast Pump & Equipment',
     customer: 'Commercial office building complex',
     application: 'Cooling Towers',
@@ -908,7 +908,7 @@ const caseStudyData = {
   'mv-hermes-leader-uv-system': {
     category: 'marine',
     title: 'MV Hermes Leader - Replacement of UV-System',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/40231495151554-510x510.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/349563d1c_40231495151554.jpg',
     application: 'Marine vessel water treatment replacing UV system',
     installedUnits: 'HydroFLOW HM Range',
     results: [
@@ -985,7 +985,7 @@ const caseStudyData = {
   '60-hp-low-pressure-steam-boiler': {
     category: 'industrial',
     title: '60 HP Low Pressure Steam Boiler',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/13321495580758.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5d5a2020_43561495580098.jpg',
     installer: 'HydroFLOW Midwest',
     customer: 'Commercial trucking company from Rosemount, Minnesota',
     application: '60 horsepower low-pressure natural gas steam boiler (steam is used during the truck wash process)',
