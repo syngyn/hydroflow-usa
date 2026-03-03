@@ -516,7 +516,7 @@ const caseStudyData = {
   'gold-gym-lap-pool': {
    category: 'commercial',
    title: 'Gold Gym Lap Pool',
-   image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e1d67a0c0_931666808885.png',
+   image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/acd8ba744_image.png',
     installer: 'HydroFLOW West',
     customer: 'Gold\'s Gym Woodinville / Gold\'s Aquatics Club',
     application: 'Indoor 95,000 gallon lap pool, 3,900-gallon hot tub and 5,000 gallon wader pool',

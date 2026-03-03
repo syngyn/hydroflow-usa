@@ -289,7 +289,7 @@ const caseStudies = [
     title: 'Gold Gym Lap Pool',
     slug: 'gold-gym-lap-pool',
     description: 'Operational cost reduction was achieved thanks to HydroFLOW.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e1d67a0c0_931666808885.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e1d67a0c0_acd8ba744_image.png',
     results: ['Cost reduction', 'Better water quality', 'Member satisfaction'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/84741493847709.pdf',
     application_type: ['Swimming Pools'],
