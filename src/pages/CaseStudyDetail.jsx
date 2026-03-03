@@ -238,7 +238,7 @@ const caseStudyData = {
   'food-processing-cooling-tower': {
     category: 'agriculture',
     title: 'Food Processing Cooling Tower',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/3541495124373.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5f10644a1_3541495124373.jpg',
     installer: 'HydroFLOW West',
     customer: 'G & G Orchards, Washington',
     application: 'BAC Condenser and EVAPCO Condenser which feeding into a common sump tank',
@@ -425,7 +425,7 @@ const caseStudyData = {
   'inland-power-plant-in-china': {
     category: 'industrial',
     title: 'Inland Power Plant in China',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/6861498261526.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1aadc4f7a_6861498261526.jpg',
     installer: 'HydroFLOW Asia',
     customer: 'Inland power plant in China',
     application: 'Circulating Cooling System in Power Plant',
@@ -481,7 +481,7 @@ const caseStudyData = {
   'wastewater-treatment-plant-in-ohio': {
     category: 'industrial',
     title: 'Wastewater Treatment Plant in Ohio',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/29401648597339.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/580e35f88_1031667849357.jpg',
     installer: 'HydroFLOW USA and Kirk Williams Company',
     customer: 'London OH, WWTP',
     application: 'Dewatering Equipment – Belt Press',
@@ -514,9 +514,9 @@ const caseStudyData = {
     pdfUrl: 'https://hydroflow-usa.com/assets/files/43801662059912.pdf'
   },
   'gold-gym-lap-pool': {
-    category: 'commercial',
-    title: 'Gold Gym Lap Pool',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/55611495484457.jpg',
+   category: 'commercial',
+   title: 'Gold Gym Lap Pool',
+   image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e1d67a0c0_931666808885.png',
     installer: 'HydroFLOW West',
     customer: 'Gold\'s Gym Woodinville / Gold\'s Aquatics Club',
     application: 'Indoor 95,000 gallon lap pool, 3,900-gallon hot tub and 5,000 gallon wader pool',
@@ -681,7 +681,7 @@ const caseStudyData = {
   'long-stem-rose-growth': {
     category: 'agriculture',
     title: 'HydroFLOW Product Evaluation - Long Stem Rose Growth',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/03/Long-Stem-Rose-picture-for-the-case-study-2.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a89a5844d_1191540835854.png',
     customer: 'A long-stem rose growing operation in South America',
     installedUnits: 'HydroFLOW Custom i12"',
     background: 'During the cold months (June-September) the overall growth of long stem roses slows down. The grower wanted to see how HydroFLOW could increase the output from his greenhouses, and determine if there is an overall improvement in the growth rate/quality of the roses throughout the year.',
