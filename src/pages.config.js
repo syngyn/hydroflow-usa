@@ -159,8 +159,8 @@ import WashingtonWaterHardness from './pages/WashingtonWaterHardness';
 import WastewaterStruvite from './pages/WastewaterStruvite';
 import WaterHardnessMap from './pages/WaterHardnessMap';
 import WestVirginiaWaterHardness from './pages/WestVirginiaWaterHardness';
-import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
 import WyomingWaterHardness from './pages/WyomingWaterHardness';
+import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
 import __Layout from './Layout.jsx';
 
 
@@ -277,8 +277,8 @@ export const PAGES = {
     "WastewaterStruvite": WastewaterStruvite,
     "WaterHardnessMap": WaterHardnessMap,
     "WestVirginiaWaterHardness": WestVirginiaWaterHardness,
-    "WisconsinWaterHardness": WisconsinWaterHardness,
     "WyomingWaterHardness": WyomingWaterHardness,
+    "WisconsinWaterHardness": WisconsinWaterHardness,
 }
 
 export const pagesConfig = {
