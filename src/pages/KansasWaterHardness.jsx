@@ -28,7 +28,7 @@ export default function KansasWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/29346e7e8_821667848831.jpg" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/951f36a14_rja1988-kansas-4568949_1920.jpg" 
               alt="Kansas Water Hardness Map" 
               className="w-full h-full object-cover"
             />
