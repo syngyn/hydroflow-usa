@@ -112,7 +112,7 @@ const caseStudyData = {
   'bakery-steam-boilers': {
     category: 'commercial',
     title: 'Bakery Steam Boilers',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/44051495481164-510x510.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c0cae605b_44371494363345-510x510.jpg',
     customer: 'A commercial bakery facility.',
     application: 'Steam boiler scale and corrosion prevention.',
     installedUnits: 'Commercial HydroFLOW Unit.',
@@ -908,7 +908,7 @@ const caseStudyData = {
   'mv-hermes-leader-uv-system': {
     category: 'marine',
     title: 'MV Hermes Leader - Replacement of UV-System',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/349563d1c_40231495151554.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/349563d1c_349563d1c_40231495151554.jpg',
     application: 'Marine vessel water treatment replacing UV system',
     installedUnits: 'HydroFLOW HM Range',
     results: [
@@ -956,7 +956,7 @@ const caseStudyData = {
   'car-carrier-main-cooling-system': {
     category: 'marine',
     title: 'Car Carrier - Main Cooling System',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/646847a63_42481495666712.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/646847a63_646847a63_42481495666712.jpg',
     application: 'Car carrier vessel cooling system',
     installedUnits: 'HydroFLOW HM Range',
     results: [
