@@ -83,7 +83,7 @@ const caseStudies = [
     title: 'Steel Company Spray Bar System',
     slug: 'steel-company-spray-bar-system',
     description: 'Steel manufacturing facility in Ontario, Canada with scale issues on their galvanizing line.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24681639432386.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/90609d12e_24681639432386.jpg',
     results: ['Scale elimination', 'Improved efficiency', 'Cost savings'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/39071639432386.pdf',
     application_type: ['Heat Exchangers', 'Other'],

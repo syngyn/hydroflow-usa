@@ -344,7 +344,7 @@ const caseStudyData = {
   'steel-company-spray-bar-system': {
     category: 'industrial',
     title: 'Steel Company Spray Bar System',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24681639432386.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/90609d12e_24681639432386.jpg',
     installer: 'HydroFLOW Canada',
     customer: 'Steel manufacturing and processing facility located in Ontario, Canada',
     application: 'Spray Bar System – Galvanizing Line – Cooling Spray Bars',
