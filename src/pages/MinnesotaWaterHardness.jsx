@@ -28,7 +28,7 @@ export default function MinnesotaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bda7bc45a_47941667848745.jpg" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43c721d02_12019-minneapolis-1632077_1920.jpg" 
               alt="Minnesota Water Hardness Map" 
               className="w-full h-full object-cover"
             />
