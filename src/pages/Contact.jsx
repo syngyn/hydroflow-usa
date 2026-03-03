@@ -51,8 +51,22 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
+
+    await base44.integrations.Core.SendEmail({
+      to: 'sales@hydroflow-usa.com',
+      subject: `Contact Form: ${formData.inquiryType || 'General'} from ${formData.firstName} ${formData.lastName}`,
+      body: `
+Name: ${formData.firstName} ${formData.lastName}
+Email: ${formData.email}
+Phone: ${formData.phone || 'N/A'}
+State/Zip: ${formData.state || 'N/A'}
+Inquiry Type: ${formData.inquiryType || 'N/A'}
+
+Message:
+${formData.message}
+      `.trim()
+    });
+
     setIsSubmitting(false);
     setIsSubmitted(true);
   };
