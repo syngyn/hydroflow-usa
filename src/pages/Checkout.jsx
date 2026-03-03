@@ -172,15 +172,17 @@ export default function Checkout() {
       return;
     }
 
-    if (!shippingDifferent) {
-      if (!formData.billingAddress || !formData.billingCity || !formData.billingState || !formData.billingZip) {
-        toast.error('Please fill in billing address');
-        return;
-      }
-    } else {
-      if (!formData.shippingAddress || !formData.shippingCity || !formData.shippingState || !formData.shippingZip) {
-        toast.error('Please fill in shipping address');
-        return;
+    if (!allNoShipping) {
+      if (!shippingDifferent) {
+        if (!formData.billingAddress || !formData.billingCity || !formData.billingState || !formData.billingZip) {
+          toast.error('Please fill in billing address');
+          return;
+        }
+      } else {
+        if (!formData.shippingAddress || !formData.shippingCity || !formData.shippingState || !formData.shippingZip) {
+          toast.error('Please fill in shipping address');
+          return;
+        }
       }
     }
 
