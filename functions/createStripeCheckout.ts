@@ -57,7 +57,7 @@ Deno.serve(async (req) => {
 
     // Calculate tax (10.5% for WA, 0% for others)
     const taxRate = state === 'WA' ? 0.105 : 0;
-    const shippingCost = SHIPPING_RATES[state];
+    const shippingCost = allNoShipping ? 0 : (SHIPPING_RATES[state] || 0);
 
     // Create line items from cart
     const lineItems = cart.map(item => ({
