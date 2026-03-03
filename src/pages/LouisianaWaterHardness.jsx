@@ -25,7 +25,7 @@ export default function LouisianaWaterHardness() {
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/61ccc724d_24091655247748.jpg" 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6dbd83ad3_cfontenot-baton-rouge-6254367_1920.jpg" 
               alt="Louisiana Water Hardness Map" 
               className="w-full h-full object-cover"
             />

@@ -130,6 +130,7 @@ import ProductHS40 from './pages/ProductHS40';
 import ProductIRange from './pages/ProductIRange';
 import ProductPearl from './pages/ProductPearl';
 import ProductPearlPlus from './pages/ProductPearlPlus';
+import ProductPlasticScrew from './pages/ProductPlasticScrew';
 import ProductQuiz from './pages/ProductQuiz';
 import ProductSediment20 from './pages/ProductSediment20';
 import ProductSelectionTool from './pages/ProductSelectionTool';
@@ -160,7 +161,6 @@ import WaterHardnessMap from './pages/WaterHardnessMap';
 import WestVirginiaWaterHardness from './pages/WestVirginiaWaterHardness';
 import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
 import WyomingWaterHardness from './pages/WyomingWaterHardness';
-import ProductPlasticScrew from './pages/ProductPlasticScrew';
 import __Layout from './Layout.jsx';
 
 
@@ -248,6 +248,7 @@ export const PAGES = {
     "ProductIRange": ProductIRange,
     "ProductPearl": ProductPearl,
     "ProductPearlPlus": ProductPearlPlus,
+    "ProductPlasticScrew": ProductPlasticScrew,
     "ProductQuiz": ProductQuiz,
     "ProductSediment20": ProductSediment20,
     "ProductSelectionTool": ProductSelectionTool,
@@ -278,7 +279,6 @@ export const PAGES = {
     "WestVirginiaWaterHardness": WestVirginiaWaterHardness,
     "WisconsinWaterHardness": WisconsinWaterHardness,
     "WyomingWaterHardness": WyomingWaterHardness,
-    "ProductPlasticScrew": ProductPlasticScrew,
 }
 
 export const pagesConfig = {
