@@ -13,7 +13,8 @@ export default function ProductPlasticScrew() {
       name: 'Plastic Screw',
       price: 2.00,
       image: null,
-      quantity: 1
+      quantity: 1,
+      noShipping: true
     });
     toast.success('Plastic Screw added to cart');
   };
