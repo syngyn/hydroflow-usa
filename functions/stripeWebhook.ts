@@ -95,7 +95,7 @@ Questions? Contact us at sales@hydroflow-usa.com
         
         // Send emails
         try {
-          await base44.integrations.Core.SendEmail({
+          await base44.asServiceRole.integrations.Core.SendEmail({
             to: 'sales@hydroflow-usa.com',
             subject: `New Order: ${order.id}`,
             body: salesEmailBody,
