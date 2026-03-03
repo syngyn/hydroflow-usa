@@ -203,7 +203,7 @@ const caseStudyData = {
   'honda-cooling-tower': {
     category: 'industrial',
     title: 'Honda Cooling Tower',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/81111495579148.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6421f8a1d_81111495579148.jpg',
     installer: 'Satoshi Sakanishi, Nippon Selpo Co. Ltd., Japan',
     customer: 'A major car manufacturer, Japan',
     application: 'Cooling Tower 300HP',
@@ -360,7 +360,7 @@ const caseStudyData = {
   'biofilm-reduction-referral-letter': {
     category: 'industrial',
     title: 'Biofilm Reduction - Referral Letter',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/88401638211312.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4b0a25b06_88401638211312.jpg',
     customer: 'Avantor – Poland',
     application: 'Biofilm Reduction',
     installedUnits: 'HydroFLOW i60 water conditioner',
@@ -592,7 +592,7 @@ const caseStudyData = {
   'sharonville-fire-department': {
     category: 'commercial',
     title: 'Sharonville Fire Department',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/89651495480951.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ddc7e5164_89651495480951.jpg',
     installer: 'Schlueter Plumbing',
     customer: 'City of Sharonville – Fire Department',
     application: 'Drinking fountain and shower valves',
@@ -944,7 +944,7 @@ const caseStudyData = {
   'mv-hoegh-antwerp-scale-prevention': {
     category: 'marine',
     title: 'MV Hoegh Antwerp - Scale Prevention',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/88651495664646-510x510.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ae70b79b0_88651495664646.jpg',
     application: 'Marine vessel scale prevention',
     installedUnits: 'HydroFLOW HM Range',
     results: [
@@ -968,7 +968,7 @@ const caseStudyData = {
   'increased-crop-yield-experiment': {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/87301495667998.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4fd3f7fa7_87301495667998.jpg',
     installer: 'Dr. Stuart O\'Byrne',
     customer: 'Agricultural research - Corn field',
     application: 'Stimulated Water Circle Irrigation System',
