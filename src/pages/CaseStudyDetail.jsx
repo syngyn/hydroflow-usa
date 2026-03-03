@@ -185,7 +185,7 @@ const caseStudyData = {
   'city-of-walla-walla-wastewater-plant': {
     category: 'industrial',
     title: 'City of Walla Walla Wastewater Plant',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/60391596733327.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/22845e0f8_60391596733327.jpg',
     installer: 'HydroFLOW West',
     customer: 'City of Walla Walla, WA',
     application: 'Struvite accumulation in belt press',
@@ -443,7 +443,7 @@ const caseStudyData = {
   'power-station-steam-condenser': {
     category: 'industrial',
     title: 'Power Station Steam Condenser',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/71371495581347.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/368371e5f_71371495581347.jpg',
     installer: 'HydroFLOW Russia',
     customer: 'Heat power station. The station produces electricity and heat energy, which is used for central heating',
     application: 'Steam condenser and heat exchangers',
@@ -648,7 +648,7 @@ const caseStudyData = {
   'hotel-hot-water-system': {
     category: 'commercial',
     title: 'Hotel Hot Water System',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/72631672858543.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3e5267fa9_72631672858543.jpg',
     customer: 'Hotel in San Antonio, TX',
     application: 'Potable hot water system – limescale reduction',
     installedUnits: 'Two HydroFLOW i100',
