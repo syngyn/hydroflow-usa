@@ -47,7 +47,7 @@ const caseStudyData = {
   'massive-texas-factory': {
     category: 'industrial',
     title: 'Massive Texas Factory',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/massive-texas-factory.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33ba861ce_MassiveTXfactory.png',
     installer: 'EcoTech Solutions',
     customer: 'A 5.2 million square foot equipment manufacturer in Texas with over 7,000 employees.',
     application: 'Contribute to water savings to spare the facility\'s well and free up capacity in the onsite wastewater treatment plant, which is over capacity 8 months out of the year (causing fines).',
@@ -255,7 +255,7 @@ const caseStudyData = {
   'massive-texas-factory': {
     category: 'industrial',
     title: 'Massive Texas Factory',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/massive-texas-factory.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33ba861ce_MassiveTXfactory.png',
     installer: 'EcoTech Solutions',
     customer: 'A 5.2 million square foot equipment manufacturer in Texas with over 7,000 employees',
     application: 'Contribute to water savings to spare the facility\'s well and free up capacity in the onsite wastewater treatment plant',
