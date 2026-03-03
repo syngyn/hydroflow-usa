@@ -108,7 +108,7 @@ Questions? Contact us at sales@hydroflow-usa.com
         
         if (customerEmail) {
           try {
-            await base44.integrations.Core.SendEmail({
+            await base44.asServiceRole.integrations.Core.SendEmail({
               to: customerEmail,
               subject: 'Order Confirmation - HydroFLOW',
               body: customerEmailBody,
