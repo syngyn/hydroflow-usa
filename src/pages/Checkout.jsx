@@ -96,7 +96,10 @@ export default function Checkout() {
     setIsInIframe(window.self !== window.top);
   }, []);
 
+  const allNoShipping = cart.every(item => item.noShipping);
+
   const getShippingCost = () => {
+    if (allNoShipping) return 0;
     const shippingRates = {
       'AL': 31.57, 'AK': 184.8, 'AZ': 30.14, 'AR': 30.14, 'CA': 29.1,
       'CO': 29.1, 'CT': 30.14, 'DE': 30.14, 'FL': 30.14, 'GA': 30.14,
