@@ -46,8 +46,11 @@ Deno.serve(async (req) => {
       'AS': 184.8, 'DC': 30.14, 'GU': 184.8, 'MP': 184.8, 'PR': 184.8, 'VI': 184.8
     };
 
-    // Validate state
-    if (!state || !SHIPPING_RATES[state]) {
+    // Check if all items have no shipping
+    const allNoShipping = cart.every(item => item.noShipping);
+
+    // Validate state (only required if any items need shipping)
+    if (!allNoShipping && (!state || !SHIPPING_RATES[state])) {
       console.error('Invalid state:', state);
       return Response.json({ error: 'Invalid US state' }, { status: 400 });
     }
