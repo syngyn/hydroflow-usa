@@ -238,7 +238,7 @@ const caseStudyData = {
   'food-processing-cooling-tower': {
     category: 'agriculture',
     title: 'Food Processing Cooling Tower',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5f10644a1_3541495124373.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c90df1772_3541495124373-100x100.jpg',
     installer: 'HydroFLOW West',
     customer: 'G & G Orchards, Washington',
     application: 'BAC Condenser and EVAPCO Condenser which feeding into a common sump tank',
@@ -681,7 +681,7 @@ const caseStudyData = {
   'long-stem-rose-growth': {
     category: 'agriculture',
     title: 'HydroFLOW Product Evaluation - Long Stem Rose Growth',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a89a5844d_1191540835854.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0ee2a6ebe_1191540835854-247x296.png',
     customer: 'A long-stem rose growing operation in South America',
     installedUnits: 'HydroFLOW Custom i12"',
     background: 'During the cold months (June-September) the overall growth of long stem roses slows down. The grower wanted to see how HydroFLOW could increase the output from his greenhouses, and determine if there is an overall improvement in the growth rate/quality of the roses throughout the year.',
