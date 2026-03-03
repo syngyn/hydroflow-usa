@@ -696,7 +696,7 @@ const caseStudyData = {
   'residential-water-heater': {
     category: 'residential',
     title: 'Residential Water Heater',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/27101632777274.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d52910f9a_27101632777274.jpg',
     application: 'Residential scale prevention and removal',
     installedUnits: 'HydroFLOW Pearl Plus',
     background: 'Residential property needed to address scale buildup in water heater and throughout the home\'s plumbing system.',
@@ -711,7 +711,7 @@ const caseStudyData = {
   'coliforms-in-well-water': {
     category: 'residential',
     title: 'Coliforms in Well Water',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/28901495146802.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16a0ff6f9_28901495146802.jpg',
     installer: 'HydroFLOW West Inc.',
     customer: 'Homeowners in Kenai Alaska.',
     application: 'Residential Well',
@@ -727,7 +727,7 @@ const caseStudyData = {
   'plumbing-contractor': {
     category: 'residential',
     title: 'Plumbing Contractor',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/31951495476221.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ad81caac4_31951495476221.jpg',
     application: 'Tankless Heaters and Pools',
     installedUnits: 'HydroFLOW Pearl Plus',
     background: 'They were looking for a solution to protect the tankless water heaters they are installing. They came across the hydropath technology and decided they will try the HydroFLOW s38 unit on a couple of installations. After getting to know the technology more they started to install the HydroFLOW units on pools.',
@@ -741,7 +741,7 @@ const caseStudyData = {
   'product-evaluation-tankless-boiler': {
     category: 'residential',
     title: 'Product Evaluation - Tankless Boiler',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/14381495147872.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8e8487817_14381495147872.jpg',
     installer: 'HydroFLOW Canada',
     customer: 'Onspex is an independent testing company and was enlisted to provide an independent verification of the effects of a HydroFLOW unit.',
     application: 'Water Heater',
@@ -772,7 +772,7 @@ const caseStudyData = {
   'residential-complex': {
     category: 'residential',
     title: 'Residential Complex',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/7751495146448.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/db222a134_7751495146448.jpg',
     customer: 'The Greenfield Village – Southern CA',
     application: 'Water heaters and recirculation pumps',
     installedUnits: 'HydroFLOW Pearl Plus units',
@@ -787,7 +787,7 @@ const caseStudyData = {
   'residential-dishwasher': {
     category: 'residential',
     title: 'Residential Dishwasher',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/41611494973757.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/251608b46_41611494973757.jpg',
     installer: 'HydroFLOW USA',
     customer: 'Crown Property Management',
     application: 'Dishwasher',
@@ -818,7 +818,7 @@ const caseStudyData = {
   'residential-tower': {
     category: 'residential',
     title: 'Residential Tower',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/11761494365073.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a3454757f_11761494365073.jpg',
     installer: 'New Water Innovations (HydroFLOW Southwest)',
     customer: 'West Sixth Residential Towers – Tempe, AZ',
     application: 'Water boilers, plumbing lines and fixtures',
