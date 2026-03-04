@@ -73,51 +73,49 @@ export default function HeroSection() {
         <div className="absolute top-1/2 -left-20 w-60 h-60 bg-cyan-400/5 rounded-full blur-3xl animate-pulse delay-1000" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-32">
-        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
-          {/* Content */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-32">
+         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+           {/* Content */}
+           <motion.div
+             initial={{ opacity: 0, y: 30 }}
+             animate={{ opacity: 1, y: 0 }}
+             transition={{ duration: 0.8 }}
+             className="flex flex-col justify-center"
+           >
+             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-4 md:mb-6">
+               <span className="block">Advanced Water</span>
+               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600">
+                 Treatment Solutions
+               </span>
+             </h1>
 
+             <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-6 md:mb-8">
+               Sustainable and eco-friendly water treatment products that are designed to optimize the performance of residential, commercial, industrial, agricultural, and marine water systems.
+             </p>
 
-            <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold text-slate-900 leading-tight mb-4 md:mb-6 text-center lg:text-left">
-              <span className="block">Advanced Water</span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600">
-                Treatment Solutions
-              </span>
-            </h1>
+             <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
+               <Link to={createPageUrl('Products')} className="w-full sm:w-auto">
+                 <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold transition-all w-full sm:w-auto">
+                   Residential Solutions
+                 </Button>
+               </Link>
+               <Link to={createPageUrl('Industrial')} className="w-full sm:w-auto">
+                 <Button variant="outline" className="border-2 border-cyan-600 text-cyan-600 bg-cyan-50 hover:bg-cyan-100 rounded-full px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold w-full sm:w-auto">
+                   Industrial Solutions
+                 </Button>
+               </Link>
+             </div>
+           </motion.div>
 
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-6 md:mb-8 max-w-xl">
-              Sustainable and eco-friendly water treatment products that are designed to optimize the performance of residential, commercial, industrial, agricultural, and marine water systems.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-6 md:mb-12 items-center sm:items-start justify-center lg:justify-start">
-              <Link to={createPageUrl('Products')}>
-                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-6 md:px-8 py-4 md:py-6 text-sm md:text-lg font-semibold transition-all w-full sm:w-auto">
-                  Residential Solutions
-                </Button>
-              </Link>
-              <Link to={createPageUrl('Industrial')}>
-                <Button variant="outline" className="border-2 border-cyan-600 text-cyan-600 bg-cyan-50 hover:bg-cyan-100 rounded-full px-6 md:px-8 py-4 md:py-6 text-sm md:text-lg font-semibold w-full sm:w-auto">
-                  Industrial Solutions
-                </Button>
-              </Link>
-            </div>
-
-
-          </motion.div>
-
-          {/* Hero Image/Card Carousel */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <div className="relative">
-              <div className="relative border border-white/20 rounded-2xl md:rounded-3xl p-4 md:p-8 overflow-hidden flex items-center justify-center h-64 md:h-96" style={{ aspectRatio: '4/3' }}>
+           {/* Hero Image/Card Carousel */}
+           <motion.div
+             initial={{ opacity: 0, scale: 0.95 }}
+             animate={{ opacity: 1, scale: 1 }}
+             transition={{ duration: 0.8, delay: 0.2 }}
+             className="flex items-center justify-center"
+           >
+             <div className="relative w-full max-w-md">
+               <div className="relative border border-white/20 rounded-2xl md:rounded-3xl p-4 md:p-8 overflow-hidden flex items-center justify-center h-64 sm:h-80 md:h-96" style={{ aspectRatio: '4/3' }}>
                 <AnimatePresence mode="wait">
                    <motion.div
                     key={currentProductIndex}
