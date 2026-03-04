@@ -149,6 +149,9 @@ export default function HeroSection() {
                          src={products[currentProductIndex].image}
                          alt={products[currentProductIndex].name}
                          className="max-h-full w-auto max-w-full object-contain"
+                         style={
+                           currentProductIndex === 1 ? { transform: 'scale(0.7)', transformOrigin: 'center' } : {}
+                         }
                        />
                      </Link>
                     </motion.div>
