@@ -150,6 +150,7 @@ export default function HeroSection() {
                          alt={products[currentProductIndex].name}
                          className="max-h-full w-auto max-w-full object-contain"
                          style={
+                           currentProductIndex === 0 ? { transform: 'scale(0.805)', transformOrigin: 'center' } :
                            currentProductIndex === 1 ? { transform: 'scale(0.7)', transformOrigin: 'center' } : {}
                          }
                        />
