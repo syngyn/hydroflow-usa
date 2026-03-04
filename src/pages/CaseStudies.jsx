@@ -105,7 +105,7 @@ const caseStudies = [
     title: 'Lehigh County WWTP - Struvite Treatment',
     slug: 'lehigh-county-wwtp-struvite-treatment',
     description: 'Within 8 days we saw that the struvite has stopped accumulating and was softening up.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5efe67d09_36831596736223-247x296.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/087be9706_image.png',
     results: ['Struvite prevention', 'Easier cleaning', 'Reduced downtime'],
     application_type: ['Wastewater Treatment'],
     products_used: ['iRange']
