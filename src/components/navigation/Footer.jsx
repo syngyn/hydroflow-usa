@@ -15,7 +15,7 @@ export default function Footer({ currentPageName }) {
                 <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2">
                   Ready to protect your water system?
                 </h3>
-                <p className="text-slate-400 text-sm sm:text-base">
+                <p className="text-slate-300 text-sm sm:text-base">
                   Contact us for a free consultation and find the perfect solution.
                 </p>
               </div>
