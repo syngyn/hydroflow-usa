@@ -631,7 +631,7 @@ const caseStudyData = {
   'premium-car-wash-in-california': {
     category: 'commercial',
     title: 'Premium Car Wash in California',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/78091560356620.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7eb2386b7_image.png',
     installer: 'HydroFLOW West',
     customer: 'An American Car Wash (https://palmdesertcarwash.com/)',
     application: 'Recycled water and spray nozzles',

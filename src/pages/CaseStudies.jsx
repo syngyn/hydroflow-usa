@@ -344,7 +344,7 @@ const caseStudies = [
     title: 'Premium Car Wash in California',
     slug: 'premium-car-wash-in-california',
     description: 'After 6 months of operation, all nozzles are working perfectly; saving water and greatly reducing maintenance costs.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/78091560356620.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7eb2386b7_image.png',
     results: ['Water savings', 'Perfect nozzle performance', 'Lower maintenance'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ac84c7ab9_1561563299281.pdf',
     application_type: ['Car Wash'],
