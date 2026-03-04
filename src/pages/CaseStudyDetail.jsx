@@ -536,7 +536,7 @@ const caseStudyData = {
       'Less complaints by bathers about the \'chlorine smell\'.',
       'Maintenance cost reduction associated with lessened cleaning of scale stains, backwashing, balancing chemicals, barrel replacement, etc.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/84741493847709.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e652e79b5_84741493847709.pdf'
   },
   'st-helena-hospital-ice-machine': {
     category: 'commercial',
