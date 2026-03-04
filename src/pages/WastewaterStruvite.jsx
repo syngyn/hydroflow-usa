@@ -142,6 +142,89 @@ export default function WastewaterStruvite() {
         </div>
       </section>
 
+      {/* CTA */}
+      <section className="py-20 bg-gradient-to-r from-cyan-500 to-cyan-600">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              Ready to Optimize Your Wastewater Treatment?
+            </h2>
+            <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
+              Contact us to learn more about how <i>Hydro</i>FLOW can help your facility.
+            </p>
+            <Link to={createPageUrl('Contact')}>
+              <Button className="bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
+                Contact Us
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Case Studies */}
+      <section className="py-16 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              Sample Case Studies
+            </h2>
+            <p className="text-lg text-slate-600">
+              Real-world results from wastewater treatment facilities across the United States
+            </p>
+          </motion.div>
+
+          <div className="space-y-8">
+            {caseStudies.map((study, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.05 }}
+              >
+                <Card className="p-8">
+                  <h3 className="text-2xl font-bold text-slate-900 mb-4" dangerouslySetInnerHTML={{ __html: study.title }} />
+                  <p className="text-slate-700 mb-4" dangerouslySetInnerHTML={{ __html: study.description }} />
+                  
+                  {study.image && (
+                    <img 
+                      src={study.image}
+                      alt={study.title}
+                      className="w-full max-w-2xl mx-auto rounded-xl shadow-lg mb-4"
+                    />
+                  )}
+                  
+                  <div className="bg-cyan-50 border-l-4 border-cyan-500 p-6 rounded-r-lg mb-4">
+                    <h4 className="font-bold text-slate-900 mb-2">Results:</h4>
+                    <p className="text-slate-700" dangerouslySetInnerHTML={{ __html: study.results }} />
+                  </div>
+
+                  {study.pdfLink && (
+                    <a href={study.pdfLink} target="_blank" rel="noopener noreferrer">
+                      <Button variant="outline" className="group">
+                        <FileText className="w-4 h-4 mr-2" />
+                        Read Complete Case Study
+                        <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                      </Button>
+                    </a>
+                  )}
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Wastewater Video */}
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
