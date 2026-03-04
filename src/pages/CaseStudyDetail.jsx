@@ -1077,7 +1077,7 @@ export default function CaseStudyDetail() {
                   <img 
                     src={study.image} 
                     alt={study.title}
-                    className="w-full h-[400px] object-cover"
+                    className={`w-full object-cover ${slug === 'st-helena-hospital-ice-machine' ? 'h-[350px] object-contain bg-white p-8' : 'h-[400px]'}`}
                   />
                 </Card>
               </motion.div>
