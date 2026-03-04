@@ -860,7 +860,7 @@ const caseStudyData = {
   'hydroflow-reduces-biofilm-baron-farms': {
     category: 'agriculture',
     title: 'HydroFLOW Reduces Biofilm at Baron Farms',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34421495659182.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/aea25558e_image.png',
     installer: 'HydroFLOW West',
     customer: 'Baron Farms, WA',
     application: 'Well – biofilm and bio-kill',
