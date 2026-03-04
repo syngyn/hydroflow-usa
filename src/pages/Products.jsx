@@ -60,7 +60,7 @@ const products = [
     tagline: 'Save Over 5%',
     coverage: 'Covers up to 4,000 sq ft',
     price: 695,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/09/bundle.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b86f80be_bundle-deal.jpg',
     features: [
       'Larger homes and properties',
       'Multiple plumbing systems',
