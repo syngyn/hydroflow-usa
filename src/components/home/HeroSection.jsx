@@ -94,14 +94,14 @@ export default function HeroSection() {
               Sustainable and eco-friendly water treatment products that are designed to optimize the performance of residential, commercial, industrial, agricultural, and marine water systems.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-6 md:mb-12 items-center sm:items-start">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-6 md:mb-12 items-center sm:items-start justify-center lg:justify-start">
               <Link to={createPageUrl('Products')}>
-                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-8 py-6 text-lg font-semibold transition-all w-64">
+                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white border-2 border-cyan-500 rounded-full px-6 md:px-8 py-4 md:py-6 text-sm md:text-lg font-semibold transition-all w-full sm:w-auto">
                   Residential Solutions
                 </Button>
               </Link>
               <Link to={createPageUrl('Industrial')}>
-                <Button variant="outline" className="border-2 border-cyan-600 text-cyan-600 bg-cyan-50 hover:bg-cyan-100 rounded-full px-8 py-6 text-lg font-semibold w-64">
+                <Button variant="outline" className="border-2 border-cyan-600 text-cyan-600 bg-cyan-50 hover:bg-cyan-100 rounded-full px-6 md:px-8 py-4 md:py-6 text-sm md:text-lg font-semibold w-full sm:w-auto">
                   Industrial Solutions
                 </Button>
               </Link>
