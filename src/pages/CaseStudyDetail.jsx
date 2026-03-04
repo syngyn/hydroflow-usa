@@ -78,16 +78,20 @@ const caseStudyData = {
   'screw-press-struvite-treatment': {
     category: 'industrial',
     title: 'Screw Press Struvite Treatment',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2026/02/Screw-Press-case-Study_struvite-1.webp',
-    customer: 'A wastewater treatment plant in the State of Utah, United States.',
-    application: 'Struvite scale treatment',
-    installedUnits: 'HydroFLOW Custom i8″',
-    background: 'Struvite accumulation in the plant\'s two screw presses is a constant and costly maintenance issue.',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/309467422_HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf',
+    customer: 'A wastewater treatment plant in the State of Utah, United States',
+    application: 'Screw Press – Struvite scale treatment',
+    installedUnits: 'HydroFLOW Custom i8" unit on the sludge line feeding the screw press',
+    background: 'Struvite accumulation in the plant\'s two screw presses was a constant and costly maintenance issue. The plant used a Struvite reduction chemical costing $8,000/month. The presses also required monthly cleaning, taking up to 30 hours to complete due to the concrete-like Struvite scale formation. The plant chose to perform a two-month HydroFLOW product evaluation to determine the reduction of Struvite buildup, maintenance, and chemical usage.',
+    successFactors: ['Reduce Struvite buildup', 'Eliminate $8,000/month chemical cost', 'Reduce cleaning time and maintenance labor'],
     results: [
-      'After 30 days, the press did not require cleaning, and only had a little mud-like Struvite accumulation',
-      'After 60 days, the press was pressure washed, taking less than 4 hours to complete instead of the typical 30 hours with chemicals'
+      'Rather than gradually reducing chemical usage, the plant chose to discontinue chemical usage entirely to evaluate HydroFLOW on its own.',
+      'After 30 days, the press did not require cleaning and only had a little mud-like Struvite accumulation.',
+      'After 60 days, the press was pressure washed, taking less than 4 hours to complete instead of the typical 30 hours with chemicals.',
+      'The reduction of chemical usage and time saved in manual cleaning led to a 3-month payback period.',
+      '"Outstanding results! Night and day difference before and after HydroFLOW." - Maintenance Manager'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2026/02/HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/309467422_HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf'
   },
   'gold-leed-campus': {
     category: 'commercial',
