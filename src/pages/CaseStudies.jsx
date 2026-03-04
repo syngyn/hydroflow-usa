@@ -571,7 +571,7 @@ const caseStudies = [
     title: 'HydroFLOW Reduces Biofilm at Baron Farms',
     slug: 'hydroflow-reduces-biofilm-baron-farms',
     description: 'The results were excellent! The water was clean and clear. Were able to get their organic food processing license.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/34421495659182.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/aea25558e_image.png',
     results: ['Clean and clear water', 'Organic food processing license approved', 'Biofilm removed', 'Pipes descaled'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/64021494003033.pdf',
     application_type: ['Wells', 'Other'],
