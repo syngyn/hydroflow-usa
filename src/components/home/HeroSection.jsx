@@ -118,46 +118,40 @@ export default function HeroSection() {
                <div className="relative border border-white/20 rounded-2xl md:rounded-3xl p-4 md:p-8 overflow-hidden flex items-center justify-center h-64 sm:h-80 md:h-96" style={{ aspectRatio: '4/3' }}>
                 <AnimatePresence mode="wait">
                    <motion.div
-                    key={currentProductIndex}
-                    initial={{ 
-                      opacity: 0, 
-                      scale: 1.2,
-                      filter: 'blur(20px) brightness(3)'
-                    }}
-                    animate={{ 
-                      opacity: 1, 
-                      scale: 1,
-                      filter: 'blur(0px) brightness(1)',
-                      transition: {
-                        duration: 0.8,
-                        ease: "easeOut"
-                      }
-                    }}
-                    exit={{ 
-                      opacity: 0, 
-                      scale: 0.8,
-                      filter: 'blur(20px) brightness(3)',
-                      transition: {
-                        duration: 0.6,
-                        ease: "easeIn"
-                      }
-                    }}
-                    className="w-full h-full flex flex-col items-center justify-center"
-                   >
-                    <Link to={createPageUrl(products[currentProductIndex].page)} className="block h-full w-full flex items-center justify-center">
-                      <img 
-                        src={products[currentProductIndex].image}
-                        alt={products[currentProductIndex].name}
-                        className="max-h-full w-auto object-contain transition-transform hover:scale-105"
-                        style={
-                          currentProductIndex === 0 ? { transform: 'scale(0.805)' } :
-                          currentProductIndex === 1 ? { transform: 'scale(0.7)' } : 
-                          currentProductIndex === 2 ? { transform: 'scale(0.885)' } : 
-                          currentProductIndex === 4 ? { transform: 'scale(0.9)' } : {}
-                        }
-                      />
-                    </Link>
-                   </motion.div>
+                     key={currentProductIndex}
+                     initial={{ 
+                       opacity: 0, 
+                       scale: 1.2,
+                       filter: 'blur(20px) brightness(3)'
+                     }}
+                     animate={{ 
+                       opacity: 1, 
+                       scale: 1,
+                       filter: 'blur(0px) brightness(1)',
+                       transition: {
+                         duration: 0.8,
+                         ease: "easeOut"
+                       }
+                     }}
+                     exit={{ 
+                       opacity: 0, 
+                       scale: 0.8,
+                       filter: 'blur(20px) brightness(3)',
+                       transition: {
+                         duration: 0.6,
+                         ease: "easeIn"
+                       }
+                     }}
+                     className="w-full h-full flex items-center justify-center"
+                    >
+                     <Link to={createPageUrl(products[currentProductIndex].page)} className="block h-full w-full flex items-center justify-center px-2">
+                       <img 
+                         src={products[currentProductIndex].image}
+                         alt={products[currentProductIndex].name}
+                         className="max-h-full w-auto max-w-full object-contain"
+                       />
+                     </Link>
+                    </motion.div>
                 </AnimatePresence>
                 
 
