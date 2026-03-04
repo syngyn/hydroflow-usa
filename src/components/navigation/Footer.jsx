@@ -150,19 +150,19 @@ export default function Footer({ currentPageName }) {
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-400">
             <p>© {new Date().getFullYear()} <i>Hydro</i>FLOW USA. All rights reserved.</p>
             <div className="flex items-center gap-6">
-              <Link to={createPageUrl('PrivacyPolicy')} className="hover:text-slate-300 transition-colors">
+              <Link to={createPageUrl('PrivacyPolicy')} className="text-slate-400 hover:text-slate-200 transition-colors">
                 Privacy Policy
               </Link>
-              <Link to={createPageUrl('TermsOfService')} className="hover:text-slate-300 transition-colors">
+              <Link to={createPageUrl('TermsOfService')} className="text-slate-400 hover:text-slate-200 transition-colors">
                 Terms of Service
               </Link>
-              <Link to={createPageUrl('Warranty')} className="hover:text-slate-300 transition-colors">
+              <Link to={createPageUrl('Warranty')} className="text-slate-400 hover:text-slate-200 transition-colors">
                 Warranty
               </Link>
-              <Link to={createPageUrl('StateWaterHardness')} className="hover:text-slate-300 transition-colors">
+              <Link to={createPageUrl('StateWaterHardness')} className="text-slate-400 hover:text-slate-200 transition-colors">
                 State Pages
               </Link>
             </div>
