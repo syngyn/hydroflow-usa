@@ -1,9 +1,10 @@
 Deno.serve(async (req) => {
-  const url = new URL(req.url);
-  const pathname = url.pathname.toLowerCase();
+  try {
+    const body = await req.json();
+    const pathname = (body.pathname || '').toLowerCase().replace(/^\/|\/$/g, '');
 
-  // Map old URL patterns to new state page names
-  const stateMapping = {
+    // Map old URL patterns to new state page names
+    const stateMapping = {
     'alabama-water-hardness': 'AlabamaWaterHardness',
     'alaska-water-hardness': 'AlaskaWaterHardness',
     'arizona-water-hardness': 'ArizonaWaterHardness',
