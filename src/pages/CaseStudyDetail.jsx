@@ -163,7 +163,7 @@ const caseStudyData = {
       'The chiller is operating more efficiently due to scale and biofilm removal.',
       'The HydroFLOW water conditioning device helped in substantial cost savings associated with reduced chemical consumption, maintenance, electricity and water usage.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/43851493848202.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2e4f96be4_43851493848202.pdf'
   },
   'nellis-air-force-base-cooling-tower': {
     category: 'commercial',

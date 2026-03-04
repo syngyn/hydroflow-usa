@@ -235,7 +235,7 @@ const caseStudies = [
     description: 'After five months chemical-free, there is no hard scale accumulation and biological count is well under 1,000 CFU/ML.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1ace0f6b1_image.png',
     results: ['Chemical-free operation', 'No scale buildup', 'Safe water quality'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/43851493848202.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2e4f96be4_43851493848202.pdf',
     application_type: ['Cooling Towers'],
     products_used: ['iRange'],
     installer: 'HydroFLOW West',
