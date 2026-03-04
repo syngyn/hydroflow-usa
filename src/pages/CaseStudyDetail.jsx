@@ -91,7 +91,7 @@ const caseStudyData = {
       'The reduction of chemical usage and time saved in manual cleaning led to a 3-month payback period.',
       '"Outstanding results! Night and day difference before and after HydroFLOW." - Maintenance Manager'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/309467422_HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8199139ff_HydroFLOWCaseStudy-ScrewPressStruviteTreatment-2023.pdf'
   },
   'gold-leed-campus': {
     category: 'commercial',
