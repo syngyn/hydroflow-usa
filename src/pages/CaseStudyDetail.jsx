@@ -65,7 +65,7 @@ const caseStudyData = {
   'sludge-line-struvite-treatment': {
     category: 'industrial',
     title: 'Sludge Line Struvite Treatment',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/sludge-line-i150.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/073cd7b2e_image.png',
     customer: 'A wastewater treatment plant in Chicago Illinois.',
     application: 'Struvite scale treatment.',
     installedUnits: 'HydroFLOW i150 unit.',
@@ -275,7 +275,7 @@ const caseStudyData = {
   'sludge-line-struvite-treatment': {
     category: 'industrial',
     title: 'Sludge Line Struvite Treatment',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/sludge-line-i150.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/073cd7b2e_image.png',
     installer: 'HydroFLOW USA',
     customer: 'A wastewater treatment plant in Chicago Illinois',
     application: 'Struvite scale treatment',
