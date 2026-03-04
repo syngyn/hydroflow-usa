@@ -359,7 +359,7 @@ const caseStudyData = {
       'After the end of the first 3 week cycle sprays were inspected and found to have "nearly no buildup to cause clogging".',
       'Any buildup found to occur was a loose, fluffier material instead of a concrete like buildup.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/39071639432386.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b98089f6f_HydroFLOW-industrial-case-study-steel-company-spray-bar-system.pdf'
   },
   'biofilm-reduction-referral-letter': {
     category: 'industrial',
