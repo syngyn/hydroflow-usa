@@ -696,7 +696,7 @@ const caseStudyData = {
   'residential-water-heater': {
     category: 'residential',
     title: 'Residential Water Heater',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/dc23c6c70_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/28337c84d_element.png',
     application: 'Residential scale prevention and removal',
     installedUnits: 'HydroFLOW Pearl Plus',
     background: 'Residential property needed to address scale buildup in water heater and throughout the home\'s plumbing system.',
