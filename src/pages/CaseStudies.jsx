@@ -128,7 +128,7 @@ const caseStudies = [
     description: 'The water conditioners have a positive effect on heat exchanger performance by breaking-up the scale deposits.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/75ce255c0_image.png',
     results: ['Improved heat transfer', 'Scale breakdown', 'Better performance'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/46101493933705.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/75593b140_46101493933705.pdf',
     application_type: ['Heat Exchangers', 'Other'],
     products_used: ['iRange']
   },

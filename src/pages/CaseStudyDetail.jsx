@@ -403,7 +403,7 @@ const caseStudyData = {
       'The water conditioners kept piping clear of most scale deposits and made existing deposits easy to remove.',
       'The return on investment, due to decreased maintenance labor and power usage is approximately one year.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/46101493933705.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/75593b140_46101493933705.pdf'
   },
   'cmc-concrete-report': {
     category: 'industrial',
