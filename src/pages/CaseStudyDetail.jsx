@@ -390,7 +390,8 @@ const caseStudyData = {
       'Within 8 days, the struvite stopped accumulating.',
       'Existing struvite deposits were softening up.',
       'Easier cleaning and reduced maintenance requirements.'
-    ]
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6932f7838_HydroFLOW-industrial-referral-letter-lehigh-county-wastewater-treatment-plant.pdf'
   },
   'paper-mill-liquor-lines': {
     category: 'industrial',
