@@ -32,7 +32,7 @@ const caseStudies = [
     title: 'Wastewater Treatment Plant in London, Ohio',
     description: '<i>Hydro</i>FLOW equipment was installed to determine if struvite can be removed from the belt press without chemical, manual or mechanical assistance.',
     results: 'Fantastic results were achieved after just 35 days.',
-    pdfLink: 'https://hydroflow-usa.com/assets/files/78971648597202.pdf'
+    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4f70919bc_CaseStudy-LondonOhioWastewaterTreatmentPlant-StruviteTreatment.pdf'
   },
   {
     title: 'Wastewater Treatment Plant in Augusta, Georgia',
