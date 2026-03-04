@@ -140,16 +140,16 @@ export default function Navbar() {
                 </DropdownMenu>
               ) : (
                 <Link
-                   key={link.name}
-                   to={createPageUrl(link.href)}
-                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                     isScrolled 
-                       ? 'text-slate-700 hover:text-cyan-600 hover:bg-cyan-50' 
-                       : 'text-slate-700 hover:text-cyan-600 hover:bg-white/50'
-                   }`}
-                 >
-                   {link.name}
-                 </Link>
+                  key={link.name}
+                  to={createPageUrl(link.href)}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                    isScrolled 
+                      ? 'text-slate-700 hover:text-cyan-600 hover:bg-cyan-50' 
+                      : 'text-slate-700 hover:text-cyan-600 hover:bg-white/50'
+                  }`}
+                >
+                  {link.name}
+                </Link>
               )
             ))}
           </div>
@@ -195,7 +195,7 @@ export default function Navbar() {
             </Link>
             <button 
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-               className={`p-2 rounded-lg ${isScrolled ? 'text-slate-700' : 'text-slate-700'}`}
+              className={`p-2 rounded-lg ${isScrolled ? 'text-slate-700' : 'text-slate-700'}`}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
