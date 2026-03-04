@@ -77,4 +77,8 @@ Deno.serve(async (req) => {
   }
 
   return Response.json({ found: false }, { status: 404 });
+  } catch (error) {
+    console.error('Redirect function error:', error);
+    return Response.json({ error: error.message, found: false }, { status: 500 });
+  }
 });
