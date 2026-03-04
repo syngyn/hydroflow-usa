@@ -939,14 +939,15 @@ const caseStudyData = {
   'anglo-eastern-freshwater-generator': {
     category: 'marine',
     title: 'Anglo Eastern - Freshwater Generator',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/78611495752951-510x510.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b0977b45d_image.png',
     application: 'Marine freshwater generator scale prevention',
     installedUnits: 'HydroFLOW HM Range',
     results: [
       'Freshwater generator is free of scale.',
       'Chemical dosing no longer required.',
       'Reliable, continuous performance.'
-    ]
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c82419f45_HydroFLOW-marine-referral-letter-anglo-eastern-fresh-water-generator.pdf'
   },
   'mv-hoegh-antwerp-scale-prevention': {
     category: 'marine',

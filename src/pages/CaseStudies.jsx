@@ -615,7 +615,7 @@ const caseStudies = [
     title: 'Anglo Eastern - Freshwater Generator',
     slug: 'anglo-eastern-freshwater-generator',
     description: 'Freshwater generator is free of scale, and chemical dosing is no longer required.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/78611495752951-510x510.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b0977b45d_image.png',
     results: ['Scale-free operation', 'No chemicals needed', 'Reliable performance'],
     application_type: ['Marine Systems'],
     products_used: ['HM Range']
