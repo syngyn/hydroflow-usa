@@ -70,18 +70,12 @@ Deno.serve(async (req) => {
   const pageName = stateMapping[pathSegment];
 
   if (pageName) {
-    // Construct the new URL - redirect to the state water hardness page
-    const newUrl = `${url.origin}/${pageName}`;
-    return new Response(null, {
-      status: 301,
-      headers: {
-        'Location': newUrl,
-      },
+    // Return redirect URL for frontend to handle
+    return Response.json({ 
+      redirectUrl: `/${pageName}`,
+      found: true 
     });
   }
 
-  return new Response(JSON.stringify({ error: 'Not found' }), {
-    status: 404,
-    headers: { 'Content-Type': 'application/json' },
-  });
+  return Response.json({ found: false }, { status: 404 });
 });
