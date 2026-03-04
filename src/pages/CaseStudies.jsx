@@ -213,7 +213,7 @@ const caseStudies = [
     description: 'The HydroFLOW product has performed superbly well in keeping our water heaters scale free.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/49841495480863.jpg',
     results: ['Scale-free heaters', 'Full efficiency', 'LEED compliance'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/49731493848513.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6b4d951ac_49731493848513.pdf',
     application_type: ['Water Heaters'],
     products_used: ['HS40']
   },
