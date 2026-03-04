@@ -335,7 +335,7 @@ const caseStudies = [
     description: 'The state inspector claims our pool is the cleanest in the Yakima Valley!',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/184c0154f_image.png',
     results: ['Cleanest pool award', 'State inspector approved', 'Outstanding results'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/86361539882313.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7099a60ae_86361539882313.pdf',
     application_type: ['Swimming Pools'],
     products_used: ['iRange']
   },
