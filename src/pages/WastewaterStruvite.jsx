@@ -20,7 +20,7 @@ const caseStudies = [
     title: 'Wastewater Treatment Plant in St. Paul, Minnesota',
     description: '<i>Hydro</i>FLOW equipment was installed on the main centrate line to determine if the device could reduce the accumulation of hard struvite formation inside the pipes.',
     results: 'After 6 months, the pipes were given a quick water flush and then opened. The results were outstanding. The remaining struvite build-up will continue to be removed during normal plant operation.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/20d0bba80_60921654270039.png'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3272e767d_WWTP1.jpg'
   },
   {
     title: 'Water Reclamation Facility in Orlando, Florida',
@@ -61,7 +61,7 @@ export default function WastewaterStruvite() {
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33ce5b9cc_76271660086237.png"
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3272e767d_WWTP1.jpg"
             alt="Wastewater treatment"
             className="w-full h-full object-cover opacity-20"
           />
@@ -130,7 +130,7 @@ export default function WastewaterStruvite() {
             className="text-center"
           >
             <img 
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/20d0bba80_60921654270039.png"
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3272e767d_WWTP1.jpg"
               alt="Wastewater treatment plant"
               className="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl mb-8"
             />
