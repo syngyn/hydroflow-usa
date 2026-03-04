@@ -569,7 +569,7 @@ const caseStudyData = {
       'Since installing devices on steamers and cooling tower, scale related breakdowns, repair and maintenance expenses, and chemical treatment costs are a thing of the past.',
       'The HydroFLOW units are maintenance-free, environmentally friendly, and have saved thousands of dollars.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/89611493849814.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8509b0567_89611493849814.pdf'
   },
   'the-melting-pot-restaurant': {
     category: 'commercial',

@@ -302,7 +302,7 @@ const caseStudies = [
     description: 'Our HydroFLOW units are maintenance free, environmentally friendly, and have saved us thousands of dollars.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5e5549989_image.png',
     results: ['Maintenance-free', 'Eco-friendly', 'Thousands saved'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/89611493849814.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8509b0567_89611493849814.pdf',
     application_type: ['HVAC Systems', 'Cooling Towers'],
     products_used: ['iRange']
   },
