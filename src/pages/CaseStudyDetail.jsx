@@ -706,7 +706,7 @@ const caseStudyData = {
       'The cleaning frequency of the shower heads in faucets around the house was reduced.',
       'Improved the efficiency of the hot water heater and longer expected life of the heating element.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/36311632777095.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ce74fda09_36311632777095.pdf'
   },
   'coliforms-in-well-water': {
     category: 'residential',

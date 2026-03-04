@@ -466,7 +466,7 @@ const caseStudies = [
     description: 'Water heater protection and efficiency improvement.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/dc23c6c70_image.png',
     results: ['Extended heater life', 'Lower energy bills', 'No scale buildup'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/36311632777095.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ce74fda09_36311632777095.pdf',
     application_type: ['Water Heaters'],
     products_used: ['Pearl Plus']
   },
