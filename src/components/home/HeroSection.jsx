@@ -30,7 +30,7 @@ const products = [
     coverage: 'For pools up to 40,000 gallons',
     oldPrice: '$2,150',
     price: '$1,990',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/054ccee82_hs40.png',
     page: 'ProductHS40'
   },
   {

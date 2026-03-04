@@ -41,7 +41,7 @@ const products = [
     price: 1990,
     rating: 4.79,
     reviews: 43,
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/054ccee82_hs40.png',
     features: ['Swimming pools', 'Hot tubs & spas', 'Light commercial', 'Large properties'],
     page: 'ProductHS40'
   }
