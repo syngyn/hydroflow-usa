@@ -83,14 +83,14 @@ export default function HeroSection() {
           >
 
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6 text-center lg:text-left">
-              <span className="block whitespace-nowrap">Advanced Water</span>
-              <span className="block whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600">
+            <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold text-slate-900 leading-tight mb-4 md:mb-6 text-center lg:text-left">
+              <span className="block">Advanced Water</span>
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600">
                 Treatment Solutions
               </span>
             </h1>
 
-            <p className="text-lg text-slate-600 leading-relaxed mb-8 max-w-xl">
+            <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-6 md:mb-8 max-w-xl">
               Sustainable and eco-friendly water treatment products that are designed to optimize the performance of residential, commercial, industrial, agricultural, and marine water systems.
             </p>
 
