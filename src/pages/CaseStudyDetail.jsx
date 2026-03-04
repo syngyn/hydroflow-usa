@@ -626,7 +626,7 @@ const caseStudyData = {
       'Our customers gave us compliments throughout the last 3 months of the bathing season.',
       'The state inspector claims our pool is the cleanest in the Yakima Valley!'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/86361539882313.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7099a60ae_86361539882313.pdf'
   },
   'premium-car-wash-in-california': {
     category: 'commercial',
