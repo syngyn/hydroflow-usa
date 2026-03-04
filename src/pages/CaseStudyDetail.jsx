@@ -151,7 +151,7 @@ const caseStudyData = {
   'sunrise-childrens-hospital-cooling-tower': {
     category: 'commercial',
     title: 'Sunrise Children\'s Hospital Cooling Tower',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/31341495483508.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1ace0f6b1_image.png',
     installer: 'HydroFLOW West',
     customer: 'Sunrise Children\'s Hospital – Las Vegas NV',
     application: 'Cooling Tower',
