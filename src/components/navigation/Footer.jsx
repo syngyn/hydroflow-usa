@@ -138,7 +138,7 @@ export default function Footer({ currentPageName }) {
                 </a>
               </li>
               <li>
-                <a href="https://hydroflow-usa.com/assets/userfiles/files/Hydropath_Marine_Capability_Statement.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
+                <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/400ea9d05_HydropathMarineCapabilityStatementJune122024.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
                   Marine Capability Statement
                 </a>
               </li>
