@@ -148,7 +148,7 @@ const products = [
     tagline: 'Premium Under-Counter Filtration',
     coverage: 'Point-of-Use Systems',
     price: 149.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a0db785d4_10inchff.png',
     features: [
       'Absolute filtration performance',
       'Multi-layer protection',
