@@ -510,7 +510,7 @@ const caseStudies = [
     title: 'HydroFLOW Reduces Algae Growth',
     slug: 'hydroflow-reduces-algae-growth',
     description: 'With HydroFLOW the reduction in algae growth was dramatic.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/19501495124745.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3691d128f_image.png',
     results: ['Dramatic algae reduction', 'Cleaner water', 'Better crop health'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/81121493936806.pdf',
     application_type: ['Irrigation'],
