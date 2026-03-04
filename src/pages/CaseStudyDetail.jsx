@@ -913,7 +913,7 @@ const caseStudyData = {
   'mv-hermes-leader-uv-system': {
     category: 'marine',
     title: 'MV Hermes Leader - Replacement of UV-System',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/349563d1c_349563d1c_40231495151554.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5e77c37e_image.png',
     application: 'Marine vessel water treatment replacing UV system',
     installedUnits: 'HydroFLOW HM Range',
     results: [
