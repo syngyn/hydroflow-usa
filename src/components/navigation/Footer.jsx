@@ -5,7 +5,7 @@ import { Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
 
 export default function Footer({ currentPageName }) {
   return (
-    <footer className="bg-gradient-to-b from-slate-900 to-slate-950 text-white">
+    <footer className="bg-[#101D49] text-white">
       {/* CTA Section */}
       {currentPageName !== 'Contact' && (
         <div className="border-b border-white/10">

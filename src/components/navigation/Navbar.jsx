@@ -86,7 +86,7 @@ export default function Navbar() {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-      isScrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-slate-200/90 backdrop-blur-md'
+      isScrolled ? 'bg-[#101D49]/95 backdrop-blur-md shadow-lg' : 'bg-[#101D49]/90 backdrop-blur-md'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -107,14 +107,14 @@ export default function Navbar() {
                   <DropdownMenuTrigger asChild>
                     <button className={`px-4 py-2 rounded-lg text-sm font-medium transition-all flex items-center gap-1 ${
                       isScrolled 
-                        ? 'text-slate-700 hover:text-cyan-600 hover:bg-cyan-50' 
-                        : 'text-slate-700 hover:text-cyan-600 hover:bg-white/50'
+                        ? 'text-white hover:text-cyan-400 hover:bg-white/10' 
+                        : 'text-white hover:text-cyan-400 hover:bg-white/10'
                     }`}>
                       {link.name}
                       <ChevronDown className="w-4 h-4" />
                     </button>
                   </DropdownMenuTrigger>
-                  <DropdownMenuContent className="bg-white/95 backdrop-blur-md border-0 shadow-xl rounded-xl p-2">
+                  <DropdownMenuContent className="bg-[#101D49] backdrop-blur-md border-0 shadow-xl rounded-xl p-2">
                     {link.dropdown.map((item) => (
                       <DropdownMenuItem key={item.name} asChild>
                         {item.external ? (
@@ -122,14 +122,14 @@ export default function Navbar() {
                             href={item.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="cursor-pointer rounded-lg px-4 py-2.5 text-slate-700 hover:text-cyan-600 hover:bg-cyan-50 transition-all"
+                            className="cursor-pointer rounded-lg px-4 py-2.5 text-white hover:text-cyan-400 hover:bg-white/10 transition-all"
                           >
                             {item.name}
                           </a>
                         ) : (
                           <Link 
                             to={createPageUrl(item.href)}
-                            className="cursor-pointer rounded-lg px-4 py-2.5 text-slate-700 hover:text-cyan-600 hover:bg-cyan-50 transition-all"
+                            className="cursor-pointer rounded-lg px-4 py-2.5 text-white hover:text-cyan-400 hover:bg-white/10 transition-all"
                           >
                             {item.name}
                           </Link>
@@ -140,16 +140,16 @@ export default function Navbar() {
                 </DropdownMenu>
               ) : (
                 <Link
-                  key={link.name}
-                  to={createPageUrl(link.href)}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                    isScrolled 
-                      ? 'text-slate-700 hover:text-cyan-600 hover:bg-cyan-50' 
-                      : 'text-slate-700 hover:text-cyan-600 hover:bg-white/50'
-                  }`}
-                >
-                  {link.name}
-                </Link>
+                   key={link.name}
+                   to={createPageUrl(link.href)}
+                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                     isScrolled 
+                       ? 'text-white hover:text-cyan-400 hover:bg-white/10' 
+                       : 'text-white hover:text-cyan-400 hover:bg-white/10'
+                   }`}
+                 >
+                   {link.name}
+                 </Link>
               )
             ))}
           </div>
@@ -158,7 +158,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center space-x-2">
             <GlobalSearch />
             <a href="tel:1-888-559-4340" className={`flex items-center gap-2 text-sm font-medium ${
-              isScrolled ? 'text-slate-600' : 'text-slate-600'
+              isScrolled ? 'text-white' : 'text-white'
             }`}>
               <Phone className="w-4 h-4" />
               1-888-559-4340
@@ -195,7 +195,7 @@ export default function Navbar() {
             </Link>
             <button 
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className={`p-2 rounded-lg ${isScrolled ? 'text-slate-700' : 'text-slate-700'}`}
+               className={`p-2 rounded-lg ${isScrolled ? 'text-white' : 'text-white'}`}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
