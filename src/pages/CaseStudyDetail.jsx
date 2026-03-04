@@ -985,7 +985,7 @@ const caseStudyData = {
   '60-hp-low-pressure-steam-boiler': {
     category: 'industrial',
     title: '60 HP Low Pressure Steam Boiler',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5d5a2020_43561495580098.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fe8e0d1eb_image.png',
     installer: 'HydroFLOW Midwest',
     customer: 'Commercial trucking company from Rosemount, Minnesota',
     application: '60 horsepower low-pressure natural gas steam boiler (steam is used during the truck wash process)',
