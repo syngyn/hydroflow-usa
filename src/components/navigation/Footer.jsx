@@ -67,24 +67,24 @@ export default function Footer({ currentPageName }) {
                </li>
               )}
               <li>
-                <Link to={createPageUrl('FilterHousings')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
-                  Filter Housings
-                </Link>
+               <Link to={createPageUrl('FilterHousings')} className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
+                 Filter Housings
+               </Link>
               </li>
               <li>
-                <Link to={createPageUrl('FilterCartridges')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
-                  Filter Cartridges
-                </Link>
+               <Link to={createPageUrl('FilterCartridges')} className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
+                 Filter Cartridges
+               </Link>
               </li>
               <li>
-                <Link to={createPageUrl('BundleDeal')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
-                  Pearl Plus Bundle
-                </Link>
+               <Link to={createPageUrl('BundleDeal')} className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
+                 Pearl Plus Bundle
+               </Link>
               </li>
               <li>
-                <Link to={createPageUrl('Support')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
-                  Product Support
-                </Link>
+               <Link to={createPageUrl('Support')} className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
+                 Product Support
+               </Link>
               </li>
             </ul>
           </div>
