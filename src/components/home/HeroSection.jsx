@@ -73,8 +73,8 @@ export default function HeroSection() {
         <div className="absolute top-1/2 -left-20 w-60 h-60 bg-cyan-400/5 rounded-full blur-3xl animate-pulse delay-1000" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-32">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
