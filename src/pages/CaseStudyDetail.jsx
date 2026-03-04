@@ -897,9 +897,9 @@ const caseStudyData = {
   },
 
   'us-navy-seafighter': {
-     category: 'marine',
-     title: 'U.S. Navy Seafighter',
-     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c2d5706d8_image.png',
+    category: 'marine',
+    title: 'U.S. Navy Seafighter',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c2d5706d8_image.png',
     application: 'Naval vessel biofouling prevention',
     installedUnits: 'HydroFLOW HM Range',
     results: [
