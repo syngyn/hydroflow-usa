@@ -249,7 +249,7 @@ export default function PowerGeneration() {
               <p className="text-lg text-slate-700 mb-6">
                 See the results published in RMEL Electric Energy Magazine showcasing real-world performance in power generation facilities.
               </p>
-              <a href="https://hydroflow-usa.com/case-studies/industrial-case-studies/rmel-electric-energy/" target="_blank" rel="noopener noreferrer">
+              <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d6d3d288f_HydroFLOW-industrial-magazine-article-RMELElectricEnergyMagazine.pdf" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-full px-6">
                   RMEL Electric Energy Magazine
                   <ArrowRight className="w-4 h-4 ml-2" />
