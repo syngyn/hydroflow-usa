@@ -313,7 +313,7 @@ const caseStudies = [
     description: 'Our investment in the HydroFLOW unit is expected to pay for itself over a 14 month period.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8a320e425_image.png',
     results: ['14 month ROI', 'Restaurant success', 'Proven savings'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/24351493849401.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/67a5d889d_24351493849401.pdf',
     application_type: ['Dishwashers', 'Food Processing'],
     products_used: ['Pearl Plus']
   },

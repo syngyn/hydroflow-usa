@@ -587,7 +587,7 @@ const caseStudyData = {
       'No water softener required and all water (hot, cold and drinking) benefiting from the one unit.',
       'Investment expected to pay for itself over a 14 month period.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/24351493849401.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/67a5d889d_24351493849401.pdf'
   },
   'sharonville-fire-department': {
     category: 'commercial',
