@@ -462,7 +462,7 @@ const caseStudyData = {
   'natural-gas-and-oil-producer': {
     category: 'industrial',
     title: 'Natural Gas and Oil Producer',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/95e20dfb8_42271494367189.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/80b2c4c7a_image.png',
     installer: 'HydroFLOW West Inc',
     customer: 'Natural gas and oil producer in Nikiski, Alaska, USA',
     application: 'Offshore petroleum production operation. The device was installed on a 4.5" outer diameter recycled water pipe, after the separator',

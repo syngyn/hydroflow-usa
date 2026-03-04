@@ -187,7 +187,7 @@ const caseStudies = [
     title: 'Natural Gas and Oil Producer',
     slug: 'natural-gas-and-oil-producer',
     description: 'No drop in water flow due to HydroFLOW\'s ability to keep the pipe free of scale accumulation.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/95e20dfb8_42271494367189.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/80b2c4c7a_image.png',
     results: ['Consistent flow', 'Scale-free pipes', 'No maintenance needed'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9df77444d_1431539882593.pdf',
     application_type: ['Other'],
