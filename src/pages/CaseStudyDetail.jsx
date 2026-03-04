@@ -920,7 +920,8 @@ const caseStudyData = {
       'Water test results showed no trace of any bacteria.',
       'Successfully replaced UV system.',
       'Cost savings on system operation.'
-    ]
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e5384d360_HydroFLOW-marine-case-study-MV-hermes-leader-UV-System.pdf'
   },
   'ray-shipping-fleet-hydropath': {
     category: 'marine',
