@@ -49,7 +49,7 @@ const productRecommendations = {
     product: 'Pearl Plus',
     page: 'ProductPearlPlus',
     reason: 'Ideal for standard homes up to 3,000 sq ft',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/00e27e7ff_pearl-plus-on-pipe.png'
   },
   residential_large_wholehouse: {
     product: 'Bundle Deal',
@@ -82,10 +82,10 @@ const productRecommendations = {
   residential_medium_both: {
     products: [
       {
-        product: 'Pearl Plus',
-        page: 'ProductPearlPlus',
-        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png'
-      },
+         product: 'Pearl Plus',
+         page: 'ProductPearlPlus',
+         image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/00e27e7ff_pearl-plus-on-pipe.png'
+       },
       {
         product: 'hs40',
         page: 'ProductHS40',
