@@ -595,7 +595,7 @@ const caseStudies = [
     title: 'MV Hermes Leader - Replacement of UV-System',
     slug: 'mv-hermes-leader-uv-system',
     description: 'Water test results showed no trace of any bacteria.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/349563d1c_40231495151554.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5e77c37e_image.png',
     results: ['Bacteria-free water', 'UV replacement', 'Cost savings'],
     application_type: ['Marine Systems'],
     products_used: ['HM Range']
