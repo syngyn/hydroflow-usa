@@ -172,7 +172,7 @@ const caseStudies = [
     description: 'The efficiency of the 60 HP low-pressure steam boiler is expected to further increase as scale continues to be removed.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fe8e0d1eb_image.png',
     results: ['Increased efficiency', 'Scale removal', 'Energy savings'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/88201550515726.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d33c208a5_88201550515726.pdf',
     application_type: ['Boilers', 'Steam Systems'],
     products_used: ['iRange'],
     installer: 'HydroFLOW Midwest',
