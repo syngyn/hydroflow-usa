@@ -479,7 +479,7 @@ const caseStudies = [
     description: 'The goal was to increase the overall health of the grass, which was achieved.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/73645241b_image.png',
     results: ['Improved grass health', 'Better irrigation', 'Water savings'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/68631698880628.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7dc3c0ccd_68631698880628.pdf',
     application_type: ['Golf Course', 'Irrigation'],
     products_used: ['iRange']
   },
