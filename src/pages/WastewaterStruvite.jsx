@@ -44,7 +44,7 @@ const caseStudies = [
     title: 'Wastewater Treatment Plant in Denver, Colorado',
     description: 'Independent, third-party technology verification focusing on identifying changes to struvite scaling before and after installing <i>Hydro</i>FLOW units.',
     results: 'Based on the review of the data and discussion with staff, the use of <i>Hydro</i>FLOW i Range on the centrate line was effective in softening the existing scale and preventing the formation of new scale. Softening of the existing scale allowed a substantial portion of the original hard scale to be removed during the 60-day test period.',
-    pdfLink: 'https://hydroflow-usa.com/assets/files/46231506637483.pdf'
+    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/718efb872_HydroFLOW-industrial-third-party-verification-report-denver-metro-wwtp-27Sept17.pdf'
   },
   {
     title: 'Wastewater Treatment Plant in Tulsa, Oklahoma',
