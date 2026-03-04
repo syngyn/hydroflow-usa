@@ -541,7 +541,7 @@ const caseStudyData = {
   'st-helena-hospital-ice-machine': {
     category: 'commercial',
     title: 'St. Helena Hospital Ice Machine',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24231495485285.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33c596c15_image.png',
     installer: 'HydroFLOW West',
     customer: 'St. Helena Hospital in St. Helena, California',
     application: 'Ice machines',
