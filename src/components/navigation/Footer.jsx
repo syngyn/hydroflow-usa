@@ -61,10 +61,10 @@ export default function Footer({ currentPageName }) {
             <ul className="space-y-3">
               {['Pearl', 'Pearl Plus', <><i>hs</i>40</>, <><i>i</i> Range</>, <><i>hm</i> Range</>].map((item, idx) =>
               <li key={idx}>
-                  <Link to={createPageUrl('Products')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
-                    {item}
-                  </Link>
-                </li>
+                 <Link to={createPageUrl('Products')} className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
+                   {item}
+                 </Link>
+               </li>
               )}
               <li>
                 <Link to={createPageUrl('FilterHousings')} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
