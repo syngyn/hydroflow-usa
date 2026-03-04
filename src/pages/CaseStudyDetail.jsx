@@ -408,7 +408,7 @@ const caseStudyData = {
   'cmc-concrete-report': {
     category: 'industrial',
     title: 'CMC Concrete Report',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/14321495583049.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ba52c7c45_image.png',
     installer: 'HydroFLOW USA & CMC – Construction Materials Testing and Inspections',
     customer: 'Concrete production facility in Henderson, NV',
     application: 'Testing the effect of HydroFLOW treated water on both the plastic and hardened states of structural Concrete',

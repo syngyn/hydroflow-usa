@@ -137,7 +137,7 @@ const caseStudies = [
     title: 'CMC Concrete Report',
     slug: 'cmc-concrete-report',
     description: 'The HydroFLOW device has shown that it can improve and save costs during the concrete production process.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/14321495583049.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ba52c7c45_image.png',
     results: ['Cost savings', 'Improved production', 'Quality enhancement'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/968133043_4171495131909.pdf',
     application_type: ['Other'],
