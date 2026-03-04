@@ -1,4 +1,5 @@
 import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { base44 } from '@/api/base44Client';
 import { useQuery } from '@tanstack/react-query';
 
@@ -6,6 +7,27 @@ import { useQuery } from '@tanstack/react-query';
 export default function PageNotFound({}) {
     const location = useLocation();
     const pageName = location.pathname.substring(1);
+
+    // Check for redirects on mount
+    useEffect(() => {
+        const checkAndRedirect = async () => {
+            try {
+                const response = await base44.functions.invoke('redirectStateWaterHardness', {
+                    pathname: location.pathname
+                });
+                
+                if (response.data?.redirectUrl) {
+                    // Use window.location for a server-side style redirect (SEO-friendly 301)
+                    window.location.href = response.data.redirectUrl;
+                }
+            } catch (error) {
+                // If redirect function returns error, stay on 404 page
+                console.log('No redirect found');
+            }
+        };
+
+        checkAndRedirect();
+    }, [location.pathname]);
 
     const { data: authData, isFetched } = useQuery({
         queryKey: ['user'],
