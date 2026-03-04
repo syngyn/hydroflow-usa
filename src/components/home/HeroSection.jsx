@@ -162,18 +162,7 @@ export default function HeroSection() {
                    </motion.div>
                 </AnimatePresence>
                 
-                {/* Carousel indicators */}
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-                  {products.map((_, index) => (
-                    <button
-                      key={index}
-                      onClick={() => setCurrentProductIndex(index)}
-                      className={`w-2 h-2 rounded-full transition-all ${
-                        index === currentProductIndex ? 'bg-cyan-400 w-8' : 'bg-white/30'
-                      }`}
-                    />
-                  ))}
-                </div>
+
               </div>
             </div>
           </motion.div>
