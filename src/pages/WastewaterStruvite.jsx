@@ -50,7 +50,7 @@ const caseStudies = [
     title: 'Wastewater Treatment Plant in Tulsa, Oklahoma',
     description: 'Independent, third-party technology verification to validate the effectiveness of the <i>Hydro</i>FLOW i Range product with respect to controlling struvite scaling.',
     results: 'This verification report validates that the use of a <i>Hydro</i>FLOW i Range unit prevented scale formation in a BFP used for dewatering anaerobically digested sludge. The unit also caused changes in the physical characteristics of the existing scale, making it easier to be removed.',
-    pdfLink: 'https://hydroflow-usa.com/assets/files/66671660326507.pdf'
+    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7340df0fa_HydroFLOW-industrial-third-party-verification-report-tulsa-southside-WWTP.pdf'
   }
 ];
 
