@@ -182,7 +182,7 @@ const products = [
     tagline: 'Heavy-Duty Housing',
     coverage: 'Residential & Commercial',
     price: 379.95,
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/04/20_inch_housing_grey-600x800.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/311d70c27_20inchhousing.png',
     features: [
       'Premium stainless steel construction',
       'Corrosion resistant',
