@@ -61,7 +61,7 @@ const productRecommendations = {
     product: 'hs40',
     page: 'ProductHS40',
     reason: 'Industrial-strength protection for pools and spas',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png'
   },
   residential_small_both: {
     products: [
@@ -73,7 +73,7 @@ const productRecommendations = {
       {
         product: 'hs40',
         page: 'ProductHS40',
-        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png'
       }
     ],
     reason: 'Pearl for your home plumbing and hs40 for your pool/spa - complete protection',
@@ -89,7 +89,7 @@ const productRecommendations = {
       {
         product: 'hs40',
         page: 'ProductHS40',
-        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png'
       }
     ],
     reason: 'Pearl Plus for your home plumbing and hs40 for your pool/spa - complete protection',
@@ -105,7 +105,7 @@ const productRecommendations = {
       {
         product: 'hs40',
         page: 'ProductHS40',
-        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+        image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png'
       }
     ],
     reason: 'Bundle Deal for your large home and hs40 for your pool/spa - comprehensive coverage',
@@ -115,7 +115,7 @@ const productRecommendations = {
     product: 'hs40 or iRange',
     page: 'ProductHS40',
     reason: 'Commercial-grade solutions for your business needs',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5caaa96fa_productrange201629.png'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0e2222ce9_hs40.png'
   },
   industrial: {
     product: 'iRange',
