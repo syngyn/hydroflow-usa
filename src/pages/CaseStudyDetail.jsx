@@ -305,7 +305,7 @@ const caseStudyData = {
       'The water feature in our main entry area is much easier to maintain because of the performance of HydroFLOW.',
       'Not only does it deal with lime-scale accumulation, it also kills any bacteria that are often found in open loop water features.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/49731493848513.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6b4d951ac_49731493848513.pdf'
   },
   'bakery-steam-boilers': {
     category: 'commercial',
