@@ -78,7 +78,7 @@ const caseStudyData = {
   'screw-press-struvite-treatment': {
     category: 'industrial',
     title: 'Screw Press Struvite Treatment',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/309467422_HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e4f4de695_image.png',
     customer: 'A wastewater treatment plant in the State of Utah, United States',
     application: 'Screw Press – Struvite scale treatment',
     installedUnits: 'HydroFLOW Custom i8" unit on the sludge line feeding the screw press',
