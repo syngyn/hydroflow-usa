@@ -512,7 +512,7 @@ const caseStudies = [
     description: 'With HydroFLOW the reduction in algae growth was dramatic.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3691d128f_image.png',
     results: ['Dramatic algae reduction', 'Cleaner water', 'Better crop health'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/81121493936806.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bab9fe3f0_81121493936806.pdf',
     application_type: ['Irrigation'],
     products_used: ['iRange']
   },
