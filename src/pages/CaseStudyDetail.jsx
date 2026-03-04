@@ -558,7 +558,7 @@ const caseStudyData = {
   'penn-state-university': {
     category: 'commercial',
     title: 'Penn State University',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/80541495485766.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5e5549989_image.png',
     installer: 'HydroFLOW PA – Joseph T Berrena Mechanicals',
     customer: 'Penn State – The Nittany Lion Inn',
     application: 'Steamer and cooling Towers',
