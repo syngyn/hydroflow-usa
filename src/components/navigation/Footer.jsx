@@ -127,18 +127,18 @@ export default function Footer({ currentPageName }) {
               { name: <>Benefits of <i>Hydro</i>FLOW</>, href: 'RemovedContentPage' }].
               map((item) =>
               <li key={item.name}>
-                  <Link to={createPageUrl(item.href)} className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                  <Link to={createPageUrl(item.href)} className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
                     {item.name}
                   </Link>
                 </li>
               )}
               <li>
-                <a href="https://hydroflow-usa.com/assets/userfiles/files/Statement_of_Qualifications.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                <a href="https://hydroflow-usa.com/assets/userfiles/files/Statement_of_Qualifications.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
                   Statement of Qualifications
                 </a>
               </li>
               <li>
-                <a href="https://hydroflow-usa.com/assets/userfiles/files/Hydropath_Marine_Capability_Statement.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors">
+                <a href="https://hydroflow-usa.com/assets/userfiles/files/Hydropath_Marine_Capability_Statement.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
                   Marine Capability Statement
                 </a>
               </li>
