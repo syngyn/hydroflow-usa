@@ -64,22 +64,11 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background with gradient overlay */}
-      <div className="absolute inset-0">
-        <img 
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80" 
-          alt="Modern home with water"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-slate-900/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 via-transparent to-transparent" />
-      </div>
-
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-white">
       {/* Animated particles/waves effect */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-cyan-500/20 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute top-1/2 -left-20 w-60 h-60 bg-cyan-400/10 rounded-full blur-3xl animate-pulse delay-1000" />
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-cyan-500/5 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute top-1/2 -left-20 w-60 h-60 bg-cyan-400/5 rounded-full blur-3xl animate-pulse delay-1000" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
@@ -92,14 +81,14 @@ export default function HeroSection() {
           >
 
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 text-center lg:text-left">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6 text-center lg:text-left">
               <span className="block whitespace-nowrap">Advanced Water</span>
-              <span className="block whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
+              <span className="block whitespace-nowrap text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600">
                 Treatment Solutions
               </span>
             </h1>
 
-            <p className="text-lg text-slate-300 leading-relaxed mb-8 max-w-xl">
+            <p className="text-lg text-slate-600 leading-relaxed mb-8 max-w-xl">
               Sustainable and eco-friendly water treatment products that are designed to optimize the performance of residential, commercial, industrial, agricultural, and marine water systems.
             </p>
 
@@ -110,7 +99,7 @@ export default function HeroSection() {
                 </Button>
               </Link>
               <Link to={createPageUrl('Industrial')}>
-                <Button variant="outline" className="border-2 border-white/50 text-white bg-white/10 hover:bg-white/20 rounded-full px-8 py-6 text-lg font-semibold backdrop-blur-sm w-64">
+                <Button variant="outline" className="border-2 border-cyan-600 text-cyan-600 bg-cyan-50 hover:bg-cyan-100 rounded-full px-8 py-6 text-lg font-semibold w-64">
                   Industrial Solutions
                 </Button>
               </Link>
@@ -199,8 +188,8 @@ export default function HeroSection() {
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
       >
-        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center pt-2">
-          <div className="w-1.5 h-3 bg-white/50 rounded-full" />
+        <div className="w-6 h-10 border-2 border-slate-300 rounded-full flex justify-center pt-2">
+          <div className="w-1.5 h-3 bg-slate-400 rounded-full" />
         </div>
       </motion.div>
     </section>

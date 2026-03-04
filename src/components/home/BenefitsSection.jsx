@@ -47,11 +47,11 @@ const benefits = [
 
 export default function BenefitsSection() {
   return (
-    <section className="py-24 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+    <section className="py-24 bg-white relative overflow-hidden">
       {/* Background decoration */}
-      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
-      <div className="absolute top-40 right-0 w-96 h-96 bg-cyan-100/50 rounded-full blur-3xl -z-10" />
-      <div className="absolute bottom-20 left-0 w-80 h-80 bg-cyan-50/50 rounded-full blur-3xl -z-10" />
+      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-slate-100 to-transparent" />
+      <div className="absolute top-40 right-0 w-96 h-96 bg-cyan-50/30 rounded-full blur-3xl -z-10" />
+      <div className="absolute bottom-20 left-0 w-80 h-80 bg-cyan-50/20 rounded-full blur-3xl -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
