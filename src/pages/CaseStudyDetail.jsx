@@ -926,14 +926,15 @@ const caseStudyData = {
   'ray-shipping-fleet-hydropath': {
     category: 'marine',
     title: 'Ray Shipping Equips Fleet with Hydropath',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/79081495752087-510x510.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fbc618b16_image.png',
     application: 'Fleet-wide marine vessel water treatment',
     installedUnits: 'HydroFLOW HM Range',
     results: [
       'Completely reduced vessel scale buildup.',
       'Reduced bacteria corrosion.',
       'Saved labor work and money across entire fleet.'
-    ]
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/08ad97990_HydroFLOW-marine-referral-letter-ray-shipping-equips-fleet-with-Hydropath.pdf'
   },
   'anglo-eastern-freshwater-generator': {
     category: 'marine',
