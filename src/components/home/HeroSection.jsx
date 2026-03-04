@@ -21,7 +21,7 @@ const products = [
     coverage: 'For homes up to 2,000 sq ft',
     oldPrice: '$595',
     price: '$395',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e203e30ab_54751673473275.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f46d7be5f_Pearlsidefronttransparent.png',
     page: 'ProductPearl'
   },
   {
