@@ -574,7 +574,7 @@ const caseStudyData = {
   'the-melting-pot-restaurant': {
     category: 'commercial',
     title: 'The Melting Pot Restaurant',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/46161495486706.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8a320e425_image.png',
     installer: 'HydroFLOW West',
     customer: 'The Melting Pot-Sacramento',
     application: 'Restaurant kitchen equipment',
