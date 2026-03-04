@@ -104,7 +104,7 @@ const caseStudies = [
     title: 'City of Walla Walla Wastewater Plant',
     slug: 'city-of-walla-walla-wastewater-plant',
     description: 'After 5 weeks of installation, no accumulation on 12" x 12" section. Struvite removal is slow yet noticeable.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/60391596733327.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/22845e0f8_60391596733327.jpg',
     results: ['No scale accumulation', 'Visible improvement', 'Municipal approved'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/84711596732922.pdf',
     application_type: ['Wastewater Treatment'],
