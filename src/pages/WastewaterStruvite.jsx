@@ -142,30 +142,6 @@ export default function WastewaterStruvite() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 bg-gradient-to-r from-cyan-500 to-cyan-600">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Ready to Optimize Your Wastewater Treatment?
-            </h2>
-            <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
-              Contact us to learn more about how <i>Hydro</i>FLOW can help your facility.
-            </p>
-            <Link to={createPageUrl('Contact')}>
-              <Button className="bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
-                Contact Us
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-            </Link>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Case Studies */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -252,6 +228,30 @@ export default function WastewaterStruvite() {
               className="w-full h-full"
             ></iframe>
           </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 bg-gradient-to-r from-cyan-500 to-cyan-600">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              Ready to Optimize Your Wastewater Treatment?
+            </h2>
+            <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
+              Contact us to learn more about how <i>Hydro</i>FLOW can help your facility.
+            </p>
+            <Link to={createPageUrl('Contact')}>
+              <Button className="bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
+                Contact Us
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
+          </motion.div>
         </div>
       </section>
     </div>
