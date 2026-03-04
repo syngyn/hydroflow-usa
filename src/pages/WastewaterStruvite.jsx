@@ -26,7 +26,7 @@ const caseStudies = [
     title: 'Water Reclamation Facility in Orlando, Florida',
     description: '<i>Hydro</i>FLOW equipment was installed at the Orlando, FL, Water Conserv II Water Reclamation Facility for a struvite removal and prevention trial.',
     results: 'After five months, a significant reduction of struvite build-up and a surprising 20% reduction in polymer use was achieved.',
-    pdfLink: 'https://hydroflow-usa.com/assets/files/77271493848387.pdf'
+    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/49608f566_HydroFLOW-industrial-case-study-city-of-orlando-wastewater-treatment-plant.pdf'
   },
   {
     title: 'Wastewater Treatment Plant in London, Ohio',
