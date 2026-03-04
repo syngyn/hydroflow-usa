@@ -118,9 +118,9 @@ export default function HeroSection() {
           >
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 rounded-3xl blur-2xl" />
-              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden flex items-center justify-center" style={{ aspectRatio: '4/3', maxHeight: '500px' }}>
+              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden flex items-center justify-center" style={{ aspectRatio: '4/3', maxHeight: '500px', minHeight: '400px' }}>
                 <AnimatePresence mode="wait">
-                  <motion.div
+                   <motion.div
                     key={currentProductIndex}
                     initial={{ 
                       opacity: 0, 
@@ -145,24 +145,22 @@ export default function HeroSection() {
                         ease: "easeIn"
                       }
                     }}
-                    className="w-full flex flex-col items-center"
-                  >
-                    <Link to={createPageUrl(products[currentProductIndex].page)} className="block w-full">
-                      <div className="h-48 md:h-80 flex items-center justify-center mb-0 md:mb-3 cursor-pointer">
-                        <img 
-                          src={products[currentProductIndex].image}
-                          alt={products[currentProductIndex].name}
-                          className="max-h-full w-auto object-contain transition-transform hover:scale-105"
-                          style={
-                            currentProductIndex === 0 ? { transform: 'scale(0.7)' } :
-                            currentProductIndex === 1 ? { transform: 'scale(0.7)' } : 
-                            currentProductIndex === 2 ? { transform: 'scale(0.7)' } : 
-                            currentProductIndex === 4 ? { transform: 'scale(0.9)' } : {}
-                          }
-                        />
-                      </div>
+                    className="w-full h-full flex flex-col items-center justify-center"
+                   >
+                    <Link to={createPageUrl(products[currentProductIndex].page)} className="block h-full w-full flex items-center justify-center">
+                      <img 
+                        src={products[currentProductIndex].image}
+                        alt={products[currentProductIndex].name}
+                        className="max-h-full w-auto object-contain transition-transform hover:scale-105"
+                        style={
+                          currentProductIndex === 0 ? { transform: 'scale(0.7)' } :
+                          currentProductIndex === 1 ? { transform: 'scale(0.7)' } : 
+                          currentProductIndex === 2 ? { transform: 'scale(0.7)' } : 
+                          currentProductIndex === 4 ? { transform: 'scale(0.9)' } : {}
+                        }
+                      />
                     </Link>
-                  </motion.div>
+                   </motion.div>
                 </AnimatePresence>
                 
                 {/* Carousel indicators */}
