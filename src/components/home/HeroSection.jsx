@@ -117,7 +117,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div className="relative">
-              <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden flex items-center justify-center h-96" style={{ aspectRatio: '4/3' }}>
+              <div className="relative border border-white/20 rounded-3xl p-6 md:p-8 overflow-hidden flex items-center justify-center h-96" style={{ aspectRatio: '4/3' }}>
                 <AnimatePresence mode="wait">
                    <motion.div
                     key={currentProductIndex}
