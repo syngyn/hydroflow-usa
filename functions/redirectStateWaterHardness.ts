@@ -66,9 +66,7 @@ Deno.serve(async (req) => {
     'wyoming-water-hardness': 'WyomingWaterHardness',
   };
 
-  // Extract the path segment and normalize it
-  const pathSegment = pathname.replace(/^\//, '').replace(/\/$/, '');
-  const pageName = stateMapping[pathSegment];
+  const pageName = stateMapping[pathname];
 
   if (pageName) {
     // Return redirect URL for frontend to handle
