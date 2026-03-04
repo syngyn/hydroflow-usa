@@ -58,6 +58,17 @@ const caseStudies = [
   // Industrial
   {
     category: 'industrial',
+    title: 'Screw Press Struvite Treatment',
+    slug: 'screw-press-struvite-treatment',
+    description: 'After 60 days, the press was pressure washed taking less than 4 hours instead of the typical 30 hours with chemicals. A 3-month payback period was achieved.',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/309467422_HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf',
+    results: ['Eliminated $8,000/month chemical cost', 'Cleaning time reduced from 30 hours to under 4 hours', '3-month payback period'],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/309467422_HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf',
+    application_type: ['Wastewater Treatment'],
+    products_used: ['I Range']
+  },
+  {
+    category: 'industrial',
     title: 'Sludge Line Struvite Treatment',
     slug: 'sludge-line-struvite-treatment',
     description: 'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.',
