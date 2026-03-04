@@ -499,7 +499,7 @@ const caseStudies = [
     title: 'Long Stem Rose Growth',
     slug: 'long-stem-rose-growth',
     description: 'The grower wanted to see how HydroFLOW could increase the output from his greenhouses.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0ee2a6ebe_1191540835854-247x296.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/97391384a_image.png',
     results: ['Increased yield', 'Better quality', 'Healthier plants'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1da5d4765_HydroFLOW-agriculture-case-study-long-stem-roses.pdf',
     application_type: ['Greenhouses', 'Irrigation'],
