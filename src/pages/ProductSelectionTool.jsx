@@ -43,7 +43,7 @@ const productRecommendations = {
     product: 'Pearl',
     page: 'ProductPearl',
     reason: 'Perfect for small apartments and condos up to 1,000 sq ft',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg'
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png'
   },
   residential_medium_wholehouse: {
     product: 'Pearl Plus',
@@ -65,11 +65,11 @@ const productRecommendations = {
   },
   residential_small_both: {
     products: [
-      {
-        product: 'Pearl',
-        page: 'ProductPearl',
-        image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg'
-      },
+       {
+         product: 'Pearl',
+         page: 'ProductPearl',
+         image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png'
+       },
       {
         product: 'hs40',
         page: 'ProductHS40',
