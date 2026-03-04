@@ -605,7 +605,7 @@ const caseStudies = [
     title: 'Ray Shipping Equips Fleet with Hydropath',
     slug: 'ray-shipping-fleet-hydropath',
     description: 'Completely reduced vessel scale buildup, reduced bacteria corrosion and saved labor work and money.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/79081495752087-510x510.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fbc618b16_image.png',
     results: ['Fleet-wide success', 'Scale elimination', 'Labor savings'],
     application_type: ['Marine Systems'],
     products_used: ['HM Range']
