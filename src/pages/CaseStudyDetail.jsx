@@ -391,7 +391,7 @@ const caseStudyData = {
   'paper-mill-liquor-lines': {
     category: 'industrial',
     title: 'Paper Mill Liquor Lines',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/47651495582939.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/75ce255c0_image.png',
     customer: 'Paper Mill in Virginia',
     application: 'Green liquor piping, white liquor piping, evaporator piping, heat exchangers',
     installedUnits: 'Fifteen HydroFLOW water conditioners in various locations of high mineral concentrations',
