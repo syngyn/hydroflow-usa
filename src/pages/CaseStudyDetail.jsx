@@ -327,7 +327,7 @@ const caseStudyData = {
   'municipal-golf-course-in-texas': {
     category: 'agriculture',
     title: 'Municipal Golf Course in Texas',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24091655247748.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/73645241b_image.png',
     installer: 'HydroFLOW USA',
     customer: 'Municipal golf course in Texas',
     application: 'Golf course irrigation system',
