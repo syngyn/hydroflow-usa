@@ -36,7 +36,7 @@ export default function Footer({ currentPageName }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <p className="text-slate-400 text-sm leading-relaxed mb-6">The exclusive U.S. distributor of <i>Hydro</i>FLOW water conditioners, which are powered by the patented Hydropath technology.
+            <p className="text-slate-300 text-sm leading-relaxed mb-6">The exclusive U.S. distributor of <i>Hydro</i>FLOW water conditioners, which are powered by the patented Hydropath technology.
 
             </p>
             <div className="space-y-3">
