@@ -64,7 +64,9 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-white" style={{backgroundImage: 'url(https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5981484d8_Gemini_Generated_Image_djc6ocdjc6ocdjc6.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-white">
+      {/* Background image with overlay */}
+      <div className="absolute inset-0" style={{backgroundImage: 'url(https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5981484d8_Gemini_Generated_Image_djc6ocdjc6ocdjc6.png)', backgroundSize: 'cover', backgroundPosition: 'center', opacity: 0.2}} />
       {/* Animated particles/waves effect */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-cyan-500/5 rounded-full blur-3xl animate-pulse" />
