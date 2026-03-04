@@ -464,7 +464,7 @@ const caseStudies = [
     title: 'Residential Water Heater',
     slug: 'residential-water-heater',
     description: 'Water heater protection and efficiency improvement.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/12/27101632777274.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/dc23c6c70_image.png',
     results: ['Extended heater life', 'Lower energy bills', 'No scale buildup'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/36311632777095.pdf',
     application_type: ['Water Heaters'],
