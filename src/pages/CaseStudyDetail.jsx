@@ -380,7 +380,7 @@ const caseStudyData = {
   'lehigh-county-wwtp-struvite-treatment': {
     category: 'industrial',
     title: 'Lehigh County WWTP - Struvite Treatment',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5efe67d09_36831596736223-247x296.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/087be9706_image.png',
     customer: 'Lehigh County Wastewater Treatment Plant',
     application: 'Struvite scale treatment in wastewater treatment plant',
     installedUnits: 'HydroFLOW industrial unit',
