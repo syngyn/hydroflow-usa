@@ -339,7 +339,7 @@ const caseStudyData = {
       'It was the only green on the course that no longer suffered from root rot.',
       'Lab testing showed the practice green retained 50% more nutrients compared to other greens.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/68631698880628.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7dc3c0ccd_68631698880628.pdf'
   },
   'steel-company-spray-bar-system': {
     category: 'industrial',
