@@ -635,7 +635,7 @@ const caseStudies = [
     title: 'Car Carrier - Main Cooling System',
     slug: 'car-carrier-main-cooling-system',
     description: 'The particle filter at the bottom of the unit was found clean of barnacles and was easily washed.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/42481495666712-510x510.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d29c16948_image.png',
     results: ['Barnacle-free', 'Easy cleaning', 'System protection'],
     application_type: ['Marine Systems'],
     products_used: ['HM Range']

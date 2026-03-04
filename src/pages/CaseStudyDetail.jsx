@@ -962,14 +962,15 @@ const caseStudyData = {
   'car-carrier-main-cooling-system': {
     category: 'marine',
     title: 'Car Carrier - Main Cooling System',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/646847a63_646847a63_42481495666712.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d29c16948_image.png',
     application: 'Car carrier vessel cooling system',
     installedUnits: 'HydroFLOW HM Range',
     results: [
       'Particle filter found clean of barnacles.',
       'Easy washing and maintenance.',
       'System protection maintained.'
-    ]
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/56fb596c1_009-CaseStudy-CarCarrier.pdf'
   },
   'increased-crop-yield-experiment': {
     category: 'agriculture',
