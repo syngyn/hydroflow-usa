@@ -553,7 +553,7 @@ const caseStudyData = {
       'The costs of replacement parts have decreased by $750 per year.',
       'Calls to the engineering department due to ice machine inability to meet demand have completely stopped, thus reducing callouts from 6 hours per month to 0 hours per month.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/78241493850010.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f9aac3d6d_78241493850010.pdf'
   },
   'penn-state-university': {
     category: 'commercial',

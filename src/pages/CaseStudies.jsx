@@ -291,7 +291,7 @@ const caseStudies = [
     description: 'I would recommend HydroFLOW in ice machine applications, to assist with keeping scale from accumulating on the equipment.',
     image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/24231495485285.jpg',
     results: ['Scale prevention', 'Clean ice', 'Hospital approved'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/78241493850010.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f9aac3d6d_78241493850010.pdf',
     application_type: ['Ice Machines'],
     products_used: ['Pearl Plus']
   },
