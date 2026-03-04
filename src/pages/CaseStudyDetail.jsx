@@ -998,7 +998,7 @@ const caseStudyData = {
       'Maintenance supervisor increased blow down from once to twice per day to accelerate scale removal and prevent plugging issues.',
       'Scale removal achieved without the need for an acid clean.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/88201550515726.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d33c208a5_88201550515726.pdf'
   }
 };
 
