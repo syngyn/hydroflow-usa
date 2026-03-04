@@ -74,7 +74,7 @@ const caseStudies = [
     description: 'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/073cd7b2e_image.png',
     results: ['Reduced scaling', 'Consistent flow rates', 'Lower maintenance'],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf',
     application_type: ['Wastewater Treatment'],
     products_used: ['iRange']
   },

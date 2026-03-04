@@ -73,7 +73,7 @@ const caseStudyData = {
     results: [
       'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
   },
   'screw-press-struvite-treatment': {
     category: 'industrial',
@@ -285,7 +285,7 @@ const caseStudyData = {
     results: [
       'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2024/04/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
   },
   'gold-leed-campus': {
     category: 'commercial',
