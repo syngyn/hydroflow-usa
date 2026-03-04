@@ -142,9 +142,22 @@ export default function WastewaterStruvite() {
         </div>
       </section>
 
-      {/* Video */}
+      {/* Wastewater Video */}
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-8"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              See <i>Hydro</i>FLOW in Action
+            </h2>
+            <p className="text-lg text-slate-600">
+              Watch how our technology transforms wastewater treatment
+            </p>
+          </motion.div>
           <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-slate-100">
             <iframe
               src="https://player.vimeo.com/video/1156116944"
@@ -218,24 +231,7 @@ export default function WastewaterStruvite() {
         </div>
       </section>
 
-      {/* See HydroFLOW in Action */}
-      <section className="py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              See <i>Hydro</i>FLOW in Action
-            </h2>
-            <p className="text-lg text-slate-600">
-              Watch how our technology transforms wastewater treatment
-            </p>
-          </motion.div>
-        </div>
-      </section>
+
 
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-cyan-500 to-cyan-600">
