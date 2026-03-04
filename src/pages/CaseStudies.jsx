@@ -584,7 +584,7 @@ const caseStudies = [
     title: 'U.S. Navy Seafighter',
     slug: 'us-navy-seafighter',
     description: 'HydroFLOW succeeded in keeping the strainer free of biofouling for a much longer period.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2025/07/seafighter-510x510.webp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c2d5706d8_image.png',
     results: ['Extended maintenance intervals', 'Biofouling prevention', 'Naval approved'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b06911af1_HydroFLOW-marine-case-study-US-Navy-Seafighter.pdf',
     application_type: ['Marine Systems'],
