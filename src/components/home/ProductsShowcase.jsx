@@ -99,6 +99,7 @@ export default function ProductsShowcase() {
                     src={product.image}
                     alt={product.name}
                     className="relative h-full w-auto object-contain transform group-hover:scale-110 transition-transform duration-500"
+                    style={product.name === 'Pearl' ? { transform: 'scale(0.7)' } : {}}
                   />
                 </div>
 

@@ -155,6 +155,8 @@ export default function HeroSection() {
                           alt={products[currentProductIndex].name}
                           className="max-h-full w-auto object-contain transition-transform hover:scale-105"
                           style={
+                            currentProductIndex === 0 ? { transform: 'scale(0.7)' } :
+                            currentProductIndex === 1 ? { transform: 'scale(0.7)' } : 
                             currentProductIndex === 2 ? { transform: 'scale(0.7)' } : 
                             currentProductIndex === 4 ? { transform: 'scale(0.9)' } : {}
                           }
