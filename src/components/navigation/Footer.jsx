@@ -133,7 +133,7 @@ export default function Footer({ currentPageName }) {
                 </li>
               )}
               <li>
-                <a href="https://hydroflow-usa.com/assets/userfiles/files/Statement_of_Qualifications.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
+                <a href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/07664e4bd_HydroFLOWUSACapabilityStatement.pdf" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-cyan-400 text-sm transition-colors">
                   Statement of Qualifications
                 </a>
               </li>
