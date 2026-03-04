@@ -38,7 +38,7 @@ const caseStudies = [
     title: 'Wastewater Treatment Plant in Augusta, Georgia',
     description: 'Independent, third-party technology verification to validate the effectiveness of the <i>Hydro</i>FLOW i Range product with respect to controlling struvite scaling.',
     results: 'Following the installation of <i>Hydro</i>FLOW and discontinuation of antiscalant, the existing scale became soft and was easily removed by spraying with high-pressure water. The facility eliminated the use of antiscalants chemicals and realized significant cost savings of approximately $4,000 per month.',
-    pdfLink: 'https://hydroflow-usa.com/assets/files/27941542050169.pdf'
+    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/01fc2c4df_HydroFLOWThirdPartyVerificationReport-Augusta-8Nov2018.pdf'
   },
   {
     title: 'Wastewater Treatment Plant in Denver, Colorado',
