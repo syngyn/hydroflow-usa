@@ -211,7 +211,7 @@ const caseStudies = [
     title: 'Gold LEED Registered Campus',
     slug: 'gold-leed-campus',
     description: 'The HydroFLOW product has performed superbly well in keeping our water heaters scale free.',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/49841495480863.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1469904e9_image.png',
     results: ['Scale-free heaters', 'Full efficiency', 'LEED compliance'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6b4d951ac_49731493848513.pdf',
     application_type: ['Water Heaters'],

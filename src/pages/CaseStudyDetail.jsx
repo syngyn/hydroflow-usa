@@ -290,7 +290,7 @@ const caseStudyData = {
   'gold-leed-campus': {
     category: 'commercial',
     title: 'Gold LEED Registered Campus',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/49841495480863.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1469904e9_image.png',
     installer: 'HydroFLOW Southwest – New Water Innovations',
     customer: 'The Academy for the Love of Learning',
     application: 'Water heaters and water features',
