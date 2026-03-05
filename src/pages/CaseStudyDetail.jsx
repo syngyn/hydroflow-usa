@@ -202,7 +202,7 @@ const caseStudyData = {
       'After 5 weeks of installation, no accumulation on 12" x 12" section.',
       'Struvite removal is slow yet noticeable.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/84711596732922.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1fce46dec_HydroFLOW-industrial-casestudy-city-of-walla-walla-wastewater-plant.pdf'
   },
   'honda-cooling-tower': {
     category: 'industrial',
