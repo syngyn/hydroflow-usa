@@ -698,7 +698,7 @@ const blogContent = {
       
       <p>My initial thoughts: there was no way HydroFLOW would be able to do anything to stop that from happening. Possibly slow it down, but not prevent it.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/995f1cf40_testresults2final.png" alt="Test 2 results" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/995f1cf40_testresults2final.png" alt="Test 2 results" style="width: 50%; height: auto;" />
       <img src="https://hydroflow-usa.com/assets/userfiles/images/heating_element-clean3.png" alt="Heating element scale removed" />
       
       <h2>Test 2 Results</h2>
