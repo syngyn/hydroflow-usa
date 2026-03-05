@@ -1664,9 +1664,9 @@ const blogContent = {
       
       <p>As an alternative to this process, a <i>Hydro</i>FLOW unit can be installed. <i>Hydro</i>FLOW water conditioners are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, Hydropath Holdings, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B4.png" alt="S38 unit on a commercial ice machine" />
-      
-      <p><strong>S38 unit on a commercial ice machine</strong></p>
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d21d34e7d_Whatsinyouricepic4.png" alt="S38 unit on a commercial machine" />
+
+       <p><strong>S38 unit on a commercial machine</strong></p>
       
       <p>Biofilm often attaches to scale in water systems, which is difficult to remove, so the <i>Hydro</i>FLOW saves time, expense and labor while maintaining bacteria and scale control. Kitchens and homes that use water softeners no longer need them after installing a <i>Hydro</i>FLOW. Scale does not form, and existing scale is removed over time.</p>
       
