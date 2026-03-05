@@ -760,7 +760,6 @@ const blogContent = {
     date: '2023-12-08',
     readTime: '8 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/Blogs/Intrusive%2BMagnet.jpg',
     content: `
       <h2>Choosing the right eco-friendly water treatment option. What's out there?</h2>
       <p>Living with hard water isn't just inconvenient—it can feel like a never-ending battle against stubborn scale and costly appliance breakdowns. From unsightly buildup on faucets to expensive repairs or replacements of water heaters, hard water takes a toll on both your home and your wallet.</p>
