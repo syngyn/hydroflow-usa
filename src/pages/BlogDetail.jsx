@@ -1051,7 +1051,7 @@ const blogContent = {
 
       <p>The formation of mineral deposits is affected by several factors including supersaturation, temperature, pH, pressure, flow velocity, and the presence of impurities.</p>
 
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e0f91249a_8661673650090.png" alt="HydroFLOW water conditioner" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e0f91249a_8661673650090.png" alt="HydroFLOW water conditioner" style="width: 37.5%; height: auto;" />
       
       <h2>Types of Scale</h2>
       <p>The main form of scale most known to everyone is calcium carbonate, but it is not the only form. Other common forms include:</p>
