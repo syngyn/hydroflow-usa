@@ -1002,7 +1002,7 @@ const blogContent = {
       
       <p>You should maintain your water heater to ensure it's free of scale. Just 1/16th of an inch of scale can reduce your water heater's ability to heat water by 11%, using more water and energy to achieve the same efficiency.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/cost%2Bof%2Bhard%2Bwater%2Band%2Byour%2Bheating%2Band%2Bcooling%2Bsystem.PNG" alt="The cost of hard water on appliances" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2abb41884_costofhardwaterandyourheatingandcoolingsystem.PNG" alt="The cost of hard water on appliances" style="width: 50%; height: auto;" />
       
       <p>If you live in a hard water area, using salt exchange water softeners isn't necessary anymore. You can keep the healthy calcium in your water while preventing scale formation. The alternative is cheaper financially and doesn't pollute the environment with chemicals.</p>
       
