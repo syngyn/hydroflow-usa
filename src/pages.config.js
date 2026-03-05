@@ -161,6 +161,7 @@ import WaterHardnessMap from './pages/WaterHardnessMap';
 import WestVirginiaWaterHardness from './pages/WestVirginiaWaterHardness';
 import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
 import WyomingWaterHardness from './pages/WyomingWaterHardness';
+import CaseStudyGasStation from './pages/CaseStudyGasStation';
 import __Layout from './Layout.jsx';
 
 
@@ -279,6 +280,7 @@ export const PAGES = {
     "WestVirginiaWaterHardness": WestVirginiaWaterHardness,
     "WisconsinWaterHardness": WisconsinWaterHardness,
     "WyomingWaterHardness": WyomingWaterHardness,
+    "CaseStudyGasStation": CaseStudyGasStation,
 }
 
 export const pagesConfig = {
