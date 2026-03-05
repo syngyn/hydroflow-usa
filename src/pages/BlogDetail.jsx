@@ -707,7 +707,7 @@ const blogContent = {
       <p>The HydroFLOW unit not only stopped the scale from accumulating, it almost completely reversed the effects. Since I was the only one involved in performing this test, I know no outside variables influenced anything. I can say without a doubt that HydroFLOW has proved itself in the eyes of someone who was very skeptical.</p>
       
       <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c46b8fb3f_hydroflowcompare2.png" alt="Compare heating elements" style="width: 50%; height: auto;" />
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/microscope.PNG" alt="Scale build-up under microscope" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/688e1166f_microscope.PNG" alt="Scale build-up under microscope" style="width: 50%; height: auto;" />
       
       <h2>Test 3 Results</h2>
       <p>I was less surprised by the results of this test because my expectations had already changed. I was already a believer in the technology and confident the results would be positive.</p>
