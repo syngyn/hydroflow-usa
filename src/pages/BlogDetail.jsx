@@ -1616,7 +1616,7 @@ const blogContent = {
       
       <p>The Brookfields Restaurant chain consists of three large eateries located in and around Sacramento, California. Like many others, Brookfields Restaurants were equipped with water softeners to control scale on their hot water equipment, which consists of hot water heaters, dishwashers, steamers, coffeemakers and espresso machines. Even with the softeners, Brookfields Restaurant managers reported that flatware looked dull and did not appear clean. Both flatware and dishes were also covered with water spots, and employees regularly had to clean scale deposits from the stainless steel appliances. Owner Sam Manolakas was concerned that even though flatware and dishes were cleaned and sterilized, their appearance would cause customers to question their cleanliness. The three restaurants triple-filtered their incoming water, but hard water problems persisted.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/41dfc6593_S38unitoncommercialdishwasher.jpg" alt="S38 unit on a commercial dishwasher" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/41dfc6593_S38unitoncommercialdishwasher.jpg" alt="S38 unit on a commercial dishwasher" style={{ width: '50%', height: 'auto' }} />
       
       <p><strong>S38 unit on a commercial dishwasher</strong></p>
       
