@@ -1220,7 +1220,7 @@ const blogContent = {
       <p>When a precipitating agent is introduced, this causes the chemical reaction necessary for the insoluble compound to emerge. The most common precipitating agent is CO2 and it plays a huge role in the precipitation of calcium carbonate in water—the major source of scale.</p>
       
       <h2>Where Does Hard Water Come From?</h2>
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/edd2008ea_limestonecauseshardwater.PNG" alt="Limestone is a major component of hard water" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/edd2008ea_limestonecauseshardwater.PNG" alt="Limestone is a major component of hard water" style={{ width: '18.75%', height: 'auto' }} />
       
       <p>Hard water originates from deep in the earth in large bodies of underground water known as aquifers. Some of these aquifers are surrounded by limestone and other mineral deposits. Due to high levels of dissolved CO2 (carbonic acid), the pH of water is lowered causing it to become acidic.</p>
       
