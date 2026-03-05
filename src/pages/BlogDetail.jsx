@@ -1646,11 +1646,11 @@ const blogContent = {
     date: '2024-06-18',
     readTime: '7 min read',
     category: 'commercial',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B1%281%29.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2780af4a1_Whatsinyouricepic1.png',
     content: `
       <p>Ice machines are central to most of our lives. Whether at home or your favorite food/beverage eateries, we're often enjoying ice in our beverages. Health departments in most cities conduct annual inspections for all food establishments to ensure consumers are provided a safe and clean experience. Most often, the ice machine is usually the first place they look in a restaurant kitchen. Ice machines operate continuously to manufacture large quantities of ice. Low temperatures will slow the development of bacteria and algae, however, while bacteria is unable to grow in cold conditions, already developed bacterial is able to survive in freezing conditions. This allows the bacteria to become enclosed within the ice and release as it thaws. Ice machines provide an ideal environment for bacterial growth due to heating compressors on the incoming water lines to the machine. Because of the substantial growth of these microorganisms, ice machines need to be treated continuously to prevent contamination.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B1%281%29.png" alt="Ice machine with biofilm" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2780af4a1_Whatsinyouricepic1.png" alt="Ice machine with biofilm" />
       
       <p><strong>Ice machine with biofilm</strong></p>
       
