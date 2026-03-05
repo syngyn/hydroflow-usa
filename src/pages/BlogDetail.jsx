@@ -1162,7 +1162,7 @@ const blogContent = {
       <h2>What is Hard Water?</h2>
       <p>Hard water is water that contains a high mineral content such as dissolved calcium and magnesium.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Underwater%2Bclif%283%29.jpg" alt="The main source of hard water: Limestone" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/47cdf5e8c_Underwaterclif2.jpg" alt="The main source of hard water: Limestone" style="width: 37.5%; height: auto;" />
       
       <p>Water hardness can present in two ways:</p>
       <ul>
