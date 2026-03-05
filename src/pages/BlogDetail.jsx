@@ -1710,7 +1710,7 @@ const blogContent = {
       
       <p>A test was taken the next morning, following evening sanitation. No colonies appeared, indicating that the facility's current treatment protocol was effective, even with dogs introducing bacteria to the water.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Commercial%2BBlog%2B3%2B-%2BPic%2B2.png" alt="Performing lab test on canine pool" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d390400f1_Performinglabtestoncaninepool.jpg" alt="Performing lab test on canine pool" />
       
       <p><strong>Performing lab test on canine pool</strong></p>
       
