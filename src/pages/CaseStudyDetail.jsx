@@ -1107,7 +1107,7 @@ export default function CaseStudyDetail() {
                       </div>
                       <div>
                         <h3 className="font-semibold text-slate-900">
-                          {slug === 'residential-pool' ? 'Residential Testimonial' : (slug === 'plumbing-contractor' || slug === 'residential-well' || slug === 'residential-dishwasher') ? 'Full Letter' : (slug === 'gold-leed-campus' || slug === 'bakery-steam-boilers' || slug === 'sunrise-childrens-hospital-cooling-tower' || slug === 'st-helena-hospital-ice-machine' || slug === 'penn-state-university' || slug === 'the-melting-pot-restaurant') ? 'Referral Letter' : slug === 'gold-gym-lap-pool' ? 'Product Evaluation' : 'Full Case Study Report'}
+                          {slug === 'residential-pool' ? 'Residential Testimonial' : (slug === 'plumbing-contractor' || slug === 'residential-well' || slug === 'residential-dishwasher') ? 'Full Letter' : (slug === 'gold-leed-campus' || slug === 'bakery-steam-boilers' || slug === 'sunrise-childrens-hospital-cooling-tower' || slug === 'st-helena-hospital-ice-machine' || slug === 'penn-state-university' || slug === 'the-melting-pot-restaurant' || slug === 'lehigh-county-wwtp-struvite-treatment') ? 'Referral Letter' : slug === 'gold-gym-lap-pool' ? 'Product Evaluation' : 'Full Case Study Report'}
                         </h3>
                         <p className="text-sm text-slate-600">Download the complete PDF for detailed information</p>
                       </div>
