@@ -853,7 +853,6 @@ const blogContent = {
     date: '2023-09-22',
     readTime: '7 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/Blogs/woman%2Bmeasuring%2Bstomach%2Bsmaller.jpg',
     content: `
       <h2>Water and Weight Loss</h2>
       <p>Staying well-hydrated is a cornerstone of good health and a key player in achieving healthy weight loss. When your body is adequately hydrated, it's less likely to retain excess water, helping you feel lighter and more balanced. However, not all water is created equal.</p>
