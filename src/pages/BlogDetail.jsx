@@ -237,7 +237,7 @@ const blogContent = {
       
       <h2><strong>How to purge your gas water heater</strong></h2>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6c36b8c99_Turn-off-gas-and-water-supply.jpg" alt="Turn off gas and water supply" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6c36b8c99_Turn-off-gas-and-water-supply.jpg" alt="Turn off gas and water supply" style="width: 25%; height: auto;" />
       
       <ol>
         <li><strong>Turn off the Gas and Water Supply:</strong>
@@ -453,7 +453,7 @@ const blogContent = {
         <li><strong>Material Leaching:</strong> Chemicals seeping from pipes and plumbing materials.</li>
       </ol>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3e2f19298_water-treatment.jpg" alt="Water treatment plant chemicals" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3e2f19298_water-treatment.jpg" alt="Water treatment plant chemicals" style="width: 25%; height: auto;" />
       
       <h2>Chemicals Used in Water Treatment</h2>
       
@@ -476,7 +476,7 @@ const blogContent = {
       <h2>Descaling Chemicals: Friend or Foe?</h2>
       <p>Chemicals used to treat scale and corrosion, like phosphoric and muriatic acids, have both benefits and drawbacks. While they prevent scale formation, they are highly corrosive and can cause severe health issues.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e4c27a579_chemicals-in-water.jpg" alt="Chemicals in water" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e4c27a579_chemicals-in-water.jpg" alt="Chemicals in water" style="width: 25%; height: auto;" />
       
       <h3>Health Effects</h3>
       <p>These acid-based products are corrosive to skin, eyes, and respiratory tract. Contact can cause redness, pain, severe burns, and permanent damage. Ingestion may cause shock, circulatory collapse, and death.</p>
@@ -648,14 +648,14 @@ const blogContent = {
       
       <p>After deliberation, the homeowner purchased the unit and had it installed by their plumber. After watching the installation, however, the customer concluded she could easily have done it herself. The s38 simply clamps around existing piping—no plumbing adjustments required.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/565baba35_productrange20168crop.jpg" alt="HydroFLOW S38 product" style="width: 37.5%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/565baba35_productrange20168crop.jpg" alt="HydroFLOW S38 product" style="width: 18.75%; height: auto;" />
       
       <h2>The Results</h2>
       <p>After a few months, she reported that all faucets were running clear, there were no water spots on glassware or dishes, the glass shower door was free of spots and streaks, and the aerators and shower heads had absolutely no clogging deposits.</p>
       
       <p>After seeing the results, she decided to treat all the well water at the wellhead with HydroFLOW to kill bacteria and prevent scale buildup in the pump.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e32ea2eff_Ladywithdishwasher.jpg" alt="Lady looking at dishes in dishwasher" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e32ea2eff_Ladywithdishwasher.jpg" alt="Lady looking at dishes in dishwasher" style="width: 25%; height: auto;" />
       
       <h3>Quote from the customer:</h3>
       <blockquote>"I'm still amazed by the performance of the HydroFLOW s38 water treatment unit you recommended for our home. I was hopeful, but reluctant to believe that a device so small and simple in appearance could produce the results you claimed it could. Thank you again for your excellent advice!"</blockquote>
@@ -676,8 +676,8 @@ const blogContent = {
       
       <p>I was given full access to the corporate testing lab. The following is what happened during this testing process. Nobody had access to the testing equipment and no one else was involved. This was 100% controlled by me.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/60422d752_testrigdiagram.PNG" alt="Hard Water Testing Rig Diagram" style="width: 50%; height: auto;" />
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9a2ad2b4a_rigimage.PNG" alt="Hard water testing rig" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/60422d752_testrigdiagram.PNG" alt="Hard Water Testing Rig Diagram" style="width: 25%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9a2ad2b4a_rigimage.PNG" alt="Hard water testing rig" style="width: 25%; height: auto;" />
       
       <h2>Test Protocol</h2>
       
@@ -690,31 +690,31 @@ const blogContent = {
       <h3>Test 3: With HydroFLOW on New Element</h3>
       <p>Same protocol with a brand new heating element, using an S38 HydroFLOW unit.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f8fee2a62_test1-FINAL.PNG" alt="Test 1 results" style="width: 50%; height: auto;" />
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/21314fc12_Heating_element-scale2.png" alt="Effect of hard water on heating element" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f8fee2a62_test1-FINAL.PNG" alt="Test 1 results" style="width: 25%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/21314fc12_Heating_element-scale2.png" alt="Effect of hard water on heating element" style="width: 25%; height: auto;" />
       
       <h2>Test 1 Results</h2>
       <p>The scale's insulating effect impacted the element's ability to heat water from 130° down to 117° in 4 hours. Flow rate decreased by more than 10%. In a real-world situation, this would have completely shut down the water heater in less than 24 hours.</p>
       
       <p>My initial thoughts: there was no way HydroFLOW would be able to do anything to stop that from happening. Possibly slow it down, but not prevent it.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/995f1cf40_testresults2final.png" alt="Test 2 results" style="width: 50%; height: auto;" />
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c7446ec6a_heating_element-clean3.png" alt="Heating element scale removed" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/995f1cf40_testresults2final.png" alt="Test 2 results" style="width: 25%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c7446ec6a_heating_element-clean3.png" alt="Heating element scale removed" style="width: 25%; height: auto;" />
       
       <h2>Test 2 Results</h2>
       <p>To my surprise, the 1/8" of scale that had built up was almost completely clean in roughly the same amount of time it took to build up. The tankless water heater started to see performance improvement and increased flow within the first hour.</p>
       
       <p>The HydroFLOW unit not only stopped the scale from accumulating, it almost completely reversed the effects. Since I was the only one involved in performing this test, I know no outside variables influenced anything. I can say without a doubt that HydroFLOW has proved itself in the eyes of someone who was very skeptical.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c46b8fb3f_hydroflowcompare2.png" alt="Compare heating elements" style="width: 50%; height: auto;" />
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/688e1166f_microscope.PNG" alt="Scale build-up under microscope" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c46b8fb3f_hydroflowcompare2.png" alt="Compare heating elements" style="width: 25%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/688e1166f_microscope.PNG" alt="Scale build-up under microscope" style="width: 25%; height: auto;" />
       
       <h2>Test 3 Results</h2>
       <p>I was less surprised by the results of this test because my expectations had already changed. I was already a believer in the technology and confident the results would be positive.</p>
       
       <p>The tankless water heater had no performance loss and remained within the expected operating range. Visual inspection showed no signs of scale buildup. The only thing on the element was a soft white powder that easily wiped off.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33dcb4562_testresults31.png" alt="Test 3 results" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33dcb4562_testresults31.png" alt="Test 3 results" style="width: 25%; height: auto;" />
     `
   },
   'pathogens-drinking-water': {
@@ -774,7 +774,7 @@ const blogContent = {
       <h3>Intrusive Magnets</h3>
       <p>Intrusive magnets were the first physical water conditioners that appeared after the discovery that water flowing over magnetic rock did not cause hard scale to accumulate on the rock's surface.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/dc076b159_IntrusiveMagnet.jpg" alt="Intrusive Magnet" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/dc076b159_IntrusiveMagnet.jpg" alt="Intrusive Magnet" style="width: 25%; height: auto;" />
       
       <p>The voltage that can be generated depends on the strength of the magnet and the speed of water flow. The current produced by this method is DC (Direct Current), which will act as a galvanic current causing corrosion and releasing metal ions into the water.</p>
       
@@ -946,14 +946,14 @@ const blogContent = {
       <h2>Early Filtration Methods</h2>
       <p>Early methods included hollowed-out gourds for holding and straining water, placing charcoal or sand at one end of a pipe (typically bamboo), and directing running water through it. Sand was the most commonly used material in the ancient world.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/36b11973d_firstfilter.png" alt="First filter tool" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/36b11973d_firstfilter.png" alt="First filter tool" style="width: 25%; height: auto;" />
       
       <p>One of the oldest known examples of a filter-specific tool was found in what's now Israel and dates to roughly 1,500 B.C. It was a sieve that people used to strain out solids from their drinking water.</p>
       
       <h2>Historical Developments</h2>
       <p>The Romans pioneered aqueducts for transporting fresh clean drinking water throughout cities. Around the same time, Hippocrates invented the first early water filter in the form of a cloth bag known as the "Hippocratic sleeve."</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0d92d46fb_hippocraticsleeve.png" alt="Hippocratic Sleeve" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0d92d46fb_hippocraticsleeve.png" alt="Hippocratic Sleeve" style="width: 25%; height: auto;" />
       
       <p>In the mid-1700s, Joseph Amy obtained the first patent for a water filter. His design incorporated wool, sponge, and charcoal layers. The first home water filters were made available for sale in 1750.</p>
       
@@ -1001,7 +1001,7 @@ const blogContent = {
       
       <p>You should maintain your water heater to ensure it's free of scale. Just 1/16th of an inch of scale can reduce your water heater's ability to heat water by 11%, using more water and energy to achieve the same efficiency.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2abb41884_costofhardwaterandyourheatingandcoolingsystem.PNG" alt="The cost of hard water on appliances" style="width: 50%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2abb41884_costofhardwaterandyourheatingandcoolingsystem.PNG" alt="The cost of hard water on appliances" style="width: 25%; height: auto;" />
       
       <p>If you live in a hard water area, using salt exchange water softeners isn't necessary anymore. You can keep the healthy calcium in your water while preventing scale formation. The alternative is cheaper financially and doesn't pollute the environment with chemicals.</p>
       
@@ -1051,7 +1051,7 @@ const blogContent = {
 
       <p>The formation of mineral deposits is affected by several factors including supersaturation, temperature, pH, pressure, flow velocity, and the presence of impurities.</p>
 
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e0f91249a_8661673650090.png" alt="HydroFLOW water conditioner" style="width: 37.5%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e0f91249a_8661673650090.png" alt="HydroFLOW water conditioner" style="width: 18.75%; height: auto;" />
       
       <h2>Types of Scale</h2>
       <p>The main form of scale most known to everyone is calcium carbonate, but it is not the only form. Other common forms include:</p>
@@ -1162,7 +1162,7 @@ const blogContent = {
       <h2>What is Hard Water?</h2>
       <p>Hard water is water that contains a high mineral content such as dissolved calcium and magnesium.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/47cdf5e8c_Underwaterclif2.jpg" alt="The main source of hard water: Limestone" style="width: 37.5%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/47cdf5e8c_Underwaterclif2.jpg" alt="The main source of hard water: Limestone" style="width: 18.75%; height: auto;" />
       
       <p>Water hardness can present in two ways:</p>
       <ul>
@@ -1220,7 +1220,7 @@ const blogContent = {
       <p>When a precipitating agent is introduced, this causes the chemical reaction necessary for the insoluble compound to emerge. The most common precipitating agent is CO2 and it plays a huge role in the precipitation of calcium carbonate in water—the major source of scale.</p>
       
       <h2>Where Does Hard Water Come From?</h2>
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/edd2008ea_limestonecauseshardwater.PNG" alt="Limestone is a major component of hard water" style={{ width: '18.75%', height: 'auto' }} />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/edd2008ea_limestonecauseshardwater.PNG" alt="Limestone is a major component of hard water" style={{ width: '9.375%', height: 'auto' }} />
       
       <p>Hard water originates from deep in the earth in large bodies of underground water known as aquifers. Some of these aquifers are surrounded by limestone and other mineral deposits. Due to high levels of dissolved CO2 (carbonic acid), the pH of water is lowered causing it to become acidic.</p>
       
@@ -1318,7 +1318,7 @@ const blogContent = {
       
       <p>Hard water originates from deep in the earth in large bodies of water that are underground known as aquifers. Some of these aquifers are surrounded by limestone and other mineral deposits. Due to the high levels of dissolved CO2 in water (carbonic acid), this lowers the pH of the water causing it to become acidic.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/df0672d11_limestonecauseshardwater.PNG" alt="Limestone causes hard water" style={{ width: '50%', height: 'auto' }} />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/df0672d11_limestonecauseshardwater.PNG" alt="Limestone causes hard water" style={{ width: '12.5%', height: 'auto' }} />
       
       <p><strong>Limestone is a major component of hard water</strong></p>
       
@@ -1616,7 +1616,7 @@ const blogContent = {
       
       <p>The Brookfields Restaurant chain consists of three large eateries located in and around Sacramento, California. Like many others, Brookfields Restaurants were equipped with water softeners to control scale on their hot water equipment, which consists of hot water heaters, dishwashers, steamers, coffeemakers and espresso machines. Even with the softeners, Brookfields Restaurant managers reported that flatware looked dull and did not appear clean. Both flatware and dishes were also covered with water spots, and employees regularly had to clean scale deposits from the stainless steel appliances. Owner Sam Manolakas was concerned that even though flatware and dishes were cleaned and sterilized, their appearance would cause customers to question their cleanliness. The three restaurants triple-filtered their incoming water, but hard water problems persisted.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/41dfc6593_S38unitoncommercialdishwasher.jpg" alt="S38 unit on a commercial dishwasher" style={{ width: '50%', height: 'auto' }} />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/41dfc6593_S38unitoncommercialdishwasher.jpg" alt="S38 unit on a commercial dishwasher" style={{ width: '12.5%', height: 'auto' }} />
       
       <p><strong>S38 unit on a commercial dishwasher</strong></p>
       
@@ -1632,7 +1632,7 @@ const blogContent = {
       
       <p>The <i>Hydro</i>FLOW systems do not use salt or chemicals; rather they apply an electrical field to the water inside the pipes, which affects the ions that cause scale. The systems work via the patented Hydropath technology, which travels throughout the water system and causes ions to form small suspended clusters in the water, rather than a mass of hard scale inside pipes and equipment. The electrical signal consists of high-frequency oscillations which repeat at varying intervals. Water can hold a certain amount of dissolved minerals. It becomes less able to hold minerals under certain conditions, such as when it experiences a change in temperature or pressure. When this happens, scale begins to form on available surfaces, like the inside of a dishwasher or a pipe.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6b038223e_S38unitonacommercialsteamoven.jpg" alt="S38 unit on a commercial steam oven" style={{ width: '25%', height: 'auto' }} />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6b038223e_S38unitonacommercialsteamoven.jpg" alt="S38 unit on a commercial steam oven" style={{ width: '12.5%', height: 'auto' }} />
       
       <p><strong>S38 unit on a commercial steam oven</strong></p>
       
