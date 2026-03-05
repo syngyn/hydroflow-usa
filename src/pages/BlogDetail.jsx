@@ -1632,7 +1632,7 @@ const blogContent = {
       
       <p>The <i>Hydro</i>FLOW systems do not use salt or chemicals; rather they apply an electrical field to the water inside the pipes, which affects the ions that cause scale. The systems work via the patented Hydropath technology, which travels throughout the water system and causes ions to form small suspended clusters in the water, rather than a mass of hard scale inside pipes and equipment. The electrical signal consists of high-frequency oscillations which repeat at varying intervals. Water can hold a certain amount of dissolved minerals. It becomes less able to hold minerals under certain conditions, such as when it experiences a change in temperature or pressure. When this happens, scale begins to form on available surfaces, like the inside of a dishwasher or a pipe.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/S38%2Bunit%2Bon%2Ba%2Bcommercial%2Bsteam%2Boven.jpg" alt="S38 unit on a commercial steam oven" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6b038223e_S38unitonacommercialsteamoven.jpg" alt="S38 unit on a commercial steam oven" style={{ width: '25%', height: 'auto' }} />
       
       <p><strong>S38 unit on a commercial steam oven</strong></p>
       
