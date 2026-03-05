@@ -947,7 +947,7 @@ const blogContent = {
       <h2>Early Filtration Methods</h2>
       <p>Early methods included hollowed-out gourds for holding and straining water, placing charcoal or sand at one end of a pipe (typically bamboo), and directing running water through it. Sand was the most commonly used material in the ancient world.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/first%2Bfilter.png" alt="First filter tool" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/36b11973d_firstfilter.png" alt="First filter tool" style="width: 50%; height: auto;" />
       
       <p>One of the oldest known examples of a filter-specific tool was found in what's now Israel and dates to roughly 1,500 B.C. It was a sieve that people used to strain out solids from their drinking water.</p>
       
