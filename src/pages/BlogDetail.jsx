@@ -1175,7 +1175,7 @@ const blogContent = {
       
       <p>High ion concentrations do not cause any health threat, but they can engage in reactions that leave impenetrable mineral deposits. These deposits can make hard water unsuitable for many uses such as laundry, dishwashing, and industrial processes.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/calcium%2Bion%281%29.png" alt="Calcium ion" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3d55e9171_calciumion.png" alt="Calcium ion" />
       
       <h2>How do Ions get in Water?</h2>
       
