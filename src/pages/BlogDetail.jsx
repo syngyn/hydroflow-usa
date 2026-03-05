@@ -2605,24 +2605,7 @@ export default function BlogDetail() {
         </div>
       </section>
 
-      {/* Featured Image */}
-      {blog.image && (
-        <section className="py-0 bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="rounded-2xl overflow-hidden shadow-2xl -mt-16 relative z-10"
-            >
-              <img 
-                src={blog.image}
-                alt={blog.title}
-                className="w-full h-72 object-cover"
-              />
-            </motion.div>
-          </div>
-        </section>
-      )}
+
 
       {/* Content Section */}
       <section className="py-12 bg-white">
