@@ -775,7 +775,7 @@ const blogContent = {
       <h3>Intrusive Magnets</h3>
       <p>Intrusive magnets were the first physical water conditioners that appeared after the discovery that water flowing over magnetic rock did not cause hard scale to accumulate on the rock's surface.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Blogs/Intrusive%2BMagnet.jpg" alt="Intrusive Magnet" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/dc076b159_IntrusiveMagnet.jpg" alt="Intrusive Magnet" />
       
       <p>The voltage that can be generated depends on the strength of the magnet and the speed of water flow. The current produced by this method is DC (Direct Current), which will act as a galvanic current causing corrosion and releasing metal ions into the water.</p>
       
