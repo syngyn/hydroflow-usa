@@ -209,7 +209,7 @@ const caseStudies = [
     title: 'Wastewater Treatment Plant in Ohio',
     slug: 'wastewater-treatment-plant-in-ohio',
     description: 'The HydroFLOW device not only reduced the rate of struvite accumulation, it actually started to soften-up existing deposits!',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/580e35f88_1031667849357.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16924a78b_generated_image.png',
     results: ['Struvite reduction', 'Softened deposits', 'Ohio success'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/78971648597202.pdf',
     application_type: ['Wastewater Treatment'],
