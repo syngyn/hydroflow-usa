@@ -676,7 +676,7 @@ const blogContent = {
       
       <p>I was given full access to the corporate testing lab. The following is what happened during this testing process. Nobody had access to the testing equipment and no one else was involved. This was 100% controlled by me.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/testrigdiagram.PNG" alt="Hard Water Testing Rig Diagram" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/60422d752_testrigdiagram.PNG" alt="Hard Water Testing Rig Diagram" />
       <img src="https://hydroflow-usa.com/assets/userfiles/images/rigimage.PNG" alt="Hard water testing rig" />
       
       <h2>Test Protocol</h2>
