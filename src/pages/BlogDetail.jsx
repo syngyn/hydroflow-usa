@@ -1690,11 +1690,11 @@ const blogContent = {
     date: '2024-05-10',
     readTime: '6 min read',
     category: 'commercial',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/Canine%2Btherapy%2Bpool.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/184231b75_Caninetherapypool.jpg',
     content: `
       <p>On September 22, 2011, TOPS Veterinary initiated a test pilot to study the effectiveness of <i>Hydro</i>FLOW's water conditioning technology on its canine therapy pools. TOPS is in the business of veterinary rehabilitation, and one of the treatment options it often employs is hydro-treadmill therapy. The facility has two – 1,000 gallon therapy pools, supported by a large sand filtration system, a dual-speed filtration pump and a booster for the jets.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Canine%2Btherapy%2Bpool.jpg" alt="Canine therapy pool" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/184231b75_Caninetherapypool.jpg" alt="Canine therapy pool" />
       
       <p><strong>Canine therapy pool</strong></p>
       
