@@ -93,6 +93,31 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8199139ff_HydroFLOWCaseStudy-ScrewPressStruviteTreatment-2023.pdf'
   },
+  'scale-reduction-private-dental-practice': {
+    category: 'commercial',
+    title: 'Scale Reduction at a Private Dental Practice',
+    image: 'https://images.unsplash.com/photo-1606811841689-23db3c3f46f8?w=800',
+    customer: 'Private dental practice in the United States',
+    application: 'Water system serving sinks, toilets, dental chairs, and other fixtures throughout the facility',
+    installedUnits: '4 HydroFLOW units: 1 x hs40 on 1.5" incoming water line, 1 x s38 on 1" cold water line to water heater, 1 x s38 on 1" cold water line beneath kitchen, 1 x s38 on 1" cold water line beneath procedure room 5',
+    background: 'With a water hardness of 385 PPM, scale accumulated throughout the building, requiring frequent manual cleaning. Instead of a salt-based water softener (which adds unhealthy sodium to water), the dental practice installed salt-free HydroFLOW water conditioners throughout the building.',
+    successFactors: [
+      'Reduction of hard scale deposits at sinks, toilets, and dental chairs',
+      'Extend the time between manual scale removal',
+      'Gradual removal of existing scale from inside the piping system'
+    ],
+    results: [
+      'Lab faucet: visible scale removal without any manual cleaning over 8 weeks',
+      'Toilet: significant scale reduction without manual cleaning intervention',
+      'Kitchen faucet: dramatic scale reduction in 8-week period',
+      'Water heater: Local plumber inspection statement - "HydroFLOW took out years of scale in roughly 2 months. If you install a HydroFLOW unit on the cold water pipe feeding your water heater, it will significantly extend its life-cycle."',
+      'Scale accumulation greatly reduced during the 8-week assessment period',
+      'Most existing scale buildup was naturally removed without acidic cleaning',
+      'Manual scrubbing of fixtures was less labor intensive and not as frequent',
+      'Weekly cleaning continued for sanitary purposes, but the amount of scale was negligible'
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f111e4bbc_HydroFLOW-commercial-case-study-private-dental-practice.pdf'
+  },
   'scale-reduction-gas-station-convenience-store': {
     category: 'commercial',
     title: 'Scale Reduction at a Gas Station and Convenience Store Chain',

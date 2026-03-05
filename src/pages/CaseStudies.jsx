@@ -230,6 +230,17 @@ const caseStudies = [
   },
   {
     category: 'commercial',
+    title: 'Scale Reduction at a Private Dental Practice',
+    slug: 'scale-reduction-private-dental-practice',
+    description: 'A private dental practice with 385 PPM water hardness installed HydroFLOW units throughout the building. Within 8 weeks, scale accumulation greatly reduced and existing buildup was naturally removed without manual cleaning.',
+    image: 'https://images.unsplash.com/photo-1606811841689-23db3c3f46f8?w=800',
+    results: ['Scale removal on lab faucet aerator within 8 weeks', 'Toilet scale buildup eliminated without manual cleaning', 'Kitchen faucet scale reduced significantly', 'Years of water heater scale removed in 2 months', 'Manual scrubbing became less labor intensive'],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f111e4bbc_HydroFLOW-commercial-case-study-private-dental-practice.pdf',
+    application_type: ['Water Heaters', 'Sinks', 'Toilets'],
+    products_used: ['Pearl Plus', 'HS40']
+  },
+  {
+    category: 'commercial',
     title: 'Gold LEED Registered Campus',
     slug: 'gold-leed-campus',
     description: 'The HydroFLOW product has performed superbly well in keeping our water heaters scale free.',
