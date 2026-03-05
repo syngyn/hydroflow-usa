@@ -184,7 +184,7 @@ const caseStudyData = {
       'No significant hard scale or bio buildup was observed on the nozzles or infrastructure.',
       'No industrial water treatment chemicals used for 9-10 months of operation.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/36111563298950.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/19ebf3134_36111563298950.pdf'
   },
   'city-of-walla-walla-wastewater-plant': {
     category: 'industrial',
