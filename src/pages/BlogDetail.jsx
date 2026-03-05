@@ -983,7 +983,6 @@ const blogContent = {
     date: '2023-05-30',
     readTime: '7 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/cost%2Bof%2Bhard%2Bwater%2Band%2Byour%2Bheating%2Band%2Bcooling%2Bsystem.PNG',
     content: `
       <h2>The Smart Way to Conserve Water: Practical Tips for a Sustainable Future</h2>
       <p>Water is one of our planet's most precious resources, yet it's often taken for granted. With increasing global populations and shifting climate patterns, ensuring sustainable water use has never been more urgent. Individual households can make a significant impact through mindful consumption and simple habit changes.</p>
