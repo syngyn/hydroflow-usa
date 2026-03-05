@@ -648,7 +648,7 @@ const blogContent = {
       
       <p>After deliberation, the homeowner purchased the unit and had it installed by their plumber. After watching the installation, however, the customer concluded she could easily have done it herself. The s38 simply clamps around existing piping—no plumbing adjustments required.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2e76822c1_S38Unit_clear.png" alt="HydroFLOW S38 product" style="width: 37.5%; height: auto;" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/565baba35_productrange20168crop.jpg" alt="HydroFLOW S38 product" style="width: 37.5%; height: auto;" />
       
       <h2>The Results</h2>
       <p>After a few months, she reported that all faucets were running clear, there were no water spots on glassware or dishes, the glass shower door was free of spots and streaks, and the aerators and shower heads had absolutely no clogging deposits.</p>
