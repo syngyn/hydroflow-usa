@@ -1680,7 +1680,7 @@ const blogContent = {
       
       <p><strong><i>Hydro</i>FLOW Receiving the National Restaurant Association Kitchen Innovations Award</strong></p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/What%2Bin%2Byour%2Bice%2Bpic%2B3.png" alt="Kitchen Innovations Award" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6a84f17c2_Whatinyouricepic3.png" alt="Kitchen Innovations Award" />
       
       <p><i>Hydro</i>FLOW water conditioners are powered by the patented Hydropath technology, are effective and operate on less than $10 of electricity per year. They have no moving parts and operate 24/7 to control bacteria and scale. <i>Hydro</i>FLOW units are easy to install in minutes, and require no cutting of pipes or interruption of production. <i>Hydro</i>FLOW reduces water use, chemicals and energy.</p>
     `
