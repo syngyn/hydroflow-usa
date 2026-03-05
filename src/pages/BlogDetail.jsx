@@ -1318,7 +1318,7 @@ const blogContent = {
       
       <p>Hard water originates from deep in the earth in large bodies of water that are underground known as aquifers. Some of these aquifers are surrounded by limestone and other mineral deposits. Due to the high levels of dissolved CO2 in water (carbonic acid), this lowers the pH of the water causing it to become acidic.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/limestone%2Bcauses%2Bhard%2Bwater.PNG" alt="Limestone causes hard water" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/df0672d11_limestonecauseshardwater.PNG" alt="Limestone causes hard water" />
       
       <p><strong>Limestone is a major component of hard water</strong></p>
       
