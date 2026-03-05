@@ -1157,7 +1157,7 @@ const blogContent = {
     date: '2023-02-15',
     readTime: '11 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/Underwater%2Bclif%283%29.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/47cdf5e8c_Underwaterclif2.jpg',
     content: `
       <h2>What is Hard Water?</h2>
       <p>Hard water is water that contains a high mineral content such as dissolved calcium and magnesium.</p>
