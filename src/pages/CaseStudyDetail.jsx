@@ -93,6 +93,29 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8199139ff_HydroFLOWCaseStudy-ScrewPressStruviteTreatment-2023.pdf'
   },
+  'optimization-steamer-oven': {
+    category: 'commercial',
+    title: 'Optimization of a Steamer Oven',
+    image: 'https://images.unsplash.com/photo-1556910103-2b02b30a0982?w=800',
+    customer: 'Anoka-Hennepin School District, Minnesota',
+    application: 'Two Cleveland Ultra 10 Double Steamer Ovens in different school locations',
+    installedUnits: '1 x HydroFLOW S38 installed on cold water supply line feeding the steamer oven',
+    background: 'The Anoka-Hennepin School District is Minnesota\'s largest, serving approximately 38,000 students. The potable water in the district is considered very hard (roughly 17 GPG or 290 PPM). The steamer ovens are prone to build-up of scale requiring frequent chemical cleaning and maintenance.',
+    successFactors: [
+      'Comparison testing between two identical steamer ovens using same potable water source',
+      'One oven treated with HydroFLOW, one without, inspected monthly for 3 months',
+      'After 1 month: thin layer of loose scale with HydroFLOW vs thick layer of hard scale without',
+      'Dramatically less scale accumulation at each monthly inspection with HydroFLOW treated oven'
+    ],
+    results: [
+      'At each monthly inspection, dramatically less scale accumulation in the HydroFLOW treated oven',
+      'Maintenance costs reduced by 75% - cleaning now performed every 4 weeks instead of every week',
+      'Chemical savings alone provided a return on investment of less than a year',
+      'Chemical and labor savings combined provided a return on investment of less than 6 months',
+      'Life cycle of the steamer oven is expected to extend significantly as a result of lessened chemical cleaning'
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/58625dd97_HydroFLOW-commercial-case-study-optimizes-steamer-ovens-maintenance-cycles-update4292021.pdf'
+  },
   'scale-reduction-private-dental-practice': {
     category: 'commercial',
     title: 'Scale Reduction at a Private Dental Practice',
