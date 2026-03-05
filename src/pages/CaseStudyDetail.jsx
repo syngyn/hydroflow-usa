@@ -96,7 +96,7 @@ const caseStudyData = {
   'scale-reduction-private-dental-practice': {
     category: 'commercial',
     title: 'Scale Reduction at a Private Dental Practice',
-    image: 'https://images.unsplash.com/photo-1606811841689-23db3c3f46f8?w=800',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/13953a4e6_image.png',
     customer: 'Private dental practice in the United States',
     application: 'Water system serving sinks, toilets, dental chairs, and other fixtures throughout the facility',
     installedUnits: '4 HydroFLOW units: 1 x hs40 on 1.5" incoming water line, 1 x s38 on 1" cold water line to water heater, 1 x s38 on 1" cold water line beneath kitchen, 1 x s38 on 1" cold water line beneath procedure room 5',
