@@ -462,7 +462,7 @@ const caseStudyData = {
       'A characteristic smell of organic decomposition is absent.',
       'Visible reduction of biofouling and absence of tubes with 100% clogging in comparison with condenser without treatment.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/39691493939531.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/140559cdb_39691493939531.pdf'
   },
   'natural-gas-and-oil-producer': {
     category: 'industrial',
