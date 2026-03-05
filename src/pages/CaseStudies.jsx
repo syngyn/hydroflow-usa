@@ -222,7 +222,7 @@ const caseStudies = [
     title: 'Scale Reduction at a Gas Station and Convenience Store Chain',
     slug: 'scale-reduction-gas-station-convenience-store',
     description: 'A 400+ location gas station and convenience store chain used HydroFLOW s38 and hs40 devices to treat coffee makers, food warmers, ice machines, water heaters and fixtures. Estimated ROI of 6 to 12 months per store.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6a0a3a88e_HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a92d7f14b_image.png',
     results: ['Scale removed from fixtures without manual cleaning', 'Ice machines no longer require technician cleaning', 'Smoothie machines no longer clog with scale', '6–12 month ROI per store'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6a0a3a88e_HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf',
     application_type: ['Ice Machines', 'Water Heaters', 'Food Processing'],
