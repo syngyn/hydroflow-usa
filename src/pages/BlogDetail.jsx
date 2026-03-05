@@ -655,7 +655,7 @@ const blogContent = {
       
       <p>After seeing the results, she decided to treat all the well water at the wellhead with HydroFLOW to kill bacteria and prevent scale buildup in the pump.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e32ea2eff_Ladywithdishwasher.jpg" alt="Lady looking at dishes in dishwasher" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e32ea2eff_Ladywithdishwasher.jpg" alt="Lady looking at dishes in dishwasher" style="width: 75%; height: auto;" />
       
       <h3>Quote from the customer:</h3>
       <blockquote>"I'm still amazed by the performance of the HydroFLOW s38 water treatment unit you recommended for our home. I was hopeful, but reluctant to believe that a device so small and simple in appearance could produce the results you claimed it could. Thank you again for your excellent advice!"</blockquote>
