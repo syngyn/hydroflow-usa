@@ -1044,14 +1044,14 @@ const blogContent = {
     date: '2023-04-12',
     readTime: '6 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/whole%2Bhome%2BbannerHS40%2B-%2BCopy%2B-%2BCopy.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e0f91249a_8661673650090.png',
     content: `
       <h2>What is Scale and the Known Types of Scale?</h2>
       <p>Scale is the precipitation of mineral deposits caused by soluble salts. The primary agents responsible are the carbonates and sulfates of calcium and magnesium with barium salts, silicate, and phosphate scaling. Mineral scale formation is a considerable issue in domestic, commercial, and industrial applications.</p>
-      
+
       <p>The formation of mineral deposits is affected by several factors including supersaturation, temperature, pH, pressure, flow velocity, and the presence of impurities.</p>
-      
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/whole%2Bhome%2BbannerHS40%2B-%2BCopy%2B-%2BCopy.png" alt="HydroFLOW water conditioner" />
+
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e0f91249a_8661673650090.png" alt="HydroFLOW water conditioner" style="width: 50%; height: auto;" />
       
       <h2>Types of Scale</h2>
       <p>The main form of scale most known to everyone is calcium carbonate, but it is not the only form. Other common forms include:</p>
