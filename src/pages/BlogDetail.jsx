@@ -940,7 +940,6 @@ const blogContent = {
     date: '2023-06-25',
     readTime: '10 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/first%2Bfilter.png',
     content: `
       <p>The history of water filtration can be traced back to around 10,000 BC when various tribes developed ways to filter, purify and transport water. A study published in Science Magazine found that these techniques were an important factor in what made us human by allowing us to travel more and survive longer as a species.</p>
       
