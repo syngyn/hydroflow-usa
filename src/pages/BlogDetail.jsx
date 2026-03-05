@@ -641,7 +641,7 @@ const blogContent = {
       <h2>The Problem</h2>
       <p>A customer in New Mexico receives potable water from a well shared with a neighbor. A well test indicated the water quality was generally good, but had mineral content above minimum detection levels and total hardness was an issue causing scale in their plumbing system.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Blogs/House%2Band%2BPool%2B-%2B1.jpg" alt="Large house with outdoor pool" />
+
       
       <h2>The Solution</h2>
       <p>They came to the HydroFLOW distributor in the Southwest for advice, concerned with heavy scale deposits evident on faucets, aerators and shower heads. We recommended they purchase a HydroFLOW s38 unit to treat their home's plumbing system.</p>
