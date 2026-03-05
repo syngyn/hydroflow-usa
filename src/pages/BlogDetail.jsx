@@ -714,7 +714,7 @@ const blogContent = {
       
       <p>The tankless water heater had no performance loss and remained within the expected operating range. Visual inspection showed no signs of scale buildup. The only thing on the element was a soft white powder that easily wiped off.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/testresults3%281%29.png" alt="Test 3 results" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33dcb4562_testresults31.png" alt="Test 3 results" style="width: 50%; height: auto;" />
     `
   },
   'pathogens-drinking-water': {
