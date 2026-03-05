@@ -476,7 +476,7 @@ const blogContent = {
       <h2>Descaling Chemicals: Friend or Foe?</h2>
       <p>Chemicals used to treat scale and corrosion, like phosphoric and muriatic acids, have both benefits and drawbacks. While they prevent scale formation, they are highly corrosive and can cause severe health issues.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/chemicals-in-water.jpg" alt="Chemicals in water" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e4c27a579_chemicals-in-water.jpg" alt="Chemicals in water" style="width: 50%; height: auto;" />
       
       <h3>Health Effects</h3>
       <p>These acid-based products are corrosive to skin, eyes, and respiratory tract. Contact can cause redness, pain, severe burns, and permanent damage. Ingestion may cause shock, circulatory collapse, and death.</p>
