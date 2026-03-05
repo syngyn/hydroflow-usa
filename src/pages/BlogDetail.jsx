@@ -1624,7 +1624,7 @@ const blogContent = {
       
       <p>Mr. Manolakas began to look for alternative methods that would save the costs of managing the 11,000 gal of water used in each restaurant per day. In December 2010, a California-based representative of <i>Hydro</i>FLOW, installed <i>Hydro</i>FLOW an HS40 water conditioner at each restaurant and shut off or bypassed their water softeners.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fdd894ba6_HydroFLOWisanaward-winningtechnology.jpg" alt="HydroFLOW is an award-winning technology" style={{ width: '30%', height: 'auto' }} />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fdd894ba6_HydroFLOWisanaward-winningtechnology.jpg" alt="HydroFLOW is an award-winning technology" style={{ width: '7.5%', height: 'auto' }} />
       
       <p><strong><i>Hydro</i>FLOW is an award-winning technology</strong></p>
       
