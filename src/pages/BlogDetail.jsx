@@ -691,7 +691,7 @@ const blogContent = {
       <p>Same protocol with a brand new heating element, using an S38 HydroFLOW unit.</p>
       
       <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1d758cf9a_test1-results.PNG" alt="Test 1 results" style="width: 50%; height: auto;" />
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Heating_element-scale2.png" alt="Effect of hard water on heating element" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/21314fc12_Heating_element-scale2.png" alt="Effect of hard water on heating element" />
       
       <h2>Test 1 Results</h2>
       <p>The scale's insulating effect impacted the element's ability to heat water from 130° down to 117° in 4 hours. Flow rate decreased by more than 10%. In a real-world situation, this would have completely shut down the water heater in less than 24 hours.</p>
