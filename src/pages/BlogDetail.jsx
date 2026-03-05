@@ -1044,7 +1044,7 @@ const blogContent = {
     date: '2023-04-12',
     readTime: '6 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/whole%2Bhome%2BbannerHS40%2B-%2BCopy%2B-%2BCopy.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1692447a1_wholehomebannerHS40-Copy-Copy.png',
     content: `
       <h2>What is Scale and the Known Types of Scale?</h2>
       <p>Scale is the precipitation of mineral deposits caused by soluble salts. The primary agents responsible are the carbonates and sulfates of calcium and magnesium with barium salts, silicate, and phosphate scaling. Mineral scale formation is a considerable issue in domestic, commercial, and industrial applications.</p>
