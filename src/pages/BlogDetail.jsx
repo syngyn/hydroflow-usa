@@ -225,7 +225,7 @@ const blogContent = {
     date: '2024-10-15',
     readTime: '5 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/wp-content/uploads/2024/08/Turn-off-gas-and-water-supply.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b1b24b2b_turn-off-power-and-water-supply.jpg',
     content: `
       <p>Your water heater is the unsung hero of your home, providing a reliable supply of hot water for everything from cozy showers to spotless dishes. But like any hardworking appliance, it needs a bit of loving care to keep running smoothly. One of the most effective, and surprisingly simple ways to ensure your water heater's efficiency and extend its lifespan is through regular maintenance. Specifically, by purging the tank periodically. This important task can prevent costly repairs, lower your energy bills, and keep your water heater performing at its best.</p>
       
