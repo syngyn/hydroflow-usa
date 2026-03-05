@@ -596,7 +596,7 @@ const blogContent = {
     date: '2024-04-15',
     readTime: '9 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/Water-softener.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fc7533d01_Water-softener.jpg',
     content: `
       <p>Water treatment goes all the way back to 3500 BC in ancient Mesopotamia where boiling water was the only water treatment method. It was not until the Aqueducts of Ancient Rome were constructed in 312 BC that the need to develop methods of dealing with hard water on a large scale became necessary.</p>
       
