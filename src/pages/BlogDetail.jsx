@@ -2628,7 +2628,7 @@ export default function BlogDetail() {
                 prose-strong:text-slate-900 prose-strong:font-bold
                 prose-a:text-cyan-600 prose-a:no-underline hover:prose-a:underline
                 prose-blockquote:border-l-4 prose-blockquote:border-cyan-500 prose-blockquote:bg-cyan-50 prose-blockquote:py-6 prose-blockquote:px-8 prose-blockquote:italic prose-blockquote:my-10 prose-blockquote:rounded-r-lg
-                prose-img:rounded-xl prose-img:shadow-xl prose-img:my-10 prose-img:border prose-img:border-slate-200"
+                prose-img:rounded-xl prose-img:shadow-xl prose-img:my-10 prose-img:border prose-img:border-slate-200 prose-img:max-w-xs"
                 dangerouslySetInnerHTML={{ __html: formatBlogContent(blog.content) }}
               />
             </Card>
