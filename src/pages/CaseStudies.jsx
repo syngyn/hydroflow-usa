@@ -244,7 +244,7 @@ const caseStudies = [
     title: 'Optimization of a Steamer Oven',
     slug: 'optimization-steamer-oven',
     description: 'Anoka-Hennepin School District installed HydroFLOW S38 on Cleveland Ultra 10 steamer ovens to treat very hard water (290 PPM). Results showed 75% reduction in maintenance costs by reducing cleaning frequency from weekly to every 4 weeks.',
-    image: 'https://images.unsplash.com/photo-1556910103-2b02b30a0982?w=800',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5575bdc82_image.png',
     results: ['75% reduction in maintenance costs', 'Cleaning frequency reduced from weekly to every 4 weeks', 'Thin layer of loose scale vs thick hard scale without HydroFLOW', 'ROI achieved in less than 6 months', 'Extended steamer oven life cycle'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/58625dd97_HydroFLOW-commercial-case-study-optimizes-steamer-ovens-maintenance-cycles-update4292021.pdf',
     application_type: ['Steam Systems'],

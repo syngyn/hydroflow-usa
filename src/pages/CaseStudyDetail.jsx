@@ -96,7 +96,7 @@ const caseStudyData = {
   'optimization-steamer-oven': {
     category: 'commercial',
     title: 'Optimization of a Steamer Oven',
-    image: 'https://images.unsplash.com/photo-1556910103-2b02b30a0982?w=800',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5575bdc82_image.png',
     customer: 'Anoka-Hennepin School District, Minnesota',
     application: 'Two Cleveland Ultra 10 Double Steamer Ovens in different school locations',
     installedUnits: '1 x HydroFLOW S38 installed on cold water supply line feeding the steamer oven',
