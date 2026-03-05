@@ -699,7 +699,7 @@ const blogContent = {
       <p>My initial thoughts: there was no way HydroFLOW would be able to do anything to stop that from happening. Possibly slow it down, but not prevent it.</p>
       
       <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/995f1cf40_testresults2final.png" alt="Test 2 results" style="width: 50%; height: auto;" />
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c7446ec6a_heating_element-clean3.png" alt="Heating element scale removed" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c7446ec6a_heating_element-clean3.png" alt="Heating element scale removed" style="width: 50%; height: auto;" />
       
       <h2>Test 2 Results</h2>
       <p>To my surprise, the 1/8" of scale that had built up was almost completely clean in roughly the same amount of time it took to build up. The tankless water heater started to see performance improvement and increased flow within the first hour.</p>
