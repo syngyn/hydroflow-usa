@@ -605,7 +605,7 @@ const blogContent = {
       
       <p>Since the problem of water hardness could not be solved, aqueducts needed channels large enough for workers to access and clean scale by hand. Periodic vertical access shafts were included for both access and aeration.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2ba213868_Water-softener.jpg" alt="Salt being added to a water softener" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2ba213868_Water-softener.jpg" alt="Salt being added to a water softener" style="width: 25%; height: auto;" />
       
       <h2>The Industrial Revolution</h2>
       <p>The need to remove hardness didn't become important again until the Industrial Revolution in the 18th and 19th centuries. During this period, water utilization during manufacturing became very important, specifically for heat transfer and steam power.</p>
