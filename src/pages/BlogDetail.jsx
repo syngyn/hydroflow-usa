@@ -636,7 +636,7 @@ const blogContent = {
     date: '2024-03-10',
     readTime: '5 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/Blogs/House%2Band%2BPool%2B-%2B1.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d94ccca0b_HouseandPool-1.jpg',
     content: `
       <h2>The Problem</h2>
       <p>A customer in New Mexico receives potable water from a well shared with a neighbor. A well test indicated the water quality was generally good, but had mineral content above minimum detection levels and total hardness was an issue causing scale in their plumbing system.</p>
