@@ -954,7 +954,7 @@ const blogContent = {
       <h2>Historical Developments</h2>
       <p>The Romans pioneered aqueducts for transporting fresh clean drinking water throughout cities. Around the same time, Hippocrates invented the first early water filter in the form of a cloth bag known as the "Hippocratic sleeve."</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/hippocratic%2Bsleeve.png" alt="Hippocratic Sleeve" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0d92d46fb_hippocraticsleeve.png" alt="Hippocratic Sleeve" style="width: 50%; height: auto;" />
       
       <p>In the mid-1700s, Joseph Amy obtained the first patent for a water filter. His design incorporated wool, sponge, and charcoal layers. The first home water filters were made available for sale in 1750.</p>
       
