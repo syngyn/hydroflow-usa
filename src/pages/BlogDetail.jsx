@@ -237,7 +237,7 @@ const blogContent = {
       
       <h2><strong>How to purge your gas water heater</strong></h2>
       
-      <img src="https://hydroflow-usa.com/wp-content/uploads/2024/08/Turn-off-gas-and-water-supply.jpg" alt="Turn off gas and water supply" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6c36b8c99_Turn-off-gas-and-water-supply.jpg" alt="Turn off gas and water supply" />
       
       <ol>
         <li><strong>Turn off the Gas and Water Supply:</strong>
