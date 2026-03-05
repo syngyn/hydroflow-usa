@@ -1676,7 +1676,7 @@ const blogContent = {
       
       <p><i>Hydro</i>FLOW received the 2015 Innovator of the Year award by the National Restaurant Association for applications in ice machines, steam tables, dishwashers and steamers. With a <i>Hydro</i>FLOW the expense and labor associated with having a water softener is eliminated.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Whats%2Bin%2Byour%2Bice%2Bpic%2B2.png" alt="HydroFLOW Receiving the National Restaurant Association Kitchen Innovations Award" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1720dbaf4_Whatsinyouricepic2.png" alt="HydroFLOW Receiving the National Restaurant Association Kitchen Innovations Award" />
       
       <p><strong><i>Hydro</i>FLOW Receiving the National Restaurant Association Kitchen Innovations Award</strong></p>
       
