@@ -93,6 +93,34 @@ const caseStudyData = {
     ],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8199139ff_HydroFLOWCaseStudy-ScrewPressStruviteTreatment-2023.pdf'
   },
+  'scale-reduction-gas-station-convenience-store': {
+    category: 'commercial',
+    title: 'Scale Reduction at a Gas Station and Convenience Store Chain',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6a0a3a88e_HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf',
+    customer: 'A gas station and convenience store chain with over 400 locations across 12 states',
+    application: 'Coffee makers, food warmers, ice machines, water heaters, and fixtures throughout each store location',
+    installedUnits: 'HydroFLOW s38 (Pearl Plus) on ¾" cold water pipes (older stores & ice machines); HydroFLOW hs40 on 1¼" cold water pipes (newer stores)',
+    background: 'The stores sell fresh-made food items such as burritos, sandwiches, pizzas, toasted subs, cookies, and coffee. Hard water scale was causing costly maintenance issues on kitchen equipment, water heaters, fixtures, and ice machines throughout the chain. Looking to reduce scale buildup and maintenance costs, the customer chose to utilize HydroFLOW s38 and hs40 devices to treat coffee makers, food warmers, ice machines, water heaters, and fixtures. Older stores have a ¾ inch cold water pipe entering the water heater, requiring an s38 (Pearl Plus) device. Newer stores have a 1¼ inch cold water pipe entering the water heater, requiring an hs40 device. All ice machines have a ¾ inch cold water pipe and require an s38 (Pearl Plus) device.',
+    successFactors: [
+      'Reduce hard scale accumulation in coffee makers, food warmers, ice machines, water heaters, and fixtures',
+      'Reduce maintenance costs and cleaning labor across 400+ locations',
+      'Eliminate the need for acid cleaning of food warmers (which damages seals and voids manufacturer warranty)',
+      'Extend ice machine cleaning intervals and eliminate technician service calls'
+    ],
+    results: [
+      'The HydroFLOW s38 and hs40 devices visibly reduced hard scale accumulation in key areas around the stores.',
+      'The heating elements of the water heaters are noticeably cleaner. After 6+ months, water heaters have descaled and are running at higher efficiency while requiring less frequent servicing.',
+      'Half a pound of purged scale was collected from one store\'s water heater, demonstrating active descaling.',
+      'The units are positively impacting the ice machines by reducing scale and biofilm accumulation. Ice machines are on a quarterly maintenance schedule and have NOT required a technician to take them down for cleaning over the last year.',
+      'Store manager: "After a few days of using HydroFLOW, we noticed hard scale is not sticking to the heating plate; the residue is powdery and easy to clean."',
+      'Acid cleaning of food warmers — which damages seals and voids manufacturer warranty — is no longer necessary. Daily maintenance is less labor intensive.',
+      'Smoothie machines that previously clogged with scale every few months (requiring a $150 service call) no longer require service tech visits.',
+      'Maintenance associated with cleaning sinks, food warmers, fixtures, cooking areas, and coffee makers has greatly reduced.',
+      'The estimated return on investment for a typical store is between 6 to 12 months.',
+      'Over 30 locations are now protected from the harmful effects of scale and biofilm, with more being added.'
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6a0a3a88e_HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf'
+  },
   'gold-leed-campus': {
     category: 'commercial',
     title: 'Gold LEED Registered Campus',
