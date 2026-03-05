@@ -860,7 +860,7 @@ const blogContent = {
       
       <p>Water with a high salt content can undermine your health goals, as excessive sodium intake is linked to weight gain and other health concerns. For individuals managing high blood pressure or those following a low-sodium diet, elevated salt levels in drinking water can pose a significant risk.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Blogs/woman%2Bmeasuring%2Bstomach%2Bsmaller.jpg" alt="Woman measuring stomach" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0f84f23aa_womanmeasuringstomachsmaller.jpg" alt="Woman measuring stomach" style="width: 25%; height: auto;" />
       
       <h2>Water Softeners and Sodium</h2>
       <p>This issue becomes especially pertinent in regions with hard water, where salt-based water softeners are often used. While these systems are effective at combating scale buildup, they introduce sodium into the water supply, coming with hidden health and environmental drawbacks.</p>
