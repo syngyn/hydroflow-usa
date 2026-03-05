@@ -497,7 +497,7 @@ const caseStudyData = {
       'The HydroFLOW device not only reduced the rate of struvite accumulation, it actually started to soften up existing deposits!',
       'Within a week started seeing large pieces coming off the first roller and the wash box.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/78971648597202.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/97d3f55c2_HydroFLOW-industrial-case-stury-wastewater-treatment-plant-in-ohio.pdf'
   },
   'hydroflow-cooling-tower-chiller-installation': {
     category: 'commercial',
