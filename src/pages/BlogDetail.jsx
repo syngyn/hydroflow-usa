@@ -443,7 +443,7 @@ const blogContent = {
     date: '2024-07-30',
     readTime: '6 min read',
     category: 'residential',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/water-treatment.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3e2f19298_water-treatment.jpg',
     content: `
       <h2>How Are Chemicals Getting Into My Water?</h2>
       <p>Chemicals make their way into your tap water via three main routes:</p>
@@ -453,7 +453,7 @@ const blogContent = {
         <li><strong>Material Leaching:</strong> Chemicals seeping from pipes and plumbing materials.</li>
       </ol>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/water-treatment.jpg" alt="Water treatment plant chemicals" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3e2f19298_water-treatment.jpg" alt="Water treatment plant chemicals" style="width: 50%; height: auto;" />
       
       <h2>Chemicals Used in Water Treatment</h2>
       
