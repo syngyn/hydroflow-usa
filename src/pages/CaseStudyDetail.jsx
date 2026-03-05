@@ -486,7 +486,7 @@ const caseStudyData = {
   'wastewater-treatment-plant-in-ohio': {
     category: 'industrial',
     title: 'Wastewater Treatment Plant in Ohio',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/580e35f88_1031667849357.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/97d3f55c2_HydroFLOW-industrial-case-stury-wastewater-treatment-plant-in-ohio.pdf',
     installer: 'HydroFLOW USA and Kirk Williams Company',
     customer: 'London OH, WWTP',
     application: 'Dewatering Equipment – Belt Press',
