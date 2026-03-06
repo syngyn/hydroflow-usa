@@ -678,7 +678,7 @@ const caseStudies = [
     title: 'Antares - Reduced Chemical Usage',
     slug: 'antares-reduced-chemical-usage',
     description: 'Since the HM units were installed on Antares Shipping vessels, issues with scale, bio, and corrosion have been completely reduced while increasing the efficiency of their freshwater generators.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5e77c37e_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bac4313f7_image.png',
     results: ['Scale, bio, and corrosion completely reduced', 'Increased freshwater generator efficiency', 'Lower maintenance costs'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/25151493825669.pdf',
     customer: 'Antares Shipping LTD',
