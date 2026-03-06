@@ -11,7 +11,7 @@ Deno.serve(async (req) => {
 
         const result = await resend.emails.send({
             from: 'HydroFLOW <noreply@hydroflow-usa.com>',
-            to: ['jason.rusk@hydroflow-usa.com', 'sales@hydroflow-usa.com'],
+            to: ['jason.rusk@hydroflow-usa.com', 'sales@hydroflow-usa.com', 'tal@hydroflow-usa.com'],
             reply_to: email,
             subject: `Contact Form: ${inquiryType || 'General'} from ${firstName} ${lastName}`,
             html: `
