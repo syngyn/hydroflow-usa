@@ -318,7 +318,7 @@ const caseStudyData = {
   'food-processing-cooling-tower': {
     category: 'agriculture',
     title: 'Food Processing Cooling Tower',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c90df1772_3541495124373-100x100.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ab27fbc8b_image.png',
     installer: 'HydroFLOW West',
     customer: 'G & G Orchards, Washington',
     application: 'BAC Condenser and EVAPCO Condenser which feeding into a common sump tank',
