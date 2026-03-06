@@ -1091,7 +1091,7 @@ const caseStudyData = {
   'antares-reduced-chemical-usage': {
     category: 'marine',
     title: 'Antares - Reduced Chemical Usage',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bac4313f7_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bef600fbb_image.png',
     installer: 'Hydropath Marine',
     customer: 'Antares Shipping LTD',
     application: 'Fresh Water Generator',
