@@ -554,7 +554,7 @@ const caseStudies = [
     title: 'Food Processing Cooling Tower',
     slug: 'food-processing-cooling-tower',
     description: 'With HydroFLOW, my cooling tower is much cleaner than it was with chemicals.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c90df1772_3541495124373-100x100.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ab27fbc8b_image.png',
     results: ['Cleaner than chemicals', 'Food safety', 'Cost effective'],
     pdfUrl: 'https://hydroflow-usa.com/assets/files/67671539882904.pdf',
     application_type: ['Cooling Towers', 'Food Processing'],
