@@ -1132,7 +1132,7 @@ const caseStudyData = {
       'Soft scale found on heat exchanger plates during cleaning — easy to remove without chemicals.',
       'Significant reduction in maintenance labor and downtime.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/59521643224356.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d7c9e58bd_59521643224356.pdf'
   },
 
   'mv-hoegh-america-freshwater-generator': {
