@@ -330,7 +330,7 @@ const caseStudyData = {
       'Pipes, tubes, fins and sump tank remain clear of limescale, bio-growth and corrosion.',
       'Cost savings associated with reduction in chemicals, reduction in water usage, reduction in maintenance and lessened wear-and-tear led to an ROI of roughly a year.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/67671539882904.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/60ba6ffc2_67671539882904.pdf'
   },
   'massive-texas-factory': {
     category: 'industrial',
