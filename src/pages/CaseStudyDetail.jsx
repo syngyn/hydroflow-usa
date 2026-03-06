@@ -909,7 +909,7 @@ const caseStudyData = {
       'In March of 2016 (16 months after the HydroFLOW units were installed), the domestic water boilers were inspected and found to be absolutely scale-free.',
       'HydroFLOW units reversed the scale that had built up before their installation.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/51421493846519.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5cdf053f0_51421493846519.pdf'
   },
   'orchard-scale-on-apples': {
     category: 'agriculture',
