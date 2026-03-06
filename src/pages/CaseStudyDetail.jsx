@@ -1111,7 +1111,7 @@ export default function CaseStudyDetail() {
               <ArrowLeft className="w-4 h-4 mr-2" />
               Back to Commercial Case Studies
             </Link>
-            <h1 className="text-3xl font-bold text-slate-900 mb-8">{pdfStudy.title}</h1>
+            <h1 className="text-3xl font-bold text-slate-900 mb-8"><em style={{fontStyle:'italic'}}>Hydro</em>FLOW Awarded the Prestigious Kitchen Innovations Award</h1>
             <Card className="p-6 bg-gradient-to-br from-cyan-50 to-white border-cyan-100">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
