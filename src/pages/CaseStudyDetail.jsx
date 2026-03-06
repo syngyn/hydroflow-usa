@@ -1092,7 +1092,47 @@ export default function CaseStudyDetail() {
   const slug = searchParams.get('slug');
   const study = caseStudyData[slug];
 
+  // Special PDF-only case studies (from database, not in static data)
+  const pdfOnlyStudies = {
+    'hydroflow-kitchen-innovations-award-2015': {
+      title: 'HydroFLOW Awarded the Prestigious Kitchen Innovations Award',
+      category: 'commercial',
+      pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/84b4b0e3b_HydroFLOW-commercial-referral-letter-2015-KI-awards.pdf'
+    }
+  };
+
   if (!study) {
+    const pdfStudy = pdfOnlyStudies[slug];
+    if (pdfStudy) {
+      return (
+        <div className="min-h-screen pt-32 pb-16 bg-slate-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Link to={createPageUrl('CaseStudies') + '?category=commercial'} className="inline-flex items-center text-cyan-600 hover:text-cyan-700 mb-8 transition-colors">
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              Back to Commercial Case Studies
+            </Link>
+            <h1 className="text-3xl font-bold text-slate-900 mb-8">{pdfStudy.title}</h1>
+            <Card className="p-6 bg-gradient-to-br from-cyan-50 to-white border-cyan-100">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-cyan-500 flex items-center justify-center">
+                    <FileText className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-slate-900">Referral Letter</h3>
+                    <p className="text-sm text-slate-600">Download the complete PDF</p>
+                  </div>
+                </div>
+                <a href={pdfStudy.pdfUrl} target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-cyan-600 hover:bg-cyan-700 text-white">View PDF</Button>
+                </a>
+              </div>
+            </Card>
+          </div>
+        </div>
+      );
+    }
+
     return (
       <div className="min-h-screen pt-32 pb-16 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
