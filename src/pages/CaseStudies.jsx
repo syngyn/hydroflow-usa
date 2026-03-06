@@ -773,7 +773,7 @@ const caseStudies = [
     title: 'High-End Resort in New Mexico',
     slug: 'high-end-resort-new-mexico',
     description: 'A proof-of-concept trial with 2 s38 units led to a full installation across 64 casitas, pools, hot tubs, and a cooling tower at a high-end Santa Fe resort with 923 PPM water hardness. Equipment has been performing for over 8 years.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf',
+    image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800',
     results: ['Great reduction of scale buildup on water heater heating elements after 4-month trial', 'Product evaluation led to full installation on pools, hot tubs, wells and cooling towers', 'Equipment performing per expectations for over 8 years', 'Resort owner contracted installer for other resorts'],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf',
     customer: 'Premium resort in Santa Fe, New Mexico',

@@ -1217,7 +1217,7 @@ const caseStudyData = {
   'high-end-resort-new-mexico': {
     category: 'commercial',
     title: 'High-End Resort in New Mexico',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf',
+    image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800',
     installer: 'New Water Innovations (HydroFLOW Southwest)',
     customer: 'Premium resort in Santa Fe, New Mexico, USA',
     application: 'Water heaters (64 casitas), pools, hot tubs, well, and cooling tower',
