@@ -1108,7 +1108,7 @@ const caseStudyData = {
   'maritime-reporter-magazine-article': {
     category: 'marine',
     title: 'Maritime Reporter - Magazine Article',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fbc618b16_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8076e1b04_image.png',
     application: 'Marine vessel water treatment — scale, bacteria, algae, and biofouling',
     background: 'Shipowners seeking to combat the harmful effects of lime scale, bacteria, algae and biofouling inside their vessels\' various water systems can use Hydropath Marine, a chemical-free technology for onboard water treatment. The patented Hydropath technology, which uses electrical signals to kill algae and bacteria, was initially developed in the early \'90s to treat lime scale within the home, but has since been developed for a dozen different product ranges for both land-based and marine applications.',
     results: [
