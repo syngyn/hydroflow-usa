@@ -1116,7 +1116,7 @@ const caseStudyData = {
       'Proven performance across numerous marine vessel applications.',
       'Recognized and featured in Maritime Reporter & Engineering News.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/42891495128176.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/55664d73c_42891495128176.pdf'
   },
 
   'mv-detroit-express-freshwater-generator': {
