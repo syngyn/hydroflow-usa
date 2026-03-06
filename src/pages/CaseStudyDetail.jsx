@@ -1091,7 +1091,7 @@ const caseStudyData = {
   'antares-reduced-chemical-usage': {
     category: 'marine',
     title: 'Antares - Reduced Chemical Usage',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5e77c37e_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bef600fbb_image.png',
     installer: 'Hydropath Marine',
     customer: 'Antares Shipping LTD',
     application: 'Fresh Water Generator',
@@ -1102,7 +1102,7 @@ const caseStudyData = {
       'Lower maintenance costs fleet-wide.',
       '"We recommend to any shipping manager and/or owner to install a Hydropath Marine unit on their freshwater generator."'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/25151493825669.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d0deae4aa_25151493825669.pdf'
   },
 
   'maritime-reporter-magazine-article': {
