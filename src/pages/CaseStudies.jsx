@@ -704,6 +704,7 @@ const caseStudies = [
     category: 'marine',
     title: 'MV Detroit Express - Freshwater Generator',
     slug: 'mv-detroit-express-freshwater-generator',
+
     description: 'Only 5 CIP cleanings were carried out in 12 months after Hydropath Marine installation, down from cleanings every 10-12 days.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5e77c37e_image.png',
     results: ['CIP cleaning frequency reduced from every 10-12 days to only 5 times per year', 'Soft scale found on plates — easy to remove without chemicals', 'Significant reduction in maintenance costs'],

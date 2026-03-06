@@ -1122,7 +1122,7 @@ const caseStudyData = {
   'mv-detroit-express-freshwater-generator': {
     category: 'marine',
     title: 'MV Detroit Express - Freshwater Generator',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ae70b79b0_88651495664646.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6cba0dd95_image.png',
     installer: 'Hydropath Marine',
     customer: 'Anglo Eastern Ship Management Ltd.',
     application: 'Fresh Water Generator',
