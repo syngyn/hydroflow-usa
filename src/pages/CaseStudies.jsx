@@ -770,6 +770,20 @@ const caseStudies = [
   // Commercial addition
   {
     category: 'commercial',
+    title: 'High-End Resort in New Mexico',
+    slug: 'high-end-resort-new-mexico',
+    description: 'A proof-of-concept trial with 2 s38 units led to a full installation across 64 casitas, pools, hot tubs, and a cooling tower at a high-end Santa Fe resort with 923 PPM water hardness. Equipment has been performing for over 8 years.',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf',
+    results: ['Great reduction of scale buildup on water heater heating elements after 4-month trial', 'Product evaluation led to full installation on pools, hot tubs, wells and cooling towers', 'Equipment performing per expectations for over 8 years', 'Resort owner contracted installer for other resorts'],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf',
+    customer: 'Premium resort in Santa Fe, New Mexico',
+    installer: 'New Water Innovations (HydroFLOW Southwest)',
+    application: 'Water heaters, pools, hot tubs, well, cooling tower',
+    application_type: ['Water Heaters', 'Cooling Towers', 'Swimming Pools', 'Wells'],
+    products_used: ['Pearl Plus', 'I Range']
+  },
+  {
+    category: 'commercial',
     title: 'Select Cooling Tower & Chiller Plant Case Studies',
     slug: 'select-cooling-tower-chiller-plant-case-studies',
     description: 'Overview document showing how HydroFLOW optimizes cooling towers and chiller systems — achieving 50%+ blowdown reduction, 80% scale inhibitor reduction, and 75% biocide reduction.',

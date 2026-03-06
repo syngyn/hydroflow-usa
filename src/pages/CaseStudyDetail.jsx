@@ -1214,6 +1214,29 @@ const caseStudyData = {
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/230e147e6_34751665504234.pdf'
   },
 
+  'high-end-resort-new-mexico': {
+    category: 'commercial',
+    title: 'High-End Resort in New Mexico',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf',
+    installer: 'New Water Innovations (HydroFLOW Southwest)',
+    customer: 'Premium resort in Santa Fe, New Mexico, USA',
+    application: 'Water heaters (64 casitas), pools, hot tubs, well, and cooling tower',
+    installedUnits: 'Initial evaluation: 2 x HydroFLOW s38 units; Full installation: HydroFLOW i Range units on the well and cooling tower, plus units on pools and hot tubs',
+    background: 'The resort operates its own well and wastewater facility. The water is extremely hard (54 Grain Per Gallon or 923 Parts Per Million), causing significant maintenance issues. With 64 casitas each having its own water heater, the resort was spending roughly $15,000 annually on water heater maintenance. Water softeners were not installed due to their potentially negative environmental impact on the biological balance of their wastewater facility. A local HydroFLOW distributor, New Water Innovations, conducted a proof-of-concept trial with 2 small-commercial s38 units. After 4 months, results showed a great reduction of scale buildup on the heating elements.',
+    successFactors: [
+      'Proof-of-concept trial with 2 s38 small-commercial units demonstrated scale reduction in 4 months',
+      'Results led to full installation of i Range units on well, cooling tower, pools, and hot tubs',
+      'Resort owner contracted New Water Innovations to install HydroFLOW equipment in other resorts'
+    ],
+    results: [
+      'Great reduction of scale buildup on water heater heating elements after 4-month trial.',
+      'Product evaluation led to the sale of large commercial units on pools, hot tubs, wells and cooling towers.',
+      'The installed equipment has been performing per the customer\'s expectations for over 8 years.',
+      'Resort owner contracted New Water Innovations to install HydroFLOW equipment in other resorts.'
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf'
+  },
+
   'third-party-verification-denver': {
     category: 'industrial',
     title: 'Third Party Verification Report - Denver',
