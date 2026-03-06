@@ -1084,6 +1084,144 @@ const caseStudyData = {
       'Scale removal achieved without the need for an acid clean.'
     ],
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d33c208a5_88201550515726.pdf'
+  },
+
+  // --- Newly added case studies ---
+
+  'antares-reduced-chemical-usage': {
+    category: 'marine',
+    title: 'Antares - Reduced Chemical Usage',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5e77c37e_image.png',
+    installer: 'Hydropath Marine',
+    customer: 'Antares Shipping LTD',
+    application: 'Fresh Water Generator',
+    background: 'Their vessels were experiencing issues with limescale on the titanium plates inside the fresh water generator. This scale accumulation caused problems with the fresh water production onboard, and increased their maintenance costs.',
+    results: [
+      'Scale, bio, and corrosion completely reduced since HM units were installed.',
+      'Increased efficiency of the freshwater generator systems.',
+      'Lower maintenance costs fleet-wide.',
+      '"We recommend to any shipping manager and/or owner to install a Hydropath Marine unit on their freshwater generator."'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/25151493825669.pdf'
+  },
+
+  'maritime-reporter-magazine-article': {
+    category: 'marine',
+    title: 'Maritime Reporter - Magazine Article',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fbc618b16_image.png',
+    application: 'Marine vessel water treatment — scale, bacteria, algae, and biofouling',
+    background: 'Shipowners seeking to combat the harmful effects of lime scale, bacteria, algae and biofouling inside their vessels\' various water systems can use Hydropath Marine, a chemical-free technology for onboard water treatment. The patented Hydropath technology, which uses electrical signals to kill algae and bacteria, was initially developed in the early \'90s to treat lime scale within the home, but has since been developed for a dozen different product ranges for both land-based and marine applications.',
+    results: [
+      'Chemical-free solution to combat lime scale, bacteria, algae and biofouling in ships\' water systems.',
+      'Proven performance across numerous marine vessel applications.',
+      'Recognized and featured in Maritime Reporter & Engineering News.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/42891495128176.pdf'
+  },
+
+  'mv-detroit-express-freshwater-generator': {
+    category: 'marine',
+    title: 'MV Detroit Express - Freshwater Generator',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ae70b79b0_88651495664646.jpg',
+    installer: 'Hydropath Marine',
+    customer: 'Anglo Eastern Ship Management Ltd.',
+    application: 'Fresh Water Generator',
+    background: 'Before the installation of Hydropath Marine units, the vessel\'s crew carried out CIP cleaning every 10-12 days. After installation, only 5 CIP cleanings were reported over a full 12-month period.',
+    results: [
+      'CIP cleaning frequency reduced from every 10-12 days to only 5 times in 12 months.',
+      'Soft scale found on heat exchanger plates during cleaning — easy to remove without chemicals.',
+      'Significant reduction in maintenance labor and downtime.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/59521643224356.pdf'
+  },
+
+  'mv-hoegh-america-freshwater-generator': {
+    category: 'marine',
+    title: 'MV Hoegh America - Freshwater Generator',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ae70b79b0_88651495664646.jpg',
+    installer: 'Hydropath Marine',
+    customer: 'Ray Car Carrier Ltd. – MV Hoegh America',
+    application: 'Fresh Water Generator (FWG)',
+    installedUnits: 'Hydropath Marine HM-100',
+    background: 'They were looking for a solution to lower their maintenance costs, equipment damage and chemical usage on their Fresh Water Generator due to scaling and bio issues. After six months of using the Hydropath Marine system on the FWG, the customer noticed great improvements. Normally, fresh water production reduces over time due to clogged passages from hard limescale accumulation on the plates.',
+    results: [
+      'Great reduction in maintenance costs, equipment damage, and chemical usage after six months.',
+      'No decrease in fresh water production throughout the six-month period.',
+      'Scale-free passages maintained — no clogging from limescale buildup.',
+      '"It clearly demonstrated that this method of water treatment greatly reduces maintenance costs, equipment damage and chemical usage."'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/27281493847919.pdf'
+  },
+
+  'aquavet-clinical-evaluation-phase-2': {
+    category: 'agriculture',
+    title: 'Phase 2 - Aquavet Clinical Evaluation Gyrodactylus Spp',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/123e77e92_15341495670660-400x400.jpg',
+    customer: 'AquaVet Technologies Ltd.',
+    application: 'Recirculating tilapia tanks — parasite transmission control',
+    installedUnits: 'HydroFLOW i60 unit',
+    background: 'Three large tanks (10 cubic meters each) were recirculated for 45 days. Tank 3 (disease reservoir) was stocked with 200 Hybrid Tilapia with heavy parasite presence. Water was recirculated between tank 3 and tank 4 continuously, with all incoming water to tank 4 disinfected by the HydroFLOW system. Tank 2 received untreated water from tank 3 as a control.',
+    successFactors: ['Prevent transmission of Gyrodactylus spp. parasites', 'Improve tilapia survival rate', 'Reduce morbidity and mortality rates'],
+    results: [
+      'During 45 days of observation, overall survival rate in HydroFLOW-treated tank was considerably higher compared to control tanks.',
+      'Tilapia in HydroFLOW-treated tank exhibited improved health status with lower Gyrodactylus infection levels during the first 30–40 days.',
+      'HydroFLOW water disinfection system was effective in preventing transmission of parasitic infection.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/49361493939834.pdf'
+  },
+
+  'hydroflow-optimizes-performance-apple-flume': {
+    category: 'agriculture',
+    title: 'HydroFLOW Optimizes Performance - Apple Packing Flume',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9edfa037e_Apples.jpeg',
+    installer: 'HydroFLOW West',
+    customer: 'Apple packing facility, US Pacific Northwest',
+    application: 'T-Dump flume and treatment tank — chlorine reduction and microbial control',
+    installedUnits: 'HydroFLOW industrial unit on 6-inch recirculation pipe',
+    background: 'This facility packs conventional and organic apples using a single packing line and wanted to reduce chemical usage while minimizing food safety risks from bacteria (E. coli, Listeria) and decay-causing mold. Despite treatment of the T-Dump flume with 80 ppm of PAA, the measured levels of total aerobic bacteria and total fungi were high (10³–10⁷ CFU/mL each).',
+    successFactors: ['Dramatically reduce bacteria and fungi counts', 'Reduce chlorine dosage while maintaining food safety', 'Support organic packing line operations'],
+    results: [
+      'Once the HydroFLOW signal was initiated, there was a dramatic decrease in both bacteria and fungi — from 10³–10⁷ to 10¹–10³ CFU/mL.',
+      'Chlorine dose was reduced to as low as 10 ppm Total Chlorine with non-detect microbial results.',
+      'Free Chlorine and Total Chlorine levels were exactly the same, indicating full chlorine effectiveness.',
+      'Reduced chemical usage while maintaining food safety standards for conventional and organic apple packing.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/75021533661595.pdf'
+  },
+
+  'select-cooling-tower-chiller-plant-case-studies': {
+    category: 'commercial',
+    title: 'Select Cooling Tower & Chiller Plant Case Studies',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b01fd83c_custom24condencer.png',
+    application: 'Cooling towers and chiller plants across multiple commercial facilities',
+    background: 'This document provides a brief overview of how HydroFLOW can help optimize cooling towers and chiller systems. Consistently achieving significant reductions in water usage, chemical consumption, and biocide requirements while improving heat transfer efficiency.',
+    results: [
+      '50% reduction of blowdown water usage at a minimum.',
+      '80% reduction of scale and corrosion inhibitors.',
+      '75% reduction of biocide.',
+      'Increased heat transfer efficiency due to scale and biofilm removal.',
+      'Return on investment (ROI) of 18–24 months.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/34751665504234.pdf'
+  },
+
+  'third-party-verification-denver': {
+    category: 'industrial',
+    title: 'Third Party Verification Report - Denver',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/087be9706_image.png',
+    installer: 'HydroFLOW USA',
+    customer: 'Robert W. Hite Treatment Facility, Metro Wastewater Reclamation District, Denver, CO',
+    application: 'Centrate conveyance system — struvite scale control',
+    installedUnits: 'Two custom HydroFLOW i Range units on the centrate line',
+    background: 'The centrate conveyance system at the RWHTF, particularly the transfer pump and pipe, experienced scaling requiring the system to be periodically taken offline for cleaning. An independent third-party technology verification was conducted by Samuel Jeyanayagam, PhD, PE, WEF Fellow of Jacobs Engineering to validate HydroFLOW effectiveness in controlling struvite scaling over a 60-day test period.',
+    successFactors: ['Independent third-party validation by PhD engineer', 'Control struvite scaling without chemicals', 'Soften existing hard scale deposits'],
+    results: [
+      'HydroFLOW i Range was effective in softening existing scale and preventing the formation of new scale on the centrate line.',
+      'Softening of existing scale allowed a substantial portion of original hard scale to be removed during the 60-day test period through shearing action of flowing liquid.',
+      'Verified by independent engineer: Samuel Jeyanayagam, PhD, PE, WEF Fellow / Jacobs Engineering.',
+      'Validated as effective technology for struvite scaling control at a major municipal wastewater facility.'
+    ],
+    pdfUrl: 'https://hydroflow-usa.com/assets/files/46231506637483.pdf'
   }
 };
 
