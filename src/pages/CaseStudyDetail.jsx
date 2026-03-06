@@ -1193,16 +1193,25 @@ const caseStudyData = {
     category: 'commercial',
     title: 'Select Cooling Tower & Chiller Plant Case Studies',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b01fd83c_custom24condencer.png',
-    application: 'Cooling towers and chiller plants across multiple commercial facilities',
-    background: 'This document provides a brief overview of how HydroFLOW can help optimize cooling towers and chiller systems. Consistently achieving significant reductions in water usage, chemical consumption, and biocide requirements while improving heat transfer efficiency.',
-    results: [
-      '50% reduction of blowdown water usage at a minimum.',
-      '80% reduction of scale and corrosion inhibitors.',
-      '75% reduction of biocide.',
-      'Increased heat transfer efficiency due to scale and biofilm removal.',
-      'Return on investment (ROI) of 18–24 months.'
+    application: 'Cooling towers and chiller plants across multiple commercial and industrial facilities',
+    background: 'This document provides an overview of how HydroFLOW optimizes cooling towers and chiller systems across a variety of facility types. HydroFLOW increases overall heat transfer efficiency by reducing scale and biofilm deposits, reduces the use of anti-scalant, anti-corrosive and biocide chemicals, lessens water usage by allowing cooling systems to operate at higher conductivity, and extends the service life of equipment.',
+    successFactors: [
+      'Increases overall heat transfer efficiency by reducing scale and biofilm deposits',
+      'Reduces the use of anti-scalant, anti-corrosive and biocide chemicals',
+      'Lessens water usage by allowing cooling systems to operate at higher conductivity',
+      'Extends service life of equipment'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/34751665504234.pdf'
+    results: [
+      'LEED Gold Certified Building (Fortune 100 HQ, Houston, TX): 85% blow-down water reduction (exceeded 50% goal), 75% chemical reduction, 50% reduction in maintenance frequency, 10% reduction in energy consumption. "HydroFLOW significantly improved the operation of our cooling system, in terms of cost and maintenance. This technology pays for itself with the monthly savings it attains." — Facilities Manager',
+      'Power Station Cooling Tower (500 MW, U.S. Midwest): 48% blow-down water reduction (~60 million gallons/year), 74% reduction of scale & corrosion inhibitor chemicals, 73% reduction in biocide & dechlorinator chemicals, no indication of scale or biofilm during inspections. "The cooling tower fill was one of the cleanest he had ever seen." — Project Manager',
+      'Business Complex Cooling Towers (Atlanta, GA): CFU/ml count dropped to under 1,000 within days (from 100,000 target of under 10,000). Reduced scale and biofilm in cooling tower and chiller tubes. ROI of roughly six months. Multiple HydroFLOW devices subsequently installed throughout the complex.',
+      'Hotel Cooling Tower (Oahu, HI): Scale accumulation stopped immediately after installation; anti-scalant and anti-corrosive chemicals fully discontinued after 1.5 months; biocide reduced 75% with minimal bacteria counts; bleed/blow-down reduced by 50%; chiller efficiency maintained.',
+      'Hospital Cooling Tower: After 5 months chemical-free, no hard scale accumulation; Heterotrophic biological count well under 1,000 CFU/ml; chiller operating more efficiently due to scale and biofilm removal. Loose mineral deposits collect in sump instead of as hard scale inside pipes and equipment.',
+      'Casino Chiller Plant: Conductivity increased from 1,750 to 3,500 µS/cm (greatly reducing water usage); anti-scalant and anti-corrosive chemicals discontinued after 12 weeks; biocide reduced by 75%; bacteria counts under 1,000 CFU/ml; 15-month payback period.',
+      'U.S. Air Force Base Cooling Tower: No industrial water treatment chemicals used for 9–10 months of operation. All scale removed; no bio-fouling or return of scale since chemical removal. Loose mud-like material (instead of hard scale) easily removed with a garden hose.',
+      'Medical Center Cooling Tower: Cooling tower and chillers maintained within industry standards while reducing chemicals and blowdown water; biocide reduced 75% with CFU/ml under 1,000; greatly reduced chance of Legionnaires\' disease outbreak; blow-down reduced by over 65%; payback period under two years.'
+    ],
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/230e147e6_34751665504234.pdf'
   },
 
   'third-party-verification-denver': {
