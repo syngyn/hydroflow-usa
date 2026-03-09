@@ -1268,7 +1268,13 @@ export default function CaseStudyDetail() {
     setPdfLoading(true);
     try {
       const response = await base44.functions.invoke('caseStudyPdf', { slug: s });
-      const blob = new Blob([response.data], { type: 'application/pdf' });
+      const { base64, filename } = response.data;
+      const byteChars = atob(base64);
+      const byteArray = new Uint8Array(byteChars.length);
+      for (let i = 0; i < byteChars.length; i++) {
+        byteArray[i] = byteChars.charCodeAt(i);
+      }
+      const blob = new Blob([byteArray], { type: 'application/pdf' });
       const blobUrl = URL.createObjectURL(blob);
       window.open(blobUrl, '_blank');
     } finally {
