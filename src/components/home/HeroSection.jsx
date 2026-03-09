@@ -7,33 +7,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const products = [
   {
-    name: 'Pearl Plus',
-    tag: 'MOST POPULAR',
-    coverage: 'For homes up to 3,000 sq ft',
-    oldPrice: '$695',
-    price: '$495',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/00e27e7ff_pearl-plus-on-pipe.png',
-    page: 'ProductPearlPlus'
-  },
-  {
-    name: 'Pearl',
-    tag: 'BEST VALUE',
-    coverage: 'For homes up to 2,000 sq ft',
-    oldPrice: '$595',
-    price: '$395',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f46d7be5f_Pearlsidefronttransparent.png',
-    page: 'ProductPearl'
-  },
-  {
-    name: <><i>hs</i>40</>,
-    tag: 'POOL & SPA',
-    coverage: 'For pools up to 40,000 gallons',
-    oldPrice: '$2,150',
-    price: '$1,990',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/054ccee82_hs40.png',
-    page: 'ProductHS40'
-  },
-  {
     name: <><i>i</i> Range</>,
     tag: 'INDUSTRIAL',
     coverage: 'Commercial & industrial applications',
@@ -50,6 +23,33 @@ const products = [
     price: 'Custom',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f78dd7ace_hm-Rangenew.png',
     page: 'ProductHMRange'
+  },
+  {
+    name: <><i>hs</i>40</>,
+    tag: 'POOL & SPA',
+    coverage: 'For pools up to 40,000 gallons',
+    oldPrice: '$2,150',
+    price: '$1,990',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/054ccee82_hs40.png',
+    page: 'ProductHS40'
+  },
+  {
+    name: 'Pearl',
+    tag: 'BEST VALUE',
+    coverage: 'For homes up to 2,000 sq ft',
+    oldPrice: '$595',
+    price: '$395',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f46d7be5f_Pearlsidefronttransparent.png',
+    page: 'ProductPearl'
+  },
+  {
+    name: 'Pearl Plus',
+    tag: 'MOST POPULAR',
+    coverage: 'For homes up to 3,000 sq ft',
+    oldPrice: '$695',
+    price: '$495',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/00e27e7ff_pearl-plus-on-pipe.png',
+    page: 'ProductPearlPlus'
   }
 ];
 
