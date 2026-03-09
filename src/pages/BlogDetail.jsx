@@ -1559,7 +1559,7 @@ const blogContent = {
       
       <p>"At the end of May, when the <i>Hydro</i>FLOW device was turned on, we noticed immediate changes; the monitor kept reading high levels of pH and chlorine," said Isha Wyman, pool manager for the Yakima nation. "We had to keep reducing our chemicals in order to get the pH to stabilize between 7.2 and 8 and the chlorine to stay at 1 ppm. Our customers gave us compliments throughout the last three months of the bathing season. The state inspector claims our pool is the cleanest in the Yakima Valley."</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/before%2Bhydroflow%2Bin%2Bpool(3).jpg" alt="before using hydroFLOW in pool" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5bcba5c44_beforehydroflowinpool3.jpg" alt="before using hydroFLOW in pool" />
       
       <img src="https://hydroflow-usa.com/assets/userfiles/images/after%2Bhydroflow%2Bin%2Bpool(3).jpg" alt="after using hydroFLOW in pool" />
       
