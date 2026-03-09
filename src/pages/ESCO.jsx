@@ -76,9 +76,9 @@ export default function ESCO() {
                 </Button>
               </Link>
               <a href="https://www.energy.gov/eere/femp/energy-service-companies-0" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="rounded-full px-8 py-6 text-lg font-semibold border-2 border-white text-white hover:bg-white/10">
-                  Learn About ESCOs
-                </Button>
+                <Button variant="outline" className="rounded-full px-8 py-6 text-lg font-semibold border-2 border-white text-white bg-white/10 hover:bg-white/20">
+                   Learn About ESCOs
+                 </Button>
               </a>
             </div>
           </motion.div>
