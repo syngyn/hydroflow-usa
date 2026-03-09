@@ -86,7 +86,7 @@ export default function Corrosion() {
               <img 
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f7f060ade_corrosion_bottom.jpg"
                 alt="How Hydropath technology reduces corrosion"
-                className="w-full rounded-xl"
+                className="w-3/4 mx-auto block rounded-xl"
               />
             </div>
           </div>
