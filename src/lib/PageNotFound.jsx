@@ -17,7 +17,6 @@ export default function PageNotFound({}) {
                 });
                 
                 if (response.data?.redirectUrl) {
-                    // Use window.location for a server-side style redirect (SEO-friendly 301)
                     window.location.href = response.data.redirectUrl;
                 }
             } catch (error) {
