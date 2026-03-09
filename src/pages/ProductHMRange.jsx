@@ -299,7 +299,11 @@ export default function ProductHMRange() {
                       onClick={() => window.open(doc.url, '_blank')}
                     >
                       <Package className="w-4 h-4 mr-2" />
-                      <span>{doc.label.replace('HM', '<i>hm</i>')} (PDF)</span>
+                      {doc.label === 'Hydropath Marine Brochure' ? (
+                        <span>{doc.label} (PDF)</span>
+                      ) : (
+                        <span>Hydropath <i>hm</i> Range {doc.label.includes('Specification') ? 'Specification' : 'Installation Guide'} (PDF)</span>
+                      )}
                     </Button>
                   ))}
                 </div>
