@@ -60,7 +60,7 @@ const caseStudyData = {
       'Due to the water savings that can be achieved with HydroFLOW, the customer may be able to delay a multi-million-dollar wastewater treatment plant upgrade for another 3-5 years.',
       'The customer plans to install more HydroFLOW units throughout the facility, including 7 additional cooling tower systems'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/46e80b0d5_HydroFLOW-industrial-case-study-massive-Texas-factory.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW-industrial-case-study-massive-Texas-factory.pdf'
   },
   'sludge-line-struvite-treatment': {
     category: 'industrial',
@@ -73,7 +73,7 @@ const caseStudyData = {
     results: [
       'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
   },
   'screw-press-struvite-treatment': {
     category: 'industrial',
