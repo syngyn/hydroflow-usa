@@ -787,8 +787,50 @@ const caseStudies = [
     background: 'The centrate conveyance system at the RWHTF, particularly the transfer pump and pipe, experienced scaling requiring the system to be periodically taken offline for cleaning. An independent third-party technology verification was conducted by Samuel Jeyanayagam, PhD, PE, WEF Fellow of Jacobs Engineering to validate HydroFLOW effectiveness in controlling struvite scaling.',
     application_type: ['Wastewater Treatment'],
     products_used: ['I Range']
+  },
+
+  // Missing industrial case studies
+  {
+    category: 'industrial',
+    title: 'Paper Mill Bleach Plant',
+    slug: 'paper-mill-bleach-plant',
+    description: 'HydroFLOW installation in paper mill bleach plant operations.',
+    image: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800',
+    results: ['TBD', 'TBD', 'TBD'],
+    application_type: ['Other'],
+    products_used: ['I Range']
+  },
+  {
+    category: 'industrial',
+    title: 'City of Orlando Wastewater Treatment Plant',
+    slug: 'city-of-orlando-wastewater-treatment-plant',
+    description: 'Wastewater treatment facility in Orlando implementing HydroFLOW technology.',
+    image: 'https://images.unsplash.com/photo-1581092916550-e323be2ae537?w=800',
+    results: ['TBD', 'TBD', 'TBD'],
+    application_type: ['Wastewater Treatment'],
+    products_used: ['I Range']
+  },
+  {
+    category: 'industrial',
+    title: 'Kentucky Distillery Cooling Tower and Dephlegmator',
+    slug: 'kentucky-distillery-cooling-tower-dephlegmator',
+    description: 'Distillery cooling tower and dephlegmator system optimization using HydroFLOW technology.',
+    image: 'https://images.unsplash.com/photo-1532634726-8cded1ce3360?w=800',
+    results: ['TBD', 'TBD', 'TBD'],
+    application_type: ['Cooling Towers', 'Heat Exchangers'],
+    products_used: ['I Range']
+  },
+  {
+    category: 'industrial',
+    title: 'Dissolved Air Flotation (DAF) Packaging Facility in Houston, Texas',
+    slug: 'daf-packaging-facility-houston-texas',
+    description: 'HydroFLOW product evaluation at dissolved air flotation system in packaging facility.',
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800',
+    results: ['TBD', 'TBD', 'TBD'],
+    application_type: ['Food Processing', 'Other'],
+    products_used: ['I Range']
   }
-];
+  ];
 
 const applicationTypes = [
   'Cooling Towers', 'Boilers', 'HVAC Systems', 'Water Heaters', 'Swimming Pools',
