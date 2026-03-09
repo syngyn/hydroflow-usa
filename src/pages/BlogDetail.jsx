@@ -1561,7 +1561,7 @@ const blogContent = {
       
       <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5bcba5c44_beforehydroflowinpool3.jpg" alt="before using hydroFLOW in pool" style="width: 50%; height: auto;" />
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/after%2Bhydroflow%2Bin%2Bpool(3).jpg" alt="after using hydroFLOW in pool" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f973ceef8_afterhydroflowinpool3.jpg" alt="after using hydroFLOW in pool" style="width: 50%; height: auto;" />
       
       <p><strong>After</strong></p>
       
