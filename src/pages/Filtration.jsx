@@ -220,8 +220,8 @@ export default function Filtration() {
             >
               <div className="bg-gradient-to-br from-cyan-500/20 to-cyan-600/20 rounded-3xl p-8">
                 <img 
-                  src="https://hydroflow-usa.com/assets/userfiles/images/Filtration/filtration_bottom.png"
-                  alt="Filtration Process"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a87526582_filtration_bottom.png"
+                                     alt="Filtration Process"
                   className="w-full"
                 />
               </div>
