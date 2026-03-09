@@ -69,16 +69,16 @@ export default function ESCO() {
               that help organizations reduce energy, water and operational expenses.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to={createPageUrl('Contact')}>
-                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
+              <Link to={createPageUrl('Contact')} className="block">
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
                   Contact Us
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <a href="https://www.energy.gov/eere/femp/energy-service-companies-0" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
-                   Learn About ESCOs
-                 </Button>
+              <a href="https://www.energy.gov/eere/femp/energy-service-companies-0" target="_blank" rel="noopener noreferrer" className="block">
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
+                  Learn About ESCOs
+                </Button>
               </a>
             </div>
           </motion.div>
