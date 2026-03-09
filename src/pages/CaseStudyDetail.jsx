@@ -1413,11 +1413,9 @@ export default function CaseStudyDetail() {
                         <p className="text-sm text-slate-600">Download the complete PDF for detailed information</p>
                       </div>
                     </div>
-                    <a href={getPdfUrl(slug)} target="_blank" rel="noopener noreferrer">
-                      <Button className="bg-cyan-600 hover:bg-cyan-700 text-white">
-                        View PDF
-                      </Button>
-                    </a>
+                    <Button onClick={() => openPdf(slug)} disabled={pdfLoading} className="bg-cyan-600 hover:bg-cyan-700 text-white">
+                      {pdfLoading ? 'Loading...' : 'View PDF'}
+                    </Button>
                   </div>
                 </Card>
               </motion.div>
