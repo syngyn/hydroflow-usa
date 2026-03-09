@@ -84,7 +84,7 @@ export default function Corrosion() {
           <div className="max-w-5xl mx-auto">
             <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl">
               <img 
-                src="https://hydroflow-usa.com/assets/userfiles/images/Corrosion/corrosion_bottom.png"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f7f060ade_corrosion_bottom.jpg"
                 alt="How Hydropath technology reduces corrosion"
                 className="w-full rounded-xl"
               />
