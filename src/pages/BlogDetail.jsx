@@ -1547,7 +1547,7 @@ const blogContent = {
     date: '2024-04-22',
     readTime: '7 min read',
     category: 'commercial',
-    image: 'https://hydroflow-usa.com/assets/userfiles/images/yakima%2Bvalley%2Bsymbol.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a85e705c8_yakimavalleysymbol.jpg',
     content: `
       <p>According to the U.S. Centers for Disease Control and Prevention, E. coli bacteria, normally found in the human gut and feces, are present in alarming quantities in a majority of pools. The bacteria find their way into pools when people do not take showers before swimming or have "accidents" in the water. It is more likely to find fecal contamination in municipal pools. <i>Hydro</i>FLOW water conditioners are one method of secondary disinfection that can reduce bacterial contamination and chemical consumption in pools.</p>
       
