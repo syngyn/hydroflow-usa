@@ -289,14 +289,14 @@ export default function ESCO() {
               Contact us to learn how HydroFLOW can help your ESCO achieve its cost-saving objectives.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to={createPageUrl('Contact')}>
-                <Button className="bg-white text-cyan-600 hover:bg-cyan-50 rounded-full px-8 py-6 text-lg font-semibold">
+              <Link to={createPageUrl('Contact')} className="block">
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
                   Contact Us
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <Link to={createPageUrl('CaseStudies')}>
-                <Button variant="outline" className="rounded-full px-8 py-6 text-lg font-semibold border-2 border-white text-white hover:bg-white/10">
+              <Link to={createPageUrl('CaseStudies')} className="block">
+                <Button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
                   View More Case Studies
                 </Button>
               </Link>
