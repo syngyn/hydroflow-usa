@@ -132,7 +132,7 @@ export default function FoodBeverage() {
               <img 
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e5d20031a_foodandbeverageprocessors.PNG"
                 alt="Results from food processing plant"
-                className="w-full rounded-xl shadow-lg mb-6"
+                className="w-1/2 rounded-xl shadow-lg mb-6"
               />
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
