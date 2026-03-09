@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from "@/components/ui/button";
@@ -20,13 +19,7 @@ export default function ArizonaWaterHardness() {
   ];
 
   return (
-    <>
-      <Helmet>
-        <title>Arizona Water Hardness - Complete City Guide | HydroFLOW USA</title>
-        <meta name="description" content="Arizona water hardness ranges from 210-615 PPM (very hard). Find water hardness data for Phoenix, Tucson, Scottsdale and other Arizona cities." />
-      </Helmet>
-
-      <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
@@ -119,6 +112,5 @@ export default function ArizonaWaterHardness() {
           </div>
         </section>
       </div>
-    </>
   );
 }
