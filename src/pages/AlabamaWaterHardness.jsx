@@ -106,6 +106,8 @@ export default function AlabamaWaterHardness() {
                 </Link>
               </div>
             </motion.div>
-          </div>
-        </section>
-      </div>
+            </div>
+            </section>
+            </div>
+            );
+            }
