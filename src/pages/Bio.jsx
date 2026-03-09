@@ -191,7 +191,7 @@ export default function Bio() {
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <img 
-                    src="https://hydroflow-usa.com/assets/userfiles/images/Bio/img5.jpg"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b734e89a9_img5.jpg"
                     alt="Biofilm removal with Hydropath signal"
                     className="w-full rounded-xl shadow-lg"
                   />
