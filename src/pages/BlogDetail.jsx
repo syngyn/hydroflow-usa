@@ -1553,7 +1553,7 @@ const blogContent = {
       
       <p>The municipal swimming pool in Wapato, Washington is a 375,000-gallon olympic-sized outdoor pool that serves the community of the Yakima Valley area. The Yakima Nation pool operators made the decision to install a <i>Hydro</i>FLOW water conditioner in front of the pool's filter system in order to optimize the pool's performance by eradicating bacteria, reducing chemical usage, enhancing filtration and minimizing maintenance.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a85e705c8_yakimavalleysymbol.jpg" alt="yakima valley symbol" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a85e705c8_yakimavalleysymbol.jpg" alt="yakima valley symbol" style="width: 50%; height: auto;" />
       
       <p>During the 2012 swimming season, the pool operators decided to run the pool without using the <i>Hydro</i>FLOW device for a full month to establish a baseline of chemical and filter media usage. The baseline data then were compared with the remaining three months of the bathing season. Return on investment was five months. Swimmers also noticed a reduction in chlorine smell and eye discomfort.</p>
       
