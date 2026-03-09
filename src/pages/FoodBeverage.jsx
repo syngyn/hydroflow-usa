@@ -130,7 +130,7 @@ export default function FoodBeverage() {
             <div className="bg-cyan-50 border-l-4 border-cyan-500 p-8 rounded-r-lg mb-8">
               <h4 className="text-xl font-bold text-slate-900 mb-4">Results</h4>
               <img 
-                src="https://hydroflow-usa.com/assets/userfiles/images/food%2Band%2Bbeverage%2Bprocessors.PNG"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e5d20031a_foodandbeverageprocessors.PNG"
                 alt="Results from food processing plant"
                 className="w-full rounded-xl shadow-lg mb-6"
               />
