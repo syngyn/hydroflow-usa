@@ -653,16 +653,7 @@ const caseStudies = [
     application_type: ['Marine Systems'],
     products_used: ['HM Range']
   },
-  {
-    category: 'marine',
-    title: 'MV Hoegh Antwerp - Scale Prevention',
-    slug: 'mv-hoegh-antwerp-scale-prevention',
-    description: 'No scale buildup was found during opening and no chemicals were required for cleaning.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ae70b79b0_88651495664646.jpg',
-    results: ['Zero scale buildup', 'Chemical-free cleaning', 'Easy maintenance'],
-    application_type: ['Marine Systems'],
-    products_used: ['HM Range']
-  },
+
   {
     category: 'marine',
     title: 'Car Carrier - Main Cooling System',
