@@ -714,7 +714,7 @@ const caseStudies = [
     description: 'After six months, great reduction in maintenance costs, equipment damage and chemical usage on their Fresh Water Generator — with no decrease in fresh water production.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ae70b79b0_88651495664646.jpg',
     results: ['Great reduction in maintenance costs, equipment damage, and chemical usage', 'No decrease in fresh water production over 6 months', 'Scale-free passages maintained throughout'],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/27281493847919.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/28f6547ec_27281493847919.pdf',
     customer: 'Ray Car Carrier Ltd. – MV Hoegh America',
     installer: 'Hydropath Marine',
     application: 'Fresh Water Generator (FWG)',

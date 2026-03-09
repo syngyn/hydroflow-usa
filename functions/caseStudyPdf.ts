@@ -62,7 +62,7 @@ Deno.serve(async (req) => {
     'antares-reduced-chemical-usage': 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d0deae4aa_25151493825669.pdf',
     'maritime-reporter-magazine-article': 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/55664d73c_42891495128176.pdf',
     'mv-detroit-express-freshwater-generator': 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d7c9e58bd_59521643224356.pdf',
-    'mv-hoegh-america-freshwater-generator': 'https://hydroflow-usa.com/assets/files/27281493847919.pdf',
+    'mv-hoegh-america-freshwater-generator': 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/28f6547ec_27281493847919.pdf',
     'steel-company-spray-bar-system': 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b98089f6f_HydroFLOW-industrial-case-study-steel-company-spray-bar-system.pdf',
     'biofilm-reduction-referral-letter': 'https://hydroflow-usa.com/assets/files/61401638211314.pdf',
     'lehigh-county-wwtp-struvite-treatment': 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6932f7838_HydroFLOW-industrial-referral-letter-lehigh-county-wastewater-treatment-plant.pdf',
