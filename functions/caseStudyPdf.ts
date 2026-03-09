@@ -1,9 +1,16 @@
 Deno.serve(async (req) => {
   const url = new URL(req.url);
   
-  // Get slug from query param
-  const slug = url.searchParams.get('slug');
+  // Get slug from query param or request body
+  let slug = url.searchParams.get('slug');
   
+  if (!slug) {
+    try {
+      const body = await req.json();
+      slug = body.slug;
+    } catch {}
+  }
+
   if (!slug) {
     return new Response('Not found', { status: 404 });
   }
