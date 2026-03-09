@@ -1298,7 +1298,7 @@ export default function CaseStudyDetail() {
                     <p className="text-sm text-slate-600">Download the complete PDF</p>
                   </div>
                 </div>
-                <a href={`https://api.base44.app/v1/apps/6933444aa399ff1da59bbd5c/functions/caseStudyPdf?slug=${slug}`} target="_blank" rel="noopener noreferrer">
+                <a href={getPdfUrl(slug)} target="_blank" rel="noopener noreferrer">
                  <Button className="bg-cyan-600 hover:bg-cyan-700 text-white">View PDF</Button>
                 </a>
               </div>
