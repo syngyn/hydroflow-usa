@@ -25,31 +25,31 @@ const caseStudies = [
     title: 'Water Reclamation Facility in Orlando, Florida',
     description: '<i>Hydro</i>FLOW equipment was installed at the Orlando, FL, Water Conserv II Water Reclamation Facility for a struvite removal and prevention trial.',
     results: 'After five months, a significant reduction of struvite build-up and a surprising 20% reduction in polymer use was achieved.',
-    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/49608f566_HydroFLOW-industrial-case-study-city-of-orlando-wastewater-treatment-plant.pdf'
+    pdfLink: 'https://pdf.hydroflow-usa.com/HydroFLOW-industrial-case-study-city-of-orlando-wastewater-treatment-plant.pdf'
   },
   {
     title: 'Wastewater Treatment Plant in London, Ohio',
     description: '<i>Hydro</i>FLOW equipment was installed to determine if struvite can be removed from the belt press without chemical, manual or mechanical assistance.',
     results: 'Fantastic results were achieved after just 35 days.',
-    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4f70919bc_CaseStudy-LondonOhioWastewaterTreatmentPlant-StruviteTreatment.pdf'
+    pdfLink: 'https://pdf.hydroflow-usa.com/CaseStudy-LondonOhioWastewaterTreatmentPlant-StruviteTreatment.pdf'
   },
   {
     title: 'Wastewater Treatment Plant in Augusta, Georgia',
     description: 'Independent, third-party technology verification to validate the effectiveness of the <i>Hydro</i>FLOW i Range product with respect to controlling struvite scaling.',
     results: 'Following the installation of <i>Hydro</i>FLOW and discontinuation of antiscalant, the existing scale became soft and was easily removed by spraying with high-pressure water. The facility eliminated the use of antiscalants chemicals and realized significant cost savings of approximately $4,000 per month.',
-    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/01fc2c4df_HydroFLOWThirdPartyVerificationReport-Augusta-8Nov2018.pdf'
+    pdfLink: 'https://pdf.hydroflow-usa.com/HydroFLOWThirdPartyVerificationReport-Augusta-8Nov2018.pdf'
   },
   {
     title: 'Wastewater Treatment Plant in Denver, Colorado',
     description: 'Independent, third-party technology verification focusing on identifying changes to struvite scaling before and after installing <i>Hydro</i>FLOW units.',
     results: 'Based on the review of the data and discussion with staff, the use of <i>Hydro</i>FLOW i Range on the centrate line was effective in softening the existing scale and preventing the formation of new scale. Softening of the existing scale allowed a substantial portion of the original hard scale to be removed during the 60-day test period.',
-    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ee8d96987_46231506637483.pdf'
+    pdfLink: 'https://pdf.hydroflow-usa.com/46231506637483.pdf'
   },
   {
     title: 'Wastewater Treatment Plant in Tulsa, Oklahoma',
     description: 'Independent, third-party technology verification to validate the effectiveness of the <i>Hydro</i>FLOW i Range product with respect to controlling struvite scaling.',
     results: 'This verification report validates that the use of a <i>Hydro</i>FLOW i Range unit prevented scale formation in a BFP used for dewatering anaerobically digested sludge. The unit also caused changes in the physical characteristics of the existing scale, making it easier to be removed.',
-    pdfLink: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7340df0fa_HydroFLOW-industrial-third-party-verification-report-tulsa-southside-WWTP.pdf'
+    pdfLink: 'https://pdf.hydroflow-usa.com/HydroFLOW-industrial-third-party-verification-report-tulsa-southside-WWTP.pdf'
   }
 ];
 

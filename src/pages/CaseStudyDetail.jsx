@@ -42,7 +42,7 @@ const caseStudyData = {
       'Successfully upgraded to new high-efficiency water heaters in 2025 with Generation 4 i60 unit protection.',
       'Real-time monitoring capability through HydroKNCT IoT device and Hydropath Care software enables proactive maintenance.'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ca3b1534f_HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf'
   },
   'massive-texas-factory': {
     category: 'industrial',
@@ -91,7 +91,7 @@ const caseStudyData = {
       'The reduction of chemical usage and time saved in manual cleaning led to a 3-month payback period.',
       '"Outstanding results! Night and day difference before and after HydroFLOW." - Maintenance Manager'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8199139ff_HydroFLOWCaseStudy-ScrewPressStruviteTreatment-2023.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOWCaseStudy-ScrewPressStruviteTreatment-2023.pdf'
   },
   'optimization-steamer-oven': {
     category: 'commercial',
@@ -114,7 +114,7 @@ const caseStudyData = {
       'Chemical and labor savings combined provided a return on investment of less than 6 months',
       'Life cycle of the steamer oven is expected to extend significantly as a result of lessened chemical cleaning'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/58625dd97_HydroFLOW-commercial-case-study-optimizes-steamer-ovens-maintenance-cycles-update4292021.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW-commercial-case-study-optimizes-steamer-ovens-maintenance-cycles-update4292021.pdf'
   },
   'scale-reduction-private-dental-practice': {
     category: 'commercial',
@@ -139,7 +139,7 @@ const caseStudyData = {
       'Manual scrubbing of fixtures was less labor intensive and not as frequent',
       'Weekly cleaning continued for sanitary purposes, but the amount of scale was negligible'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f111e4bbc_HydroFLOW-commercial-case-study-private-dental-practice.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW-commercial-case-study-private-dental-practice.pdf'
   },
   'scale-reduction-gas-station-convenience-store': {
     category: 'commercial',
@@ -167,7 +167,7 @@ const caseStudyData = {
       'The estimated return on investment for a typical store is between 6 to 12 months.',
       'Over 30 locations are now protected from the harmful effects of scale and biofilm, with more being added.'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6a0a3a88e_HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf'
   },
   'gold-leed-campus': {
     category: 'commercial',
@@ -296,7 +296,7 @@ const caseStudyData = {
       'The old scale on the cooling tower fins was removed. Some scale looking like a powder was precipitated in the bottom of the basin.',
       'Customer concluded that AquaKlear is a better treatment method than chemicals, with no chemical pollution.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/85191493939481.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/85191493939481.pdf'
   },
   'hydroflow-reduces-algae-growth': {
     category: 'agriculture',
@@ -313,7 +313,7 @@ const caseStudyData = {
       'After the installation of HydroFLOW, the backwash process took 3-5 minutes.',
       'Reduced maintenance costs resulted in an estimated 1.5 year return on investment.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/81121493936806.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/81121493936806.pdf'
   },
   'food-processing-cooling-tower': {
     category: 'agriculture',
@@ -402,7 +402,7 @@ const caseStudyData = {
       'Significant cost savings associated with reduced chemical usage.',
       'Increased heat transfer efficiency.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/39511493849268.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/39511493849268.pdf'
   },
   'municipal-golf-course-in-texas': {
     category: 'agriculture',
@@ -451,7 +451,7 @@ const caseStudyData = {
       'Successfully maintained appropriate cleanliness of the production line.',
       'Met high standards required by a Fortune 500 company.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/61401638211314.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/61401638211314.pdf'
   },
   'lehigh-county-wwtp-struvite-treatment': {
     category: 'industrial',
@@ -519,7 +519,7 @@ const caseStudyData = {
       'Steam condenser transit temperature dropped by 1.5⁰C and vacuum pressure increased by 1KPa compared with the same period in previous year.',
       'Discharge water from the cooling tower was used now for gardening and other application because there were no chemicals in the discharged water.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/83871498261386.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/83871498261386.pdf'
   },
   'power-station-steam-condenser': {
     category: 'industrial',
@@ -592,7 +592,7 @@ const caseStudyData = {
       'Biocide chemicals were reduced by 75% while keeping CFU counts under 1,000 (close to drinking water).',
       'Medical Center\'s head of maintenance at the 7 month chiller tube inspection: "This is the cleanest the chiller tubes had ever been."'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/43801662059912.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/43801662059912.pdf'
   },
   'gold-gym-lap-pool': {
    category: 'commercial',
@@ -689,7 +689,7 @@ const caseStudyData = {
       'Water flow in the showers was increased dramatically.',
       'The water fountain was cleaned.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/36171495126964.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/36171495126964.pdf'
   },
   'scale-and-bio-treatment-in-outdoor-pool': {
     category: 'commercial',
@@ -757,7 +757,7 @@ const caseStudyData = {
       'The i14" device helped the commercial complex achieve a return on investment of roughly six months.',
       'This led to the installation of multiple custom HydroFLOW devices on cooling towers and potable water systems throughout the commercial complex.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/75341661965067.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/75341661965067.pdf'
   },
   'long-stem-rose-growth': {
     category: 'agriculture',
@@ -803,7 +803,7 @@ const caseStudyData = {
       'The lab test results stated the water was clear and negative for Total Coliform – Satisfactory.',
       'Customer comment: "We had the water tested and it came back clear. Yippee!"'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/25211539882204.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/25211539882204.pdf'
   },
   'plumbing-contractor': {
     category: 'residential',
@@ -817,7 +817,7 @@ const caseStudyData = {
       'Pool – almost totally eliminates the need for pool chemicals.',
       'With Hydropath technology, there is no longer a need for traditional water softeners.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/15281493934433.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/15281493934433.pdf'
   },
   'product-evaluation-tankless-boiler': {
     category: 'residential',
@@ -832,7 +832,7 @@ const caseStudyData = {
       'The device under test has kept the hard water from depositing enough minerals to impair heater operation during this series of time accelerated testing.',
       'Analysis of the deposits and flow readings indicate that this unit is effective in preventing clogging due to calcium carbonate build up.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/86361495130169.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/86361495130169.pdf'
   },
   'residential-well': {
     category: 'residential',
@@ -848,7 +848,7 @@ const caseStudyData = {
       'No water spots on glassware or dishes.',
       'The aerators and showerheads have no deposits to clog their operation.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/75351495060345.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/75351495060345.pdf'
   },
   'residential-complex': {
     category: 'residential',
@@ -863,7 +863,7 @@ const caseStudyData = {
       'They were able to save on costs significantly, as it avoided the enormous replacement and maintenance costs it was facing.',
       'An additional benefit was that the community was able to pass along savings to its tenants as a result of the improved operating efficiency of each apartment\'s water heater.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/87271493931205.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/87271493931205.pdf'
   },
   'residential-dishwasher': {
     category: 'residential',
@@ -878,7 +878,7 @@ const caseStudyData = {
       'Following the installation of the water conditioner, we immediately notice the glassware become spotless.',
       'The limescale on the heating element gradually began to dissolve over a period of 3 months.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/31351493931674.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/31351493931674.pdf'
   },
   'residential-pool': {
     category: 'residential',
@@ -949,7 +949,7 @@ const caseStudyData = {
       'The water was clean and clear.',
       'Were able to get their organic food processing license.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/64021494003033.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/64021494003033.pdf'
   },
   'aquavet-clinical-evaluation-fish-health': {
     category: 'agriculture',
@@ -970,7 +970,7 @@ const caseStudyData = {
       'Healthier fish overall with better growth rates.',
       'Cleaner water conditions in aquaculture tanks.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/84961495125171.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/84961495125171.pdf'
   },
 
   'us-navy-seafighter': {
@@ -1065,7 +1065,7 @@ const caseStudyData = {
       'HydroFLOW plots had better color and roots.',
       'Scientific validation of HydroFLOW\'s positive impact on crop growth.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/74431493851538.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/74431493851538.pdf'
   },
   '60-hp-low-pressure-steam-boiler': {
     category: 'industrial',
@@ -1167,7 +1167,7 @@ const caseStudyData = {
       'Tilapia in HydroFLOW-treated tank exhibited improved health status with lower Gyrodactylus infection levels during the first 30–40 days.',
       'HydroFLOW water disinfection system was effective in preventing transmission of parasitic infection.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/49361493939834.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/49361493939834.pdf'
   },
 
   'hydroflow-optimizes-performance-apple-flume': {
@@ -1186,7 +1186,7 @@ const caseStudyData = {
       'Free Chlorine and Total Chlorine levels were exactly the same, indicating full chlorine effectiveness.',
       'Reduced chemical usage while maintaining food safety standards for conventional and organic apple packing.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/75021533661595.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/75021533661595.pdf'
   },
 
   'select-cooling-tower-chiller-plant-case-studies': {
@@ -1211,7 +1211,7 @@ const caseStudyData = {
       'U.S. Air Force Base Cooling Tower: No industrial water treatment chemicals used for 9–10 months of operation. All scale removed; no bio-fouling or return of scale since chemical removal. Loose mud-like material (instead of hard scale) easily removed with a garden hose.',
       'Medical Center Cooling Tower: Cooling tower and chillers maintained within industry standards while reducing chemicals and blowdown water; biocide reduced 75% with CFU/ml under 1,000; greatly reduced chance of Legionnaires\' disease outbreak; blow-down reduced by over 65%; payback period under two years.'
     ],
-    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/230e147e6_34751665504234.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/34751665504234.pdf'
   },
 
   'high-end-resort-new-mexico': {
@@ -1253,7 +1253,7 @@ const caseStudyData = {
       'Verified by independent engineer: Samuel Jeyanayagam, PhD, PE, WEF Fellow / Jacobs Engineering.',
       'Validated as effective technology for struvite scaling control at a major municipal wastewater facility.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/46231506637483.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/46231506637483.pdf'
   }
 };
 
