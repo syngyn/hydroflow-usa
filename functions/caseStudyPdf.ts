@@ -98,13 +98,7 @@ Deno.serve(async (req) => {
   }
 
   const pdfBuffer = await response.arrayBuffer();
+  const base64 = btoa(String.fromCharCode(...new Uint8Array(pdfBuffer)));
 
-  return new Response(pdfBuffer, {
-    status: 200,
-    headers: {
-      'Content-Type': 'application/pdf',
-      'Content-Disposition': `inline; filename="${slug}.pdf"`,
-      'Cache-Control': 'public, max-age=86400',
-    }
-  });
+  return Response.json({ base64, filename: `${slug}.pdf` });
 });
