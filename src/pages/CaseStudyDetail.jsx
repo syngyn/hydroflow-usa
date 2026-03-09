@@ -1262,8 +1262,18 @@ export default function CaseStudyDetail() {
   const [searchParams] = useSearchParams();
   const slug = searchParams.get('slug');
 
-  const getPdfUrl = (s) => {
-    return base44.functions.getUrl('caseStudyPdf') + `?slug=${s}`;
+  const [pdfLoading, setPdfLoading] = useState(false);
+
+  const openPdf = async (s) => {
+    setPdfLoading(true);
+    try {
+      const response = await base44.functions.invoke('caseStudyPdf', { slug: s });
+      const blob = new Blob([response.data], { type: 'application/pdf' });
+      const blobUrl = URL.createObjectURL(blob);
+      window.open(blobUrl, '_blank');
+    } finally {
+      setPdfLoading(false);
+    }
   };
   const study = caseStudyData[slug];
 
