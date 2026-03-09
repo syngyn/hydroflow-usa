@@ -121,7 +121,7 @@ export default function Scale() {
               </div>
               <div className="mb-6">
                 <img 
-                  src="https://hydroflow-usa.com/assets/userfiles/images/Scale/img9.png"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a2dbd6485_img9.png"
                   alt="Water flowing through pipe without hydroflow"
                   className="w-full rounded-xl"
                 />
