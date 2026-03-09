@@ -230,7 +230,7 @@ export default function ESCO() {
               className="lg:order-2"
             >
               <img 
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0ad4a7a15_79051513979745.png"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/799367169_boilerinchemicalplant.png"
                 alt="Chemical Plant"
                 className="rounded-2xl shadow-xl w-full"
               />
