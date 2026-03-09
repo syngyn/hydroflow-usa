@@ -63,7 +63,7 @@ const caseStudies = [
     description: 'After 60 days, the press was pressure washed taking less than 4 hours instead of the typical 30 hours with chemicals. A 3-month payback period was achieved.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e4f4de695_image.png',
     results: ['Eliminated $8,000/month chemical cost', 'Cleaning time reduced from 30 hours to under 4 hours', '3-month payback period'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/309467422_HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/309467422_HydroFLOW-Case-Study-Screw-Press-Struvite-Treatment-2023.pdf',
     application_type: ['Wastewater Treatment'],
     products_used: ['I Range']
   },
@@ -74,7 +74,7 @@ const caseStudies = [
     description: 'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/073cd7b2e_image.png',
     results: ['Reduced scaling', 'Consistent flow rates', 'Lower maintenance'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf',
     application_type: ['Wastewater Treatment'],
     products_used: ['iRange']
   },
@@ -117,7 +117,7 @@ const caseStudies = [
     description: 'After 5 weeks of installation, no accumulation on 12" x 12" section. Struvite removal is slow yet noticeable.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/22845e0f8_60391596733327.jpg',
     results: ['No scale accumulation', 'Visible improvement', 'Municipal approved'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/1fce46dec_HydroFLOW-industrial-casestudy-city-of-walla-walla-wastewater-plant.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1fce46dec_HydroFLOW-industrial-casestudy-city-of-walla-walla-wastewater-plant.pdf',
     application_type: ['Wastewater Treatment'],
     products_used: ['iRange']
   },
@@ -139,7 +139,7 @@ const caseStudies = [
     description: 'The water conditioners have a positive effect on heat exchanger performance by breaking-up the scale deposits.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/75ce255c0_image.png',
     results: ['Improved heat transfer', 'Scale breakdown', 'Better performance'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/75593b140_46101493933705.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/75593b140_46101493933705.pdf',
     application_type: ['Heat Exchangers', 'Other'],
     products_used: ['iRange']
   },
@@ -150,7 +150,7 @@ const caseStudies = [
     description: 'The HydroFLOW device has shown that it can improve and save costs during the concrete production process.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ba52c7c45_image.png',
     results: ['Cost savings', 'Improved production', 'Quality enhancement'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/968133043_4171495131909.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/968133043_4171495131909.pdf',
     application_type: ['Other'],
     products_used: ['iRange']
   },
@@ -183,7 +183,7 @@ const caseStudies = [
     description: 'The efficiency of the 60 HP low-pressure steam boiler is expected to further increase as scale continues to be removed.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fe8e0d1eb_image.png',
     results: ['Increased efficiency', 'Scale removal', 'Energy savings'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/d33c208a5_88201550515726.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d33c208a5_88201550515726.pdf',
     application_type: ['Boilers', 'Steam Systems'],
     products_used: ['iRange'],
     installer: 'HydroFLOW Midwest',
@@ -200,7 +200,7 @@ const caseStudies = [
     description: 'No drop in water flow due to HydroFLOW\'s ability to keep the pipe free of scale accumulation.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/80b2c4c7a_image.png',
     results: ['Consistent flow', 'Scale-free pipes', 'No maintenance needed'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/9df77444d_1431539882593.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9df77444d_1431539882593.pdf',
     application_type: ['Other'],
     products_used: ['iRange']
   },
@@ -224,7 +224,7 @@ const caseStudies = [
     description: 'A 400+ location gas station and convenience store chain used HydroFLOW s38 and hs40 devices to treat coffee makers, food warmers, ice machines, water heaters and fixtures. Estimated ROI of 6 to 12 months per store.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a92d7f14b_image.png',
     results: ['Scale removed from fixtures without manual cleaning', 'Ice machines no longer require technician cleaning', 'Smoothie machines no longer clog with scale', '6–12 month ROI per store'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/6a0a3a88e_HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6a0a3a88e_HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf',
     application_type: ['Ice Machines', 'Water Heaters', 'Food Processing'],
     products_used: ['Pearl Plus', 'HS40']
   },
@@ -235,7 +235,7 @@ const caseStudies = [
     description: 'A private dental practice with 385 PPM water hardness installed HydroFLOW units throughout the building. Within 8 weeks, scale accumulation greatly reduced and existing buildup was naturally removed without manual cleaning.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/13953a4e6_image.png',
     results: ['Scale removal on lab faucet aerator within 8 weeks', 'Toilet scale buildup eliminated without manual cleaning', 'Kitchen faucet scale reduced significantly', 'Years of water heater scale removed in 2 months', 'Manual scrubbing became less labor intensive'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/f111e4bbc_HydroFLOW-commercial-case-study-private-dental-practice.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f111e4bbc_HydroFLOW-commercial-case-study-private-dental-practice.pdf',
     application_type: ['Water Heaters', 'Sinks', 'Toilets'],
     products_used: ['Pearl Plus', 'HS40']
   },
@@ -246,7 +246,7 @@ const caseStudies = [
     description: 'Anoka-Hennepin School District installed HydroFLOW S38 on Cleveland Ultra 10 steamer ovens to treat very hard water (290 PPM). Results showed 75% reduction in maintenance costs by reducing cleaning frequency from weekly to every 4 weeks.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5575bdc82_image.png',
     results: ['75% reduction in maintenance costs', 'Cleaning frequency reduced from weekly to every 4 weeks', 'Thin layer of loose scale vs thick hard scale without HydroFLOW', 'ROI achieved in less than 6 months', 'Extended steamer oven life cycle'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/58625dd97_HydroFLOW-commercial-case-study-optimizes-steamer-ovens-maintenance-cycles-update4292021.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/58625dd97_HydroFLOW-commercial-case-study-optimizes-steamer-ovens-maintenance-cycles-update4292021.pdf',
     application_type: ['Steam Systems'],
     products_used: ['Pearl Plus']
   },
@@ -257,7 +257,7 @@ const caseStudies = [
     description: 'The HydroFLOW product has performed superbly well in keeping our water heaters scale free.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1469904e9_image.png',
     results: ['Scale-free heaters', 'Full efficiency', 'LEED compliance'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/6b4d951ac_49731493848513.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6b4d951ac_49731493848513.pdf',
     application_type: ['Water Heaters'],
     products_used: ['HS40']
   },
@@ -279,7 +279,7 @@ const caseStudies = [
     description: 'After five months chemical-free, there is no hard scale accumulation and biological count is well under 1,000 CFU/ML.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1ace0f6b1_image.png',
     results: ['Chemical-free operation', 'No scale buildup', 'Safe water quality'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/2e4f96be4_43851493848202.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2e4f96be4_43851493848202.pdf',
     application_type: ['Cooling Towers'],
     products_used: ['iRange'],
     installer: 'HydroFLOW West',
@@ -335,7 +335,7 @@ const caseStudies = [
     description: 'I would recommend HydroFLOW in ice machine applications, to assist with keeping scale from accumulating on the equipment.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33c596c15_image.png',
     results: ['Scale prevention', 'Clean ice', 'Hospital approved'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/f9aac3d6d_78241493850010.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f9aac3d6d_78241493850010.pdf',
     application_type: ['Ice Machines'],
     products_used: ['Pearl Plus']
   },
@@ -346,7 +346,7 @@ const caseStudies = [
     description: 'Our HydroFLOW units are maintenance free, environmentally friendly, and have saved us thousands of dollars.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5e5549989_image.png',
     results: ['Maintenance-free', 'Eco-friendly', 'Thousands saved'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/8509b0567_89611493849814.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8509b0567_89611493849814.pdf',
     application_type: ['HVAC Systems', 'Cooling Towers'],
     products_used: ['iRange']
   },
@@ -357,7 +357,7 @@ const caseStudies = [
     description: 'Our investment in the HydroFLOW unit is expected to pay for itself over a 14 month period.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8a320e425_image.png',
     results: ['14 month ROI', 'Restaurant success', 'Proven savings'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/67a5d889d_24351493849401.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/67a5d889d_24351493849401.pdf',
     application_type: ['Dishwashers', 'Food Processing'],
     products_used: ['Pearl Plus']
   },
@@ -379,7 +379,7 @@ const caseStudies = [
     description: 'The state inspector claims our pool is the cleanest in the Yakima Valley!',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/184c0154f_image.png',
     results: ['Cleanest pool award', 'State inspector approved', 'Outstanding results'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/7099a60ae_86361539882313.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7099a60ae_86361539882313.pdf',
     application_type: ['Swimming Pools'],
     products_used: ['iRange']
   },
@@ -390,7 +390,7 @@ const caseStudies = [
     description: 'After 6 months of operation, all nozzles are working perfectly; saving water and greatly reducing maintenance costs.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7eb2386b7_image.png',
     results: ['Water savings', 'Perfect nozzle performance', 'Lower maintenance'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/ac84c7ab9_1561563299281.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ac84c7ab9_1561563299281.pdf',
     application_type: ['Car Wash'],
     products_used: ['iRange']
   },
@@ -488,7 +488,7 @@ const caseStudies = [
     description: 'Swimming pool scale and biofilm control without harsh chemicals.',
     image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800',
     results: ['Crystal clear water', 'Less chemicals', 'Easier maintenance'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/f5d89f1a9_8651539882719.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f5d89f1a9_8651539882719.pdf',
     application_type: ['Swimming Pools'],
     products_used: ['HS40']
   },
@@ -510,7 +510,7 @@ const caseStudies = [
     description: 'Water heater protection and efficiency improvement.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/28337c84d_element.png',
     results: ['Extended heater life', 'Lower energy bills', 'No scale buildup'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/ce74fda09_36311632777095.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ce74fda09_36311632777095.pdf',
     application_type: ['Water Heaters'],
     products_used: ['Pearl Plus']
   },
@@ -523,7 +523,7 @@ const caseStudies = [
     description: 'The goal was to increase the overall health of the grass, which was achieved.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/73645241b_image.png',
     results: ['Improved grass health', 'Better irrigation', 'Water savings'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/7dc3c0ccd_68631698880628.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7dc3c0ccd_68631698880628.pdf',
     application_type: ['Golf Course', 'Irrigation'],
     products_used: ['iRange']
   },
@@ -534,7 +534,7 @@ const caseStudies = [
     description: 'The grower wanted to see how HydroFLOW could increase the output from his greenhouses.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/97391384a_image.png',
     results: ['Increased yield', 'Better quality', 'Healthier plants'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/1da5d4765_HydroFLOW-agriculture-case-study-long-stem-roses.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1da5d4765_HydroFLOW-agriculture-case-study-long-stem-roses.pdf',
     application_type: ['Greenhouses', 'Irrigation'],
     products_used: ['iRange']
   },
@@ -545,7 +545,7 @@ const caseStudies = [
     description: 'With HydroFLOW the reduction in algae growth was dramatic.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3691d128f_image.png',
     results: ['Dramatic algae reduction', 'Cleaner water', 'Better crop health'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/bab9fe3f0_81121493936806.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bab9fe3f0_81121493936806.pdf',
     application_type: ['Irrigation'],
     products_used: ['iRange']
   },
@@ -578,7 +578,7 @@ const caseStudies = [
     description: 'Scale deposits accumulate as fine powder which is very easy to remove. Over 90% of the apples are expected to receive the highest grade rating.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f8cd07ecf_image.png',
     results: ['Over 90% highest grade rating', 'Easy scale removal', 'Clearer pond water', 'Reduced algae blooms', 'No filter clogging'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/558f293df_271605140596.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/558f293df_271605140596.pdf',
     application_type: ['Irrigation', 'Other'],
     products_used: ['iRange'],
     installer: 'HydroFLOW West',
@@ -606,7 +606,7 @@ const caseStudies = [
     description: 'The results were excellent! The water was clean and clear. Were able to get their organic food processing license.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/aea25558e_image.png',
     results: ['Clean and clear water', 'Organic food processing license approved', 'Biofilm removed', 'Pipes descaled'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/7339cd066_64021494003033.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7339cd066_64021494003033.pdf',
     application_type: ['Wells', 'Other'],
     products_used: ['Pearl Plus']
   },
@@ -619,7 +619,7 @@ const caseStudies = [
     description: 'HydroFLOW succeeded in keeping the strainer free of biofouling for a much longer period.',
     image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c2d5706d8_image.png',
     results: ['Extended maintenance intervals', 'Biofouling prevention', 'Naval approved'],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/b06911af1_HydroFLOW-marine-case-study-US-Navy-Seafighter.pdf',
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b06911af1_HydroFLOW-marine-case-study-US-Navy-Seafighter.pdf',
     application_type: ['Marine Systems'],
     products_used: ['HM Range']
   },

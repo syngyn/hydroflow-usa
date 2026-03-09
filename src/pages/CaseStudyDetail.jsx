@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import { base44 } from '@/api/base44Client';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
 import { ArrowLeft, FileText, CheckCircle, Factory, Building2, Home, Leaf, Ship } from 'lucide-react';
@@ -43,7 +42,7 @@ const caseStudyData = {
       'Successfully upgraded to new high-efficiency water heaters in 2025 with Generation 4 i60 unit protection.',
       'Real-time monitoring capability through HydroKNCT IoT device and Hydropath Care software enables proactive maintenance.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/ca3b1534f_HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ca3b1534f_HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf'
   },
   'massive-texas-factory': {
     category: 'industrial',
@@ -61,7 +60,7 @@ const caseStudyData = {
       'Due to the water savings that can be achieved with HydroFLOW, the customer may be able to delay a multi-million-dollar wastewater treatment plant upgrade for another 3-5 years.',
       'The customer plans to install more HydroFLOW units throughout the facility, including 7 additional cooling tower systems'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/46e80b0d5_HydroFLOW-industrial-case-study-massive-Texas-factory.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/46e80b0d5_HydroFLOW-industrial-case-study-massive-Texas-factory.pdf'
   },
   'sludge-line-struvite-treatment': {
     category: 'industrial',
@@ -74,7 +73,7 @@ const caseStudyData = {
     results: [
       'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
   },
   'screw-press-struvite-treatment': {
     category: 'industrial',
@@ -92,7 +91,7 @@ const caseStudyData = {
       'The reduction of chemical usage and time saved in manual cleaning led to a 3-month payback period.',
       '"Outstanding results! Night and day difference before and after HydroFLOW." - Maintenance Manager'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/8199139ff_HydroFLOWCaseStudy-ScrewPressStruviteTreatment-2023.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8199139ff_HydroFLOWCaseStudy-ScrewPressStruviteTreatment-2023.pdf'
   },
   'optimization-steamer-oven': {
     category: 'commercial',
@@ -115,7 +114,7 @@ const caseStudyData = {
       'Chemical and labor savings combined provided a return on investment of less than 6 months',
       'Life cycle of the steamer oven is expected to extend significantly as a result of lessened chemical cleaning'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/58625dd97_HydroFLOW-commercial-case-study-optimizes-steamer-ovens-maintenance-cycles-update4292021.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/58625dd97_HydroFLOW-commercial-case-study-optimizes-steamer-ovens-maintenance-cycles-update4292021.pdf'
   },
   'scale-reduction-private-dental-practice': {
     category: 'commercial',
@@ -140,7 +139,7 @@ const caseStudyData = {
       'Manual scrubbing of fixtures was less labor intensive and not as frequent',
       'Weekly cleaning continued for sanitary purposes, but the amount of scale was negligible'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/f111e4bbc_HydroFLOW-commercial-case-study-private-dental-practice.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f111e4bbc_HydroFLOW-commercial-case-study-private-dental-practice.pdf'
   },
   'scale-reduction-gas-station-convenience-store': {
     category: 'commercial',
@@ -168,7 +167,7 @@ const caseStudyData = {
       'The estimated return on investment for a typical store is between 6 to 12 months.',
       'Over 30 locations are now protected from the harmful effects of scale and biofilm, with more being added.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/6a0a3a88e_HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6a0a3a88e_HydroFLOW-commercial-case-study-gas-station-and-convenience-store-chain.pdf'
   },
   'gold-leed-campus': {
     category: 'commercial',
@@ -227,7 +226,7 @@ const caseStudyData = {
       'Improved filtration efficiency with increased solids collection',
       'Capture of polystyrene fines not typically found in filter system'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/4dfb56b8e_HydroFLOWCaseStudy-WaterBathCoolingSystem-2025.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4dfb56b8e_HydroFLOWCaseStudy-WaterBathCoolingSystem-2025.pdf'
   },
   'sunrise-childrens-hospital-cooling-tower': {
     category: 'commercial',
@@ -244,7 +243,7 @@ const caseStudyData = {
       'The chiller is operating more efficiently due to scale and biofilm removal.',
       'The HydroFLOW water conditioning device helped in substantial cost savings associated with reduced chemical consumption, maintenance, electricity and water usage.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/2e4f96be4_43851493848202.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2e4f96be4_43851493848202.pdf'
   },
   'nellis-air-force-base-cooling-tower': {
     category: 'commercial',
@@ -261,7 +260,7 @@ const caseStudyData = {
       'No significant hard scale or bio buildup was observed on the nozzles or infrastructure.',
       'No industrial water treatment chemicals used for 9-10 months of operation.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/19ebf3134_36111563298950.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/19ebf3134_36111563298950.pdf'
   },
   'city-of-walla-walla-wastewater-plant': {
     category: 'industrial',
@@ -279,7 +278,7 @@ const caseStudyData = {
       'After 5 weeks of installation, no accumulation on 12" x 12" section.',
       'Struvite removal is slow yet noticeable.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/1fce46dec_HydroFLOW-industrial-casestudy-city-of-walla-walla-wastewater-plant.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1fce46dec_HydroFLOW-industrial-casestudy-city-of-walla-walla-wastewater-plant.pdf'
   },
   'honda-cooling-tower': {
     category: 'industrial',
@@ -331,7 +330,7 @@ const caseStudyData = {
       'Pipes, tubes, fins and sump tank remain clear of limescale, bio-growth and corrosion.',
       'Cost savings associated with reduction in chemicals, reduction in water usage, reduction in maintenance and lessened wear-and-tear led to an ROI of roughly a year.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/60ba6ffc2_67671539882904.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/60ba6ffc2_67671539882904.pdf'
   },
   'massive-texas-factory': {
     category: 'industrial',
@@ -351,7 +350,7 @@ const caseStudyData = {
       'Due to the water savings that can be achieved with HydroFLOW, the customer may be able to delay a multi-million-dollar wastewater treatment plant upgrade for another 3-5 years.',
       'The customer plans to install more HydroFLOW units throughout the facility, including 7 additional cooling tower systems.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/46e80b0d5_HydroFLOW-industrial-case-study-massive-Texas-factory.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/46e80b0d5_HydroFLOW-industrial-case-study-massive-Texas-factory.pdf'
   },
   'sludge-line-struvite-treatment': {
     category: 'industrial',
@@ -366,7 +365,7 @@ const caseStudyData = {
     results: [
       'After 3 months of operation, HydroFLOW was able to reduce scaling and maintain consistent flow rates.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a913379ff_HydroFLOW-Case-Study-Sludge-Line-Struvite-Treatment-2023.pdf'
   },
   'gold-leed-campus': {
     category: 'commercial',
@@ -386,7 +385,7 @@ const caseStudyData = {
       'The water feature in our main entry area is much easier to maintain because of the performance of HydroFLOW.',
       'Not only does it deal with lime-scale accumulation, it also kills any bacteria that are often found in open loop water features.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/6b4d951ac_49731493848513.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6b4d951ac_49731493848513.pdf'
   },
   'bakery-steam-boilers': {
     category: 'commercial',
@@ -420,7 +419,7 @@ const caseStudyData = {
       'It was the only green on the course that no longer suffered from root rot.',
       'Lab testing showed the practice green retained 50% more nutrients compared to other greens.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/7dc3c0ccd_68631698880628.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7dc3c0ccd_68631698880628.pdf'
   },
   'steel-company-spray-bar-system': {
     category: 'industrial',
@@ -436,7 +435,7 @@ const caseStudyData = {
       'After the end of the first 3 week cycle sprays were inspected and found to have "nearly no buildup to cause clogging".',
       'Any buildup found to occur was a loose, fluffier material instead of a concrete like buildup.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/b98089f6f_HydroFLOW-industrial-case-study-steel-company-spray-bar-system.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b98089f6f_HydroFLOW-industrial-case-study-steel-company-spray-bar-system.pdf'
   },
   'biofilm-reduction-referral-letter': {
     category: 'industrial',
@@ -468,7 +467,7 @@ const caseStudyData = {
       'Existing struvite deposits were softening up.',
       'Easier cleaning and reduced maintenance requirements.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/6932f7838_HydroFLOW-industrial-referral-letter-lehigh-county-wastewater-treatment-plant.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6932f7838_HydroFLOW-industrial-referral-letter-lehigh-county-wastewater-treatment-plant.pdf'
   },
   'paper-mill-liquor-lines': {
     category: 'industrial',
@@ -485,7 +484,7 @@ const caseStudyData = {
       'The water conditioners kept piping clear of most scale deposits and made existing deposits easy to remove.',
       'The return on investment, due to decreased maintenance labor and power usage is approximately one year.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/75593b140_46101493933705.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/75593b140_46101493933705.pdf'
   },
   'cmc-concrete-report': {
     category: 'industrial',
@@ -502,7 +501,7 @@ const caseStudyData = {
       'With the increase in slump this system could create cost savings by reducing materials properties and maintaining workability.',
       'Documented an increase in compressive strength which would result in cost savings during the concrete production.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/968133043_4171495131909.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/968133043_4171495131909.pdf'
   },
   'inland-power-plant-in-china': {
     category: 'industrial',
@@ -539,7 +538,7 @@ const caseStudyData = {
       'A characteristic smell of organic decomposition is absent.',
       'Visible reduction of biofouling and absence of tubes with 100% clogging in comparison with condenser without treatment.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/140559cdb_39691493939531.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/140559cdb_39691493939531.pdf'
   },
   'natural-gas-and-oil-producer': {
     category: 'industrial',
@@ -558,7 +557,7 @@ const caseStudyData = {
       'The customer\'s personnel were very surprised because typically removal of scale involves hard manual labor.',
       'A "T" section was removed from the main line in order to inspect the inside of the pipe. The rate of scale removal from the bottom was much faster than the top and sides due to constant water flow.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/9df77444d_1431539882593.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9df77444d_1431539882593.pdf'
   },
   'wastewater-treatment-plant-in-ohio': {
     category: 'industrial',
@@ -574,7 +573,7 @@ const caseStudyData = {
       'The HydroFLOW device not only reduced the rate of struvite accumulation, it actually started to soften up existing deposits!',
       'Within a week started seeing large pieces coming off the first roller and the wash box.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/97d3f55c2_HydroFLOW-industrial-case-stury-wastewater-treatment-plant-in-ohio.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/97d3f55c2_HydroFLOW-industrial-case-stury-wastewater-treatment-plant-in-ohio.pdf'
   },
   'hydroflow-cooling-tower-chiller-installation': {
     category: 'commercial',
@@ -598,7 +597,7 @@ const caseStudyData = {
   'gold-gym-lap-pool': {
    category: 'commercial',
    title: 'Gold Gym Lap Pool',
-   image: 'https://pdf.hydroflow-usa.com/acd8ba744_image.png',
+   image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/acd8ba744_image.png',
     installer: 'HydroFLOW West',
     customer: 'Gold\'s Gym Woodinville / Gold\'s Aquatics Club',
     application: 'Indoor 95,000 gallon lap pool, 3,900-gallon hot tub and 5,000 gallon wader pool',
@@ -618,7 +617,7 @@ const caseStudyData = {
       'Less complaints by bathers about the \'chlorine smell\'.',
       'Maintenance cost reduction associated with lessened cleaning of scale stains, backwashing, balancing chemicals, barrel replacement, etc.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/e652e79b5_84741493847709.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e652e79b5_84741493847709.pdf'
   },
   'st-helena-hospital-ice-machine': {
     category: 'commercial',
@@ -635,7 +634,7 @@ const caseStudyData = {
       'The costs of replacement parts have decreased by $750 per year.',
       'Calls to the engineering department due to ice machine inability to meet demand have completely stopped, thus reducing callouts from 6 hours per month to 0 hours per month.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/f9aac3d6d_78241493850010.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f9aac3d6d_78241493850010.pdf'
   },
   'penn-state-university': {
     category: 'commercial',
@@ -651,7 +650,7 @@ const caseStudyData = {
       'Since installing devices on steamers and cooling tower, scale related breakdowns, repair and maintenance expenses, and chemical treatment costs are a thing of the past.',
       'The HydroFLOW units are maintenance-free, environmentally friendly, and have saved thousands of dollars.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/8509b0567_89611493849814.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8509b0567_89611493849814.pdf'
   },
   'the-melting-pot-restaurant': {
     category: 'commercial',
@@ -669,7 +668,7 @@ const caseStudyData = {
       'No water softener required and all water (hot, cold and drinking) benefiting from the one unit.',
       'Investment expected to pay for itself over a 14 month period.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/67a5d889d_24351493849401.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/67a5d889d_24351493849401.pdf'
   },
   'sharonville-fire-department': {
     category: 'commercial',
@@ -708,7 +707,7 @@ const caseStudyData = {
       'Our customers gave us compliments throughout the last 3 months of the bathing season.',
       'The state inspector claims our pool is the cleanest in the Yakima Valley!'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/7099a60ae_86361539882313.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7099a60ae_86361539882313.pdf'
   },
   'premium-car-wash-in-california': {
     category: 'commercial',
@@ -725,7 +724,7 @@ const caseStudyData = {
       'Nozzles that barely sprayed water or were plugged were now operating properly.',
       'After 6 months of operation, all nozzles are working perfectly; saving water and greatly reducing maintenance costs.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/ac84c7ab9_1561563299281.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ac84c7ab9_1561563299281.pdf'
   },
   'hotel-hot-water-system': {
     category: 'commercial',
@@ -773,7 +772,7 @@ const caseStudyData = {
       'Production levels were maintained through the cold months and the overall quality of flowers improved.',
       'Longer shelf life and better-quality flowers.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/1da5d4765_HydroFLOW-agriculture-case-study-long-stem-roses.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1da5d4765_HydroFLOW-agriculture-case-study-long-stem-roses.pdf'
   },
   'residential-water-heater': {
     category: 'residential',
@@ -788,7 +787,7 @@ const caseStudyData = {
       'The cleaning frequency of the shower heads in faucets around the house was reduced.',
       'Improved the efficiency of the hot water heater and longer expected life of the heating element.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/ce74fda09_36311632777095.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ce74fda09_36311632777095.pdf'
   },
   'coliforms-in-well-water': {
     category: 'residential',
@@ -895,7 +894,7 @@ const caseStudyData = {
       'Saved $300 in pool chemicals that normally have to buy to get the pool adjusted correctly.',
       'Only added one bag of Multi Shock and kept a couple of chlorine tablets in the floater.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/f5d89f1a9_8651539882719.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f5d89f1a9_8651539882719.pdf'
   },
   'residential-tower': {
     category: 'residential',
@@ -910,7 +909,7 @@ const caseStudyData = {
       'In March of 2016 (16 months after the HydroFLOW units were installed), the domestic water boilers were inspected and found to be absolutely scale-free.',
       'HydroFLOW units reversed the scale that had built up before their installation.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/5cdf053f0_51421493846519.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5cdf053f0_51421493846519.pdf'
   },
   'orchard-scale-on-apples': {
     category: 'agriculture',
@@ -933,7 +932,7 @@ const caseStudyData = {
       'Snails that used to clog the filters are no longer present.',
       'Orchard Manager: "The pond has never been this clear and the white powder washes right off the apples. The benefits of HydroFLOW should have a very positive impact on our profits this season. Initial processing results are the best I\'ve ever seen."'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/558f293df_271605140596.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/558f293df_271605140596.pdf'
   },
   'hydroflow-reduces-biofilm-baron-farms': {
     category: 'agriculture',
@@ -985,7 +984,7 @@ const caseStudyData = {
       'Effective biofouling prevention.',
       'Approved for naval use.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/b06911af1_HydroFLOW-marine-case-study-US-Navy-Seafighter.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b06911af1_HydroFLOW-marine-case-study-US-Navy-Seafighter.pdf'
   },
   'mv-hermes-leader-uv-system': {
     category: 'marine',
@@ -998,7 +997,7 @@ const caseStudyData = {
       'Successfully replaced UV system.',
       'Cost savings on system operation.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/e5384d360_HydroFLOW-marine-case-study-MV-hermes-leader-UV-System.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e5384d360_HydroFLOW-marine-case-study-MV-hermes-leader-UV-System.pdf'
   },
   'ray-shipping-fleet-hydropath': {
     category: 'marine',
@@ -1011,7 +1010,7 @@ const caseStudyData = {
       'Reduced bacteria corrosion.',
       'Saved labor work and money across entire fleet.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/08ad97990_HydroFLOW-marine-referral-letter-ray-shipping-equips-fleet-with-Hydropath.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/08ad97990_HydroFLOW-marine-referral-letter-ray-shipping-equips-fleet-with-Hydropath.pdf'
   },
   'anglo-eastern-freshwater-generator': {
     category: 'marine',
@@ -1024,7 +1023,7 @@ const caseStudyData = {
       'Chemical dosing no longer required.',
       'Reliable, continuous performance.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/c82419f45_HydroFLOW-marine-referral-letter-anglo-eastern-fresh-water-generator.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c82419f45_HydroFLOW-marine-referral-letter-anglo-eastern-fresh-water-generator.pdf'
   },
   'mv-hoegh-antwerp-scale-prevention': {
     category: 'marine',
@@ -1049,7 +1048,7 @@ const caseStudyData = {
       'Easy washing and maintenance.',
       'System protection maintained.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/56fb596c1_009-CaseStudy-CarCarrier.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/56fb596c1_009-CaseStudy-CarCarrier.pdf'
   },
   'increased-crop-yield-experiment': {
     category: 'agriculture',
@@ -1084,7 +1083,7 @@ const caseStudyData = {
       'Maintenance supervisor increased blow down from once to twice per day to accelerate scale removal and prevent plugging issues.',
       'Scale removal achieved without the need for an acid clean.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/d33c208a5_88201550515726.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d33c208a5_88201550515726.pdf'
   },
 
   // --- Newly added case studies ---
@@ -1103,7 +1102,7 @@ const caseStudyData = {
       'Lower maintenance costs fleet-wide.',
       '"We recommend to any shipping manager and/or owner to install a Hydropath Marine unit on their freshwater generator."'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/d0deae4aa_25151493825669.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d0deae4aa_25151493825669.pdf'
   },
 
   'maritime-reporter-magazine-article': {
@@ -1117,7 +1116,7 @@ const caseStudyData = {
       'Proven performance across numerous marine vessel applications.',
       'Recognized and featured in Maritime Reporter & Engineering News.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/55664d73c_42891495128176.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/55664d73c_42891495128176.pdf'
   },
 
   'mv-detroit-express-freshwater-generator': {
@@ -1133,7 +1132,7 @@ const caseStudyData = {
       'Soft scale found on heat exchanger plates during cleaning — easy to remove without chemicals.',
       'Significant reduction in maintenance labor and downtime.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/d7c9e58bd_59521643224356.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d7c9e58bd_59521643224356.pdf'
   },
 
   'mv-hoegh-america-freshwater-generator': {
@@ -1212,7 +1211,7 @@ const caseStudyData = {
       'U.S. Air Force Base Cooling Tower: No industrial water treatment chemicals used for 9–10 months of operation. All scale removed; no bio-fouling or return of scale since chemical removal. Loose mud-like material (instead of hard scale) easily removed with a garden hose.',
       'Medical Center Cooling Tower: Cooling tower and chillers maintained within industry standards while reducing chemicals and blowdown water; biocide reduced 75% with CFU/ml under 1,000; greatly reduced chance of Legionnaires\' disease outbreak; blow-down reduced by over 65%; payback period under two years.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/230e147e6_34751665504234.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/230e147e6_34751665504234.pdf'
   },
 
   'high-end-resort-new-mexico': {
@@ -1235,7 +1234,7 @@ const caseStudyData = {
       'The installed equipment has been performing per the customer\'s expectations for over 8 years.',
       'Resort owner contracted New Water Innovations to install HydroFLOW equipment in other resorts.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf'
+    pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf'
   },
 
   'third-party-verification-denver': {
@@ -1261,26 +1260,6 @@ const caseStudyData = {
 export default function CaseStudyDetail() {
   const [searchParams] = useSearchParams();
   const slug = searchParams.get('slug');
-
-  const [pdfLoading, setPdfLoading] = useState(false);
-
-  const openPdf = async (s) => {
-    setPdfLoading(true);
-    try {
-      const response = await base44.functions.invoke('caseStudyPdf', { slug: s });
-      const { base64, filename } = response.data;
-      const byteChars = atob(base64);
-      const byteArray = new Uint8Array(byteChars.length);
-      for (let i = 0; i < byteChars.length; i++) {
-        byteArray[i] = byteChars.charCodeAt(i);
-      }
-      const blob = new Blob([byteArray], { type: 'application/pdf' });
-      const blobUrl = URL.createObjectURL(blob);
-      window.open(blobUrl, '_blank');
-    } finally {
-      setPdfLoading(false);
-    }
-  };
   const study = caseStudyData[slug];
 
   // Special PDF-only case studies (from database, not in static data)
@@ -1288,7 +1267,7 @@ export default function CaseStudyDetail() {
     'hydroflow-kitchen-innovations-award-2015': {
       title: 'HydroFLOW Awarded the Prestigious Kitchen Innovations Award',
       category: 'commercial',
-      pdfUrl: 'https://pdf.hydroflow-usa.com/84b4b0e3b_HydroFLOW-commercial-referral-letter-2015-KI-awards.pdf'
+      pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/84b4b0e3b_HydroFLOW-commercial-referral-letter-2015-KI-awards.pdf'
     }
   };
 
@@ -1314,9 +1293,9 @@ export default function CaseStudyDetail() {
                     <p className="text-sm text-slate-600">Download the complete PDF</p>
                   </div>
                 </div>
-                <Button onClick={() => openPdf(slug)} disabled={pdfLoading} className="bg-cyan-600 hover:bg-cyan-700 text-white">
-                 {pdfLoading ? 'Loading...' : 'View PDF'}
-                </Button>
+                <a href={pdfStudy.pdfUrl} target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-cyan-600 hover:bg-cyan-700 text-white">View PDF</Button>
+                </a>
               </div>
             </Card>
           </div>
@@ -1419,9 +1398,11 @@ export default function CaseStudyDetail() {
                         <p className="text-sm text-slate-600">Download the complete PDF for detailed information</p>
                       </div>
                     </div>
-                    <Button onClick={() => openPdf(slug)} disabled={pdfLoading} className="bg-cyan-600 hover:bg-cyan-700 text-white">
-                      {pdfLoading ? 'Loading...' : 'View PDF'}
-                    </Button>
+                    <a href={study.pdfUrl} target="_blank" rel="noopener noreferrer">
+                      <Button className="bg-cyan-600 hover:bg-cyan-700 text-white">
+                        View PDF
+                      </Button>
+                    </a>
                   </div>
                 </Card>
               </motion.div>
