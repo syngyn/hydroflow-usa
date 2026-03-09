@@ -165,7 +165,7 @@ export default function ESCO() {
               viewport={{ once: true }}
             >
               <img 
-                src="https://hydroflow-usa.com/assets/userfiles/images/ESCO%2Bleed%2Bbuilding.png"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bb2ef69e9_ESCOleedbuilding.png"
                 alt="LEED Building Houston"
                 className="rounded-2xl shadow-xl w-full"
               />
