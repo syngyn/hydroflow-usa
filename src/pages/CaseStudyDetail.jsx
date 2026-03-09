@@ -1261,6 +1261,10 @@ const caseStudyData = {
 export default function CaseStudyDetail() {
   const [searchParams] = useSearchParams();
   const slug = searchParams.get('slug');
+
+  const getPdfUrl = (s) => {
+    return base44.functions.getUrl('caseStudyPdf') + `?slug=${s}`;
+  };
   const study = caseStudyData[slug];
 
   // Special PDF-only case studies (from database, not in static data)
