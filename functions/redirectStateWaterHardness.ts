@@ -66,6 +66,19 @@ Deno.serve(async (req) => {
     'wyoming-water-hardness': 'WyomingWaterHardness',
   };
 
+  // General URL redirects (case-insensitive)
+  const generalRedirects = {
+    'water-hardness-map': '/WaterHardnessMap',
+    'cooling-tower-roi-calculator': '/Savings',
+    'city-temperature-map': '/GroundwaterTemperatureMap',
+    'choosing-the-right-eco-friendly-water-treatment-option-whats-out-therer': 'https://hydroflow-usa.com/BlogDetail?category=residential&slug=eco-friendly-water-treatment',
+  };
+
+  const generalRedirect = generalRedirects[pathname];
+  if (generalRedirect) {
+    return Response.json({ redirectUrl: generalRedirect, found: true });
+  }
+
   const pageName = stateMapping[pathname];
 
   if (pageName) {
