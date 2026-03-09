@@ -24,7 +24,7 @@ const caseStudyData = {
   'industrial-water-heaters': {
     category: 'industrial',
     title: 'Industrial Water Heaters - Apple Packing Facility',
-    image: 'https://pdf.hydroflow-usa.com/9edfa037e_Apples.jpeg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9edfa037e_Apples.jpeg',
     customer: 'Apple packing facility in the U.S. Northwest that installed 6 <i>Hydro</i>FLOW units in multiple locations over the last 15 years',
     application: 'Bank of 3 water heaters supplying warm water to apple washing nozzles',
     installedUnits: 'Generation 4 HydroFLOW i60 unit with HydroKNCT IoT device for remote monitoring via Hydropath Care',
@@ -48,7 +48,7 @@ const caseStudyData = {
   'massive-texas-factory': {
     category: 'industrial',
     title: 'Massive Texas Factory',
-    image: 'https://pdf.hydroflow-usa.com/33ba861ce_MassiveTXfactory.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33ba861ce_MassiveTXfactory.png',
     installer: 'EcoTech Solutions',
     customer: 'A 5.2 million square foot equipment manufacturer in Texas with over 7,000 employees.',
     application: 'Contribute to water savings to spare the facility\'s well and free up capacity in the onsite wastewater treatment plant, which is over capacity 8 months out of the year (causing fines).',
@@ -66,7 +66,7 @@ const caseStudyData = {
   'sludge-line-struvite-treatment': {
     category: 'industrial',
     title: 'Sludge Line Struvite Treatment',
-    image: 'https://pdf.hydroflow-usa.com/073cd7b2e_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/073cd7b2e_image.png',
     customer: 'A wastewater treatment plant in Chicago Illinois.',
     application: 'Struvite scale treatment.',
     installedUnits: 'HydroFLOW i150 unit.',
@@ -79,7 +79,7 @@ const caseStudyData = {
   'screw-press-struvite-treatment': {
     category: 'industrial',
     title: 'Screw Press Struvite Treatment',
-    image: 'https://pdf.hydroflow-usa.com/e4f4de695_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/e4f4de695_image.png',
     customer: 'A wastewater treatment plant in the State of Utah, United States',
     application: 'Screw Press – Struvite scale treatment',
     installedUnits: 'HydroFLOW Custom i8" unit on the sludge line feeding the screw press',
@@ -97,7 +97,7 @@ const caseStudyData = {
   'optimization-steamer-oven': {
     category: 'commercial',
     title: 'Optimization of a Steamer Oven',
-    image: 'https://pdf.hydroflow-usa.com/5575bdc82_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5575bdc82_image.png',
     customer: 'Anoka-Hennepin School District, Minnesota',
     application: 'Two Cleveland Ultra 10 Double Steamer Ovens in different school locations',
     installedUnits: '1 x HydroFLOW S38 installed on cold water supply line feeding the steamer oven',
@@ -120,7 +120,7 @@ const caseStudyData = {
   'scale-reduction-private-dental-practice': {
     category: 'commercial',
     title: 'Scale Reduction at a Private Dental Practice',
-    image: 'https://pdf.hydroflow-usa.com/13953a4e6_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/13953a4e6_image.png',
     customer: 'Private dental practice in the United States',
     application: 'Water system serving sinks, toilets, dental chairs, and other fixtures throughout the facility',
     installedUnits: '4 HydroFLOW units: 1 x hs40 on 1.5" incoming water line, 1 x s38 on 1" cold water line to water heater, 1 x s38 on 1" cold water line beneath kitchen, 1 x s38 on 1" cold water line beneath procedure room 5',
@@ -145,7 +145,7 @@ const caseStudyData = {
   'scale-reduction-gas-station-convenience-store': {
     category: 'commercial',
     title: 'Scale Reduction at a Gas Station and Convenience Store Chain',
-    image: 'https://pdf.hydroflow-usa.com/a92d7f14b_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a92d7f14b_image.png',
     customer: 'A gas station and convenience store chain with over 400 locations across 12 states',
     application: 'Coffee makers, food warmers, ice machines, water heaters, and fixtures throughout each store location',
     installedUnits: 'HydroFLOW s38 (Pearl Plus) on ¾" cold water pipes (older stores & ice machines); HydroFLOW hs40 on 1¼" cold water pipes (newer stores)',
@@ -193,7 +193,7 @@ const caseStudyData = {
   'bakery-steam-boilers': {
     category: 'commercial',
     title: 'Bakery Steam Boilers',
-    image: 'https://pdf.hydroflow-usa.com/c0cae605b_44371494363345-510x510.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c0cae605b_44371494363345-510x510.jpg',
     customer: 'A commercial bakery facility.',
     application: 'Steam boiler scale and corrosion prevention.',
     installedUnits: 'Commercial HydroFLOW Unit.',
@@ -207,7 +207,7 @@ const caseStudyData = {
   'water-bath-cooling-system-plastics': {
     category: 'industrial',
     title: 'Water Bath Cooling System - Plastics Processing',
-    image: 'https://pdf.hydroflow-usa.com/64e72788b_WaterBathCoolingSystem.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/64e72788b_WaterBathCoolingSystem.jpg',
     customer: 'Polystyrene plastics processing facility in the U.S. Northeast',
     installer: 'HydroFLOW USA',
     application: 'Recirculating process water cooling system for polystyrene manufacturing with high TDS, bacteria, and algae challenges. System treated with sodium hypochlorite and sodium hydroxide with frequent water blow-downs.',
@@ -232,7 +232,7 @@ const caseStudyData = {
   'sunrise-childrens-hospital-cooling-tower': {
     category: 'commercial',
     title: 'Sunrise Children\'s Hospital Cooling Tower',
-    image: 'https://pdf.hydroflow-usa.com/1ace0f6b1_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1ace0f6b1_image.png',
     installer: 'HydroFLOW West',
     customer: 'Sunrise Children\'s Hospital – Las Vegas NV',
     application: 'Cooling Tower',
@@ -249,7 +249,7 @@ const caseStudyData = {
   'nellis-air-force-base-cooling-tower': {
     category: 'commercial',
     title: 'Nellis Air Force Base Cooling Tower',
-    image: 'https://pdf.hydroflow-usa.com/b8987c812_36551561660043.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b8987c812_36551561660043.jpg',
     installer: 'HydroFLOW West',
     customer: 'Nellis Air Force Base',
     application: 'Cooling Tower',
@@ -266,7 +266,7 @@ const caseStudyData = {
   'city-of-walla-walla-wastewater-plant': {
     category: 'industrial',
     title: 'City of Walla Walla Wastewater Plant',
-    image: 'https://pdf.hydroflow-usa.com/22845e0f8_60391596733327.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/22845e0f8_60391596733327.jpg',
     installer: 'HydroFLOW West',
     customer: 'City of Walla Walla, WA',
     application: 'Struvite accumulation in belt press',
@@ -284,7 +284,7 @@ const caseStudyData = {
   'honda-cooling-tower': {
     category: 'industrial',
     title: 'Honda Cooling Tower',
-    image: 'https://pdf.hydroflow-usa.com/6421f8a1d_81111495579148.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6421f8a1d_81111495579148.jpg',
     installer: 'Satoshi Sakanishi, Nippon Selpo Co. Ltd., Japan',
     customer: 'A major car manufacturer, Japan',
     application: 'Cooling Tower 300HP',
@@ -319,7 +319,7 @@ const caseStudyData = {
   'food-processing-cooling-tower': {
     category: 'agriculture',
     title: 'Food Processing Cooling Tower',
-    image: 'https://pdf.hydroflow-usa.com/ab27fbc8b_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ab27fbc8b_image.png',
     installer: 'HydroFLOW West',
     customer: 'G & G Orchards, Washington',
     application: 'BAC Condenser and EVAPCO Condenser which feeding into a common sump tank',
@@ -336,7 +336,7 @@ const caseStudyData = {
   'massive-texas-factory': {
     category: 'industrial',
     title: 'Massive Texas Factory',
-    image: 'https://pdf.hydroflow-usa.com/33ba861ce_MassiveTXfactory.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33ba861ce_MassiveTXfactory.png',
     installer: 'EcoTech Solutions',
     customer: 'A 5.2 million square foot equipment manufacturer in Texas with over 7,000 employees',
     application: 'Contribute to water savings to spare the facility\'s well and free up capacity in the onsite wastewater treatment plant',
@@ -356,7 +356,7 @@ const caseStudyData = {
   'sludge-line-struvite-treatment': {
     category: 'industrial',
     title: 'Sludge Line Struvite Treatment',
-    image: 'https://pdf.hydroflow-usa.com/073cd7b2e_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/073cd7b2e_image.png',
     installer: 'HydroFLOW USA',
     customer: 'A wastewater treatment plant in Chicago Illinois',
     application: 'Struvite scale treatment',
@@ -371,7 +371,7 @@ const caseStudyData = {
   'gold-leed-campus': {
     category: 'commercial',
     title: 'Gold LEED Registered Campus',
-    image: 'https://pdf.hydroflow-usa.com/1469904e9_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1469904e9_image.png',
     installer: 'HydroFLOW Southwest – New Water Innovations',
     customer: 'The Academy for the Love of Learning',
     application: 'Water heaters and water features',
@@ -391,7 +391,7 @@ const caseStudyData = {
   'bakery-steam-boilers': {
     category: 'commercial',
     title: 'Bakery Steam Boilers',
-    image: 'https://pdf.hydroflow-usa.com/4bf8d7c50_44051495481164.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4bf8d7c50_44051495481164.jpg',
     installer: 'HydroFLOW USA',
     customer: 'Bimbo Bakeries USA (BBU)',
     application: 'Steam Boilers',
@@ -408,7 +408,7 @@ const caseStudyData = {
   'municipal-golf-course-in-texas': {
     category: 'agriculture',
     title: 'Municipal Golf Course in Texas',
-    image: 'https://pdf.hydroflow-usa.com/73645241b_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/73645241b_image.png',
     installer: 'HydroFLOW USA',
     customer: 'Municipal golf course in Texas',
     application: 'Golf course irrigation system',
@@ -425,7 +425,7 @@ const caseStudyData = {
   'steel-company-spray-bar-system': {
     category: 'industrial',
     title: 'Steel Company Spray Bar System',
-    image: 'https://pdf.hydroflow-usa.com/90609d12e_24681639432386.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/90609d12e_24681639432386.jpg',
     installer: 'HydroFLOW Canada',
     customer: 'Steel manufacturing and processing facility located in Ontario, Canada',
     application: 'Spray Bar System – Galvanizing Line – Cooling Spray Bars',
@@ -441,7 +441,7 @@ const caseStudyData = {
   'biofilm-reduction-referral-letter': {
     category: 'industrial',
     title: 'Biofilm Reduction - Referral Letter',
-    image: 'https://pdf.hydroflow-usa.com/4b0a25b06_88401638211312.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4b0a25b06_88401638211312.jpg',
     customer: 'Avantor – Poland',
     application: 'Biofilm Reduction',
     installedUnits: 'HydroFLOW i60 water conditioner',
@@ -457,7 +457,7 @@ const caseStudyData = {
   'lehigh-county-wwtp-struvite-treatment': {
     category: 'industrial',
     title: 'Lehigh County WWTP - Struvite Treatment',
-    image: 'https://pdf.hydroflow-usa.com/087be9706_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/087be9706_image.png',
     customer: 'Lehigh County Wastewater Treatment Plant',
     application: 'Struvite scale treatment in wastewater treatment plant',
     installedUnits: 'HydroFLOW industrial unit',
@@ -473,7 +473,7 @@ const caseStudyData = {
   'paper-mill-liquor-lines': {
     category: 'industrial',
     title: 'Paper Mill Liquor Lines',
-    image: 'https://pdf.hydroflow-usa.com/75ce255c0_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/75ce255c0_image.png',
     customer: 'Paper Mill in Virginia',
     application: 'Green liquor piping, white liquor piping, evaporator piping, heat exchangers',
     installedUnits: 'Fifteen HydroFLOW water conditioners in various locations of high mineral concentrations',
@@ -490,7 +490,7 @@ const caseStudyData = {
   'cmc-concrete-report': {
     category: 'industrial',
     title: 'CMC Concrete Report',
-    image: 'https://pdf.hydroflow-usa.com/ba52c7c45_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ba52c7c45_image.png',
     installer: 'HydroFLOW USA & CMC – Construction Materials Testing and Inspections',
     customer: 'Concrete production facility in Henderson, NV',
     application: 'Testing the effect of HydroFLOW treated water on both the plastic and hardened states of structural Concrete',
@@ -507,7 +507,7 @@ const caseStudyData = {
   'inland-power-plant-in-china': {
     category: 'industrial',
     title: 'Inland Power Plant in China',
-    image: 'https://pdf.hydroflow-usa.com/1aadc4f7a_6861498261526.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1aadc4f7a_6861498261526.jpg',
     installer: 'HydroFLOW Asia',
     customer: 'Inland power plant in China',
     application: 'Circulating Cooling System in Power Plant',
@@ -525,7 +525,7 @@ const caseStudyData = {
   'power-station-steam-condenser': {
     category: 'industrial',
     title: 'Power Station Steam Condenser',
-    image: 'https://pdf.hydroflow-usa.com/368371e5f_71371495581347.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/368371e5f_71371495581347.jpg',
     installer: 'HydroFLOW Russia',
     customer: 'Heat power station. The station produces electricity and heat energy, which is used for central heating',
     application: 'Steam condenser and heat exchangers',
@@ -544,7 +544,7 @@ const caseStudyData = {
   'natural-gas-and-oil-producer': {
     category: 'industrial',
     title: 'Natural Gas and Oil Producer',
-    image: 'https://pdf.hydroflow-usa.com/80b2c4c7a_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/80b2c4c7a_image.png',
     installer: 'HydroFLOW West Inc',
     customer: 'Natural gas and oil producer in Nikiski, Alaska, USA',
     application: 'Offshore petroleum production operation. The device was installed on a 4.5" outer diameter recycled water pipe, after the separator',
@@ -563,7 +563,7 @@ const caseStudyData = {
   'wastewater-treatment-plant-in-ohio': {
     category: 'industrial',
     title: 'Wastewater Treatment Plant in Ohio',
-    image: 'https://pdf.hydroflow-usa.com/16924a78b_generated_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16924a78b_generated_image.png',
     installer: 'HydroFLOW USA and Kirk Williams Company',
     customer: 'London OH, WWTP',
     application: 'Dewatering Equipment – Belt Press',
@@ -579,7 +579,7 @@ const caseStudyData = {
   'hydroflow-cooling-tower-chiller-installation': {
     category: 'commercial',
     title: 'HydroFLOW Cooling Tower Chiller Installation',
-    image: 'https://pdf.hydroflow-usa.com/5b01fd83c_custom24condencer.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b01fd83c_custom24condencer.png',
     installer: 'HydroFLOW West Inc',
     customer: 'Medical Center in California',
     application: 'Cooling Towers and Chillers',
@@ -623,7 +623,7 @@ const caseStudyData = {
   'st-helena-hospital-ice-machine': {
     category: 'commercial',
     title: 'St. Helena Hospital Ice Machine',
-    image: 'https://pdf.hydroflow-usa.com/33c596c15_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/33c596c15_image.png',
     installer: 'HydroFLOW West',
     customer: 'St. Helena Hospital in St. Helena, California',
     application: 'Ice machines',
@@ -640,7 +640,7 @@ const caseStudyData = {
   'penn-state-university': {
     category: 'commercial',
     title: 'Penn State University',
-    image: 'https://pdf.hydroflow-usa.com/5e5549989_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5e5549989_image.png',
     installer: 'HydroFLOW PA – Joseph T Berrena Mechanicals',
     customer: 'Penn State – The Nittany Lion Inn',
     application: 'Steamer and cooling Towers',
@@ -656,7 +656,7 @@ const caseStudyData = {
   'the-melting-pot-restaurant': {
     category: 'commercial',
     title: 'The Melting Pot Restaurant',
-    image: 'https://pdf.hydroflow-usa.com/8a320e425_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8a320e425_image.png',
     installer: 'HydroFLOW West',
     customer: 'The Melting Pot-Sacramento',
     application: 'Restaurant kitchen equipment',
@@ -674,7 +674,7 @@ const caseStudyData = {
   'sharonville-fire-department': {
     category: 'commercial',
     title: 'Sharonville Fire Department',
-    image: 'https://pdf.hydroflow-usa.com/ddc7e5164_89651495480951.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ddc7e5164_89651495480951.jpg',
     installer: 'Schlueter Plumbing',
     customer: 'City of Sharonville – Fire Department',
     application: 'Drinking fountain and shower valves',
@@ -695,7 +695,7 @@ const caseStudyData = {
   'scale-and-bio-treatment-in-outdoor-pool': {
     category: 'commercial',
     title: 'Scale and Bio Treatment in Outdoor Pool',
-    image: 'https://pdf.hydroflow-usa.com/184c0154f_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/184c0154f_image.png',
     installer: 'HydroFLOW West Inc',
     customer: 'Yakama Nation – Youth Activities',
     application: '375,000 Gallon Municipal Pool',
@@ -713,7 +713,7 @@ const caseStudyData = {
   'premium-car-wash-in-california': {
     category: 'commercial',
     title: 'Premium Car Wash in California',
-    image: 'https://pdf.hydroflow-usa.com/7eb2386b7_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7eb2386b7_image.png',
     installer: 'HydroFLOW West',
     customer: 'An American Car Wash (https://palmdesertcarwash.com/)',
     application: 'Recycled water and spray nozzles',
@@ -730,7 +730,7 @@ const caseStudyData = {
   'hotel-hot-water-system': {
     category: 'commercial',
     title: 'Hotel Hot Water System',
-    image: 'https://pdf.hydroflow-usa.com/3e5267fa9_72631672858543.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/3e5267fa9_72631672858543.jpg',
     customer: 'Hotel in San Antonio, TX',
     application: 'Potable hot water system – limescale reduction',
     installedUnits: 'Two HydroFLOW i100',
@@ -745,7 +745,7 @@ const caseStudyData = {
   'office-building-cooling-towers-in-us-southeast': {
     category: 'commercial',
     title: 'Office Building Cooling Towers in US Southeast',
-    image: 'https://pdf.hydroflow-usa.com/4c66c1e24_42301661965280.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4c66c1e24_42301661965280.jpg',
     installer: 'Southeast Pump & Equipment',
     customer: 'Commercial office building complex',
     application: 'Cooling Towers',
@@ -763,7 +763,7 @@ const caseStudyData = {
   'long-stem-rose-growth': {
     category: 'agriculture',
     title: 'HydroFLOW Product Evaluation - Long Stem Rose Growth',
-    image: 'https://pdf.hydroflow-usa.com/97391384a_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/97391384a_image.png',
     customer: 'A long-stem rose growing operation in South America',
     installedUnits: 'HydroFLOW Custom i12"',
     background: 'During the cold months (June-September) the overall growth of long stem roses slows down. The grower wanted to see how HydroFLOW could increase the output from his greenhouses, and determine if there is an overall improvement in the growth rate/quality of the roses throughout the year.',
@@ -778,7 +778,7 @@ const caseStudyData = {
   'residential-water-heater': {
     category: 'residential',
     title: 'Residential Water Heater',
-    image: 'https://pdf.hydroflow-usa.com/28337c84d_element.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/28337c84d_element.png',
     application: 'Residential scale prevention and removal',
     installedUnits: 'HydroFLOW Pearl Plus',
     background: 'Residential property needed to address scale buildup in water heater and throughout the home\'s plumbing system.',
@@ -793,7 +793,7 @@ const caseStudyData = {
   'coliforms-in-well-water': {
     category: 'residential',
     title: 'Coliforms in Well Water',
-    image: 'https://pdf.hydroflow-usa.com/16a0ff6f9_28901495146802.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16a0ff6f9_28901495146802.jpg',
     installer: 'HydroFLOW West Inc.',
     customer: 'Homeowners in Kenai Alaska.',
     application: 'Residential Well',
@@ -809,7 +809,7 @@ const caseStudyData = {
   'plumbing-contractor': {
     category: 'residential',
     title: 'Plumbing Contractor',
-    image: 'https://pdf.hydroflow-usa.com/ad81caac4_31951495476221.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ad81caac4_31951495476221.jpg',
     application: 'Tankless Heaters and Pools',
     installedUnits: 'HydroFLOW Pearl Plus',
     background: 'They were looking for a solution to protect the tankless water heaters they are installing. They came across the hydropath technology and decided they will try the HydroFLOW s38 unit on a couple of installations. After getting to know the technology more they started to install the HydroFLOW units on pools.',
@@ -823,7 +823,7 @@ const caseStudyData = {
   'product-evaluation-tankless-boiler': {
     category: 'residential',
     title: 'Product Evaluation - Tankless Boiler',
-    image: 'https://pdf.hydroflow-usa.com/8e8487817_14381495147872.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8e8487817_14381495147872.jpg',
     installer: 'HydroFLOW Canada',
     customer: 'Onspex is an independent testing company and was enlisted to provide an independent verification of the effects of a HydroFLOW unit.',
     application: 'Water Heater',
@@ -838,7 +838,7 @@ const caseStudyData = {
   'residential-well': {
     category: 'residential',
     title: 'Residential Well',
-    image: 'https://pdf.hydroflow-usa.com/4a460046d_pearl-plus-on-pipe.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4a460046d_pearl-plus-on-pipe.png',
     installer: 'New Water Innovations (HydroFLOW Southwest)',
     customer: 'Homeowner – Santa Fe, NM',
     application: 'Residential well /Whole House Solution',
@@ -854,7 +854,7 @@ const caseStudyData = {
   'residential-complex': {
     category: 'residential',
     title: 'Residential Complex',
-    image: 'https://pdf.hydroflow-usa.com/db222a134_7751495146448.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/db222a134_7751495146448.jpg',
     customer: 'The Greenfield Village – Southern CA',
     application: 'Water heaters and recirculation pumps',
     installedUnits: 'HydroFLOW Pearl Plus units',
@@ -869,7 +869,7 @@ const caseStudyData = {
   'residential-dishwasher': {
     category: 'residential',
     title: 'Residential Dishwasher',
-    image: 'https://pdf.hydroflow-usa.com/251608b46_41611494973757.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/251608b46_41611494973757.jpg',
     installer: 'HydroFLOW USA',
     customer: 'Crown Property Management',
     application: 'Dishwasher',
@@ -900,7 +900,7 @@ const caseStudyData = {
   'residential-tower': {
     category: 'residential',
     title: 'Residential Tower',
-    image: 'https://pdf.hydroflow-usa.com/a3454757f_11761494365073.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a3454757f_11761494365073.jpg',
     installer: 'New Water Innovations (HydroFLOW Southwest)',
     customer: 'West Sixth Residential Towers – Tempe, AZ',
     application: 'Water boilers, plumbing lines and fixtures',
@@ -915,7 +915,7 @@ const caseStudyData = {
   'orchard-scale-on-apples': {
     category: 'agriculture',
     title: 'Orchard - Scale on Apples',
-    image: 'https://pdf.hydroflow-usa.com/f8cd07ecf_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f8cd07ecf_image.png',
     installer: 'HydroFLOW West',
     customer: 'Eastern Washington apple grower',
     application: 'Scale accumulation on apples',
@@ -938,7 +938,7 @@ const caseStudyData = {
   'hydroflow-reduces-biofilm-baron-farms': {
     category: 'agriculture',
     title: 'HydroFLOW Reduces Biofilm at Baron Farms',
-    image: 'https://pdf.hydroflow-usa.com/aea25558e_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/aea25558e_image.png',
     installer: 'HydroFLOW West',
     customer: 'Baron Farms, WA',
     application: 'Well – biofilm and bio-kill',
@@ -955,7 +955,7 @@ const caseStudyData = {
   'aquavet-clinical-evaluation-fish-health': {
     category: 'agriculture',
     title: 'Phase 1 - Aquavet Clinical Evaluation Gyrodactylus Spp',
-    image: 'https://pdf.hydroflow-usa.com/123e77e92_15341495670660-400x400.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/123e77e92_15341495670660-400x400.jpg',
     customer: 'Aquaculture facility',
     application: 'Aquaculture fish health improvement in tilapia farming',
     installedUnits: 'HydroFLOW HS40 unit',
@@ -977,7 +977,7 @@ const caseStudyData = {
   'us-navy-seafighter': {
     category: 'marine',
     title: 'U.S. Navy Seafighter',
-    image: 'https://pdf.hydroflow-usa.com/c2d5706d8_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c2d5706d8_image.png',
     application: 'Naval vessel biofouling prevention',
     installedUnits: 'HydroFLOW HM Range',
     results: [
@@ -990,7 +990,7 @@ const caseStudyData = {
   'mv-hermes-leader-uv-system': {
     category: 'marine',
     title: 'MV Hermes Leader - Replacement of UV-System',
-    image: 'https://pdf.hydroflow-usa.com/a5e77c37e_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a5e77c37e_image.png',
     application: 'Marine vessel water treatment replacing UV system',
     installedUnits: 'HydroFLOW HM Range',
     results: [
@@ -1003,7 +1003,7 @@ const caseStudyData = {
   'ray-shipping-fleet-hydropath': {
     category: 'marine',
     title: 'Ray Shipping Equips Fleet with Hydropath',
-    image: 'https://pdf.hydroflow-usa.com/fbc618b16_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fbc618b16_image.png',
     application: 'Fleet-wide marine vessel water treatment',
     installedUnits: 'HydroFLOW HM Range',
     results: [
@@ -1016,7 +1016,7 @@ const caseStudyData = {
   'anglo-eastern-freshwater-generator': {
     category: 'marine',
     title: 'Anglo Eastern - Freshwater Generator',
-    image: 'https://pdf.hydroflow-usa.com/b0977b45d_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b0977b45d_image.png',
     application: 'Marine freshwater generator scale prevention',
     installedUnits: 'HydroFLOW HM Range',
     results: [
@@ -1029,7 +1029,7 @@ const caseStudyData = {
   'mv-hoegh-antwerp-scale-prevention': {
     category: 'marine',
     title: 'MV Hoegh Antwerp - Scale Prevention',
-    image: 'https://pdf.hydroflow-usa.com/ae70b79b0_88651495664646.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ae70b79b0_88651495664646.jpg',
     application: 'Marine vessel scale prevention',
     installedUnits: 'HydroFLOW HM Range',
     results: [
@@ -1041,7 +1041,7 @@ const caseStudyData = {
   'car-carrier-main-cooling-system': {
     category: 'marine',
     title: 'Car Carrier - Main Cooling System',
-    image: 'https://pdf.hydroflow-usa.com/d29c16948_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d29c16948_image.png',
     application: 'Car carrier vessel cooling system',
     installedUnits: 'HydroFLOW HM Range',
     results: [
@@ -1054,7 +1054,7 @@ const caseStudyData = {
   'increased-crop-yield-experiment': {
     category: 'agriculture',
     title: 'Increased Crop Yield Experiment',
-    image: 'https://pdf.hydroflow-usa.com/4fd3f7fa7_87301495667998.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/4fd3f7fa7_87301495667998.jpg',
     installer: 'Dr. Stuart O\'Byrne',
     customer: 'Agricultural research - Corn field',
     application: 'Stimulated Water Circle Irrigation System',
@@ -1071,7 +1071,7 @@ const caseStudyData = {
   '60-hp-low-pressure-steam-boiler': {
     category: 'industrial',
     title: '60 HP Low Pressure Steam Boiler',
-    image: 'https://pdf.hydroflow-usa.com/fe8e0d1eb_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/fe8e0d1eb_image.png',
     installer: 'HydroFLOW Midwest',
     customer: 'Commercial trucking company from Rosemount, Minnesota',
     application: '60 horsepower low-pressure natural gas steam boiler (steam is used during the truck wash process)',
@@ -1092,7 +1092,7 @@ const caseStudyData = {
   'antares-reduced-chemical-usage': {
     category: 'marine',
     title: 'Antares - Reduced Chemical Usage',
-    image: 'https://pdf.hydroflow-usa.com/bac4313f7_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/bac4313f7_image.png',
     installer: 'Hydropath Marine',
     customer: 'Antares Shipping LTD',
     application: 'Fresh Water Generator',
@@ -1109,7 +1109,7 @@ const caseStudyData = {
   'maritime-reporter-magazine-article': {
     category: 'marine',
     title: 'Maritime Reporter - Magazine Article',
-    image: 'https://pdf.hydroflow-usa.com/8076e1b04_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/8076e1b04_image.png',
     application: 'Marine vessel water treatment — scale, bacteria, algae, and biofouling',
     background: 'Shipowners seeking to combat the harmful effects of lime scale, bacteria, algae and biofouling inside their vessels\' various water systems can use Hydropath Marine, a chemical-free technology for onboard water treatment. The patented Hydropath technology, which uses electrical signals to kill algae and bacteria, was initially developed in the early \'90s to treat lime scale within the home, but has since been developed for a dozen different product ranges for both land-based and marine applications.',
     results: [
@@ -1123,7 +1123,7 @@ const caseStudyData = {
   'mv-detroit-express-freshwater-generator': {
     category: 'marine',
     title: 'MV Detroit Express - Freshwater Generator',
-    image: 'https://pdf.hydroflow-usa.com/6cba0dd95_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/6cba0dd95_image.png',
     installer: 'Hydropath Marine',
     customer: 'Anglo Eastern Ship Management Ltd.',
     application: 'Fresh Water Generator',
@@ -1139,7 +1139,7 @@ const caseStudyData = {
   'mv-hoegh-america-freshwater-generator': {
     category: 'marine',
     title: 'MV Hoegh America - Freshwater Generator',
-    image: 'https://pdf.hydroflow-usa.com/ae70b79b0_88651495664646.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/ae70b79b0_88651495664646.jpg',
     installer: 'Hydropath Marine',
     customer: 'Ray Car Carrier Ltd. – MV Hoegh America',
     application: 'Fresh Water Generator (FWG)',
@@ -1157,7 +1157,7 @@ const caseStudyData = {
   'aquavet-clinical-evaluation-phase-2': {
     category: 'agriculture',
     title: 'Phase 2 - Aquavet Clinical Evaluation Gyrodactylus Spp',
-    image: 'https://pdf.hydroflow-usa.com/123e77e92_15341495670660-400x400.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/123e77e92_15341495670660-400x400.jpg',
     customer: 'AquaVet Technologies Ltd.',
     application: 'Recirculating tilapia tanks — parasite transmission control',
     installedUnits: 'HydroFLOW i60 unit',
@@ -1174,7 +1174,7 @@ const caseStudyData = {
   'hydroflow-optimizes-performance-apple-flume': {
     category: 'agriculture',
     title: 'HydroFLOW Optimizes Performance - Apple Packing Flume',
-    image: 'https://pdf.hydroflow-usa.com/9edfa037e_Apples.jpeg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9edfa037e_Apples.jpeg',
     installer: 'HydroFLOW West',
     customer: 'Apple packing facility, US Pacific Northwest',
     application: 'T-Dump flume and treatment tank — chlorine reduction and microbial control',
@@ -1193,7 +1193,7 @@ const caseStudyData = {
   'select-cooling-tower-chiller-plant-case-studies': {
     category: 'commercial',
     title: 'Select Cooling Tower & Chiller Plant Case Studies',
-    image: 'https://pdf.hydroflow-usa.com/5b01fd83c_custom24condencer.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5b01fd83c_custom24condencer.png',
     application: 'Cooling towers and chiller plants across multiple commercial and industrial facilities',
     background: 'This document provides an overview of how HydroFLOW optimizes cooling towers and chiller systems across a variety of facility types. HydroFLOW increases overall heat transfer efficiency by reducing scale and biofilm deposits, reduces the use of anti-scalant, anti-corrosive and biocide chemicals, lessens water usage by allowing cooling systems to operate at higher conductivity, and extends the service life of equipment.',
     successFactors: [
@@ -1218,7 +1218,7 @@ const caseStudyData = {
   'high-end-resort-new-mexico': {
     category: 'commercial',
     title: 'High-End Resort in New Mexico',
-    image: 'https://pdf.hydroflow-usa.com/adadb5eb6_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/adadb5eb6_image.png',
     installer: 'New Water Innovations (HydroFLOW Southwest)',
     customer: 'Premium resort in Santa Fe, New Mexico, USA',
     application: 'Water heaters (64 casitas), pools, hot tubs, well, and cooling tower',
@@ -1241,7 +1241,7 @@ const caseStudyData = {
   'third-party-verification-denver': {
     category: 'industrial',
     title: 'Third Party Verification Report - Denver',
-    image: 'https://pdf.hydroflow-usa.com/087be9706_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/087be9706_image.png',
     installer: 'HydroFLOW USA',
     customer: 'Robert W. Hite Treatment Facility, Metro Wastewater Reclamation District, Denver, CO',
     application: 'Centrate conveyance system — struvite scale control',
