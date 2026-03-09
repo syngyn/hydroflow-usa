@@ -288,26 +288,18 @@ export default function ProductHMRange() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-6">Download Resources</h3>
                 <div className="space-y-3">
                   {[
-                    'Hydropath Marine Brochure',
-                    'Hydropath <i>hm</i> Range Specification',
-                    'Hydropath <i>hm</i> Range Installation Guide'
+                    { label: 'Hydropath Marine Brochure', url: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9306506ea_Marine-Brochure.pdf' },
+                    { label: 'Hydropath HM Range Specification', url: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/31da6063b_HydropathMarineSpecGuide.pdf' },
+                    { label: 'Hydropath HM Range Installation Guide', url: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/55130d803_HydropathMarineHMRangeInstallationGuide.pdf' }
                   ].map((doc) => (
                     <Button 
-                      key={doc} 
+                      key={doc.label} 
                       variant="outline" 
                       className="w-full justify-start"
-                      onClick={() => {
-                        if (doc === 'Hydropath Marine Brochure') {
-                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9306506ea_Marine-Brochure.pdf', '_blank');
-                        } else if (doc === 'Hydropath <i>hm</i> Range Specification') {
-                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/31da6063b_HydropathMarineSpecGuide.pdf', '_blank');
-                        } else if (doc === 'Hydropath <i>hm</i> Range Installation Guide') {
-                          window.open('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/55130d803_HydropathMarineHMRangeInstallationGuide.pdf', '_blank');
-                        }
-                      }}
+                      onClick={() => window.open(doc.url, '_blank')}
                     >
                       <Package className="w-4 h-4 mr-2" />
-                      {doc} (PDF)
+                      <span>{doc.label.replace('HM', '<i>hm</i>')} (PDF)</span>
                     </Button>
                   ))}
                 </div>
