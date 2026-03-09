@@ -1644,7 +1644,7 @@ const blogContent = {
       
       <p>Everything that goes down the drain eventually ends up at a wastewater treatment plant. You name it and it can probably be found somewhere in the wastewater stream. Dirt, food particles, fats, oils, chemicals and other less savory materials contaminate the water. This can cause a number of different issues for wastewater treatment facilities and the equipment involved in removing the contaminants from the water so they can be safely disposed of (or reused!). The award winning <i>Hydro</i>FLOW devices have been installed to control struvite accumulation, reduce polymer use, reduce chemical use, and enhance filtration efficiency in wastewater facilities across the US and the world.</p>
       
-      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/34e359875_WWTPblog.jpg" alt="2017 WEF Innovative Technology Award" />
+      <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/34e359875_WWTPblog.jpg" alt="2017 WEF Innovative Technology Award" style="width: 50%; height: auto;" />
       
       <p><strong>2017 WEF Innovative Technology Award</strong></p>
       
