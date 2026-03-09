@@ -146,7 +146,7 @@ export default function PlasticManufacturing() {
             {[
               { title: 'Improved Flow Rates', image: 'https://hydroflow-usa.com/assets/userfiles/images/flowrates%281%29.png' },
               { title: 'Reduced Chemical Usage', image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7adb51569_reduced-chemical-usage1.png' },
-              { title: 'Removed Existing Scale', image: 'https://hydroflow-usa.com/assets/userfiles/images/removed-existing-scale%283%29.png' },
+              { title: 'Removed Existing Scale', image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/2efad9718_removed-existing-scale1.png' },
               { title: 'Stopped New Scale', image: 'https://hydroflow-usa.com/assets/userfiles/images/Stoped-New-Scale-from-Forming%283%29.png' }
             ].map((item, index) => (
               <motion.div
