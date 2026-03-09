@@ -89,8 +89,8 @@ export default function Filtration() {
             {/* Diagram */}
             <div className="bg-slate-50 rounded-2xl p-8 mb-12">
               <img 
-                src="https://hydroflow-usa.com/assets/userfiles/images/Filtration/filtration_bottom.png"
-                alt="How Hydropath technology enhances filtration efficiency"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a87526582_filtration_bottom.png"
+                                 alt="How Hydropath technology enhances filtration efficiency"
                 className="w-full max-w-3xl mx-auto"
               />
             </div>
