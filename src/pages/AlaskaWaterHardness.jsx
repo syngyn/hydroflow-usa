@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from "@/components/ui/button";
@@ -17,7 +18,13 @@ export default function AlaskaWaterHardness() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Helmet>
+        <title>Alaska Water Hardness - Complete City Guide | HydroFLOW USA</title>
+        <meta name="description" content="Alaska water hardness averages 65-140 PPM (moderately hard). Find water hardness data for Anchorage, Fairbanks, Juneau and other Alaska cities." />
+      </Helmet>
+
+      <div className="min-h-screen bg-white">
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
@@ -113,5 +120,6 @@ export default function AlaskaWaterHardness() {
           </div>
         </section>
       </div>
-    );
+    </>
+  );
 }

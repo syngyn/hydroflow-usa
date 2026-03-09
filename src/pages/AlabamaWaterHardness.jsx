@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { Button } from "@/components/ui/button";
@@ -16,7 +17,13 @@ export default function AlabamaWaterHardness() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Helmet>
+        <title>Alabama Water Hardness - Water Quality by City | HydroFLOW USA</title>
+        <meta name="description" content="Alabama water hardness averages 61 PPM (moderately soft). Find water hardness data for Birmingham, Mobile, Huntsville, Madison and other Alabama cities." />
+      </Helmet>
+
+      <div className="min-h-screen bg-white">
         <section className="relative pt-32 pb-20">
           <div className="absolute inset-0">
             <img 
@@ -106,8 +113,9 @@ export default function AlabamaWaterHardness() {
                 </Link>
               </div>
             </motion.div>
-            </div>
-            </section>
-            </div>
-            );
-            }
+          </div>
+        </section>
+      </div>
+    </>
+  );
+}
