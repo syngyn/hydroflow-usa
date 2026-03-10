@@ -71,6 +71,15 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
+      {/* Static Poster Image (shown before video loads) */}
+      <div className={`absolute inset-0 overflow-hidden transition-opacity duration-1000 ${videoLoaded ? 'opacity-0' : 'opacity-65'}`}>
+        <img
+          src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/9c8fe33a0_Screenshot_10-3-2026_11418_playervimeocom.jpg"
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+      </div>
+
       {/* Video Background */}
       <div className={`absolute inset-0 overflow-hidden transition-opacity duration-1000 ${videoLoaded ? 'opacity-65' : 'opacity-0'}`}>
         <iframe
