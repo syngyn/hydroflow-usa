@@ -21,10 +21,11 @@ export default function ROICalculator({ embedded = false }) {
     e.preventDefault();
 
     const waterCost = parseFloat(inputs.monthlyWaterCost) || 0;
+    const sewerCost = parseFloat(inputs.monthlySewerCost) || 0;
     const chemCost = parseFloat(inputs.monthlyChemicalCost) || 0;
 
     // Annual calculations
-    const annualWaterCost = waterCost * 12;
+    const annualWaterCost = (waterCost + sewerCost) * 12;
     const annualWaterCostWithHydroFlow = annualWaterCost * 0.75;
     const waterSavings = annualWaterCost - annualWaterCostWithHydroFlow;
 
