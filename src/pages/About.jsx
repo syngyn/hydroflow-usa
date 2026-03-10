@@ -79,26 +79,13 @@ export default function About() {
                 Pioneering Water Treatment Since 1992
               </h2>
               <div className="space-y-4 text-slate-600 leading-relaxed">
-                <p>
-                  <i>Hydro</i>FLOW USA, headquartered in Redmond, WA, is the exclusive U.S. distributor 
-                  of the unique <i>Hydro</i>FLOW water conditioners that are powered by the patented 
-                  Hydropath technology.
-                </p>
-                <p>
-                  Over twenty years ago, Hydropath Technology Ltd., located in the U.K., invented 
-                  a process that treats fluids by inducing a robust yet harmless signal of +/- 150kHz 
-                  throughout plumbing systems made of any material.
-                </p>
-                <p>
-                  The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal 
-                  to propagate. The induction of the signal prevents scale and biofilm from accumulating 
-                  inside plumbing systems and gradually removes existing deposits.
-                </p>
-                <p>
-                  This preventative action significantly reduces energy, chemical, water and maintenance 
-                  costs which extends the service life of equipment and pipes.
-                </p>
-              </div>
+                 <p>
+                   <i>Hydro</i>FLOW USA, headquartered in Redmond, WA, is the exclusive U.S. distributor of the unique <i>Hydro</i>FLOW water conditioners that are powered by the patented Hydropath technology. These environmentally friendly devices have been distributed throughout the world for over 20 years and officially entered the U.S. market in 2010.
+                 </p>
+                 <p>
+                   Over twenty years ago, Hydropath Technology Ltd., located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of +/- 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.
+                 </p>
+               </div>
             </motion.div>
 
             <motion.div
