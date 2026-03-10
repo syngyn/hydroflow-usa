@@ -51,11 +51,7 @@ export default function ROICalculator({ embedded = false }) {
 
   return (
     <div className={embedded ? '' : 'max-w-4xl mx-auto px-4 py-10'}>
-      {/* Title */}
-      <h1 className="text-3xl md:text-4xl font-bold mb-6">
-        <span className="text-orange-500">COOLING TOWER</span>{' '}
-        <span className="text-slate-700">ROI CALCULATOR</span>
-      </h1>
+
 
       {/* Disclaimer text */}
       <div className="text-sm text-slate-600 space-y-3 mb-8 leading-relaxed">
