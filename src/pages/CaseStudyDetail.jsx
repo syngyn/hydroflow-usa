@@ -1086,6 +1086,29 @@ const caseStudyData = {
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d33c208a5_88201550515726.pdf'
   },
 
+  'city-of-orlando-wastewater-treatment-plant': {
+    category: 'industrial',
+    title: 'City of Orlando Wastewater Treatment Plant',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16924a78b_generated_image.png',
+    installer: 'Allied Group – HydroFLOW distributor in Florida',
+    customer: 'City of Orlando Wastewater Treatment Plant, 5100 LB McLeod Rd., Orlando, FL 32811',
+    application: 'Struvite accumulation in belt press #5 (AshBrook-Klam press)',
+    installedUnits: 'HydroFLOW 12" custom water conditioner — installed November 23, 2013',
+    background: 'The belt presses at the City of Orlando Wastewater Treatment Plant suffer from severe Struvite (NH₄MgPO₄•6H₂O) scale accumulation which greatly impedes the equipment\'s productivity and effectiveness. The plant\'s management team decided to evaluate HydroFLOW\'s ability to relieve the problem on belt press #5 over a five-month period (November 2013 – April 2014). The belt press has two belts, two meters wide. Polymer is automatically dosed using a custom-made anionic polymer injection system.',
+    successFactors: [
+      'Main: Prevent new Struvite scale accumulation and gradually remove existing Struvite deposits',
+      'Secondary: Reduce polymer usage due to better belt press operating efficiency with Struvite scale removed and enhanced floc formation'
+    ],
+    results: [
+      'HydroFLOW prevented Struvite scale accumulation and gradually removed existing Struvite scale deposits over 150 days — without any chemical or mechanical scale removal.',
+      'Drum: Before – hard scale with bridged-over holes. After 150 days – minimal scale remaining.',
+      'Side of drum: Before – hard scale. After 150 days – very little scale; no chemical or mechanical scale removal performed.',
+      'Pan: Before – 5mm of hard scale. After 150 days – only 1mm of brittle scale remains.',
+      'Average polymer usage per day reduced by approximately 20% due to HydroFLOW\'s ability to enhance the flocculation of suspended solids.'
+    ],
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW-industrial-case-study-city-of-orlando-wastewater-treatment-plant.pdf'
+  },
+
   // --- Newly added case studies ---
 
   'antares-reduced-chemical-usage': {
@@ -1559,6 +1582,7 @@ export default function CaseStudyDetail() {
               slug === 'city-of-walla-walla-wastewater-plant' || 
               slug === 'lehigh-county-wwtp-struvite-treatment' || 
               slug === 'wastewater-treatment-plant-in-ohio' ||
+              slug === 'city-of-orlando-wastewater-treatment-plant' ||
               slug === 'massive-texas-factory') && (
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
