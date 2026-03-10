@@ -79,13 +79,9 @@ export default function HeroSection() {
     fetchThumbnail();
   }, []);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setShowThumbnail(false), 2500);
-    return () => clearTimeout(timer);
-  }, []);
-
   const handleVideoReady = () => {
-    setTimeout(() => setVideoLoaded(true), 2000);
+    setVideoLoaded(true);
+    setTimeout(() => setShowThumbnail(false), 2000);
   };
 
   return (
