@@ -65,7 +65,7 @@ export default function HeroSection() {
   }, []);
 
   const handleVideoReady = () => {
-    setTimeout(() => setVideoLoaded(true), 4000);
+    setTimeout(() => setVideoLoaded(true), 5000);
   };
 
   return (
@@ -73,7 +73,7 @@ export default function HeroSection() {
       {/* Video Background Splash (first frame thumbnail) */}
       <div 
         className={`absolute inset-0 transition-opacity duration-500 pointer-events-none ${videoLoaded ? 'opacity-0 hidden' : 'opacity-100'}`}
-        style={{ backgroundImage: 'url(https://vumbnail.com/1171978592.jpg?w=1920&h=1080&fit=cover)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+        style={{ backgroundImage: 'url(https://vumbnail.com/1171978592.jpg?w=3840&h=2160&fit=cover&q=90)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
       />
 
       {/* Video fades in on top of splash */}
