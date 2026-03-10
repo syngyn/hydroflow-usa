@@ -82,6 +82,7 @@ export default function Residential() {
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/971b89f11_PearlPlus.png"
                 alt="<i>Hydro</i>FLOW Pearl Plus"
                 className="w-full h-auto object-contain drop-shadow-2xl"
+                style={{ transform: 'scale(0.75)' }}
               />
             </motion.div>
           </div>
