@@ -66,15 +66,16 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
       {/* Video Background */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-      >
-        <source src="https://www.dropbox.com/scl/fi/s5ur40znsaplj92erndhx/cooling-tower-of-the-thermal-energy-plant-00130-2025-12-17-10-44-30-utc.mp4?raw=1" type="video/mp4" />
-      </video>
+      <div className="absolute inset-0 overflow-hidden">
+        <iframe
+          src="https://player.vimeo.com/video/1171949584?background=1&autoplay=1&loop=1&muted=1&autopause=0"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+          style={{ width: '177.78vh', height: '100vh', minWidth: '100%', minHeight: '56.25vw' }}
+          frameBorder="0"
+          allow="autoplay; fullscreen"
+          title="Background video"
+        />
+      </div>
 
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-32 lg:scale-110 lg:origin-center">
