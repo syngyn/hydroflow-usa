@@ -126,8 +126,8 @@ export default function ROICalculator({ embedded = false }) {
       {results && (
         <div className="mt-12">
           <h3 className="text-2xl md:text-3xl font-bold mb-8">
-            <span className="text-orange-500">SAVINGS WITH </span>
-            <span className="italic">Hydro</span><span className="text-orange-500">FLOW</span>
+            <span className="text-black">SAVINGS WITH </span>
+            <span className="italic">Hydro</span><span className="text-black">FLOW</span>
           </h3>
 
           <div className="overflow-x-auto">
