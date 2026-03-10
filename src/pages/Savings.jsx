@@ -84,33 +84,7 @@ export default function Savings() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {savingsStats.map((stat, index) => (
-              <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-              >
-                <Card className="text-center h-full">
-                  <CardContent className="pt-6">
-                    <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mx-auto mb-4">
-                      <stat.icon className="w-6 h-6 text-cyan-600" />
-                    </div>
-                    <p className="text-3xl font-bold text-slate-900 mb-2">{stat.value}</p>
-                    <p className="font-semibold text-slate-700 mb-2">{stat.label}</p>
-                    <p className="text-sm text-slate-600">{stat.description}</p>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Calculator Section */}
       <section className="py-16 bg-slate-50">
