@@ -1086,6 +1086,28 @@ const caseStudyData = {
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d33c208a5_88201550515726.pdf'
   },
 
+  'paper-mill-bleach-plant': {
+    category: 'industrial',
+    title: 'Paper Mill Bleach Plant',
+    image: 'https://pdf.hydroflow-usa.com/images/fc2777dfd93d6e40901c05e1006284046ec9cafc83cc5614d2fe6295b9caee09.jpg',
+    customer: 'Boise Paper Mill – Wallula, Washington, USA',
+    application: 'Inlet to E1 shower unit in the bleach plant (compared against untreated D1 unit)',
+    installedUnits: 'Custom HydroFLOW C8" unit (8.625" pipe diameter), installed on the Bleach Plant Mezzanine Floor — 30 feet before the E1 shower nozzles',
+    background: 'The bleach plant has multiple shower units which suffer from severe limescale accumulation. Shower nozzles need to either be hydro-blasted or replaced periodically. The trial started with clean/new nozzles at zero limescale, installed May 4, 2011. The treated E1 unit was compared to the untreated D1 unit after 11 weeks (July 18, 2011).',
+    successFactors: [
+      'Decrease new limescale accumulation inside pipes and nozzles of E1 unit',
+      'Reduce labor intensity for cleaning compared to untreated D1 unit',
+      'Demonstrate chemical-free scale prevention feasibility in paper mill operations'
+    ],
+    results: [
+      'The D1/E1 comparison pictures speak for themselves — the treated E1 unit showed dramatically less scale buildup than the untreated D1 unit after the same 11-week period.',
+      'Treated E1 nozzles showed significantly less scale accumulation vs. the heavily scaled untreated D1 nozzles.',
+      'Scale reduction was visible all the way 30 feet down the line in the treated unit.',
+      'Hydropath Technology was recommended as a chemical-free method of treating limescale problems at a paper mill bleach plant.'
+    ],
+    pdfUrl: 'https://pdf.hydroflow-usa.com/Case%20Study%20-%20Paper%20Mill%20Bleach%20Plant%20-%20Scale.pdf'
+  },
+
   'kentucky-distillery-cooling-tower-dephlegmator': {
     category: 'industrial',
     title: 'Kentucky Distillery Cooling Tower and Dephlegmator',
