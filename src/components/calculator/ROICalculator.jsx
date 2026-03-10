@@ -128,7 +128,57 @@ export default function ROICalculator({ embedded = false }) {
         </button>
       </form>
 
+      {results && (
+        <div className="mt-12">
+          <h3 className="text-2xl md:text-3xl font-bold mb-8">
+            <span className="text-orange-500">SAVINGS WITH </span>
+            <span className="italic">Hydro</span><span className="text-orange-500">FLOW</span>
+          </h3>
 
+          <div className="overflow-x-auto">
+            <table className="w-full">
+              <thead>
+                <tr>
+                  <th className="text-left text-slate-600 font-semibold text-sm uppercase tracking-wider pb-4"></th>
+                  <th className="text-center text-slate-600 font-semibold text-sm uppercase tracking-wider pb-4">Current Cost</th>
+                  <th className="text-center text-slate-600 font-semibold text-sm uppercase tracking-wider pb-4">Cost with<br /><i>Hydro</i>FLOW</th>
+                  <th className="text-center text-slate-600 font-semibold text-sm uppercase tracking-wider pb-4">Itemized Savings</th>
+                  <th className="text-center text-slate-600 font-semibold text-sm uppercase tracking-wider pb-4">Total Annual Savings</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-slate-200">
+                  <td className="text-left text-slate-700 font-semibold py-6 pr-4">Annual<br />Water<br />Cost</td>
+                  <td className="text-center bg-gray-100 py-6 px-4 text-lg font-bold text-slate-700">
+                    US${results.annualWaterCost.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                  </td>
+                  <td className="text-center bg-gray-100 py-6 px-4 text-lg font-bold text-slate-700">
+                    US${results.annualWaterCostWithHydroFlow.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                  </td>
+                  <td className="text-center bg-gray-100 py-6 px-4 text-lg font-bold text-slate-700">
+                    US${results.waterSavings.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                  </td>
+                  <td className="text-center py-6 px-4 text-2xl font-bold text-slate-700" rowSpan="2">
+                    US${results.totalAnnualSavings.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                  </td>
+                </tr>
+                <tr>
+                  <td className="text-left text-slate-700 font-semibold py-6 pr-4">Annual<br />Chemical<br />Cost</td>
+                  <td className="text-center bg-gray-100 py-6 px-4 text-lg font-bold text-slate-700">
+                    US${results.annualChemCost.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                  </td>
+                  <td className="text-center bg-gray-100 py-6 px-4 text-lg font-bold text-slate-700">
+                    US${results.annualChemCostWithHydroFlow.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                  </td>
+                  <td className="text-center bg-gray-100 py-6 px-4 text-lg font-bold text-slate-700">
+                    US${results.chemSavings.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
