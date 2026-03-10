@@ -43,14 +43,7 @@ export default function Residential() {
     <div>
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
-        <div className="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80"
-            alt="Modern home"
-            className="w-full h-full object-cover opacity-20"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/70" />
-        </div>
+         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/70" />
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -44,14 +44,7 @@ export default function Agriculture() {
     <div>
       {/* Hero */}
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
-        <div className="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&q=80"
-            alt="Agriculture"
-            className="w-full h-full object-cover opacity-20"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/70" />
-        </div>
+         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/70" />
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -87,19 +80,14 @@ export default function Agriculture() {
               className="relative hidden lg:block"
             >
               <div className="relative rounded-3xl overflow-hidden p-8">
-                <img 
-                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/1df6226ff_agricultural-irrigation-system-watering-fields-on-2024-12-08-00-26-01-utc.jpg"
-                  alt="Agricultural background"
-                  className="absolute inset-0 w-full h-full object-cover opacity-30"
-                />
-                <div className="relative">
-                  <img 
-                    src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
-                    alt="HydroFLOW i Range Agricultural Unit"
-                    className="w-full max-w-md mx-auto"
-                  />
-                </div>
-              </div>
+                 <div className="relative">
+                   <img 
+                     src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
+                     alt="HydroFLOW <i>i</i> Range Agricultural Unit"
+                     className="w-full max-w-md mx-auto"
+                   />
+                 </div>
+               </div>
             </motion.div>
           </div>
         </div>

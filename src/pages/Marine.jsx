@@ -43,14 +43,7 @@ export default function Marine() {
     <div>
       {/* Hero */}
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
-        <div className="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1920&q=80"
-            alt="Marine"
-            className="w-full h-full object-cover opacity-20"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/70" />
-        </div>
+         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/70" />
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
