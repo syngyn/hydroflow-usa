@@ -67,7 +67,7 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
       {/* Video Background */}
-      <div className="absolute inset-0 overflow-hidden opacity-65">
+      <div className={`absolute inset-0 overflow-hidden transition-opacity duration-1000 ${videoLoaded ? 'opacity-65' : 'opacity-0'}`}>
         <iframe
           src="https://player.vimeo.com/video/1171978592?background=1&autoplay=1&loop=1&muted=1&autopause=0"
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
@@ -75,6 +75,7 @@ export default function HeroSection() {
           frameBorder="0"
           allow="autoplay; fullscreen"
           title="Background video"
+          onLoad={() => setVideoLoaded(true)}
         />
       </div>
 
