@@ -65,7 +65,7 @@ export default function HeroSection() {
   }, []);
 
   const handleVideoReady = () => {
-    setTimeout(() => setVideoLoaded(true), 5000);
+    setTimeout(() => setVideoLoaded(true), 7000);
   };
 
   return (
