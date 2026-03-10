@@ -1086,6 +1086,28 @@ const caseStudyData = {
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/d33c208a5_88201550515726.pdf'
   },
 
+  'kentucky-distillery-cooling-tower-dephlegmator': {
+    category: 'industrial',
+    title: 'Kentucky Distillery Cooling Tower and Dephlegmator',
+    image: 'https://pdf.hydroflow-usa.com/images/4c9222d5f7a2dd3ad9d229061739db6517b77dc8951f1966fbb23eb86d176314.jpg',
+    customer: 'A bourbon whisky distillery in Kentucky',
+    application: 'Cooling tower and dephlegmator (specialized heat exchanger used in the distilling process)',
+    installedUnits: 'HydroFLOW i12" Custom unit installed on the cooling tower\'s recirculating loop to treat the entire system',
+    background: 'Both the cooling tower and dephlegmator were experiencing scale buildup that was negatively affecting temperature and flow rates critical to the distilling process. Current chemical treatment was struggling to keep scale accumulation under control. The system also suffered from biological problems. The dephlegmator is located at the furthest point in the recirculating loop from the cooling tower.',
+    successFactors: [
+      'Prevent new scale formation in the dephlegmator and cooling tower',
+      'Soften and remove existing limescale deposits',
+      'Reduce biological problems in the recirculating water system'
+    ],
+    results: [
+      'Dephlegmator – After just 7 weeks: no new scale formed, and existing scale was noticeably softer and thinner without any chemical or mechanical cleaning.',
+      'Cooling Tower Nozzles – After 6 months: both newly replaced (tan) and original (black) nozzles showed no new scale accumulation. The original black nozzles also showed removal of existing scale.',
+      'Biofilm on infrastructure surfaces and in the recirculating water significantly decreased.',
+      'Chemical treatment that was previously struggling to control scale was complemented and outperformed by HydroFLOW alone.'
+    ],
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW Case Study - Kentucky Distillery - Cooling tower and heat exchanger - Limescale reduction.pdf'
+  },
+
   'city-of-orlando-wastewater-treatment-plant': {
     category: 'industrial',
     title: 'City of Orlando Wastewater Treatment Plant',
