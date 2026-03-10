@@ -147,49 +147,6 @@ export default function Savings() {
         </div>
       </section>
 
-      {/* Customer Success Stories */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-              Real Customer Savings
-            </h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              See how other businesses and properties are saving with HydroFLOW
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-              >
-                <Card className="h-full">
-                  <CardHeader>
-                    <div className="flex items-center justify-between mb-2">
-                      <Users className="w-5 h-5 text-cyan-600" />
-                      <span className="text-2xl font-bold text-green-600">{testimonial.savings}</span>
-                    </div>
-                    <CardTitle className="text-lg">{testimonial.company}</CardTitle>
-                    <p className="text-sm text-slate-500">{testimonial.location}</p>
-                  </CardHeader>
-                  <CardContent>
-                    <blockquote className="text-slate-600 italic mb-4">
-                      "{testimonial.quote}"
-                    </blockquote>
-                    <p className="text-sm text-slate-500">— {testimonial.person}</p>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
