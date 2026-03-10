@@ -56,9 +56,12 @@ const products = [
 export default function HeroSection() {
   const [currentProductIndex, setCurrentProductIndex] = useState(0);
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const [imageVisible, setImageVisible] = useState(true);
 
   useEffect(() => {
     setVideoLoaded(true);
+    const timer = setTimeout(() => setImageVisible(false), 2000);
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
