@@ -51,8 +51,6 @@ export default function ROICalculator({ embedded = false }) {
 
   return (
     <div className={embedded ? '' : 'max-w-4xl mx-auto px-4 py-10'}>
-      <h2 className="text-2xl md:text-3xl font-bold mb-6">Cooling Tower ROI Calculator</h2>
-
       {/* Disclaimer text */}
       <div className="text-sm text-slate-600 space-y-3 mb-8 leading-relaxed">
         <p>
