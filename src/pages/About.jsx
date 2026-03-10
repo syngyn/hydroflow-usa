@@ -115,9 +115,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Ready to Experience the Difference?
-            </h2>
+
             <p className="text-xl text-cyan-100 mb-8 max-w-2xl mx-auto">
               Join thousands of satisfied customers who have transformed their water systems 
               with <i>Hydro</i>FLOW technology.
