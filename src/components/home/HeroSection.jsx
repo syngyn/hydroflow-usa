@@ -64,12 +64,19 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-white">
-      {/* Animated particles/waves effect */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-cyan-500/5 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute top-1/2 -left-20 w-60 h-60 bg-cyan-400/5 rounded-full blur-3xl animate-pulse delay-1000" />
-      </div>
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
+      {/* Video Background */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="https://dl.dropboxusercontent.com/scl/fi/s5ur40znsaplj92erndhx/cooling-tower-of-the-thermal-energy-plant-00130-2025-12-17-10-44-30-utc.mp4" type="video/mp4" />
+      </video>
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-slate-900/65" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-32 lg:scale-110 lg:origin-center">
          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
