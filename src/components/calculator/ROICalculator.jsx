@@ -61,12 +61,7 @@ export default function ROICalculator({ embedded = false }) {
         <p>
           To calculate the potential ROI from installing <i>Hydro</i>FLOW equipment on your cooling tower, please input the base parameters of your system into the fields below. Potential savings are based on decreased bleed/blow-down water usage, and reduced chemical consumption. Other cost saving parameters such as maintenance cost reduction, increased heat transfer efficiency, and extended service life of the cooling system, are not included in this ROI calculator but can be estimated if additional data is provided.
         </p>
-        <p>
-          For more information on cooling towers, visit this{' '}
-          <Link to={createPageUrl('CoolingTowers')} className="text-cyan-600 font-semibold hover:underline">article</Link>
-          {' '}or{' '}
-          <Link to={createPageUrl('Contact')} className="text-orange-500 font-semibold hover:underline">contact us</Link>.
-        </p>
+
       </div>
 
       <form onSubmit={handleSubmit}>
