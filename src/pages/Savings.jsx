@@ -75,7 +75,7 @@ export default function Savings() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              ROI Calculator
+              Cooling Tower ROI Calculator
             </h1>
           </motion.div>
         </div>
