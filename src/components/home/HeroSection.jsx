@@ -68,7 +68,7 @@ export default function HeroSection() {
       {/* Video Background */}
       <div className="absolute inset-0 overflow-hidden opacity-65">
         <iframe
-          src="https://player.vimeo.com/video/1171949584?background=1&autoplay=1&loop=1&muted=1&autopause=0"
+          src="https://player.vimeo.com/video/1171978592?background=1&autoplay=1&loop=1&muted=1&autopause=0"
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
           style={{ width: '177.78vh', height: '100vh', minWidth: '100%', minHeight: '56.25vw' }}
           frameBorder="0"
