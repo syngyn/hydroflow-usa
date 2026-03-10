@@ -72,7 +72,7 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
       {/* Video Background Splash (first frame thumbnail) */}
       <div 
-        className={`absolute inset-0 opacity-100 transition-opacity duration-500 ${videoLoaded ? 'opacity-0' : 'opacity-100'}`}
+        className={`absolute inset-0 pointer-events-none transition-opacity duration-700 ${videoLoaded ? 'opacity-0' : 'opacity-100'}`}
         style={{ backgroundImage: 'url(https://vumbnail.com/1171978592.jpg?w=1920&h=1080&fit=cover)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
       />
 
