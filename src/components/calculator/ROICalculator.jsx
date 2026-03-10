@@ -50,7 +50,7 @@ export default function ROICalculator({ embedded = false }) {
   const sectionHeaderClass = "text-sm font-bold text-slate-800 uppercase tracking-wide mb-3 mt-6";
 
   return (
-    <div className={embedded ? '' : 'max-w-4xl mx-auto px-4 py-10'}>
+    <div className={embedded ? '' : 'max-w-4xl mx-auto px-4 pt-4 pb-10'}>
       {/* Disclaimer text */}
       <div className="text-sm text-slate-600 space-y-3 mb-8 leading-relaxed">
         <p>
