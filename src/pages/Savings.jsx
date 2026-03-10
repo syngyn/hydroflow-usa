@@ -78,11 +78,8 @@ export default function Savings() {
               Cooling Tower ROI Calculator
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Calculate Your Savings
+              Cooling Tower ROI Calculator
             </h1>
-            <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              See how much you can save by switching to HydroFLOW water conditioning technology.
-            </p>
           </motion.div>
         </div>
       </section>
