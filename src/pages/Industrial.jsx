@@ -82,7 +82,7 @@ export default function Industrial() {
               <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="relative bg-slate-50 rounded-3xl overflow-hidden flex items-center justify-center p-8"
+                className="relative rounded-3xl overflow-hidden flex items-center justify-center p-8"
               >
                 <img 
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9f1053a47_irange1.png"
