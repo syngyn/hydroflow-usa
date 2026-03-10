@@ -130,32 +130,7 @@ export default function ROICalculator({ embedded = false }) {
         </button>
       </form>
 
-      {/* Results */}
-      {results && (
-        <div className="mt-10 border-t pt-8">
-          <h2 className="text-xl font-bold text-slate-800 mb-6">Estimated Annual Savings</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-gray-50 border border-gray-200 rounded p-5">
-              <p className="text-xs text-slate-500 uppercase tracking-wide mb-1">Water & Sewer Savings</p>
-              <p className="text-2xl font-bold text-cyan-600">${(results.monthlyWaterSavings * (parseFloat(inputs.monthsOfOperation) || 0)).toLocaleString(undefined, { maximumFractionDigits: 0 })}<span className="text-sm font-normal text-slate-500">/yr</span></p>
-              <p className="text-xs text-slate-400 mt-1">~25% reduction in bleed/blow-down</p>
-            </div>
-            <div className="bg-gray-50 border border-gray-200 rounded p-5">
-              <p className="text-xs text-slate-500 uppercase tracking-wide mb-1">Chemical Savings</p>
-              <p className="text-2xl font-bold text-cyan-600">${(results.monthlyChemSavings * (parseFloat(inputs.monthsOfOperation) || 0)).toLocaleString(undefined, { maximumFractionDigits: 0 })}<span className="text-sm font-normal text-slate-500">/yr</span></p>
-              <p className="text-xs text-slate-400 mt-1">~40% reduction in chemical use</p>
-            </div>
-            <div className="bg-cyan-600 rounded p-5 text-white">
-              <p className="text-xs uppercase tracking-wide mb-1 opacity-80">Total Annual Savings</p>
-              <p className="text-3xl font-bold">${results.annualSavings.toLocaleString(undefined, { maximumFractionDigits: 0 })}</p>
-              <p className="text-xs mt-1 opacity-70">Rough snapshot estimate</p>
-            </div>
-          </div>
-          <p className="text-xs text-slate-400 mt-6">
-            * This is a rough snapshot estimate only. Actual savings may be more substantial. Additional savings from maintenance cost reduction and improved heat transfer efficiency are not included.
-          </p>
-        </div>
-      )}
+
     </div>
   );
 }
