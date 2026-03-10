@@ -795,7 +795,7 @@ const caseStudies = [
     title: 'Paper Mill Bleach Plant',
     slug: 'paper-mill-bleach-plant',
     description: 'Boise Paper Mill in Wallula, Washington installed HydroFLOW on their bleach plant\'s E1 shower unit to combat severe limescale accumulation in pipes and nozzles. After 11 weeks, the treated unit showed dramatically less scale compared to the untreated control unit.',
-    image: 'https://pdf.hydroflow-usa.com/images/fc2777dfd93d6e40901c05e1006284046ec9cafc83cc5614d2fe6295b9caee09.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7e48f2a65_image.png',
     results: ['Treated E1 nozzles showed dramatically less scale than untreated D1 nozzles', 'Significant scale reduction visible 30 feet down the line', 'Recommended as a chemical-free method for limescale treatment in paper mills'],
     pdfUrl: 'https://pdf.hydroflow-usa.com/Case%20Study%20-%20Paper%20Mill%20Bleach%20Plant%20-%20Scale.pdf',
     application_type: ['Other'],
