@@ -69,7 +69,7 @@ export default function Residential() {
               </h1>
               <p className="text-xl text-slate-300 mb-8">
                 Residential homes in hard water areas suffer from scale accumulation on shower heads, 
-                pipes and appliances. <i>Hydro</i>FLOW provides the perfect solution.
+                pipes and appliances.
               </p>
               <Link to={createPageUrl('Products')}>
                 <Button className="bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white rounded-full px-8 py-6 text-lg font-semibold shadow-xl shadow-cyan-500/30">
