@@ -75,9 +75,6 @@ export default function About() {
               <span className="inline-block text-cyan-600 font-semibold text-sm uppercase tracking-wider mb-4">
                 Our Story
               </span>
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                Pioneering Water Treatment Since 1992
-              </h2>
               <div className="space-y-4 text-slate-600 leading-relaxed">
                  <p>
                    <i>Hydro</i>FLOW USA, headquartered in Redmond, WA, is the exclusive U.S. distributor of the unique <i>Hydro</i>FLOW water conditioners that are powered by the patented Hydropath technology. These environmentally friendly devices have been distributed throughout the world for over 20 years and officially entered the U.S. market in 2010.
