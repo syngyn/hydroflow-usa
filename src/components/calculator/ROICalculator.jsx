@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 export default function ROICalculator({ embedded = false }) {
   const [inputs, setInputs] = useState({
@@ -12,6 +13,8 @@ export default function ROICalculator({ embedded = false }) {
   });
 
   const [results, setResults] = useState(null);
+  const [deviceCost, setDeviceCost] = useState('');
+  const [paybackYears, setPaybackYears] = useState(null);
 
   const handleChange = (key, value) => {
     setInputs(prev => ({ ...prev, [key]: value }));
@@ -44,6 +47,34 @@ export default function ROICalculator({ embedded = false }) {
       chemSavings,
       totalAnnualSavings
     });
+    setPaybackYears(null);
+    setDeviceCost('');
+  };
+
+  const handlePaybackSubmit = (e) => {
+    e.preventDefault();
+    const cost = parseFloat(deviceCost) || 0;
+    if (cost > 0 && results) {
+      const years = cost / results.totalAnnualSavings;
+      setPaybackYears(Math.round(years * 10) / 10);
+    }
+  };
+
+  const get5YearData = () => {
+    if (!results) return [];
+    const currentYear = new Date().getFullYear();
+    const data = [];
+    let cumulativeSavings = -parseFloat(deviceCost || 0);
+    
+    for (let i = 0; i < 5; i++) {
+      cumulativeSavings += results.totalAnnualSavings;
+      data.push({
+        year: currentYear + i,
+        savings: Math.max(0, cumulativeSavings),
+        label: cumulativeSavings < 0 ? `$${Math.abs(cumulativeSavings).toLocaleString('en-US', {maximumFractionDigits: 0})}` : `$${cumulativeSavings.toLocaleString('en-US', {maximumFractionDigits: 0})}`
+      });
+    }
+    return data;
   };
 
   const inputClass = "w-full border border-gray-300 rounded px-3 py-2 text-sm text-slate-700 bg-gray-100 focus:outline-none focus:border-cyan-500 focus:bg-white transition-colors placeholder-slate-400";
@@ -172,6 +203,71 @@ export default function ROICalculator({ embedded = false }) {
               </tbody>
             </table>
           </div>
+
+          {/* Payback Period Section */}
+          <div className="mt-12">
+            <h3 className="text-xl font-bold text-slate-800 uppercase tracking-wider mb-3">Payback Period</h3>
+            <p className="text-sm text-slate-600 mb-6 italic">
+              If a cost estimate was obtained from an official <i>Hydro</i>FLOW representative, insert the cost of installed equipment.
+            </p>
+            
+            <form onSubmit={handlePaybackSubmit} className="flex gap-4 items-end">
+              <div className="flex-1">
+                <label className="block text-sm font-semibold text-slate-700 mb-2">US$</label>
+                <input
+                  type="number"
+                  className={inputClass}
+                  placeholder="Equipment cost"
+                  value={deviceCost}
+                  onChange={(e) => setDeviceCost(e.target.value)}
+                />
+              </div>
+              <button
+                type="submit"
+                className="bg-slate-600 hover:bg-slate-700 text-white font-bold text-sm uppercase tracking-wider px-6 py-3 rounded transition-colors"
+              >
+                Submit
+              </button>
+            </form>
+
+            {paybackYears !== null && (
+              <div className="mt-4 bg-slate-800 text-white px-6 py-3 rounded inline-block">
+                <span className="font-bold text-lg">Payback Period (years): </span>
+                <span className="text-2xl font-bold">{paybackYears}</span>
+              </div>
+            )}
+          </div>
+
+          {/* 5-Year Savings Graph */}
+          {deviceCost && results && (
+            <div className="mt-12">
+              <h3 className="text-xl font-bold text-slate-800 uppercase tracking-wider mb-6">
+                Savings During 5-Year Warranty Period
+              </h3>
+              <div className="bg-gray-50 rounded-lg p-8">
+                <ResponsiveContainer width="100%" height={300}>
+                  <BarChart data={get5YearData()}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
+                    <XAxis dataKey="year" />
+                    <YAxis />
+                    <Tooltip 
+                      formatter={(value) => `$${value.toLocaleString('en-US', {maximumFractionDigits: 0})}`}
+                      contentStyle={{ backgroundColor: '#f1f5f9', border: '1px solid #cbd5e1' }}
+                    />
+                    <Bar dataKey="savings" fill="#1e293b" radius={[8, 8, 0, 0]} />
+                  </BarChart>
+                </ResponsiveContainer>
+                <div className="mt-6 flex justify-around text-center">
+                  {get5YearData().map((item) => (
+                    <div key={item.year}>
+                      <p className="text-sm font-semibold text-slate-700 mb-1">{item.label}</p>
+                      <p className="text-xs text-slate-600">{item.year}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>
