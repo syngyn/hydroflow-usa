@@ -81,7 +81,7 @@ export default function HeroSection() {
       </div>
 
       {/* Video Background */}
-      <div className={`absolute inset-0 overflow-hidden transition-opacity duration-1000 ${videoLoaded ? 'opacity-65' : 'opacity-0'}`}>
+      <div className="absolute inset-0 overflow-hidden opacity-65">
         <iframe
           src="https://player.vimeo.com/video/1171978592?background=1&autoplay=1&loop=1&muted=1&autopause=0"
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
