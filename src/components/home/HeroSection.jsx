@@ -90,11 +90,13 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
-      {/* Video Background Splash (first frame thumbnail) */}
-      <div 
-        className={`absolute inset-0 transition-opacity duration-2000 pointer-events-none ${videoLoaded ? 'opacity-0 hidden' : 'opacity-100'}`}
-        style={{ backgroundImage: 'url(https://vumbnail.com/1171978592.jpg?w=3840&h=2160&fit=cover&q=90)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
-      />
+      {/* Vimeo Thumbnail Overlay */}
+      {showThumbnail && thumbnailUrl && (
+        <div 
+          className="fixed inset-0 transition-opacity duration-2000 pointer-events-none z-50"
+          style={{ backgroundImage: `url(${thumbnailUrl})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+        />
+      )}
 
       {/* Video fades in on top of splash */}
       <div className={`absolute inset-0 overflow-hidden transition-opacity duration-700 ${videoLoaded ? 'opacity-65' : 'opacity-0'}`}>
