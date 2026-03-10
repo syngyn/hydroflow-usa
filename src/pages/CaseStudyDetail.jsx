@@ -1089,7 +1089,7 @@ const caseStudyData = {
   'kentucky-distillery-cooling-tower-dephlegmator': {
     category: 'industrial',
     title: 'Kentucky Distillery Cooling Tower and Dephlegmator',
-    image: 'https://pdf.hydroflow-usa.com/images/4c9222d5f7a2dd3ad9d229061739db6517b77dc8951f1966fbb23eb86d176314.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/df5463ea9_image.png',
     customer: 'A bourbon whisky distillery in Kentucky',
     application: 'Cooling tower and dephlegmator (specialized heat exchanger used in the distilling process)',
     installedUnits: 'HydroFLOW i12" Custom unit installed on the cooling tower\'s recirculating loop to treat the entire system',
