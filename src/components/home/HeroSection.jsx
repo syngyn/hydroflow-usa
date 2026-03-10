@@ -119,9 +119,9 @@ export default function HeroSection() {
              animate={{ opacity: 1, scale: 1 }}
              transition={{ duration: 0.8, delay: 0.2 }}
              className="flex items-center justify-center"
-           >
+             >
              <div className="relative w-full max-w-md">
-               <div className="relative rounded-2xl md:rounded-3xl p-4 md:p-8 overflow-hidden flex items-center justify-center h-64 sm:h-80 md:h-96" style={{ aspectRatio: '4/3' }}>
+               <div className="relative rounded-2xl md:rounded-3xl p-4 md:p-8 overflow-hidden flex items-center justify-center h-64 sm:h-80 md:h-96" style={{ aspectRatio: '4/3', background: 'rgba(0,0,0,0.35)' }}>
                 <AnimatePresence mode="wait">
                    <motion.div
                      key={currentProductIndex}
