@@ -58,8 +58,7 @@ export default function HeroSection() {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setVideoLoaded(true), 2500);
-    return () => clearTimeout(timer);
+    setVideoLoaded(true);
   }, []);
 
   useEffect(() => {
