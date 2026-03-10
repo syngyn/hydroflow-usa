@@ -156,7 +156,7 @@ export default function HeroSection() {
                          className="max-h-full w-auto max-w-full object-contain"
                          style={
                            currentProductIndex === 0 ? { transform: 'scale(1.3)', transformOrigin: 'center' } :
-                           currentProductIndex === 1 ? { transform: 'scale(1.2)', transformOrigin: 'center' } :
+                           currentProductIndex === 1 ? { transform: 'scale(1.15)', transformOrigin: 'center' } :
                            currentProductIndex === 2 ? { transform: 'scale(0.7)', transformOrigin: 'center' } :
                            currentProductIndex === 3 ? { transform: 'scale(0.7)', transformOrigin: 'center' } :
                            currentProductIndex === 4 ? { transform: 'scale(0.7)', transformOrigin: 'center' } : {}
