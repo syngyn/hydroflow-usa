@@ -79,15 +79,12 @@ export default function Agriculture() {
               transition={{ delay: 0.2 }}
               className="relative hidden lg:block"
             >
-              <div className="relative rounded-3xl overflow-hidden p-8">
-                 <div className="relative">
-                   <img 
-                     src="https://hydroflow-usa.com/wp-content/uploads/2025/10/irange1.png"
-                     alt="HydroFLOW <i>i</i> Range Agricultural Unit"
-                     className="w-full max-w-md mx-auto"
-                   />
-                 </div>
-               </div>
+              <img 
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/9f1053a47_irange1.png"
+                alt="<i>Hydro</i>FLOW <i>i</i> Range Agricultural Unit"
+                className="w-full max-w-lg h-auto object-contain drop-shadow-2xl"
+                style={{ transform: 'scale(0.78)' }}
+              />
             </motion.div>
           </div>
         </div>
