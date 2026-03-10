@@ -55,9 +55,6 @@ export default function TechnologySection() {
               signal that travels throughout your entire water system, providing comprehensive 
               protection without chemicals or salt.
             </p>
-            <p className="text-lg text-slate-400 leading-relaxed mb-8">
-              The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.
-            </p>
 
             <div className="space-y-6 mb-10">
               {techFeatures.map((feature, index) => (
