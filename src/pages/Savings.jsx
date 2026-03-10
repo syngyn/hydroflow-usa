@@ -74,11 +74,8 @@ export default function Savings() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center"
           >
-            <span className="inline-block text-cyan-400 font-semibold text-sm uppercase tracking-wider mb-4">
-              Cooling Tower ROI Calculator
-            </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Cooling Tower ROI Calculator
+              ROI Calculator
             </h1>
           </motion.div>
         </div>
