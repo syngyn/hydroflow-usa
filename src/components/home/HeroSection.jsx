@@ -73,7 +73,7 @@ export default function HeroSection() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="https://dl.dropboxusercontent.com/scl/fi/s5ur40znsaplj92erndhx/cooling-tower-of-the-thermal-energy-plant-00130-2025-12-17-10-44-30-utc.mp4" type="video/mp4" />
+        <source src="https://www.dropbox.com/scl/fi/s5ur40znsaplj92erndhx/cooling-tower-of-the-thermal-energy-plant-00130-2025-12-17-10-44-30-utc.mp4?raw=1" type="video/mp4" />
       </video>
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-slate-900/30" />
