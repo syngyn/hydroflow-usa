@@ -94,7 +94,7 @@ export default function HeroSection() {
                </span>
              </h1>
 
-             <p className="text-base sm:text-lg text-slate-600 leading-relaxed mb-6 md:mb-8">
+             <p className="text-base sm:text-lg text-slate-200 leading-relaxed mb-6 md:mb-8">
                Sustainable and eco-friendly water treatment products that are designed to optimize the performance of residential, commercial, industrial, agricultural, and marine water systems.
              </p>
 
