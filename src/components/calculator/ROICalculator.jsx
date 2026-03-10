@@ -20,25 +20,28 @@ export default function ROICalculator({ embedded = false }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const tonnage = parseFloat(inputs.towerTonnage) || 0;
-    const months = parseFloat(inputs.monthsOfOperation) || 0;
     const waterCost = parseFloat(inputs.monthlyWaterCost) || 0;
-    const sewerCost = parseFloat(inputs.monthlySewerCost) || 0;
     const chemCost = parseFloat(inputs.monthlyChemicalCost) || 0;
 
-    // Water & sewer savings: ~25% reduction in bleed/blow-down
-    const monthlyWaterSavings = (waterCost + sewerCost) * 0.25;
-    // Chemical savings: ~40% reduction
-    const monthlyChemSavings = chemCost * 0.4;
+    // Annual calculations
+    const annualWaterCost = waterCost * 12;
+    const annualWaterCostWithHydroFlow = annualWaterCost * 0.75;
+    const waterSavings = annualWaterCost - annualWaterCostWithHydroFlow;
 
-    const totalMonthlySavings = monthlyWaterSavings + monthlyChemSavings;
-    const annualSavings = totalMonthlySavings * months;
+    const annualChemCost = chemCost * 12;
+    const annualChemCostWithHydroFlow = annualChemCost * 0.25;
+    const chemSavings = annualChemCost - annualChemCostWithHydroFlow;
+
+    const totalAnnualSavings = waterSavings + chemSavings;
 
     setResults({
-      monthlyWaterSavings,
-      monthlyChemSavings,
-      totalMonthlySavings,
-      annualSavings
+      annualWaterCost,
+      annualWaterCostWithHydroFlow,
+      waterSavings,
+      annualChemCost,
+      annualChemCostWithHydroFlow,
+      chemSavings,
+      totalAnnualSavings
     });
   };
 
