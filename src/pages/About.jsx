@@ -93,7 +93,7 @@ export default function About() {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-slate-50">
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2016/08/about-us.webp"
+                  src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/94884ea74_8551690403764.png"
                   alt="<i>Hydro</i>FLOW USA Headquarters"
                   className="w-full h-auto mix-blend-multiply"
                 />
