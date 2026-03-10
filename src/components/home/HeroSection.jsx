@@ -89,7 +89,7 @@ export default function HeroSection() {
       {/* Vimeo Thumbnail Overlay */}
       {showThumbnail && thumbnailUrl && (
         <div 
-          className="absolute inset-0 transition-opacity duration-2000 pointer-events-none"
+          className="absolute inset-0 transition-opacity duration-2000 pointer-events-none z-40"
           style={{ backgroundImage: `url(${thumbnailUrl})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
         />
       )}
