@@ -805,7 +805,7 @@ const caseStudies = [
     title: 'City of Orlando Wastewater Treatment Plant',
     slug: 'city-of-orlando-wastewater-treatment-plant',
     description: 'Five-month evaluation of Hydropath technology\'s ability to treat struvite scale in belt press equipment and enhance flocculation, resulting in reduced polymer usage.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16924a78b_generated_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/cfc5e2a1a_image.png',
     results: ['Struvite scale accumulation prevented and existing deposits gradually removed', 'Drum cleaned from hard scale to minimal scale after 150 days — no chemicals or mechanical removal', '~20% reduction in average daily polymer usage due to enhanced flocculation'],
     pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW-industrial-case-study-city-of-orlando-wastewater-treatment-plant.pdf',
     application_type: ['Wastewater Treatment'],

@@ -1089,7 +1089,7 @@ const caseStudyData = {
   'city-of-orlando-wastewater-treatment-plant': {
     category: 'industrial',
     title: 'City of Orlando Wastewater Treatment Plant',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16924a78b_generated_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/cfc5e2a1a_image.png',
     installer: 'Allied Group – HydroFLOW distributor in Florida',
     customer: 'City of Orlando Wastewater Treatment Plant, 5100 LB McLeod Rd., Orlando, FL 32811',
     application: 'Struvite accumulation in belt press #5 (AshBrook-Klam press)',
