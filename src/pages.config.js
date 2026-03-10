@@ -145,22 +145,7 @@ import SouthCarolinaWaterHardness from './pages/SouthCarolinaWaterHardness';
 import SouthDakotaWaterHardness from './pages/SouthDakotaWaterHardness';
 import StateTemperature from './pages/StateTemperature';
 import StateWaterHardness from './pages/StateWaterHardness';
-import Support from './pages/Support';
 import Technology from './pages/Technology';
-import TennesseeWaterHardness from './pages/TennesseeWaterHardness';
-import TermsOfService from './pages/TermsOfService';
-import TexasWaterHardness from './pages/TexasWaterHardness';
-import UtahWaterHardness from './pages/UtahWaterHardness';
-import VermontWaterHardness from './pages/VermontWaterHardness';
-import VideoLibrary from './pages/VideoLibrary';
-import VirginiaWaterHardness from './pages/VirginiaWaterHardness';
-import Warranty from './pages/Warranty';
-import WashingtonWaterHardness from './pages/WashingtonWaterHardness';
-import WastewaterStruvite from './pages/WastewaterStruvite';
-import WaterHardnessMap from './pages/WaterHardnessMap';
-import WestVirginiaWaterHardness from './pages/WestVirginiaWaterHardness';
-import WisconsinWaterHardness from './pages/WisconsinWaterHardness';
-import WyomingWaterHardness from './pages/WyomingWaterHardness';
 import __Layout from './Layout.jsx';
 
 
@@ -263,22 +248,7 @@ export const PAGES = {
     "SouthDakotaWaterHardness": SouthDakotaWaterHardness,
     "StateTemperature": StateTemperature,
     "StateWaterHardness": StateWaterHardness,
-    "Support": Support,
     "Technology": Technology,
-    "TennesseeWaterHardness": TennesseeWaterHardness,
-    "TermsOfService": TermsOfService,
-    "TexasWaterHardness": TexasWaterHardness,
-    "UtahWaterHardness": UtahWaterHardness,
-    "VermontWaterHardness": VermontWaterHardness,
-    "VideoLibrary": VideoLibrary,
-    "VirginiaWaterHardness": VirginiaWaterHardness,
-    "Warranty": Warranty,
-    "WashingtonWaterHardness": WashingtonWaterHardness,
-    "WastewaterStruvite": WastewaterStruvite,
-    "WaterHardnessMap": WaterHardnessMap,
-    "WestVirginiaWaterHardness": WestVirginiaWaterHardness,
-    "WisconsinWaterHardness": WisconsinWaterHardness,
-    "WyomingWaterHardness": WyomingWaterHardness,
 }
 
 export const pagesConfig = {
