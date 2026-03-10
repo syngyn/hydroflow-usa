@@ -13,7 +13,7 @@ const benefits = [
   { icon: DollarSign, title: 'Pays for itself', description: 'In less than a year' },
   { icon: Leaf, title: 'Eco-friendly', description: '100% chemical-free' },
   { icon: Zap, title: 'Energy Efficient', description: 'Costs around $5/year to operate' },
-  { icon: Droplet, title: 'Doesn\'t change the chemical composition of the water', description: 'Keep the healthy calcium without the problems' },
+  { icon: Zap, title: 'Helps reduce energy consumption', description: 'Improves heat transfer efficiency' },
   { icon: Home, title: 'Does not take up valuable space', description: 'Compact installation' }
 ];
 
