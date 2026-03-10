@@ -66,10 +66,13 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
-      {/* Video Background */}
-      {!videoLoaded && (
-        <div className="absolute inset-0 bg-slate-900 z-10" />
-      )}
+      {/* Video Background Splash (first frame thumbnail) */}
+      <div 
+        className="absolute inset-0 opacity-65"
+        style={{ backgroundImage: 'url(https://vumbnail.com/1171978592.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      />
+
+      {/* Video fades in on top of splash */}
       <div className={`absolute inset-0 overflow-hidden transition-opacity duration-1000 ${videoLoaded ? 'opacity-65' : 'opacity-0'}`}>
         <iframe
           src="https://player.vimeo.com/video/1171978592?background=1&autoplay=1&loop=1&muted=1&autopause=0"
