@@ -56,12 +56,32 @@ const products = [
 export default function HeroSection() {
   const [currentProductIndex, setCurrentProductIndex] = useState(0);
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const [thumbnailUrl, setThumbnailUrl] = useState(null);
+  const [showThumbnail, setShowThumbnail] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentProductIndex((prev) => (prev + 1) % products.length);
     }, 5500);
     return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    const fetchThumbnail = async () => {
+      try {
+        const response = await fetch('https://vimeo.com/api/oembed.json?url=https://vimeo.com/1171978592');
+        const data = await response.json();
+        setThumbnailUrl(data.thumbnail_url);
+      } catch (error) {
+        console.error('Failed to fetch Vimeo thumbnail:', error);
+      }
+    };
+    fetchThumbnail();
+  }, []);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowThumbnail(false), 2500);
+    return () => clearTimeout(timer);
   }, []);
 
   const handleVideoReady = () => {
