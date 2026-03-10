@@ -87,7 +87,7 @@ export default function HeroSection() {
              transition={{ duration: 0.8 }}
              className="flex flex-col justify-center"
            >
-             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-4 md:mb-6">
+             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 md:mb-6">
                <span className="block">Advanced Water</span>
                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600">
                  Treatment Solutions
