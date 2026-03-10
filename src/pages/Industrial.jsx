@@ -56,7 +56,7 @@ export default function Industrial() {
                 Industrial Solutions
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-                Industrial & Commercial
+                Industrial
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
                   Water Treatment
                 </span>
