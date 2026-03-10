@@ -48,7 +48,7 @@ export default function Technology() {
             
             <div className="space-y-6 text-lg text-slate-700 leading-relaxed">
               <p>
-                This process treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material.
+                The difference between <i>Hydro</i>path Technology and other physical water conditioning technologies is the induced signal and its ability to continuously condition the liquid solution throughout an entire system. This process treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material.
               </p>
 
               <p>
