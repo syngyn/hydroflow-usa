@@ -1089,7 +1089,7 @@ const caseStudyData = {
   'paper-mill-bleach-plant': {
     category: 'industrial',
     title: 'Paper Mill Bleach Plant',
-    image: 'https://pdf.hydroflow-usa.com/images/fc2777dfd93d6e40901c05e1006284046ec9cafc83cc5614d2fe6295b9caee09.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/7e48f2a65_image.png',
     customer: 'Boise Paper Mill – Wallula, Washington, USA',
     application: 'Inlet to E1 shower unit in the bleach plant (compared against untreated D1 unit)',
     installedUnits: 'Custom HydroFLOW C8" unit (8.625" pipe diameter), installed on the Bleach Plant Mezzanine Floor — 30 feet before the E1 shower nozzles',
