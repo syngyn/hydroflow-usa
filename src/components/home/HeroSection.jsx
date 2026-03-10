@@ -75,8 +75,7 @@ export default function HeroSection() {
       >
         <source src="https://www.dropbox.com/scl/fi/s5ur40znsaplj92erndhx/cooling-tower-of-the-thermal-energy-plant-00130-2025-12-17-10-44-30-utc.mp4?raw=1" type="video/mp4" />
       </video>
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-slate-900/30" />
+
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-32 lg:scale-110 lg:origin-center">
          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
