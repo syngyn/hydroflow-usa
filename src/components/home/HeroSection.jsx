@@ -177,8 +177,8 @@ export default function HeroSection() {
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
       >
-        <div className="w-6 h-10 border-2 border-slate-300 rounded-full flex justify-center pt-2">
-          <div className="w-1.5 h-3 bg-slate-400 rounded-full" />
+        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center pt-2">
+          <div className="w-1.5 h-3 bg-white/70 rounded-full" />
         </div>
       </motion.div>
     </section>
