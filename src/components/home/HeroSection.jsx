@@ -81,7 +81,7 @@ export default function HeroSection() {
           frameBorder="0"
           allow="autoplay; fullscreen"
           title="Background video"
-          onLoad={() => setVideoLoaded(true)}
+          onLoad={() => setTimeout(() => setVideoLoaded(true), 2000)}
         />
       </div>
 
