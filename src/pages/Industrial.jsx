@@ -126,6 +126,28 @@ export default function Industrial() {
         </div>
       </section>
 
+      {/* Industrial Context Section */}
+      <section className="py-24 bg-slate-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="space-y-6 text-slate-700 leading-relaxed"
+          >
+            <p>
+              For over a century, the U.S. has been in the forefront of industrial innovations that shape the world. As industry evolves, so do equipment maintenance practices. Chiller plants are critical to the operation of most industrial facilities, which forces maintenance managers to constantly look for system optimization techniques.
+            </p>
+            <p>
+              Most treatment methods heavily rely on a costly chemical regimen, that in many cases, doesn't achieve the desired results, causes efficiency loss and premature equipment failure. To make things more challenging, facilities are mandated to significantly decrease their chemical usage and carbon footprint by implementing stringent environmental sustainability programs.
+            </p>
+            <p>
+              The innovative <i>Hydro</i>FLOW water treatment device, offers a state-of-the-art solution that helps facilities optimize their processes, while realizing a quick return on investment. Facilities that integrate <i>Hydro</i>FLOW, greatly improve their production capacity while contributing to a cleaner and healthier environment.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Benefits */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
