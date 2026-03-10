@@ -64,16 +64,20 @@ export default function HeroSection() {
     return () => clearInterval(interval);
   }, []);
 
+  const handleVideoReady = () => {
+    setTimeout(() => setVideoLoaded(true), 1000);
+  };
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
       {/* Video Background Splash (first frame thumbnail) */}
       <div 
-        className={`absolute inset-0 opacity-65 ${videoLoaded ? 'hidden' : ''}`}
-        style={{ backgroundImage: 'url(https://vumbnail.com/1171978592.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+        className={`absolute inset-0 opacity-100 transition-opacity duration-500 ${videoLoaded ? 'opacity-0' : 'opacity-100'}`}
+        style={{ backgroundImage: 'url(https://vumbnail.com/1171978592.jpg?w=1920&h=1080&fit=cover)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
       />
 
       {/* Video fades in on top of splash */}
-      <div className={`absolute inset-0 overflow-hidden ${videoLoaded ? 'opacity-65' : 'opacity-0'}`}>
+      <div className={`absolute inset-0 overflow-hidden transition-opacity duration-700 ${videoLoaded ? 'opacity-65' : 'opacity-0'}`}>
         <iframe
           src="https://player.vimeo.com/video/1171978592?background=1&autoplay=1&loop=1&muted=1&autopause=0"
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
@@ -81,7 +85,7 @@ export default function HeroSection() {
           frameBorder="0"
           allow="autoplay; fullscreen"
           title="Background video"
-          onLoad={() => setTimeout(() => setVideoLoaded(true), 5000)}
+          onLoad={handleVideoReady}
         />
       </div>
 
