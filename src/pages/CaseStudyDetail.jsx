@@ -1304,6 +1304,30 @@ const caseStudyData = {
     pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/43aea60d6_HydroFLOW-commercial-case-study-high-end-resort-in-new-mexico.pdf'
   },
 
+  'daf-packaging-facility-houston-texas': {
+    category: 'industrial',
+    title: 'Dissolved Air Flotation (DAF) Packaging Facility in Houston, Texas',
+    image: 'https://pdf.hydroflow-usa.com/images/7e0f756179d9a5d9e32a90fc2ccbc038f51bfc564bbfa363d8cb4f167d09e5e4.jpg',
+    customer: 'Packaging facility in Houston, Texas specializing in recycled plastic products (PCR post-consumer resins and plastic sheeting)',
+    application: 'Dissolved Air Flotation (DAF) system — 6" wastewater circulating pipe entering the flotation tank',
+    installedUnits: 'HydroFLOW i150 water conditioning device installed on the 6" wastewater circulating pipe entering the DAF tank',
+    background: 'The packaging facility\'s plastic products are made from recycled plastic bags and plastic bottles, transformed into certified PCR (post-consumer resins) and plastic sheeting. Their eco-friendly mindset made HydroFLOW a perfect water treatment solution. A 14-week product evaluation was conducted to determine if a HydroFLOW i150 device could optimize the performance of the DAF process. A DAF system clarifies wastewater by removing suspended material such as oils and solids — releasing air at atmospheric pressure to form tiny bubbles that float suspended matter to the surface for skimming.',
+    successFactors: [
+      'Improve the recirculating wastewater\'s murky appearance',
+      'Reduce the strong foul odor of microbial contaminants',
+      'Reduce chlorine and polymer dosing',
+      'Reduce maintenance costs by extending the equipment\'s cleaning cycle'
+    ],
+    results: [
+      '~50% reduction in polymer and chlorine dosing.',
+      'Foul odor and chlorine-smell reduced dramatically.',
+      'Equipment cleaning cycle (including water replacement) extended from 1 week to 6 weeks, allowing significant water savings.',
+      'More efficient total suspended solids (TSS) separation, leading to increased TSS removal and cleaner water.',
+      'Sludge was drier (resembled "cake" material), making it lighter and less expensive to dispose.'
+    ],
+    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW Product Evaluation - Dissolved Air Flotation (DAF).pdf'
+  },
+
   'third-party-verification-denver': {
     category: 'industrial',
     title: 'Third Party Verification Report - Denver',
