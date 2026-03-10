@@ -105,7 +105,7 @@ export default function HeroSection() {
                  </Button>
                </Link>
                <Link to={createPageUrl('Industrial')} className="w-full sm:w-auto">
-                 <Button variant="outline" className="border-2 border-cyan-600 text-cyan-600 bg-cyan-50 hover:bg-cyan-100 rounded-full px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold w-full sm:w-auto">
+                 <Button variant="outline" className="border-2 text-cyan-600 bg-cyan-50 hover:bg-cyan-100 rounded-full px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold w-full sm:w-auto" style={{borderColor: '#0a1628'}}>
                    Industrial Solutions
                  </Button>
                </Link>
