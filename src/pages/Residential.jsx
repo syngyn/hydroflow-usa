@@ -12,7 +12,7 @@ const benefits = [
   { icon: Shield, title: 'Extends appliance life', description: 'Prevents scale damage' },
   { icon: DollarSign, title: 'Pays for itself', description: 'In less than a year' },
   { icon: Leaf, title: 'Eco-friendly', description: '100% chemical-free' },
-  { icon: Zap, title: 'Energy Efficient', description: 'Costs around $2/year to operate' },
+  { icon: Zap, title: 'Energy Efficient', description: 'Costs around $5/year to operate' },
   { icon: Droplet, title: 'Doesn\'t change the chemical composition of the water', description: 'Keep the healthy calcium without the problems' },
   { icon: Home, title: 'Does not take up valuable space', description: 'Compact installation' }
 ];
