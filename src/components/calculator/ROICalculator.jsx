@@ -54,7 +54,7 @@ export default function ROICalculator({ embedded = false }) {
       {/* Disclaimer text */}
       <div className="text-sm text-slate-600 space-y-3 mb-8 leading-relaxed">
         <p>
-          The purpose of this ROI calculator (return on investment) is to provide a "rough snapshot estimate" of potential savings — it is not meant to be a cost savings guarantee. Please note that in many cases, actual cost savings can be more substantial than this estimate.
+          The purpose of this ROI calculator (return on investment) is to provide a "rough snapshot estimate" of potential savings – it is not meant to be a cost savings guarantee. Please note that in many cases, actual cost savings can be more substantial than this estimate.
         </p>
         <p>
           To calculate the potential ROI from installing <i>Hydro</i>FLOW equipment on your cooling tower, please input the base parameters of your system into the fields below. Potential savings are based on decreased bleed/blow-down water usage, and reduced chemical consumption. Other cost saving parameters such as maintenance cost reduction, increased heat transfer efficiency, and extended service life of the cooling system, are not included in this ROI calculator but can be estimated if additional data is provided.
