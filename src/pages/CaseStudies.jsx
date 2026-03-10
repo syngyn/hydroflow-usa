@@ -828,7 +828,7 @@ const caseStudies = [
     title: 'Dissolved Air Flotation (DAF) Packaging Facility in Houston, Texas',
     slug: 'daf-packaging-facility-houston-texas',
     description: 'An eco-friendly packaging facility in Houston, Texas achieved ~50% reduction in polymer and chlorine usage and extended equipment cleaning cycles from 1 to 6 weeks using a HydroFLOW i150 on their Dissolved Air Flotation (DAF) system.',
-    image: 'https://pdf.hydroflow-usa.com/images/7e0f756179d9a5d9e32a90fc2ccbc038f51bfc564bbfa363d8cb4f167d09e5e4.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/97a9e1399_image.png',
     results: ['~50% reduction in polymer and chlorine dosing', 'Equipment cleaning cycle extended from 1 to 6 weeks', 'Foul odor and chlorine-smell dramatically reduced'],
     pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW Product Evaluation - Dissolved Air Flotation (DAF).pdf',
     application_type: ['Food Processing', 'Other'],

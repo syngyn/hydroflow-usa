@@ -1307,7 +1307,7 @@ const caseStudyData = {
   'daf-packaging-facility-houston-texas': {
     category: 'industrial',
     title: 'Dissolved Air Flotation (DAF) Packaging Facility in Houston, Texas',
-    image: 'https://pdf.hydroflow-usa.com/images/7e0f756179d9a5d9e32a90fc2ccbc038f51bfc564bbfa363d8cb4f167d09e5e4.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/97a9e1399_image.png',
     customer: 'Packaging facility in Houston, Texas specializing in recycled plastic products (PCR post-consumer resins and plastic sheeting)',
     application: 'Dissolved Air Flotation (DAF) system — 6" wastewater circulating pipe entering the flotation tank',
     installedUnits: 'HydroFLOW i150 water conditioning device installed on the 6" wastewater circulating pipe entering the DAF tank',
