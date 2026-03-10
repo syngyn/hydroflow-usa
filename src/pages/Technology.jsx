@@ -25,7 +25,7 @@ export default function Technology() {
               Patented Technology
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              How <i>Hydro</i>path Technology Works
+              How Hydropath Technology Works
             </h1>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
               Discover the science behind chemical-free water treatment
@@ -48,7 +48,7 @@ export default function Technology() {
             
             <div className="space-y-6 text-lg text-slate-700 leading-relaxed">
               <p>
-                The difference between <i>Hydro</i>path Technology and other physical water conditioning technologies is the induced signal and its ability to continuously condition the liquid solution throughout an entire system. This process treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material.
+                The difference between Hydropath Technology and other physical water conditioning technologies is the induced signal and its ability to continuously condition the liquid solution throughout an entire system. This process treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material.
               </p>
 
               <p>
@@ -60,7 +60,7 @@ export default function Technology() {
               </p>
 
               <p>
-                The oscillating sine waves of the induced AC signal cause the positively and negatively–charged ions to form suspended crystals in the water, preventing them from attaching to rough surfaces. Testing shows that compared to other technologies, <i>Hydro</i>path Technology is many times more efficient and effective.
+                The oscillating sine waves of the induced AC signal cause the positively and negatively–charged ions to form suspended crystals in the water, preventing them from attaching to rough surfaces. Testing shows that compared to other technologies, Hydropath Technology is many times more efficient and effective.
               </p>
 
               <p>
