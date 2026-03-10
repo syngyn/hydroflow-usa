@@ -55,6 +55,7 @@ const products = [
 
 export default function HeroSection() {
   const [currentProductIndex, setCurrentProductIndex] = useState(0);
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
