@@ -74,7 +74,7 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
       {/* Static Poster Image (shown before video loads) */}
-      <div className={`absolute inset-0 overflow-hidden transition-opacity duration-1000 ${imageVisible ? 'opacity-65' : 'opacity-0'}`}>
+      <div className={`absolute inset-0 overflow-hidden transition-opacity duration-1000 z-10 ${imageVisible ? 'opacity-65' : 'opacity-0'}`}>
         <img
           src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/9c8fe33a0_Screenshot_10-3-2026_11418_playervimeocom.jpg"
           alt=""
