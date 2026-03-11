@@ -82,13 +82,14 @@ export default function Corrosion() {
           </motion.div>
 
           <div className="max-w-5xl mx-auto">
-            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl">
-              <img 
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/f7f060ade_corrosion_bottom.jpg"
-                alt="How Hydropath technology reduces corrosion"
-                className="w-3/4 mx-auto block rounded-xl"
-              />
-            </div>
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl">
+            <h3 className="text-xl font-bold text-slate-900 mb-6 text-center">Pipe with MIC</h3>
+            <img 
+              src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/2320d7737_corrosion_bottom.png"
+              alt="Pipe with MIC"
+              className="w-3/4 mx-auto block rounded-xl"
+            />
+          </div>
           </div>
         </div>
       </section>
