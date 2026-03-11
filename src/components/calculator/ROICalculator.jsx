@@ -238,36 +238,7 @@ export default function ROICalculator({ embedded = false }) {
             )}
           </div>
 
-          {/* 5-Year Savings Graph */}
-          {deviceCost && results && (
-            <div className="mt-12">
-              <h3 className="text-xl font-bold text-slate-800 uppercase tracking-wider mb-6">
-                Savings During 5-Year Warranty Period
-              </h3>
-              <div className="bg-gray-50 rounded-lg p-8">
-                <ResponsiveContainer width="100%" height={300}>
-                  <BarChart data={get5YearData()}>
-                    <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-                    <XAxis dataKey="year" />
-                    <YAxis />
-                    <Tooltip 
-                      formatter={(value) => `$${value.toLocaleString('en-US', {maximumFractionDigits: 0})}`}
-                      contentStyle={{ backgroundColor: '#f1f5f9', border: '1px solid #cbd5e1' }}
-                    />
-                    <Bar dataKey="savings" fill="#1e293b" radius={[8, 8, 0, 0]} />
-                  </BarChart>
-                </ResponsiveContainer>
-                <div className="mt-6 flex justify-around text-center">
-                  {get5YearData().map((item) => (
-                    <div key={item.year}>
-                      <p className="text-sm font-semibold text-slate-700 mb-1">{item.label}</p>
-                      <p className="text-xs text-slate-600">{item.year}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
+
         </div>
       )}
     </div>
