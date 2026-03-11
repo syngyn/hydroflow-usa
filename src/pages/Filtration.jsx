@@ -53,7 +53,7 @@ export default function Filtration() {
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               Improve Water Filtration
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
+              <span className="block text-white">
                 & Purification
               </span>
             </h1>
