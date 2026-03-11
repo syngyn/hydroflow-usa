@@ -42,7 +42,7 @@ const caseStudyData = {
       'Successfully upgraded to new high-efficiency water heaters in 2025 with Generation 4 i60 unit protection.',
       'Real-time monitoring capability through HydroKNCT IoT device and Hydropath Care software enables proactive maintenance.'
     ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf'
+    pdfUrl: 'https://media.base44.com/files/public/6933444aa399ff1da59bbd5c/75ec1ae50_HydroFLOWCaseStudy-IndustrialWaterHeaters-2026update.pdf'
   },
   'massive-texas-factory': {
     category: 'industrial',
