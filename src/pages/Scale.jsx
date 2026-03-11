@@ -155,7 +155,7 @@ export default function Scale() {
                 />
               </div>
               <p className="text-slate-700 leading-relaxed">
-                When the Hydropath signal is present, the dissolved minerals combine to form loosely held clusters. When the clusters precipitate out of solution due to a temperature or pressure change, they form stable calcite crystals in suspension that do not accumulate as hard scale on the inner surface of pipes, holding tanks or heating elements. This results in the effective prevention of limescale buildup and eliminates the need for a water softener.
+                When the Hydropath signal is present, the dissolved minerals combine to form loosely held clusters. When the clusters precipitate out of solution due to a temperature or pressure change, they form stable calcite crystals in suspension that do not accumulate as hard scale on the inner surface of pipes, holding tanks or heating elements. This results in the effective prevention of limescale buildup and eliminates the need for a water softener. With no new scale forming, the water flowing through the plumbing system will begin to slowly dissolve and remove the existing scale buildup.
               </p>
             </motion.div>
           </div>
