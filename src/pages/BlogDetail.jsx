@@ -2108,9 +2108,7 @@ const blogContent = {
       
       <p><strong><i>Hydro</i>FLOW 14" custom unit</strong></p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/cooling%2Btower.jpg" alt="Cooling tower with a HydroFLOW unit installed for legionella control" />
-      
-      <p><strong>​Cooling tower with a HydroFLOW unit for legionella control</strong></p>
+
       
       <p><i>Hydro</i>FLOW water conditioning devices are able to effectively control bacteria and biofilm in water systems, along with controlling scale and corrosion while improving filtration. <i>Hydro</i>FLOW reduces water, chemistry and energy use while saving substantial costs and usually pays for itself within 4-18 months.</p>
     `
