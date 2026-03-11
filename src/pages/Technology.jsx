@@ -141,7 +141,7 @@ export default function Technology() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
-              { id: '110159146', title: 'Scale Prevention' },
+              { id: '110159146', title: '<i>Hydro</i>FLOW Introduction', label: <><i>Hydro</i>FLOW Introduction</> },
               { id: '125498366', title: 'Biofilm Reduction' },
               { id: '237775492', title: 'How It Works' },
               { id: '153552177', title: 'System Overview' },
