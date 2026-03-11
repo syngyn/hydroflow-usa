@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
@@ -6,7 +6,6 @@ import { ArrowLeft, FileText, CheckCircle, Factory, Building2, Home, Leaf, Ship 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { base44 } from '@/api/base44Client';
 
 const getCategoryIcon = (category) => {
   const icons = {
@@ -1352,21 +1351,7 @@ const caseStudyData = {
 export default function CaseStudyDetail() {
   const [searchParams] = useSearchParams();
   const slug = searchParams.get('slug');
-  const [study, setStudy] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchStudy = async () => {
-      try {
-        const result = await base44.entities.CaseStudy.filter({ slug });
-        setStudy(result.length > 0 ? result[0] : caseStudyData[slug]);
-      } catch {
-        setStudy(caseStudyData[slug]);
-      }
-      setLoading(false);
-    };
-    fetchStudy();
-  }, [slug]);
+  const study = caseStudyData[slug];
 
   // Special PDF-only case studies (from database, not in static data)
   const pdfOnlyStudies = {
@@ -1376,17 +1361,6 @@ export default function CaseStudyDetail() {
       pdfUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/84b4b0e3b_HydroFLOW-commercial-referral-letter-2015-KI-awards.pdf'
     }
   };
-
-  if (loading) {
-    return (
-      <div className="min-h-screen pt-32 pb-16 bg-slate-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-600"></div>
-          <p className="mt-4 text-slate-600">Loading case study...</p>
-        </div>
-      </div>
-    );
-  }
 
   if (!study) {
     const pdfStudy = pdfOnlyStudies[slug];
