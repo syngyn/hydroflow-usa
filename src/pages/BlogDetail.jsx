@@ -2023,7 +2023,7 @@ const blogContent = {
       
       <p>Both units were installed without process downtime as they are fitted around existing piping and do not require plumbing modifications. The units use 120 VAC and draw less than 1 Amp, which is similar to the power consumed by a 60W light bulb.</p>
       
-      <img src="https://hydroflow-usa.com/assets/userfiles/images/Blog%2B4%2B-%2BPic%2B2.png" alt="Installed HydroFLOW i160 device" />
+      <img src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/f94324f92_Blog4-Pic2.png" alt="Installed HydroFLOW i160 device" style="width: 50%; height: auto;" />
       <img src="https://hydroflow-usa.com/assets/userfiles/images/Blog%2B4%2B-%2BPic%2B3.png" alt="Installed HydroFLOW i160 devices" />
       
       <h2>How HydroFLOW Reduced Polymer Used in Wastewater Treatment</h2>
