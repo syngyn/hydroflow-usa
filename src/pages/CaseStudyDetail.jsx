@@ -1352,7 +1352,21 @@ const caseStudyData = {
 export default function CaseStudyDetail() {
   const [searchParams] = useSearchParams();
   const slug = searchParams.get('slug');
-  const study = caseStudyData[slug];
+  const [study, setStudy] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchStudy = async () => {
+      try {
+        const result = await base44.entities.CaseStudy.filter({ slug });
+        setStudy(result.length > 0 ? result[0] : caseStudyData[slug]);
+      } catch {
+        setStudy(caseStudyData[slug]);
+      }
+      setLoading(false);
+    };
+    fetchStudy();
+  }, [slug]);
 
   // Special PDF-only case studies (from database, not in static data)
   const pdfOnlyStudies = {
