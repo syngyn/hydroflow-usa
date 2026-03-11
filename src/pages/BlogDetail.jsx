@@ -2018,7 +2018,7 @@ const blogContent = {
       
       <p>The technology was developed in England more than 20 years ago for calcium carbonate scale removal and prevention in domestic water heating applications; however, the use of Hydropath technology is not limited to residential systems. Various device configurations are being successfully applied in power generation, commercial, industrial, hospitality, municipal, mining, oil and gas, marine, agriculture, food service and aquaculture sectors.</p>
       
-      <h2>Installation and Testing</h2>
+      <h2 style="margin-top: 48px;">Installation and Testing</h2>
       <p>In November 2015, <i>Hydro</i>FLOW USA staff installed two <i>Hydro</i>FLOW i160 units on the 6-in. sludge piping feeding the centrifuge. One unit was placed approximately 50 ft prior to the centrifuge, just after the thickened waste activated sludge pump, and the other unit was placed 5 ft prior to the feed tube just before the centrifuge.</p>
       
       <p>Both units were installed without process downtime as they are fitted around existing piping and do not require plumbing modifications. The units use 120 VAC and draw less than 1 Amp, which is similar to the power consumed by a 60W light bulb.</p>
