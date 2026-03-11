@@ -16,8 +16,7 @@ const benefits = [
 ];
 
 const pocBenefits = [
-  'Low cost, reduced risk product evaluation of the <i>Hydro</i>FLOW water conditioning equipment',
-  'Pending a successful product evaluation, negotiate a purchase agreement',
+  'Low cost, reduced risk product evaluation of the <i>Hydro</i>FLOW water conditioning equipment – pending a successful product evaluation, negotiate a purchase agreement',
   'Flexible payment options are available',
   'Remote monitoring of the cooling system\'s performance via phone, tablet, or computer'
 ];
