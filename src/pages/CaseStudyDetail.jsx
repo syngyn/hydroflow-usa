@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion } from 'framer-motion';
@@ -6,6 +6,7 @@ import { ArrowLeft, FileText, CheckCircle, Factory, Building2, Home, Leaf, Ship 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { base44 } from '@/api/base44Client';
 
 const getCategoryIcon = (category) => {
   const icons = {
