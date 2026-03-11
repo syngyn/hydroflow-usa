@@ -2428,7 +2428,7 @@ export default function BlogDetail() {
                 prose-headings:font-extrabold prose-headings:text-slate-900
                 prose-h2:text-4xl prose-h2:mt-16 prose-h2:mb-8 prose-h2:pb-4 prose-h2:border-b-2 prose-h2:border-cyan-200
                 prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-6 prose-h3:text-cyan-700 prose-h3:font-bold
-                prose-p:text-slate-700 prose-p:leading-loose prose-p:mb-10 prose-p:text-lg prose-p:font-semibold
+                prose-p:text-slate-700 prose-p:leading-loose prose-p:mb-10 prose-p:text-lg
                 prose-ul:my-8 prose-ul:space-y-4 prose-ul:ml-6
                 prose-li:text-slate-700 prose-li:leading-loose prose-li:text-lg prose-li:marker:text-cyan-600
                 prose-ol:my-8 prose-ol:space-y-4 prose-ol:ml-6
