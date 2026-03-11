@@ -2240,7 +2240,7 @@ const blogContent = {
       <p>The results of this study have demonstrated the dramatic benefit of Hydropath's eco-friendly technology for enhancing the ability of sanitizers to control bacteria and fungi in apple flume water systems, reducing the Minimum Inhibitory Concentration (MIC). Similar benefits have been observed in cooling water systems, pools, and other industrial water applications.</p>
       <br/>
       <div style="text-align: center; margin-top: 30px;">
-        <a href="https://hydroflow-usa.com/assets/files/271605140596.pdf" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px 24px; background-color: #0891b2; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: background-color 0.3s;">
+        <a href="https://pdf.hydroflow-usa.com/75021533661595.pdf" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px 24px; background-color: #0891b2; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: background-color 0.3s;">
           View Full PDF Case Study
         </a>
       </div>
