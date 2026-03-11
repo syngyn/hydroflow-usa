@@ -23,7 +23,9 @@ export default function Scale() {
     'Cooling towers',
     'Heat exchangers',
     'Belt filter presses',
-    'Wells and pumps'
+    'Wells and pumps',
+    'Appliances',
+    'Pools and spas'
   ];
 
   const efficiencyData = [
