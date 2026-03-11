@@ -83,7 +83,6 @@ export default function Corrosion() {
 
           <div className="max-w-5xl mx-auto">
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl">
-            <h3 className="text-xl font-bold text-slate-900 mb-6 text-center">Pipe with MIC</h3>
             <img 
               src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/2320d7737_corrosion_bottom.png"
               alt="Pipe with MIC"
