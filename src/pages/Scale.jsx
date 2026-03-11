@@ -81,10 +81,13 @@ export default function Scale() {
                 Hydropath technology powers the <i>Hydro</i>FLOW water conditioners which are highly efficient, non-intrusive electronic descalers that are installed on the cold water line in your home or business. It treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material, including PEX and PVC.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                These electric waves cause mineral ions to form suspended clusters that turn into stable crystals in solution when temperature or pressure changes occur. The suspended crystals will prevent scale from building up in pipes and on heating elements, thus increasing heat transfer efficiency, lowering maintenance costs and reducing chemical usage.
+                These electric waves cause mineral ions to form suspended clusters that turn into stable crystals in solution when temperature or pressure changes occur. The suspended crystals will prevent scale from building up in pipes and on heating elements, thus increasing heat transfer efficiency, lowering maintenance costs and reducing chemical usage. Standard applications include plumbing systems, water heaters, boilers, cooling towers, heat exchangers, belt filter presses, wells and pumps. Popular sectors include residential, commercial, industrial and agricultural.
+              </p>
+              <p className="text-lg text-slate-700 leading-relaxed mb-6">
+                Unlike other products that treat liquids at a single point in a system and whose impact starts to diminish immediately after that point, <i>Hydro</i>FLOW provides continuous water conditioning &ndash; ensuring a consistent and ongoing effect. Also, due to its unique, non-intrusive design, <i>Hydro</i>FLOW doesn't add any chemicals to your water supply while inhibiting pipe corrosion and eradicating bacteria and algae.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed">
-                Unlike other products that treat liquids at a single point in a system and whose impact starts to diminish immediately after that point, <i>Hydro</i>FLOW provides continuous water conditioning – ensuring a consistent and ongoing effect. Also, due to its unique, non-intrusive design, <i>Hydro</i>FLOW doesn't add any chemicals to your water supply while inhibiting pipe corrosion and eradicating bacteria and algae.
+                Furthermore, while it protects your plumbing and appliances, it is also easy to install, requires no maintenance or wasted real estate. A residential grade <i>Hydro</i>FLOW device costs about $1 in electricity per year. An industrial grade <i>Hydro</i>FLOW device costs between $10 to $20 in electricity per year.
               </p>
             </motion.div>
           </div>
