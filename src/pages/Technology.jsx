@@ -141,7 +141,7 @@ export default function Technology() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
-              { id: '110159146', title: '<i>Hydro</i>FLOW Introduction', label: <><i>Hydro</i>FLOW Introduction</> },
+              { id: '110159146', title: 'HydroFLOW Introduction' },
               { id: '125498366', title: 'Biofilm Reduction' },
               { id: '237775492', title: 'How It Works' },
               { id: '153552177', title: 'System Overview' },
@@ -152,16 +152,21 @@ export default function Technology() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="aspect-video rounded-2xl overflow-hidden shadow-lg"
+                className="rounded-2xl overflow-hidden shadow-lg"
               >
-                <iframe
-                  src={`https://player.vimeo.com/video/${video.id}?badge=0&autoplay=0&muted=0`}
-                  className="w-full h-full"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  title={video.title}
-                />
+                <h3 className="text-lg font-bold text-slate-800 mb-3 px-1">
+                  {video.id === '110159146' ? <><i>Hydro</i>FLOW Introduction</> : video.title}
+                </h3>
+                <div className="aspect-video">
+                  <iframe
+                    src={`https://player.vimeo.com/video/${video.id}?badge=0&autoplay=0&muted=0`}
+                    className="w-full h-full"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowFullScreen
+                    title={video.title}
+                  />
+                </div>
               </motion.div>
             ))}
           </div>
