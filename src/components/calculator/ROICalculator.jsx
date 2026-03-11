@@ -59,23 +59,6 @@ export default function ROICalculator({ embedded = false }) {
     }
   };
 
-  const get5YearData = () => {
-    if (!results) return [];
-    const currentYear = new Date().getFullYear();
-    const data = [];
-    let cumulativeSavings = -parseFloat(deviceCost || 0);
-    
-    for (let i = 0; i < 5; i++) {
-      cumulativeSavings += results.totalAnnualSavings;
-      data.push({
-        year: currentYear + i,
-        savings: Math.max(0, cumulativeSavings),
-        label: cumulativeSavings < 0 ? `$${Math.abs(cumulativeSavings).toLocaleString('en-US', {maximumFractionDigits: 0})}` : `$${cumulativeSavings.toLocaleString('en-US', {maximumFractionDigits: 0})}`
-      });
-    }
-    return data;
-  };
-
   const inputClass = "w-full border border-gray-300 rounded px-3 py-2 text-sm text-slate-700 bg-gray-100 focus:outline-none focus:border-cyan-500 focus:bg-white transition-colors placeholder-slate-400";
   const sectionHeaderClass = "text-sm font-bold text-slate-800 uppercase tracking-wide mb-3 mt-6";
 
