@@ -2104,7 +2104,7 @@ const blogContent = {
       
       <p><i>Hydro</i>FLOW water conditioners are an alternate method for controlling legionella without the use of potentially harmful chemicals. They are environmentally friendly devices that have been distributed throughout the world for many years, but only recently entered the U.S. market. Over twenty years ago, Hydropath Technology Limited, located in the U.K., invented a process that treats fluids by inducing a robust yet harmless signal of 150kHz throughout plumbing systems made of any material. The pipe, and/or the fluid inside of it, acts as a conduit which allows the signal to propagate. The induction of the signal prevents scale and biofilm from accumulating inside plumbing systems and gradually removes existing deposits. This preventative action significantly reduces energy, chemical, water and maintenance costs which extends the service life of equipment and pipes.</p>
       
-      <img src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/c2c18fc38_HydroFLOW14E2809Dcustomunitinstalledoncoolingtowerforlegionellacontrol.jpg" alt="HydroFLOW 14 inch custom unit" />
+      <img src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/c2c18fc38_HydroFLOW14E2809Dcustomunitinstalledoncoolingtowerforlegionellacontrol.jpg" alt="HydroFLOW 14 inch custom unit" style="width: 50%; height: auto;" />
       
       <p><strong><i>Hydro</i>FLOW 14" custom unit</strong></p>
       
