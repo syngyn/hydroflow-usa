@@ -142,7 +142,7 @@ export default function Technology() {
           <div className="grid md:grid-cols-2 gap-8">
             {[
               { id: '110159146', title: 'HydroFLOW Introduction' },
-              { id: '125498366', title: 'Biofilm Reduction' },
+              { id: '125498366', title: 'Foodservice video animation' },
               { id: '237775492', title: 'How It Works' },
               { id: '153552177', title: 'System Overview' },
             ].map((video, index) => (
