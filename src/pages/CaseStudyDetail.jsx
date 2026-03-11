@@ -1377,6 +1377,17 @@ export default function CaseStudyDetail() {
     }
   };
 
+  if (loading) {
+    return (
+      <div className="min-h-screen pt-32 pb-16 bg-slate-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-600"></div>
+          <p className="mt-4 text-slate-600">Loading case study...</p>
+        </div>
+      </div>
+    );
+  }
+
   if (!study) {
     const pdfStudy = pdfOnlyStudies[slug];
     if (pdfStudy) {
