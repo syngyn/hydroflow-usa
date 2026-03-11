@@ -48,9 +48,6 @@ export default function PowerGeneration() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               <i>Hydro</i>FLOW Power Generation
             </h1>
-            <p className="text-xl text-slate-300 max-w-4xl mx-auto">
-              Innovative water conditioning solutions that optimize cooling tower systems and improve bottom line performance.
-            </p>
           </motion.div>
         </div>
       </section>
