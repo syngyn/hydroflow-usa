@@ -2009,9 +2009,9 @@ const blogContent = {
     content: `
       <p>The Somersworth, NH, Wastewater Treatment Plant serves a city with a population of approximately 11,800 people. A city-wide collection system delivers the citizens' and local industry's wastewater to be treated at the 2.4-million-gpd facility, which utilizes a GEA Westfalia Separator, model CB 505-00-32 centrifuge in its sludge dewatering process. The plant's management team agreed to evaluate Hydropath technology's ability to reduce polymer usage in this process.</p>
       
-      <img src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/257ee966a_Blog4-Pic11.png" alt="Somersworth, NH, Wastewater Treatment Plant" style="width: 50%; height: auto;" />
+      <img src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/257ee966a_Blog4-Pic11.png" alt="Somersworth, NH, Wastewater Treatment Plant" style="width: 50%; height: auto; margin-bottom: 48px;" />
       
-      <h2>Reduce Struvite in Wastewater with HydroFLOW</h2>
+      <h2>Reduce Struvite in Wastewater with <i>Hydro</i>FLOW</h2>
       <p><i>Hydro</i>FLOW devices have been installed as a means to control struvite accumulation in wastewater plants. In the fall of 2013, equipment was installed at the Orlando, FL, Water Conserv II Water Reclamation Facility for struvite removal and prevention purposes. After five months, the results showed significant reduction of struvite buildup and a 20% reduction in polymer use. This polymer reduction discovery led to further investigation of the phenomenon.</p>
       
       <p><i>Hydro</i>FLOW USA is based in Redmond, WA. The company is the sole U.S. distributor of <i>Hydro</i>FLOW water conditioning devices that are powered by the patented Hydropath technology. The <i>Hydro</i>FLOW device induces an electric signal of ±150kHz in the liquid inside any pipe on which it is installed. A specialized transducer connected to a ring of ferrites performs the electric induction.</p>
