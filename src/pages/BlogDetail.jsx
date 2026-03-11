@@ -2076,7 +2076,7 @@ const blogContent = {
       
       <p>The <i>Hydro</i>FLOW product, powered by Hydropath technology, showed to be extremely innovative with field data supporting the claims of removing struvite build up in pipelines. This product could have an extreme benefit for many plants around the US struggling with this issue in their digesters, connecting pipes and dewatering devices.</p>
       
-      <img src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/d679eb549_WEFAwardCollage.png" alt="HydroFLOW team receive WEF award" />
+      <img src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/d679eb549_WEFAwardCollage.png" alt="HydroFLOW team receive WEF award" style="width: 50%; height: auto;" />
       
       <p><i>Hydro</i>FLOW USA was honored during WEFTEC® 2017, the world's largest annual water quality conference and exhibition, in Chicago on October 3. To learn more about <i>Hydro</i>FLOW USA solutions, contact us today.</p>
       
