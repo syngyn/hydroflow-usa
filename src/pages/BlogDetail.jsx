@@ -2094,7 +2094,7 @@ const blogContent = {
     content: `
       <p>Bacteria exist in every aspect of our lives. Many bacteria are helpful, while some species of microorganisms can be very harmful to humans and the environment, under certain conditions. Buildings provide a hospitable environment for numerous types of bacteria, which can be detected in both air and water. Considerable efforts are taken to ensure that bacteria are prevented from harming building occupants and visitors. Most facility engineers and operation managers are focused on controlling waterborne pathogens (including legionella) that grow in cooling towers, chillers, and water systems. Legionella has become a significant concern for management of water systems, especially in urban settings with large numbers of visitors and occupants in buildings.</p>
       
-      <img src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/953efcf3a_chartshowingincreasesinlegionellacases.jpg" alt="chart showing legionnaires' cases on the rise" />
+      <img src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/953efcf3a_chartshowingincreasesinlegionellacases.jpg" alt="chart showing legionnaires' cases on the rise" style="width: 50%; height: auto;" />
       
       <h2><strong>Legionella Prevention</strong></h2>
       
