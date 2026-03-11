@@ -143,7 +143,7 @@ export default function Technology() {
             {[
               { id: '110159146', title: 'HydroFLOW Introduction' },
               { id: '125498366', title: 'Foodservice video animation' },
-              { id: '237775492', title: 'How It Works' },
+              { id: '237775492', title: 'Brackets for Custom Units' },
               { id: '153552177', title: 'System Overview' },
             ].map((video, index) => (
               <motion.div
