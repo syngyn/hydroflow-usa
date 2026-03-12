@@ -1328,6 +1328,34 @@ const caseStudyData = {
     pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW Product Evaluation - Dissolved Air Flotation (DAF).pdf'
   },
 
+  'industrial-wastewater-treatment-multi-site': {
+    category: 'industrial',
+    title: 'Industrial Wastewater Treatment – Multi-Site Presentation',
+    image: 'https://pdf.hydroflow-usa.com/images/338663d5768bedf09c9ef025da4bb1f5384b34d38782a2c9179b3e8c19e91b89.jpg',
+    installer: 'HydroFLOW USA',
+    customer: 'Multiple municipal and industrial wastewater treatment facilities across the United States',
+    application: 'Struvite scale control, polymer reduction, and dewatering optimization across belt presses, centrifuges, and centrate conveyance systems',
+    installedUnits: 'Various HydroFLOW i Range units installed at each facility',
+    background: 'This presentation documents HydroFLOW\'s expanding role in the wastewater sector across six facilities. The technology uses Hydropath\'s patented ±150kHz electrical signal to treat mineral scale (primarily struvite) and enhance flocculation in wastewater treatment processes. Facilities evaluated include: Walla Walla WA (belt press), Orlando FL (belt press), Somersworth NH (centrifuge), St. Paul MN (centrate line), Lehigh County PA (belt press), London OH (belt press), Blue Plains Advanced WTP in Washington D.C. (flow meters), and Rockland County NY (centrifuge discharge system). Each evaluation confirmed HydroFLOW\'s ability to soften and remove existing struvite deposits while preventing new accumulation — without chemicals, manual labor, or mechanical intervention.',
+    successFactors: [
+      'Reduce struvite accumulation on belt presses, centrifuges, and centrate lines',
+      'Decrease polymer consumption in dewatering operations',
+      'Extend intervals between manual cleaning and system shutdowns',
+      'Validate technology across a diverse range of WWTP configurations and scale types'
+    ],
+    results: [
+      'Walla Walla, WA: After 8 weeks, no new accumulation on the treated section; existing struvite gradually removed — previously required chiseling, now washes off with regular water pressure.',
+      'Orlando, FL: Struvite scale prevented and removed over 150 days on belt press #5; ~20% average daily polymer reduction due to enhanced flocculation.',
+      'Somersworth, NH: 25.1% reduction in polymer usage (from 25.5 to 19.1 lbs/ton) across six testing sequences; cake solids increased by up to 3% TS.',
+      'St. Paul, MN: After 6 months on main centrate line, pipes were flushed and opened — hard struvite deposits were cleared, with outstanding results confirmed.',
+      'Lehigh County, PA: Struvite removal noticeable within 8 days; existing deposits softening and easier to clean.',
+      'London, OH: Struvite removed from belt press without chemical, manual, or mechanical assistance; large pieces coming off the first roller and wash box within one week.',
+      'Blue Plains, Washington D.C.: HydroFLOW-treated flow meter showed 2–3mm scale vs. 5mm on untreated meter after comparable runtimes (~2,000 hours); all electrodes remained visible on treated meter.',
+      'Rockland County, NY: Struvite cleaning interval on centrifuge discharge system extended far beyond the target of doubling from 2 to 4 weeks — results greatly exceeded expectations.'
+    ],
+    pdfUrl: 'https://Pdf.hydroflow-usa.com/HydroFLOW-industrial-wastewater-presentation.pdf'
+  },
+
   'third-party-verification-denver': {
     category: 'industrial',
     title: 'Third Party Verification Report - Denver',
