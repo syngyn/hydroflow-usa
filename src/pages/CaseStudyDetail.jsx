@@ -1356,24 +1356,6 @@ const caseStudyData = {
     pdfUrl: 'https://Pdf.hydroflow-usa.com/HydroFLOW-industrial-wastewater-presentation.pdf'
   },
 
-  'third-party-verification-denver': {
-    category: 'industrial',
-    title: 'Third Party Verification Report - Denver',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5d1143384_image.png',
-    installer: 'HydroFLOW USA',
-    customer: 'Robert W. Hite Treatment Facility, Metro Wastewater Reclamation District, Denver, CO',
-    application: 'Centrate conveyance system — struvite scale control',
-    installedUnits: 'Two custom HydroFLOW i Range units on the centrate line',
-    background: 'The centrate conveyance system at the RWHTF, particularly the transfer pump and pipe, experienced scaling requiring the system to be periodically taken offline for cleaning. An independent third-party technology verification was conducted by Samuel Jeyanayagam, PhD, PE, WEF Fellow of Jacobs Engineering to validate HydroFLOW effectiveness in controlling struvite scaling over a 60-day test period.',
-    successFactors: ['Independent third-party validation by PhD engineer', 'Control struvite scaling without chemicals', 'Soften existing hard scale deposits'],
-    results: [
-      'HydroFLOW i Range was effective in softening existing scale and preventing the formation of new scale on the centrate line.',
-      'Softening of existing scale allowed a substantial portion of original hard scale to be removed during the 60-day test period through shearing action of flowing liquid.',
-      'Verified by independent engineer: Samuel Jeyanayagam, PhD, PE, WEF Fellow / Jacobs Engineering.',
-      'Validated as effective technology for struvite scaling control at a major municipal wastewater facility.'
-    ],
-    pdfUrl: 'https://pdf.hydroflow-usa.com/46231506637483.pdf'
-  }
 };
 
 export default function CaseStudyDetail() {
