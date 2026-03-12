@@ -1331,7 +1331,7 @@ const caseStudyData = {
   'third-party-verification-tulsa-southside': {
     category: 'industrial',
     title: 'Third Party Verification Report - Tulsa Southside WWTP',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16924a78b_generated_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/342534db1_image.png',
     installer: 'HydroTech Solutions, Inc. (regional HydroFLOW USA representative)',
     customer: 'Tulsa Southside Wastewater Treatment Plant, Tulsa, Oklahoma',
     application: 'Belt filter presses — struvite scale control',

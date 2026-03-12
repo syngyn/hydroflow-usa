@@ -794,7 +794,7 @@ const caseStudies = [
     title: 'Third Party Verification Report - Tulsa Southside WWTP',
     slug: 'third-party-verification-tulsa-southside',
     description: 'Independent third-party verification by CH2M confirms HydroFLOW I Range prevented new struvite scale formation and softened existing deposits at the Tulsa Southside Wastewater Treatment Plant — results so positive the plant designated funding to purchase a large custom unit to treat all 5 belt filter presses.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16924a78b_generated_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/342534db1_image.png',
     results: ['No new scale formed on cleaned drum surface during 90-day test', 'Existing scale softened and removable with paint scraper — impossible before', 'Scale removed in 3–4 inch pieces with power washer vs. 3,500 psi high-pressure cleaning', 'Plant designated funding to purchase custom unit for all 5 belt filter presses'],
     pdfUrl: 'https://Pdf.hydroflow-usa.com/HydroFLOW-industrial-third-party-verification-report-tulsa-southside-WWTP.pdf',
     customer: 'Tulsa Southside Wastewater Treatment Plant, Tulsa, Oklahoma',
