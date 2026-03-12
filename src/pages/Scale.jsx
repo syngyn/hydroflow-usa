@@ -210,7 +210,7 @@ export default function Scale() {
                   <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
                   <XAxis 
                     dataKey="thickness" 
-                    label={{ value: 'Scale Thickness (inches)', position: 'insideBottom', offset: -5 }}
+                    label={{ value: 'Scale Thickness (mm)', position: 'insideBottom', offset: -5 }}
                     tick={{ fill: '#64748b', fontSize: 12 }}
                   />
                   <YAxis 
