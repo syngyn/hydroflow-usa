@@ -30,14 +30,14 @@ export default function Scale() {
 
   const efficiencyData = [
     { thickness: 0, efficiency: 100 },
-    { thickness: 0.05, efficiency: 95 },
-    { thickness: 0.1, efficiency: 85 },
-    { thickness: 0.15, efficiency: 75 },
-    { thickness: 0.2, efficiency: 68 },
-    { thickness: 0.25, efficiency: 62 },
-    { thickness: 0.3, efficiency: 55 },
-    { thickness: 0.35, efficiency: 50 },
-    { thickness: 0.4, efficiency: 45 }
+    { thickness: 1.3, efficiency: 95 },
+    { thickness: 2.5, efficiency: 85 },
+    { thickness: 3.8, efficiency: 75 },
+    { thickness: 5.1, efficiency: 68 },
+    { thickness: 6.4, efficiency: 62 },
+    { thickness: 7.6, efficiency: 55 },
+    { thickness: 8.9, efficiency: 50 },
+    { thickness: 10.2, efficiency: 45 }
   ];
 
   return (
