@@ -61,6 +61,7 @@ const AuthenticatedApp = () => {
           }
         />
       ))}
+      <Route path="/assets/files/*" element={<AssetsFilesRedirect />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
