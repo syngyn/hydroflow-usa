@@ -1359,7 +1359,7 @@ const caseStudyData = {
   'third-party-verification-denver': {
     category: 'industrial',
     title: 'Third Party Verification Report - Denver',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/087be9706_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5d1143384_image.png',
     installer: 'HydroFLOW USA',
     customer: 'Robert W. Hite Treatment Facility, Metro Wastewater Reclamation District, Denver, CO',
     application: 'Centrate conveyance system — struvite scale control',
