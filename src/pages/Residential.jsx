@@ -287,7 +287,7 @@ export default function Residential() {
             >
               <div className="h-48 flex items-center justify-center mb-4">
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2023/08/SED20-inch-cartridge.png"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a7dffcb38_SED20x45filter.png"
                   alt="Sediment Filter"
                   className="h-full w-auto object-contain"
                 />
@@ -315,7 +315,7 @@ export default function Residential() {
               </div>
               <div className="h-48 flex items-center justify-center mb-4 mt-4">
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2024/05/acb-10-inch-filter-scaled.webp"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/318b6a108_ActivatedCarbonBlockFilter20inch.png"
                   alt="Activated Carbon Filter"
                   className="h-full w-auto object-contain"
                 />
@@ -340,7 +340,7 @@ export default function Residential() {
             >
               <div className="h-48 flex items-center justify-center mb-4">
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2023/08/FF-20-inch.webp"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a0db785d4_10inchff.png"
                   alt="Force Field Filter"
                   className="h-full w-auto object-contain"
                 />

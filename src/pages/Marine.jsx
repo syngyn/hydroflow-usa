@@ -292,7 +292,7 @@ export default function Marine() {
               </div>
               <div>
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2025/10/hm-Range1-1400x788.png"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/b3cfa299e_hfmarine.png"
                   alt="hm Range Marine Unit"
                   className="w-full max-w-sm mx-auto"
                 />
