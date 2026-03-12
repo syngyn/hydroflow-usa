@@ -794,7 +794,7 @@ const caseStudies = [
     title: 'Third Party Verification Report - Augusta, Georgia',
     slug: 'third-party-verification-augusta-georgia',
     description: 'Independent third-party verification by Jacobs Engineering confirms HydroFLOW I Range eliminated $4,000/month in anti-scalant chemical costs at the J.B. Messerly Water Pollution Control Plant in Augusta, Georgia — with an ROI under 8 months.',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5d1143384_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/22c5337a7_image.png',
     results: ['Eliminated $4,000/month anti-scalant chemical cost', 'Existing hard scale removed by high-pressure water instead of chisels and hammers', 'ROI under 8 months on chemical savings alone', 'Independent verification by PhD engineer and WEF Fellow'],
     pdfUrl: 'https://Pdf.hydroflow-usa.com/HydroFLOW-industrial-third-party-verification-report-Augusta-Georgia-WWTP.pdf',
     customer: 'J.B. Messerly Water Pollution Control Plant, Augusta, Georgia',

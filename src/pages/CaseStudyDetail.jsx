@@ -1331,7 +1331,7 @@ const caseStudyData = {
   'third-party-verification-augusta-georgia': {
     category: 'industrial',
     title: 'Third Party Verification Report - Augusta, Georgia',
-    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5d1143384_image.png',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/22c5337a7_image.png',
     installer: 'Southeast Pump and Equipment (regional HydroFLOW USA representative)',
     customer: 'J.B. Messerly Water Pollution Control Plant, Augusta, Georgia',
     application: 'Belt filter presses — struvite scale control',
