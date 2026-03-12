@@ -1679,7 +1679,8 @@ export default function CaseStudyDetail() {
               slug === 'lehigh-county-wwtp-struvite-treatment' || 
               slug === 'wastewater-treatment-plant-in-ohio' ||
               slug === 'city-of-orlando-wastewater-treatment-plant' ||
-              slug === 'massive-texas-factory') && (
+              slug === 'massive-texas-factory' ||
+              slug === 'industrial-wastewater-treatment-multi-site') && (
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
