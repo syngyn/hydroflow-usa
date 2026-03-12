@@ -177,7 +177,7 @@ export default function Residential() {
             >
               <div className="h-48 flex items-center justify-center mb-6">
                 <img 
-                  src="https://hydroflow-usa.com/wp-content/uploads/2024/08/pearl-grey-background-800x800.jpg"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/a9d24ed5d_Untitled.png"
                   alt="HydroFLOW Pearl"
                   className="h-full w-auto object-contain"
                 />
