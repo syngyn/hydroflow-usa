@@ -57,7 +57,8 @@ export default function HeroSection() {
   const [currentProductIndex, setCurrentProductIndex] = useState(0);
   const [videoLoaded, setVideoLoaded] = useState(false);
   const [thumbnailUrl, setThumbnailUrl] = useState(null);
-  const [showThumbnail, setShowThumbnail] = useState(true);
+  const [overlayInDom, setOverlayInDom] = useState(true);
+  const [overlayOpacity, setOverlayOpacity] = useState(1);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -77,11 +78,19 @@ export default function HeroSection() {
       }
     };
     fetchThumbnail();
+
+    // After 2.5s, fade out overlay
+    const fadeTimer = setTimeout(() => {
+      setOverlayOpacity(0);
+      // After fade transition (600ms), remove from DOM entirely
+      setTimeout(() => setOverlayInDom(false), 600);
+    }, 2500);
+
+    return () => clearTimeout(fadeTimer);
   }, []);
 
   const handleVideoReady = () => {
     setVideoLoaded(true);
-    setTimeout(() => setShowThumbnail(false), 2000);
   };
 
   return (
