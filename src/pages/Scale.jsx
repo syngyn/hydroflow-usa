@@ -229,7 +229,7 @@ export default function Scale() {
                             padding: '8px 12px'
                           }}>
                             <p style={{ margin: 0, fontSize: '14px', color: '#475569' }}>
-                              Scale: {payload[0].payload.thickness}"
+                              Scale: {payload[0].payload.thickness} mm
                             </p>
                             <p style={{ margin: 0, fontSize: '14px', color: '#ef4444', fontWeight: 600 }}>
                               Efficiency: {payload[0].value}%
