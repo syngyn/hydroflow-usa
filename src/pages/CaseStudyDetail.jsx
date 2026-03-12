@@ -1328,6 +1328,34 @@ const caseStudyData = {
     pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW Product Evaluation - Dissolved Air Flotation (DAF).pdf'
   },
 
+  'third-party-verification-augusta-georgia': {
+    category: 'industrial',
+    title: 'Third Party Verification Report - Augusta, Georgia',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5d1143384_image.png',
+    installer: 'Southeast Pump and Equipment (regional HydroFLOW USA representative)',
+    customer: 'J.B. Messerly Water Pollution Control Plant, Augusta, Georgia',
+    application: 'Belt filter presses — struvite scale control',
+    installedUnits: 'HydroFLOW Model 160i on the 6-inch sludge feed line to one of the belt filter presses',
+    background: 'The J.B. Messerly Water Pollution Control Plant (WPCP), designed for 46 mgd and treating an average of 20 mgd, experienced struvite scale buildup on its two belt filter presses (BFPs). Scale control had been accomplished with an anti-scalant at an approximate cost of $4,000 per month. The Augusta WPCP and HydroFLOW USA signed a memorandum of understanding to conduct a 90-day product evaluation — which extended to approximately six months — to determine the effectiveness of Hydropath technology in mitigating scale formation. An independent third-party technology verification was conducted by Samuel Jeyanayagam, PhD, PE, WEF Fellow of Jacobs Engineering.',
+    successFactors: [
+      'Eliminate $4,000/month anti-scalant chemical usage',
+      'Soften and remove existing hard struvite scale from belt filter presses',
+      'Reduce labor-intensive scale removal requiring chisels and hammers',
+      'Independent third-party validation by PhD engineer and WEF Fellow'
+    ],
+    results: [
+      'HydroFLOW allowed the WPCP to eliminate the use of anti-scalant chemical entirely, realizing cost savings of approximately $4,000 per month.',
+      'Existing hard scale — previously requiring chisels and hammers to remove — became soft and was easily removed by spraying with high-pressure water.',
+      'Calculated Return On Investment (ROI) was under eight months on chemical savings alone — not including savings from reduced maintenance labor, minimized process downtime, and longer equipment life.',
+      'When the drum was removed for repairs after a mechanical failure, scale was easily washed off with high-pressure water. The operator attributed this solely to HydroFLOW, as the only operational change was the use of HydroFLOW and reduction of anti-scalant.',
+      'The cost of repairing the drum was offset by the savings in anti-scalant — without impacting the plant\'s O&M budget.',
+      'Oscilloscope measurement confirmed the Hydropath signal traveled to both BFPs via a pipe bypass, treating both belt filter presses with a single unit.',
+      'The plant\'s operating staff concluded the trial was a resounding success.',
+      'Verified by independent engineer: Samuel Jeyanayagam, PhD, PE, WEF Fellow / Jacobs Engineering.'
+    ],
+    pdfUrl: 'https://Pdf.hydroflow-usa.com/HydroFLOW-industrial-third-party-verification-report-Augusta-Georgia-WWTP.pdf'
+  },
+
   'industrial-wastewater-treatment-multi-site': {
     category: 'industrial',
     title: 'Industrial Wastewater Treatment – Multi-Site Presentation',

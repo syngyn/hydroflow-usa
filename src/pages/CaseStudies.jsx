@@ -789,6 +789,23 @@ const caseStudies = [
     products_used: ['I Range']
   },
 
+  {
+    category: 'industrial',
+    title: 'Third Party Verification Report - Augusta, Georgia',
+    slug: 'third-party-verification-augusta-georgia',
+    description: 'Independent third-party verification by Jacobs Engineering confirms HydroFLOW I Range eliminated $4,000/month in anti-scalant chemical costs at the J.B. Messerly Water Pollution Control Plant in Augusta, Georgia — with an ROI under 8 months.',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5d1143384_image.png',
+    results: ['Eliminated $4,000/month anti-scalant chemical cost', 'Existing hard scale removed by high-pressure water instead of chisels and hammers', 'ROI under 8 months on chemical savings alone', 'Independent verification by PhD engineer and WEF Fellow'],
+    pdfUrl: 'https://Pdf.hydroflow-usa.com/HydroFLOW-industrial-third-party-verification-report-Augusta-Georgia-WWTP.pdf',
+    customer: 'J.B. Messerly Water Pollution Control Plant, Augusta, Georgia',
+    installer: 'Southeast Pump and Equipment (regional HydroFLOW USA representative)',
+    application: 'Belt filter presses — struvite scale control',
+    installed_units: 'HydroFLOW i160 on the 6-inch sludge feed line',
+    background: 'The WPCP\'s two belt filter presses experienced struvite scale buildup requiring $4,000/month in anti-scalant chemicals and labor-intensive removal with chisels and hammers. A 90-day evaluation (which extended to 6 months) was conducted with independent third-party verification by Jacobs Engineering.',
+    application_type: ['Wastewater Treatment'],
+    products_used: ['I Range']
+  },
+
   // Missing industrial case studies
   {
     category: 'industrial',
