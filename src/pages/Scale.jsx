@@ -253,7 +253,7 @@ export default function Scale() {
                 <div className="flex items-center gap-2 text-sm">
                   <div className="w-3 h-3 rounded-full bg-red-500"></div>
                   <p className="text-slate-700">
-                    <strong>0.25" of scale</strong> = <strong>38% efficiency loss</strong>
+                    <strong>6.4 mm of scale</strong> = <strong>38% efficiency loss</strong>
                   </p>
                 </div>
               </div>
