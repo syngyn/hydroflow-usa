@@ -95,15 +95,23 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-900">
-      {/* Vimeo Thumbnail Overlay */}
-      {showThumbnail && thumbnailUrl && (
+      {/* Vimeo Thumbnail Overlay - removed from DOM after fade */}
+      {overlayInDom && thumbnailUrl && (
         <div 
-          className="absolute inset-0 transition-opacity duration-2000 pointer-events-none z-40"
-          style={{ backgroundImage: `url(${thumbnailUrl})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            backgroundImage: `url(${thumbnailUrl})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            opacity: overlayOpacity,
+            transition: 'opacity 0.6s ease-out',
+            zIndex: overlayInDom ? 40 : -1
+          }}
         />
       )}
 
-      {/* Video fades in on top of splash */}
+      {/* Video background */}
       <div className={`absolute inset-0 overflow-hidden transition-opacity duration-700 ${videoLoaded ? 'opacity-65' : 'opacity-0'}`}>
         <iframe
           src="https://player.vimeo.com/video/1171978592?background=1&autoplay=1&loop=1&muted=1&autopause=0"
