@@ -791,6 +791,22 @@ const caseStudies = [
 
   {
     category: 'industrial',
+    title: 'Third Party Verification Report - Tulsa Southside WWTP',
+    slug: 'third-party-verification-tulsa-southside',
+    description: 'Independent third-party verification by CH2M confirms HydroFLOW I Range prevented new struvite scale formation and softened existing deposits at the Tulsa Southside Wastewater Treatment Plant — results so positive the plant designated funding to purchase a large custom unit to treat all 5 belt filter presses.',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16924a78b_generated_image.png',
+    results: ['No new scale formed on cleaned drum surface during 90-day test', 'Existing scale softened and removable with paint scraper — impossible before', 'Scale removed in 3–4 inch pieces with power washer vs. 3,500 psi high-pressure cleaning', 'Plant designated funding to purchase custom unit for all 5 belt filter presses'],
+    pdfUrl: 'https://Pdf.hydroflow-usa.com/HydroFLOW-industrial-third-party-verification-report-tulsa-southside-WWTP.pdf',
+    customer: 'Tulsa Southside Wastewater Treatment Plant, Tulsa, Oklahoma',
+    installer: 'HydroTech Solutions, Inc. (regional HydroFLOW USA representative)',
+    application: 'Belt filter presses — struvite scale control',
+    installed_units: 'HydroFLOW I Range unit on the 6-inch BFP sludge feed pipe',
+    background: 'The Southside WWTP, designed for 42 mgd and treating an average of 20 mgd, was battling struvite scale buildup on each of five belt filter presses. Scale removal required frequent, labor-intensive 3,500 psi high-pressure washing. A 90-day product evaluation was conducted with independent third-party verification by CH2M.',
+    application_type: ['Wastewater Treatment'],
+    products_used: ['I Range']
+  },
+  {
+    category: 'industrial',
     title: 'Third Party Verification Report - Augusta, Georgia',
     slug: 'third-party-verification-augusta-georgia',
     description: 'Independent third-party verification by Jacobs Engineering confirms HydroFLOW I Range eliminated $4,000/month in anti-scalant chemical costs at the J.B. Messerly Water Pollution Control Plant in Augusta, Georgia — with an ROI under 8 months.',

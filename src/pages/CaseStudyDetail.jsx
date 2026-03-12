@@ -1328,6 +1328,32 @@ const caseStudyData = {
     pdfUrl: 'https://pdf.hydroflow-usa.com/HydroFLOW Product Evaluation - Dissolved Air Flotation (DAF).pdf'
   },
 
+  'third-party-verification-tulsa-southside': {
+    category: 'industrial',
+    title: 'Third Party Verification Report - Tulsa Southside WWTP',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/16924a78b_generated_image.png',
+    installer: 'HydroTech Solutions, Inc. (regional HydroFLOW USA representative)',
+    customer: 'Tulsa Southside Wastewater Treatment Plant, Tulsa, Oklahoma',
+    application: 'Belt filter presses — struvite scale control',
+    installedUnits: 'HydroFLOW I Range unit installed on the 6-inch diameter pump discharge pipe (ductile iron) feeding one of the Andritz BFPs, approximately 50 feet upstream of the BFP',
+    background: 'The Southside WWTP, one of four wastewater treatment plants serving Tulsa, is designed for 42 mgd and treats an average flow of 20 mgd. The plant had been battling struvite scale buildup on each of five belt filter presses. Scale removal was required frequently and was labor-intensive, entailing the use of high-pressure (3,500 psi) water to loosen and remove small pieces of scale at a time. The WWTP and HydroFLOW USA signed a memorandum of understanding to conduct a 90-day product evaluation. An independent third-party technology verification was conducted by Samuel Jeyanayagam, PhD, PE, WEF Fellow of CH2M.',
+    successFactors: [
+      'Prevent formation of new struvite scale on belt filter press drum surfaces',
+      'Soften existing struvite scale deposits to reduce labor-intensive cleaning',
+      'Validate effectiveness with independent third-party verification by PhD engineer and WEF Fellow',
+      'Demonstrate feasibility for plant-wide installation across all 5 belt filter presses'
+    ],
+    results: [
+      'The cleaned section of the drum showed no new scale formation during the entire 90-day test period.',
+      'Areas with heavy struvite encrustation at the start of the test had noticeably thinned by the end.',
+      'Some areas could be scraped to bare metal with a paint scraper — which was not possible before HydroFLOW.',
+      'Scale was removed in 3–4 inch diameter pieces using a power washer, far less labor-intensive than routine 3,500 psi high-pressure cleaning.',
+      'Based on the positive results, the Southside WWTP designated funding to purchase a large custom HydroFLOW unit to treat the common header feeding all 5 belt filter presses.',
+      'Verified by independent engineer: Samuel Jeyanayagam, PhD, PE, WEF Fellow / CH2M.'
+    ],
+    pdfUrl: 'https://Pdf.hydroflow-usa.com/HydroFLOW-industrial-third-party-verification-report-tulsa-southside-WWTP.pdf'
+  },
+
   'third-party-verification-augusta-georgia': {
     category: 'industrial',
     title: 'Third Party Verification Report - Augusta, Georgia',
