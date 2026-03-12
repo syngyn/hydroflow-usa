@@ -1,3 +1,5 @@
 Deno.serve(async (req) => {
-  return Response.redirect('https://pdf.hydroflow-usa.com/37191493846127.pdf', 301);
+  const url = new URL(req.url);
+  const filename = url.pathname.split('/').pop();
+  return Response.redirect(`https://pdf.hydroflow-usa.com/${filename}`, 301);
 });
