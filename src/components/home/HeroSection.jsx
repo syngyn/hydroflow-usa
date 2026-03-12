@@ -132,7 +132,7 @@ export default function HeroSection() {
              initial={{ opacity: 0, y: 30 }}
              animate={{ opacity: 1, y: 0 }}
              transition={{ duration: 0.8 }}
-             className="flex flex-col justify-center rounded-2xl p-6 md:p-8 bg-slate-900/60 backdrop-blur-sm"
+             className="flex flex-col justify-center rounded-2xl p-6 md:p-8"
            >
              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 md:mb-6">
                <span className="block">Advanced Water</span>
