@@ -106,7 +106,7 @@ export default function HeroSection() {
             backgroundRepeat: 'no-repeat',
             opacity: overlayOpacity,
             transition: 'opacity 0.6s ease-out',
-            zIndex: overlayInDom ? 40 : -1
+            zIndex: 1
           }}
         />
       )}
