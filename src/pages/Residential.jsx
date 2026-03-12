@@ -43,7 +43,6 @@ export default function Residential() {
     <div>
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
-         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/70" />
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
