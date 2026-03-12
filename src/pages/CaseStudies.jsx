@@ -839,7 +839,7 @@ const caseStudies = [
     title: 'Industrial Wastewater Treatment – Multi-Site Presentation',
     slug: 'industrial-wastewater-treatment-multi-site',
     description: 'A comprehensive overview of HydroFLOW\'s proven effectiveness across six municipal and industrial wastewater treatment plants, achieving struvite removal, polymer reduction, and improved dewatering performance without chemicals.',
-    image: 'https://pdf.hydroflow-usa.com/images/338663d5768bedf09c9ef025da4bb1f5384b34d38782a2c9179b3e8c19e91b89.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5c2ee3b85_image.png',
     results: ['25.1% reduction in polymer usage at Somersworth, NH WWTP', 'Scale reduced from 5mm to 2–3mm at Blue Plains Advanced WTP in Washington D.C.', 'Struvite cleaning interval multiplied from 2 weeks to over 4 weeks at Rockland County, NY', 'St. Paul, MN centrate line cleared of hard struvite deposits after 6 months'],
     pdfUrl: 'https://Pdf.hydroflow-usa.com/HydroFLOW-industrial-wastewater-presentation.pdf',
     application_type: ['Wastewater Treatment'],

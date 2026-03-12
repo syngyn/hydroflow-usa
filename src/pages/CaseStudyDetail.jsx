@@ -1331,7 +1331,7 @@ const caseStudyData = {
   'industrial-wastewater-treatment-multi-site': {
     category: 'industrial',
     title: 'Industrial Wastewater Treatment – Multi-Site Presentation',
-    image: 'https://pdf.hydroflow-usa.com/images/338663d5768bedf09c9ef025da4bb1f5384b34d38782a2c9179b3e8c19e91b89.jpg',
+    image: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/5c2ee3b85_image.png',
     installer: 'HydroFLOW USA',
     customer: 'Multiple municipal and industrial wastewater treatment facilities across the United States',
     application: 'Struvite scale control, polymer reduction, and dewatering optimization across belt presses, centrifuges, and centrate conveyance systems',
