@@ -422,48 +422,6 @@ export default function HydroKNCT() {
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-14"
-          >
-            <Badge className="bg-slate-200 text-slate-700 mb-4">FAQ</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900">Frequently Asked Questions</h2>
-          </motion.div>
-
-          <div className="space-y-3">
-            {faqs.map((faq, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.05 }}
-              >
-                <button
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full text-left bg-white rounded-2xl px-6 py-5 shadow-sm hover:shadow-md transition-shadow"
-                >
-                  <div className="flex items-center justify-between gap-4">
-                    <span className="font-semibold text-slate-900">{faq.q}</span>
-                    {openFaq === i
-                      ? <ChevronUp className="w-5 h-5 text-cyan-600 flex-shrink-0" />
-                      : <ChevronDown className="w-5 h-5 text-slate-400 flex-shrink-0" />
-                    }
-                  </div>
-                  {openFaq === i && (
-                    <p className="mt-4 text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: faq.a }} />
-                  )}
-                </button>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
