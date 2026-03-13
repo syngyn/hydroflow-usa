@@ -385,7 +385,7 @@ export default function HydroKNCT() {
                 color: 'cyan',
                 features: [
                   'Captures electronic signal output in real time',
-                  'Verifies HydroFLOW® unit is operating correctly',
+                  'Verifies \u200B\u200BHydroFLOW® unit is operating correctly',
                   'Detects signal drops and frequency anomalies',
                   'Generates proof-of-performance reports',
                 ],
