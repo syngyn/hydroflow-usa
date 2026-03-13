@@ -62,11 +62,11 @@ const steps = [
 const faqs = [
   {
     q: 'What is HydroKNCT?',
-    a: '<em>Hydro</em>KNCT is a dedicated Remote I/O Module built for water treatment system connectivity. It features a 6-way dry node connection, 4-way relay output, 4-way analog detection (4–20mA current loop), Modbus RTU/TCP, RS485 host/slave mode, support for cascading multiple devices, and a single serial data point for transmission — giving you a robust, flexible interface between your <em>Hydro</em>FLOW® units and your network.',
+    a: 'HydroKNCT is a dedicated Remote I/O Module built for water treatment system connectivity. It features a 6-way dry node connection, 4-way relay output, 4-way analog detection (4–20mA current loop), Modbus RTU/TCP, RS485 host/slave mode, support for cascading multiple devices, and a single serial data point for transmission — giving you a robust, flexible interface between your <em>Hydro</em>FLOW® units and your network.',
   },
   {
     q: 'What is Hydropath Care?',
-    a: 'Hydropath Care is a project management and monitoring platform available as a web app and mobile app on iOS and Android. It lets you register <em>Hydro</em>FLOW® unit installations, activate warranties from the date of install, and connect directly to <em>Hydro</em>KNCT devices — giving you a single central dashboard to manage your entire <em>Hydro</em>FLOW® network.',
+    a: 'Hydropath Care is a project management and monitoring platform available as a web app and mobile app on iOS and Android. It lets you register <em>Hydro</em>FLOW® unit installations, activate warranties from the date of install, and connect directly to HydroKNCT devices — giving you a single central dashboard to manage your entire <em>Hydro</em>FLOW® network.',
   },
   {
     q: 'What are the benefits of remote monitoring for water treatment systems?',
@@ -74,11 +74,11 @@ const faqs = [
   },
   {
     q: 'How does HydroKNCT connect to the internet?',
-    a: '<em>Hydro</em>KNCT connects to your local network via a standard RJ45 (Ethernet) connector.',
+    a: 'HydroKNCT connects to your local network via a standard RJ45 (Ethernet) connector.',
   },
   {
     q: 'How do HydroKNCT and Hydropath Care work together?',
-    a: '<em>Hydro</em>KNCT is the hardware (Remote I/O Module) that enables data collection and connectivity. Hydropath Care is the software platform that uses this data for monitoring, performance tracking, and alerts. Together, they create a complete remote management solution — allowing operators to maintain visibility across multiple installations and reduce routine site visits.',
+    a: 'HydroKNCT is the hardware (Remote I/O Module) that enables data collection and connectivity. Hydropath Care is the software platform that uses this data for monitoring, performance tracking, and alerts. Together, they create a complete remote management solution — allowing operators to maintain visibility across multiple installations and reduce routine site visits.',
   },
 ];
 
@@ -109,7 +109,7 @@ export default function HydroKNCT() {
                 Installation
               </h1>
               <p className="text-lg text-slate-300 mb-4">
-                <strong className="text-white"><em>Hydro</em>KNCT</strong> connects your <em>Hydro</em>FLOW® units and sensors to{' '}
+                <strong className="text-white">HydroKNCT</strong> connects your <em>Hydro</em>FLOW® units and sensors to{' '}
                 <strong className="text-white">Hydropath Care</strong> — a cloud platform delivering real-time signal performance,
                 temperature monitoring, and power status across your entire installation network.
               </p>
@@ -316,12 +316,12 @@ export default function HydroKNCT() {
             >
               <Badge className="bg-slate-200 text-slate-700 mb-4">Hardware</Badge>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-5">
-                <em>Hydro</em>KNCT: The Remote I/O Module
+                HydroKNCT: The Remote I/O Module
               </h2>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                The <em>Hydro</em>KNCT is designed to seamlessly integrate <em>Hydro</em>FLOW® units into the internet via LAN —
+                The HydroKNCT is designed to seamlessly integrate <em>Hydro</em>FLOW® units into the internet via LAN —
                 offering a cost-effective, flexible, and globally compatible solution. It supports analog, digital, and Modbus RTU/TCP connectivity,
-                enabling a wide range of sensors to plug into the <em>Hydro</em>KNCT ecosystem.
+                enabling a wide range of sensors to plug into the HydroKNCT ecosystem.
               </p>
               <div className="space-y-4">
                 {[
@@ -362,7 +362,7 @@ export default function HydroKNCT() {
               See What Your System Is Telling You
             </h2>
             <p className="text-slate-600 max-w-xl mx-auto">
-              Extend your <em>Hydro</em>KNCT setup with purpose-built sensors for deeper performance insights.
+              Extend your HydroKNCT setup with purpose-built sensors for deeper performance insights.
             </p>
           </motion.div>
 
@@ -477,7 +477,7 @@ export default function HydroKNCT() {
               Get Proof That Your System Is Working
             </h2>
             <p className="text-slate-300 text-lg mb-8 max-w-2xl mx-auto">
-              Deploy <em>Hydro</em>KNCT today and gain instant visibility into every <em>Hydro</em>FLOW® installation.
+              Deploy HydroKNCT today and gain instant visibility into every <em>Hydro</em>FLOW® installation.
               Real-time data, instant alerts, and performance proof — all in one platform.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
