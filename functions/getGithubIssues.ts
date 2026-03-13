@@ -5,7 +5,7 @@ Deno.serve(async (req) => {
     const base44 = createClientFromRequest(req);
     const { accessToken } = await base44.asServiceRole.connectors.getConnection("github");
 
-    const response = await fetch("https://api.github.com/repos/syngyn/base44/issues?state=open&per_page=50", {
+    const response = await fetch("https://api.github.com/repos/syngyn/replit/issues?state=open&per_page=50", {
       headers: {
         Authorization: `Bearer ${accessToken}`,
         Accept: "application/vnd.github+json",

@@ -32,7 +32,7 @@ export default function SupportIssues() {
         <div>
           <h1 className="text-3xl font-bold text-gray-900"><em>Hydro</em>FLOW Technical Support</h1>
           <p className="text-gray-500 mt-1">
-            Open issues from <span className="font-mono text-sm">syngyn/base44</span>
+            Open issues from <span className="font-mono text-sm">syngyn/replit</span>
           </p>
         </div>
         <Button variant="outline" onClick={fetchIssues} disabled={loading} className="gap-2">
