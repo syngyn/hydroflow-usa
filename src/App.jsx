@@ -64,6 +64,7 @@ const AuthenticatedApp = () => {
         />
       ))}
       <Route path="/HydroKNCT" element={<LayoutWrapper currentPageName="HydroKNCT"><HydroKNCT /></LayoutWrapper>} />
+      <Route path="/SupportIssues" element={<LayoutWrapper currentPageName="SupportIssues"><SupportIssues /></LayoutWrapper>} />
       <Route path="/assets/files/*" element={<AssetsFilesRedirect />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
