@@ -132,7 +132,7 @@ export default function HydroKNCT() {
                 <img
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0018dd8de_HydroKNCT-monitoring-device.png"
                   alt="HydroKNCT monitoring device"
-                  className="w-full rounded-2xl object-contain bg-white p-4 h-64"
+                  className="w-full rounded-2xl object-contain h-[460px]"
                 />
                 <div className="mt-6 grid grid-cols-2 gap-3">
                   {stats.map((s, i) => {
