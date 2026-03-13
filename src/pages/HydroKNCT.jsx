@@ -303,9 +303,9 @@ export default function HydroKNCT() {
               className="order-2 lg:order-1"
             >
               <img
-                src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
-                alt="HydroKNCT hardware device"
-                className="w-full rounded-3xl shadow-2xl object-cover h-80"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/32c1e6c83_ProductRange2025standardunitsv3694.png"
+                alt="HydroFLOW i100 unit"
+                className="w-full rounded-3xl object-contain"
               />
             </motion.div>
             <motion.div
