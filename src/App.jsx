@@ -1,5 +1,6 @@
 import './App.css'
 import HydroKNCT from './pages/HydroKNCT';
+import SupportIssues from './pages/SupportIssues';
 import { Toaster } from "@/components/ui/toaster"
 import { QueryClientProvider } from '@tanstack/react-query'
 import { queryClientInstance } from '@/lib/query-client'
