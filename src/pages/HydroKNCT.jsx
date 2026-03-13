@@ -227,7 +227,7 @@ export default function HydroKNCT() {
                 <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-6 h-full text-white">
                   <div className="text-5xl font-black text-cyan-400 mb-3">{s.step}</div>
                   <h3 className="text-lg font-bold mb-3">{s.title}</h3>
-                  <p className="text-slate-400 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: s.desc }} />
+                  <p className="text-slate-300 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: s.desc }} />
                 </div>
                 {i < steps.length - 1 && (
                   <div className="hidden lg:flex absolute top-1/2 -right-3 z-10 w-6 h-6 bg-cyan-500 rounded-full items-center justify-center">
