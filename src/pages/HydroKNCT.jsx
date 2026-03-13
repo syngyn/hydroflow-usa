@@ -130,9 +130,9 @@ export default function HydroKNCT() {
             >
               <div className="bg-slate-800/60 backdrop-blur border border-slate-700 rounded-3xl p-8">
                 <img
-                  src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80"
-                  alt="Remote monitoring dashboard"
-                  className="w-full rounded-2xl object-cover h-64"
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/0018dd8de_HydroKNCT-monitoring-device.png"
+                  alt="HydroKNCT monitoring device"
+                  className="w-full rounded-2xl object-contain bg-white p-4 h-64"
                 />
                 <div className="mt-6 grid grid-cols-2 gap-3">
                   {stats.map((s, i) => {
