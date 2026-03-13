@@ -456,7 +456,7 @@ export default function HydroKNCT() {
                     }
                   </div>
                   {openFaq === i && (
-                    <p className="mt-4 text-slate-600 leading-relaxed">{faq.a}</p>
+                    <p className="mt-4 text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: faq.a }} />
                   )}
                 </button>
               </motion.div>
