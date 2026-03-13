@@ -287,9 +287,9 @@ export default function HydroKNCT() {
               viewport={{ once: true }}
             >
               <img
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c24ab0e9b_dashboard.png"
                 alt="Hydropath Care dashboard"
-                className="w-full rounded-3xl shadow-2xl object-cover h-80"
+                className="w-full rounded-3xl shadow-2xl object-contain"
               />
             </motion.div>
           </div>
