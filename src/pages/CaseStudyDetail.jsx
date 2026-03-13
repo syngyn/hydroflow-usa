@@ -301,7 +301,7 @@ const caseStudyData = {
   'hydroflow-reduces-algae-growth': {
     category: 'agriculture',
     title: 'HydroFLOW Reduces Algae Growth',
-    image: 'https://pdf.hydroflow-usa.com/19501495124745.jpg',
+    image: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/19501495124745.jpg',
     installer: 'HydroFLOW West',
     customer: 'Vineyard in California',
     application: 'Irrigation ponds',
