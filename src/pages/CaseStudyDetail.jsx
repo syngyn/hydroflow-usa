@@ -187,7 +187,7 @@ const caseStudyData = {
       'The water feature in our main entry area is much easier to maintain because of the performance of HydroFLOW.',
       'Not only does it deal with lime-scale accumulation, it also kills any bacteria that are often found in open loop water features.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/49731493848513.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/49731493848513.pdf'
   },
   'bakery-steam-boilers': {
     category: 'commercial',
@@ -201,7 +201,7 @@ const caseStudyData = {
       'Extended equipment lifespan and improved efficiency.',
       'Reduced maintenance costs and downtime.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/wp-content/uploads/2023/11/bakery-steam-boilers.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/bakery-steam-boilers.pdf'
   },
   'water-bath-cooling-system-plastics': {
     category: 'industrial',
@@ -739,7 +739,7 @@ const caseStudyData = {
       'Previously clogged showerheads and faucet aerators have minimal debris.',
       'Twelve months after installation, the estimated return on investment (ROI) is well under a year.'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/14241698879790.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/14241698879790.pdf'
   },
   'office-building-cooling-towers-in-us-southeast': {
     category: 'commercial',
@@ -1217,7 +1217,7 @@ const caseStudyData = {
       'Scale-free passages maintained — no clogging from limescale buildup.',
       '"It clearly demonstrated that this method of water treatment greatly reduces maintenance costs, equipment damage and chemical usage."'
     ],
-    pdfUrl: 'https://hydroflow-usa.com/assets/files/27281493847919.pdf'
+    pdfUrl: 'https://pdf.hydroflow-usa.com/27281493847919.pdf'
   },
 
   'aquavet-clinical-evaluation-phase-2': {
