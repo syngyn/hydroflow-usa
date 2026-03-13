@@ -410,7 +410,7 @@ export default function HydroKNCT() {
                       {sensor.features.map((f, j) => (
                         <li key={j} className="flex items-start gap-3 text-slate-600">
                           <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
-                          {f}
+                          <span dangerouslySetInnerHTML={{ __html: f }} />
                         </li>
                       ))}
                     </ul>
