@@ -84,7 +84,7 @@ export default function HeroSection() {
       setOverlayOpacity(0);
       // After fade transition (600ms), remove from DOM entirely
       setTimeout(() => setOverlayInDom(false), 600);
-    }, 2500);
+    }, 3500);
 
     return () => clearTimeout(fadeTimer);
   }, []);
