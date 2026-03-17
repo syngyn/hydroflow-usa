@@ -287,7 +287,7 @@ export default function HydroKNCT() {
               viewport={{ once: true }}
             >
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6933444aa399ff1da59bbd5c/c24ab0e9b_dashboard.png"
+                src="https://media.base44.com/images/public/6933444aa399ff1da59bbd5c/330f1d628_image.png"
                 alt="Hydropath Care dashboard"
                 className="w-full rounded-3xl shadow-2xl object-contain"
               />
