@@ -1,0 +1,125 @@
+{
+  "name": "CaseStudy",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the case study"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly slug for the case study"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "residential",
+        "commercial",
+        "industrial",
+        "agriculture",
+        "marine"
+      ],
+      "description": "Industry category"
+    },
+    "application_type": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Cooling Towers",
+          "Boilers",
+          "HVAC Systems",
+          "Water Heaters",
+          "Swimming Pools",
+          "Irrigation",
+          "Food Processing",
+          "Wastewater Treatment",
+          "Heat Exchangers",
+          "Ice Machines",
+          "Dishwashers",
+          "Marine Systems",
+          "Steam Systems",
+          "Chillers",
+          "Wells",
+          "Greenhouses",
+          "Aquaculture",
+          "Car Wash",
+          "Golf Course",
+          "Other"
+        ]
+      },
+      "description": "Types of applications covered in the case study"
+    },
+    "products_used": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Pearl",
+          "Pearl Plus",
+          "HS40",
+          "I Range",
+          "HM Range"
+        ]
+      },
+      "description": "HydroFLOW products used in this case study"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the case study"
+    },
+    "image": {
+      "type": "string",
+      "description": "Main image URL"
+    },
+    "customer": {
+      "type": "string",
+      "description": "Customer name or description"
+    },
+    "installer": {
+      "type": "string",
+      "description": "Installer/partner name"
+    },
+    "application": {
+      "type": "string",
+      "description": "Detailed application description"
+    },
+    "installed_units": {
+      "type": "string",
+      "description": "Description of installed units"
+    },
+    "background": {
+      "type": "string",
+      "description": "Background information"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of results achieved"
+    },
+    "success_factors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Key success factors"
+    },
+    "pdf_url": {
+      "type": "string",
+      "description": "Link to full PDF report"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Mark as featured case study"
+    }
+  },
+  "required": [
+    "title",
+    "slug",
+    "category",
+    "description"
+  ]
+}

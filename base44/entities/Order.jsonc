@@ -1,0 +1,95 @@
+{
+  "name": "Order",
+  "type": "object",
+  "properties": {
+    "stripe_session_id": {
+      "type": "string",
+      "description": "Stripe checkout session ID"
+    },
+    "stripe_payment_status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "paid",
+        "failed",
+        "canceled"
+      ],
+      "default": "pending",
+      "description": "Payment status from Stripe"
+    },
+    "customer_name": {
+      "type": "string",
+      "description": "Customer full name"
+    },
+    "customer_email": {
+      "type": "string",
+      "description": "Customer email address"
+    },
+    "customer_phone": {
+      "type": "string",
+      "description": "Customer phone number"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "Order items with product details"
+    },
+    "subtotal": {
+      "type": "number",
+      "description": "Order subtotal before shipping and tax"
+    },
+    "shipping_cost": {
+      "type": "number",
+      "description": "Shipping cost"
+    },
+    "tax_amount": {
+      "type": "number",
+      "description": "Tax amount"
+    },
+    "discount_amount": {
+      "type": "number",
+      "description": "Discount amount from coupon",
+      "default": 0
+    },
+    "coupon_code": {
+      "type": "string",
+      "description": "Applied coupon code"
+    },
+    "total_amount": {
+      "type": "number",
+      "description": "Total order amount"
+    },
+    "billing_address": {
+      "type": "object",
+      "description": "Billing address details from Stripe"
+    },
+    "shipping_address": {
+      "type": "object",
+      "description": "Shipping address details"
+    },
+    "shipping_state": {
+      "type": "string",
+      "description": "Shipping state code"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "processing",
+        "shipped",
+        "delivered",
+        "canceled",
+        "failed"
+      ],
+      "default": "pending",
+      "description": "Order fulfillment status"
+    }
+  },
+  "required": [
+    "stripe_session_id",
+    "customer_email",
+    "total_amount"
+  ]
+}
